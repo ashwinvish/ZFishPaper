@@ -1,0 +1,123 @@
+* introduction
+** a promising approach for relating physiology and anatomy of neural circuits
+*** two-photon calcium imaging
+*** serial electron microscopy
+** relation
+*** mouse retina  Briggman et al. (2011)
+*** mouse V1  Bock et al. (2011)
+*** invertebrate
+**** C. elegans
+**** Drosophila
+***** visual system
+** first application of this approach to population of neurons defined by relating their information encoding to behavioral variables
+*** behavior: spontaneous eye movements in larval zebrafish
+*** population of premotor neurons in hindbrain that carry an eye position signal
+*** "velocity-to-position neural integrator"
+*** "integrator neurons"
+** why is this circuit interesting?
+*** involved in sensorimotor behaviors like OKR and VOR
+*** integration with respect to time
+*** reflex arc can't explain persistent activity
+*** class of models invokes recurrent synaptic connectivity
+* methods 
+* results
+** identification and reconstruction of 22 integrator neurons
+*** data collection
+**** calcium imaging
+**** serial section EM
+*** data analysis
+**** correlation of eye position with fluorescence
+**** reconstruction
+** anatomical properties common to all cells
+*** morphology
+**** soma size
+**** total neurite length
+***** caveat about some neurites being cut off
+***** comparison with LM numbers in supp fig xx
+**** how many neurites emerging from soma?
+**** etc
+*** chemical synapses
+**** presynaptic vesicles
+***** small vesicles
+***** no dense core vesicles
+**** postsynaptic densities
+***** any visual description?
+*** axons
+**** defined by existence of presynaptic vesicles
+**** does not emerge directly from soma
+**** bouton clustering
+**** ipsilateral (this is all we could observe)
+**** main trunk
+***** rostrocaudal orientation
+***** tilt
+**** mediolateral branches from main trunk
+***** branches near abducens
+***** local collaterals
+*** dendrites
+**** defined by absence of presynaptic vesicles and presence of postsynaptic densities
+**** mostly mediolateral 
+**** aspiny
+**** arbor volume
+***** convex hull
+*** caliber of neurites
+**** axons are typically thinner than dendrites
+**** main cue for light microscopic distinctions
+**** but there is possibility of confusion 
+*** short stubby neurite
+*** putative axons
+**** neurite that crosses midline such that
+***** small diameter
+***** engulfed by glia
+***** bare of both pre- and postsynaptic sites
+**** infer that these are contralaterally-projecting axons
+*** possible electrical synapses
+**** on soma
+**** can't tell for sure
+** groups based on axonal projection patterns
+*** group1: ipsilateral
+*** group2: ipsi + contra
+*** group3: contralateral
+*** group4: no axon found
+*** group1,2 have larger dendritic fields and more postsynaptic sites than group3,4
+** spatial organization of somata
+*** analysis of all soma locations
+*** existence of "stripes" alternating with neuropil
+*** locations of groups relative to stripes
+*** inference of neurotransmitter identity
+** existence of synaptic connections between integrator neurons
+*** same class
+*** different classes
+** potential synapse analysis
+** figure out where to put number of synapses
+
+
+* sensorimotor (visually guided) behaviors
+** escape response
+** optomotor response
+** optokinetic reflex
+** looming response
+* neural circuit basis: reflex arc
+** light microscopic physiology
+** light microscopic anatomy
+* what about local circuits and recurrent connections?
+** motivation
+*** intrinsic state
+*** state-dependent responses to sensory input
+*** e.g. VOR is called reflex but has state-dependence
+** technical difficulty
+
+* text
+A promising approach for relating physiology and anatomy of neural circuits is to perform two-photon calcium imaging of neural activity in the living brain, followed by serial electron microscopy of the same brain.  This has been carried out successfully for the mouse retina (Briggman et al. 2011) and primary visual cortex (Bock et al. 2011).  Here we report the  application of this approach to a population of neurons defined by their encoding of behavioral variables. 
+
+We studied the population of premotor neurons defined by their encoding of eye position, which make up the neural circuit known as the "velocity-to-position neural integrator" or "neural integrator" for short (cite).  In  vertebrate species such as teleost fish (cite), rodents (cite), and non-human primates (cite), and humans (cite), the integrator circuit is the "final common pathway" for all types of eye movements, including the optokinetic and vestibuloocular reflex.  It performs the computational operation of integration with respect to time.  The mechanisms behind temporal integration remain unclear even after decades of research (cite).  Many hypotheses and models have been proposed, and a number of them invoke circuit mechanisms.
+
+Integrator neurons were identified in the hindbrain of the larval zebrafish using two-photon calcium imaging while recording eye position during spontaneous movements. The same region of the hindbrain was then imaged via serial section electron microscopy.
+
+Analysis of the calcium data identified 22 neurons with activities that were highly correlated with eye position.  The same neurons were located in the serial EM dataset, and their neurites were completely reconstructed within the confines of the imaged volume. All xxx presynaptic and yyy postsynaptic sites were identified.
+
+findings
+
+implications of local circuits
+the reflex arc, the most familiar circuit concept in sensorimotor behavior.   (do we need such theoretical/conceptual motivation?)
+
+
