@@ -119,8 +119,127 @@ e time constants.
 
 \begin_layout Section
 Introduction
-\change_inserted 78966105 1458769159
+\change_inserted 78966105 1458926156
 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458926157
+A promising approach for relating physiology and anatomy of neural circuits
+ is to perform two-photon calcium imaging of neural activity in the living
+ brain, followed by serial electron microscopy of the same brain.
+ This has been carried out successfully for the mouse retina (Briggman et
+ al.
+ 2011) and primary visual cortex (Bock et al.
+ 2011).
+ Here we report the application of this approach to a population of neurons
+ defined by their encoding of behavioral variables.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458926157
+We studied the population of premotor neurons defined by their encoding
+ of eye position.
+ This population makes up the neural circuit known as the "velocity-to-position
+ neural integrator," or "neural integrator" for short (cite).
+ In fish (cite), rodents (cite), non-human primates (cite), and humans (cite),
+ the neural integrator is the "final common pathway" for all types of eye
+ movements.
+ This neural circuit performs the computational operation of integration
+ with respect to time.
+ The mechanisms supporting temporal integration remain unclear even after
+ decades of research (cite).
+ Many hypotheses and models have been proposed, and a number of them invoke
+ circuit mechanisms (cite).
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458926157
+Integrator neurons were identified in the hindbrain of the larval zebrafish
+ using two-photon calcium imaging while recording spontaneous eye movements.
+ The same region of the hindbrain was then imaged via serial section electron
+ microscopy (EM).
+ Analysis of the calcium data identified 22 integrator neurons, defined
+ by neural activities that were highly correlated with eye position.
+ The same neurons were located in the EM dataset, and their neurites were
+ completely reconstructed within the confines of the imaged volume.
+ For comparison, a total of 3004 cell bodies were identified in the imaged
+ volume, and an estimated 100 integrator neurons in total exist on each
+ side of the hindbrain (cite).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458926157
+We found 6 integrator neurons with ipsilateral axonal projections, and 8
+ with contralateral projections, consistent with previous light microscopic
+ studies.
+ Two integrator neurons had axonal arbors that were both ipsilateral and
+ contralateral, which has not been previously reported.
+ For 6 integrator neurons, an axon could not be identified, presumably because
+ it was cut off by the boundary of the imaged volume.
+ [description of soma and dendrites will come later] 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458926157
+The neuronal cell bodies in this region are organized into 
+\begin_inset Quotes eld
+\end_inset
+
+stripes,
+\begin_inset Quotes erd
+\end_inset
+
+ and previous studies have shown that cell body location relative to these
+ stripes is correlated with neurotransmitter identity.
+ On this basis, we inferred that integrator neurons with ipsilaterally projectin
+g axons are glutamatergic, and those with contralaterally projecting axons
+ are GABAergic.
+ Those with ipsilateral and contralateral projections are glutamatergic.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458926157
+We identified chemical synapses in our images by the existence of presynaptic
+ vesicles and postsynaptic densities.
+ All chemical synapses involving integrator neurons contained small vesicles,
+ suggesting the presence of conventional rather than peptidergic neurotransmitte
+rs.
+ Dense core vesicles were found at other synapses in the same region.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458926157
+We found a total of 406 presynaptic and 2229 postsynaptic sites in integrator
+ neurons.
+ The presynaptic sites were almost all on local axon collaterals, as long-range
+ projections to the extraocular motor nuclei were mostly cut off by the
+ boundaries of the volume.
+ Assuming that these numbers are typical for hindbrain neurons, we can estimate
+ that 406/2229 = 18% of all synapses arise from local circuitry.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458926157
+We found one example of an ipsilaterally-projecting integrator neuron that
+ made two synapses onto another ipsilaterally-projecting integrator neuron.
+ The same source neuron also synapsed onto two contralaterally-projecting
+ integrator neurons.
+ This provides the first evidence that integrator neurons make synapses
+ onto each other.
+ The existence of recurrent synapses between integrator neurons has long
+ been hypothesized by many computational models of the neural integrator.
+ 
 \end_layout
 
 \begin_layout Standard
