@@ -1,0 +1,2538 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans helvet
+\font_typewriter default
+\font_math auto
+\font_default_family sfdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes true
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Zfish Paper 1
+\end_layout
+
+\begin_layout Author
+Ashwin, Kayvon, Alex, Emre and Sebastian
+\end_layout
+
+\begin_layout Abstract
+For the eyes to remain still between saccades, there exists cells in the
+ hindbrain that fire in a persistent manner for the duration of the gaze.
+ These cells perform the task of integration, in that their inputs are eye
+ velocity signals and their output is eye position signals.
+ How these cells perform this task is the focus of the study.
+ To study this circuit we used two-photon microscopy in combination with
+ serial electron microscopy to map the function of velocity-to-position-integrat
+or (VPNI) neurons in the hindbrain of larval zebrafish onto the ultrastructure
+ of the same neurons.
+ Hindbrain neurons of larval zebrafish were imaged while the animal made
+ spontaneous saccades.
+ The same neurons were then identified and reconstructed at the ultrastructure
+ level.
+ Our reconstructions revealed VPNI cells with varied dendritic morphologies,
+ axonal projections and synaptic distributions, over a large range of persistenc
+e time constants.
+ We observed that cells located rostrally had ipsilaterally projecting axons
+ while cells that were caudal had contralaterally projecting axons.
+ We also observe, the first evidence of synapses among integrator neurons,
+ specifically from the ipsilaterally projecting cells onto other ipsilateral
+ cells and from ipsilaterally projecting cells onto contralateral cells.
+ The axons of these cells tend to have 'clustered` presynaptic sites onto
+ dendrites from different cells.
+ The neurotransmitter identity of these VPNI cells can be inferred by somatic
+ locations of cells that are known to follow a stereotypic expression pattern
+ in larval zebrafish.
+ Based on this, we speculate that cells with ipsilaterally projecting axons
+ were largely excitatory, where as cells with contralaterally projecting
+ axons were inhibitory.
+ Together, these observations are beginning to reveal the structure of the
+ circuit that can support neural integration in the larval zebrafish.
+ 
+\end_layout
+
+\begin_layout Section
+Introduction
+\change_inserted 78966105 1458769159
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458833007
+To understand the specific roles of neurons in these behavior, we could
+ benefit form as many tools as are available to 'break' the circuit apart.
+ In this regard, again, the larval zebrafish is ideally suited for circuit
+ based neuroscience (refs).
+ It offers the convenience of powerful genetic tools, well stocked mutant
+ libraries and more importantly for circuit neuroscience, the transparent
+ brain of the larval zebrafish, coupled with genetic calcium based reporters
+ and light-sheet microscopy, has allowed unprecedented ability to image
+ from the whole brain (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ahrens:2012ej,Ahrens:2015gv,Friedrich:2010hj"
+
+\end_inset
+
+).
+ Although the activity of neurons during such tasks is typically distributed
+ over multiple brain areas, it is known to be conserved from animal to animal
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Portugues:2014fn"
+
+\end_inset
+
+).
+ In the larval zebrafish, the combination of two-photon imaging, coupled
+ with expression of genetically encoded calcium sensors have been able to
+ identify neurons that are responsible for OKR (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Portugues:2014fn"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kubo:2014bo"
+
+\end_inset
+
+), VOR ( Saveri et al.), OMR ( Orger et.
+ al.,) and other visuomotor behaviors.
+ Similarly, other approaches, using powerful genetic approaches have been
+ able to indetify cells that are responsible in the spinal chord or locomotor
+ behaviors (Fetcho papers, Wyrat papers).
+ 
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458769791
+Recent advances in high-throughput electron microscopy now allows us to
+ integrate detailed anatomical features from physiologically recorded cells
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Briggman:2011ct,Helmstaedter:2013iv,Takemura:2013ea"
+
+\end_inset
+
+.).
+ For example in the Drosophila larva, such techniques have allowed for the
+ discovery of complex architectures that allow for the convergence of multiple
+ inputs from multiple sensory modalities (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ohyama:2015kb"
+
+\end_inset
+
+).
+ Similarly, a novel circuit for locomotion, consisting of alternating excitatory
+ and inhibitory neurons was show to be responsible for larvae locomotion
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Fushiki:2016ji"
+
+\end_inset
+
+).
+ These studies also, highlight the the fact that some of these fundamental
+ sensory transformations are likely conserved across invertebrates and vertebrat
+es (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "borst_common_2015"
+
+\end_inset
+
+).
+ 
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+Neural circuits transform activity and produce activity that is either sent
+ to higher brain areas or to muscles to elicit behavior.
+ A very simplistic example of this idea is that of the reflex arc, where
+ sensory information is relayed to motor neurons in the spinal chord, in
+ order to elicit a reflex.
+ More complex behaviors, transform the incoming activity to produce a different/
+unique output.
+ This transformation presumably involves the integration of signals form
+ multiple neurons, to produce a suitable output.
+ For example a 5 day old larval zebrafish can perform multiple sensory motor
+ integrating tasks like tracking of prey and predator avoidance.
+ In such behaviors, multiple sensory inputs converge on different brain
+ areas, these signals are then transformed to infer motion of prey, or predator
+ and elicit a behavior to swim towards or away.
+\change_inserted 78966105 1458769077
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458769140
+Here we combined functional calcium imaging along with serial-section electron
+ microscopy in the larval zebrafish hindbrain.
+ We looked at a circuit that is responsible for the stabilization of the
+ eye during periods of eye-fixation.
+ 
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1458769031
+To understand the specific roles of neurons in these behavior,  we could
+ benefit form as many tools as are available to 'break' the circuit apart.
+ In this regard, again, the larval zebrafish is ideally suitedfor circuit
+ based neuroscience (refs).
+ It offers the convenience of powerful genetic tools, well stocked mutant
+ libraries and more importantly for circuit neuroscience, the transparent
+ brain of the larval zebrafish, coupled with genetic calcium based reporters
+ and light-sheet microscopy, has allowed unprecedented ability to image
+ from the whole brain (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ahrens:2012ej,Ahrens:2015gv,Friedrich:2010hj"
+
+\end_inset
+
+).
+ Although the activity of neurons during such tasks is typically distributed
+ over multiple brain areas, it is known to be conserved from animal to animal
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Portugues:2014fn"
+
+\end_inset
+
+).Recent advances in high-throughput electron microscopy now allows us to
+ integrate detailed anatomical features from physiologically recorded cells
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Briggman:2011ct,Helmstaedter:2013iv,Takemura:2013ea"
+
+\end_inset
+
+.).
+
+\change_unchanged
+ 
+\change_deleted 78966105 1458769138
+In the Drosophila larva, such techniques have allowed for the discovery
+ of complex architectures that allow for the convergence of multiple inputs
+ from multiple sensory modalities (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ohyama:2015kb"
+
+\end_inset
+
+).
+ Similarly, a novel circuit for locomotion, consisting of alternating excitatory
+ and inhibitory neurons was show to be responsible for larvae locomotion
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Fushiki:2016ji"
+
+\end_inset
+
+).
+ These studies also, highlight the the fact that some of these fundamental
+ sensory transformations are likely conserved across invertebrates and vertebrat
+es (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "borst_common_2015"
+
+\end_inset
+
+).
+ 
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1458769074
+Here we combined functional calcium imaging along with serial-section electron
+ microscopy in the larval zebrafish hindbrain.
+ We looked at a circuit that is responsible for the stabilization of the
+ eye during periods of eye-fixation.
+
+\change_unchanged
+ Spontaneous saccadic eye-movements are typically followed by short periods
+ of eye-fixation for a few seconds.
+ During these fixations, the motor neurons that innervate the eye muscles,
+ receive a tonic input from a subset of neurons in the hindbrain (cite).
+ This subset of neurons are responsible for transforming the incoming eye-veloci
+ty signals from
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ saccadic neurons, to eye-position signals.
+ This transformation, from velocity to position, suggests that these neurons
+ are performing temporal integration.
+ These cells are therefore referred to as velocity-to-position neural integrator
+ cells (VPNI).
+ Similar neurons have been shown to exist in the goldfish area1 (cite) and
+ in the non-human primate (cite).
+ In the goldfish brain stem, eye-position sensitive cells were seen to be
+ have similar morphologies, with ipsilaterally projecting cells having large
+ dendritic fields with axons that gave rise to collaterals and contralateral
+ projecting cells what did not have any ipsilateral projections and smaller
+ dendritic fields (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2000cn"
+
+\end_inset
+
+).
+ The emergence of axonal collaterals on the same side as other position
+ sensitive cells, suggests the possibility of local feedback loops that
+ might drive this persistent activity.
+ Supporting this evidence was also evidence that shows that pairs of neurons
+ on the same side have highly correlated activity, both in fish (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2003un"
+
+\end_inset
+
+) and in monkeys (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Dale:2015hh"
+
+\end_inset
+
+).
+ Neurons that are clustered together, tend to have similar decay times,
+ correlate similarly with eye-position and velocity and have high pairwise
+ correlations (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Miri:2011ib"
+
+\end_inset
+
+).
+ Here we also show that neurons that are clustered together also have similar
+ anatomy and axonal projection patterns.
+\end_layout
+
+\begin_layout Standard
+How these cells perform this transformation
+\size tiny
+t
+\size default
+, in the absence of any inputs is unknown.
+ A simplistic model, where the neurons are connected to each other recurrently,
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ to form a 'loop' can explain such activity, in the absence of inputs.However,
+ more basic questions regarding the nature of cells in this circuit are
+ yet to be answered.
+ Are there and what are the different types of cells in this circuit.
+ What fraction of these cells are excitatory and what fraction are inhibitory.
+ And more fundamentally, are these cells functionally connected to each
+ other.
+ Indirect evidence suggests that these cells are synaptically connected
+ to each other (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2003un"
+
+\end_inset
+
+), however, to date there has been no direct evidence that shows that these
+ cells are synaptically connected to each other.
+\end_layout
+
+\begin_layout Section
+Materials and Methods
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Optical imaging
+\bar default
+.
+ The optical imaging was performed using a custom
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ two photon microscope.
+ Larval zebrafish that were 5-6 dpf were injected with calcium sensitive
+ dye OGB by gently removing skin over the hindbrain and using a patch pipette
+ for iontophoresis.
+ The next day the animals were imaged on a 2photon microscope (wavelength).
+ The animal was immobilized in low melting agar and was positioned to view
+ a monitor with light gratings.
+
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ The hindbrain of the animal was imaged at ( wavelength) at predefined plane
+ at (speed Hz).
+ Following functional imaging, the animal was then imaged on the same setup
+ for anatomical imaging.
+ Briefly, a stack was acquired over the same imaging window, with optical
+ sections every 1.3 µm, and with a lateral resolution of 0.5 µm.
+ Once this was performed, the animal was anesthetized and the skin over
+ the hindbrain was removed, to facilitate penetration of the fixative, and
+ the animal was immersed in fixative to preserve the ultrastructure.
+ We found that the removal of the skin over the hindbrain was important
+ for good ultrastructure preservation and for even staining of the tissue.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Electron microscopy
+\bar default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The optically imaged animals were immersed in a fixative of 1% paraformaldehyde
+ and 1% glutaraldehyde buffered in 0.1M Cacodylate buffer for 24 hrs.
+ Following which they were throughly washed in 0.1M Cacodylate buffer before
+ staining.
+ The tissue was stained using a conventional ROTO procedure (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Tapia:2012hs"
+
+\end_inset
+
+).
+ Following staining, the tissue was infiltrated with an EPON based resin
+ for 24 hrs and baked for 48 hrs at 60C.
+ The EPON based resin was tailored to be a low viscosity resin to help with
+ better infiltration for this tissue.
+ Following hardening, the tissue block face was coarsely trimmed and a rectangul
+ar mesa was defined for serial sectioning.
+ Serial sections from the above animal were collected from the level of
+ the Mauthner cell at a thickness of 45nm.
+ The serial sections were collected similar to a method described here (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hayworth_imaging_2014"
+
+\end_inset
+
+).
+ The serial sections were then adhered to a silicon wafer and imaged in
+ a Zeiss field emitting scanning electron microscope using a custom software
+ interface to collected the images (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hayworth_imaging_2014"
+
+\end_inset
+
+).
+ The imaged volume was 220x112x57 µm^3.
+ The images were montaged and aligned using the TrakEM2 plugin in Fiji(
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Cardona:2012kf"
+
+\end_inset
+
+).
+ briefly, images were imported into the TrakEM2 framework and montaged,
+ first, using affine transforms, followed by elastic transforms.
+ The images were then registered using a similar approach, where the first
+ pass was performed using affine transforms, followed by elastic transforms.
+ All the alignment was performed on a machine with32 cores and 120GB ram.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Registration of 2P volume onto EM volume using TrakEM2
+\end_layout
+
+\begin_layout Standard
+We first ID’ed potential VPNI cells from the LM dataset using methods that
+ were previously described (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Miri:2011ft"
+
+\end_inset
+
+).
+ Briefly, To locate the same cells that were id'ed form the functional imaging,
+ the LM volume was registered to the EM volume.
+ This was done using gross anatomical features like easily recognized clusters
+ of cell bodies and blood vessels, that was readily visible in both the
+ LM and the EM volumes.
+ These features served as anatomical landmarks, where each pair of features
+ were marked as a corresponding pair that was subsequently used to generate
+ a transform.
+ Once we had many such corresponding pairs, they were used to generate an
+ affine transform that was used to register the LM volume on the EM volume.
+ This process was also performed in the Fiji plugin TrakEM2 (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Cardona:2012kf"
+
+\end_inset
+
+).
+ This process resulted in overlaying the LM volume onto the EM volume.
+ Once this was done, we were able to locate the VPNI cells in the EM volume.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Reconstructions
+\end_layout
+
+\begin_layout Standard
+The reconstruction of the cells was performed using the TrakEM2 plugin in
+ Fiji.
+ Two expert tracers reconstructed the cells beginning from the cell bodies
+ in an independent manner.
+ During the tracing process, one of the expert tracers annotated all pre
+ and postsynaptic sites for each cells.
+ The skeletonized tree structure was exported from TrakEM2 as *.swc files.
+ These trees were then imported into Matlab using custom scripts to import
+ .swc files and maintain them as trees.
+ The traces of the two tracers were
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ compared by a third reviewer.
+ The third reviewer, independently reviewed points of disagreement and decided
+ which points of disagreement were either over-reconstructed or were under-recon
+structed.
+ .
+ In some cases, the traces were re-visited by the tracers if it was needed.
+ .
+ For the comparison of EM traces with LM traces, the LM traces were traced
+ using the Simple Neurite Tracer (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Longair:2011hr"
+
+\end_inset
+
+) plugin in Fiji, and exported as a *.swc file.
+ They were then imported into the same Matlab framework that was used to
+ analyze the EM traces, and used to compute necessary features to compare
+ the LM traces and the EM traces.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Analysis
+\end_layout
+
+\begin_layout Standard
+All analysis was performed on Matlab using custom scripts.
+ All traces were exported as .swc files from TrakEM2.
+ All tree lengths was reported as pathlength unless noted otherwise.
+ Similarly, all lengths to a pre or post synaptic site was reported as pathlengt
+hs.
+ The axon initiation site was annotated as the parent node of the first
+ presynaptic site.
+ For the putative-axons that originated at the soma, they were annotated
+ as beginning from the root node.
+ All neurites that were not axonal were called dendritic.
+ All nodes of the tree were thus divided as axonal nodes or dendritic nodes.
+ Pathlengths were then generated for a tree over all axonal nodes or all
+ dendritic nodes, and the length of the tree was the sum of all axonal length
+ and dendritic length.
+\end_layout
+
+\begin_layout Standard
+The diameter of the trees was generated by drawing a line segment across
+ the cross-section of the tree at a random location along the tree.
+ Many such line segments were drawn across the entire extent of the tree,
+ where the tracer was blinded to the fact whether the neurite was an axon
+ or a dendrite.
+ The measurements were then separated as dendritic diameter or axonal diameter
+ after all the trees were measured in this manner.
+ The values were reported as a mean across all dendritic or axonal measures
+ for a tree.
+ A collateral was defined as all those segments of an axon, that emerged
+ from the central axonal tree.
+ All tree nodes that were axonal were then divided as those that were part
+ of a collateral and those that were not.
+ Following this, pathlengths and numbers were calculated by treating those
+ nodes like any other.
+ 
+\end_layout
+
+\begin_layout Standard
+Arbor densities of the dendrites was computed by projecting all the axonal
+ or dendritic nodes along the desired plane and reported in a normalized
+ scale.
+ To infer the neurotransmitter identity from the stripe organization of
+ the cell bodies, we annotated the location of all the cell bodies from
+ a low-resolution stack.
+ The cell density was then computed by projecting all the cells along the
+ desired axis.
+ This process picked out the peaks that were visible in the EM images.
+ The location of a stripe was defined as the local peak that emerged from
+ the cell density projecting analysis.
+ 
+\end_layout
+
+\begin_layout Section
+Results 
+\end_layout
+
+\begin_layout Standard
+To understand local computations that take place in circuits, we need to
+ integrate information regarding function, behavior and structure in the
+ same animal.
+ Here we used the oculomotor system of the larval zebrafish as an example
+ to demonstrate the ability to study circuits that are involved in performing
+ computations locally.
+ Larval zebrafish have previously been used as a model system to study the
+ VPNI circuit (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonheim:2010ka,Miri:2011ft,Miri:2011ib,goncalves_optogenetic_2014"
+
+\end_inset
+
+), using a similar setup, we located and recorded from cells in the hindbrain
+ of the larval zebrafish that were expressing a calcium sensitive dye.
+ We then serially-sectioned and imaged the larvae at the ultrastructure
+ level and located the same cells that were involved in the VPNI behavior.
+ We reconstructed the dendritic and axonal arbors of these cells to look
+ for groups of cells that had similar features.
+ We located all pre and postsynaptic sites on these cells validated synaptic
+ connectivity among VPNI cells.
+ Based on the location of these cells, we inferred the neurotransmitter
+ identity of these cells to suggest the potential role of cells in each
+ of the defined groups.
+ Finally, we propose some constrains on the entire VPNI network, based on
+ the subset of VPNI cells in this study.
+\end_layout
+
+\begin_layout Subsection
+Registration of light microscope and electron microscope volumes ( figure
+ 1)
+\end_layout
+
+\begin_layout Standard
+We first performed functional imaging in awake, immobilized larval zebrafish
+ using the calcium sensitive dye OGB, by introducing the dye in the hindbrain
+ via iontophoresis, similar to methods used previously (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2007cv"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Miri:2011ft"
+
+\end_inset
+
+).
+ Once this was done, the animal was placed in an imaging setup that allowed
+ for imaging the activity in the hindbrain, while simultaneously imaging
+ the eye movement behavior.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Optical gratings were presented to the animal to elicit spontaneous saccades
+\end_layout
+
+\end_inset
+
+This paradigm allows for the correlation of eye movement behavior to the
+ firing of cells in the hindbrain .
+ We performed the functional light microscopy at pre-defined planes close
+ to and below the Mauthner cell ( fig 1A, panel1), unilaterally.
+ This landmark would later serve to identify cells in the electron microscopy
+ volume, since the Mauthner cell is immediately visible in EM sections.
+ Following the functional imaging, the volume was imaged for anatomical
+ landmarks, like blood vessels and location of cell bodies, this volume
+ was termed the Light Microscopy (LM) volume (Fig 1A, panel 2).
+ We later extracted the locations of cells whose firing had high degree
+ of correlation to eye-position, and had the firing characteristic of neural
+ integrator cells (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Miri:2011ft"
+
+\end_inset
+
+), these cells were labeled as or eye-position sensitive cells ( Fig 1A,
+ panel1).
+ These cells have distinct, graded persistent firing during eye fixation,
+ as see by the decay time constants of firing during fixation.
+ Average saccade triggered responses of these cells show cells with a range
+ of persistence times.
+ Cell with high persistence had long calcium decay time constants, where
+ as leaky cells had shorter decay time constants ( fig 1A, panel 1).
+\end_layout
+
+\begin_layout Standard
+Once functional imaging of the larva was performed, it was immediately prepared
+ for electron microscopy by immersing in fixative.
+ The larva was processed for electron microscopy using conventional reduced
+ osmium staining techniques and embedded in an epoxy based resin (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Tapia:2012hs"
+
+\end_inset
+
+).
+ The tissue block was then coarsely trimmed until the appearance of the
+ Mauthner cell plane.
+ Following the observation of this landmark , ultra-thin sections ( fig
+ 1B, 1st panel) were collected in an automated manner using an automated
+ tape collecting ultramicrotome (ATUM) as described previously (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hayworth_imaging_2014"
+
+\end_inset
+
+).
+ The sections were then made conductive, by evaporating a thin layer of
+ carbon and imaged in a field emitting scanning electron microscope (FE-SEM)
+ to obtain an electron microscopy (EM) volume.
+ Each section was imaged at a resolution of 5nm/pixel in a region of interest
+ that roughly corresponded with area imaged on the light microscopic ( fig
+ 1B, 2nd panel).
+ The EM volume we imaged contained 15791 sections or ~10^11 pixels (fig
+ 1B).
+ These images were registered using the trakEM2 plugin in Fiji (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Cardona:2012kf"
+
+\end_inset
+
+).
+ Briefly, individual images were first montaged using affine transforms
+ followed by elastic transforms.
+ Following this they were aligned in the z dimension, using first, affine
+ and followed by elastic transforms.
+\end_layout
+
+\begin_layout Standard
+To locate the cells that were involved in the integrator circuit, we first
+ extracted the location of cells in the light microscopic volume that were
+ eye-position sensitive.
+ Once these cells were located in the light microscopic volume, we then
+ needed to register the LM stack to the EM stack in order to locate the
+ same cells in the EM volume.
+ To do this, we made use of the fact that large, gross morphological features
+ should be easy to spot in the EM stack ( sup Fig)
+\end_layout
+
+\begin_layout Standard
+Once enough such features were identified, we located these same landmarks
+ in the high-res EM stack.
+ Each pair of landmarks (one from the LM volume and one from the EM volume)
+ was then used to calculate a global affine transform that was applied to
+ transform the LM volume to be overlaid on the EM volume using the TrakEM2
+ plugin in Fiji (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Cardona:2012kf"
+
+\end_inset
+
+).
+ Following this registration, we were able to reliable locate the same cells
+ from the LM and the EM volumes ( Fig 1C).
+\end_layout
+
+\begin_layout Standard
+In total, we identified 22 cells with eye-position sensitive signals t.
+ Although these cells were from three planes in the light microscopic volume,
+ their annotations in the EM volume was not necessarily restricted to three
+ distinct planes, since we annotated the centers of the cells in the EM
+ volume.
+ These cells spanned 23 µm in the dorsoventral axis.
+ The cells were located in rhombomeres 6,7, and 8 of the larval zebrafish
+ hindbrain.
+ We were also able to identify anatomical landmarks like the ipsilateral
+ Mauthner cell, the Mi2, Mi3 reticulo-spinal cells, the contralateral Mauthner
+ cell axon, and the commissures, all of which are clearly visible in the
+ the EM volume.
+ Similarly, other anatomical landmarks like the commissures are also visible
+ in the EM dataset (fig 1D).
+ 
+\end_layout
+
+\begin_layout Subsection
+Morphology and axonal projection patterns of registered VPNI cells 
+\end_layout
+
+\begin_layout Standard
+Not much is know about the morphology of cells that are involved in the
+ VPNI circuit.
+ Previously dye fills in the goldfish area1 showed that there were atleast
+ cells with 2 types of axonal projection, those with ipsilateral prijections
+ and
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ contralateral projections (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2000cn"
+
+\end_inset
+
+).
+ More recently, in the larval zebrafish VPNI system, it was reported that
+ there were at least classes of cells.
+ These cellsprojected either ipsilaterally and contralaterally (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+).
+ The same study also revealed that the ipsilaterally projecting population
+ was excitatory in nature and the contralaterally projecting population
+ was a mixture of cells that were both excitatory and inhibitory, based
+ on the location of the soma (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+).
+
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Here we aimed to build on this body of work by characterizing the ultrastructure
+ of cells belonging to these classes.
+\end_layout
+
+\end_inset
+
+We reconstructed the VPNI cells that were identified previously.
+ The cells were skeletonized using the TrakEM2 plugin in Fiji.
+ In total, we reconstructed 22 cells throughout the imaged volume.
+ We defined neurites as being axonal or dendritic based on the observation
+ of pre or postsynaptic site along the neurite.
+ Of the VPNI cells that were reconstructed, there were 8 cells (36%) that
+ had a clear distinguishable axon, with the presence of presynaptic sites
+ on their neurites.
+ Of the remaining cells, 8 cells (36%) had putative axon-like neurites that
+ crossed the midline in a stereotypic pattern.
+ The remaining 6 cells (27%), did not have any distinguishable neurite that
+ was axonal in nature.
+ All cells had neurites that we dendritic in nature, they were identified
+ by the presence of postsynaptic sites that were studded along the neurite.
+ In total, we reconstructed 22 cells from xxxx cells in the imaged volume,
+ containing 9.5mm of neurite, 
+\end_layout
+
+\begin_layout Subsubsection*
+Somata
+\end_layout
+
+\begin_layout Standard
+The cells were reconstructed form the soma outward.
+ Typically, we observed that somata gave rise to neurites that travelled
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ ventral to the location the somata.
+ We observed a consistent darkening of the membrane with intermediate gaps
+ over multiple serial-sections along the somal mebrane that resembled gap
+ junctions (sup figure), consistent with evidence in the developing larval
+ zebrafish of gap junctions in the rhombomeres (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Jabeen:2013fm"
+
+\end_inset
+
+).
+ However, the resolution of our imaging setup makes it hard to distinguish
+ gap junctions as the classical pentameric structure that is readily observed
+ in the TEM
+\change_deleted 78966105 1458833461
+.
+ 
+\change_unchanged
+.
+ In our reconstructions, we did not observed any immediate feature along
+ a neurite that emerged from the soma, which led us to label it as axonal
+ or dendritic.
+ On average 3.3±1.5 (mean±std) neurites
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ emerged from the somata of the VPNI cells.
+ An interesting feature that we observed in all of the cells was the presence
+ of a neurite that was enriched with microtubules, that typically projected
+ <1µm from the cell body.
+ In some cases, this neurite terminated inside glial like processes, but
+ these neurites were devoid of any features other that microtubules ( fig
+ 2D, left panel).
+ The purpose of this neurite remains unknown.
+ .
+ The spatial location of the VPNI cells ended up in three broad clusters,
+ there was one cluster of cells that was located very close to the midline
+ and very rostral in the imaged volume.
+ Similarly, there was a tight cluster of cells that was located at the caudal
+ extent of the imaged volume, and a third loose cluster of cells that was
+ located at the lateral most extent of the volume, with cells that spanned
+ over the rostrocaudal range (fig 1D)) .
+ It must be noted that the calcium dye was loaded approximately in between
+ the second and third clusters at a caudal location.
+ We also observed that the spatial locations of the first cluster of cells
+ was intermingled with the commissure bundles, close to the contralateral
+ Mauthner axon.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+VPNI cells have specific axonal projection patterns 
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+Previously it
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ was reported that the VPNI cells in the hindbrain comprised of at least
+ 3 groups of
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ cells (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+), where the groups
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ corresponded with stereotypic axonal projection patterns.These groups were
+ either glutamatergic or GABAergic in their neurotransmitter identity.
+ However, in previous studies, axons were identified from light microscopic
+ images of cells that were dye filled, and were inferred based on the thickness
+ of the neurite (confirm).
+ However, the real identity of the axon can be confirmed by the presence
+ of presynaptic terminals along the neurite, which is possible to observe
+ from ultrastructural images.
+ 
+\end_layout
+
+\begin_layout Standard
+During the course of reconstruction, we noticed that the VPNI neurons had
+ specific axonal projection patterns.
+ From the reconstruction of all VPNI cells, 8/22 or 36% of the cells had
+ neurites that were considerer as axonal ( confirmed with the presence of
+ presynaptic sites).
+ In general, the axons tended to have long shaft-like projections, with
+ collaterals that emerged form this shaft.
+ For these 7 cells, the axon did not emerge from the cell somata, insted,
+ it emerged from a secondary or tertiary dendrties.
+ Whereas for other cells, there were putative-axon like neuites that crossed
+ the midline and projected contralaterally.
+ These neurites that projected to the contralateral side were
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ engulfed by glial like processes just before the midline crossing.
+ It is know that in the larval zebrafish, there exists astrocytes that are
+ expressed along the midline that form a `glial bridge' that are necessary
+ for axon guidance (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Barresi:2005iw"
+
+\end_inset
+
+).
+ Since, these glial-bridges are involved primarily in axonal guidance, the
+ processed they engulf, before crossing the midline were considered putative-axo
+ns.
+
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ Following this annotation we divided the cells in the VPNI population into
+ four groups based on their axonal projection patterns as (i) ipsilaterally
+ projecting (ii) contralaterally projecting (ii) Ipsi and contra projecting
+ (iv) unknown.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\bar under
+Ipsilaterally projecting (group1) 
+\emph default
+\bar default
+- Of the cells, 6 cells (n=6/22 or 27% of cells) were observed to have only
+ ipsilaterally projecting axons.
+ Figure 2A,B, shows two representative ipsilaterally projecting cells, where
+ the dendrites and axons are labeled with lines of different thickness.
+ The axons were clearly identified by the presence of en passant boutons
+ and presynaptic vesicle clouds all along the neurite.
+ The cell bodies of these cells were located at the rostral extent of the
+ volume, and close to the midline( fig 3A).
+ The axons of these cells extended along the rostrocaudal axis with tilts
+ in the dorsoventral axis.
+ Typically the caudal segment of the axon was more dorsal as compared to
+ the rostral segment of the axon, following the body outline of the animal
+ (fig 3A).
+ We noticed that these axons gave rise to collaterals that extended along
+ the mediolateral axis.
+ The rostral segment of the axon extended toward the abducens nuclei, which
+ contains the motor neurons that innervate the eye muscles.
+ The caudal segment extended further into the hindbrain where they presumably
+ synapse onto other cells in the rhombomeres.
+ These cells
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ were some of the longest cells, which is not surprising as the imaged volume
+ was form the ipsilateral side only ( fig 3E).
+ An interesting observation that we made was the neurites that were identified
+ as axonal, did not necessarily begin
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ being axonal.
+ In fact, in most cases, these neurites contained many postsynaptic sites
+ , before the emergence of the axonal segment (open arrow head in fig2).
+ We also observed that in one case, the axon of the cell was myelinated
+ along the rostrocaudal section of the axon (fig 2A, highlighted regions).
+ The myelination was not present uniformly throughout the axon, but along
+ small segments of the axon.
+ In one case, the myelination terminated briefly for a collateral and subsequent
+ly resumed myelination.
+ Myelin sheaths have been previously seen in larval zebrafish spinal cord
+ neurons and wrap these cells in an activity dependent manner (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Mensch:2015hy,Hines:2015gu"
+
+\end_inset
+
+).
+ The average length of the axons from all ipsilaterally projecting cellscells
+ was 270.05±244.06 µm with the longest reconstructed axon being 683.39 µm (
+ fig 3G)).
+ Similarly, we also measured the diameter of the axons from these cells.
+ The diameter of the axons from these cell was on average 0.20±0.15 µm ( fig
+ 3H).
+ Dendrites of cells in this group extended laterally form the cells somata
+ and were always ventral to the cell somata.
+ Dendrites arborized over a large area with the dendritic fields of these
+ cells overlapping with each other.
+ The average length of dendrites from this group of cells was 391.83±65.83
+ µm.The dendrites were also found be arborize along the dorsoventral axis
+ with peak arborization at a depth of 35.6±8.4 µm ventral to the cells somata
+ (sup fig).
+ The mean axonal diameter was 0.18±0.03 µm and the mean dendritic diameter
+ was 0.25±0.04 µm, which was significantly different ( p = 0.01, ttest).
+ The distribution of all axonal and dendrititc diameters over the length
+ of the tree was also significantly different
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ ( p<1e-5, Kolmogorov-Simirinov test).
+\end_layout
+
+\begin_layout Standard
+One of the ways in which VPNI cells are though to achieve persistent firing
+ is by the presence of local excitatory recurrent connections.
+ If this were the case, we would expect the axons of cells have collaterals,
+ close to the dendrites of other VPNI cells.
+ One possible way of implementing this is by having local collaterals, whose
+ arbors overlap with the dendrite of similar cells.
+ We quantified the length of the local collaterals from the EM reconstructions
+ and compared them to the collaterals from similar VPNI cells with ipsilateral
+ axons that were reconstructed from dye filled using LM.
+ We noticed that both collateral path length and number of collaterals between
+ LM and EM were not significantly different ( p>0.05, ttest).
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\bar under
+Ipsi- and contra projecting (group 2)
+\emph default
+\bar default
+- A hand full of cells (n=2/22 or 9% of cells) had axons with two projections
+ (fig 2C) One of the two axons was on the ipsilateral side with 
+\emph on
+en passant 
+\emph default
+boutons containing
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ vesicles
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ opposing postsynaptic densities.
+ This axon was similar to the ipsilaterally projecting axons that were previousl
+y noticed in 
+\emph on
+group1
+\emph default
+.
+ In general the length of the axon on the ipsilateral sidewas of similar
+ in length to the axons from 
+\emph on
+group1.
+
+\emph default
+ The ipsilaterally projecting axon, was similar, in morphological features
+ to the ipsilateral projecting axons from 
+\emph on
+group1.
+ 
+\emph default
+The axonal segment on the ipsilateral side, emerged, like the axons in 
+\emph on
+group1
+\emph default
+, along a secondary dendrite, ventral to the cells somata ( fig 2C, open
+ arrow head).
+ The axons were tilted along the dorsoventral axis, with the rostral segment,
+ extending towards abducens and the ventral segment further into the hindbrain
+ (fig 3B).
+ These cells contained another projection that was putatively an axon.
+ These midline crossing
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ putative-axons
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ shared some of their features with ipsilaterally projecting axons and had
+ other unique features.
+ The first of these features is the fact these neurites were 'bare' for
+ the most part, similar to some of the initial axonal segments of ipsilaterally
+ projecting neurites where there were no presynaptic terminals .
+ Second, they were engulfed by glial like processes, just before crossing
+ the midline, consistent with the idea of glial-bridges that are instrumental
+ in axonal guidance during development (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Barresi:2005iw"
+
+\end_inset
+
+) (fig 2C).
+ And thirdly, the diameter of these neurites was similar to diameter of
+ axons on the ipsilateral side
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ (sup figure).
+
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ The contralaterally proiecting axon emerged from the somata in one case,
+ and as a branch from the ipsilaterally projecting axon in the other case.
+ In both cases, the midline cross-over happened at locations that were ventral
+ to the cells somata.
+ The average length of the axons in this group was 277±22 µm which was very
+ similar to the length of the axons from 
+\emph on
+group1.
+ 
+\emph default
+Similarly, the dendrites of cells in the group had an average length of
+ 419.3±178 µm.
+\end_layout
+
+\begin_layout Standard
+The average diameter of the axons from this group was 0.2±0.02 µm and that
+ of dendrites was 0.21±0.01 µm.
+ The sample size from this group was too small to test if the average diameters
+ were from independent samples.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\bar under
+Contralaterally projecting (group3)
+\emph default
+\bar default
+- The cells from this group were located at the caudal most extent (n=8/22
+ or 36% of cells) of the imaged volume, they contained exclusively contralateral
+ly projecting putative-axons.
+ In all examples of cells in this group, we observed that the neurite that
+ crossed the midline was a putative-axon (fig 3C).
+ Although we did not observe any direct presynaptic terminals on any of
+ the neurites, we observed that the neurites that crossed the midline satisfied
+ the three criteria that we used to check if they were putative-axons.
+ These neurites were bare, with no synaptic terminals, they were engulfed
+ by glia just before crossing the midline and the diameter of these neurites
+ were significantly smaller to the diameter of the dendrites ( fig 2D).
+ .
+ The average diameter of putative axons was 0.15±0.02 µm and was significantly
+ smaller as compared to the dendrites that were on average 0.21±0.02 µm (p
+ = 9.9765e-05, ttest).The axonal diameter distribution was also significantly
+ different as compared to the dendritic diameter distribution ( p< 1e-04,
+ Kolmogorov-Simironov test).
+ 
+\end_layout
+
+\begin_layout Standard
+Unlike the previous groups of cells, the axons of these cells almost always
+ (one exception) emerged from the somata of the cell, and crossed the midline
+ at locations ventral to the cells somata.
+ In some cases it was noticed that a collateral emerged from these mid-line
+ crossing neurites, but they were found to be dendritic in nature (fig 2D,
+ open arrow head).
+ The dendrite from cells belonging to this group, on average were 292.41±69.75
+ µm in length.
+ This was significantly shorter as compared the dendrites from 
+\emph on
+group1
+\emph default
+, whose average length was 391.83±65.83µm ( p<0.05, ttest).
+ In all cases, the dendrites form all cells, terminated within the imaged
+ volume.
+ The dendrites of cells, arborized over a much smaller area as compared
+ to the dendrites from 
+\emph on
+group1
+\emph default
+.
+ The dendrites of this group of cells tended to arborize very close to their
+ cell somata, with the peak of the arborization
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ at 8.6±7.3 µm ventral to the
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ somata ( sup fig).
+ The depth at which the dendrites from this group stratify was significantly
+ more dorsal as compared to the depth at which cells form 
+\emph on
+group1
+\emph default
+ stratified ( ttest, p < 1e-04).
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\bar under
+Unknown projecting (group4)
+\emph default
+\bar default
+ - The last group of cells (n=7/22 or 31% of cells) were located at the
+ lateral most extent of the volume.
+ These cells had no identifiable axon based on the lack of any presynaptic
+ sites or the three criterion that we have used so far to identify putative-axon
+s.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+We believe this is most likely because these cells were not fully represented
+ in the imaged volume and neurites of these cells exit the volume before
+ the axon was located.
+ 
+\end_layout
+
+\end_inset
+
+The dendrites of the cells in the imaged volume extended medially or in
+ some cases rostrally,.
+ In some cases, the dendrites extended medially, at locations very close
+ to the cell somata, whereas in other cases, the dendrites extended medially,
+ but gradually along the rostrocaudal extent of the volume.
+ The medially extending cells were similar in morphology to the cells from
+ 
+\emph on
+group3.
+ 
+\emph default
+The average length of the dendrites for cells from this group was 221.47±48.70
+ µm, which was not significantly different compared the the length of the
+ dendrites from 
+\emph on
+group3
+\emph default
+ cells .
+ However, the dendrites of these cells were significantly smaller as compared
+ to the dendrite from cells in group1 (p<1e-3,ttest).
+\end_layout
+
+\begin_layout Subsection
+Distribution of synapses on VPNI cells ( figure 4)
+\end_layout
+
+\begin_layout Standard
+We then analyzed the synaptic distribution of all VPNI cells in this imaged
+ volumeby annotating all pre and postsynaptic sites during reconstruction.
+ Our imaging resolution of 5nm/pixel gave us the ability to annotate all
+ synapses very accurately.
+ We were able to identify synapses by the presence of a vesicle pool and
+ an opposing postsynaptic density darkening for all annotated synapses in
+ this volume (fig 2B, EM panels).
+ To our knowledge nothing is know about the synaptic distribution of cells
+ in the zebrafish hindbrain.
+ The most widely studied cell in the hindbrain, at the level of ultrastructure
+ is the Mauthner cell, but nothing regarding the ultrastructure of other
+ cells in the hindbrain is known.
+ In general during the annotation, we labeled those sites as synaptic that
+ had a pool of vesicles opposed to a dark postsynaptic density.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+We did not label synapses as being either symmetric or asymmetric, to infer
+ neurotransmitter identity, as this is not precise (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Klemann:2011hy"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\end_inset
+
+In total we annotated, 406 presynaptic sites and 2229 postsynaptic sites.
+ On average a cell had 101.31±74.15 postsynaptic sites and cells thad had
+ axons had 58±44.39 presynaptic sites.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\bar under
+group1 neurons
+\bar default
+:
+\emph default
+ Cells in 
+\emph on
+group1
+\emph default
+, with ipsilaterally projecting axons, had,
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ the largest number of both pre- and postsynaptic sites.
+ In figure 4A, we show two representative cells with ipsilaterally projecting
+ axons, with presynaptic terminals (green squares) along the axon and postsynapt
+ic terminals (red dots) along the dendrites.
+ We also highlighted the one case, where we saw the dendrites of the cell,
+ project to the contralateral side.
+ We know that the neurite is dendritic, by the presence of postsynaptic
+ sites (fig 4A, arrow heads) along the neurite.It can also be observed that
+ the postsynaptic sites were more numerous and spread uniformly through
+ the length of the tree, however the presynaptic sites were more sparse
+ and tended to appear in clusters.
+ We also observed clusters of presynaptic sites along the axon at the ventrorost
+ral extent of the axon, which corresponds with the location of the abducens
+ nuclei.
+ 
+\end_layout
+
+\begin_layout Standard
+On average, cells in this group contained 174.83±88.09 postsynaptic sites,
+ and 56.5±52.75 presynaptic sites ( fig 4E) The average pathlength of postsynaptic
+ sites was 237.82±133.08 µm from the cell soma, whereas the average presynaptic
+ pathlenght was 618.43±208.29 µm from the cell soma (fig 4G, first panel).
+ Cells tend have postsynaptic sites were close to the cell somata, whereas
+ presynaptic sites that were at least ~150 µm away from the cell somata.
+ This is apparent in the distribution of synaptic pathlengths, where there
+ is a small overlap between the post- and the presynaptic locations.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\bar under
+group2 neurons
+\emph default
+\bar default
+: Cells in group 2 had both an ipsilaterally projecting axon and
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ putative contralaterally projecting axon.
+ The cells, as noted previously, were more lateral to the cells from 
+\emph on
+group1.
+ 
+\emph default
+Although, the putative axon had a a few postsynaptic sites very close to
+ the cell somata, later on it satisfied the three criteria that we had imposed
+ to label it a putative axon.
+ Cells in the group tended to have more postsynaptic site as compared to
+ presynaptic sites.
+ These neurons on an average have 126.5±70 postsynaptic sites, and 33.5±7.77
+ presynaptic (fig 4E).
+ Interesting, the cells in
+\emph on
+ group1
+\emph default
+ and in 
+\emph on
+group2
+\emph default
+ had very similar ratio of outputs to inputs (~3).
+
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ The distribution of the synapses onto cells in 
+\emph on
+group1
+\emph default
+ and 
+\emph on
+group2
+\emph default
+ differed ( fig4G, second panel).
+ There was a significant difference in the distribution of both pre- and
+ postsynaptic sites onto cells from 
+\emph on
+group1
+\emph default
+ as compared to cells from 
+\emph on
+group2
+\emph default
+ (p = 0.028, p = 0.029, Kolmogorov-Simironov test).
+ Like in the previous group, there was a clear demarkation in the location
+ of post- and presynaptic sites, with presynaptic sites being more distal
+ as compared to postsynaptic sites.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\bar under
+group3 neurons:
+\emph default
+\bar default
+ Cells from this group tended to have much smaller spread of the dendritic
+ field (fig4C).
+ The putative axons of all cells in this group ( barring one) emerged from
+ the somata and crossed the midline at ventral locations.
+ Since these cells had a small dendritic field, the dendrites
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ were completely encompassed in the imaged volume.
+ On average, these cells received 85.2±39.5 postsynaptic sites (fig.4E), which
+ was significantly less as compared to the postsynaptic sites on 
+\emph on
+group1
+\emph default
+ ( p = 0.02, ttest).
+ Similarly, the distribution of the postsynaptic pathlengths sites on these
+ cells were highly significant
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ as compared to their distribution on cells from 
+\emph on
+group1 
+\emph default
+and 
+\emph on
+group2 
+\emph default
+(p<1e-10,p<1e-4 respectively), with the mean postsynaptic pathlengths as
+ 187±115 µm.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\bar under
+group4 neurons:
+\emph default
+ 
+\bar default
+Lastly, we looked at the distribution of postsynaptic sites on the group4
+ neurons that were located at the lateral most extent of the volume.
+ In these cells, we failed to identify an axon, and most neurites that were
+ reconstructed were dendritic in nature, as was observed by the presence
+ of postsynaptic sites.
+ Of the cells that we had in this volume, onaverage there were 40.83±25.11
+ postsynaptic sites, which was significantly lesser as compared to the postsynap
+tic sites on all other groups ( p = 0.005, p = 0.02, p = 0.03, ttest) Similarly,
+ the distribution of postsynaptic sites on these cells was significantly
+ different as compared to the distribution of postsynaptic sites on all
+ other groups ( p <1e-38, p< 1e-22, p<1e-18, KStest).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\bar under
+Intersynaptic distance:
+\emph default
+\bar default
+ 
+\end_layout
+
+\begin_layout Standard
+Next we looked at the intersynaptic distance for all pre- and postsynaptic
+ sites.
+
+\change_deleted 78966105 1458702534
+ 
+\change_unchanged
+ The mean interpostsynaptic distance for all cells was 1.69 um and the mean
+ interpresynaptic distance was 1.93 um, and these distributions were not
+ significantly different.
+ However, we noticed that at the level of the individual cell, there were
+ some differences that was not being captrured by lumping all cells together.
+ Therefore we broke the distribution of the intesynaptic distance by groups.
+ We noticed that for cells in 
+\emph on
+group1
+\emph default
+, the inter presynaptic distances had a long tail, with large gaps.
+ This was indicative of the clustering of presynaptic sites that was visible
+ in fig 4A ( open arrow).
+ Next, we looked to see if there distributions of interpre- and postsynaptic
+ sites among groups were different.
+ We determined that the distributions of both interpre- and postsynaptic
+ distance was significantly different between group1 and group2 ( p = 0.02,
+ p = 0.001, KStest).
+ 
+\end_layout
+
+\begin_layout Subsection
+VPNI cell to cell connectivity ( figure 5) 
+\end_layout
+
+\begin_layout Standard
+One of the longstanding open questions in systems neuroscience is that of
+ the synaptic connectivity between VPNI cells.
+ Many lines of evidence suggest that these cells must be synaptically connected,
+ how ever this has beeen hard to proove.
+ We first looked at the minimum distance between cells with axons (presynaptic
+ cells) and cells with dendrites (postsynapse).
+ In Figure 5A, we plotted the minimum distance between cells with axons
+ and corresponding cells with dendrites.
+ Here we noticed that of the 7 cells with axons that had presynaptic sites.
+ We obtained a large range of distances between cells, ranging from 0.4 µm
+ to 74.7 µm, with mean distance at 19.33 µm.
+ Of the 154 possibilities, 8 ( or 5%) of these pairs were <=1 µm of each
+ other.
+ We then looked at all the cells that had minimum distance in this range,
+ only 2 of these cells had distances that were in the range .
+ We next look only at those axon-dendrite pairs that were within 1um of
+ each other.
+ Of the 8 sites that were within a micron of each other, 4 ( or 50%) of
+ these sites were actual synapse (fig 5B).
+ All 4 synapses emerged from one cell in this imaged volume (fig 5B, arrow).
+ This one cell belonged to 
+\emph on
+group1
+\emph default
+, with an ipsilaterally projecting axon.
+ This cell made 2 synapses onto another 
+\emph on
+group1
+\emph default
+ cells and 1 synapse each onto two 
+\emph on
+group3
+\emph default
+, contralaterally projecting cells.
+ The electronmicrographs at these locations show clear axonal terminals,
+ filled with vesicles ( inset, green) opposed to postsynaptic densities
+ on the dendrites ( inset, red) of other VPNI cells (fig 5C).This is the
+ first demonstration that cells that take part in the velocity to position
+ integration are indeed monosynaptically connected to each other.
+ These synapses were also seen to lie on the axons collaterals of the cell
+ that made the synapses.
+ Translating these presynaptic cells within the volume, did not reveal any
+ significant increase in the number of contacts between cells, suggesting
+ that this one cells was well poised to makes synapses onto other cells,
+ and that the remaining presynaptic cells did not share much of an overlap
+ with the dendrites to form functional synapses ( sup fig).
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+I
+\bar under
+nferring neurotransmitter identity: 
+\emph default
+\bar default
+Having the neurotransmitter identity of the cells is important to determine
+ the effect of the cell on other cells that it synapse onto.
+ Unfortunately, the traditional process of electron microscopy does not
+ preserve the antigens in the tissue to infer the identity of the neurotransmitt
+er by immunolabeling the same tissue.
+ We however take advantage of the fact that cells in the hindbrain of the
+ larval zebrafish follow a stereotypic 'stripe' pattern, where cells that
+ belong to a stripe share the same neurotransmitter identity (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kinkhabwala:2011et"
+
+\end_inset
+
+).
+ Similarly this scaffold was also used to assign the neurotransmitter identity
+ to VPNI cells (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+).
+ Here we used a similar approach to infer the neurotransmitter identity
+ of the VPNI cells that were reconstructed ( fig 5D).
+ We computed a heat-map of the cell density of all cells in the volume over
+ a pre-defined depth ( fig 5D, 1-100 cell density).
+ When compared to the EM images that were projected over a similar depth,
+ we see the emergence of cell body stripes in the hindbrain (fig 5D, 1-100
+ EM projection).
+ We then projected the cells density onto a simple plane and see the emergence
+ of peaks of cells that have a stripe like pattern.
+ We were able to locate 4 stripe at this depth ( fig 5D, bottom panel).
+ The medial most peak corresponded to midline cells from the contralateral
+ population, as can be see in the EM micrographs, these cells were contralateral
+ to the Mauther cell axon.
+ Peaks 2-4 were peaks that were visible in the ipsilateral side.
+ Overlaying the VPNI cells in this study, we see that 
+\emph on
+group1
+\emph default
+ cells lie under peak 2, 
+\emph on
+group2,3
+\emph default
+ cells lie under peak 3 and 
+\emph on
+group4
+\emph default
+ cells lie under peak4.
+ If we extend a similar approach over a larger depth, we start to loose
+ the spatial location of peak3 ( fig 5C, 1-1000 cell density).
+ This is most likely due to the fact that at this depth, the stripes strart
+ to thin out and are no longer visible.
+ From previous literature, we can infer that the first stripe on the ipsilateral
+ side (peak2) corresponds with the 
+\emph on
+alx 
+\emph default
+transcription factor that is glutamatergic.
+ Similarly the second stripe ( peak3) corresponds to the transcription factor
+ 
+\emph on
+dbx1b.
+
+\emph default
+ VPNI cells that correspond to the dbx1b transcription factor are known
+ to be primarily GABAergic, and a small minority of these cells are glutamatergi
+c (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+).
+ And the last lateral most stripe (peak4) corresponds with the expression
+ of the 
+\emph on
+barhl 
+\emph default
+transcription factor, which is though to be glutamatergic as well.
+\emph on
+.
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Standard
+Here we aimed to reconstruct cells from the hindbrain of the larval zebrafish
+ that were involved in converting eye-velocity signals to eye-position signals.
+ To do this we functionally imaged from cells in the hindbrain using two-photon
+ microscopy during spontaneous eye-movement behavior, follwed by serial
+ section electron microscopy in the same animal.
+
+\change_inserted 78966105 1458854720
+ The larval zebrafish is believed to have ~100 such integrator neurons unilatera
+lly (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2003un"
+
+\end_inset
+
+), which makes such a system amenable to large scale imaging efforts, and
+ that the organization of these cells in the larval animal might most likely
+ be conserved in the adult (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "gilland_hindbrain_2014"
+
+\end_inset
+
+).
+
+\change_unchanged
+ We 
+\change_deleted 78966105 1458758618
+then
+\change_unchanged
+ registered the light microscopic imaged
+\change_inserted 78966105 1458854718
+ volume
+\change_unchanged
+ to the electron microscop
+\change_inserted 78966105 1458854718
+e imaged volume
+\change_deleted 78966105 1458758637
+ic
+\change_unchanged
+ 
+\change_deleted 78966105 1458758643
+images
+\change_unchanged
+ to locate the physilologically relavent cells in the EM volume.
+ The imaged volume, which contained rhombomeres 5,6,7,8 contained over 3004
+ cell, of whcih 22 cells were identified as VPNI cells.
+ These cells spanned the entire rostrocaudal extent of the imaged volume.
+ Reconstruction of the neurons that were involved in the VPNI task revealed
+ that the circuit comprised of at least 
+\change_inserted 78966105 1458854718
+3
+\change_deleted 78966105 1458854562
+4
+\change_unchanged
+ distinct groups of cells based on their axonal projections and synaptic
+ distributions.
+ 
+\change_deleted 78966105 1458759397
+The neurotransmitter identity of cells form the groups were inferred based
+ on the location of these cells along a developmental stripe scaffold in
+ the larval zebrafish.
+ 
+\change_inserted 78966105 1458854772
+We found neurons with ipsilateral axons that gave rise to collaterals within
+ the same dendritic field as other integrator neurons.
+ Apart from the previously know ipsilateral and contralateral projections
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+), we found few neurons with both ipsi and contralateral projections.
+ Distribution of synaptic locations of both pre and post synapses for all
+ neurons revealed on average these cells received three time more input
+ than output.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458905445
+The first group of cells had ipsilaterally projecting axons, that projected
+ along the rostrocaudal extent of the imaged volume.
+ Specimens from this group were some of the largest cells among all VPNI
+ cells.
+ The axons of these cells orininated not from the cell somata, but instead
+ from a secondary or tertiary dendrite, and all cases it was hard to observer
+ any specific morphological features that indicated an axon initial zone.
+ In one case, the axon of the cell was partially myelinated, and gave rise
+ to collaterals in between successive myelination zones.c
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458854664
+We do not yet know if position sensitive cells synapses onto each other,
+ although indirect evidence would suggest that they do (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2003un,Dale:2015hh"
+
+\end_inset
+
+).
+ To answer some of these question, we chose to perform serial section electron
+ microscopy on position sensitive cells in the hindbrain of larval zebrafish.
+ The larval zebrafish is believed to have ~100 integrator neurons unilaterally,
+ which makes such a system amenable to large scale imaging efforts, and
+ that the organization of these cells in the larval animal might most likely
+ be conserved in the adult (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "gilland_hindbrain_2014"
+
+\end_inset
+
+).
+ This analysis reveled that the existence of at least three groups of neurons
+ that were part of the unilateral integrator.
+ We found neurons with ipsilateral axons that gave rise to collaterals within
+ the same dendritic field as other integrator neurons.
+ Apart from the previously know ipsilateral and contralateral projections
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+), we found few neurons with both ipsi and contralateral projections.
+ Distribution of synaptic locations of both pre and post synapses for all
+ neurons revealed on average these cells received three time more input
+ than output.
+ We can extend the significance of these findings by inferring the neurotransmit
+ter identity of these neurons based on the location of the cells bodies,
+ as they are known to express glutamate and GABA in alternative stripe like
+ patterns in the hindbrain (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kinkhabwala:2011et"
+
+\end_inset
+
+).
+ Doing so, suggests that the cells with ipsilaterally projecting axons and
+ collaterals is excitatory, cells with contralatrally projecting axons are
+ inhibitory.
+ The remaining groups are presumably putative glutamatergic and glycenergic
+ neurons.
+ These results suggest that the neural integration is achieved by positive
+ excitatory feedback unilaterally, and by mutual inhibition contralaterally.
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458759422
+T
+\change_deleted 78966105 1458854767
+Ipsilaterally projecting cells 
+\change_inserted 78966105 1458759896
+ 
+\change_deleted 78966105 1458759437
+for which both axon and dendrite were present
+\change_unchanged
+, had at least 3 
+\change_deleted 78966105 1458854285
+output 
+\change_inserted 78966105 1458854289
+postsynaptic sites 
+\change_deleted 78966105 1458854291
+synapses
+\change_unchanged
+ for every 
+\change_deleted 78966105 1458854295
+input
+\change_inserted 78966105 1458854301
+presynaptic site
+\change_unchanged
+ 
+\change_deleted 78966105 1458854304
+synapse.
+
+\change_unchanged
+ 
+\change_deleted 78966105 1458854391
+The reconstructions also validated a long standing question in systems neuroscie
+nce and showed that VPNI cells synapse onto each other, specifically, the
+ ipsilaterally projecting cell synapses on other ipsilateral and contralateral
+ projecting cells.
+ Put together, these results suggest the detailed organization of the VPNI
+ system and provide hard numbers that can be useful to the broader neuroscience
+ community as a resource to build accurate models of the integrator circuit.
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+Recent advances in high-throughput imaging technologies, have provided opportuni
+ties to visit long standing question in system neuroscience, here we re-visit
+ one such long-standing question, that of the velocity-to-position-neural
+ integrator.
+ The eye-position neural integrator is located is the homologous structures
+ located in the hindbrain of most mammals and vertebrates.
+ Historically, this system was first discovered in monkeys (cite), where
+ a nuclei, located deep in the hindbrain, the nucleus prepositous.
+ However, as with all large animal studies, they do not have the numerous
+ cellular tools that are available to systematically correlate function
+ to structure.
+ More recently, it was discovered that similar function was observed in
+ the brain stem of gold fish (Baker papers) and subsequently in larval zebrafish
+ ( Aksay paper,
+\change_inserted 78966105 1458759677
+ 
+\change_unchanged
+Baier paper, Engert paper).
+ Here we use the larval zebrafish as a model system to understand the functional
+ architecture of a system that is involved in this task.
+ The larval zebrafish is conducive to optical imaging as it is transparent
+ during the larval stages, and it is thought that there are ~100 cells unilatera
+lly ( source) in the hindbrain that are involved in the VPNI task.
+ Inferring functional connectivity by serial electron microscopy was important
+ in this system as the larval zebrafish proves to be hard to perform paired
+ patch recordings.
+ And if the number of functional synapses between any two integrator cells
+ are very few in number, this task is every more hard.
+ However, performing serial electron microscopy of registered cells allows
+ the direct visualization of functional synapses between these cells.
+ It is also possible to observe other non-conventional forms of synaptic
+ communication, like dendro-dendritic, axo-axonal and electrical synapses
+ using serial electron microscopy.
+ The ability to hold ones eye at a certain location in space is a remarkable
+ feat.
+ This is achieved by groups of neurons in the brainstem, that precisely
+ control the motor neurons that innervate the eye-muscles.
+ The inputs to these neurons are saccadic commands that encode for eye position,
+ where as the output of these neurons is tonic firing proportional to the
+ eye position.
+ In other words, the input is a burst like command signal to the neuron
+ and the output is a step like persistent firing from the neuron .
+ In mathematical terms this is the act of integration and these neuron perform
+ the task of temporal integration.
+ This phenomena was first discovered more than 30 years ago in non-human
+ primates, that were used as a model system to study eye movement (Robinson
+ papers).
+ Subsequently, similar homologous structures have been discover in fishes,
+ where a nuclei located in the hindbrain is responsible for velocity-to-position
+ integration (VPNI) for eye movements.
+ Similar neural responses to stimuli are observed in other tasks such as
+ working-memory tasks (wang XJ , review), where we observe neurons that
+ fire persistently, long after the termination of the initial stimulus.
+ The mechanism by which groups of neurons perform such a task remain unknown.
+
+\change_inserted 78966105 1458854400
+ These reconstructions also validated a long standing question in systems
+ neuroscience and showed that VPNI cells synapse onto each other, specifically,
+ the ipsilaterally projecting cell synapses on other ipsilateral and contralater
+al projecting cells.
+ Put together, these results suggest the detailed organization of the VPNI
+ system and provide hard numbers that can be useful to the broader neuroscience
+ community as a resource to build accurate models of the integrator circuit.
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+In the cat prepositous nuceli, where similar integrator neurons reside,
+ it was discovered that there were roughly three to four types of cells
+ that were morphologically distinct (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "McCrea:1985hx"
+
+\end_inset
+
+).
+ There were principal cells, multi-dendritic cells and small cells, that
+ had each unique morphology and axonal projections.
+ The principal cells, were medium sized cells, importantly with ipsilaterally
+ projecting axons that gave rise to local collaterals.
+ Where as the multi-dendritic cells typically had complex dendritic patterns,
+ with axonal projections that projected on the same side without any local
+ collaterals.
+ The small cells had dendritic fields similar to the principal cells, but
+ with axons that crossed the midline.
+ Similarly, in the goldfish brain stem, position sensitive cells were seen
+ to be have similar morphologies, with ipsilaterally projecting cells having
+ large dendritic fields with axons that gave rise to collaterals and contralater
+al projecting cells what did not have any ipsilateral projections and smaller
+ dendritic fields (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2000cn"
+
+\end_inset
+
+).
+ The emergence of axonal collaterals on the same side as other position
+ sensitive cells, suggests the possibility of local feedback loops that
+ might drive this persistent activity.
+ Supporting this evidence was also evidence that shows that pairs of neurons
+ on the same side have highly correlated activity, both in fish (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2003un"
+
+\end_inset
+
+) and in monkeys (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Dale:2015hh"
+
+\end_inset
+
+).
+ For the eyes to have coordinated movement, there must exist mutual inhibition
+ between integrators on either side of the midline, which would presumably
+ be inhibitory in nature (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2007cv"
+
+\end_inset
+
+).
+ These studies suggest that structural features of the circuits that perform
+ this neural integration are likely similar across species, and that studies
+ in one may be informative to the other (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Joshua:2015kx"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+However, beyond this we do not know much about the detailed morphology of
+ these cells, how many synapses do they have, who are their synaptic partners.
+ We do not yet know if position sensitive cells synapses onto each other,
+ although indirect evidence would suggest that they do (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2003un,Dale:2015hh"
+
+\end_inset
+
+).
+ To answer some of these question, we chose to perform serial electron microscop
+y on position sensitive cells in the hindbrain of larval zebrafish.
+ The larval zebrafish is believed to have ~100 integrator neurons unilaterally,
+ which makes such a system amenable to large scale imaging efforts, and
+ that the organization of these cells in the larval animal might most likely
+ be conserved in the adult (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "gilland_hindbrain_2014"
+
+\end_inset
+
+).
+ This analysis reveled that the existence of at least three groups of neurons
+ that were part of the unilateral integrator.
+ We found neurons with ipsilateral axons that gave rise to collaterals within
+ the same dendritic field as other integrator neurons.
+ Apart from the previously know ipsilateral and contralateral projections
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+), we found few neurons with both ipsi and contralateral projections.
+ Distribution of synaptic locations of both pre and post synapses for all
+ neurons revealed on average these cells received three time more input
+ than output.
+ We can extend the significance of these findings by inferring the neurotransmit
+ter identity of these neurons based on the location of the cells bodies,
+ as they are known to express glutamate and GABA in alternative stripe like
+ patterns in the hindbrain (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kinkhabwala:2011et"
+
+\end_inset
+
+).
+ Doing so, suggests that the cells with ipsilaterally projecting axons and
+ collaterals is excitatory, cells with contralatrally projecting axons are
+ inhibitory.
+ The remaining groups are presumably putative glutamatergic and glycenergic
+ neurons.
+ These results suggest that the neural integration is achieved by positive
+ excitatory feedback unilaterally, and by mutual inhibition contralaterally.
+\end_layout
+
+\begin_layout Standard
+Larval zebrafish neurons in the hindbrain were loaded with calcium sensitive
+ dye, following which these neurons were functionally imaged while the animals
+ made spontaneous saccades.
+ The same animal was then processed for serial electron microscopy.
+ This process revealed the existence of three unique groups of cells, based
+ on their axonal projections, with the fourth group of partially reconstructed
+ cells.
+ These groups, all had unique distributions of inputs ( postsynapses) on
+ their dendrites.
+ 
+\end_layout
+
+\begin_layout Standard
+The neurons of group1 were located rostrally and at medial locations.
+ They had long ipsilaterally projecting axons and large dendritic arbors
+ that extended laterally.
+ These cells were also observed to have the largest fraction of both pre
+ and postsynaptic sites.
+ Cells in group2
+\change_inserted 78966105 1458757875
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458757905
+- No evidence of synapses with large dense core vesicles that are synapsing
+ onto these cells
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1458757926
+- cells with these type of vesicles are thought to be neuromodulatory 
+\change_unchanged
+
+\end_layout
+
+\begin_layout Itemize
+First demonstration of number of inputs to a VPNI cell
+\end_layout
+
+\begin_layout Itemize
+Something about effect of distance on the function
+\end_layout
+
+\begin_layout Itemize
+Ratio of inputs/outputs
+\end_layout
+
+\begin_layout Itemize
+stripe inference
+\end_layout
+
+\begin_layout Standard
+It is yet to be determined how many cells encode for eye-position sensitive
+ signals in the larval zebrafish.
+ Previous models of the integrator, both in monkeys and in zebrafish ( lisberger
+, miri) have suggested networks with strong feed forward connectivity and
+ weak feedback connectivity.
+ 
+\end_layout
+
+\begin_layout Itemize
+to be determined, who are the cells that are talking to VPNI cells
+\end_layout
+
+\begin_layout Itemize
+what fraction of these cells are other ipsi, contra, dual cells
+\end_layout
+
+\begin_layout Itemize
+what fraction of these are excitatory, and what fraction of these are inhibitory
+\end_layout
+
+\begin_layout Standard
+The location of the neurons in this dataset were apprximately in the same
+ region as in the study by Miri, et.
+ al, Daie et al.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "ZfishBib,,"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename NewFigure1.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Registration of functionally imaged larval zebrafish to serial electron
+ microscope images.
+ (A) Schematic of the experimental setup with an example of the functional
+ data that is obtained from two-photon light microscopy of calcium dye,
+ during saccadic behavior.
+ (B) Serial electron microscopy of same zebrafish from A, sections are collected
+ on tape in an automated manner, images at low-res are use to align the
+ sections, followed by images at high-resolution over the region of interest.
+ 3D volume of the imaged area.
+ (C) Registration of LM volume to EM volume to locate the cells that were
+ involved in the behavior.
+ Arrows indicate the same features in both LM and EM.
+ (D) Anatomical location of all cell bodies involved in the behavior along
+ with anatomical landmarks from the EM volume.
+ (E) Functional data showing the average saccadic response for all cells.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename NewFigure2.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+VPNI cell anatomical features, reconstructed from EM volume.
+ (A) Example of VPNI cell showing axon (dark segments) and dendrite (light
+ segments) with pre and postsynaptic locations.
+ Parts of the axon of this VPNI cell are myelinated.
+ Insets, (black dots) show the start, middle and the end of a myelinated
+ segment of the axon.
+ Other myelinated segments are highlighted in the colored box.
+ Open arrow heads show the location of axon initiation zones along the neurite.
+ (B) Example VPNI cell with putative-axon that is engulfed by glial processes
+ before crossing the midline (inset right- colored segments are glial).
+ Microtubule rich neurite that emerges from cell somata show in left inset.
+ (C) VPNI cells with putative-axon that is engulfed by glia before midline
+ crossing (right inset).
+ Ipsilateral axon and dendrite also present for this VPNI cell.
+ (D) VPNI cells with single neurite that branches to give rise to axon and
+ dendrites.
+ Axon is studded with presynaptic sites that are clustered along neurite.
+ Inset is a 3D reconstruction of axon termination zone with large vesicle
+ cloud with multiple post synaptic densities opposed to the vesicles.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename NewFigure3_WithBG.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+VPNI cells with distinct axonal projection patterns.
+ (A) VPNI cell with ipsilateral projecting axons- group1.
+ (B) VPNI cells with ipsilaterally projection axons and midline crossing
+ putative-axon – group2.
+ (C) VPNI cells with midline crossing putative-axon – group3.
+ (D) VPNI cells with unknown axonal projection – group4.
+ (E) Average tree length of integrator neurons from each group.
+ (F) Number and length of axonal collaterals for ipsilaterally projecting
+ axons reconstructed from EM and dye fill LM volumes.
+ (G) Range of axonal and dendritic lengths for each group.
+ (H) Average diameter of axon and dendrite for each group.
+ Scale bar is 20um.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename NewFigure4.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Synaptic distributions for VPNI cell groups.
+ (A) Two representative VPNI cells with ipsilaterally projecting axons along
+ with pre and postsynaptic sites.
+ (B) VPNI cell with ipsilateral axon and contralateral putative axon.
+ (C) Cells with contralateral putative-axon.
+ (D) cells with unkown axonal projections.
+ (E) Average number of synapses for each group.
+ (F) Fraction of pre and postsynapses from each group.
+ (G) Distribution of pre and postsynaptic path-lengths for each group.
+ (H) Distribution of inter-post and presynaptic sites.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename NewFigure5_Small.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Synaptic connections between VPNI cells from different groups.
+ (A) Three views of direct synaptic connections between VPNI cells form
+ different groups.
+ Presynaptic cell form group1 (arrow) makes synapses onto other group1 cells
+ (pink) and onto group3 cells.
+ (B) Minimum distance between axons of presynaptic trees and dendrites of
+ postsynaptic trees.
+ (C) Presynaptic trees that contain nodes that are within 1 um of a postsynaptic
+ tree.
+ Red dots are synapses that are show in A.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
