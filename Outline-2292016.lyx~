@@ -1,0 +1,278 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans helvet
+\font_typewriter default
+\font_math auto
+\font_default_family sfdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes true
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\bar under
+Outline - 222016
+\change_inserted 78966105 1457466100
+
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 78966105 1457553134
+- talk abt the circuit like a sensory-motor circuit, where there is some
+ sensory input to the system, and there is some local computation that is
+ happening
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\change_inserted 78966105 1457553140
+what are the local computations that are happening during SMI
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 78966105 1457553253
+Are these the same as 'transformations'
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 78966105 1457553264
+unlike a reflex arc, where there is not much of a transformation of the
+ input to the output, here we see that there is some degree of local computation
+ that is happening, that is not purely reflex arc like.
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 78966105 1457553914
+is that true?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\change_inserted 78966105 1457553988
+To understand local computations that are happening in these circuits, we
+ need some information about the neurons that are participating in these
+ local computations
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\change_inserted 78966105 1457554012
+What is are these pieces we need?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\change_inserted 78966105 1457554016
+function
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 78966105 1457554023
+structure
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 78966105 1457554031
+genetic identity
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+\change_inserted 78966105 1457553570
+what are the requirements for local computations to happen
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\change_inserted 78966105 1457553585
+what are the network requirements
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 78966105 1457553596
+do they have to be recurrently connected 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\change_inserted 78966105 1457466249
+- how do we extrapolate some of these findings
+\end_layout
+
+\begin_layout Itemize
+The larval zebrafish is fast becoming a very promising vertebrate model
+ organism for circuit based neuroscience.
+ It offers the convenience of powerful genetic tools, well stocked mutant
+ libraries and more importantly for circuit neuroscience, the ability to
+ perform whole-brain imaging (Rainer review).
+ The transparent brain of the larval zebrafish, coupled with genetic calcium
+ based reporters and light-sheet microscopy, has allowed unprecedented ability
+ to image from the whole brain (Arhens paper).
+ 
+\change_deleted 78966105 1457021219
+In order to tease apart circuits comprehensively, often researchers adopt
+ a 'reverse-engineering' approach to determine the exact nature of the neuronal
+ function to behavior.
+
+\change_unchanged
+ 
+\change_deleted 78966105 1457021197
+One such tool that is often used in the c.elegans commiuinty is the connectome
+ - the entire wring diagram of the worm (Bargmann papers).
+
+\change_unchanged
+ 
+\change_inserted 78966105 1457021460
+Recent advances in high-throughput electron microscopy now allows us to
+ integrate detailed anatomical features from physiologically recorded cells
+ ( Brigmann papers etc.).
+ 
+\change_unchanged
+Here we attempt to reconstruct the precise 
+\change_deleted 78966105 1457021493
+connectivity
+\change_inserted 78966105 1457021499
+ anatomical structure
+\change_unchanged
+ 
+\change_inserted 78966105 1457021539
+of previously recorded 
+\change_deleted 78966105 1457021528
+among
+\change_unchanged
+ neurons 
+\change_deleted 78966105 1457021508
+- the wiring diagram
+\change_unchanged
+, 
+\change_inserted 78966105 1457021547
+from 
+\change_deleted 78966105 1457021545
+in
+\change_unchanged
+ the oculomotor circuit of the larval zebrafish
+\change_inserted 78966105 1457021566
+, using high-throughput electron microscopy techniques 
+\change_unchanged
+.
+ We correlated functional light microscopic imaging with serial electron
+ microscopy to reconstruct multiple neurons from the hindbrain of the larval
+ zebrafish, which were specifically involved in the task of velocity-to-positon-
+neural-integration (VPNI).
+ We validated previous results, showing, that there are different classes
+ of cells that make up the VPNI and observed a potential new class of cells,
+ previously unknown, that had axonal projections ipsilaterally and contralateral
+ly.
+ These cell classes had varying dendritic arborization patterns and axonal
+ projections.
+ Axons of VPNI cells were observed to give rise to collaterals that overlapped
+ with the dendritic field of other cells, suggesting the possibility of
+ recurrent synaptic feedback between these cells.
+ We were able to map the number of inputs and outputs and observed that
+ on average there were three times more inputs as compared to outputs from
+ these cells.
+ Lastly, we answered a long standing question in systems neuroscience and
+ observed that integrator cells are synaptically connected, specifically,
+ cells from the same class synapses onto each other.
+ 
+\end_layout
+
+\begin_layout Standard
+- we have the first serial em reconstructions of these cells.
+\end_layout
+
+\begin_layout Standard
+- structure, anatomy
+\end_layout
+
+\begin_layout Standard
+- we can provide anatomy of these physilogically identified neurons
+\end_layout
+
+\begin_layout Standard
+- tone down the language
+\end_layout
+
+\end_body
+\end_document
