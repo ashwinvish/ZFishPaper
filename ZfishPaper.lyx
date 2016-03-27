@@ -128,10 +128,35 @@ Introduction
 A promising approach for relating physiology and anatomy of neural circuits
  is to perform two-photon calcium imaging of neural activity in the living
  brain, followed by serial electron microscopy of the same brain.
- This has been carried out successfully for the mouse retina (Briggman et
- al.
- 2011) and primary visual cortex (Bock et al.
- 2011).
+ This has been carried out successfully for the mouse retina (
+\change_inserted 78966105 1459120830
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Briggman:2011ct"
+
+\end_inset
+
+
+\change_deleted 78966105 1459120821
+Briggman et al.
+ 2011
+\change_inserted 1172979425 1458831576
+) and primary visual cortex (
+\change_inserted 78966105 1459120852
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Bock:2011fk"
+
+\end_inset
+
+
+\change_deleted 78966105 1459120835
+Bock et al.
+ 2011
+\change_inserted 1172979425 1458831576
+).
  Here we report the application of this approach to a population of neurons
  defined by their encoding of behavioral variables.
  
@@ -144,9 +169,30 @@ We studied the population of premotor neurons defined by their encoding
  of eye position.
  This population makes up the neural circuit known as the "velocity-to-position
  neural integrator," or "neural integrator" for short (cite).
- In fish (cite), rodents (cite), non-human primates (cite), and humans (cite),
- the neural integrator is the "final common pathway" for all types of eye
- movements.
+ In fish (
+\change_inserted 78966105 1459121460
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Pastor:1994tx,Aksay:2000cn,Aksay:2001fx"
+
+\end_inset
+
+
+\change_inserted 1172979425 1458831684
+), rodents (), non-human primates (
+\change_inserted 78966105 1459122278
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Robinson:1975vm,Robinson:1989wt"
+
+\end_inset
+
+
+\change_inserted 1172979425 1458831684
+), and humans (cite), the neural integrator is the "final common pathway"
+ for all types of eye movements.
  This neural circuit performs the computational operation of integration
  with respect to time.
  The mechanisms supporting temporal integration remain unclear even after
@@ -182,7 +228,18 @@ For comparison, a total of 3004 cell bodies were identified in the imaged
 \end_inset
 
 an estimated 100 integrator neurons in total exist on each side of the hindbrain
- (cite).
+ (
+\change_inserted 78966105 1459122451
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2003un"
+
+\end_inset
+
+
+\change_inserted 1172979425 1458900504
+).
  
 \end_layout
 
@@ -1401,7 +1458,7 @@ integrator
 
 \change_deleted 78966105 1458993626
  
-\change_inserted 78966105 1458996714
+\change_inserted 78966105 1459078087
  In our reconstructions, we did not observed any immediate feature along
  a neurite that emerged from the soma, which led us to label it as axonal
  or dendritic.
@@ -1423,7 +1480,14 @@ integrator
  9.55 mm.
  In some cases, the neurite of the cells exited the volume and were thus
  pre-maturely reconstructed.
- To asses the degree of completness of the cells that were reconstructed,
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1459078087
+To asses the degree of completness of the cells that were reconstructed,
  we compared the EM reconstructions of the cells with the long-range axons
  to previously reported LM recontructions of similar neurons (
 \begin_inset CommandInset citation
@@ -1435,6 +1499,13 @@ key "Lee:2015dv"
 ).
  We did not observe any significant difference in the total number of axonal
  collaterals and the length of these collaterals (sup fig).
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1504,7 +1575,7 @@ The postsynaptic densities that were observed , were consistent darkenings
 
 \begin_layout Standard
 
-\change_inserted 78966105 1459074396
+\change_inserted 78966105 1459074574
 We also observed a consistent darkening of the membrane with intermediate
  gaps over multiple serial-sections along the somal mebrane that resembled
  gap junctions (sup fig), consistent with evidence in the developing larval
@@ -1523,34 +1594,136 @@ key "Jabeen:2013fm"
 
 \begin_layout Subsubsection*
 
-\change_inserted 78966105 1458989819
-Dendrites
-\end_layout
-
-\begin_layout Subsubsection*
-
-\change_inserted 78966105 1458989833
-Caliber of neurites
-\end_layout
-
-\begin_layout Subsubsection*
-
-\change_inserted 78966105 1458989840
-Putative axons
-\end_layout
-
-\begin_layout Subsubsection*
-
-\change_inserted 78966105 1458989856
-possible electrical synapses
+\change_inserted 78966105 1459074714
+Axons
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted 78966105 1458989896
+\change_inserted 78966105 1459113295
+We annoated those neurites as axonal, as defined by the existance of presynaptic
+ vesicles.
+ These axons were observed to project on the ipsilateral side of the volume,
+ and were exclusively from the first cluster of cells, located rostrally,
+ very close to the midline.
+ An interesting observation that we made was the neurites that were identified
+ as axonal, did not necessarily begin being axonal.
+ In fact, in most cases, these neurites contained many postsynaptic sites
+ , before the emergence of the axonal segment (open arrow head in fig2).
+ We also observed that in one case, the axon of the cell was myelinated
+ along the rostrocaudal section of the axon (fig 2A, highlighted regions).
+ The myelination was not present uniformly throughout the axon, but along
+ small segments of the axon.
+ In one case, the myelination terminated briefly for a collateral and subsequent
+ly resumed myelination.
+ Myelin sheaths have been previously seen in larval zebrafish spinal cord
+ neurons and wrap these cells in an activity dependent manner 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mensch:2015hy,Hines:2015gu"
+
+\end_inset
+
+.
+ 
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1459076651
+The main trunk of the axon was oriented along the rostrocaudal direction
+ with a tilt in the dorsoventral axis, such that the rostral regions were
+ more ventral to the caudal, ventral region.
+ From the main trunk, we observed mediolateraly occuring branches, throughout
+ the lenght of the axons.
+ Some of these mediolateral branches at the rostral edge of the volume seemed
+ to overlap with, and synapse onto other dendrites, roughly with the location
+ of the abducens motor nuceli in the larval zebrafish.
+ All such mediolateral branches were termed as collaterals.
+ In total, we reconstructed 2.7 mm of axons 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1459076569
+this number includes axon+putative axon
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+, in the imaged volume.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+
+\change_inserted 78966105 1459076251
+Dendrites
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1459113545
+Dendrites were defined by the absence of presynaptic vesicles and the presence
+ of postsynaptic densities.
+ The dendrites were oriented mostly along the mediolateral axis, with some
+ of the cells at the lateral most extent, displying dendrites that had rostrocau
+dally projecting dendrites.
+ A small fraction of the synapses on the dendrites were on spines 3% ( 89/2229),
+ but the large fraction of the synapses were aspiny.
+ In general, we observed two types of dendritic arbor fields, cells with
+ large dendritic arbor filds and cells with short dendritic fields.
+ In some of the large cases, the dendrite exited the imaged volume.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\change_inserted 78966105 1459081899
+Caliber of neurites
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1459120469
+We measured the diameter of the axon and the dendrites for all integrator
+ cells in the imaged volume.
+ The mean dendritic diameter 0.28±0.03 µm was significantly larger than the
+ mean axonal diameter 0.12±0.08 µm (p = 
+\begin_inset Formula $3.5x10^{-5}$
+\end_inset
+
+, ttest).
+ This was consitent for all the integrator cells with axons that projected
+ inside the ipsilateral volume.
+ Previous reconstruction of integrator cells was performed by dye injections
+ and light microscopic imaging (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+).
+ This study annotated axons and dendrites based on the thickness of the
+ neurites.
+ However, as we discoved, the diameteres of these neurites are very close
+ to the diffraction limit of light ( Rayleigh resolution ~300nm, for 488nm
+ wavelength, NA =1) .
+ This can potentially confound the interpretation of some of these results,
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1459094911
 An interesting feature that we observed in all of the cells was the presence
  of a neurite that was enriched with microtubules, that typically projected
- <1µm from the cell body.
+ <1 µm from the cell body.
  In some cases, this neurite terminated inside glial like processes, but
  these neurites were devoid of any features other that microtubules ( fig
  2D, left panel).
@@ -1559,52 +1732,22 @@ An interesting feature that we observed in all of the cells was the presence
 
 \begin_layout Subsubsection*
 
-\change_inserted 78966105 1458989905
-Groups based on projections
-\end_layout
-
-\begin_layout Subsubsection*
-VPNI cells have specific axonal projection patterns 
+\change_inserted 78966105 1459082805
+Putative axons
 \end_layout
 
 \begin_layout Standard
-Previously it was reported that the VPNI cells in the hindbrain comprised
- of at least 3 groups of cells (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Lee:2015dv"
 
-\end_inset
-
-), where the groups corresponded with stereotypic axonal projection patterns.Thes
-e groups were either glutamatergic or GABAergic in their neurotransmitter
- identity.
- However, in previous studies, axons were identified from light microscopic
- images of cells that were dye filled, and were inferred based on the thickness
- of the neurite (confirm).
- However, the real identity of the axon can be confirmed by the presence
- of presynaptic terminals along the neurite, which is possible to observe
- from ultrastructural images.
- 
-\end_layout
-
-\begin_layout Standard
-During the course of reconstruction, we noticed that the VPNI neurons had
- specific axonal projection patterns.
- From the reconstruction of all VPNI cells, 8/22 or 36% of the cells had
- neurites that were considerer as axonal ( confirmed with the presence of
- presynaptic sites).
- In general, the axons tended to have long shaft-like projections, with
- collaterals that emerged form this shaft.
- For these 7 cells, the axon did not emerge from the cell somata, insted,
- it emerged from a secondary or tertiary dendrties.
- Whereas for other cells, there were putative-axon like neuites that crossed
- the midline and projected contralaterally.
- These neurites that projected to the contralateral side were engulfed by
- glial like processes just before the midline crossing.
- It is know that in the larval zebrafish, there exists astrocytes that are
- expressed along the midline that form a `glial bridge' that are necessary
- for axon guidance (
+\change_inserted 78966105 1459114086
+We noticed that a few of the neurites that crossed the midline shared common
+ features.
+ First, these neurites were 'bare', and devoid of any pre- or postsynaptic
+ sites.
+ Second, before crossing the midline, the neurite became engulfed by processes
+ that appeared glial in nature (Fig 2C).
+ These features are typical of axons.
+ The glial engulfment is consistent with the idea of glial bridges that
+ are instrumental in axonal guidance during development (
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Barresi:2005iw"
@@ -1612,12 +1755,21 @@ key "Barresi:2005iw"
 \end_inset
 
 ).
- Since, these glial-bridges are involved primarily in axonal guidance, the
- processed they engulf, before crossing the midline were considered putative-axo
-ns.
- 
-\change_inserted 1172979425 1458904497
+ The lack of presynaptic sites is similar to some of the initial segments
+ of the ipsilaterally projecting axons, where there were no presynaptic
+ terminals in the early part of the axon, and the occurance of presynaptic
+ sites emerged only later on.
+ Finally, the diameter of these neurites were similar to the diameters of
+ ipsilaterally projecting axons (sup figure).
+ We therfore infer that these neurites are contralaterally projecting axons.
+\change_unchanged
 
+\end_layout
+
+\begin_layout Subsubsection*
+
+\change_inserted 78966105 1458989905
+Groups based on projections
 \end_layout
 
 \begin_layout Standard
@@ -1668,8 +1820,11 @@ ipsilaterally projecting cells, where the dendrites and axons are labeled
  with lines of different thickness
 \change_unchanged
 .
- The axons were clearly identified by the presence of en passant boutons
- and presynaptic vesicle clouds all along the neurite.
+ The axons were clearly identified by the presence of 
+\emph on
+en passant
+\emph default
+ boutons and presynaptic vesicle clouds all along the neurite.
  The cell bodies 
 \change_deleted 1172979425 1458903495
 of these cells
@@ -1748,73 +1903,28 @@ ig 3A).
 \end_layout
 
 \begin_layout Standard
-An interesting observation that we made was the neurites that were identified
- as axonal, did not necessarily begin being axonal.
- In fact, in most cases, these neurites contained many postsynaptic sites
- , before the emergence of the axonal segment (open arrow head in fig2).
- We also observed that in one case, the axon of the cell was myelinated
- along the rostrocaudal section of the axon (fig 2A, highlighted regions).
- The myelination was not present uniformly throughout the axon, but along
- small segments of the axon.
- In one case, the myelination terminated briefly for a collateral and subsequent
-ly resumed myelination.
- Myelin sheaths have been previously seen in larval zebrafish spinal cord
- neurons and wrap these cells in an activity dependent manner 
-\change_deleted 1172979425 1458903615
-(
-\change_unchanged
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Mensch:2015hy,Hines:2015gu"
-
-\end_inset
-
-
-\change_deleted 1172979425 1458903617
-)
-\change_unchanged
-.
- 
-\change_inserted 1172979425 1458903344
-
-\end_layout
-
-\begin_layout Standard
 The average length of the axons from all ipsilaterally projecting cells
 \change_deleted 1172979425 1458903348
 cells
 \change_unchanged
  was 270.05±244.06 µm with the longest reconstructed axon being 683.39 µm (
  fig 3G)).
- Similarly, we also measured the diameter of the axons from these cells.
- The diameter of the axons from these cell was on average 0.20±0.15 µm ( fig
- 3H).
+ Similarly, the diameter of the axons from these cells average 0.
+\change_inserted 78966105 1459116148
+18
+\change_unchanged
+±0.
+\change_inserted 78966105 1459116156
+038
+\change_unchanged
+ µm ( fig 3H).
+ Dendrites
+\change_deleted 78966105 1459116391
  
-\change_inserted 1172979425 1458903641
-
-\end_layout
-
-\begin_layout Standard
-Dendrites 
-\change_deleted 1172979425 1458903672
-of cells in this group
 \change_unchanged
- extended laterally f
-\change_deleted 1172979425 1458903674
-o
-\change_unchanged
-r
-\change_inserted 1172979425 1458903675
-o
-\change_unchanged
-m 
-\change_deleted 1172979425 1458903684
-the
-\change_unchanged
- 
-\change_deleted 1172979425 1458903682
-cells
+ extended laterally from
+\change_deleted 78966105 1459116404
+  
 \change_unchanged
  somata and were always ventral to the cell somata.
  Dendrites arborized over a large area with the dendritic fields of these
@@ -1828,17 +1938,53 @@ cells
 The dendrites were also found be arborize along the dorsoventral axis with
  peak arborization at a depth of 35.6±8.4 µm ventral to the cells somata (sup
  fig).
- The mean axonal diameter was 0.18±0.03 µm and the mean dendritic diameter
- was 0.25±0.04 µm, which was significantly different ( p = 0.01, ttest).
- The distribution of all axonal and dendriti
-\change_deleted 1172979425 1458903722
-t
+ The
+\change_deleted 78966105 1459116258
+ 
 \change_unchanged
-c diameters over the length of the tree was also significantly different
- ( p<1e-5, Kolmogorov-Simirinov test).
+ mean dendritic diameter was 0.25±0.04 µm
+\change_inserted 78966105 1459116229
+.
+\change_deleted 78966105 1459116228
+,
+\change_unchanged
+ which was significantly different ( p = 0.01, ttest).
+ 
+\change_inserted 78966105 1459116713
+
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 78966105 1459117059
+Cells in 
+\emph on
+group1
+\emph default
+, with ipsilaterally projecting axons, had, the largest number of both pre-
+ and postsynaptic sites.
+ Two representative cells with ipsilaterally projecting axons, presynaptic
+ terminals (green squares) and postsynaptic terminals (red dots) along the
+ dendrites is shown in fig4.
+ We highlighted the one case, where the dendrites of a cell in this group
+ projected to the contralateral side.
+ This neuite, however had postsynaptic sites at this location, and canbe
+ considered dendritic.
+ We observed presynaptic sites along the axon at the ventrorostral extent
+ of the axon, which corresponds with the location of the abducens nuclei.
+ On average, cells in this group contained 174.83±88.09 postsynaptic sites,
+ and 56.5±52.75 presynaptic sites.
+ The average pathlength of postsynaptic sites was 237.82±133.08 µm from the
+ cell soma, whereas the average presynaptic pathlenght was 618.43±208.29 µm
+ from the cell soma.
+ Cells tend have postsynaptic sites proximal to the cell somata, whereas
+ presynaptic sites at least ~150 µm away from the cell somata.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1459117059
 One of the ways in which VPNI cells are though to achieve persistent firing
  is by the presence of local excitatory recurrent connections.
  If this were the case, we would expect the axons of cells have collaterals,
@@ -1849,7 +1995,9 @@ One of the ways in which VPNI cells are though to achieve persistent firing
  and compared them to the collaterals from similar VPNI cells with ipsilateral
  axons that were reconstructed from dye filled using LM.
  We noticed that both collateral path length and number of collaterals between
- LM and EM were not significantly different ( p>0.05, ttest).
+ LM and EM were not significantly different ( p>0.05, ttest) ( sup fig).
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1860,18 +2008,14 @@ Ipsi- and contra projecting (group 2)
 \emph default
 \bar default
 - 
-\change_deleted 1172979425 1458903737
-A hand full of
 \change_inserted 1172979425 1458903738
 Two
 \change_unchanged
- cells 
-\change_deleted 1172979425 1458903741
-(n=2/22 or 9% of cells)
+ cells
+\change_deleted 78966105 1459082745
+ 
 \change_unchanged
  had axons with 
-\change_deleted 1172979425 1458903808
-two
 \change_inserted 1172979425 1458903811
 both ipsilateral and contralateral
 \change_unchanged
@@ -1887,199 +2031,26 @@ ig 2C)
 
 \change_unchanged
  
-\change_inserted 1172979425 1458903895
+\change_inserted 1172979425 1458904048
 The ipsilateral projection resembled the axons of group1 cells (Fig.
  2C, 3B)
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 1172979425 1458903908
-One of the two axons was on the ipsilateral side with 
-\emph on
-en passant 
-\emph default
-boutons containing vesicles opposing postsynaptic densities.
- This axon was similar to the ipsilaterally projecting axons that were previousl
-y noticed in 
-\emph on
-group1
-\emph default
+\change_inserted 78966105 1459082768
 .
- In general the length of the axon on the ipsilateral sidewas of similar
- in length to the axons from 
-\emph on
-group1.
-
-\emph default
- The ipsilaterally projecting axon, was similar, in morphological features
- to the ipsilateral projecting axons from 
-\emph on
-group1.
  
-\emph default
-The axonal segment on the ipsilateral side, emerged, like the axons in 
-\emph on
-group1
-\emph default
-, along a secondary dendrite, ventral to the cells somata ( fig 2C, open
- arrow head).
- The axons were tilted along the dorsoventral axis, with the rostral segment,
- extending towards abducens and the ventral segment further into the hindbrain
- (fig 3B).
- 
-\change_inserted 1172979425 1458903779
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 1172979425 1458904045
-These
 \change_inserted 1172979425 1458904048
 In both
 \change_unchanged
  cells
-\change_inserted 1172979425 1458904186
+\change_inserted 1172979425 1458904354
 , another neurite crossed the midline.
  We infer that this neurite is a contralaterally projecting axon.
  This cannot be confirmed with certainty, because its presynaptic sites
  are on the contralateral side of the hindbrain, outside the imaged volume.
- Our inference is based on a number of cues.
- 
-\change_deleted 1172979425 1458904213
- contained another projection that was putatively an axon.
- These midline crossing putative-axons shared some of their features with
- ipsilaterally projecting axons and had other unique features.
- The f
-\change_inserted 1172979425 1458904213
-F
-\change_unchanged
-irst
-\change_inserted 1172979425 1458904216
-,
-\change_unchanged
- 
-\change_deleted 1172979425 1458904219
-of these features is the fact
-\change_unchanged
- these neurites were 'bare'
-\change_inserted 1172979425 1458904232
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 1172979425 1458904237
-Does this mean no postsynaptic sites either?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
- for the most part, similar to some of the initial axonal segments of ipsilatera
-lly projecting neurites where there were no presynaptic terminals
-\change_deleted 1172979425 1458903782
+ Our inference is based on a number of cues
+\change_inserted 78966105 1459117144
+ as mentioned previously.
  
 \change_unchanged
-.
- Second, 
-\change_deleted 1172979425 1458904256
-they
-\change_inserted 1172979425 1458904265
-before crossing the midline, the neurite became
-\change_unchanged
- 
-\change_deleted 1172979425 1458904267
-were
-\change_unchanged
- engulfed by 
-\change_deleted 1172979425 1458904273
-glial like
-\change_unchanged
- processes
-\change_inserted 1172979425 1458904307
- that appeared glial in nature (Fig 2C)
-\change_deleted 1172979425 1458904287
-, just before crossing the midline
-\change_inserted 1172979425 1458904305
-.
-\change_deleted 1172979425 1458904287
-,
-\change_unchanged
- 
-\change_inserted 1172979425 1458904305
-This is 
-\change_unchanged
-consistent with the idea of glial
-\change_inserted 1172979425 1458904305
- 
-\change_deleted 1172979425 1458904293
--
-\change_unchanged
-bridges that are instrumental in axonal guidance during development (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Barresi:2005iw"
-
-\end_inset
-
-)
-\change_deleted 1172979425 1458904303
- (fig 2C)
-\change_unchanged
-.
- 
-\change_deleted 1172979425 1458904310
-And
-\change_unchanged
- 
-\change_inserted 1172979425 1458904311
-T
-\change_deleted 1172979425 1458904311
-t
-\change_unchanged
-hird
-\change_deleted 1172979425 1458904313
-ly
-\change_unchanged
-, the diameter
-\change_inserted 1172979425 1458904331
-s
-\change_unchanged
- of these neurites 
-\change_deleted 1172979425 1458904332
-was
-\change_inserted 1172979425 1458904332
-were
-\change_unchanged
- similar to 
-\change_inserted 1172979425 1458904318
-the 
-\change_unchanged
-diameter
-\change_inserted 1172979425 1458904334
-s
-\change_unchanged
- of 
-\change_inserted 1172979425 1458904327
-ipsilaterally projecting 
-\change_unchanged
-axons 
-\change_deleted 1172979425 1458904337
-on the ipsilateral side
-\change_unchanged
- (sup figure).
- 
-\change_inserted 1172979425 1458904354
-
-\end_layout
-
-\begin_layout Standard
 The 
 \change_inserted 1172979425 1458904352
 putative 
@@ -2087,8 +2058,6 @@ putative
 contralaterally pro
 \change_inserted 1172979425 1458904347
 j
-\change_deleted 1172979425 1458904347
-i
 \change_unchanged
 ecting axon emerged 
 \change_inserted 1172979425 1458904358
@@ -2099,50 +2068,69 @@ from the soma
 ta
 \change_unchanged
  in one 
-\change_deleted 1172979425 1458904366
-case
 \change_inserted 1172979425 1458904366
 cell
 \change_unchanged
-, and 
-\change_deleted 1172979425 1458904374
-as a 
-\change_unchanged
-branch
+, and branch
 \change_inserted 1172979425 1458904376
 ed
 \change_unchanged
  from the ipsilaterally projecting axon in the other 
-\change_deleted 1172979425 1458904379
-case
 \change_inserted 1172979425 1458904379
 cell
 \change_unchanged
 .
  In both cases, the midline cross-over happened at locations that were ventral
  to the cells somata.
- 
-\change_inserted 1172979425 1458904305
-
-\end_layout
-
-\begin_layout Standard
-The average length of the axons in this group was 277±22 µm which was very
+ The average length of the axons in this group was 277±22 µm which was very
  similar to the length of the axons from 
 \emph on
 group1.
  
 \emph default
-Similarly, the dendrites of cells in the group had an average length of
- 419.3±178 µm.
+Similarly, the dendrites of 
+\change_inserted 78966105 1459116550
+the 
+\change_unchanged
+cells in the group had an average length of 419.3±178 µm.
+
+\change_inserted 78966105 1459116563
+ 
+\change_unchanged
+The average diameter of the axons from this group was 0.2±0.02 µm and that
+ of dendrites was 0.21±0.01 µm.
+ 
+\change_inserted 78966105 1459117123
+
 \end_layout
 
 \begin_layout Standard
-The average diameter of the axons from this group was 0.2±0.02 µm and that
- of dendrites was 0.21±0.01 µm.
- The sample size from this group was too small to test if the average diameters
- were from independent samples.
+
+\change_inserted 78966105 1459117288
+Integrator cells from this group were located more lateral to the cells
+ from 
+\emph on
+group1.
  
+\emph default
+Cells in the group also, had more postsynaptic sites as compared to presynaptic
+ sites.
+ These neurons on average had 126.5±70 postsynaptic sites, and 33.5±7.77 presynapti
+c (fig 4E).
+ Interesting, the cells in
+\emph on
+ group1
+\emph default
+ and in 
+\emph on
+group2
+\emph default
+ had very similar ratios of outputs to inputs (~3).
+ Like in the previous group, there was a clear demarkation in the location
+ of post- and presynaptic sites, with presynaptic sites being more distal
+ as compared to postsynaptic sites.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -2152,35 +2140,61 @@ The average diameter of the axons from this group was 0.2±0.02 µm and that
 Contralaterally projecting (group3)
 \emph default
 \bar default
-- The cells from this group were located at the caudal most extent (n=8/22
- or 36% of cells) of the imaged volume, they contained exclusively contralateral
-ly projecting putative-axons.
- In all examples of cells in this group, we observed that the neurite that
- crossed the midline was a putative-axon (fig 3C).
+- 
+\change_inserted 78966105 1459117729
+Eight
+\change_unchanged
+ cells from this group were located at the caudal most extent of the imaged
+ volume, they contained exclusively contralaterally projecting putative-axons.
  Although we did not observe any direct presynaptic terminals on any of
- the neurites, we observed that the neurites that crossed the midline satisfied
- the three criteria that we used to check if they were putative-axons.
- These neurites were bare, with no synaptic terminals, they were engulfed
- by glia just before crossing the midline and the diameter of these neurites
- were significantly smaller to the diameter of the dendrites ( fig 2D).
- .
- The average diameter of putative axons was 0.15±0.02 µm and was significantly
- smaller as compared to the dendrites that were on average 0.21±0.02 µm (p
- = 9.9765e-05, ttest).The axonal diameter distribution was also significantly
- different as compared to the dendritic diameter distribution ( p< 1e-04,
- Kolmogorov-Simironov test).
+ the neurites,
+\change_deleted 78966105 1459117820
  
+\change_unchanged
+ the neurites that crossed the midline satisfied the three criteria that
+ we used to check if they were putative-axons.
+ The average diameter of 
+\change_inserted 78966105 1459117843
+the 
+\change_unchanged
+putative axons was 0.15±0.02 µm and was significantly smaller as compared
+ to the dendrites that were on average 0.21±0.02 µm (
+\change_inserted 78966105 1459119455
+
+\begin_inset Formula $p=9.9765*10^{-5}$
+\end_inset
+
+, ttest
+\change_unchanged
+).
+
+\change_inserted 78966105 1459117858
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
 Unlike the previous groups of cells, the axons of these cells almost always
  (one exception) emerged from the somata of the cell, and crossed the midline
  at locations ventral to the cells somata.
- In some cases it was noticed that a collateral emerged from these mid-line
- crossing neurites, but they were found to be dendritic in nature (fig 2D,
- open arrow head).
- The dendrite from cells belonging to this group, on average were 292.41±69.75
- µm in length.
+ In 
+\change_inserted 78966105 1459117969
+one
+\change_unchanged
+ case
+\change_inserted 78966105 1459119466
+ we noticed collaterelas from this midline crossing putative axon on the
+ ipsilateral side.
+ This however contained only postsynaptic sites, and was considered dendritic
+ 
+\change_unchanged
+(fig 2D, open arrow head).
+ The dendrite
+\change_inserted 78966105 1459118035
+s
+\change_unchanged
+ from cells belonging to this group, on average were 292.41±69.75 µm in length.
  This was significantly shorter as compared the dendrites from 
 \emph on
 group1
@@ -2194,15 +2208,20 @@ group1
 group1
 \emph default
 .
- The dendrites of this group of cells tended to arborize very close to their
- cell somata, with the peak of the arborization at 8.6±7.3 µm ventral to the
- somata ( sup fig).
- The depth at which the dendrites from this group stratify was significantly
- more dorsal as compared to the depth at which cells form 
+ 
+\change_inserted 78966105 1459118541
+On average, these cells received 85.2±39.5 postsynaptic sites, which was significa
+ntly less as compared to the postsynaptic sites on 
 \emph on
 group1
 \emph default
- stratified ( ttest, p < 1e-04).
+ ( 
+\begin_inset Formula $p=0.02$
+\end_inset
+
+, ttest).
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -2212,35 +2231,43 @@ group1
 Unknown projecting (group4)
 \emph default
 \bar default
- - The last group of cells (n=7/22 or 31% of cells) were located at the
- lateral most extent of the volume.
- These cells had no identifiable axon based on the lack of any presynaptic
- sites or the three criterion that we have used so far to identify putative-axon
-s.
+ - The last 
+\change_inserted 78966105 1459118190
+seven
+\change_unchanged
+ cells were located at the lateral most extent of the volume.
  
-\begin_inset Note Note
-status open
+\change_inserted 78966105 1459118266
+For these
+\change_unchanged
+ cells
+\change_inserted 78966105 1459118317
+ we did not find any neurites with presynaptic sites nor did they have any
+\change_deleted 78966105 1459118403
+ 
+\change_unchanged
+ putative-axon
+\change_deleted 78966105 1459118398
+s
+\change_unchanged
+.
 
-\begin_layout Plain Layout
-We believe this is most likely because these cells were not fully represented
+\change_inserted 78966105 1459118419
+ We believe this is most likely because these cells were not fully represented
  in the imaged volume and neurites of these cells exit the volume before
  the axon was located.
- 
-\end_layout
 
-\end_inset
+\change_unchanged
+ The dendrites of the cells in the imaged volume extended medially or in
+ some cases rostrally
+\change_deleted 78966105 1459118441
+,
+\change_unchanged
+.
 
-The dendrites of the cells in the imaged volume extended medially or in
- some cases rostrally,.
- In some cases, the dendrites extended medially, at locations very close
- to the cell somata, whereas in other cases, the dendrites extended medially,
- but gradually along the rostrocaudal extent of the volume.
- The medially extending cells were similar in morphology to the cells from
+\change_inserted 78966105 1459118462
  
-\emph on
-group3.
- 
-\emph default
+\change_unchanged
 The average length of the dendrites for cells from this group was 221.47±48.70
  µm, which was not significantly different compared the the length of the
  dendrites from 
@@ -2249,205 +2276,26 @@ group3
 \emph default
  cells .
  However, the dendrites of these cells were significantly smaller as compared
- to the dendrite from cells in group1 (p<1e-3,ttest).
-\end_layout
+ to the dendrite from cells in group1 (
+\change_inserted 78966105 1459118515
 
-\begin_layout Subsection
-Distribution of synapses on VPNI cells ( figure 4)
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 78966105 1458997056
-We then analyzed the synaptic distribution of all VPNI cells in this imaged
- volume by annotating all pre- and postsynaptic sites during reconstruction.
- Our imaging resolution of 5nm/pixel gave us the ability to annotate all
- synapses very accurately.
- We were able to identify synapses by the presence of a vesicle pool and
- an opposing postsynaptic density darkening for all annotated synapses in
- this volume (fig 2B, EM panels).
- To our knowledge nothing is know about the synaptic distribution of cells
- in the zebrafish hindbrain.
- The most widely studied cell in the hindbrain, at the level of ultrastructure
- is the Mauthner cell, but nothing regarding the ultrastructure of other
- cells in the hindbrain is known.
- In general during the annotation, we labeled those sites as synaptic that
- had a pool of vesicles opposed to a dark postsynaptic density.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-We did not label synapses as being either symmetric or asymmetric, to infer
- neurotransmitter identity, as this is not precise (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Klemann:2011hy"
-
-\end_inset
-
-).
- 
-\end_layout
-
+\begin_inset Formula $p<10^{-}3$
 \end_inset
 
 
 \change_unchanged
-In total we annotated, 406 presynaptic sites and 2229 postsynaptic sites.
- On average a cell had 101.31±74.15 postsynaptic sites and cells thad had
- axons had 58±44.39 presynaptic sites.
+,
+\change_inserted 78966105 1459119487
  
-\end_layout
+\change_unchanged
+ttest).
 
-\begin_layout Standard
-
-\emph on
-\bar under
-group1 neurons
-\bar default
-:
-\emph default
- Cells in 
-\emph on
-group1
-\emph default
-, with ipsilaterally projecting axons, had, the largest number of both pre-
- and postsynaptic sites.
- In figure 4A, we show two representative cells with ipsilaterally projecting
- axons, with presynaptic terminals (green squares) along the axon and postsynapt
-ic terminals (red dots) along the dendrites.
- We also highlighted the one case, where we saw the dendrites of the cell,
- project to the contralateral side.
- We know that the neurite is dendritic, by the presence of postsynaptic
- sites (fig 4A, arrow heads) along the neurite.It can also be observed that
- the postsynaptic sites were more numerous and spread uniformly through
- the length of the tree, however the presynaptic sites were more sparse
- and tended to appear in clusters.
- We also observed clusters of presynaptic sites along the axon at the ventrorost
-ral extent of the axon, which corresponds with the location of the abducens
- nuclei.
- 
-\end_layout
-
-\begin_layout Standard
-On average, cells in this group contained 174.83±88.09 postsynaptic sites,
- and 56.5±52.75 presynaptic sites ( fig 4E) The average pathlength of postsynaptic
- sites was 237.82±133.08 µm from the cell soma, whereas the average presynaptic
- pathlenght was 618.43±208.29 µm from the cell soma (fig 4G, first panel).
- Cells tend have postsynaptic sites were close to the cell somata, whereas
- presynaptic sites that were at least ~150 µm away from the cell somata.
- This is apparent in the distribution of synaptic pathlengths, where there
- is a small overlap between the post- and the presynaptic locations.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-\bar under
-group2 neurons
-\emph default
-\bar default
-: Cells in group 2 had both an ipsilaterally projecting axon and putative
- contralaterally projecting axon.
- The cells, as noted previously, were more lateral to the cells from 
-\emph on
-group1.
- 
-\emph default
-Although, the putative axon had a a few postsynaptic sites very close to
- the cell somata, later on it satisfied the three criteria that we had imposed
- to label it a putative axon.
- Cells in the group tended to have more postsynaptic site as compared to
- presynaptic sites.
- These neurons on an average have 126.5±70 postsynaptic sites, and 33.5±7.77
- presynaptic (fig 4E).
- Interesting, the cells in
-\emph on
- group1
-\emph default
- and in 
-\emph on
-group2
-\emph default
- had very similar ratio of outputs to inputs (~3).
- The distribution of the synapses onto cells in 
-\emph on
-group1
-\emph default
- and 
-\emph on
-group2
-\emph default
- differed ( fig4G, second panel).
- There was a significant difference in the distribution of both pre- and
- postsynaptic sites onto cells from 
-\emph on
-group1
-\emph default
- as compared to cells from 
-\emph on
-group2
-\emph default
- (p = 0.028, p = 0.029, Kolmogorov-Simironov test).
- Like in the previous group, there was a clear demarkation in the location
- of post- and presynaptic sites, with presynaptic sites being more distal
- as compared to postsynaptic sites.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-\bar under
-group3 neurons:
-\emph default
-\bar default
- Cells from this group tended to have much smaller spread of the dendritic
- field (fig4C).
- The putative axons of all cells in this group ( barring one) emerged from
- the somata and crossed the midline at ventral locations.
- Since these cells had a small dendritic field, the dendrites were completely
- encompassed in the imaged volume.
- On average, these cells received 85.2±39.5 postsynaptic sites (fig.4E), which
- was significantly less as compared to the postsynaptic sites on 
-\emph on
-group1
-\emph default
- ( p = 0.02, ttest).
- Similarly, the distribution of the postsynaptic pathlengths sites on these
- cells were highly significant as compared to their distribution on cells
- from 
-\emph on
-group1 
-\emph default
-and 
-\emph on
-group2 
-\emph default
-(p<1e-10,p<1e-4 respectively), with the mean postsynaptic pathlengths as
- 187±115 µm.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-\bar under
-group4 neurons:
-\emph default
- 
-\bar default
-Lastly, we looked at the distribution of postsynaptic sites on the group4
- neurons that were located at the lateral most extent of the volume.
- In these cells, we failed to identify an axon, and most neurites that were
- reconstructed were dendritic in nature, as was observed by the presence
- of postsynaptic sites.
+\change_inserted 78966105 1459119341
  Of the cells that we had in this volume, onaverage there were 40.83±25.11
  postsynaptic sites, which was significantly lesser as compared to the postsynap
-tic sites on all other groups ( p = 0.005, p = 0.02, p = 0.03, ttest) Similarly,
- the distribution of postsynaptic sites on these cells was significantly
- different as compared to the distribution of postsynaptic sites on all
- other groups ( p <1e-38, p< 1e-22, p<1e-18, KStest).
- 
+tic sites on all other groups ( p = 0.005, p = 0.02, p = 0.03, ttest).
+\change_deleted 78966105 1459117397
+
 \end_layout
 
 \begin_layout Standard
@@ -2461,8 +2309,11 @@ Intersynaptic distance:
 \end_layout
 
 \begin_layout Standard
-Next we looked at the intersynaptic distance for all pre- and postsynaptic
- sites.
+
+\change_inserted 78966105 1459119642
+W
+\change_unchanged
+e looked at the intersynaptic distance for all pre- and postsynaptic sites.
  The mean interpostsynaptic distance for all cells was 1.69 um and the mean
  interpresynaptic distance was 1.93 um, and these distributions were not
  significantly different.
@@ -2476,11 +2327,6 @@ group1
 , the inter presynaptic distances had a long tail, with large gaps.
  This was indicative of the clustering of presynaptic sites that was visible
  in fig 4A ( open arrow).
- Next, we looked to see if there distributions of interpre- and postsynaptic
- sites among groups were different.
- We determined that the distributions of both interpre- and postsynaptic
- distance was significantly different between group1 and group2 ( p = 0.02,
- p = 0.001, KStest).
  
 \end_layout
 
@@ -2560,7 +2406,9 @@ key "Kinkhabwala:2011et"
 \end_inset
 
 ).
- Similarly this scaffold was also used to assign the neurotransmitter identity
+ 
+\change_deleted 78966105 1459119757
+Similarly this scaffold was also used to assign the neurotransmitter identity
  to VPNI cells (
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2569,15 +2417,35 @@ key "Lee:2015dv"
 \end_inset
 
 ).
- Here we used a similar approach to infer the neurotransmitter identity
- of the VPNI cells that were reconstructed ( fig 5D).
- We computed a heat-map of the cell density of all cells in the volume over
- a pre-defined depth ( fig 5D, 1-100 cell density).
- When compared to the EM images that were projected over a similar depth,
- we see the emergence of cell body stripes in the hindbrain (fig 5D, 1-100
- EM projection).
- We then projected the cells density onto a simple plane and see the emergence
- of peaks of cells that have a stripe like pattern.
+ 
+\change_unchanged
+Here we used a similar approach to infer the neurotransmitter identity of
+ the VPNI cells that were reconstructed ( fig 5D).
+ We then projected the
+\change_inserted 78966105 1459119798
+ location of all
+\change_unchanged
+ cells density onto a
+\change_deleted 78966105 1459119810
+ simple 
+\change_inserted 78966105 1459119811
+single 
+\change_unchanged
+plane and
+\change_inserted 78966105 1459119817
+ noticed
+\change_unchanged
+ 
+\change_deleted 78966105 1459119823
+see
+\change_unchanged
+ the emergence of peaks of cells
+\change_inserted 78966105 1459119841
+, reminiscent of the
+\change_deleted 78966105 1459119845
+ that have a
+\change_unchanged
+ stripe like pattern.
  We were able to locate 4 stripe at this depth ( fig 5D, bottom panel).
  The medial most peak corresponded to midline cells from the contralateral
  population, as can be see in the EM micrographs, these cells were contralateral
@@ -2596,20 +2464,36 @@ group2,3
 group4
 \emph default
  cells lie under peak4.
- If we extend a similar approach over a larger depth, we start to loose
- the spatial location of peak3 ( fig 5C, 1-1000 cell density).
- This is most likely due to the fact that at this depth, the stripes strart
- to thin out and are no longer visible.
- From previous literature, we can infer that the first stripe on the ipsilateral
+
+\change_inserted 78966105 1459119875
+ 
+\change_unchanged
+From previous literature, we can infer that the first stripe on the ipsilateral
  side (peak2) corresponds with the 
 \emph on
 alx 
 \emph default
-transcription factor that is glutamatergic.
+transcription factor that is glutamatergic
+\change_inserted 78966105 1459121310
+ (Kimura et.
+ al)
+\change_unchanged
+.
  Similarly the second stripe ( peak3) corresponds to the transcription factor
  
 \emph on
-dbx1b.
+dbx1b
+\change_inserted 78966105 1459121409
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kinkhabwala:2011et"
+
+\end_inset
+
+)
+\change_unchanged
+.
 
 \emph default
  VPNI cells that correspond to the dbx1b transcription factor are known
@@ -2627,13 +2511,32 @@ key "Lee:2015dv"
 \emph on
 barhl 
 \emph default
-transcription factor, which is though to be glutamatergic as well.
+transcription factor, which is though to be glutamatergic as well
+\change_inserted 78966105 1459121096
+
+\emph on
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "colombo_zebrafish_2006,Kinkhabwala:2011et"
+
+\end_inset
+
+)
+\change_deleted 78966105 1459121074
+
+\emph default
+.
+\change_unchanged
+
 \emph on
 .
 \end_layout
 
 \begin_layout Section
 Discussion
+\change_inserted 78966105 1459115467
+
 \end_layout
 
 \begin_layout Standard
@@ -2681,13 +2584,45 @@ ties to visit long standing question in system neuroscience, here we re-visit
  cellular tools that are available to systematically correlate function
  to structure.
  More recently, it was discovered that similar function was observed in
- the brain stem of gold fish (Baker papers) and subsequently in larval zebrafish
- ( Aksay paper,Baier paper, Engert paper).
+ the brain stem of gold fish (
+\change_inserted 78966105 1459120702
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2000cn"
+
+\end_inset
+
+
+\change_unchanged
+) and subsequently in larval zebrafish (
+\change_inserted 78966105 1459120608
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Miri:2011ft,Miri:2011ib,goncalves_optogenetic_2014,Portugues:2014fn"
+
+\end_inset
+
+
+\change_unchanged
+).
  Here we use the larval zebrafish as a model system to understand the functional
  architecture of a system that is involved in this task.
  The larval zebrafish is conducive to optical imaging as it is transparent
  during the larval stages, and it is thought that there are ~100 cells unilatera
-lly ( source) in the hindbrain that are involved in the VPNI task.
+lly ( 
+\change_inserted 78966105 1459120735
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2003un"
+
+\end_inset
+
+
+\change_unchanged
+) in the hindbrain that are involved in the VPNI task.
  Inferring functional connectivity by serial electron microscopy was important
  in this system as the larval zebrafish proves to be hard to perform paired
  patch recordings.
@@ -2874,24 +2809,7 @@ The neurons of group1 were located rostrally and at medial locations.
  They had long ipsilaterally projecting axons and large dendritic arbors
  that extended laterally.
  These cells were also observed to have the largest fraction of both pre
- and postsynaptic sites.
- Cells in group2
-\end_layout
-
-\begin_layout Itemize
-First demonstration of number of inputs to a VPNI cell
-\end_layout
-
-\begin_layout Itemize
-Something about effect of distance on the function
-\end_layout
-
-\begin_layout Itemize
-Ratio of inputs/outputs
-\end_layout
-
-\begin_layout Itemize
-stripe inference
+ and 
 \end_layout
 
 \begin_layout Standard
