@@ -70,6 +70,7 @@
 \html_css_as_file 0
 \html_be_strict false
 \author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
+\author 1172979425 "Sebastian Seung" 
 \end_header
 
 \begin_body
@@ -1205,11 +1206,31 @@ General anatomical properties
 
 \begin_layout Standard
 The EM volume contained a total of 3004 somata spread over rhombomeres 5
- through 8.
- This volume also contained well-known landmarks like the Mauthner cell
- (cite), the axon of the contralateral Mauthner cell, MiD2, MiD3 of the
- reticulo-spinal network (cite), and a number of commissural bundles (cite)
- (Fig 1D, panel 1).
+ through 8
+\change_inserted 1172979425 1459376570
+ (Fig.
+ xxx)
+\change_unchanged
+.
+ Th
+\change_inserted 1172979425 1459376574
+e
+\change_deleted 1172979425 1459376574
+is
+\change_unchanged
+ volume also contained well-known landmarks like the Mauthner cell (cite),
+ the axon of the contralateral Mauthner cell, 
+\change_inserted 1172979425 1459376591
+cells 
+\change_unchanged
+MiD2
+\change_inserted 1172979425 1459376594
+ and
+\change_deleted 1172979425 1459376594
+,
+\change_unchanged
+ MiD3 of the reticulo-spinal network (cite), and a number of commissural
+ bundles (cite) (Fig 1D, panel 1).
  
 \end_layout
 
@@ -1425,7 +1446,13 @@ on either side of the synapse,
 \change_unchanged
  
 \change_inserted 78966105 1459257475
-On the presynaptic site we typically noticed 
+On the presynaptic si
+\change_inserted 1172979425 1459376691
+d
+\change_deleted 1172979425 1459376691
+t
+\change_inserted 78966105 1459257475
+e we typically noticed 
 \change_deleted 78966105 1459257479
 with
 \change_unchanged
@@ -1462,6 +1489,25 @@ In total, we annotated 406 presynaptic and 2229 postsynaptic sites on integrator
  This is an underestimate of the number of output synapses from an integrator
  neuron, because most axonal arbors were cut off by the borders of the volume,
  and hence incompletely reconstructed.
+\change_inserted 1172979425 1459376735
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 1172979425 1459376755
+Could also give the average number of presynaptic sites on completely reconstruc
+ted cells.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1514,7 +1560,11 @@ Dendrites were defined by the absence of presynaptic vesicles and the presence
  were oriented rostrocaudally.
  Dendrites were smooth rather than spiny
 \change_inserted 78966105 1459264260
- ( Fig 2 A-D))
+ ( Fig 2 A-D
+\change_deleted 1172979425 1459376770
+)
+\change_inserted 78966105 1459264260
+)
 \change_unchanged
 .
  
@@ -1523,6 +1573,23 @@ Dendrites were defined by the absence of presynaptic vesicles and the presence
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 1172979425 1459376934
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 1172979425 1459376946
+Fix the following to be factually correct.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
 Dendritic arbors fell into large and small classes; see bimodal distribution
  of arbor size in Fig.
  xxx.
@@ -1536,10 +1603,39 @@ Axons
 
 \begin_layout Standard
 We defined axons as neurites with presynaptic vesicles.
- In most cases, neurites that were identified as axonal started as dendrites
+ 
+\change_inserted 1172979425 1459377164
+No axons were observed emerging directly from the cell body.
+ Instead, dendrites bearing postsynaptic sites turned into axons with presynapti
+c sites.
+ 
+\change_deleted 1172979425 1459377173
+In most cases, neurites that were identified as axonal started as dendrites
  when they emerged from the cell body.
- In fact, in most cases, these neurites contained many postsynaptic sites
- , before the emergence of the axonal segment (open arrow head in 
+
+\change_unchanged
+ 
+\change_deleted 1172979425 1459377011
+In fact, in most cases, these neurites contained many postsynaptic sites
+ , before the emergence of the axonal segment
+\change_inserted 1172979425 1459377269
+ Two example dendrite-axon transitions are indicated by
+\change_unchanged
+ 
+\change_inserted 1172979425 1459377023
+the 
+\change_deleted 1172979425 1459377022
+(
+\change_unchanged
+open arrow
+\change_deleted 1172979425 1459377235
+ 
+\change_unchanged
+head
+\change_inserted 1172979425 1459377237
+s
+\change_unchanged
+ in 
 \change_inserted 78966105 1459264270
 F
 \change_deleted 78966105 1459264269
@@ -1551,23 +1647,112 @@ ig
 \change_unchanged
 2
 \change_inserted 78966105 1459264279
- A-D
+ A
+\change_inserted 1172979425 1459377288
+, B
+\change_deleted 1172979425 1459377284
+-D)
 \change_unchanged
-).
- We also observed that in one case, the axon of the cell was myelinated
- along the rostrocaudal section of the axon (
-\change_inserted 78966105 1459264283
-F
+.
+ 
+\change_inserted 1172979425 1459377189
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 1172979425 1459378315
+The main trunk of the axon extended rostrally and ventrally (Fig.
+ xx).
+ From the main trunk emerged mediolateral branches, which we will term collatera
+ls.
+ Those at the rostral extreme of the volume appeared to overlap with the
+ expected location of the abducens motor nucleus (based on its known position
+ relative to the Mauthner cell, cite?).
+ In total, we reconstructed 2.7 mm of axonal length 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 1172979425 1459378310
+correct this number to not include putative axons
+\end_layout
+
+\end_inset
+
+, in the imaged volume.
+ 
+\end_layout
+
+\begin_layout Standard
+We 
+\change_deleted 1172979425 1459377383
+also
+\change_unchanged
+ observed 
+\change_inserted 1172979425 1459377720
+dark sheaths around some axonal segments.
+ In some locations, we saw evidence that the sheath wrapped around the axon
+ multiple times (Fig.
+ 2A), so we inferred that the sheaths were myelination.
+ 
+\change_deleted 1172979425 1459377551
+that in one case, 
+\change_inserted 1172979425 1459377720
+T
+\change_deleted 1172979425 1459377551
+t
+\change_unchanged
+he axon of the cell 
+\change_inserted 1172979425 1459377720
+in Fig.
+ 2A 
+\change_unchanged
+was 
+\change_inserted 1172979425 1459377720
+intermittently 
+\change_unchanged
+myelinated along 
+\change_deleted 1172979425 1459377562
+the
+\change_inserted 1172979425 1459377720
+its
+\change_unchanged
+ rostrocaudal section
+\change_inserted 1172979425 1459377720
+.
+ Mediolateral collaterals emerged from the gaps in myelination, and remained
+ unmyelinated.
+
+\change_deleted 1172979425 1459377679
+ of the axon (F
 \change_deleted 78966105 1459264283
 f
+\change_deleted 1172979425 1459377588
+ig 2A, highlighted regions)
 \change_unchanged
-ig 2A, highlighted regions).
+.
+
+\change_deleted 1172979425 1459377684
  The myelination was not present uniformly throughout the axon, but along
  small segments of the axon.
  In one case, the myelination terminated briefly for a collateral and subsequent
 ly resumed myelination.
+
+\change_unchanged
  Myelin sheaths have been previously seen in larval zebrafish spinal cord
- neurons and wrap these cells in an activity dependent manner 
+ 
+\change_deleted 1172979425 1459377696
+neurons
+\change_unchanged
+ and wrap 
+\change_deleted 1172979425 1459377701
+these cells
+\change_inserted 1172979425 1459377720
+neurons
+\change_unchanged
+ in an activity dependent manner 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Mensch:2015hy,Hines:2015gu"
@@ -1579,6 +1764,8 @@ key "Mensch:2015hy,Hines:2015gu"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 1172979425 1459377718
 The main trunk of the axon was oriented along the rostrocaudal direction
  with a tilt in the dorsoventral axis, such that the rostral regions were
  more ventral to the caudal, ventral region.
@@ -1600,6 +1787,8 @@ this number includes axon+putative axon
 
 , in the imaged volume.
  
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1607,17 +1796,49 @@ Caliber of neurites
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 1172979425 1459379874
+In contrast to the current work, previous light microscopic reconstructions
+ of integrator cells (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+) could not visualize synapses, and therefore inferred whether neurites
+ were axons or dendrites.
+ To investigate the reliability of such inferences, we quantified the caliber
+ of our axons and dendrites.
+ 
+\change_deleted 1172979425 1459378600
 We measured the diameter of the axon and the dendrites for all integrator
  cells in the imaged volume.
- The mean dendritic diameter 0.28±0.03 µm was significantly larger than the
+ 
+\change_inserted 1172979425 1459380384
+For x out of y cells, the mean axonal diameter was less than the mean dendrite
+ diameter.
+ This fits the textbook notion that axons are thinner than dendrites.
+ However, the axon was thicker than the dendrites for the remaining cells,
+ so inference of neurite identity based on caliber would heen erroneous.
+\change_deleted 1172979425 1459380151
+The mean dendritic diameter 0.28±0.03 µm was significantly larger than the
  mean axonal diameter 0.12±0.08 µm (p = 
-\begin_inset Formula $3.5x10^{-5}$
+\begin_inset Formula $p<3.5\times10^{-5}$
 \end_inset
 
 , ttest).
- This was consistent for all the integrator cells with axons that projected
+ T
+\change_inserted 1172979425 1459380152
+ 
+\change_deleted 1172979425 1459380151
+his was consistent for all the integrator cells with axons that projected
  inside the ipsilateral volume.
- Previous reconstruction of integrator cells was performed by dye injections
+
+\change_unchanged
+ 
+\change_deleted 1172979425 1459378721
+Previous reconstruction of integrator cells was performed by dye injections
  and light microscopic imaging (
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1628,10 +1849,34 @@ key "Lee:2015dv"
 ).
  This study annotated axons and dendrites based on the thickness of the
  neurites.
- However, as we discoved, the diameters of these neurites are very close
- to the diffraction limit of light ( Rayleigh resolution ~300nm, for 488nm
- wavelength, NA =1) .
+
+\change_inserted 1172979425 1459378974
+ Furthermore,
+\change_deleted 1172979425 1459378976
+ However, as we discoved, 
+\change_inserted 1172979425 1459378988
+neurite 
+\change_deleted 1172979425 1459378989
+the
+\change_unchanged
+ diameters 
+\change_deleted 1172979425 1459378999
+of these neurites
+\change_unchanged
+ are 
+\change_deleted 1172979425 1459379000
+very
+\change_unchanged
+ close to the diffraction limit
+\change_inserted 1172979425 1459380192
+, so that light microscopic estimation of dendritic diameters could be inaccurat
+e.
+ 
+\change_deleted 1172979425 1459380196
+ of light ( Rayleigh resolution ~300nm, for 488nm wavelength, NA =1) .
  This can potentially confound the interpretation of some of these results.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1648,17 +1893,82 @@ A small fraction
  (3% or 89/2229)
 \change_unchanged
  of the postsynaptic sites 
+\change_deleted 1172979425 1459380524
+resembled
+\change_inserted 1172979425 1459380526
+were located on
 \change_inserted 78966105 1459218946
-resembled finger-like projections from the dendrite, that pinched off the
- body of the dendrite, and was invaginated inside the axon terminal( Fig
- 2B, EM panel 2).
+ finger-like projections from 
+\change_deleted 1172979425 1459380640
+the
+\change_inserted 78966105 1459218946
+ dendrite
+\change_inserted 1172979425 1459380642
+s
+\change_deleted 1172979425 1459380564
+, that pinched off the body of the dendrite,
+\change_inserted 78966105 1459218946
+ 
+\change_deleted 1172979425 1459380581
+and
+\change_inserted 1172979425 1459380582
+that
+\change_inserted 78966105 1459218946
+ 
+\change_deleted 1172979425 1459380653
+was
+\change_inserted 1172979425 1459380658
+were enveloped by
+\change_inserted 78966105 1459218946
+ invaginat
+\change_inserted 1172979425 1459380664
+ions
+\change_deleted 1172979425 1459380662
+ed
+\change_inserted 78966105 1459218946
+ 
+\change_deleted 1172979425 1459380604
+inside
+\change_inserted 1172979425 1459380605
+of
+\change_inserted 78966105 1459218946
+ 
+\change_deleted 1172979425 1459380606
+the
+\change_inserted 78966105 1459218946
+ axon
+\change_inserted 1172979425 1459380635
+al boutons
+\change_inserted 78966105 1459218946
+ 
+\change_deleted 1172979425 1459380631
+terminal
+\change_inserted 1172979425 1459380407
+ 
+\change_inserted 78966105 1459218946
+(
+\change_deleted 1172979425 1459380409
+ 
+\change_inserted 78966105 1459218946
+Fig 2B, EM panel 2).
 \change_deleted 78966105 1459218494
 were on spines 3% (89/2229).
  
 \change_inserted 78966105 1459218900
-These projections, resemble similar to structures found across multiple
- species, called spinules, and are thought to be present on large, active
- synapses (
+These projections
+\change_deleted 1172979425 1459380676
+,
+\change_inserted 78966105 1459218900
+ resemble 
+\change_deleted 1172979425 1459380414
+similar to
+\change_inserted 78966105 1459218900
+ structures found across multiple species
+\change_deleted 1172979425 1459380681
+,
+\change_inserted 78966105 1459218900
+ called spinules, and are thought to be present on large, active synapses
+ (
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Petralia:2015ge"
@@ -1675,18 +1985,77 @@ An
 \change_inserted 78966105 1459218909
 other
 \change_unchanged
- interesting feature that we observed in all of the cells was the presence
- of a neurite that was enriched with microtubules, that typically projected
- <1 µm from the cell body.
- In some cases, this neurite terminated inside glial like processes, but
- these neurites were devoid of any features other that microtubules ( 
+ interesting feature 
+\change_deleted 1172979425 1459380693
+that we
+\change_unchanged
+ observed 
+\change_inserted 1172979425 1459380698
+on
+\change_deleted 1172979425 1459380697
+in
+\change_unchanged
+ all 
+\change_inserted 1172979425 1459380702
+integrator 
+\change_deleted 1172979425 1459380700
+of the
+\change_unchanged
+ cells was 
+\change_deleted 1172979425 1459380707
+the presence of
+\change_unchanged
+ a 
+\change_inserted 1172979425 1459380761
+short (typically 
+\begin_inset Formula $<1$
+\end_inset
+
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+m) 
+\change_unchanged
+neurite 
+\change_deleted 1172979425 1459380714
+that was
+\change_unchanged
+ enriched with microtubules
+\change_inserted 1172979425 1459380752
+ emerging 
+\change_deleted 1172979425 1459380771
+, that typically projected <1 µm
+\change_unchanged
+ from the cell body.
+ In some cases, th
+\change_inserted 1172979425 1459380777
+e
+\change_deleted 1172979425 1459380777
+is
+\change_unchanged
+ neurite terminated inside 
+\change_deleted 1172979425 1459380826
+glial like 
+\change_unchanged
+processes
+\change_inserted 1172979425 1459380832
+ that were presumed glial
+\change_deleted 1172979425 1459380834
+, but these neurites were devoid of any features other that microtubules
+\change_unchanged
+ ( 
 \change_inserted 78966105 1459264349
 F
 \change_deleted 78966105 1459264349
 f
 \change_unchanged
 ig 2D, left panel).
- The purpose of this neurite remains unknown.
+ 
+\change_deleted 1172979425 1459380837
+The purpose of this neurite remains unknown.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1718,11 +2087,18 @@ key "Barresi:2005iw"
 ).
  The lack of presynaptic sites is similar to some of the initial segments
  of the ipsilaterally projecting axons, where there were no presynaptic
- terminals in the early part of the axon, and the occurance of presynaptic
- sites emerged only later on.
+ terminals in the early part of the axon, and 
+\change_deleted 1172979425 1459380880
+the occurance of 
+\change_unchanged
+presynaptic sites emerged only later on.
  Finally, the diameter of these neurites were similar to the diameters of
  ipsilaterally projecting axons (sup figure).
- We therfore infer that these neurites are contralaterally projecting axons.
+ We ther
+\change_inserted 1172979425 1459380893
+e
+\change_unchanged
+fore infer that these neurites are contralaterally projecting axons.
 \end_layout
 
 \begin_layout Subsection
@@ -1824,8 +2200,20 @@ ig 3H).
 Dendrites extended laterally from somata and were always ventral to the
  cell somata.
  Dendrites arborized over a large area with the dendritic fields of these
- cells overlapping with each other.The avereage voulme encompassed by the
- dendrites of these cells ( convex hull volume) was 3.04±1.5 x 
+ cells overlapping with each other.The aver
+\change_deleted 1172979425 1459380952
+e
+\change_unchanged
+age vo
+\change_deleted 1172979425 1459380955
+u
+\change_unchanged
+l
+\change_inserted 1172979425 1459380956
+u
+\change_unchanged
+me encompassed by the dendrites of these cells ( convex hull volume) was
+ 3.04±1.5 x 
 \begin_inset Formula $10^{4}$
 \end_inset
 
@@ -1868,9 +2256,17 @@ The average pathlength of postsynaptic sites was 237.82±133.08 µm from the
  presynaptic sites at least ~150 µm away from the cell somata.
  
 \change_inserted 78966105 1459219590
-To asses the degree of completness of the cells that were reconstructed,
- we compared the EM reconstructions of the cells with the long-range axons
- to previously reported LM recontructions of similar neurons (
+To asses
+\change_inserted 1172979425 1459380926
+s
+\change_inserted 78966105 1459219590
+ the degree of complet
+\change_inserted 1172979425 1459380928
+e
+\change_inserted 78966105 1459219590
+ness of the cells that were reconstructed, we compared the EM reconstructions
+ of the cells with the long-range axons to previously reported LM recontructions
+ of similar neurons (
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Lee:2015dv"
@@ -2224,7 +2620,11 @@ le pairs
 \change_unchanged
 , 8
 \change_inserted 78966105 1459274304
- pairs from two cells were within a micro of each other (Fig 4A).
+ pairs from two cells were within a micro
+\change_inserted 1172979425 1459381315
+n
+\change_inserted 78966105 1459274304
+ of each other (Fig 4A).
 
 \change_deleted 78966105 1459274211
  
@@ -2340,7 +2740,11 @@ Translating these presynaptic cells within the volume, did not reveal any
 \emph on
 I
 \bar under
-nferring neurotransmitter identity: 
+nferring neurotransmitter identity
+\change_deleted 1172979425 1459381629
+: 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -2425,7 +2829,11 @@ integrator
 \change_unchanged
  
 \change_inserted 78966105 1459219228
-somata locations 
+somata locations
+\change_inserted 1172979425 1459381713
+s
+\change_deleted 1172979425 1459381704
+ 
 \change_unchanged
 , we 
 \change_inserted 78966105 1459271005
@@ -2471,8 +2879,11 @@ key "Kimura:2006hd"
 ).
 
 \change_inserted 78966105 1459273604
- This stripe was also previously shown to almostly exculsively contain glutamate
-rgic integrator cells (
+ This stripe was also previously shown to almost
+\change_deleted 1172979425 1459381659
+ly
+\change_inserted 78966105 1459273604
+ exculsively contain glutamatergic integrator cells (
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Lee:2015dv"
