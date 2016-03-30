@@ -139,6 +139,11 @@ key "Bock:2011fk"
 
 \end_inset
 
+
+\change_inserted 78966105 1459367287
+, Wei et.
+ al (2016)
+\change_unchanged
 ).
  Here we report the application of this approach to a population of neurons
  defined by their encoding of behavioral variables.
@@ -149,7 +154,20 @@ key "Bock:2011fk"
 We studied the population of premotor neurons defined by their encoding
  of eye position.
  This population makes up the neural circuit known as the "velocity-to-position
- neural integrator," or "neural integrator" for short (cite).
+ neural integrator," or "neural integrator" for short (
+\change_inserted 78966105 1459367524
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Major:2004dk,Joshua:2015kx"
+
+\end_inset
+
+
+\change_deleted 78966105 1459367489
+cite
+\change_unchanged
+).
  In fish (
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -171,7 +189,20 @@ key "Robinson:1975vm,Robinson:1989wt"
  The mechanisms supporting temporal integration remain unclear even after
  decades of research (cite).
  Many hypotheses and models have been proposed, and a number of them invoke
- circuit mechanisms (cite).
+ circuit mechanisms (
+\change_inserted 78966105 1459367669
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "arnold_oculomotor_1997,fisher_modeling_2013,Goldman:2009ko"
+
+\end_inset
+
+
+\change_deleted 78966105 1459367568
+cite
+\change_unchanged
+).
 \end_layout
 
 \begin_layout Standard
@@ -209,7 +240,18 @@ key "Aksay:2003un"
 \begin_layout Standard
 We found 6 integrator neurons with ipsilateral axonal projections, and 8
  with contralateral projections, consistent with previous light microscopic
- studies.
+ studies
+\change_inserted 78966105 1459367943
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+)
+\change_unchanged
+.
  Two integrator neurons had axonal arbors that were both ipsilateral and
  contralateral, which has not been previously reported.
  For 6 integrator neurons, an axon could not be identified, presumably because
@@ -227,7 +269,18 @@ stripes,
 \end_inset
 
  and previous studies have shown that cell body location relative to these
- stripes is correlated with neurotransmitter identity.
+ stripes is correlated with neurotransmitter identity
+\change_inserted 78966105 1459367992
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
+
+\end_inset
+
+)
+\change_unchanged
+.
  On this basis, we inferred that integrator neurons with ipsilaterally projectin
 g axons are glutamatergic, and those with contralaterally projecting axons
  are GABAergic.
@@ -343,6 +396,173 @@ key "borst_common_2015"
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 78966105 1459367197
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1459367197
+Here we combined functional calcium imaging along with serial-section electron
+ microscopy in the larval zebrafish hindbrain.
+ We looked at a circuit that is responsible for the stabilization of the
+ eye during periods of eye-fixation.
+ Spontaneous saccadic eye-movements are typically followed by short periods
+ of eye-fixation for a few seconds.
+ During these fixations, the motor neurons that innervate the eye muscles,
+ receive a tonic input from a subset of neurons in the hindbrain (cite).
+ This subset of neurons are responsible for transforming the incoming eye-veloci
+ty signals from saccadic neurons, to eye-position signals.
+ This transformation, from velocity to position, suggests that these neurons
+ are performing temporal integration.
+ These cells are therefore referred to as velocity-to-position neural integrator
+ cells (VPNI).
+ Similar neurons have been shown to exist in the goldfish area1 (cite) and
+ in the non-human primate (cite).
+ In the goldfish brain stem, eye-position sensitive cells were seen to be
+ have similar morphologies, with ipsilaterally projecting cells having large
+ dendritic fields with axons that gave rise to collaterals and contralateral
+ projecting cells what did not have any ipsilateral projections and smaller
+ dendritic fields (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2000cn"
+
+\end_inset
+
+).
+ The emergence of axonal collaterals on the same side as other position
+ sensitive cells, suggests the possibility of local feedback loops that
+ might drive this persistent activity.
+ Supporting this evidence was also evidence that shows that pairs of neurons
+ on the same side have highly correlated activity, both in fish (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2003un"
+
+\end_inset
+
+) and in monkeys (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Dale:2015hh"
+
+\end_inset
+
+).
+ Neurons that are clustered together, tend to have similar decay times,
+ correlate similarly with eye-position and velocity and have high pairwise
+ correlations (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Miri:2011ib"
+
+\end_inset
+
+).
+ Here we also show that neurons that are clustered together also have similar
+ anatomy and axonal projection patterns.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1459367197
+How these cells perform this transformation
+\size tiny
+t
+\size default
+, in the absence of any inputs is unknown.
+ A simplistic model, where the neurons are connected to each other recurrently,
+ to form a 'loop' can explain such activity, in the absence of inputs.However,
+ more basic questions regarding the nature of cells in this circuit are
+ yet to be answered.
+ Are there and what are the different types of cells in this circuit.
+ What fraction of these cells are excitatory and what fraction are inhibitory.
+ And more fundamentally, are these cells functionally connected to each
+ other.
+ Indirect evidence suggests that these cells are synaptically connected
+ to each other (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2003un"
+
+\end_inset
+
+), however, to date there has been no direct evidence that shows that these
+ cells are synaptically connected to each other.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1459367197
+Larval zebrafish have previously been used as a model system to study the
+ VPNI circuit (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonheim:2010ka,Miri:2011ft,Miri:2011ib,goncalves_optogenetic_2014"
+
+\end_inset
+
+), using a similar setup, we located and recorded from cells in the hindbrain
+ of the larval zebrafish that were expressing a calcium sensitive dye.
+ We then serially-sectioned and imaged the larvae at the ultrastructure
+ level and located the same cells that were involved in the VPNI behavior.
+ We reconstructed the dendritic and axonal arbors of these cells to look
+ for groups of cells that had similar features.
+ We located all pre and postsynaptic sites on these cells validated synaptic
+ connectivity among VPNI cells.
+ Based on the location of these cells, we inferred the neurotransmitter
+ identity of these cells to suggest the potential role of cells in each
+ of the defined groups.
+ Finally, we propose some constrains on the entire VPNI network, based on
+ the subset of VPNI cells in this study.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1459367197
+Not much is know about the morphology of cells that are involved in the
+ VPNI circuit.
+ Previously dye fills in the goldfish area1 showed that there were atleast
+ cells with 2 types of axonal projection, those with ipsilateral projections
+ and contralateral projections (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2000cn"
+
+\end_inset
+
+).
+ More recently, in the larval zebrafish VPNI system, it was reported that
+ there were at least classes of cells.
+ These cells projected either ipsilaterally and contralaterally (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+).
+ The same study also revealed that the ipsilaterally projecting population
+ was excitatory in nature and the contralaterally projecting population
+ was a mixture of cells that were both excitatory and inhibitory, based
+ on the location of the soma (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee:2015dv"
+
+\end_inset
+
+).
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_deleted 78966105 1459367197
 Here we combined functional calcium imaging along with serial-section electron
  microscopy in the larval zebrafish hindbrain.
  We looked at a circuit that is responsible for the stabilization of the
@@ -405,6 +625,8 @@ key "Miri:2011ib"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1459367197
 How these cells perform this transformation
 \size tiny
 t
@@ -431,6 +653,8 @@ key "Aksay:2003un"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1459367197
 Larval zebrafish have previously been used as a model system to study the
  VPNI circuit (
 \begin_inset CommandInset citation
@@ -455,6 +679,8 @@ key "Schoonheim:2010ka,Miri:2011ft,Miri:2011ib,goncalves_optogenetic_2014"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1459367197
 Not much is know about the morphology of cells that are involved in the
  VPNI circuit.
  Previously dye fills in the goldfish area1 showed that there were atleast
@@ -488,6 +714,8 @@ key "Lee:2015dv"
 \end_inset
 
 ).
+\change_unchanged
+
 \end_layout
 
 \begin_layout Section
@@ -507,8 +735,11 @@ Two-photon calcium imaging
  (wavelength).
  The animal was immobilized in low melting agar and was positioned to view
  a monitor with light gratings.
- The hindbrain of the animal was imaged at ( wavelength) at predefined plane
- at (speed Hz).
+ The hindbrain of the animal was imaged at (
+\change_deleted 78966105 1459367240
+ 
+\change_unchanged
+wavelength) at predefined plane at (speed Hz).
  Following functional imaging, the animal was then imaged on the same setup
  for anatomical imaging.
  Briefly, a stack was acquired over the same imaging window, with optical
@@ -605,8 +836,14 @@ Registration of light and electron microscopic images.
 \end_layout
 
 \begin_layout Standard
-We first ID’ed potential VPNI cells from the LM dataset using methods that
- were previously described (
+We first ID’ed potential 
+\change_inserted 78966105 1459367226
+integrator
+\change_deleted 78966105 1459367223
+VPNI
+\change_unchanged
+ cells from the LM dataset using methods that were previously described
+ (
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Miri:2011ft"
@@ -1539,7 +1776,11 @@ en passant
  The caudal segment extended further into the hindbrain where they presumably
  synapse onto other cells in the rhombomeres.
 
-\change_inserted 78966105 1459264758
+\change_inserted 78966105 1459374032
+ Not all cells in this group had rostral axonal terminations in the abducens
+ nuclei.
+ Infact, only two of these cells terminated near the abducen, while others
+ had rostral projections that exited the volume on the ventral surface.
  In one case we see dendrites of a cell in this group projected to the contralat
 eral side, as identified by the presence of postsynaptic sites ( Fig 3A,
  arrowhead)
@@ -1934,8 +2175,26 @@ One of the longstanding open questions in systems neuroscience is that of
  cells.
  Many lines of evidence suggest that these cells must be synaptically connected,
  however this has been hard to prove.
+
+\change_inserted 78966105 1459362549
  
-\change_inserted 78966105 1459273832
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1459367037
+The integrator neurons in this study were reconstructed to different degrees
+ of completeness.
+ Based on the number of terminals that exited the volume, we computed a
+ degree of completeness for all the integrator cells ( sup fig, different
+ color shaded points).
+ Of the six ipsilaterally projecting cells, three of them were determined
+ to have well completed axons and dendrites.
+ They had a total of 156±47.46 postsynaptic sites and 97±38 presynaptic sites.
+ 
+\change_deleted 78966105 1459362541
+ 
+\change_inserted 78966105 1459366987
 
 \end_layout
 
@@ -1949,20 +2208,14 @@ real synapses
 
 \change_inserted 78966105 1459273884
 W
-\change_deleted 78966105 1459273883
-w
 \change_unchanged
 e plotted the minimum distance between cells with axons
-\change_inserted 78966105 1459273921
- containing presynapti sites
+\change_inserted 78966105 1459362106
+ that contained presynaptic sites against all integrator cells.
+
+\change_deleted 78966105 1459362130
+ 
 \change_unchanged
- and 
-\change_deleted 78966105 1459273926
-corresponding 
-\change_inserted 78966105 1459273929
-all 
-\change_unchanged
-cells with dendrites.
  We obtained a large range of distances between cells, ranging from 0.4 µm
  to 74.7 µm, with mean distance at 19.33 µm.
  Of the 154 possib
@@ -1981,24 +2234,27 @@ le pairs
 se
 \change_unchanged
  8 
-\change_inserted 78966105 1459274312
+\change_inserted 78966105 1459362214
 pairs
 \change_unchanged
- that were within a micron of each other, 4 of these sites were actual synapse
- (
+, 4
+\change_deleted 78966105 1459362226
+ 
+\change_unchanged
+ were actual synapse (
 \change_inserted 78966105 1459274254
 F
-\change_deleted 78966105 1459274253
-f
 \change_unchanged
 ig 
 \change_inserted 78966105 1459274252
 4
-\change_deleted 78966105 1459274251
-5
 \change_unchanged
 B).
- All 4 synapses emerged from one cell in this imaged volume (fig 5B, arrow).
+ All 4 synapses emerged from one cell in this imaged volume (fig 
+\change_inserted 78966105 1459362262
+4
+\change_unchanged
+B, arrow).
  This one cell belonged to 
 \emph on
 group1
@@ -2030,16 +2286,17 @@ micrographs at these locations show clear axonal terminals, filled with
  (
 \change_inserted 78966105 1459274780
 F
-\change_deleted 78966105 1459274779
-f
 \change_unchanged
 ig 
 \change_inserted 78966105 1459274782
 4
-\change_deleted 78966105 1459274781
-5
 \change_unchanged
-C).This is the first demonstration that cells that take part in the velocity
+C).
+
+\change_inserted 78966105 1459362304
+ 
+\change_unchanged
+This is the first demonstration that cells that take part in the velocity
  to position integration are indeed monosynaptically connected to each other.
  These synapses were also seen to lie on the axons collaterals of the cell
  that made the synapses.
@@ -2054,13 +2311,15 @@ potential synapses
 
 \begin_layout Standard
 
-\change_inserted 78966105 1459278527
+\change_inserted 78966105 1459279309
 Next, we looked to see if the location of postsynaptic sites along the dendrites
  displayed any spatial localization within stripes, indicative of preference
  of partners.
  We projected the total number of pre- and postsynaptic sites for cells
  from each group, along the medioventrall axis, where the cell body stripes
  are visible.
+ We obseved that there was a strong overlap of the projection patterns of
+ postsynaptic sites in group1 to prestnaptic site in the same group, whereas
  
 \end_layout
 
@@ -2130,8 +2389,6 @@ peaks of cell
  We were able to locate 4 
 \change_inserted 78966105 1459270937
 peaks, each corresponding to a likely stripe
-\change_deleted 78966105 1459219152
-stripe at this depth
 \change_unchanged
  ( 
 \change_inserted 78966105 1459270948
@@ -2147,9 +2404,9 @@ ig
 \change_unchanged
 D, bottom panel).
  The medial most peak corresponded to midline cells from the contralateral
- population, as 
-\change_deleted 78966105 1459270959
-can be
+ population, as
+\change_deleted 78966105 1459367048
+ 
 \change_unchanged
  see
 \change_inserted 78966105 1459270962
@@ -2272,12 +2529,8 @@ spatial location of cells
 expressi
 \change_inserted 78966105 1459273642
 ng
-\change_deleted 78966105 1459273642
-on
-\change_unchanged
+\change_deleted 78966105 1459367057
  
-\change_deleted 78966105 1459273646
-of
 \change_unchanged
  the 
 \emph on
@@ -2303,123 +2556,13 @@ Discussion
 
 \begin_layout Standard
 
-\change_inserted 78966105 1459258633
-To our knowledge nothing is know about the synaptic distribution of cells
- in the zebrafish hindbrain.
- The most widely studied cell in the hindbrain, at the level of ultrastructure
- is the Mauthner cell, but nothing regarding the ultrastructure of other
- cells in the hindbrain is known.
-\change_unchanged
-
-\end_layout
-
-\begin_layout Standard
-Here we aimed to reconstruct cells from the hindbrain of the larval zebrafish
- that were involved in converting eye-velocity signals to eye-position signals.
- To do this we functionally imaged from cells in the hindbrain using two-photon
- microscopy during spontaneous eye-movement behavior, follwed by serial
- section electron microscopy in the same animal.
- We then registered the light microscopic imaged to the electron microscopic
- images to locate the physilologically relavent cells in the EM volume.
- The imaged volume, which contained rhombomeres 5,6,7,8 contained over 3004
- cell, of whcih 22 cells were identified as VPNI cells.
- These cells spanned the entire rostrocaudal extent of the imaged volume.
- Reconstruction of the neurons that were involved in the VPNI task revealed
- that the circuit comprised of at least 4 distinct groups of cells based
- on their axonal projections and synaptic distributions.
- The neurotransmitter identity of cells form the groups were inferred based
- on the location of these cells along a developmental stripe scaffold in
- the larval zebrafish.
- 
-\end_layout
-
-\begin_layout Standard
-Ipsilaterally projecting cells for which both axon and dendrite were present,
- had at least 3 output synapses for every input synapse.
- The reconstructions also validated a long standing question in systems
- neuroscience and showed that VPNI cells synapse onto each other, specifically,
- the ipsilaterally projecting cell synapses on other ipsilateral and contralater
-al projecting cells.
- Put together, these results suggest the detailed organization of the VPNI
- system and provide hard numbers that can be useful to the broader neuroscience
- community as a resource to build accurate models of the integrator circuit.
-\end_layout
-
-\begin_layout Standard
-Recent advances in high-throughput imaging technologies, have provided opportuni
-ties to visit long standing question in system neuroscience, here we re-visit
- one such long-standing question, that of the velocity-to-position-neural
- integrator.
- The eye-position neural integrator is located is the homologous structures
- located in the hindbrain of most mammals and vertebrates.
- Historically, this system was first discovered in monkeys (cite), where
- a nuclei, located deep in the hindbrain, the nucleus prepositous.
- However, as with all large animal studies, they do not have the numerous
- cellular tools that are available to systematically correlate function
- to structure.
- More recently, it was discovered that similar function was observed in
- the brain stem of gold fish (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Aksay:2000cn"
-
-\end_inset
-
-) and subsequently in larval zebrafish (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Miri:2011ft,Miri:2011ib,goncalves_optogenetic_2014,Portugues:2014fn"
-
-\end_inset
-
-).
- Here we use the larval zebrafish as a model system to understand the functional
- architecture of a system that is involved in this task.
- The larval zebrafish is conducive to optical imaging as it is transparent
- during the larval stages, and it is thought that there are ~100 cells unilatera
-lly ( 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Aksay:2003un"
-
-\end_inset
-
-) in the hindbrain that are involved in the VPNI task.
- Inferring functional connectivity by serial electron microscopy was important
- in this system as the larval zebrafish proves to be hard to perform paired
- patch recordings.
- And if the number of functional synapses between any two integrator cells
- are very few in number, this task is every more hard.
- However, performing serial electron microscopy of registered cells allows
- the direct visualization of functional synapses between these cells.
- It is also possible to observe other non-conventional forms of synaptic
- communication, like dendro-dendritic, axo-axonal and electrical synapses
- using serial electron microscopy.
- The ability to hold ones eye at a certain location in space is a remarkable
- feat.
- This is achieved by groups of neurons in the brainstem, that precisely
- control the motor neurons that innervate the eye-muscles.
- The inputs to these neurons are saccadic commands that encode for eye position,
- where as the output of these neurons is tonic firing proportional to the
- eye position.
- In other words, the input is a burst like command signal to the neuron
- and the output is a step like persistent firing from the neuron .
- In mathematical terms this is the act of integration and these neuron perform
- the task of temporal integration.
- This phenomena was first discovered more than 30 years ago in non-human
- primates, that were used as a model system to study eye movement (Robinson
- papers).
- Subsequently, similar homologous structures have been discover in fishes,
- where a nuclei located in the hindbrain is responsible for velocity-to-position
- integration (VPNI) for eye movements.
- Similar neural responses to stimuli are observed in other tasks such as
- working-memory tasks (wang XJ , review), where we observe neurons that
- fire persistently, long after the termination of the initial stimulus.
- The mechanism by which groups of neurons perform such a task remain unknown.
-\end_layout
-
-\begin_layout Standard
-In the cat prepositous nuceli, where similar integrator neurons reside,
+\change_inserted 78966105 1459375039
+Here we reconstructed in detial, the anatomy of integrator cells, to understand
+ coarse .
+ Previous attempts to understand the circuit architecture of these cells
+ showed that there were atleast two types of cells with different axonal
+ projecting patterns that participated in this behavior.
+ In the cat prepositous nuceli, where similar integrator neurons reside,
  it was discovered that there were roughly three to four types of cells
  that were morphologically distinct (
 \begin_inset CommandInset citation
@@ -2450,9 +2593,68 @@ key "Aksay:2000cn"
 \end_inset
 
 ).
- The emergence of axonal collaterals on the same side as other position
- sensitive cells, suggests the possibility of local feedback loops that
- might drive this persistent activity.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1459374664
+.
+ To do this, we functionally imaged cells during spontaneous eye movement,
+ to determine the cells involved in the behaviour.
+ We discovered atleast three different projection pattern of the axons from
+ these cells.
+ We uncovered a novel axonal projection pattern that has not been seen previousl
+y.
+ We also discovered synaptic connections between integrator cells.
+ This is the first evidence that validates a long-standing clam that suggest
+ these cells to be synaptically connected.
+ More results...
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1459374751
+Our results are in line with previous work that suggests that ipsilateral
+ projections are required for the excitatory feedback drive unilaterally.
+ The sparse connectivity between ipsilaterally connected cells ties in with
+ the fact that integrator cells from the unilateral population do not contribute
+ to the entire oculomotor range.
+ If this were not the case, we would expect more ubiquitious connections
+ between ipsilaterally projecting cells.
+ Conversely, these few synapses could be a byproduct of a small number of
+ cells with incompletely reconstructed axons.
+ This is similar to previous anatomical studies in the goldfish, and in
+ the larval zebrafish where known integrator cells were shown to have ipsilatera
+lly projecting axons (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2000cn,Lee:2015dv"
+
+\end_inset
+
+).
+ However, in all previous studies, the axonal identify was only inferred
+ indirectly from diameters of neurites.
+ Here however, we were able to directly identify the axon, based on the
+ presence of presynaptic sites.
+ We also uncoverered that in all cells ipsilaterally projecting cells, the
+ axon did not originate at the cell body, infact, it does so along a secondary
+ or tertiary dendrite that had postsynaptic sites on it.
+ Similarly, we also discovered two cases of cells where there was more than
+ one axon that originated from the cell.
+ We were able to infer the neurotransmitter identity of cells form this
+ group based on the location of the cell somata.
+ Previously, It is thought that these ipsilaterally projecting cells are
+ excitatiry, and must be responsible for unilateral excitatation.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1459374751
+The emergence of axonal collaterals on the same side as other position sensitive
+ cells, suggests the possibility of local feedback loops that might drive
+ this persistent activity.
  Supporting this evidence was also evidence that shows that pairs of neurons
  on the same side have highly correlated activity, both in fish (
 \begin_inset CommandInset citation
@@ -2490,6 +2692,180 @@ key "Joshua:2015kx"
 
 ).
  
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+Here we
+\change_inserted 78966105 1459374120
+ 
+\change_unchanged
+reconstruct
+\change_inserted 78966105 1459368666
+ed
+\change_unchanged
+ cells from the hindbrain of the larval zebrafish that were involved in
+ converting eye-velocity signals to eye-position signals.
+ To do this we functionally imaged from cells in the hindbrain using two-photon
+ microscopy during spontaneous eye-movement behavior, follwed by serial
+ section electron microscopy in the same animal.
+
+\change_inserted 78966105 1459368691
+ performing serial electron microscopy of registered cells allows the direct
+ visualization of functional synapses between these cells.
+ It is also possible to observe other non-conventional forms of synaptic
+ communication, like dendro-dendritic, axo-axonal and electrical synapses
+ using serial electron microscopy.
+ 
+\change_unchanged
+We then registered the light microscopic imaged to the electron microscopic
+ images to locate the physilologically relavent cells in the EM volume.
+
+\change_inserted 78966105 1459368621
+ To our knowledge nothing is know about the synaptic distribution of cells
+ in the zebrafish hindbrain.
+ The most widely studied cell in the hindbrain, at the level of ultrastructure
+ is the Mauthner cell, but nothing regarding the ultrastructure of other
+ cells in the hindbrain is known.
+
+\change_unchanged
+ 
+\change_inserted 78966105 1459369506
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1459369540
+Anatomomical reconstructions of integrator cells from the electron microscopy
+ volume revealed
+\change_unchanged
+ that th
+\change_inserted 78966105 1459369553
+is
+\change_deleted 78966105 1459369553
+e
+\change_unchanged
+ circuit comprised of
+\change_inserted 78966105 1459369845
+ cells that shared similar axonal projection patterns.
+ There were 3
+\change_unchanged
+ distinct groups
+\change_inserted 78966105 1459369895
+ of cells with similar axonal projections and
+\change_deleted 78966105 1459369724
+ 
+\change_inserted 78966105 1459369929
+atleast one group of cells with axonal projections that were yet to be determine
+d.
+
+\change_deleted 78966105 1459369981
+ 
+\change_inserted 78966105 1459370476
+ Of these groups, one group of integrator cells that had exculsively ipsilateral
+ly projecting axons.
+ 
+\change_deleted 78966105 1459374185
+ neurotransmitter identity of cells form th group
+\change_inserted 78966105 1459370622
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1459370512
+ 
+\change_unchanged
+were inferred based on the location of these cells along a developmental
+ stripe
+\change_inserted 78966105 1459370508
+ like
+\change_unchanged
+ scaffold in the larval zebrafish.
+ Ipsilaterally projecting cells for which both axon and dendrite were present,
+ had at least 
+\change_inserted 78966105 1459370508
+1.5
+\change_deleted 78966105 1459368846
+3
+\change_unchanged
+ output synapses for every input synapse.
+ 
+\change_inserted 78966105 1459370508
+This numbers is based on synapses number from a handful of cells that are
+ thought to be the most complete cells in this volume.
+\end_layout
+
+\begin_layout Standard
+The reconstructions 
+\change_deleted 78966105 1459368962
+also
+\change_unchanged
+ validated a long standing question in systems neuroscience and showed that
+ 
+\change_deleted 78966105 1459368973
+VPNI
+\change_inserted 78966105 1459368976
+integrator
+\change_unchanged
+ cells synapse onto each other, specifically, the ipsilaterally projecting
+ cell synapses on other ipsilateral
+\change_inserted 78966105 1459368990
+ cells
+\change_unchanged
+ and contralateral projecting cells.
+ Put together, these results suggest the detailed organization of the VPNI
+ system and provide hard numbers that can be useful to the broader neuroscience
+ community as a resource to build accurate models of the integrator circuit.
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1459374746
+The emergence of axonal collaterals on the same side as other position sensitive
+ cells, suggests the possibility of local feedback loops that might drive
+ this persistent activity.
+ Supporting this evidence was also evidence that shows that pairs of neurons
+ on the same side have highly correlated activity, both in fish (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2003un"
+
+\end_inset
+
+) and in monkeys (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Dale:2015hh"
+
+\end_inset
+
+).
+ For the eyes to have coordinated movement, there must exist mutual inhibition
+ between integrators on either side of the midline, which would presumably
+ be inhibitory in nature (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Aksay:2007cv"
+
+\end_inset
+
+).
+ These studies suggest that structural features of the circuits that perform
+ this neural integration are likely similar across species, and that studies
+ in one may be informative to the other (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Joshua:2015kx"
+
+\end_inset
+
+).
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
