@@ -69,6 +69,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
 \end_header
 
 \begin_body
@@ -118,10 +119,40 @@ e time constants.
 
 \begin_layout Section
 Introduction
+\change_inserted 78966105 1460384157
+
 \end_layout
 
 \begin_layout Standard
-A promising approach for relating physiology and anatomy of neural circuits
+
+\change_inserted 78966105 1460384364
+Neural circuits transform activity and produce activity that is either sent
+ to higher brain areas or to muscles to elicit behavior.
+ A very simplistic example of this idea is that of the reflex arc, where
+ sensory information is relayed to motor neurons in the spinal chord, in
+ order to elicit a reflex.
+ More complex behaviors, transform the incoming activity to produce a different/
+unique output.
+ This transformation presumably involves the integration of signals form
+ multiple neurons, to produce a suitable output.
+ For example a 5 day old larval zebrafish can perform multiple sensory motor
+ integrating tasks like tracking of prey and predator avoidance.
+ In such behaviors, multiple sensory inputs converge on different brain
+ areas, these signals are then transformed to infer motion of prey, or predator
+ and elicit a behavior to swim towards or away.
+ To understand these transformations, we need to know what the signals are
+ (physiology), where they come from (anatomy) and what the transformation
+ is (behavior).
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1460384372
+One
+\change_unchanged
+ promising approach for relating physiology and anatomy of neural circuits
  is to perform two-photon calcium imaging of neural activity in the living
  brain, followed by serial electron microscopy of the same brain.
  This has been carried out successfully for the mouse retina (
@@ -134,13 +165,49 @@ key "Briggman:2011ct"
 ) and primary visual cortex (
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Bock:2011fk"
+key "Bock:2011fk,Lee:2016ti"
 
 \end_inset
 
-, Wei et.
- al (2016)).
- Here we report the application of this approach to a population of neurons
+).
+ 
+\change_inserted 78966105 1460384066
+Similar techniques have allowed for the discovery of complex architectures
+ that allow convergence of inputs from multiple sensory modalities (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ohyama:2015kb"
+
+\end_inset
+
+), circuits for locomotion (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Fushiki:2016ji"
+
+\end_inset
+
+) and a mechanism for direction selectivity in the retina (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Takemura:2013ea,Takemura:2015im"
+
+\end_inset
+
+) in the drosophila larvae.
+ In the retina, these studies highlight the the fact that these fundamental
+ sensory transformations are likely conserved across invertebrates and vertebrat
+es (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "borst_common_2015"
+
+\end_inset
+
+).
+ 
+\change_unchanged
+Here we report the application of this approach to a population of neurons
  defined by their encoding of behavioral variables.
  
 \end_layout
@@ -181,11 +248,17 @@ key "Robinson:1975vm,Robinson:1989wt"
  circuit mechanisms (
 \begin_inset CommandInset citation
 LatexCommand citet
-key "arnold_oculomotor_1997,fisher_modeling_2013,Goldman:2009ko"
+key "kamath_neurological_1976,arnold_oculomotor_1997,seung_continuous_1998,seung_stability_2000,Goldman:2009ko,fisher_modeling_2013"
 
 \end_inset
 
 ).
+
+\change_inserted 78966105 1460388748
+ Most models assume the existence of recurrent synapses between integrator
+ neurons, but this remains to be validated.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -269,104 +342,16 @@ We identified chemical synapses in our images by the existence of presynaptic
  suggesting the presence of conventional rather than peptidergic neurotransmitte
 rs.
  Dense core vesicles were found at other synapses in the same region.
-\end_layout
 
-\begin_layout Standard
+\change_inserted 78966105 1460388788
+ 
+\change_unchanged
 We found one example of an ipsilaterally-projecting integrator neuron that
  made two synapses onto another ipsilaterally-projecting integrator neuron.
  The same source neuron also synapsed onto two contralaterally-projecting
  integrator neurons.
  This provides the first evidence that integrator neurons make synapses
  onto each other.
- The existence of recurrent synapses between integrator neurons has long
- been hypothesized by many computational models of the neural integrator.
- 
-\end_layout
-
-\begin_layout Standard
-Neural circuits transform activity and produce activity that is either sent
- to higher brain areas or to muscles to elicit behavior.
- A very simplistic example of this idea is that of the reflex arc, where
- sensory information is relayed to motor neurons in the spinal chord, in
- order to elicit a reflex.
- More complex behaviors, transform the incoming activity to produce a different/
-unique output.
- This transformation presumably involves the integration of signals form
- multiple neurons, to produce a suitable output.
- For example a 5 day old larval zebrafish can perform multiple sensory motor
- integrating tasks like tracking of prey and predator avoidance.
- In such behaviors, multiple sensory inputs converge on different brain
- areas, these signals are then transformed to infer motion of prey, or predator
- and elicit a behavior to swim towards or away.
-\end_layout
-
-\begin_layout Standard
-To understand the specific roles of neurons in these behavior, we could
- benefit form as many tools as are available to 'break' the circuit apart.
- In this regard, again, the larval zebrafish is ideally suited for circuit
- based neuroscience (refs).
- It offers the convenience of powerful genetic tools, well-stocked mutant
- libraries and more importantly for circuit neuroscience, the transparent
- brain of the larval zebrafish, coupled with genetic calcium based reporters
- and light-sheet microscopy, has allowed unprecedented ability to image
- from the whole brain (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Ahrens:2012ej,Ahrens:2015gv,Friedrich:2010hj"
-
-\end_inset
-
-).
- Although the activity of neurons during such tasks is typically distributed
- over multiple brain areas, it is known to be conserved from animal to animal
- (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Portugues:2014fn"
-
-\end_inset
-
-).
- Recent advances in high-throughput electron microscopy now allows us to
- integrate detailed anatomical features from physiologically recorded cells
- (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Briggman:2011ct,Helmstaedter:2013iv,Takemura:2013ea"
-
-\end_inset
-
-).
- In the Drosophila larva, such techniques have allowed for the discovery
- of complex architectures that allow for the convergence of multiple inputs
- from multiple sensory modalities (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Ohyama:2015kb"
-
-\end_inset
-
-).
- Similarly, a novel circuit for locomotion, consisting of alternating excitatory
- and inhibitory neurons was show to be responsible for larvae locomotion
- (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Fushiki:2016ji"
-
-\end_inset
-
-).
- These studies also, highlight the the fact that some of these fundamental
- sensory transformations are likely conserved across invertebrates and vertebrat
-es (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "borst_common_2015"
-
-\end_inset
-
-).
  
 \end_layout
 
@@ -454,11 +439,7 @@ key "hayworth_imaging_2014"
 
 ).
  The imaged volume was 
-\begin_inset Formula $220\times112\times57$
-\end_inset
-
- µm
-\begin_inset Formula $^{3}$
+\begin_inset Formula $220\times112\times57\,\mu m^{3}$
 \end_inset
 
 .
@@ -870,11 +851,25 @@ The somata of the 22 integrator cells spanned 23 µm in the dorsoventral
  volume, with cells that spanned the entire rostrocaudal range (Fig.
  1D).
  The average diameter of somata was XXXXX.
- On average 3.3±1.5 (mean±std) neurites emerged from the somata, and traveled
- ventrally.
+ On average 
+\change_inserted 78966105 1460387531
+
+\begin_inset Formula $3.3\pm1.5$
+\end_inset
+
+
+\change_unchanged
+ (mean±std) neurites emerged from the somata, and traveled ventrally.
  Some neurites exited the imaged volume, leading to incompletely reconstructed
  cells.
- On average, fully reconstructed cells had total neurite length of 832.16±269.29
+ On average, fully reconstructed cells had total neurite length of 
+\change_inserted 78966105 1460387516
+
+\begin_inset Formula $832.16\pm269.29$
+\end_inset
+
+
+\change_unchanged
  µm.
 \end_layout
 
@@ -927,10 +922,26 @@ The postsynaptic densities were observed as a darkening of the membrane,
 \begin_layout Standard
 In total, we annotated 406 presynaptic and 2229 postsynaptic sites on integrator
  neurons.
- The number of postsynaptic sites on a cell averaged 101.31±74.15.
+ The number of postsynaptic sites on a cell averaged 
+\change_inserted 78966105 1460387566
+
+\begin_inset Formula $101.31\pm74.15$
+\end_inset
+
+
+\change_unchanged
+.
  This is a reasonable estimate of the number of input synapses to an integrator
  neuron, because most dendritic arbors were reconstructed in their entirety.
- The number of presynaptic sites on a cell averaged 58±44.39.
+ The number of presynaptic sites on a cell averaged 
+\change_inserted 78966105 1460387553
+
+\begin_inset Formula $58\pm44.39$
+\end_inset
+
+
+\change_unchanged
+.
  This is an underestimate of the number of output synapses from an integrator
  neuron, because most axonal arbors were cut off by the borders of the volume,
  and hence incompletely reconstructed.
@@ -1150,9 +1161,24 @@ en passant
  the axons that were incompletely reconstructed projected rostrally, they
  could potentially terminate in the abducens.
  The average length of all the axons from all ipsilaterally projecting cells
- was 270.05±244.06 µm with the longest reconstructed axon being 683.39 µm.
- The mean diameter of the axons from these cells averaged 0.21±0.15 µm ( Fig
- 3H).
+ was 
+\change_inserted 78966105 1460385408
+
+\begin_inset Formula $270.05\pm244.06\,\mu m$
+\end_inset
+
+
+\change_unchanged
+ with the longest reconstructed axon being 683.39 µm.
+ The mean diameter of the axons from these cells averaged 
+\change_inserted 78966105 1460385441
+
+\begin_inset Formula $0.21\pm0.15$
+\end_inset
+
+
+\change_unchanged
+ µm ( Fig 3H).
  
 \end_layout
 
@@ -1168,10 +1194,25 @@ Dendrites extended laterally from somata and were always ventral to the
 
 .
  The dendrites in this group arborized over 13.3% of the total imaged volume.
- The average length of dendrites from this group of cells was 391.83±65.83
+ The average length of dendrites from this group of cells was 
+\change_inserted 78966105 1460385455
+
+\begin_inset Formula $391.83\pm65.83$
+\end_inset
+
+
+\change_unchanged
  µm.
  The dendritic arbors were more dense at ventral locations with peak arborizatio
-n at a depth of 35.6±8.4 µm ventral to the cells somata (sup fig).
+n at a depth of 
+\change_inserted 78966105 1460385468
+
+\begin_inset Formula $35.6\pm8.4$
+\end_inset
+
+
+\change_unchanged
+ µm ventral to the cells somata (sup fig).
  The mean dendritic diameter averaged to 
 \begin_inset Formula $0.25\pm0.15\:µm$
 \end_inset
@@ -1181,8 +1222,23 @@ n at a depth of 35.6±8.4 µm ventral to the cells somata (sup fig).
 \end_inset
 
 , ttest).
- On average, cells in this group contained 174.83±88.09 postsynaptic sites,
- and 56.5±52.75 presynaptic sites.
+ On average, cells in this group contained 
+\change_inserted 78966105 1460385492
+
+\begin_inset Formula $174.83\pm88.09$
+\end_inset
+
+
+\change_unchanged
+ postsynaptic sites, and 
+\change_inserted 78966105 1460385482
+
+\begin_inset Formula $56.5\pm52.75$
+\end_inset
+
+
+\change_unchanged
+ presynaptic sites.
  Cells tend have postsynaptic sites proximal to the cell somata, whereas
  presynaptic sites at least 
 \begin_inset Formula $\sim150\:µm$
@@ -1231,14 +1287,29 @@ group1.
  the other cell.
  In both cases, the midline cross-over happened at locations that were ventral
  to the cells somata.
- The average length of the axons in this group was 277±22 µm which was similar
- to the length of the axons from 
+ The average length of the axons in this group was 
+\change_inserted 78966105 1460385533
+
+\begin_inset Formula $277\pm22$
+\end_inset
+
+
+\change_unchanged
+ µm which was similar to the length of the axons from 
 \emph on
 group1.
  
 \emph default
 Similarly, the dendrites of the cells in the group had an average length
- of 419.3±178 µm.
+ of 
+\change_inserted 78966105 1460385626
+
+\begin_inset Formula $419.3\pm178$
+\end_inset
+
+
+\change_unchanged
+ µm.
  Dendrites from these cells on average occupied 
 \begin_inset Formula $2.9\pm2.6\times10^{4}\mu m^{3}$
 \end_inset
@@ -1253,8 +1324,23 @@ Similarly, the dendrites of the cells in the group had an average length
 \end_inset
 
 .
- These neurons on average had 126.5±70 postsynaptic sites, and 33.5±7.77 presynapti
-c sites on the ipsilateral side.
+ These neurons on average had 
+\change_inserted 78966105 1460385646
+
+\begin_inset Formula $126.5\pm70$
+\end_inset
+
+
+\change_unchanged
+ postsynaptic sites, and 
+\change_inserted 78966105 1460385662
+
+\begin_inset Formula $33.5\pm7.77$
+\end_inset
+
+
+\change_unchanged
+ presynaptic sites on the ipsilateral side.
 \end_layout
 
 \begin_layout Standard
@@ -1390,6 +1476,24 @@ Something about the importance of connectivity between integrators?
 \end_inset
 
 
+\change_inserted 78966105 1460031173
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1460031535
+Many theories of how the neural integrartor works have been proposed.
+ A common theme among these theories is the manner in which integrator cells
+ are connected to each other.
+ For example, integration could be acheived by positive recurrent excitation.
+ In this scenario, excitatory cells are connected to other excitatory cells,
+ such that activity spreads from one cell to the other.
+ Another scheme by which this can be acheived is through mutual inhibition
+ of two populations.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection*
@@ -1427,14 +1531,25 @@ potential synapses
 
 \begin_layout Standard
 We defined a potential synapse as a pair of axon and dendrite that was 
-\begin_inset Formula $<1\:\mu m$
+\begin_inset Formula $<1$
 \end_inset
 
- from each other.
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+m from each other.
  This analysis revealed 48 potential synapses between all integrator cells
  containing axons against all other cells.
- Of theses 48, 40 potential synapses were on the one cell that contained
- four real synapses.
+ Of these 48
+\change_inserted 78966105 1460388970
+ potential synapses
+\change_unchanged
+, 40
+\change_deleted 78966105 1460388980
+ 
+\change_unchanged
+ were on the one cell that contained four real synapses.
  Translating the presynaptic cells randomly within a radius did not reveal
  any significant increase in the number of contacts between cells, suggesting
  that this one cells was truly exceptional in making synapses (sup fig).
@@ -1566,12 +1681,35 @@ Here we reconstructed cells from the hindbrain of the larval zebrafish that
  We functionally imaged from cells in the hindbrain using two-photon microscopy
  during spontaneous eye-movement behavior, followed by serial section electron
  microscopy in the same animal.
- We reconstructed in detail, the anatomy of integrator cells.This analysis,
- revealed cells with at least three types of unique axonal projection patterns.
- We discovered a new type of integrator cell projection pattern, an ipsilateral
- and contralateral projection, that has not been reported previously.
- Although, the contralateral projections were termed putative, they had
- all the hallmarks of being axonal in nature.
+ We reconstructed in detail, the anatomy of integrator cells.
+
+\change_inserted 78966105 1460389046
+ 
+\change_unchanged
+This analysis, revealed cells with at least three types of unique axonal
+ projection patterns.
+ We discovered a new type of integrator cell projection pattern, 
+\change_inserted 78966105 1460389109
+cells with both
+\change_unchanged
+ 
+\change_inserted 78966105 1460389115
+and 
+\change_unchanged
+ipsilateral and contralateral projection
+\change_inserted 78966105 1460389132
+.
+
+\change_unchanged
+ Although the contralateral projections were termed 
+\change_inserted 78966105 1460389161
+'
+\change_unchanged
+putative
+\change_inserted 78966105 1460389163
+'
+\change_unchanged
+, they had all the hallmarks of being axonal in nature.
  The other projection patterns, the ipsilateral and contralateral projections
  have been reported previously in larval zebrafish (
 \begin_inset CommandInset citation
@@ -1587,7 +1725,7 @@ key "Pastor:1994tx,Aksay:2000cn"
 
 \end_inset
 
-,), cats (
+), cats (
 \begin_inset CommandInset citation
 LatexCommand citet
 key "McCrea:1985hx"
@@ -1671,10 +1809,10 @@ key "Aksay:2003un"
 ).
  Here we reconstructed 25% of the unilateral integrator circuit.
  
-\end_layout
-
-\begin_layout Standard
-the organization of these cells in the larval animal might most likely be
+\change_inserted 78966105 1460031140
+T
+\change_unchanged
+he organization of these cells in the larval animal might most likely be
  conserved in the adult (
 \begin_inset CommandInset citation
 LatexCommand citet
