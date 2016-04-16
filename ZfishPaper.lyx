@@ -74,11 +74,63 @@
 \begin_body
 
 \begin_layout Title
-Zfish Paper 1
+Structure and function of cells in a neural integrator
 \end_layout
 
 \begin_layout Author
-Ashwin, Kayvon, Alex, Emre and Sebastian
+Ashwin Vishwanathan,
+\begin_inset Formula $^{1}$
+\end_inset
+
+ Kayvon Daie,
+\begin_inset Formula $^{3}$
+\end_inset
+
+ Alex Ramirez,
+\begin_inset Formula $^{3}$
+\end_inset
+
+ Emre Aksay,
+\begin_inset Formula $^{3}$
+\end_inset
+
+ and H.
+ Sebastian Seung
+\begin_inset Formula $^{1,2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Address
+\begin_inset Formula $^{1}$
+\end_inset
+
+Neuroscience Institute and 
+\begin_inset Formula $^{2}$
+\end_inset
+
+Computer Science Department
+\begin_inset Newline newline
+\end_inset
+
+Princeton University, Princeton, NJ 08544
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $^{3}$
+\end_inset
+
+Institute for Computational Biomedicine and
+\begin_inset Newline newline
+\end_inset
+
+Department of Physiology and Biophysics, 
+\begin_inset Newline newline
+\end_inset
+
+Weill Cornell Medical College, New York, NY 10021
 \end_layout
 
 \begin_layout Abstract
@@ -101,9 +153,9 @@ g axons, identified by a distinctive glial ensheathment near the midline.
  Cells with both ipsilateral and contralateral projections were also reconstruct
 ed.
  Based on previous reports of correlation between somatic location and neurotran
-smitter identity, we infer that cells with ipsilaterally projecting axons
- are largely glutamatergic and excitatory, whereas cells with only contralateral
-ly projecting axons are largely GABAergic and inhibitory.
+smitter identity, we infer that cells with only ipsilaterally projecting
+ axons are largely glutamatergic and excitatory, whereas cells with only
+ contralaterally projecting axons are largely GABAergic and inhibitory.
  We observed the first evidence of synapses between integrator neurons,
  from an ipsilaterally projecting cell onto other cells.
 \end_layout
@@ -154,14 +206,21 @@ key "Pastor:1994tx,Aksay:2000cn,Aksay:2001fx"
 
 \end_inset
 
-, rodents (), non-human primates 
+, rodents (cite), non-human primates 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Robinson:1975vm,Robinson:1989wt"
 
 \end_inset
 
-, and humans (cite), the neural integrator is the 
+, and humans 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "leigh2015neurology"
+
+\end_inset
+
+, the neural integrator is the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -215,14 +274,13 @@ key "Lee:2015dv"
  brain, and could not positively identify synapses.
  They could not conclusively distinguish between axon and dendrite, nor
  could they examine connectivity between integrator neurons.
- This paper replaces light microscopy by serial section electron microscopy
- (EM) to yield improved structural information about many integrator neurons
- from a single neural circuit.
+ This paper applies serial section electron microscopy (EM) to yield improved
+ structural information about many integrator neurons from a single animal.
  
 \end_layout
 
 \begin_layout Standard
-Integrator neurons were identified in the hindbrain of the larval zebrafish
+Integrator neurons were identified in the hindbrain of a larval zebrafish
  using two-photon calcium imaging while recording spontaneous eye movements.
  The same region of the hindbrain was then imaged via serial section electron
  microscopy.
@@ -231,35 +289,25 @@ Integrator neurons were identified in the hindbrain of the larval zebrafish
  The same neurons were located in the EM dataset, and their neurites were
  completely reconstructed within the confines of the imaged volume.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-For comparison, a total of 3004 cell bodies were identified in the imaged
- volume, and an estimated 100 integrator neurons in total exist on each
- side of the hindbrain (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Aksay:2003un"
-
-\end_inset
-
-).
- 
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-We found 6 integrator neurons with ipsilaterally projecting axons, identified
- by the existence of presynaptic boutons containing vesicles.
- We found 8 integrator neurons with contralaterally projecting axons, identified
- by a distinctive glial ensheathment near the midline.
- These axonal projection patterns are consistent with a previous report
- based on light microscopy 
+We identified chemical synapses in our images by the existence of presynaptic
+ vesicles and postsynaptic densities.
+ All chemical synapses involving integrator neurons contained small vesicles,
+ suggesting the presence of conventional rather than peptidergic neurotransmitte
+rs.
+ Dense core vesicles were found at other synapses in the same region.
+ 
+\end_layout
+
+\begin_layout Standard
+We found 6 integrator neurons with only ipsilaterally projecting axons,
+ identified by the existence of presynaptic boutons containing vesicles.
+ We found 8 integrator neurons with only contralaterally projecting axons,
+ identified by a distinctive glial ensheathment near the midline.
+ Both axonal projection patterns are consistent with a previous report based
+ on light microscopy 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -271,6 +319,16 @@ key "Lee:2015dv"
  both ipsilateral and contralateral, which has not been previously reported.
  For 6 integrator neurons, an axon could not be identified, presumably because
  it was cut off by the boundary of the imaged volume.
+\end_layout
+
+\begin_layout Standard
+We found one example of an ipsilaterally-projecting integrator neuron that
+ made two synapses onto another ipsilaterally-projecting integrator neuron.
+ The same source neuron also synapsed onto two contralaterally-projecting
+ integrator neurons.
+ This provides the first evidence that integrator neurons make synapses
+ onto each other.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -291,26 +349,19 @@ key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
 \end_inset
 
 .
- On this basis, we inferred that integrator neurons with ipsilaterally projectin
-g axons are glutamatergic, and those with contralaterally projecting axons
- are GABAergic.
- Those with both ipsilateral and contralateral projections are glutamatergic.
+ On this basis, we inferred that integrator neurons with only ipsilaterally
+ projecting axons are glutamatergic, and those with only contralaterally
+ projecting axons are GABAergic.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Is this correct for the cells with no axon at all?
 \end_layout
 
-\begin_layout Standard
-We identified chemical synapses in our images by the existence of presynaptic
- vesicles and postsynaptic densities.
- All chemical synapses involving integrator neurons contained small vesicles,
- suggesting the presence of conventional rather than peptidergic neurotransmitte
-rs.
- Dense core vesicles were found at other synapses in the same region.
- We found one example of an ipsilaterally-projecting integrator neuron that
- made two synapses onto another ipsilaterally-projecting integrator neuron.
- The same source neuron also synapsed onto two contralaterally-projecting
- integrator neurons.
- This provides the first evidence that integrator neurons make synapses
- onto each other.
- 
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -497,16 +548,6 @@ Somata
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Here we aimed to build on this body of work by characterizing the ultrastructure
- of cells belonging to these classes.
-\end_layout
-
-\end_inset
-
 The somata of the 22 integrator cells spanned 23 µm in the dorsoventral
  axis and the entire rostrocaudal extent of the imaged volume.
  The soma locations ended up in three broad clusters.
@@ -514,8 +555,8 @@ The somata of the 22 integrator cells spanned 23 µm in the dorsoventral
  the rostral end of the imaged volume.
  The second cluster of cells was located at the caudal end of the imaged
  volume, lateral to the first cluster.
- And a third loose cluster of cells was located at the lateral end of the
- volume, with cells that spanned the entire rostrocaudal range (Fig.
+ A third loose cluster of cells was located at the lateral end of the volume,
+ with cells that spanned the entire rostrocaudal range (Fig.
  1D).
  The average diameter of somata was XXXXX.
  On average 
@@ -546,37 +587,17 @@ We identified synapses by the presence of a presynaptic vesicle pool and
  Elsewhere in the volume we did identify synapses with dense core vesicles,
  presumably containing a peptide neurotransmitter (sup fig).
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-We did not label synapses as being either symmetric or asymmetric, to infer
- neurotransmitter identity, as there exists some disagreements regarding
- this method of inference (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Klemann:2011hy"
-
-\end_inset
-
-).
- 
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 The postsynaptic densities were observed as a darkening of the membrane,
- indicative of more electron dense regions.
- On the presynaptic side we typically noticed a small pool of vesicles usually
- very close to the postsynaptic density, with a mild darkening of the regions
- close to the synaptic membrane, consistent with the idea of an active-zone,
- where presynaptic machinery that supports the release of vesicles.
- The rest of the axonal terminal contained a larger reserve pool of vesicles
- (fig 2B, EM panels).
+ indicative of more electron dense regions (Fig.
+ 2B).
+ The presynaptic site was generally at a varicosity in the axon (containing
+ mitochondria?) with vesicles throughout.
+ Opposing the postsynaptic density, a small, denser cluster of vesicles
+ was typically observed, along with a presynaptic density.
+ These features are consistent with the idea of a presynaptic active zone.
  
 \end_layout
 
@@ -584,7 +605,7 @@ The postsynaptic densities were observed as a darkening of the membrane,
 In total, we annotated 406 presynaptic and 2229 postsynaptic sites on integrator
  neurons.
  The number of postsynaptic sites on a cell averaged 
-\begin_inset Formula $101.31\pm74.15$
+\begin_inset Formula $101\pm74$
 \end_inset
 
 .
@@ -596,11 +617,9 @@ In total, we annotated 406 presynaptic and 2229 postsynaptic sites on integrator
 
 .
  This is an underestimate of the number of output synapses from an integrator
- neuron, because most axonal arbors were cut off by the borders of the volume,
- and hence incompletely reconstructed.
- The integrator neurons in this study were reconstructed to different degrees
- of completeness, of the cells that were more complete than others, there
- were 
+ neuron, because most axonal arbors were cut off by the borders of the volume.
+ If statistics are restricted to the NNN cells that were more complete than
+ others, there were 
 \begin_inset Formula $156\pm47.46$
 \end_inset
 
@@ -617,16 +636,15 @@ Along the somatic membrane, a darkening of the membrane interrupted by small
  The darkening persisted over multiple serial sections, suggesting that
  it was not an artifact of tissue preparation or imaging.
  We speculate that these darkenings are electrical synapses, which are known
- to exist in the developing larval zebrafish hindbrain (
+ to exist in the developing larval zebrafish hindbrain 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Jabeen:2013fm"
 
 \end_inset
 
-).
- However, we cannot be sure of our interpretation because it is difficult
- to conclusively identify electrical synapses given our limited image resolution.
+.
+ We cannot be sure of our interpretation because of our limited image resolution.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -638,9 +656,19 @@ Dendrites were defined by the absence of presynaptic vesicles and the presence
  of postsynaptic densities.
  They were mostly oriented along the mediolateral axis, but some exceptions
  were oriented rostrocaudally.
- Dendrites were smooth rather than spiny ( Fig 2 A-D).
+ Dendrites were smooth rather than spiny (Fig 2 A-D).
  The dendritic arbors of these cells fell into a distribution with a long
- tail, see distribution of arbor size ( sup fig).
+ tail
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+skeptical about this, given that you have only 22 cells
+\end_layout
+
+\end_inset
+
+, see distribution of arbor size ( sup fig).
  Cells with small arbors were completely reconstructed and did not have
  any dendrites that left the imaged volume.
 \end_layout
@@ -654,8 +682,7 @@ We defined axons as neurites with presynaptic vesicles.
  No axons were observed emerging directly from the cell body.
  Instead, dendrites bearing postsynaptic sites turned into axons with presynapti
 c sites.
- Two example dendrite-axon transitions are indicated by the open arrowheads
- in Fig 2 A, B.
+ Two example dendrite-axon transitions are indicated in Fig 2A and B.
  The main trunk of the axon extended rostrally and ventrally (Fig.
  3 A-B).
  From the main trunk emerged mediolateral branches, which we will term collatera
@@ -675,9 +702,9 @@ We observed dark sheaths around some axonal segments.
  The axon of the cell in Fig.
  2A was intermittently myelinated along its rostrocaudal section.
  Mediolateral collaterals emerged from the gaps in myelination, and remained
- unmyelinated..
+ unmyelinated.
  Myelin sheaths have been previously seen in larval zebrafish spinal cord
- and wrap neurons in an activity dependent manner 
+ and wrap neurons in an activity-dependent manner 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Mensch:2015hy,Hines:2015gu"
@@ -694,25 +721,26 @@ Caliber of neurites
 
 \begin_layout Standard
 In contrast to the current work, previous light microscopic reconstructions
- of integrator cells (
+ of integrator cells 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Lee:2015dv"
 
 \end_inset
 
-) could not visualize synapses, and therefore inferred whether neurites
- were axons or dendrites.
+ could not visualize synapses, and therefore inferred whether neurites were
+ axons or dendrites.
  To investigate the reliability of such inferences, we quantified the caliber
  of our axons and dendrites.
  For 20 out of 22 cells, the mean axonal diameter was less than the mean
- dendrite diameter.
- This fits the textbook notion that axons are thinner than dendrites.
- However, the axon was thicker than the dendrites for the remaining cells,
- so inference of neurite identity based on caliber would have been erroneous.
+ dendrite diameter, conforming to the textbook notion that axons are thinner
+ than dendrites (Fig.
+ 3H).
+ However, the axon was thicker than the dendrites for the remaining two
+ cells, so inference of neurite identity based on caliber would have been
+ erroneous for these cells.
  Furthermore, neurite diameters are close to the diffraction limit, so that
  light microscopic estimation of dendritic diameters could be inaccurate.
- 
 \end_layout
 
 \begin_layout Subsubsection*
@@ -722,16 +750,16 @@ Small protuberances
 \begin_layout Standard
 A small fraction (3% or 89/2229) of the postsynaptic sites were located
  on finger-like projections from dendrites that were enveloped by invaginations
- of axonal boutons (Fig 2B, EM panel 2).These projections resemble structures
- found across multiple species called spinules, and are thought to be present
- on large, active synapses (
+ of axonal boutons (Fig 2B, EM panel 2).
+ These projections resemble structures found across multiple species called
+ spinules, and are thought to be present on large, active synapses 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Petralia:2015ge"
 
 \end_inset
 
-)
+
 \end_layout
 
 \begin_layout Standard
@@ -746,7 +774,8 @@ Another interesting feature observed on all integrator cells was a short
 
 m) neurite enriched with microtubules emerging from the cell body.
  In some cases, the neurite terminated inside processes that were presumed
- glial ( Fig 2D, left panel).
+ glial (Fig.
+ 2D).
  
 \end_layout
 
@@ -757,20 +786,19 @@ Putative axons
 \begin_layout Standard
 We noticed that a few of the neurites that crossed the midline shared common
  features.
- First, these neurites were 'bare', and devoid of any pre- or postsynaptic
- sites.
+ First, these neurites were devoid of any pre- or postsynaptic sites.
  Second, before crossing the midline, the neurite became engulfed by processes
  that appeared glial in nature (Fig 2 C,D).
  These features are typical of axons.
  The glial engulfment is consistent with the idea of glial bridges that
- are instrumental in axonal guidance during development (
+ are instrumental in axonal guidance during development 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Barresi:2005iw"
 
 \end_inset
 
-).
+.
  The lack of presynaptic sites is similar to some of the initial segments
  of the ipsilaterally projecting axons, where there were no presynaptic
  terminals in the early part of the axon, and presynaptic sites emerged
@@ -780,14 +808,40 @@ key "Barresi:2005iw"
  We therefore infer that these neurites are contralaterally projecting axons.
 \end_layout
 
-\begin_layout Subsection
-Groupings based on axonal projections ( figure 3)
+\begin_layout Subsubsection*
+Spacing between synapses
 \end_layout
 
 \begin_layout Standard
-Following these annotations we divided the integrator cells into four groups
- based on their axonal projection patterns as (i) ipsilaterally projecting
- (ii) contralaterally projecting (ii) Ipsi and contra projecting (iv) unknown.
+We computed the intersynaptic distance for all pre- and postsynaptic sites.
+ The mean distance between synapses on dendrites was 
+\begin_inset Formula $1.69\pm1.8\:\mu m$
+\end_inset
+
+ and on axons was 
+\begin_inset Formula $1.93\pm3\:\mu m$
+\end_inset
+
+.
+ However, we noticed that at the level of the individual cell, there were
+ some differences that was not being captured by lumping all cells together.
+ Therefore we broke the distribution of the intersynaptic distance by groups.
+ We noticed that for cells in 
+\emph on
+group1
+\emph default
+, the inter presynaptic distances had a long tail, with large gaps.
+ This was indicative of the clustering of presynaptic sites that was visible
+ in (Fig 2B, graphic inset)
+\end_layout
+
+\begin_layout Subsection
+Axonal projection patterns
+\end_layout
+
+\begin_layout Standard
+We divided the reconstructed integrator cells into four groups based on
+ their axonal arbors, as described below.
  
 \end_layout
 
@@ -795,7 +849,15 @@ Following these annotations we divided the integrator cells into four groups
 
 \emph on
 \bar under
-Ipsilaterally projecting (group1) 
+Ipsilateral projection only (
+\begin_inset Quotes eld
+\end_inset
+
+ipsi-only
+\begin_inset Quotes erd
+\end_inset
+
+) 
 \emph default
 \bar default
 - Six cells were observed to have only ipsilaterally projecting axons.
@@ -805,7 +867,7 @@ Ipsilaterally projecting (group1)
 \emph on
 en passant
 \emph default
- boutons with presynaptic vesicle in them.
+ boutons with presynaptic vesicles.
  The cell bodies were located at the rostral extent of the volume, and close
  to the midline (Fig 3A).
  Not all cells in this group had rostral axonal terminations in the abducens
@@ -815,23 +877,23 @@ en passant
  could potentially terminate in the abducens.
  The average length of all the axons from all ipsilaterally projecting cells
  was 
-\begin_inset Formula $270.05\pm244.06\,\mu m$
+\begin_inset Formula $270\pm244\,\mu m$
 \end_inset
 
- with the longest reconstructed axon being 683.39 µm.
+ with the longest reconstructed axon being 683 µm.
  The mean diameter of the axons from these cells averaged 
 \begin_inset Formula $0.21\pm0.15$
 \end_inset
 
- µm ( Fig 3H).
+ µm (Fig.
+ 3H).
  
 \end_layout
 
 \begin_layout Standard
-Dendrites extended laterally from somata and were always ventral to the
- cell somata.
+Dendrites emerged laterally from somata and always extended ventrally.
  In one case dendrites were observed to cross the midline, as indicated
- by the presence of postsynaptic sites ( Fig 3A, arrowhead).
+ by the presence of postsynaptic sites (Fig 3A, arrowhead).
  The average volume encompassed by the dendrites of these cells (convex
  hull volume) was 
 \begin_inset Formula $3.04\pm1.5\times10^{4}\:µm^{3}$
@@ -840,6 +902,17 @@ Dendrites extended laterally from somata and were always ventral to the
 .
  The dendrites in this group arborized over 13.3% of the total imaged volume.
  The average length of dendrites from this group of cells was 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+It's silly to have numbers with this many significant figures, given the
+ large variance.
+\end_layout
+
+\end_inset
+
+
 \begin_inset Formula $391.83\pm65.83$
 \end_inset
 
@@ -893,7 +966,15 @@ key "Lee:2015dv"
 
 \emph on
 \bar under
-Ipsi- and contra projecting (group 2)
+Both ipsi- and contralateral projections (
+\begin_inset Quotes eld
+\end_inset
+
+ipsi-contra
+\begin_inset Quotes erd
+\end_inset
+
+)
 \emph default
 \bar default
 - Two cells had axons with both ipsilateral and contralateral projections
@@ -960,7 +1041,15 @@ Similarly, the dendrites of the cells in the group had an average length
 
 \emph on
 \bar under
-Contralaterally projecting (group3)
+Contralateral projection only (
+\begin_inset Quotes eld
+\end_inset
+
+contra-only
+\begin_inset Quotes erd
+\end_inset
+
+)
 \emph default
 \bar default
 - Eight cells from this group, located at the caudal most extent of the
@@ -1007,10 +1096,10 @@ group1
 , ttest).
  On average, these cells received 85.2±39.5 postsynaptic sites.
  The average diameter of dendrites was 
-\begin_inset Formula $0.22\pm0.12\:\mu m$
+\begin_inset Formula $0.22\pm0.12\:\mu$
 \end_inset
 
- , this was significantly larger than the diameter of the axons (Fig 3E,
+m; this was significantly larger than the diameter of the axons (Fig 3E,
  
 \begin_inset Formula $p<2\times10^{-6}$
 \end_inset
@@ -1022,7 +1111,15 @@ group1
 
 \emph on
 \bar under
-Unknown projecting (group4)
+Projection unknown (
+\begin_inset Quotes eld
+\end_inset
+
+unknown
+\begin_inset Quotes erd
+\end_inset
+
+)
 \emph default
 \bar default
  - The last seven cells were located at the lateral most extent of the volume.
@@ -1031,11 +1128,11 @@ Unknown projecting (group4)
  We believe this is most likely because these cells were not fully represented
  in the imaged volume and neurites of these cells exit the volume before
  the axon was located.
- The average length of the dendrites for cells from this group was
-\begin_inset Formula $221.47\pm48.70\:\mu m$
+ The average length of the dendrites for cells from this group was 
+\begin_inset Formula $221.47\pm48.70\:\mu$
 \end_inset
 
-, and they occupied on average a volume of 
+m, and they occupied on average a volume of 
 \begin_inset Formula $1.13\pm1.2\times10^{4}\:\mu m^{3}$
 \end_inset
 
@@ -1048,236 +1145,19 @@ Unknown projecting (group4)
  
 \end_layout
 
-\begin_layout Standard
-
-\emph on
-\bar under
-Intersynaptic distance:
-\emph default
-\bar default
- We computed the intersynaptic distance for all pre- and postsynaptic sites.
- The mean inter postsynaptic distance for all cells was 
-\begin_inset Formula $1.69\pm1.8\:\mu m$
-\end_inset
-
- and the mean inter presynaptic distance was 
-\begin_inset Formula $1.93\pm3\:\mu m$
-\end_inset
-
-.
- However, we noticed that at the level of the individual cell, there were
- some differences that was not being captured by lumping all cells together.
- Therefore we broke the distribution of the intersynaptic distance by groups.
- We noticed that for cells in 
-\emph on
-group1
-\emph default
-, the inter presynaptic distances had a long tail, with large gaps.
- This was indicative of the clustering of presynaptic sites that was visible
- in (Fig 2B, graphic inset)
-\end_layout
-
 \begin_layout Subsection
-Connectivity between integrator neurons ( figure 4) 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Something about the importance of connectivity between integrators?
-\end_layout
-
-\end_inset
-
-
+Connectivity between integrator neurons
 \end_layout
 
 \begin_layout Standard
-Many theories of how the neural integrator works have been proposed.
- A common theme is the manner in which integrator cells are connected to
- each other.
- For example, integration could be acheived by positive recurrent excitation.
- In this scenario, excitatory cells are connected to other excitatory cells,
- such that activity spreads from one cell to the other.
- Another scheme by which this can be achieved is through mutual inhibition
- of two populations.
- 
-\end_layout
-
-\begin_layout Subsection*
-real synapses
-\end_layout
-
-\begin_layout Standard
-Only one integrator cell made synapses onto other integrator cells, in our
- imaged volume.
- This one cell belonged to 
-\emph on
-group1
-\emph default
-, with an ipsilaterally projecting axon.
- This cell made 2 synapses onto another 
-\emph on
-group1
-\emph default
- cell and 1 synapse each onto two 
-\emph on
-group3
-\emph default
-, contralaterally projecting cells (Fig 4A).
- The electron micrographs at these locations show axonal terminals, filled
- with vesicles (inset, green) opposed to postsynaptic densities on the dendrites
- (inset, red) (Fig 4A).
- This is the first demonstration that cells that take part in the velocity
- to position integration are indeed monosynaptically connected to each other.
- All the synapses were on the collaterals of the integrator cell axon.
-\end_layout
-
-\begin_layout Subsection*
-potential synapses
-\end_layout
-
-\begin_layout Standard
-We defined a potential synapse as a pair of axon and dendrite that was 
-\begin_inset Formula $<1$
-\end_inset
-
- 
-\begin_inset Formula $\mu$
-\end_inset
-
-m from each other.
- This analysis revealed 48 potential synapses between all integrator cells
- containing axons against all other cells.
- Of these 48 potential synapses, 40 were on the one cell that contained
- four real synapses.
- Translating the presynaptic cells randomly within a radius did not reveal
- any significant increase in the number of contacts between cells, suggesting
- that this one cells was truly exceptional in making synapses (sup fig).
- 
-\end_layout
-
-\begin_layout Subsection
-
-\emph on
-I
-\bar under
-nferring neurotransmitter identity
-\end_layout
-
-\begin_layout Standard
-Cells bodies in the hindbrain of the larval zebrafish follow a stereotypic
- alternating 'stripe' pattern of cell bodies and neuropil.
- Most if not all cells, that belong to a stripe share the same neurotransmitter
- identity, and morphology (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
-
-\end_inset
-
-).
- We projected the location of cell somata onto a single plane and noticed
- the emergence of alternating peaks of cell somata and neuropil, reminiscent
- of the stripe like pattern.
- We were able to locate 4 peaks, each corresponding to a likely stripe (
- Fig 4D, bottom panel).
- The medial most peak corresponded closely to midline cells from the contralater
-al population that spilled over in the ipsilateral side imaging, these cells
- were contralateral to the Mauthner cell axon.
- Peaks 2-4 were peaks that were visible in the ipsilateral side (the imaged
- side).
- Overlaying the 22 integrator somata locations, we noticed that cells in
- 
-\emph on
-group1
-\emph default
- overlapped with peak 2, cells in 
-\emph on
-group2,3
-\emph default
- overlapped with peak 3 and cells in
-\emph on
-group4
-\emph default
- cells overlapped with peak4.
- Based on this, we inferred the putative neurotransmitter identity of the
- integrator cells.
- The first stripe on the ipsilateral side (peak2) overlaps with cells that
- express the 
-\emph on
-alx 
-\emph default
-transcription factor, and are mostly glutamatergic (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Kimura:2006hd"
-
-\end_inset
-
-).
- This stripe was also previously shown to almost exclusively contain glutamaterg
-ic integrator cells (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Lee:2015dv"
-
-\end_inset
-
-).
- The second stripe (peak3) corresponds cells expressing the transcription
- factor 
-\emph on
-dbx1b 
-\emph default
-(
-\emph on
-
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Kinkhabwala:2011et"
-
-\end_inset
-
-
-\emph default
-)
-\emph on
-.
-\emph default
-Integrator cells of different neurotransmitter identities have been reported
- along this stripe.
- Cell more dorsal are thought to be glutamatergic, and the more ventral
- ones expressing GABA.
- The last, lateral most stripe (peak4) corresponds with cells expressing
- the 
-\emph on
-barhl 
-\emph default
-transcription factor, which is though to be glutamatergic as well
-\emph on
- 
-\emph default
-(
-\emph on
-
-\begin_inset CommandInset citation
-LatexCommand citet
-key "colombo_zebrafish_2006,Kinkhabwala:2011et"
-
-\end_inset
-
-
-\emph default
-).
-\end_layout
-
-\begin_layout Section
-Discussion
-\end_layout
-
-\begin_layout Standard
-Both ipsilateral and contralateral axonal projections of integrator neurons
- have been reported previously in larval zebrafish 
+Many theories of the neural integrator are based on assumed patterns of
+ synaptic connectivity between integrator neurons.
+ For example, it has been proposed that integration is supported by recurrent
+ excitation between neurons on the same side of the brain (cite), and/or
+ mutual inhibition between populations on opposite sides of the brain (cite).
+ The existence of synapses between integrator neurons has been presumed
+ possible, because axon collaterals on integrator neurons have been observed
+ in larval zebrafish 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -1303,68 +1183,262 @@ key "McCrea:1985hx"
 status open
 
 \begin_layout Plain Layout
-were these physiologically identified
+Were these physiologically identified?
 \end_layout
 
 \end_inset
 
  and nonhuman primates (cite).
+ Such collaterals could potentially contact dendrites of other integrator
+ neurons, but conclusive evidence for contact and synapses has been lacking.
+\end_layout
+
+\begin_layout Standard
+From the axon collaterals of one integrator cell, we found the hypothesized
+ synapses onto other integrator cells.
+ This single cell belonged to the 
+\emph on
+ipsi-only
+\emph default
+ group.
+ It made 2 synapses onto another 
+\emph on
+ipsi-only
+\emph default
+ cell and 1 synapse each onto two 
+\emph on
+contra-only
+\emph default
+ cells (Fig 4A).
  
 \end_layout
 
 \begin_layout Standard
-We also noticed that only one cells made all the synapses with other integrator
- cells.
- This 'super' cell also made the most number of potential synapses onto
- other integrator cells.
- One possibility for the sparse connectivity among ipsilaterally projecting
- cells is because integrator cells from the unilateral population do not
- contribute to the entire oculomotor range.
- We would expect cells that respond to a certain range of eye position to
- synapse onto similar cells, but not with cells from an opposing range of
- eye positions.
- Conversely, these few synapses could be a byproduct of a small number of
- cells with incompletely reconstructed axons
+A total of eight cells (
+\emph on
+ipsi-only
+\emph default
+ and 
+\emph on
+ipsi-contra
+\emph default
+) had ipsilaterally projecting axons.
+ Based on this projection pattern, it might appear that all eight cells
+ had the 
+\emph on
+potential
+\emph default
+ to make synapses onto other integrator neurons within the confines of the
+ imaged volume.
+ However, this would be overstating the case if the axons failed to even
+ approach dendrites.
+ Therefore we decided to define a 
+\begin_inset Quotes eld
+\end_inset
+
+potential synapse
+\begin_inset Quotes erd
+\end_inset
+
+ as a location where axon and dendrite approached each other closer than
+ 
+\begin_inset Formula $1$
+\end_inset
+
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+m.
+ We found 48 potential synapses between integrator cells.
+ Of this set, 40 involved the one cell that made the four real synapses.
+ Therefore this cell seemed exceptional in that it made a disproportionate
+ number of potential synapses as well as all the real synapses.
+ The number of potential synapses changed little if the locations of the
+ presynaptic cells
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+means group1 + group2 or all cells were jittered
+\end_layout
+
+\end_inset
+
+ were jittered randomly by less than XXX 
+\begin_inset Formula $\mu$
+\end_inset
+
+m (sup fig).
+ 
+\end_layout
+
+\begin_layout Subsection
+Inferring neurotransmitter identity
 \end_layout
 
 \begin_layout Standard
-The larval zebrafish is believed to have ~100 integrator neurons unilaterally
- (
+We did not attempt to classify synapses as either symmetric or asymmetric,
+ as there exists some disagreements regarding this method of inference 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
+key "Klemann:2011hy"
+
+\end_inset
+
+.
+ Instead we attempted to infer neurotransmitter identity based on somatic
+ locations.
+ Cell bodies in the hindbrain of the larval zebrafish follow a stereotypic
+ alternating stripes pattern of cell bodies and neuropil.
+ Cells in the same stripe largely share the same neurotransmitter identity,
+ and morphology 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
+
+\end_inset
+
+.
+ We projected the location of cell somata onto a single plane and noticed
+ the emergence of alternating peaks of cell somata and neuropil, reminiscent
+ of the stripe like pattern.
+ We were able to locate 4 peaks, each corresponding to a likely stripe (
+ Fig 4D, bottom panel).
+ The medial most peak corresponded closely to midline cells from the contralater
+al population that spilled over in the ipsilateral side imaging, these cells
+ were contralateral to the Mauthner cell axon.
+ Peaks 2-4 were peaks that were visible in the ipsilateral side (the imaged
+ side).
+ Overlaying the 22 integrator somata locations, we noticed that cells in
+ 
+\emph on
+group1
+\emph default
+ overlapped with peak 2, cells in 
+\emph on
+group2,3
+\emph default
+ overlapped with peak 3 and cells in
+\emph on
+ group4
+\emph default
+ overlapped with peak4.
+ Based on this, we inferred the putative neurotransmitter identity of the
+ integrator cells.
+ The first stripe on the ipsilateral side (peak2) overlaps with cells that
+ express the 
+\emph on
+alx 
+\emph default
+transcription factor, and are mostly glutamatergic 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kimura:2006hd"
+
+\end_inset
+
+.
+ This stripe was also previously shown to almost exclusively contain glutamaterg
+ic integrator cells 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee:2015dv"
+
+\end_inset
+
+.
+ The second stripe (peak3) corresponds cells expressing the transcription
+ factor 
+\emph on
+dbx1b 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kinkhabwala:2011et"
+
+\end_inset
+
+.
+
+\emph default
+ Integrator cells of different neurotransmitter identities have been reported
+ along this stripe.
+ Cell more dorsal are thought to be glutamatergic, and the more ventral
+ ones expressing GABA.
+ The last, most lateral stripe (peak4) corresponds with cells expressing
+ the 
+\emph on
+barhl 
+\emph default
+transcription factor, which is thought to be glutamatergic as well 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "colombo_zebrafish_2006,Kinkhabwala:2011et"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Standard
+Our sample of 22 reconstructed cells is a fairly large fraction of the roughly
+ 100 integrator neurons estimated to exist on one side of the larval zebrafish
+ brain 
+\begin_inset CommandInset citation
+LatexCommand citep
 key "Aksay:2003un"
 
 \end_inset
 
-).
- Here we reconstructed 25% of the unilateral integrator circuit.
- The organization of these cells in the larval animal might most likely
- be conserved in the adult (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "gilland_hindbrain_2014"
-
-\end_inset
-
-).
- 
+.
+ Eight of the reconstructed cells had ipsilaterally projecting axons.
+ Of these, one cell made synapses onto other reconstructed neurons.
+ This may be an underestimate of integrator connectivity, for several reasons.
+ First, there are many cells in the imaged volume that carried no usable
+ calcium signal at all, largely because they did not take up enough calcium
+ indicator.
+ Some of these cells are likely to be integrator neurons overlooked by our
+ study, and are potential postsynaptic partners of the reconstructed cells
+ in our sample.
+ Second, there are many integrator neurons outside the imaged volume, and
+ they could receive synapses from our reconstructed integrator neurons.
+ (Only three axonal arbors were fully or mostly reconstructed; the rest
+ appeared substantially cut off as their axons left the volume.) Third, we
+ had no possibility of finding connections between neurons on opposite sides
+ of the brain, because only one side of the brain was imaged.
 \end_layout
 
 \begin_layout Standard
-A similar anatomical approach can be extended further to answer yet more
- question regarding the integrator circuit.
- The contribution of inputs from the same side as compared to the other
- side remain unknown.
- Presumably, this can be answered by tracing all the inputs impinging onto
- an integrator cell, back to their respective cell bodies.
- The integrator circuit is alos active during other eye movement behaviors
- like the optokinetic reflex, the vestebulo-ocular reflex and the optomotor
- response.
- Previous studies using whole brain functional imaging have shown that multiple
- brain areas are involved in these behaviors.
- The anatomical link from there other brain areas to the integrator circuit
- remains to be discovered.
+Our work provides the first conclusive evidence for synapses between integrator
+ neurons.
+ This has long been suspected but experimental confirmation has eluded researche
+rs for decades.
+ It is difficult to know whether the single cell that made synapses onto
+ other integrator neurons is an exceptional case, or a representative of
+ a larger population that was incompletely sampled.
+ One intriguing possibility is that the integrator population contains a
+ subset of cells are well-connected with each other, while the rest mainly
+ make synapses onto neurons outside the integrator.
+ More definitive information about connectivity patterns between integrator
+ cells awaits a future experiment with an imaged volume that is large enough
+ to encompass all integrator cells, and a fluorescent calcium indicator
+ that labels a higher percentage of integrator cells.
  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Both ipsilateral and contralateral axonal projections of integrator neurons
+ have been reported previously in 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1746,6 +1820,46 @@ convhull
  The location of a stripe was defined as the local peak that emerged from
  the cell density projecting analysis.
  
+\end_layout
+
+\begin_layout Section
+Author contributions
+\end_layout
+
+\begin_layout Standard
+Conceptualization, Methodology, and Writing: A.V, E.
+ A., and H.S.S.
+ Formal Analysis: A.V.
+ and H.S.S.
+ Data Curation: A.V.
+ Visualization: A.
+ V.
+ Investigation: K.D performed two-photon calcium imaging in the lab of E.A.
+ A.V.
+ and E.
+ A.
+ reconstructed neurons with help from Ashleigh Showler and A.R.
+ Supervision and Funding Acquisition: E.
+ A.
+ and H.S.S.
+ 
+\end_layout
+
+\begin_layout Section
+Acknowledgments
+\end_layout
+
+\begin_layout Standard
+We are grateful to Juan Carlos Tapia, Ken Hayworth and Richard Schalek for
+ assisting us with tissue preparation, the ATUM serial sectioning procedure,
+ and the WaferMapper software for EM imaging.
+ Stefan Saalfeld, Albert Cardona, and Ignacio Arganda-Carreras answered
+ questions about the TrakEM2 plugin for FIJI/ImageJ.
+ Uygar Sümbül assisted with importing skeletons into MATLAB.
+ We benefited from helpful discussions with David Tank and Kanaka Rajan.
+ HSS acknowledges funding from the Mathers Foundation, Gatsby Foundation,
+ Human Frontier Science Program, NIH/NINDS award 5R01NS076467, and ARO MURI
+ award W911NF-12-1-0594.
 \end_layout
 
 \begin_layout Standard
