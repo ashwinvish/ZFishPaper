@@ -1,14 +1,13 @@
 * introduction
-** a promising approach for relating physiology and anatomy of neural circuits
-*** two-photon calcium imaging
+** neural circuits and behavior
+*** larval zebrafish is an important model animal
+*** two-photon calcium imaging during behavior
+** relation to anatomy
 *** serial electron microscopy
-** relation
-*** mouse retina  Briggman et al. (2011)
-*** mouse V1  Bock et al. (2011)
-*** invertebrate
-**** C. elegans
-**** Drosophila
-***** visual system
+** combining anatomy and physiology
+*** previous work in visual system
+**** mouse retina  Briggman et al. (2011)
+**** mouse V1  Bock et al. (2011)
 ** first application of this approach to population of neurons defined by relating their information encoding to behavioral variables
 *** behavior: spontaneous eye movements in larval zebrafish
 *** population of premotor neurons in hindbrain that carry an eye position signal
