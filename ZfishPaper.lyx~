@@ -70,6 +70,7 @@
 \html_css_as_file 0
 \html_be_strict false
 \author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
+\author 1172979425 "Sebastian Seung" 
 \end_header
 
 \begin_body
@@ -157,8 +158,12 @@ ed.
 smitter identity, we infer that cells with only ipsilaterally projecting
  axons are largely glutamatergic and excitatory, whereas cells with only
  contralaterally projecting axons are largely GABAergic and inhibitory.
- We observed the first evidence of synapses between integrator neurons,
- from an ipsilaterally projecting cell onto other cells.
+ We observed the first 
+\change_inserted 1172979425 1461086792
+conclusive 
+\change_unchanged
+evidence of synapses between integrator neurons, from an ipsilaterally projectin
+g cell onto other cells.
 \end_layout
 
 \begin_layout Section
@@ -200,7 +205,29 @@ key "Major:2004dk,Joshua:2015kx"
 \end_layout
 
 \begin_layout Standard
-In fish 
+
+\change_inserted 1172979425 1461088771
+Integrator cells are operationally defined as premotor neurons that carry
+ a horizontal eye position signal in their spiking.
+ (There is also an integrator for vertical eye movements, but it will not
+ be discussed here.) Integrator cells are thought to send their eye position
+ signals through direct synapses onto extraocular motor neurons in the ipsilater
+al abducens nucleus.
+ They are also thought to receive signals from multiple convergent pathways
+ that encode eye velocity for every type of eye movement.
+ Therefore, the neural integrator is the 
+\begin_inset Quotes eld
+\end_inset
+
+final common pathway
+\begin_inset Quotes erd
+\end_inset
+
+ for all types of eye movements i
+\change_deleted 1172979425 1461088584
+I
+\change_unchanged
+n fish 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Pastor:1994tx,Aksay:2000cn,Aksay:2001fx"
@@ -217,8 +244,6 @@ key "vanAlphen:2001vc"
 \end_inset
 
 
-\change_deleted 78966105 1460908034
-(cite)
 \change_unchanged
 , non-human primates 
 \begin_inset CommandInset citation
@@ -234,20 +259,23 @@ key "Leigh:2015ts"
 
 \end_inset
 
-, the neural integrator is the 
-\begin_inset Quotes eld
-\end_inset
 
-final common pathway
-\begin_inset Quotes erd
-\end_inset
+\change_inserted 1172979425 1461088782
+.
+ The neural integrator gets its name because the transformation of eye velocity
+ into eye position is the computational operation of integration with respect
+ to time.
+ 
+\change_unchanged
 
- for all types of eye movements.
- This neural circuit is located in the hindbrain, and performs the computational
- operation of integration with respect to time.
- The mechanisms supporting temporal integration remain unclear even after
+\end_layout
+
+\begin_layout Standard
+The mechanisms supporting temporal integration remain unclear even after
  decades of research
 \change_deleted 78966105 1460907503
+ 
+\change_inserted 1172979425 1461088788
  
 \change_inserted 78966105 1460907532
 
@@ -258,8 +286,6 @@ key "Joshua:2015kx"
 \end_inset
 
 
-\change_deleted 78966105 1460907503
-(cite)
 \change_unchanged
 .
  Many hypotheses and models have been proposed, and a number of them depend
@@ -414,50 +440,6 @@ key "Bock:2011fk,Lee:2016ti"
  defined by their encoding of behavioral variables, rather than stimulus
  variables.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-This stuff is not so similar, as it didn't involve simultaneous two-photon
- imaging, as far as I recall.
- Similar techniques have allowed for the discovery of complex architectures
- that allow convergence of inputs from multiple sensory modalities (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Ohyama:2015kb"
-
-\end_inset
-
-), circuits for locomotion (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Fushiki:2016ji"
-
-\end_inset
-
-) and a mechanism for direction selectivity in the retina (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Takemura:2013ea,Takemura:2015im"
-
-\end_inset
-
-) in the drosophila larvae.
- In the retina, these studies highlight the the fact that these fundamental
- sensory transformations are likely conserved across invertebrates and vertebrat
-es (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "borst_common_2015"
-
-\end_inset
-
-).
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -575,8 +557,6 @@ key "Lee:1993ip"
 \end_inset
 
 
-\change_deleted 78966105 1460918744
-(cite)
 \change_unchanged
 , the axon of the contralateral Mauthner cell, cells MiD2 and MiD3 of the
  reticulo-spinal network 
@@ -589,8 +569,6 @@ key "Lee:1993ip"
 \end_inset
 
 
-\change_deleted 78966105 1460909629
-(cite)
 \change_unchanged
 , and a number of commissural bundles (cite) (Fig 1D).
  
@@ -638,7 +616,11 @@ We identified synapses by the presence of a presynaptic vesicle pool and
  Synapses from or onto integrator neurons contained small vesicles, presumably
  containing a conventional neurotransmitter.
  Elsewhere in the volume we did identify synapses with dense core vesicles,
- presumably containing a peptide neurotransmitter (sup fig).
+ presumably containing a peptide neurotransmitter (sup fig
+\change_inserted 78966105 1461099344
+ 1
+\change_unchanged
+).
  
 \end_layout
 
@@ -685,7 +667,11 @@ In total, we annotated 406 presynaptic and 2229 postsynaptic sites on integrator
 
 \begin_layout Standard
 Along the somatic membrane, a darkening of the membrane interrupted by small
- gaps was often observed (sup fig).
+ gaps was often observed (sup fig
+\change_inserted 78966105 1461099503
+ 2
+\change_unchanged
+).
  The darkening persisted over multiple serial sections, suggesting that
  it was not an artifact of tissue preparation or imaging.
  We speculate that these darkenings are electrical synapses, which are known
@@ -721,7 +707,11 @@ skeptical about this, given that you have only 22 cells
 
 \end_inset
 
-, see distribution of arbor size ( sup fig).
+, see distribution of arbor size ( sup fig
+\change_inserted 78966105 1461099514
+ 3
+\change_unchanged
+).
  Cells with small arbors were completely reconstructed and did not have
  any dendrites that left the imaged volume.
 \end_layout
@@ -838,7 +828,11 @@ Another interesting feature observed on all integrator cells was a short
 m) neurite enriched with microtubules emerging from the cell body.
  In some cases, the neurite terminated inside processes that were presumed
  glial (Fig.
- 2D).
+ 2D
+\change_inserted 78966105 1461101207
+, sup fig 4
+\change_unchanged
+).
  
 \end_layout
 
@@ -867,7 +861,13 @@ key "Barresi:2005iw"
  terminals in the early part of the axon, and presynaptic sites emerged
  only later on.
  Finally, the diameter of these neurites were similar to the diameters of
- ipsilaterally projecting axons (sup figure).
+ ipsilaterally projecting axons (sup fig
+\change_inserted 78966105 1461101210
+ 5
+\change_deleted 78966105 1461099779
+ure
+\change_unchanged
+).
  We therefore infer that these neurites are contralaterally projecting axons.
 \end_layout
 
@@ -1021,7 +1021,11 @@ key "Lee:2015dv"
 
 ).
  We did not observe any significant difference in the total number of axonal
- collaterals and the length of these collaterals (sup fig).
+ collaterals and the length of these collaterals (sup fig
+\change_inserted 78966105 1461101217
+ 6
+\change_unchanged
+).
  
 \end_layout
 
@@ -1362,7 +1366,11 @@ means group1 + group2 or all cells were jittered
 \begin_inset Formula $\mu$
 \end_inset
 
-m (sup fig).
+m (sup fig
+\change_inserted 78966105 1461101225
+ 7
+\change_unchanged
+).
  
 \end_layout
 
@@ -1943,8 +1951,15 @@ Acknowledgments
 \end_layout
 
 \begin_layout Standard
-We are grateful to Juan Carlos Tapia, Ken Hayworth and Richard Schalek for
- assisting us with tissue preparation, the ATUM serial sectioning procedure,
+We are grateful to Juan Carlos Tapia,
+\change_deleted 78966105 1461029933
+ 
+\change_unchanged
+ Richard Schalek 
+\change_inserted 78966105 1461029926
+and Ken Hayworth 
+\change_unchanged
+for assisting us with tissue preparation, the ATUM serial sectioning procedure,
  and the WaferMapper software for EM imaging.
  Stefan Saalfeld, Albert Cardona, and Ignacio Arganda-Carreras answered
  questions about the TrakEM2 plugin for FIJI/ImageJ.
@@ -1971,12 +1986,18 @@ options "plainnat"
 \end_inset
 
 
+\change_inserted 78966105 1461099171
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section*
+
+\change_deleted 78966105 1461099185
 \begin_inset Newpage newpage
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
@@ -2490,6 +2511,133 @@ tic sites are the same color as the cell somata.
 \end_inset
 
 
+\change_inserted 78966105 1461099233
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted 78966105 1461099238
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1461099245
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\change_inserted 78966105 1461099212
+Supplementary figures
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1461099454
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099435
+\begin_inset Graphics
+	filename TypesOfSynapses.png
+	rotateOrigin center
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099424
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099446
+Types of synapses in the imaged volume
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1461099522
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099474
+\begin_inset Graphics
+	filename PutativeGapJunctions.png
+	rotateOrigin center
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099463
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099482
+Putative gap junctions
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -2499,7 +2647,123 @@ tic sites are the same color as the cell somata.
 
 \begin_layout Standard
 
-\change_deleted 78966105 1461012215
+\change_inserted 78966105 1461101270
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1461101274
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461101294
+\begin_inset Graphics
+	filename MicrotubuleCelia.png
+	rotateOrigin center
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461101274
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461101306
+Microtubule rich celia from all cells
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1461101266
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1461099794
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099547
+\begin_inset Graphics
+	filename ConvexHulls.png
+	rotateOrigin center
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099533
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099599
+Dendritic arbors according to groups
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1461099933
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2507,33 +2771,153 @@ tic sites are the same color as the cell somata.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
+
+\change_inserted 78966105 1461099929
 \begin_inset Graphics
-	filename NewFigure5_Small.png
+	filename DiameterSpecs.png
+	rotateOrigin center
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099805
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Synaptic connections between VPNI cells from different groups.
- (A) Three views of direct synaptic connections between VPNI cells form
- different groups.
- Presynaptic cell form group1 (arrow) makes synapses onto other group1 cells
- (pink) and onto group3 cells.
- (B) Minimum distance between axons of presynaptic trees and dendrites of
- postsynaptic trees.
- (C) Presynaptic trees that contain nodes that are within 1 um of a postsynaptic
- tree.
- Red dots are synapses that are show in A.
- 
+
+\change_inserted 78966105 1461099858
+Similarity of diameter of axons among groups
+\change_unchanged
+
 \end_layout
 
 \end_inset
 
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1461100957
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099962
+\begin_inset Graphics
+	filename LMEMComparison.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099943
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461099992
+Comparison of axons between LM and EM traces for ipsilaterally projecting
+ cells
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1461100968
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461100980
+\begin_inset Graphics
+	filename PotentialSynapseAnalysis.png
+	rotateOrigin center
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461100968
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461100990
+Potential synapse analysis
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
