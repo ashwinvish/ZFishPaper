@@ -70,6 +70,7 @@
 \html_css_as_file 0
 \html_be_strict false
 \author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
+\author 1172979425 "Sebastian Seung" 
 \end_header
 
 \begin_body
@@ -157,8 +158,12 @@ ed.
 smitter identity, we infer that cells with only ipsilaterally projecting
  axons are largely glutamatergic and excitatory, whereas cells with only
  contralaterally projecting axons are largely GABAergic and inhibitory.
- We observed the first evidence of synapses between integrator neurons,
- from an ipsilaterally projecting cell onto other cells.
+ We observed the first 
+\change_inserted 1172979425 1461086792
+conclusive 
+\change_unchanged
+evidence of synapses between integrator neurons, from an ipsilaterally projectin
+g cell onto other cells.
 \end_layout
 
 \begin_layout Section
@@ -200,7 +205,29 @@ key "Major:2004dk,Joshua:2015kx"
 \end_layout
 
 \begin_layout Standard
-In fish 
+
+\change_inserted 1172979425 1461088771
+Integrator cells are operationally defined as premotor neurons that carry
+ a horizontal eye position signal in their spiking.
+ (There is also an integrator for vertical eye movements, but it will not
+ be discussed here.) Integrator cells are thought to send their eye position
+ signals through direct synapses onto extraocular motor neurons in the ipsilater
+al abducens nucleus.
+ They are also thought to receive signals from multiple convergent pathways
+ that encode eye velocity for every type of eye movement.
+ Therefore, the neural integrator is the 
+\begin_inset Quotes eld
+\end_inset
+
+final common pathway
+\begin_inset Quotes erd
+\end_inset
+
+ for all types of eye movements i
+\change_deleted 1172979425 1461088584
+I
+\change_unchanged
+n fish 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Pastor:1994tx,Aksay:2000cn,Aksay:2001fx"
@@ -234,6 +261,10 @@ key "Leigh:2015ts"
 
 \end_inset
 
+
+\change_inserted 1172979425 1461088589
+.
+\change_deleted 1172979425 1461088588
 , the neural integrator is the 
 \begin_inset Quotes eld
 \end_inset
@@ -245,9 +276,22 @@ final common pathway
  for all types of eye movements.
  This neural circuit is located in the hindbrain, and performs the computational
  operation of integration with respect to time.
- The mechanisms supporting temporal integration remain unclear even after
+ 
+\change_inserted 1172979425 1461088782
+ The neural integrator gets its name because the transformation of eye velocity
+ into eye position is the computational operation of integration with respect
+ to time.
+ 
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+The mechanisms supporting temporal integration remain unclear even after
  decades of research
 \change_deleted 78966105 1460907503
+ 
+\change_inserted 1172979425 1461088788
  
 \change_inserted 78966105 1460907532
 
