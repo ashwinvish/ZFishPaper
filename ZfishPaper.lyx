@@ -64,11 +64,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
 \end_header
 
 \begin_body
@@ -206,17 +207,30 @@ key "Pastor:1994tx,Aksay:2000cn,Aksay:2001fx"
 
 \end_inset
 
-, rodents (cite), non-human primates 
+, rodents 
+\change_inserted 78966105 1460908074
+
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Robinson:1975vm,Robinson:1989wt"
+key "vanAlphen:2001vc"
+
+\end_inset
+
+
+\change_deleted 78966105 1460908034
+(cite)
+\change_unchanged
+, non-human primates 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Robinson:1989wt,Robinson:1975vm"
 
 \end_inset
 
 , and humans 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "leigh2015neurology"
+key "Leigh:2015ts"
 
 \end_inset
 
@@ -232,7 +246,22 @@ final common pathway
  This neural circuit is located in the hindbrain, and performs the computational
  operation of integration with respect to time.
  The mechanisms supporting temporal integration remain unclear even after
- decades of research (cite).
+ decades of research
+\change_deleted 78966105 1460907503
+ 
+\change_inserted 78966105 1460907532
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Joshua:2015kx"
+
+\end_inset
+
+
+\change_deleted 78966105 1460907503
+(cite)
+\change_unchanged
+.
  Many hypotheses and models have been proposed, and a number of them depend
  on assumptions about the structure of the underlying neural circuit 
 \begin_inset CommandInset citation
@@ -536,10 +565,34 @@ Maybe somata in figure should be colored?
 
 \end_inset
 
- The volume also contained well-known landmarks like the Mauthner cell (cite),
- the axon of the contralateral Mauthner cell, cells MiD2 and MiD3 of the
- reticulo-spinal network (cite), and a number of commissural bundles (cite)
- (Fig 1D).
+ The volume also contained well-known landmarks like the Mauthner cell 
+\change_inserted 78966105 1460918756
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee:1993ip"
+
+\end_inset
+
+
+\change_deleted 78966105 1460918744
+(cite)
+\change_unchanged
+, the axon of the contralateral Mauthner cell, cells MiD2 and MiD3 of the
+ reticulo-spinal network 
+\change_inserted 78966105 1460909639
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee:1993ip"
+
+\end_inset
+
+
+\change_deleted 78966105 1460909629
+(cite)
+\change_unchanged
+, and a number of commissural bundles (cite) (Fig 1D).
  
 \end_layout
 
@@ -689,7 +742,17 @@ c sites.
 ls.
  Those at the rostral extreme of the volume appeared to overlap with the
  expected location of the abducens motor nucleus (based on its known position
- relative to the Mauthner cell, cite?).
+ 
+\change_inserted 78966105 1460919334
+within rhombomere r5,6)
+\change_deleted 78966105 1460919084
+relative to the Mauthner cell,
+\change_unchanged
+ 
+\change_deleted 78966105 1460919340
+cite?
+\change_unchanged
+).
  In total, we reconstructed 1.62 mm of axonal length in the imaged volume.
  
 \end_layout
@@ -1153,8 +1216,34 @@ Connectivity between integrator neurons
 Many theories of the neural integrator are based on assumed patterns of
  synaptic connectivity between integrator neurons.
  For example, it has been proposed that integration is supported by recurrent
- excitation between neurons on the same side of the brain (cite), and/or
- mutual inhibition between populations on opposite sides of the brain (cite).
+ excitation between neurons on the same side of the brain 
+\change_inserted 78966105 1460919880
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kamath_neurological_1976,seung_how_1996,seung_stability_2000,fisher_modeling_2013"
+
+\end_inset
+
+
+\change_deleted 78966105 1460919390
+(cite)
+\change_unchanged
+, and/or mutual inhibition between populations on opposite sides of the
+ brain 
+\change_inserted 78966105 1460920060
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cannon:1983kf,arnold_oculomotor_1997,Aksay:2007cv,fisher_modeling_2013"
+
+\end_inset
+
+
+\change_deleted 78966105 1460920046
+(cite)
+\change_unchanged
+.
  The existence of synapses between integrator neurons has been presumed
  possible, because axon collaterals on integrator neurons have been observed
  in larval zebrafish 
@@ -1184,6 +1273,10 @@ status open
 
 \begin_layout Plain Layout
 Were these physiologically identified?
+\change_inserted 78966105 1460921149
+, by antidromic activation of flocculus)
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -1850,8 +1943,15 @@ Acknowledgments
 \end_layout
 
 \begin_layout Standard
-We are grateful to Juan Carlos Tapia, Ken Hayworth and Richard Schalek for
- assisting us with tissue preparation, the ATUM serial sectioning procedure,
+We are grateful to Juan Carlos Tapia,
+\change_deleted 78966105 1461029933
+ 
+\change_unchanged
+ Richard Schalek 
+\change_inserted 78966105 1461029926
+and Ken Hayworth 
+\change_unchanged
+for assisting us with tissue preparation, the ATUM serial sectioning procedure,
  and the WaferMapper software for EM imaging.
  Stefan Saalfeld, Albert Cardona, and Ignacio Arganda-Carreras answered
  questions about the TrakEM2 plugin for FIJI/ImageJ.
@@ -1896,6 +1996,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename NewFigure1.png
+	rotateOrigin center
 
 \end_inset
 
@@ -1903,21 +2004,109 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Registration of functionally imaged larval zebrafish to serial electron
- microscope images.
- (A) Schematic of the experimental setup with an example of the functional
- data that is obtained from two-photon light microscopy of calcium dye,
- during saccadic behavior.
- (B) Serial electron microscopy of same zebrafish from A, sections are collected
- on tape in an automated manner, images at low-res are use to align the
- sections, followed by images at high-resolution over the region of interest.
- 3D volume of the imaged area.
+
+\change_inserted 78966105 1461025135
+
+\bar under
+Functional and structural imaging of integrator cells.
+
+\change_unchanged
+
+\bar default
+ (A) 
+\change_deleted 78966105 1461012357
+Schematic of the experimental setup with an example of the functional data
+ that is obtained from two-photon light microscopy of calcium dye, during
+ saccadic behavior.
+ 
+\change_inserted 78966105 1461013160
+(a) Larval zebrfish showing the region around which functional imaging was
+ performed (black box) located in the hind brain (hb).
+ Right hand panel shows a single imaging plane with cells loaded by calcium
+ indicatator OGB-1.
+ Integrator cells identified are show in the red circles.
+ (b) Calcium transients (black traces) from the cell shown circled in (a)
+ to spontaneous saccades (blue trace).
+ Each ipsilateral saccade is highlighted in light-blue.
+ (c) Saccade triggered average of all ipsilateral saccades (blue) with correspon
+ding calcium traces (black) and standard error (grey).
+ (d) Anatomical imaging of the imaged region used to creare the light microscopi
+c (LM) volume.
+ Scale bar 
+\begin_inset Formula $20\:\mu m$
+\end_inset
+
+ 
+\change_unchanged
+(B) Serial electron microscopy of same zebrafish from A, sections are collected
+ on tape in an automated manner, images at low-res
+\change_inserted 78966105 1461012847
+olution
+\change_unchanged
+ are use
+\change_inserted 78966105 1461012829
+d
+\change_unchanged
+ to align the sections, followed by imag
+\change_inserted 78966105 1461012840
+ing
+\change_deleted 78966105 1461012839
+es
+\change_unchanged
+ at high-resolution over the
+\change_inserted 78966105 1461012857
+ defined
+\change_unchanged
+ region of interest
+\change_inserted 78966105 1461012902
+ (black box) to give final
+\change_deleted 78966105 1461012894
+.
+
+\change_unchanged
+ 3D 
+\change_inserted 78966105 1461012886
+EM 
+\change_unchanged
+volume of the imaged area.
  (C) Registration of LM volume to EM volume to locate the cells that were
  involved in the behavior.
- Arrows indicate the same features in both LM and EM.
- (D) Anatomical location of all cell bodies involved in the behavior along
- with anatomical landmarks from the EM volume.
+ 
+\change_inserted 78966105 1461012926
+Red a
+\change_deleted 78966105 1461012926
+A
+\change_unchanged
+rrows indicate the same features in both LM and EM.
+
+\change_inserted 78966105 1461013188
+ Scale bar 
+\begin_inset Formula $20\:\mu m$
+\end_inset
+
+
+\change_unchanged
+ (D) Anatomical location of all 
+\change_inserted 78966105 1461013188
+integrator cells (circles)
+\change_deleted 78966105 1461013011
+cell bodies
+\change_unchanged
+ involved in the behavior along with anatomical landmarks
+\change_inserted 78966105 1461013188
+, Mauthner cell, Mi2, Mi3 and Ca as identified in the
+\change_deleted 78966105 1461013039
+ from the
+\change_unchanged
+ EM volume
+\change_inserted 78966105 1461013188
+ (stars).
+ Colors of the cells correspond to the persistence time profile of the cell.
+\change_deleted 78966105 1461012947
+.
  (E) Functional data showing the average saccadic response for all cells.
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -1943,6 +2132,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename NewFigure2.png
+	rotateOrigin center
 
 \end_inset
 
@@ -1950,17 +2140,148 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-VPNI cell anatomical features, reconstructed from EM volume.
- (A) Example of VPNI cell showing axon (dark segments) and dendrite (light
- segments) with pre and postsynaptic locations.
- Parts of the axon of this VPNI cell are myelinated.
- Insets, (black dots) show the start, middle and the end of a myelinated
- segment of the axon.
- Other myelinated segments are highlighted in the colored box.
+
+\change_inserted 78966105 1461013203
+
+\bar under
+Integrator
+\change_deleted 78966105 1461013201
+VPNI
+\change_unchanged
+ cell anatomical features
+\change_deleted 78966105 1461013210
+,
+\change_unchanged
+ reconstructed from EM volume.
+
+\bar default
+ (A) Example
+\change_deleted 78966105 1461013232
+ of VPNI
+\change_inserted 78966105 1461013233
+integrator
+\change_unchanged
+ cell showing
+\change_inserted 78966105 1461013243
+ ipsilaterally projecting
+\change_unchanged
+ axon (dark segment
+\change_deleted 78966105 1461013248
+s
+\change_unchanged
+) and dendrite (light segment
+\change_deleted 78966105 1461013252
+s
+\change_unchanged
+) with pre
+\change_inserted 78966105 1461013263
+- (green)
+\change_unchanged
+ and postsynaptic
+\change_inserted 78966105 1461013267
+ (red)
+\change_unchanged
+ locations.
+ Parts of the axon of this 
+\change_inserted 78966105 1461013275
+integrator
+\change_deleted 78966105 1461013274
+VPNI
+\change_unchanged
+ cell are myelinated
+\change_inserted 78966105 1461013285
+ (colored boxes)
+\change_unchanged
+.
+ Insets
+\change_inserted 78966105 1461013362
+ show one such myelinated regions, with arrows showing individual myelin
+ sheaths that are oblique to the imaging plane
+\change_unchanged
+.
  Open arrow heads show the location of axon initiation zones along the neurite.
- (B) Example VPNI cell with putative-axon that is engulfed by glial processes
- before crossing the midline (inset right- colored segments are glial).
- Microtubule rich neurite that emerges from cell somata show in left inset.
+ (B) 
+\change_inserted 78966105 1461013506
+Integrator cell, with ipsilateral projecting axon that starts with single
+ neurite that branches to give rise to axon and dendrites.
+ Axon is studded with presynaptic sites that are clustered along neurite.
+ Inset is a 3D reconstruction of axon termination zone with a large vesicle
+ cloud (blue) with multiple post synaptic densities (yellow) opposed to
+ the vesicles.
+ (C) 
+\change_unchanged
+Example 
+\change_deleted 78966105 1461013384
+VPNI
+\change_inserted 78966105 1461013386
+integrator
+\change_unchanged
+ cell with
+\change_inserted 78966105 1461013539
+ both ipsi and contralateral projecting axon.
+ P
+\change_deleted 78966105 1461013539
+p
+\change_unchanged
+utative
+\change_inserted 78966105 1461013548
+ contra 
+\change_deleted 78966105 1461013545
+-
+\change_unchanged
+axon 
+\change_deleted 78966105 1461013554
+that
+\change_unchanged
+ is engulfed by glial process
+\change_inserted 78966105 1461013784
+ just
+\change_deleted 78966105 1461013783
+es
+\change_unchanged
+ before crossing the midline
+\change_inserted 78966105 1461013820
+.
+
+\change_deleted 78966105 1461013822
+ (
+\change_inserted 78966105 1461013823
+I
+\change_deleted 78966105 1461013822
+i
+\change_unchanged
+nset right- colored segments are glial
+\change_inserted 78966105 1461013816
+ G,and non-colored segment is axon A.
+ 
+\change_deleted 78966105 1461013801
+)
+\change_unchanged
+.
+
+\change_inserted 78966105 1461013929
+ (D) Contralaterally projecting integrator cell with putative axon crossing
+ the midline with glial engulfment (insets G, A).
+ Also, the somata gives rise to
+\change_unchanged
+ 
+\change_inserted 78966105 1461013937
+m
+\change_deleted 78966105 1461013936
+M
+\change_unchanged
+icrotubule rich neurite
+\change_inserted 78966105 1461014021
+.
+ Shown in large inset panels, the microtuble rich neurite is highlighted
+ with yellow arrow.
+ Note all the integrator somata in this volume give rise to this small neurite,
+ but only one is shown.
+
+\change_unchanged
+ 
+\change_deleted 78966105 1461013946
+that emerges from cell somata show in left inset.
  (C) VPNI cells with putative-axon that is engulfed by glia before midline
  crossing (right inset).
  Ipsilateral axon and dendrite also present for this VPNI cell.
@@ -1970,6 +2291,8 @@ VPNI cell anatomical features, reconstructed from EM volume.
  Inset is a 3D reconstruction of axon termination zone with large vesicle
  cloud with multiple post synaptic densities opposed to the vesicles.
  
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -1994,7 +2317,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename NewFigure3_WithBG.png
+	filename NewFig3_4.png
+	rotateOrigin center
 
 \end_inset
 
@@ -2005,63 +2329,94 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-VPNI cells with distinct axonal projection patterns.
- (A) VPNI cell with ipsilateral projecting axons- group1.
- (B) VPNI cells with ipsilaterally projection axons and midline crossing
- putative-axon – group2.
- (C) VPNI cells with midline crossing putative-axon – group3.
- (D) VPNI cells with unknown axonal projection – group4.
- (E) Average tree length of integrator neurons from each group.
- (F) Number and length of axonal collaterals for ipsilaterally projecting
- axons reconstructed from EM and dye fill LM volumes.
- (G) Range of axonal and dendritic lengths for each group.
- (H) Average diameter of axon and dendrite for each group.
- Scale bar is 20um.
-\end_layout
 
-\end_inset
+\change_inserted 78966105 1461025117
+In
+\bar under
+tegrator
+\change_deleted 78966105 1461025115
+VPNI
+\change_unchanged
+ cells 
+\change_inserted 78966105 1461025124
+have
+\change_deleted 78966105 1461025123
+with
+\change_unchanged
+ distinct axonal projection patterns.
 
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename NewFigure4.png
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Synaptic distributions for VPNI cell groups.
- (A) Two representative VPNI cells with ipsilaterally projecting axons along
- with pre and postsynaptic sites.
- (B) VPNI cell with ipsilateral axon and contralateral putative axon.
- (C) Cells with contralateral putative-axon.
- (D) cells with unknown axonal projections.
- (E) Average number of synapses for each group.
- (F) Fraction of pre and postsynapses from each group.
- (G) Distribution of pre and postsynaptic path-lengths for each group.
- (H) Distribution of inter-post and presynaptic sites.
+\bar default
+ (A) 
+\change_inserted 78966105 1461025705
+Top left, 6 integrator
+\change_deleted 78966105 1461025194
+VPNI
+\change_unchanged
+ cell with ipsilateral projecting axons
+\change_inserted 78966105 1461025222
+ 
+\change_unchanged
+- group1.
+ 
+\change_deleted 78966105 1461025227
+(B)
+\change_unchanged
+ 
+\change_inserted 78966105 1461025709
+Top right, 2 integrator
+\change_deleted 78966105 1461025229
+VPNI
+\change_unchanged
+ cells with ipsilaterally
+\change_inserted 78966105 1461025289
+ and putative contralateal
+\change_unchanged
+ projection 
+\change_deleted 78966105 1461025295
+axons and midline crossing putative-axon
+\change_unchanged
+ – group2.
+ 
+\change_inserted 78966105 1461025305
+Bottom left, 
+\change_deleted 78966105 1461025300
+(C)
+\change_unchanged
+ 
+\change_inserted 78966105 1461025764
+8 integrator
+\change_deleted 78966105 1461025310
+VPNI
+\change_unchanged
+ cells with midline crossing 
+\change_inserted 78966105 1461025335
+contralateral only 
+\change_unchanged
+putative-axon – group3.
+ 
+\change_inserted 78966105 1461025346
+Bottom right,
+\change_deleted 78966105 1461025342
+(D)
+\change_unchanged
+ 
+\change_inserted 78966105 1461025778
+7, integrator 
+\change_deleted 78966105 1461025349
+VPNI 
+\change_unchanged
+cells with unknown axonal projection – group4.
+ (
+\change_inserted 78966105 1461025367
+B
+\change_deleted 78966105 1461025367
+E
+\change_unchanged
+) Upper panel, axonal and dendritic diameter of all cells in each of the
+ four groups.
+ Grey dots are averages for each cell and black dots are averages per group.
+ Lower panel, distribution of intersynaptic distance among pre and potssynaptic
+ sites for all four groups.
  
 \end_layout
 
@@ -2080,10 +2435,86 @@ Synaptic distributions for VPNI cell groups.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename NewFigure5_Small.png
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1461026154
+
+\bar under
+Integrator cell are synaptically connected.
+
+\change_unchanged
+
+\bar default
+ (A) 
+\change_inserted 78966105 1461027627
+Top view of integrator cells that are synaptically connected.
+ All synapses were from one cell (green) in group1 (arrow) onto one other
+ cell from group 1 (red).
+ One synapses each from group 1 cells (green) onto two group2 cells ( purple
+ and magenta).
+ Black dots represent the site of the synapses, with insets showing the
+ electron micrograph at the respective location.
+ In all electron micrographs, green color is the presynaptic cell, the postsynap
+tic sites are the same color as the cell somata.
+ Remaining panels are of the same four cells viewed from orthogonal planes.
+ (B) Potential synapse analysis of all sites that are 
+\begin_inset Formula $<1\:\mu m$
+\end_inset
+
+ from each other.
+ Cell # 2 (arrow), is the same cell in (A, green) that makes maximum number
+ of potential synapses onto other cells, also makes the real synapses shown
+ in (A).
+ The real synapses are represented by the black circle in the header.
+ (C) Electron micrograph ovelaid with identified integratoc cells (colored
+ circles), all cells in the imaged volume (grey dots) and anatomical landmarks
+ (colored stars).
+ Lower panel is a distribution of all cells with integrator cells overlaid.
+ Dotted line correspond with hindbrain stripes with known neurotransmitter
+ identities.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1461012215
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -2115,6 +2546,8 @@ Synaptic connections between VPNI cells from different groups.
 
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
