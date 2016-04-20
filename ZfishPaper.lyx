@@ -64,7 +64,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
+\tracking_changes false
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
@@ -93,15 +93,13 @@ Ashwin Vishwanathan,
 \end_inset
 
 
-\change_deleted 78966105 1461105311
- 
-\change_inserted 78966105 1461105096
+\begin_inset Newline newline
+\end_inset
+
  Jeff W Lichtman, 
 \begin_inset Formula $^{4}$
 \end_inset
 
-
-\change_unchanged
 Emre Aksay,
 \begin_inset Formula $^{3}$
 \end_inset
@@ -112,9 +110,14 @@ Emre Aksay,
 \end_inset
 
 
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Address
+
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Formula $^{1}$
 \end_inset
 
@@ -143,8 +146,6 @@ Department of Physiology and Biophysics,
 \end_inset
 
 Weill Cornell Medical College, New York, NY 10021
-\change_inserted 78966105 1461105254
-
 \begin_inset Newline newline
 \end_inset
 
@@ -157,8 +158,6 @@ Department of Molecular and Cellular Biology and Center for Brain Science,
 \end_inset
 
  Harvard University, Cambridge, MA 02138
-\change_unchanged
-
 \end_layout
 
 \begin_layout Abstract
@@ -167,8 +166,8 @@ Neural integrators are involved in a variety of sensorimotor and cognitive
  The oculomotor system contains a simple example, a hindbrain neural circuit
  that takes velocity signals as inputs, and integrates them to control eye
  position.
- To elucidate the mechanisms underlying temporal integration, we combined
- observations of behavior, physiology, and anatomy to study integrator neurons.
+ We combined observations of behavior, physiology, and anatomy to study
+ integrator neurons.
  Two-photon calcium imaging of the larval zebrafish hindbrain was performed
  while simultaneously monitoring spontaneous eye movements.
  Integrator neurons were identified as those cells with activities highly
@@ -1763,8 +1762,7 @@ key "Cardona:2012kf"
 \end_layout
 
 \begin_layout Subsection
-Registration of light microscope and electron microscope volumes ( figure
- 1)
+Registration of light microscope and electron microscope volumes
 \end_layout
 
 \begin_layout Standard
@@ -2017,21 +2015,26 @@ Conceptualization, Methodology, and Writing: A.V, E.
  
 \change_unchanged
 V.
- Investigation: K.D performed two-photon calcium imaging in the lab of E.A.
+ Investigation: K.D performed two-photon calcium imaging.
+ A.V.
+ acquired serial section EM images with assistance from J.W.L., and assembled
+ the resulting image stack.
 
 \change_inserted 78966105 1461105418
  A.R.
- performed image registration in the lab of E.A.
+ 
+\change_unchanged
+registered the calcium images with the EM images
+\change_inserted 78966105 1461105418
+.
 
 \change_unchanged
  A.V.
  and E.
  A.
  reconstructed neurons with help from Ashleigh Showler and A.R.
- 
+
 \change_inserted 78966105 1461105473
-J.W.L.
- provided resources.
  
 \change_unchanged
 Supervision and Funding Acquisition: E.
