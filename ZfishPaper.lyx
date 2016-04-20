@@ -2136,11 +2136,11 @@ Schematic of the experimental setup with an example of the functional data
  that is obtained from two-photon light microscopy of calcium dye, during
  saccadic behavior.
  
-\change_inserted 78966105 1461013160
-(a) Larval zebrfish showing the region around which functional imaging was
- performed (black box) located in the hind brain (hb).
+\change_inserted 78966105 1461114684
+(a) Larval zebrafish showing the region around which functional imaging
+ was performed (black box) located in the hindbrain (hb).
  Right hand panel shows a single imaging plane with cells loaded by calcium
- indicatator OGB-1.
+ indicator OGB-1.
  Integrator cells identified are show in the red circles.
  (b) Calcium transients (black traces) from the cell shown circled in (a)
  to spontaneous saccades (blue trace).
@@ -2275,8 +2275,8 @@ VPNI
  (A) Example
 \change_deleted 78966105 1461013232
  of VPNI
-\change_inserted 78966105 1461013233
-integrator
+\change_inserted 78966105 1461114666
+ integrator
 \change_unchanged
  cell showing
 \change_inserted 78966105 1461013243
@@ -2388,9 +2388,9 @@ m
 M
 \change_unchanged
 icrotubule rich neurite
-\change_inserted 78966105 1461014021
+\change_inserted 78966105 1461114706
 .
- Shown in large inset panels, the microtuble rich neurite is highlighted
+ Shown in large inset panels, the microtubule rich neurite is highlighted
  with yellow arrow.
  Note all the integrator somata in this volume give rise to this small neurite,
  but only one is shown.
@@ -2485,8 +2485,8 @@ Top right, 2 integrator
 VPNI
 \change_unchanged
  cells with ipsilaterally
-\change_inserted 78966105 1461025289
- and putative contralateal
+\change_inserted 78966105 1461114728
+ and putative contralateral
 \change_unchanged
  projection 
 \change_deleted 78966105 1461025295
@@ -2581,7 +2581,7 @@ Integrator cell are synaptically connected.
 
 \bar default
  (A) 
-\change_inserted 78966105 1461027627
+\change_inserted 78966105 1461114737
 Top view of integrator cells that are synaptically connected.
  All synapses were from one cell (green) in group1 (arrow) onto one other
  cell from group 1 (red).
@@ -2601,7 +2601,7 @@ tic sites are the same color as the cell somata.
  of potential synapses onto other cells, also makes the real synapses shown
  in (A).
  The real synapses are represented by the black circle in the header.
- (C) Electron micrograph ovelaid with identified integratoc cells (colored
+ (C) Electron micrograph overlaid with identified integratoc cells (colored
  circles), all cells in the imaged volume (grey dots) and anatomical landmarks
  (colored stars).
  Lower panel is a distribution of all cells with integrator cells overlaid.
@@ -2636,8 +2636,12 @@ tic sites are the same color as the cell somata.
 
 \begin_layout Standard
 
-\change_inserted 78966105 1461114003
+\change_inserted 78966105 1461114377
 Supplementary figures
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
