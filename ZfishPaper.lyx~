@@ -2699,97 +2699,40 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\change_inserted 78966105 1461025117
 In
 \bar under
-tegrator
-\change_deleted 78966105 1461025115
-VPNI
-\change_unchanged
- cells 
-\change_inserted 78966105 1461025124
-have
-\change_deleted 78966105 1461025123
-with
-\change_unchanged
- distinct axonal projection patterns.
+tegrator cells have distinct axonal projection patterns.
 
 \bar default
- (A) 
-\change_inserted 78966105 1461025705
-Top left, 6 integrator
-\change_deleted 78966105 1461025194
-VPNI
-\change_unchanged
- cell with ipsilateral projecting axons
-\change_inserted 78966105 1461025222
+ (A) Top left, 6 integrator cell with ipsilateral projecting axons - ipsi-only
+ group.
+ Top right, 2 integrator cells with ipsilaterally and putative contralateral
+ projection
+\change_deleted 78966105 1461182857
  
 \change_unchanged
-- 
-\change_inserted 78966105 1461178928
-ipsi-only group
-\change_deleted 78966105 1461178928
-group1
+ – 
+\change_inserted 78966105 1461182882
+ipsi-contra
 \change_unchanged
 .
+ Bottom left,
+\change_deleted 78966105 1461182857
  
-\change_deleted 78966105 1461025227
-(B)
 \change_unchanged
- 
-\change_inserted 78966105 1461025709
-Top right, 2 integrator
-\change_deleted 78966105 1461025229
-VPNI
+ 8 integrator cells with midline crossing contralateral only putative-axon
+ – 
+\change_inserted 78966105 1461182898
+contra-only
 \change_unchanged
- cells with ipsilaterally
-\change_inserted 78966105 1461114728
- and putative contralateral
+.
+ Bottom right, 7, integrator cells with unknown axonal projection – 
+\change_inserted 78966105 1461182906
+unknown
 \change_unchanged
- projection 
-\change_deleted 78966105 1461025295
-axons and midline crossing putative-axon
-\change_unchanged
- – group2.
- 
-\change_inserted 78966105 1461025305
-Bottom left, 
-\change_deleted 78966105 1461025300
-(C)
-\change_unchanged
- 
-\change_inserted 78966105 1461025764
-8 integrator
-\change_deleted 78966105 1461025310
-VPNI
-\change_unchanged
- cells with midline crossing 
-\change_inserted 78966105 1461025335
-contralateral only 
-\change_unchanged
-putative-axon – group3.
- 
-\change_inserted 78966105 1461025346
-Bottom right,
-\change_deleted 78966105 1461025342
-(D)
-\change_unchanged
- 
-\change_inserted 78966105 1461025778
-7, integrator 
-\change_deleted 78966105 1461025349
-VPNI 
-\change_unchanged
-cells with unknown axonal projection – group4.
- (
-\change_inserted 78966105 1461025367
-B
-\change_deleted 78966105 1461025367
-E
-\change_unchanged
-) Upper panel, axonal and dendritic diameter of all cells in each of the
- four groups.
+.
+ (B) Upper panel, axonal and dendritic diameter of all cells in each of
+ the four groups.
  Grey dots are averages for each cell and black dots are averages per group.
  Lower panel, distribution of intersynaptic distance among pre and potssynaptic
  sites for all four groups.
@@ -2831,21 +2774,15 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461026154
-
 \bar under
 Integrator cell are synaptically connected.
 
-\change_unchanged
-
 \bar default
- (A) 
-\change_inserted 78966105 1461178928
-Top view of integrator cells that are synaptically connected.
+ (A) Top view of integrator cells that are synaptically connected.
  All synapses were from one cell (green) in ipsi-only group (arrow) onto
- one other cell from group 1 (red).
- One synapses each from group 1 cells (green) onto two group2 cells ( purple
- and magenta).
+ one other cell from ipsi-only group (red).
+ One synapses each from ipsi-only group cell (green) onto two contra-only
+ cells ( purple and magenta).
  Black dots represent the site of the synapses, with insets showing the
  electron micrograph at the respective location.
  In all electron micrographs, green color is the presynaptic cell, the postsynap
@@ -2866,8 +2803,6 @@ tic sites are the same color as the cell somata.
  Lower panel is a distribution of all cells with integrator cells overlaid.
  Dotted line correspond with hindbrain stripes with known neurotransmitter
  identities.
-\change_unchanged
-
 \end_layout
 
 \end_inset
