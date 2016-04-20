@@ -92,7 +92,17 @@ Ashwin Vishwanathan,
 \begin_inset Formula $^{3}$
 \end_inset
 
- Emre Aksay,
+
+\change_deleted 78966105 1461105311
+ 
+\change_inserted 78966105 1461105096
+ Jeff W Lichtman, 
+\begin_inset Formula $^{4}$
+\end_inset
+
+
+\change_unchanged
+Emre Aksay,
 \begin_inset Formula $^{3}$
 \end_inset
 
@@ -133,6 +143,22 @@ Department of Physiology and Biophysics,
 \end_inset
 
 Weill Cornell Medical College, New York, NY 10021
+\change_inserted 78966105 1461105254
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $^{4}$
+\end_inset
+
+Department of Molecular and Cellular Biology and Center for Brain Science,
+\begin_inset Newline newline
+\end_inset
+
+ Harvard University, Cambridge, MA 02138
+\change_unchanged
+
 \end_layout
 
 \begin_layout Abstract
@@ -573,7 +599,11 @@ key "Lee:1993ip"
 
 
 \change_unchanged
-, and a number of commissural bundles (cite) (Fig 1D).
+, and a number of commissural bundles 
+\change_deleted 78966105 1461103820
+(cite)
+\change_unchanged
+ (Fig 1D).
  
 \end_layout
 
@@ -1299,7 +1329,20 @@ Were these physiologically identified?
 
 \end_inset
 
- and nonhuman primates (cite).
+ and nonhuman primates 
+\change_inserted 78966105 1461104770
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Steiger:1979ev"
+
+\end_inset
+
+
+\change_deleted 78966105 1461104754
+(cite)
+\change_unchanged
+.
  Such collaterals could potentially contact dendrites of other integrator
  neurons, but conclusive evidence for contact and synapses has been lacking.
 \end_layout
@@ -1365,8 +1408,33 @@ m.
  Of this set, 40 involved the one cell that made the four real synapses.
  Therefore this cell seemed exceptional in that it made a disproportionate
  number of potential synapses as well as all the real synapses.
- The number of potential synapses changed little if the locations of the
- presynaptic cells
+ Th
+\change_inserted 78966105 1461103165
+is
+\change_unchanged
+ number 
+\change_inserted 78966105 1461103172
+dropped substantially
+\change_unchanged
+ if the 
+\change_inserted 78966105 1461103764
+cell was randomly translated by as little as 5 
+\begin_inset Formula $\mu m$
+\end_inset
+
+
+\change_unchanged
+ 
+\change_deleted 78966105 1461103785
+of
+\change_inserted 78966105 1461103785
+from
+\change_unchanged
+ the p
+\change_inserted 78966105 1461103789
+ost
+\change_unchanged
+synaptic cell
 \begin_inset Note Note
 status open
 
@@ -1376,11 +1444,7 @@ means group1 + group2 or all cells were jittered
 
 \end_inset
 
- were jittered randomly by less than XXX 
-\begin_inset Formula $\mu$
-\end_inset
-
-m (sup fig
+ (sup fig
 \change_inserted 78966105 1461101225
  7
 \change_unchanged
@@ -1948,14 +2012,34 @@ Conceptualization, Methodology, and Writing: A.V, E.
  and H.S.S.
  Data Curation: A.V.
  Visualization: A.
- V.
+
+\change_deleted 78966105 1461105428
+ 
+\change_unchanged
+V.
  Investigation: K.D performed two-photon calcium imaging in the lab of E.A.
+
+\change_inserted 78966105 1461105418
+ A.R.
+ performed image registration in the lab of E.A.
+
+\change_unchanged
  A.V.
  and E.
  A.
  reconstructed neurons with help from Ashleigh Showler and A.R.
- Supervision and Funding Acquisition: E.
- A.
+ 
+\change_inserted 78966105 1461105473
+J.W.L.
+ provided resources.
+ 
+\change_unchanged
+Supervision and Funding Acquisition: E.
+
+\change_deleted 78966105 1461105440
+ 
+\change_unchanged
+A.
  and H.S.S.
  
 \end_layout
@@ -1978,7 +2062,12 @@ for assisting us with tissue preparation, the ATUM serial sectioning procedure,
  Stefan Saalfeld, Albert Cardona, and Ignacio Arganda-Carreras answered
  questions about the TrakEM2 plugin for FIJI/ImageJ.
  Uygar Sümbül assisted with importing skeletons into MATLAB.
- We benefited from helpful discussions with David Tank and Kanaka Rajan.
+ 
+\change_inserted 78966105 1461105004
+We thank Heather Sullivan for tissue processing and optimization.
+ 
+\change_unchanged
+We benefited from helpful discussions with David Tank and Kanaka Rajan.
  HSS acknowledges funding from the Mathers Foundation, Gatsby Foundation,
  Human Frontier Science Program, NIH/NINDS award 5R01NS076467, and ARO MURI
  award W911NF-12-1-0594.
@@ -2532,30 +2621,32 @@ tic sites are the same color as the cell somata.
 \end_inset
 
 
-\change_inserted 78966105 1461099238
+\change_inserted 78966105 1461113687
 
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted 78966105 1461099245
-\begin_inset Newpage newpage
+\change_inserted 78966105 1461113698
+\begin_inset Newpage pagebreak
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
 
-\change_inserted 78966105 1461099212
+\change_inserted 78966105 1461114003
 Supplementary figures
-\change_unchanged
+\begin_inset Newline newline
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted 78966105 1461099454
+\change_inserted 78966105 1461113640
 \begin_inset Float figure
 wide false
 sideways false
@@ -2563,7 +2654,7 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099435
+\change_inserted 78966105 1461113640
 \begin_inset Graphics
 	filename TypesOfSynapses.png
 	rotateOrigin center
@@ -2571,31 +2662,21 @@ status open
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099424
+\change_inserted 78966105 1461113640
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099446
+\change_inserted 78966105 1461113640
 Types of synapses in the imaged volume
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2610,7 +2691,7 @@ Types of synapses in the imaged volume
 
 \begin_layout Standard
 
-\change_inserted 78966105 1461099522
+\change_inserted 78966105 1461113640
 \begin_inset Float figure
 wide false
 sideways false
@@ -2618,7 +2699,7 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099474
+\change_inserted 78966105 1461113640
 \begin_inset Graphics
 	filename PutativeGapJunctions.png
 	rotateOrigin center
@@ -2626,31 +2707,21 @@ status open
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099463
+\change_inserted 78966105 1461113640
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099482
+\change_inserted 78966105 1461113640
 Putative gap junctions
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2661,7 +2732,7 @@ Putative gap junctions
 
 \begin_layout Standard
 
-\change_inserted 78966105 1461101270
+\change_inserted 78966105 1461113640
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2670,7 +2741,7 @@ Putative gap junctions
 
 \begin_layout Standard
 
-\change_inserted 78966105 1461101274
+\change_inserted 78966105 1461113640
 \begin_inset Float figure
 wide false
 sideways false
@@ -2678,7 +2749,7 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461101294
+\change_inserted 78966105 1461113640
 \begin_inset Graphics
 	filename MicrotubuleCelia.png
 	rotateOrigin center
@@ -2686,31 +2757,21 @@ status open
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461101274
+\change_inserted 78966105 1461113640
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461101306
-Microtubule rich celia from all cells
-\change_unchanged
-
+\change_inserted 78966105 1461113640
+Microtubule rich cilia from all cells
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2721,7 +2782,7 @@ Microtubule rich celia from all cells
 
 \begin_layout Standard
 
-\change_inserted 78966105 1461101266
+\change_inserted 78966105 1461113640
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2730,7 +2791,7 @@ Microtubule rich celia from all cells
 
 \begin_layout Standard
 
-\change_inserted 78966105 1461099794
+\change_inserted 78966105 1461113640
 \begin_inset Float figure
 wide false
 sideways false
@@ -2738,7 +2799,7 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099547
+\change_inserted 78966105 1461113640
 \begin_inset Graphics
 	filename ConvexHulls.png
 	rotateOrigin center
@@ -2746,27 +2807,21 @@ status open
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099533
+\change_inserted 78966105 1461113640
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099599
+\change_inserted 78966105 1461113640
 Dendritic arbors according to groups
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -2777,7 +2832,7 @@ Dendritic arbors according to groups
 
 \begin_layout Standard
 
-\change_inserted 78966105 1461099933
+\change_inserted 78966105 1461113640
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2789,7 +2844,7 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099929
+\change_inserted 78966105 1461113640
 \begin_inset Graphics
 	filename DiameterSpecs.png
 	rotateOrigin center
@@ -2801,25 +2856,17 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099805
+\change_inserted 78966105 1461113640
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099858
+\change_inserted 78966105 1461113640
 Similarity of diameter of axons among groups
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2830,7 +2877,7 @@ Similarity of diameter of axons among groups
 
 \begin_layout Standard
 
-\change_inserted 78966105 1461100957
+\change_inserted 78966105 1461113640
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2842,7 +2889,7 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099962
+\change_inserted 78966105 1461113640
 \begin_inset Graphics
 	filename LMEMComparison.png
 	scale 80
@@ -2851,32 +2898,22 @@ status open
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099943
+\change_inserted 78966105 1461113640
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461099992
+\change_inserted 78966105 1461113640
 Comparison of axons between LM and EM traces for ipsilaterally projecting
  cells
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2887,7 +2924,7 @@ Comparison of axons between LM and EM traces for ipsilaterally projecting
 
 \begin_layout Standard
 
-\change_inserted 78966105 1461100968
+\change_inserted 78966105 1461113640
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2899,7 +2936,7 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461100980
+\change_inserted 78966105 1461113640
 \begin_inset Graphics
 	filename PotentialSynapseAnalysis.png
 	rotateOrigin center
@@ -2907,31 +2944,21 @@ status open
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461100968
+\change_inserted 78966105 1461113640
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1461100990
+\change_inserted 78966105 1461113640
 Potential synapse analysis
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
