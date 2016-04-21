@@ -290,28 +290,8 @@ key "Leigh:2015ts"
 \end_layout
 
 \begin_layout Standard
-The mechanisms 
-\change_inserted 78966105 1461178781
-Sup.
-\change_deleted 78966105 1461178781
-sup
-\change_unchanged
-porting temporal integration remain unclear even after decades of research
-\change_deleted 78966105 1460907503
- 
-\change_inserted 1172979425 1461088788
- 
-\change_inserted 78966105 1460907532
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Joshua:2015kx"
-
-\end_inset
-
-
-\change_unchanged
-.
+The mechanisms supporting temporal integration remain unclear even after
+ decades of research .
  Many hypotheses and models have been proposed, and a number of them depend
  on assumptions about the structure of the underlying neural circuit 
 \begin_inset CommandInset citation
