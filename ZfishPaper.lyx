@@ -88,7 +88,12 @@ Ashwin Vishwanathan,
 \begin_inset Formula $^{3}$
 \end_inset
 
- Alex Ramirez,
+ Alex
+\change_inserted 78966105 1462802740
+andro D.
+
+\change_unchanged
+ Ramirez,
 \begin_inset Formula $^{3}$
 \end_inset
 
@@ -164,11 +169,20 @@ Department of Molecular and Cellular Biology and Center for Brain Science,
 Neural integrators are involved in a variety of sensorimotor and cognitive
  behaviors.
  The oculomotor system contains a simple example, a hindbrain neural circuit
- that takes velocity signals as inputs, and integrates them to control eye
- position.
+ that takes velocity signals as inputs, and 
+\change_inserted 78966105 1462803231
+temporally 
+\change_unchanged
+integrates them to control eye position.
  We combined observations of behavior, physiology, and anatomy to study
  integrator neurons.
- Two-photon calcium imaging of the larval zebrafish hindbrain was performed
+ 
+\change_inserted 78966105 1462803444
+To understand the mechanisms of integration, here we performed ultra-structural
+ analysis of functionally-identified neurons located in the neural integrators.
+ 
+\change_unchanged
+Two-photon calcium imaging of the larval zebrafish hindbrain was performed
  while simultaneously monitoring spontaneous eye movements.
  Integrator neurons were identified as those cells with activities highly
  correlated with eye position, and the same neurons were then reconstructed
@@ -340,7 +354,11 @@ key "Lee:2015dv"
 
 \begin_layout Standard
 Integrator neurons were identified in the hindbrain of a larval zebrafish
- using two-photon calcium imaging while recording spontaneous eye movements.
+ using two-photon calcium imaging while recording spontaneous 
+\change_inserted 78966105 1462801739
+saccadic 
+\change_unchanged
+eye movements.
  The same region of the hindbrain was then imaged via serial section electron
  microscopy.
  Analysis of the calcium data identified 22 integrator neurons, defined
@@ -1949,41 +1967,86 @@ Experimental procedures
 Two-photon calcium imaging
 \bar default
 .
- A larval zebrafish (5-6 dpf) was injected with calcium sensitive dye Oregon
- Green 488 BAPTA-1 (OGB-1, 
-\change_inserted 78966105 1461182590
-sup
+ 
+\change_inserted 78966105 1462801877
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1462802450
+Nacre mutant zebrafish larvae, X days of age, was anesthetized in 100 or
+ 200 mg/L tricaine-methanesulfonate (MS222, VWR TCT0941- 025G) for about
+ 1 minute and then quickly mounted dorsal side up with droplets of 1.7% lowtemper
+ature agarose (Sigma A0701-100G) in the lid of a 35mm petri dish containing
+ a bed of hardened 1% agarose (Invitrogen 15510-027).
+ The larva was then covered in 50 mg/L MS222.
+ 
+\change_deleted 78966105 1462802455
+A larval zebrafish (5-6 dpf) 
+\change_inserted 78966105 1462802458
+The larva 
 \change_unchanged
-plier?) by gently removing skin over the hindbrain and using a patch pipette
- for iontophoresis.
- The next day the animal was imaged on a custom two-photon microscope (
-\change_inserted 78966105 1461182610
-X
+was 
+\change_deleted 78966105 1462802501
+injected
+\change_inserted 78966105 1462802509
+bulk-loaded
 \change_unchanged
-wavelength
-\change_inserted 78966105 1461182612
-X
+ 
+\change_inserted 78966105 1462802523
+(Brustein et al., 2003; Smetters et al., 1999) 
 \change_unchanged
-).
+with calcium sensitive dye Oregon Green 488 BAPTA-1
+\change_inserted 78966105 1462802216
+ AM
+\change_unchanged
+ (
+\change_inserted 78966105 1462802231
+5 mM, in DMSO with 5% pluronic, Invitrogen, O-6807
+\change_deleted 78966105 1462802197
+OGB-1, plier?
+\change_unchanged
+) 
+\change_deleted 78966105 1462802264
+by gently removing skin over the hindbrain and using a patch pipette for
+ iontophoresis
+\change_inserted 78966105 1462802288
+by inserting a capillary through the dorsal skin surface over the lateral
+ edge of the right side of the hindbrain just caudal to the cerebellum,
+ at ~
+\begin_inset Formula $30^{0}$
+\end_inset
+
+ decline relative to the dorsal surface
+\change_unchanged
+.
+ 
+\change_deleted 78966105 1462802311
+The next day
+\change_inserted 78966105 1462802341
+After several hours in order to recover,
+\change_unchanged
+ the animal was imaged on a custom two-photon microscope
+\change_deleted 78966105 1462802353
+ (wavelength)
+\change_unchanged
+.
  The animal was immobilized in low melting agar and was positioned to view
  a monitor with light gratings.
  The hindbrain of the animal was imaged at (
-\change_inserted 78966105 1461182600
-X
-\change_unchanged
+\change_deleted 78966105 1462802360
 wavelength
-\change_inserted 78966105 1461182603
-X
+\change_inserted 78966105 1462802363
+790 nm
 \change_unchanged
 ) at predefined plane at (
-\change_inserted 78966105 1461182607
-X
+\change_deleted 78966105 1462802372
+speed
+\change_inserted 78966105 1462802373
+0.98
 \change_unchanged
-speed Hz
-\change_inserted 78966105 1461182608
-X
-\change_unchanged
-).
+ Hz).
  Following functional imaging, the animal was then imaged on the same setup
  for anatomical imaging.
  Briefly, a stack was acquired over the same imaging window, with optical
@@ -2071,11 +2134,15 @@ key "Cardona:2012kf"
 
 \begin_layout Standard
 
+\change_deleted 78966105 1462802620
+
 \bar under
 Registration of light and electron microscopic images.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1462802620
 We first identified potential integrator cells from the LM dataset using
  methods that were previously described (
 \begin_inset CommandInset citation
@@ -2109,6 +2176,8 @@ key "Cardona:2012kf"
  volume, their locations in the EM volume was not necessarily restricted
  to three distinct planes, since we annotated the centers of the cells in
  the EM volume.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -2118,7 +2187,20 @@ Registration of light microscope and electron microscope volumes
 \begin_layout Standard
 We first performed functional imaging in an awake, immobilized larval zebrafish
  using the calcium sensitive dye OGB, by introducing the dye in the hindbrain
- via iontophoresis, similar to methods used previously (
+ via iontophoresis, similar to methods used previously
+\change_inserted 78966105 1462802698
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Daie:2015fd,Miri:2011ft"
+
+\end_inset
+
+
+\change_unchanged
+ 
+\change_deleted 78966105 1462802658
+(
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Aksay:2007cv"
@@ -2132,7 +2214,9 @@ key "Miri:2011ft"
 
 \end_inset
 
-).
+)
+\change_unchanged
+.
  Once this was done, the animal was placed in an imaging setup that allowed
  for imaging the activity in the hindbrain, while simultaneously imaging
  the eye movement behavior.
@@ -2422,8 +2506,8 @@ V.
  acquired serial section EM images with assistance from J.W.L., and assembled
  the resulting image stack.
 
-\change_inserted 78966105 1461105418
- A.R.
+\change_inserted 78966105 1462802879
+ K.D, A.R.
  
 \change_unchanged
 registered the calcium images with the EM images
@@ -2437,7 +2521,7 @@ registered the calcium images with the EM images
  reconstructed neurons with help from Ashleigh Showler and A.R.
 
 \change_inserted 78966105 1461178781
- Sup.
+ Sup
 \change_deleted 78966105 1461178781
 Sup
 \change_unchanged
