@@ -177,8 +177,10 @@ integrates them to control eye position.
  We combined observations of behavior, physiology, and anatomy to study
  integrator neurons.
  
-\change_inserted 78966105 1462803276
-To understand the mechanisms of integration
+\change_inserted 78966105 1462803444
+To understand the mechanisms of integration, here we performed ultra-structural
+ analysis of functionally-identified neurons located in the neural integrators.
+ 
 \change_unchanged
 Two-photon calcium imaging of the larval zebrafish hindbrain was performed
  while simultaneously monitoring spontaneous eye movements.
@@ -427,16 +429,6 @@ key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
  On this basis, we inferred that integrator neurons with only ipsilaterally
  projecting axons are glutamatergic, and those with only contralaterally
  projecting axons are GABAergic.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Is this correct for the cells with no axon at all?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -464,6 +456,73 @@ key "Bock:2011fk,Lee:2016ti"
 
 \begin_layout Section
 Results
+\change_inserted 78966105 1463430577
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1463430852
+Previous attempts to understand how integrator cells transform a 'pulse'
+ like input to a 'step' like output, have argued for positive feedback as
+ a possible mechanism to set this up.
+ For example, it has been proposed that integration can be supported by
+ recurrent excitation between neurons on the same side of the brain 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kamath_neurological_1976,seung_how_1996,seung_stability_2000,fisher_modeling_2013"
+
+\end_inset
+
+, and/or mutual inhibition between populations on opposite sides of the
+ brain 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cannon:1983kf,arnold_oculomotor_1997"
+
+\end_inset
+
+.
+ Evidence supporting both these example have been in the form of anatomical
+ dye fills of integrator neurons, showing axons of these cells to send collatera
+ls to areas where other integrator cells were observed.
+ Similar trends have been oberved in the larval zebrafish 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee:2015dv"
+
+\end_inset
+
+, goldfish 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Pastor:1994tx,Aksay:2000cn"
+
+\end_inset
+
+, cats 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "McCrea:1985hx"
+
+\end_inset
+
+ and nonhuman primates 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Steiger:1979ev"
+
+\end_inset
+
+.
+ Such collaterals could potentially contact dendrites of other integrator
+ neurons, but conclusive evidence for contact and synapses has been lacking.
+ Here we identify integrator cells in the larval zebrafish form the physiologica
+l calcium transients and reconstruct these cells using serial-electron microscop
+y.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -471,15 +530,6 @@ Identification of integrator cells by two-photon calcium imaging
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-This paragraph has lots of problems.
-\end_layout
-
-\end_inset
-
 Calcium signals were correlated with eye position to identify integrator
  somata from the imaged planes (
 \change_inserted 78966105 1461177748
@@ -505,14 +555,31 @@ Fig
 \change_unchanged
 .
  1A
-\change_inserted 78966105 1461177818
-, c
+\change_inserted 78966105 1463163499
+ - b
 \change_unchanged
 ).
  These cells have distinct, graded persistent firing during eye fixation,
- as seen by the decay time constants of firing during fixation.
- Average saccade triggered responses of these cells show cells with a range
- of persistence times.
+ as seen by the
+\change_inserted 78966105 1463163485
+ average of the fluorescence response, following the saccade,
+\change_unchanged
+ during
+\change_inserted 78966105 1463163630
+ the post-saccadic
+\change_unchanged
+ fixation
+\change_inserted 78966105 1463163638
+ period (Fig.
+ 1A- c, see methods)
+\change_unchanged
+.
+ Average saccade
+\change_inserted 78966105 1463163532
+-
+\change_unchanged
+triggered responses of these cells show cells with a range of persistence
+ times.
  Cells with high persistence had long calcium decay time constants, where
  as leaky cells had shorter decay time constants (
 \change_inserted 78966105 1461177748
@@ -520,12 +587,19 @@ Fig
 \change_unchanged
 .
  1A, 
-\change_inserted 78966105 1461177875
-b
+\change_inserted 78966105 1463163546
+c
 \change_unchanged
 ).
  This resulted in the identification of 22 integrator cells from 3 distinct
- imaging planes that were 10 
+ imaging planes
+\change_inserted 78966105 1463163571
+.
+ These image planes were
+\change_deleted 78966105 1463163578
+ 
+\change_unchanged
+ 10 
 \begin_inset Formula $\mu$
 \end_inset
 
@@ -539,50 +613,93 @@ Following functional imaging, we imaged the entire hindbrain of the animal
 \begin_inset Formula $\mu$
 \end_inset
 
-m apart, producing a light microscopic volume (LM volume) (
-\change_inserted 78966105 1461177748
-Fig
+m apart, producing a light microscopic volume (LM volume).
+ The 
+\change_inserted 78966105 1462994875
+same 
 \change_unchanged
-.
- 1A
-\change_inserted 78966105 1461177903
-, d
-\change_unchanged
-).
- The region of interest was then imaged by serial section electron microscopy
+region of interest was then imaged by serial section electron microscopy
  (
 \change_inserted 78966105 1461177748
 Fig
 \change_unchanged
 .
  1B and Methods), resulting in an EM volume.
- The LM and EM volumes were registered to each other, producing good corresponde
-nce of labeled cells and blood vessels (
+ The LM and EM volumes were registered to each other, producing
+\change_deleted 78966105 1463163737
+ 
+\change_unchanged
+ correspondence of labeled cells and blood vessels (
 \change_inserted 78966105 1461177748
 Fig
 \change_unchanged
 .
  1C).
 
-\change_inserted 78966105 1461178106
- 
+\change_inserted 78966105 1462995085
+ The soma of all 22 
 \change_unchanged
-All 22 integrator cells from the LM volume were located in the EM volume
- (
-\change_inserted 78966105 1461177748
-Fig
-\change_unchanged
- 1D).
+integrator cells from the LM volume were located in the EM volume
+\change_inserted 78966105 1462995094
+ within
+\change_deleted 78966105 1462995107
  
+\change_inserted 78966105 1463166373
+ rhombomeres 6/7 border tilt, 7 and 8 (Fig 1D).
+ This procedure revealed three clusters of cells (addressed later) in the
+ imaged volume.
+ Overlaying the persistence 'level' of integrator cells revealed each group
+ to have cells with a large range of persistance levels.
+ Overall, we observed that cells that were nearer to each other have similar
+ persistence levels with cells are caudal locations having slightly higher
+ persistence levels as compared to cells at rostral locations ( Sup.
+ Fig).
+ This result is consistent with the spatial organization of integrator cells
+ in the larval zebrafish revealed by optical imaging 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Miri:2011ib"
+
+\end_inset
+
+, and from paired unit recordings in goldfish and monkey 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Aksay:2003un,Dale:2015hh"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
-General anatomical properties
+
+\change_inserted 78966105 1463164342
+A
+\change_unchanged
+natomical properties
+\change_inserted 78966105 1463430900
+ of integrator cells
 \end_layout
 
 \begin_layout Standard
-The EM volume contained a total of 2967 somata spread over rhombomeres 5
- through 8.
+
+\change_inserted 78966105 1463431009
+After the identification of the integrator cells in the EM volume, we then
+ reconstruced all 22 cells and annotated the synaptic locations for all
+ cells.
+ We first characterized some of the anatomical properties that were common
+ to all integrator cells.
+ 
+\change_unchanged
+The
+\change_inserted 78966105 1463168410
+ high-res
+\change_unchanged
+ EM volume contained a total of 2967 somata spread over rhombomeres 5 through
+ 8.
 
 \change_deleted 78966105 1461178141
  
@@ -621,6 +738,11 @@ Fig.
 \change_unchanged
  1D).
  
+\change_inserted 78966105 1463431377
+We first characterized some of the general anatomical properties of the
+ integrator cells were, and addressed the differences later.
+\change_deleted 78966105 1463170450
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -628,26 +750,79 @@ Somata
 \end_layout
 
 \begin_layout Standard
-The somata of the 22 integrator cells spanned 23 µm in the dorsoventral
- axis and the entire rostrocaudal extent of the imaged volume.
- The soma locations ended up in three broad clusters.
+
+\change_inserted 78966105 1462996012
+The soma locations of the 22 integrator cells ended up in three broad clusters.
+ 
+\change_unchanged
+The
+\change_inserted 78966105 1462996018
+se
+\change_unchanged
+ 
+\change_inserted 78966105 1463164955
+cells were distributed over
+\change_unchanged
+ 
+\change_inserted 78966105 1463164959
+~
+\change_unchanged
+23 µm in the dorsoventral axis and the entire rostrocaudal extent of the
+ imaged volume.
+
+\change_deleted 78966105 1462996036
+ 
+\change_unchanged
  The first cluster of cells was located very close to the midline and at
- the rostral end of the imaged volume.
+ the rostral e
+\change_inserted 78966105 1463165029
+dge
+\change_unchanged
+ of the imaged volume
+\change_inserted 78966105 1463165179
+, very close to the boder of r6,7
+\change_deleted 78966105 1463165165
+.
+
+\change_unchanged
  The second cluster of cells was located at the caudal end of the imaged
- volume, lateral to the first cluster.
- A third loose cluster of cells was located at the lateral end of the volume,
- with cells that spanned the entire rostrocaudal range (
-\change_inserted 78966105 1461177748
+ volume
+\change_inserted 78966105 1463165336
+, lateral to the first group of cells, located in r8, roughly between myotomes
+ 1,2.
+
+\change_unchanged
+ A third loose cluster of cells was located at the lateral end of the volume
+\change_inserted 78966105 1463165327
+ in r8.
+\change_deleted 78966105 1463165311
+, 
+\change_unchanged
+ (
+\change_inserted 78966105 1463165250
 Fig
 \change_unchanged
 .
  1D).
- The average diameter of somata was 
+ 
+\change_inserted 78966105 1463170560
+We looked at the diameter of the somata of all 22 integrator cells.
+ The diamteres of the integrator cells were normally distrubuted, with a
+ mean of
+\change_unchanged
+ 
 \begin_inset Formula $4.5\pm0.6\:\mu m$
 \end_inset
 
  (mean ± standard deviation).
- On average 
+ 
+\change_inserted 78966105 1463171614
+In general, the size of the somata was proportional to the persistence level
+ of the cells (Sup.
+ Fig.).
+ 
+\change_unchanged
+On average 
 \begin_inset Formula $3.3\pm1.5$
 \end_inset
 
@@ -658,11 +833,28 @@ Fig
  neurites emerged from the somata, and traveled ventrally.
  Some neurites exited the imaged volume, leading to incompletely reconstructed
  cells.
+\change_inserted 78966105 1463165250
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1462996255
  On average, fully reconstructed cells had total neurite length of 
 \begin_inset Formula $832\pm269$
 \end_inset
 
  µm.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -670,17 +862,23 @@ Synapses
 \end_layout
 
 \begin_layout Standard
-We identified synapses by the presence of a presynaptic vesicle pool and
- an opposing postsynaptic density (
-\change_inserted 78966105 1461177748
-Fig
+
+\change_inserted 78966105 1463431060
+We annotated 406 presynaptic (green circles, Fig.
+ 2) and 2229 postsynaptic sites (red circles, Fig.
+ 2) on integrator neurons.
+ 
+\change_deleted 78966105 1463431058
+We
 \change_unchanged
-.
- 2B
-\change_inserted 78966105 1461178211
-, EM panels
+ i
+\change_deleted 78966105 1463431067
+dentified synapse
+\change_inserted 78966105 1463431080
+Synapses were identified
 \change_unchanged
-).
+ by the presence of a presynaptic vesicle pool and an opposing postsynaptic
+ density.
  Synapses from or onto integrator neurons contained small vesicles, presumably
  containing a conventional neurotransmitter.
  Elsewhere in the volume we did identify synapses with dense core vesicles,
@@ -690,9 +888,9 @@ Sup.
 
 \change_unchanged
  
-\change_inserted 78966105 1461177768
+\change_inserted 78966105 1463169090
 Fig.
- 1
+ 2
 \change_unchanged
 ).
  
@@ -700,24 +898,27 @@ Fig.
 
 \begin_layout Standard
 The postsynaptic densities were observed as a darkening of the membrane,
- indicative of more electron dense regions (
-\change_inserted 78966105 1461177748
-Fig
-\change_unchanged
-.
- 2B).
+ indicative of more electron dense regions.
  The presynaptic site was generally at a varicosity in the axon with vesicles
  throughout.
  Opposing the postsynaptic density, a small, denser cluster of vesicles
- was typically observed, along with a presynaptic density.
+ was typically observed, along with 
+\change_inserted 78966105 1463168600
+the
+\change_deleted 78966105 1463168599
+a
+\change_unchanged
+ presynaptic density.
  These features are consistent with the idea of a presynaptic active zone.
  
 \end_layout
 
 \begin_layout Standard
-In total, we annotated 406 presynaptic and 2229 postsynaptic sites on integrator
- neurons.
- The number of postsynaptic sites on a cell averaged 
+
+\change_deleted 78966105 1463431225
+ 
+\change_unchanged
+The number of postsynaptic sites on a cell averaged 
 \begin_inset Formula $101\pm74$
 \end_inset
 
@@ -754,15 +955,22 @@ Sup.
 
 \change_unchanged
  
-\change_inserted 78966105 1461178331
+\change_inserted 78966105 1463169149
 Fig.
- 2
+ 3
 \change_unchanged
 ).
  The darkening persisted over multiple serial sections, suggesting that
  it was not an artifact of tissue preparation or imaging.
- We speculate that these darkenings are electrical synapses, which are known
- to exist in the developing larval zebrafish hindbrain 
+ We speculate that these darkenings are 
+\change_inserted 78966105 1462996315
+tight junctions
+\change_unchanged
+,
+\change_inserted 78966105 1462996403
+ or electrical synapses,
+\change_unchanged
+ which are known to exist in the developing larval zebrafish hindbrain 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Jabeen:2013fm"
@@ -770,7 +978,15 @@ key "Jabeen:2013fm"
 \end_inset
 
 .
- We cannot be sure of our interpretation because of our limited image resolution.
+
+\change_deleted 78966105 1462996522
+ 
+\change_inserted 78966105 1463168677
+ These darkenings were visible between somata of integrator-integrator and
+ integrator-non-integrator cells.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -780,26 +996,20 @@ Dendrites
 \begin_layout Standard
 Dendrites were defined by the absence of presynaptic vesicles and the presence
  of postsynaptic densities.
- They were mostly oriented along the mediolateral axis, but some exceptions
- were oriented rostrocaudally.
- Dendrites were smooth rather than spiny (
-\change_inserted 78966105 1461178365
-Fig.
+ They were mostly oriented 
+\change_inserted 78966105 1463168824
+ventral to the location of the somata.
 
+\change_deleted 78966105 1463168831
+ 
 \change_unchanged
- 2 A-D).
+ Dendrites were smooth rather than spiny.
  The dendritic arbors of these cells fell into a distribution with a long
  tail
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-skeptical about this, given that you have only 22 cells
-\end_layout
-
-\end_inset
-
-, see distribution of arbor size (
+\change_inserted 78966105 1463171599
+,
+\change_unchanged
+ see distribution of arbor size (
 \change_inserted 78966105 1461178781
 Sup.
 
@@ -811,7 +1021,19 @@ Fig.
 \change_unchanged
 ).
  Cells with small arbors were completely reconstructed and did not have
- any dendrites that left the imaged volume.
+ any dendrites that 
+\change_inserted 78966105 1462996568
+exited
+\change_deleted 78966105 1462996566
+left
+\change_unchanged
+ the imaged volume
+\change_inserted 78966105 1463431314
+.
+\change_deleted 78966105 1463431313
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -823,14 +1045,19 @@ We defined axons as neurites with presynaptic vesicles.
  No axons were observed emerging directly from the cell body.
  Instead, dendrites bearing postsynaptic sites turned into axons with presynapti
 c sites.
- Two example dendrite-axon transitions are indicated in 
+ 
+\change_inserted 78966105 1463431415
+E
+\change_unchanged
+xample dendrite-axon transitions are indicated in 
 \change_inserted 78966105 1461178433
 Fig.
 
 \change_unchanged
- 2A and B
-\change_inserted 78966105 1461178445
- (open arrow)
+ 2
+\change_inserted 78966105 1463431590
+, showing the dendrite (neurite with red postsynaptic sites) turning into
+ axons at the axon initiation (open arrow) 
 \change_unchanged
 .
  The main trunk of the axon extended rostrally and ventrally (
@@ -857,9 +1084,27 @@ ls.
  expected location of the abducens motor nucleus (based on its known position
  
 \change_inserted 78966105 1460919334
-within rhombomere r5,6)
+within rhombomere r5,6
 \change_unchanged
- .
+ 
+\change_inserted 78966105 1463431677
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1462998757
+Show in sup figure
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+)
+\change_unchanged
+.
  In total, we reconstructed 1.62 mm of axonal length in the imaged volume.
  
 \end_layout
@@ -876,25 +1121,177 @@ Fig
 \change_inserted 78966105 1461178602
 , EM panel
 \change_unchanged
-), so we inferred that the sheaths were myelination.
+), so we inferred that the 
+\change_inserted 78966105 1462999493
+axons were loosely myelinated, as compared to the thick dark myelin that
+ is seen elsewhere in the volume 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1462999493
+(sup figure)
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+.
+
+\change_unchanged
  The axon of the cell in 
 \change_inserted 78966105 1461177748
 Fig
 \change_unchanged
 .
- 2A was intermittently myelinated along its rostrocaudal section.
- Mediolateral collaterals emerged from the gaps in myelination, and remained
- unmyelinated.
- Myelin sheaths have been previously seen in larval zebrafish spinal cord
- and wrap neurons in an activity-dependent manner 
+ 2A was intermittently 
+\change_inserted 78966105 1462998840
+loosely 
+\change_unchanged
+myelinated along its rostrocaudal section.
+ Mediolateral collaterals emerged from the gaps in 
+\change_inserted 78966105 1462998848
+loose 
+\change_unchanged
+myelin, and remained unmyelinated.
+ 
+\change_inserted 78966105 1462999174
+Loose m
+\change_unchanged
+yelin sheath
+\change_inserted 78966105 1463431783
+s have been previously repored in goldfish 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Mensch:2015hy,Hines:2015gu"
+key "Rosenbluth:1961gl"
 
 \end_inset
 
 .
  
+\end_layout
+
+\begin_layout Subsubsection*
+
+\change_inserted 78966105 1463431779
+Small protuberances
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1463431779
+A small fraction (3% or 89/2229) of the postsynaptic sites were located
+ on finger-like projections from dendrites that were enveloped by invaginations
+ of axonal boutons (Fig.
+ 2B, EM panel 2).
+ These projections resemble structures found across multiple species called
+ spinules, and are thought to be present on large, active synapses 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Petralia:2015ge"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1463431779
+Another interesting feature observed on all integrator cells was a the presence
+ of a primary cilia in all the 22 integrator cells.
+ This cilium, typically 
+\begin_inset Formula $<1$
+\end_inset
+
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+m, is enriched with microtubules, and emerges from the cell body very close
+ to the golgi complex.
+ In some cases, this primary cilium terminated inside processes that were
+ presumed glial (Sup.
+ Fig.
+ 4).
+ Orientation of primary cilium in integrator cells did not show any orientation
+ preference 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463431779
+(Sup.
+ Fig.
+ 4)
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\change_inserted 78966105 1463431779
+Putative axons
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1463431883
+We noticed that a few of the neurites that crossed the midline shared common
+ features.
+ First, these neurites were devoid of any pre- or postsynaptic sites.
+ Second, before crossing the midline, the neurite became engulfed by processes
+ that appeared glial in nature (Fig.
+ 2 C,D).
+ These features are typical of axons.
+ The glial engulfment is consistent with the idea of glial bridges that
+ are instrumental in axonal guidance during development 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Barresi:2005iw"
+
+\end_inset
+
+.
+ The lack of presynaptic sites is similar to some of the initial segments
+ of the ipsilaterally projecting axons, where there were no presynaptic
+ terminals in the early part of the axon, and presynaptic sites emerged
+ only later on.
+ Finally, the diameter of these neurites were similar to the diameters of
+ ipsilaterally projecting axons (
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463431883
+Sup.
+ Fig.
+ 5)
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+.
+ We therefore infer that these neurites are contralaterally projecting axons.
+ All but one cells with contralaterally projection putative axon did not
+ emerge from the somata of the integrator cell.
+ Instead, the initial zone of the putative axon contatined postsynaptic
+ sites (Fig.
+ 2 C,D - postsynaptic sites before putative axon).
+\change_deleted 78966105 1463431778
+.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -917,111 +1314,18 @@ key "Lee:2015dv"
  For 20 out of 22 cells, the mean axonal diameter was less than the mean
  dendrite diameter, conforming to the textbook notion that axons are thinner
  than dendrites (
-\change_inserted 78966105 1461177748
-Fig
-\change_unchanged
+\change_deleted 78966105 1463431908
 .
- 3H).
+ 3H
+\change_inserted 78966105 1463431913
+addressed later
+\change_unchanged
+).
  However, the axon was thicker than the dendrites for the remaining two
  cells, so inference of neurite identity based on caliber would have been
  erroneous for these cells.
  Furthermore, neurite diameters are close to the diffraction limit, so that
  light microscopic estimation of dendritic diameters could be inaccurate.
-\end_layout
-
-\begin_layout Subsubsection*
-Small protuberances
-\end_layout
-
-\begin_layout Standard
-A small fraction (3% or 89/2229) of the postsynaptic sites were located
- on finger-like projections from dendrites that were enveloped by invaginations
- of axonal boutons (
-\change_inserted 78966105 1461178682
-Fig.
-
-\change_unchanged
- 2B, EM panel 2).
- These projections resemble structures found across multiple species called
- spinules, and are thought to be present on large, active synapses 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Petralia:2015ge"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Another interesting feature observed on all integrator cells was a short
- (typically 
-\begin_inset Formula $<1$
-\end_inset
-
- 
-\begin_inset Formula $\mu$
-\end_inset
-
-m) neurite enriched with microtubules emerging from the cell body.
- In some cases, the neurite terminated inside processes that were presumed
- glial (
-\change_inserted 78966105 1461177748
-Fig
-\change_unchanged
-.
- 2D
-\change_inserted 78966105 1461178781
-, Sup.
- Fig.
- 4
-\change_unchanged
-).
- 
-\end_layout
-
-\begin_layout Subsubsection*
-Putative axons
-\end_layout
-
-\begin_layout Standard
-We noticed that a few of the neurites that crossed the midline shared common
- features.
- First, these neurites were devoid of any pre- or postsynaptic sites.
- Second, before crossing the midline, the neurite became engulfed by processes
- that appeared glial in nature (
-\change_inserted 78966105 1461178725
-Fig.
-
-\change_unchanged
- 2 C,D).
- These features are typical of axons.
- The glial engulfment is consistent with the idea of glial bridges that
- are instrumental in axonal guidance during development 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Barresi:2005iw"
-
-\end_inset
-
-.
- The lack of presynaptic sites is similar to some of the initial segments
- of the ipsilaterally projecting axons, where there were no presynaptic
- terminals in the early part of the axon, and presynaptic sites emerged
- only later on.
- Finally, the diameter of these neurites were similar to the diameters of
- ipsilaterally projecting axons (
-\change_inserted 78966105 1461178781
-Sup.
-
-\change_unchanged
- 
-\change_inserted 78966105 1461178748
-Fig.
- 5
-\change_unchanged
-).
- We therefore infer that these neurites are contralaterally projecting axons.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1046,27 +1350,26 @@ We computed the intersynaptic distance for all pre- and postsynaptic sites.
  (addressed later)
 \change_unchanged
 .
- We noticed that for cells in 
-\change_inserted 78966105 1461178896
-ipsi-only group
-\change_unchanged
-, the inter presynaptic distances had a long tail, with large gaps.
- This was indicative of the clustering of presynaptic sites that was visible
- in (
-\change_inserted 78966105 1461178984
-Fig.
-
-\change_unchanged
- 2B, graphic inset)
+ 
 \end_layout
 
 \begin_layout Subsection
 Axonal projection patterns
+\change_inserted 78966105 1463431959
+ of integrator cells
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
-We divided the reconstructed integrator cells into four groups based on
- their axonal arbors, as described below.
+
+\change_inserted 78966105 1463437444
+Following the features that was common between all integrator cells we next
+ focused on differences between these cells.
+ W
+\change_unchanged
+e divided the reconstructed integrator cells into four groups based on their
+ axonal arbors, as described below.
  
 \end_layout
 
@@ -1085,7 +1388,12 @@ ipsi-only
 ) 
 \emph default
 \bar default
-- Six cells were observed to have only ipsilaterally projecting axons.
+- Six cells were observed to have only ipsilaterally projecting axons
+\change_inserted 78966105 1463432028
+ (Fig.
+ 3A)
+\change_unchanged
+.
  Two representatives are shown in 
 \change_inserted 78966105 1461177748
 Fig
@@ -1104,8 +1412,9 @@ Fig.
 
 \change_unchanged
  3A
-\change_inserted 78966105 1461179495
-, ipsi-only
+\change_inserted 78966105 1463432628
+, Ipsi.
+ only
 \change_unchanged
 ).
  Not all cells in this group had rostral axonal terminations in the abducens
@@ -1115,24 +1424,15 @@ Fig.
  could potentially terminate in the abducens.
  The average length of all the axons from all ipsilaterally projecting cells
  was 
-\begin_inset Formula $270\pm244\,\mu m$
+\begin_inset Formula $\sim270\,\mu m$
 \end_inset
 
+
+\change_inserted 78966105 1463435992
+ (Sup.
+ table)
+\change_unchanged
  with the longest reconstructed axon being 683 µm.
- The mean diameter of the axons from these cells averaged 
-\begin_inset Formula $0.21\pm0.15$
-\end_inset
-
- µm (
-\change_inserted 78966105 1461177748
-Fig
-\change_unchanged
-.
- 3
-\change_inserted 78966105 1461179047
-B
-\change_unchanged
-).
  
 \end_layout
 
@@ -1149,40 +1449,23 @@ Fig.
  ipsi only,
 \change_unchanged
  arrowhead).
- The average volume encompassed by the dendrites of these cells (convex
- hull volume) was 
-\begin_inset Formula $3.04\pm1.5\times10^{4}\:µm^{3}$
-\end_inset
-
-.
- The dendrites in this group arborized over 13.3% of the total imaged volume
+ 
+\change_inserted 78966105 1463436049
+Cells in this group had large dendritic arbors, with the
+\change_unchanged
+ dendrites in this
+\change_deleted 78966105 1463436076
+ 
+\change_inserted 78966105 1463436073
+ arborizong
+\change_unchanged
+ over 13.3% of the total imaged volume
 \change_inserted 78966105 1461179420
  (Sup.
  Fig.
  4)
 \change_unchanged
 .
- The average length of dendrites from this group of cells was 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-It's silly to have numbers with this many significant 
-\change_inserted 78966105 1461177748
-Fig
-\change_deleted 78966105 1461177748
-fig
-\change_unchanged
-ures, given the large variance.
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $391.83\pm65.83$
-\end_inset
-
- µm.
  The dendritic arbors were more dense at ventral locations with peak arborizatio
 n at a depth of 
 \begin_inset Formula $35.6\pm8.4$
@@ -1199,11 +1482,12 @@ Fig.
  6
 \change_unchanged
 ).
- The mean dendritic diameter averaged to 
-\begin_inset Formula $0.25\pm0.15\:µm$
-\end_inset
-
-, which was significantly larger to the axonal diameter (
+ 
+\change_inserted 78966105 1463436172
+We also found the average dendrite for cells in this group to have significantly
+ larger diameter as compated to the diameter of the axons 
+\change_unchanged
+(
 \change_inserted 78966105 1461179149
 Fig.
 
@@ -1216,24 +1500,56 @@ B
 \begin_inset Formula $p<2\times10^{-3}$
 \end_inset
 
-, ttest).
- On average, cells in this group contained 
-\begin_inset Formula $174.83\pm88.09$
+, ttest
+\change_inserted 78966105 1463436184
+, Sup.
+ table
+\change_unchanged
+).
+ 
+\change_inserted 78966105 1463436681
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1463436750
+C
+\change_unchanged
+ells in this group contained 
+\begin_inset Formula $\sim170$
 \end_inset
 
  postsynaptic sites, and 
-\begin_inset Formula $56.5\pm52.75$
+\begin_inset Formula $\sim56$
 \end_inset
 
  presynaptic sites
-\change_inserted 78966105 1461179169
+\change_inserted 78966105 1463436767
  (Fig.
- 3C)
+ 3B, Sup.
+ Table)
 \change_unchanged
 .
- Cells tend have postsynaptic sites proximal to the cell somata, whereas
+ 
+\change_inserted 78966105 1463436232
+The distribution of the location of the pre and postsynaptic sites, revealed
+ that c
+\change_deleted 78966105 1463436232
+C
+\change_unchanged
+ells tend have postsynaptic sites
+\change_inserted 78966105 1463436380
+ at
+\change_unchanged
+ proximal 
+\change_inserted 78966105 1463436386
+locations and 
+\change_deleted 78966105 1463436393
+to the cell somata, whereas
+\change_unchanged
  presynaptic sites at least 
-\begin_inset Formula $\sim150\:µm$
+\begin_inset Formula $\sim15\:µm$
 \end_inset
 
  away from the cell somata.
@@ -1559,87 +1875,6 @@ m, and they occupied on average a volume of
 
 \begin_layout Subsection
 Connectivity between integrator neurons
-\end_layout
-
-\begin_layout Standard
-Many theories of the neural integrator are based on assumed patterns of
- synaptic connectivity between integrator neurons.
- For example, it has been proposed that integration is supported by recurrent
- excitation between neurons on the same side of the brain 
-\change_inserted 78966105 1460919880
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "kamath_neurological_1976,seung_how_1996,seung_stability_2000,fisher_modeling_2013"
-
-\end_inset
-
-
-\change_unchanged
-, and/or mutual inhibition between populations on opposite sides of the
- brain 
-\change_inserted 78966105 1460920060
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Cannon:1983kf,arnold_oculomotor_1997,Aksay:2007cv,fisher_modeling_2013"
-
-\end_inset
-
-
-\change_unchanged
-.
- The existence of synapses between integrator neurons has been presumed
- possible, because axon collaterals on integrator neurons have been observed
- in larval zebrafish 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Lee:2015dv"
-
-\end_inset
-
-, goldfish 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Pastor:1994tx,Aksay:2000cn"
-
-\end_inset
-
-, cats 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "McCrea:1985hx"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Were these physiologically identified?
-\change_inserted 78966105 1460921149
-, by antidromic activation of flocculus)
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
- and nonhuman primates 
-\change_inserted 78966105 1461104770
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Steiger:1979ev"
-
-\end_inset
-
-
-\change_unchanged
-.
- Such collaterals could potentially contact dendrites of other integrator
- neurons, but conclusive evidence for contact and synapses has been lacking.
 \end_layout
 
 \begin_layout Standard
@@ -2130,54 +2365,6 @@ key "Cardona:2012kf"
  All the alignment was performed on a machine with 32 cores and 120GB RAM.
 \end_layout
 
-\begin_layout Standard
-
-\change_deleted 78966105 1462802620
-
-\bar under
-Registration of light and electron microscopic images.
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 78966105 1462802620
-We first identified potential integrator cells from the LM dataset using
- methods that were previously described (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Miri:2011ft"
-
-\end_inset
-
-).
- Briefly, to locate the same cells that were id'ed form the functional imaging,
- the LM volume was registered to the EM volume.
- This was done using gross anatomical features like easily recognized clusters
- of cell bodies and blood vessels, that was readily visible in both the
- LM and the EM volumes.
- These features served as anatomical landmarks, where each pair of features
- were marked as a corresponding pair that was subsequently used to generate
- a transform.
- Once we had many such corresponding pairs, they were used to generate an
- affine transform that was used to register the LM volume on the EM volume.
- This process was also performed in the Fiji plugin TrakEM2 (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Cardona:2012kf"
-
-\end_inset
-
-).
- This process resulted in overlaying the LM volume onto the EM volume.
- Once this was done, we were able to locate the VPNI cells in the EM volume.
- Although these cells were from three distinct planes in the light microscopic
- volume, their locations in the EM volume was not necessarily restricted
- to three distinct planes, since we annotated the centers of the cells in
- the EM volume.
-\change_unchanged
-
-\end_layout
-
 \begin_layout Subsection
 Registration of light microscope and electron microscope volumes
 \end_layout
@@ -2602,7 +2789,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename NewFigure1.png
-	scale 70
+	scale 60
 	rotateOrigin center
 
 \end_inset
@@ -2616,41 +2803,73 @@ status open
 Functional and structural imaging of integrator cells.
 
 \bar default
- (A) (a) Larval zebrafish showing the region around which functional imaging
- was performed (black box) located in the hindbrain (hb).
- Right
-\change_deleted 78966105 1461182794
  
-\change_unchanged
- panel shows a single imaging plane with cells loaded by calcium indicator
+\begin_inset Newline newline
+\end_inset
+
+(A) (a) Top - Larval zebrafish schematic showing the region around which
+ functional imaging was performed (black box) located in the hindbrain,
+ and eye-tracking.
+\begin_inset Newline newline
+\end_inset
+
+Bottom - A single imaging plane showing cells loaded with calcium indicator
  OGB-1.
- Integrator cells identified are show in the red circles.
- (b) Calcium transients (black traces) from the cell shown circled in (a)
- to spontaneous saccades (blue trace).
- Each ipsilateral saccade is highlighted in light-blue.
- (c) Saccade triggered average of all ipsilateral saccades (blue) with correspon
-ding calcium traces (black) and standard error (grey).
- (d) Anatomical imaging of the imaged region used to creare the light microscopi
-c (LM) volume.
+ Integrator cells identified are show in colored circles.
+ Colors reflect the level of persistence of the cell.
  Scale bar 
 \begin_inset Formula $20\:\mu m$
 \end_inset
 
- (B) Serial electron microscopy of same zebrafish from A, sections are collected
- on tape in an automated manner, images at low-resolution are used to align
- the sections, followed by imaging at high-resolution over the defined region
- of interest (black box) to give final 3D EM volume of the imaged area.
- (C) Registration of LM volume to EM volume to locate the cells that were
+
+\begin_inset Newline newline
+\end_inset
+
+(b) Spontaneous eye movement (blue) showing saccades (vertical lines) and
+ postsaccadic fixations (horizontal lines).
+ Ipislateral saccades are show with black arrows.
+ Colored traces are the changes in fluoresence from individual cells from
+ (a).
+ Color coding reprensent the persistance level of the cell.
+ 
+\begin_inset Newline newline
+\end_inset
+
+ (c) Normalized fluorescence response following saccades.
+ Thick line shows the normal, with shaded region showing the SEM.
+ Numbers, are the avareages of the normalized fluoresence responses, a measure
+ of persistence of the cell.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(B) Serial electron microscopy of same zebrafish from A, serial-sections
+ are collected on tape in an automated manner, images at low-resolution
+ are used to align the sections, imaging at high-resolution over the defined
+ region of interest (black box)
+\change_deleted 78966105 1463430518
+ 
+\change_unchanged
+ gives final 3D-EM volume of the imaged area.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(C) Registration of LM volume to EM volume to locate the cells that were
  involved in the behavior.
  Red arrows indicate the same features in both LM and EM.
  Scale bar 
 \begin_inset Formula $20\:\mu m$
 \end_inset
 
- (D) Anatomical location of all integrator cells (circles) involved in the
+ 
+\begin_inset Newline newline
+\end_inset
+
+(D)Anatomical location of all integrator cells (circles) involved in the
  behavior along with anatomical landmarks, Mauthner cell, Mi2, Mi3 and Ca
  as identified in the EM volume (stars).
- Colors of the cells correspond to the persistence time profile of the cell.
+ Colors of the cells correspond to the persistence level of the cell.
 \end_layout
 
 \end_inset
@@ -2676,7 +2895,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename NewFigure2.png
-	scale 70
+	scale 60
 	rotateOrigin center
 
 \end_inset
@@ -2690,43 +2909,54 @@ status open
 Integrator cell anatomical features reconstructed from EM volume.
 
 \bar default
- (A) Example integrator cell showing ipsilaterally projecting axon (dark
- segment) and dendrite (light segment) with pre- (green) and postsynaptic
- (red) locations.
- Parts of the axon of this integrator cell are myelinated (colored boxes).
- Insets show one such myelinated regions, with arrows showing individual
+ 
+\begin_inset Newline newline
+\end_inset
+
+(A) Example integrator cell showing ipsilaterally projecting axon (dark
+ segment) and dendrite (light segment) with pre- (green circles) and postsynapti
+c (red circles) locations.
+ Parts of the axon of this integrator cell are loosely-myelinated (colored
+ boxes).
+ Insets show one such myelinated region, with arrows showing individual
  myelin sheaths that are oblique to the imaging plane.
  Open arrow heads show the location of axon initiation zones along the neurite.
- (B) Integrator cell, with ipsilateral projecting axon that starts with
- single neurite that branches to give rise to axon and dendrites.
+\begin_inset Newline newline
+\end_inset
+
+(B) Integrator cell, with ipsilateral projecting axon that starts as single
+ neurite that branches to give rise to axon and dendrites.
  Axon is studded with presynaptic sites that are clustered along neurite.
  Inset is a 3D reconstruction of axon termination zone with a large vesicle
  cloud (blue) with multiple post synaptic densities (yellow) opposed to
  the vesicles.
- (C) Example integrator cell with both ipsi and contralateral projecting
- axon.
- Putative contra axon
-\change_deleted 78966105 1461182803
- 
-\change_unchanged
- is engulfed by glial process just before crossing the midline.
+ Numbers correspond to EM insets showing the synapses.
+ M - Mitochondria, V - Vesicles.
+ Arrows show the synapses at those locations.
+\begin_inset Newline newline
+\end_inset
 
-\change_inserted 78966105 1461182820
+(C) Example integrator cell with both ipsi and contralateral projecting
+ axon.
+ Putative contra axon is engulfed by glial process just before crossing
+ the midline.
+ Number correspond to EM insets with colored segments that are glia G, and
+ non-colored segment is axon A.
+ Open arrowhead shows the axons initiation site.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(D) Contralaterally projecting integrator cell with putative axon crossing
+ the midline with glial engulfment (EM insets at numbered locations G -
+ Glia, A - Axon).
+ Bottom EM inset panel shows primary cilium
+\change_deleted 78966105 1463430513
  
 \change_unchanged
-Inset colored segments are glial G,
-\change_inserted 78966105 1461182828
- 
-\change_unchanged
-and non-colored segment is axon A.
- (D) Contralaterally projecting integrator cell with putative axon crossing
- the midline with glial engulfment (insets G, A).
- Also, the somata gives rise to microtubule rich neurite.
- Shown in large inset panels, the microtubule rich neurite is highlighted
- with yellow arrow.
- Note all the integrator somata in this volume give rise to this small neurite,
- but only one is shown.
- 
+ highlighted with yellow arrow.
+ Note all the integrator somata in this volume give rise to a cilium, but
+ it is shown for this cell.
 \end_layout
 
 \end_inset
@@ -2752,7 +2982,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename NewFig3_4.png
-	scale 70
+	scale 60
 	rotateOrigin center
 
 \end_inset
@@ -2769,39 +2999,43 @@ In
 tegrator cells have distinct axonal projection patterns.
 
 \bar default
- (A) Top left, 6 integrator cell with ipsilateral projecting axons - ipsi-only
- group.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(A) Colored panels show three views of reconstructed cells with same axon
+ projection patterns.
+ Top left, 6 integrator cell with ipsilateral projecting axons - ipsi-only
+ group, pink background.
  Top right, 2 integrator cells with ipsilaterally and putative contralateral
- projection
-\change_deleted 78966105 1461182857
+ projection – ipsi-contra, green background.
+ Bottom left, 8 integrator cells with midline crossing contralateral only
+ putative-axon – contra-only, orange background.
+ Bottom right, 7, integrator cells with unknown axonal projection – unknown,
+ blue background.
+ On the neurites, red circles - postsynaptic sites,green circles - presynaptic
+ sites.
  
-\change_unchanged
- – 
-\change_inserted 78966105 1461182882
-ipsi-contra
-\change_unchanged
-.
- Bottom left,
-\change_deleted 78966105 1461182857
- 
-\change_unchanged
- 8 integrator cells with midline crossing contralateral only putative-axon
- – 
-\change_inserted 78966105 1461182898
-contra-only
-\change_unchanged
-.
- Bottom right, 7, integrator cells with unknown axonal projection – 
-\change_inserted 78966105 1461182906
-unknown
-\change_unchanged
-.
- (B) Upper panel, axonal and dendritic diameter of all cells in each of
- the four groups.
+\begin_inset Newline newline
+\end_inset
+
+(B) Number of synapses from each group.
+ Black circle is the mean.
+\begin_inset Newline newline
+\end_inset
+
+(C) (left) distribution of synaptic pathlength for all groups.
+ (right) distribution of intersynaptic distance for all groups.
+\begin_inset Newline linebreak
+\end_inset
+
+(D) Axonal and dendritic diameter of all cells in each of the four groups.
  Grey dots are averages for each cell and black dots are averages per group.
- Lower panel, distribution of intersynaptic distance among pre and potssynaptic
- sites for all four groups.
  
+\change_inserted 78966105 1463434077
+A - Axon, D - Dendrite.
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -2830,7 +3064,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename NewFigure5_Small.png
-	scale 70
+	scale 60
 	rotateOrigin center
 
 \end_inset
@@ -2841,31 +3075,56 @@ status open
 \begin_layout Plain Layout
 
 \bar under
-Integrator cell are synaptically connected.
+Integrator cells are synaptically connected.
+\begin_inset Newline newline
+\end_inset
+
 
 \bar default
- (A) Top view of integrator cells that are synaptically connected.
- All synapses were from one cell (green) in ipsi-only group (arrow) onto
- one other cell from ipsi-only group (red).
- One synapses each from ipsi-only group cell (green) onto two contra-only
- cells ( purple and magenta).
- Black dots represent the site of the synapses, with insets showing the
- electron micrograph at the respective location.
- In all electron micrographs, green color is the presynaptic cell, the postsynap
-tic sites are the same color as the cell somata.
- Remaining panels are of the same four cells viewed from orthogonal planes.
- (B) Potential synapse analysis of all sites that are 
+(A) Heat map showing the spatial location of the presynapses and postsynapses
+ of all integrator cells.
+ White circles are the locations of the cell somata.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(B) Three views of synaptically connected integrator cells.
+ All synapses were from one cell (magenta, arrow) in ipsi-only group
+\change_deleted 78966105 1463430503
+ 
+\change_unchanged
+ onto one other cell from ipsi-only group (olive).
+ One synapse each from ipsi-only group cell (magenta) onto two contra-only
+ cells (red and brown).
+ Black dots represent the location of the synapses, with insets showing
+ the electron micrograph at the respective location.
+ In all electron micrographs.
+\begin_inset Newline newline
+\end_inset
+
+(C) Potential synapses
+\change_deleted 78966105 1463430503
+ 
+\change_unchanged
+ that are 
 \begin_inset Formula $<1\:\mu m$
 \end_inset
 
  from each other.
- Cell # 2 (arrow), is the same cell in (A, green) that makes maximum number
- of potential synapses onto other cells, also makes the real synapses shown
+ Cell # 2 (arrow), is the same cell in (A, magenta) that makes maximum number
+ of potential synapses onto other cells and makes the real synapses shown
  in (A).
  The real synapses are represented by the black circle in the header.
- (C) Electron micrograph overlaid with identified integratoc cells (colored
- circles), all cells in the imaged volume (grey dots) and anatomical landmarks
- (colored stars).
+ 
+\begin_inset Newline newline
+\end_inset
+
+(C) Electron micrograph overlaid with all somata in volume (+ shape) and
+ identified integrator cells (colored circles),
+\change_deleted 78966105 1463430503
+ 
+\change_unchanged
+ and anatomical landmarks (colored stars).
  Lower panel is a distribution of all cells with integrator cells overlaid.
  Dotted line correspond with hindbrain stripes with known neurotransmitter
  identities.
@@ -2895,6 +3154,653 @@ tic sites are the same color as the cell somata.
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 78966105 1463434647
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="10">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463434654
+Cell group
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463436831
+# Cells
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435304
+Total length
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463434872
+Axonal length
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463434878
+Dendritic length
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435654
+Convex hull volume
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463436805
+Axon diameters
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463436811
+Dendrite diameter
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463434661
+Ipsi.
+ only
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435339
+6
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435304
+\begin_inset Formula $661.89\pm253.57$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435047
+\begin_inset Formula $269.74\pm244.41$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435182
+\begin_inset Formula $392.14\pm66.31$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435754
+\begin_inset Formula $3.04\times10^{4}$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463434666
+Ipsi-contra.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435340
+2
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435304
+\begin_inset Formula $696.59\pm200.92$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435084
+\begin_inset Formula $277.28\pm22.08$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435215
+\begin_inset Formula $419.30\pm178.84$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435808
+\begin_inset Formula $2.96\times10^{4}$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463434672
+Contra.
+ only
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435341
+8
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435304
+\begin_inset Formula $358.13\pm62.76$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435098
+\begin_inset Formula $65.72\pm15.24$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435245
+\begin_inset Formula $292.41\pm69.75$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435824
+\begin_inset Formula $1.23\times10^{4}$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463434675
+unknown
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435441
+6
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $221.47\pm48.7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435128
+\begin_inset Formula $0$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435274
+\begin_inset Formula $221.47\pm48.70$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1463435844
+\begin_inset Formula $1.13\times10^{4}$
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\change_unchanged
 
 \end_layout
 
