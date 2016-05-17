@@ -201,8 +201,8 @@ mitter identity, we infer that cells with only ipsilaterally projecting
  We observed the first conclusive evidence of synapses between integrator
  neurons, from an ipsilaterally projecting cell onto other cells.
 
-\change_inserted 78966105 1463499912
- These results support the idea of itegration through positive feedback
+\change_inserted 78966105 1463513914
+ These results support the idea of integration through positive feedback
  by recurrent excitation and mutual inhibition.
 \change_unchanged
 
@@ -306,7 +306,7 @@ key "Leigh:2015ts"
 
 \begin_layout Standard
 
-\change_inserted 78966105 1463512552
+\change_inserted 78966105 1463513924
 Previous attempts to understand how the integrator transform a 'pulse' like
  input to a 'step' like output have depended on assumptions about the structure
  of the underlying neural circuit.
@@ -354,7 +354,7 @@ key "Lee:2015dv"
  Both of these studies relied on light microscopy for structural information.
  As a result, they were limited to one or a few neurons in any individual
  brain, and could not positively identify synapses.
- Similar anatomical observations have been oberved in cats 
+ Similar anatomical observations have been observed in cats 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "McCrea:1985hx"
@@ -398,54 +398,20 @@ Integrator neurons were identified in the hindbrain of a larval zebrafish
 saccadic 
 \change_unchanged
 eye movements.
- 
-\change_deleted 78966105 1463512938
-The same region of the hindbrain was then imaged via serial section electron
- microscopy.
- Analysis of the calcium data identified 22 integrator neurons, defined
- by neural activities that were highly correlated with eye position.
- 
-\change_unchanged
-The same neurons were located in the EM dataset, and their neurites were
+ The same neurons were located in the EM dataset, and their neurites were
  completely reconstructed within the confines of the imaged volume.
- 
-\end_layout
-
-\begin_layout Standard
-We identified chemical synapses in our images by the existence of presynaptic
+ We identified chemical synapses in our images by the existence of presynaptic
  vesicles and postsynaptic densities.
  All chemical synapses involving integrator neurons contained small vesicles,
  suggesting the presence of conventional rather than peptidergic neurotransmitte
 rs.
- 
-\change_deleted 78966105 1463512960
-Dense core vesicles were found at other synapses in the same region.
- 
-\change_unchanged
-
-\end_layout
-
-\begin_layout Standard
-We found 
-\change_inserted 78966105 1463513105
+ We found 
+\change_inserted 78966105 1463513242
 three major groups of cells within the integrator population.
  Cells with ipsilaterally projecting axons, identified by the existence
  of presynaptic boutons containing vesicles, cells with only contralaterally
  projecting axons, identified by a distinctive glial ensheathment near the
- midline, and cells at the lateral most e
-\change_deleted 78966105 1463513069
-y
-\change_unchanged
- 
-\change_deleted 78966105 1463513006
-ipsilaterally projecting axons, identified by the existence of presynaptic
- boutons containing vesicles.
-
-\change_unchanged
- 
-\change_deleted 78966105 1463513053
-We found 8 integrator neurons with only contralaterally projecting axons,
- identified by a distinctive glial ensheathment near the midline.
+ midline.
  Both axonal projection patterns are consistent with a previous report based
  on light microscopy 
 \begin_inset CommandInset citation
@@ -455,12 +421,10 @@ key "Lee:2015dv"
 \end_inset
 
 .
-
-\change_unchanged
- In addition, we found two integrator neurons with axonal arbors that were
- both ipsilateral and contralateral, which has not been previously reported.
- For 6 integrator neurons, an axon could not be identified, presumably because
- it was cut off by the boundary of the imaged volume.
+ In addition, we found cells at the lateral most edge of the volume, for
+ which we could not identify an axon and two integrator neurons with axonal
+ arbors that were both ipsilateral and contralateral, which has not been
+ previously reported .
 \end_layout
 
 \begin_layout Standard
@@ -471,10 +435,10 @@ We found one example of an ipsilaterally-projecting integrator neuron that
  This provides the first evidence that integrator neurons make synapses
  onto each other.
  
-\end_layout
-
-\begin_layout Standard
-The neuronal cell bodies in this region are organized into 
+\change_inserted 78966105 1463513318
+Finally, we interpreted the neurotransmitter identity of the cells, as 
+\change_unchanged
+organized into 
 \begin_inset Quotes eld
 \end_inset
 
@@ -482,8 +446,11 @@ stripes,
 \begin_inset Quotes erd
 \end_inset
 
- and previous studies have shown that cell body location relative to these
- stripes is correlated with neurotransmitter identity 
+ 
+\change_inserted 78966105 1463513376
+of somata, that are 
+\change_unchanged
+correlated with neurotransmitter identity 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
@@ -644,12 +611,12 @@ integrator cells from the LM volume were located in the EM volume
  within
 \change_deleted 78966105 1462995107
  
-\change_inserted 78966105 1463166373
+\change_inserted 78966105 1463513932
  rhombomeres 6/7 border tilt, 7 and 8 (Fig 1D).
  This procedure revealed three clusters of cells (addressed later) in the
  imaged volume.
  Overlaying the persistence 'level' of integrator cells revealed each group
- to have cells with a large range of persistance levels.
+ to have cells with a large range of persistence levels.
  Overall, we observed that cells that were nearer to each other have similar
  persistence levels with cells are caudal locations having slightly higher
  persistence levels as compared to cells at rostral locations ( Sup.
@@ -686,9 +653,9 @@ natomical properties
 
 \begin_layout Standard
 
-\change_inserted 78966105 1463431009
+\change_inserted 78966105 1463513935
 After the identification of the integrator cells in the EM volume, we then
- reconstruced all 22 cells and annotated the synaptic locations for all
+ reconstructed all 22 cells and annotated the synaptic locations for all
  cells.
  We first characterized some of the anatomical properties that were common
  to all integrator cells.
@@ -779,8 +746,8 @@ cells were distributed over
 dge
 \change_unchanged
  of the imaged volume
-\change_inserted 78966105 1463165179
-, very close to the boder of r6,7
+\change_inserted 78966105 1463513942
+, very close to the border of r6,7
 \change_deleted 78966105 1463165165
 .
 
@@ -805,9 +772,9 @@ Fig
 .
  1D).
  
-\change_inserted 78966105 1463170560
+\change_inserted 78966105 1463513948
 We looked at the diameter of the somata of all 22 integrator cells.
- The diamteres of the integrator cells were normally distrubuted, with a
+ The diameters of the integrator cells were normally distributed, with a
  mean of
 \change_unchanged
  
@@ -1163,8 +1130,8 @@ myelin, and remained unmyelinated.
 Loose m
 \change_unchanged
 yelin sheath
-\change_inserted 78966105 1463431783
-s have been previously repored in goldfish 
+\change_inserted 78966105 1463513984
+s have been previously reported in goldfish 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Rosenbluth:1961gl"
@@ -1201,7 +1168,7 @@ key "Petralia:2015ge"
 
 \begin_layout Standard
 
-\change_inserted 78966105 1463431779
+\change_inserted 78966105 1463513988
 Another interesting feature observed on all integrator cells was a the presence
  of a primary cilia in all the 22 integrator cells.
  This cilium, typically 
@@ -1213,7 +1180,7 @@ Another interesting feature observed on all integrator cells was a the presence
 \end_inset
 
 m, is enriched with microtubules, and emerges from the cell body very close
- to the golgi complex.
+ to the Golgi complex.
  In some cases, this primary cilium terminated inside processes that were
  presumed glial (Sup.
  Fig.
@@ -1244,7 +1211,7 @@ Putative axons
 
 \begin_layout Standard
 
-\change_inserted 78966105 1463478545
+\change_inserted 78966105 1463513992
 We noticed that a few of the neurites that crossed the midline shared common
  features.
  First, these neurites were devoid of any postsynaptic sites.
@@ -1288,8 +1255,8 @@ Sup.
  We therefore infer that these neurites are contralaterally projecting axons.
  All but one cells with contralaterally projection putative axon did not
  emerge from the somata of the integrator cell.
- Instead, the initial zone of the putative axon contatined postsynaptic
- sites (Fig.
+ Instead, the initial zone of the putative axon contained postsynaptic sites
+ (Fig.
  2 C,D - postsynaptic sites before putative axon).
 \change_deleted 78966105 1463431778
 .
@@ -1457,8 +1424,9 @@ Fig.
 
 \change_unchanged
  3A,
-\change_inserted 78966105 1461179565
- ipsi only,
+\change_inserted 78966105 1463514007
+ Ipsi.
+ only,
 \change_unchanged
  arrowhead).
  
@@ -1468,8 +1436,8 @@ Cells in this group had large dendritic arbors, with the
  dendrites in this
 \change_deleted 78966105 1463436076
  
-\change_inserted 78966105 1463436073
- arborizong
+\change_inserted 78966105 1463514023
+group arborizong
 \change_unchanged
  over 13.3% of the total imaged volume
 \change_inserted 78966105 1461179420
@@ -1495,9 +1463,9 @@ Fig.
 \change_unchanged
 ).
  
-\change_inserted 78966105 1463436172
+\change_inserted 78966105 1463514033
 We also found the average dendrite for cells in this group to have significantly
- larger diameter as compated to the diameter of the axons 
+ larger diameter as compared to the diameter of the axons 
 \change_unchanged
 (
 \change_inserted 78966105 1461179149
@@ -1723,7 +1691,7 @@ A, contra only
 \change_unchanged
 ).
 
-\change_inserted 78966105 1463510133
+\change_inserted 78966105 1463514069
  These cells on average received 
 \begin_inset Formula $\sim85$
 \end_inset
@@ -1732,15 +1700,15 @@ A, contra only
  (Fig.
  3B).
  Like the axons in the ipsi-only group, the putative contralateral axons
- did not emerege as axons, but started as a neurite with postsynaptic sites,
+ did not emerge as axons, but started as a neurite with postsynaptic sites,
  that became axonal.
  
 \change_deleted 78966105 1463481934
  
-\change_inserted 78966105 1463510365
+\change_inserted 78966105 1463514083
 However, unlike the ipsi-only group, the axon initiation site was much closer
  to the somata.
- On average, the axon initation site was 
+ On average, the axon initiation site was 
 \begin_inset Formula $12.89\pm6.07\:\mu m$
 \end_inset
 
@@ -1877,7 +1845,7 @@ Connectivity between integrator neurons
 
 \begin_layout Standard
 
-\change_inserted 78966105 1463483035
+\change_inserted 78966105 1463514090
 Although it has been hypothesized that integrator cells are connected to
  each other in a recurrent manner, based on indirect evidence, direct evidence
  has not been shown.
@@ -1885,10 +1853,10 @@ Although it has been hypothesized that integrator cells are connected to
  cells (Fig.
  4A, green) with the dendrites of all other cells in the volume (Fig.
  4A, red).
- More specifically, the overlp at ventro-rostral locations seems to be from
- axons of ipsi-cells onto dendrites of other ipsi-cells, where as the overlap
- at dorso-caudal locations seem to be from axons of ipsi-cells onto dendrites
- of contra-cells.
+ More specifically, the overlap at ventro-rostral locations seems to be
+ from axons of ipsi-cells onto dendrites of other ipsi-cells, where as the
+ overlap at dorso-caudal locations seem to be from axons of ipsi-cells onto
+ dendrites of contra-cells.
 \change_unchanged
 
 \end_layout
@@ -2166,7 +2134,7 @@ Discussion
 
 \begin_layout Standard
 
-\change_inserted 78966105 1463496073
+\change_inserted 78966105 1463514125
 Our work provides the first conclusive evidence for synapses between integrator
  neurons.
  This has long been suspected but experimental confirmation has eluded researche
@@ -2174,9 +2142,9 @@ rs for decades.
  The synapses were from one ipsilaterally projecting cells onto other ipsilatera
 l and contralaterally projecting cells.
  It has long been theorized that positive feedback could be a mechanism
- that can explain long persistant time scales of neuronal activity.
- Here the evidence suggests that indeed, positive feedback between ipisliaterall
-y projecting integrator neurons, that are potentially excitatory, are involved
+ that can explain long persistent time scales of neuronal activity.
+ Here the evidence suggests that indeed, positive feedback between ipsilaterally
+ projecting integrator neurons, that are potentially excitatory, are involved
  in the integrator circuit.
  Another possible mechanism by which positive feedback can be established,
  is by mutual inhibition.
@@ -2223,11 +2191,11 @@ one cell made synapses onto other reconstructed
 \change_unchanged
  neurons.
  
-\change_inserted 78966105 1463496556
+\change_inserted 78966105 1463514137
 If the observed synapses are representative of the entire population, this
  suggests the integrator population contains a subset of cells are well-connecte
 d with each other.
- While the remaining cells may serve to communicate eye-position realted
+ While the remaining cells may serve to communicate eye-position related
  information to other brain areas 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2271,20 +2239,20 @@ t is difficult to know whether the single cell that made synapses onto other
 
 \begin_layout Standard
 
-\change_inserted 78966105 1463510902
-Our evidence also suggest that atleast two of the groups, the ipsilaterally
+\change_inserted 78966105 1463514172
+Our evidence also suggest that at least two of the groups, the ipsilaterally
  projecting and the contralaterally projecting neurons are unique populations.
  They have significantly different morphologies, dendritic arbors and axonal
  projections patterns.
  Although the density of postsynapses along the dendrites is the same, the
  distributions of these postsynapses are significantly different.
- The ipsi group of cells had twice as many postsynaptic sites as the conta
- only group.
+ The ipsi-only group of cells had twice as many postsynaptic sites as the
+ contra-only only group.
  Similarly, the emergence of the axon in the ipsi-only group, is much farther
  as compared to the contra-only group.
  This feature could be important to influence the cells, since these locations
  are most proximal to the somata.
- What remains unknow are the presynaptic partners of these cells, and how
+ What remains unknown are the presynaptic partners of these cells, and how
  do they influence the function of the integrator cell, whether and if there
  are preferred locations on the dendrite from specific cells.
  
@@ -2734,7 +2702,13 @@ Bottom - A single imaging plane showing cells loaded with calcium indicator
 \end_inset
 
 (b) Spontaneous eye movement (blue) showing saccades (vertical lines) and
- postsaccadic fixations (horizontal lines).
+ 
+\change_deleted 78966105 1463514190
+postsaccadic
+\change_inserted 78966105 1463514190
+post-saccadic
+\change_unchanged
+ fixations (horizontal lines).
  Ipislateral saccades are show with black arrows.
  Colored traces are the changes in fluoresence from individual cells from
  (a).

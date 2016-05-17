@@ -398,35 +398,14 @@ Integrator neurons were identified in the hindbrain of a larval zebrafish
 saccadic 
 \change_unchanged
 eye movements.
- 
-\change_deleted 78966105 1463512938
-The same region of the hindbrain was then imaged via serial section electron
- microscopy.
- Analysis of the calcium data identified 22 integrator neurons, defined
- by neural activities that were highly correlated with eye position.
- 
-\change_unchanged
-The same neurons were located in the EM dataset, and their neurites were
+ The same neurons were located in the EM dataset, and their neurites were
  completely reconstructed within the confines of the imaged volume.
- 
-\end_layout
-
-\begin_layout Standard
-We identified chemical synapses in our images by the existence of presynaptic
+ We identified chemical synapses in our images by the existence of presynaptic
  vesicles and postsynaptic densities.
  All chemical synapses involving integrator neurons contained small vesicles,
  suggesting the presence of conventional rather than peptidergic neurotransmitte
 rs.
- 
-\change_deleted 78966105 1463512960
-Dense core vesicles were found at other synapses in the same region.
- 
-\change_unchanged
-
-\end_layout
-
-\begin_layout Standard
-We found 
+ We found 
 \change_inserted 78966105 1463513242
 three major groups of cells within the integrator population.
  Cells with ipsilaterally projecting axons, identified by the existence
@@ -456,10 +435,10 @@ We found one example of an ipsilaterally-projecting integrator neuron that
  This provides the first evidence that integrator neurons make synapses
  onto each other.
  
-\end_layout
-
-\begin_layout Standard
-The neuronal cell bodies in this region are organized into 
+\change_inserted 78966105 1463513318
+Finally, we interpreted the neurotransmitter identity of the cells, as 
+\change_unchanged
+organized into 
 \begin_inset Quotes eld
 \end_inset
 
@@ -467,8 +446,11 @@ stripes,
 \begin_inset Quotes erd
 \end_inset
 
- and previous studies have shown that cell body location relative to these
- stripes is correlated with neurotransmitter identity 
+ 
+\change_inserted 78966105 1463513376
+of somata, that are 
+\change_unchanged
+correlated with neurotransmitter identity 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
