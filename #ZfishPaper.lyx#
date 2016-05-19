@@ -611,7 +611,7 @@ integrator cells from the LM volume were located in the EM volume
  within
 \change_deleted 78966105 1462995107
  
-\change_inserted 78966105 1463513932
+\change_inserted 78966105 1463604767
  rhombomeres 6/7 border tilt, 7 and 8 (Fig 1D).
  This procedure revealed three clusters of cells (addressed later) in the
  imaged volume.
@@ -620,7 +620,8 @@ integrator cells from the LM volume were located in the EM volume
  Overall, we observed that cells that were nearer to each other have similar
  persistence levels with cells are caudal locations having slightly higher
  persistence levels as compared to cells at rostral locations ( Sup.
- Fig).
+ Fig.
+ 1A).
  This result is consistent with the spatial organization of integrator cells
  in the larval zebrafish revealed by optical imaging 
 \begin_inset CommandInset citation
@@ -783,10 +784,11 @@ We looked at the diameter of the somata of all 22 integrator cells.
 
  (mean ± standard deviation).
  
-\change_inserted 78966105 1463171614
+\change_inserted 78966105 1463604759
 In general, the size of the somata was proportional to the persistence level
  of the cells (Sup.
- Fig.).
+ Fig.
+ 1B).
  
 \change_unchanged
 On average 
@@ -800,28 +802,6 @@ On average
  neurites emerged from the somata, and traveled ventrally.
  Some neurites exited the imaged volume, leading to incompletely reconstructed
  cells.
-\change_inserted 78966105 1463165250
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1462996255
- On average, fully reconstructed cells had total neurite length of 
-\begin_inset Formula $832\pm269$
-\end_inset
-
- µm.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -851,9 +831,9 @@ Sup.
 
 \change_unchanged
  
-\change_inserted 78966105 1463169090
+\change_inserted 78966105 1463604750
 Fig.
- 2
+ 2A
 \change_unchanged
 ).
  
@@ -918,9 +898,9 @@ Sup.
 
 \change_unchanged
  
-\change_inserted 78966105 1463169149
+\change_inserted 78966105 1463604745
 Fig.
- 3
+ 2B
 \change_unchanged
 ).
  The darkening persisted over multiple serial sections, suggesting that
@@ -978,9 +958,9 @@ Sup.
 
 \change_unchanged
  
-\change_inserted 78966105 1461178398
+\change_inserted 78966105 1463604465
 Fig.
- 3
+ 1
 \change_unchanged
 ).
  Cells with small arbors were completely reconstructed and did not have
@@ -1091,23 +1071,9 @@ Fig
 , EM panel
 \change_unchanged
 ), so we inferred that the 
-\change_inserted 78966105 1462999493
+\change_inserted 78966105 1463520464
 axons were loosely myelinated, as compared to the thick dark myelin that
- is seen elsewhere in the volume 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1462999493
-(sup figure)
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-.
+ is seen elsewhere in the volume.
 
 \change_unchanged
  The axon of the cell in 
@@ -1168,7 +1134,7 @@ key "Petralia:2015ge"
 
 \begin_layout Standard
 
-\change_inserted 78966105 1463513988
+\change_inserted 78966105 1463604736
 Another interesting feature observed on all integrator cells was a the presence
  of a primary cilia in all the 22 integrator cells.
  This cilium, typically 
@@ -1184,23 +1150,11 @@ m, is enriched with microtubules, and emerges from the cell body very close
  In some cases, this primary cilium terminated inside processes that were
  presumed glial (Sup.
  Fig.
- 4).
+ 3A).
  Orientation of primary cilium in integrator cells did not show any orientation
- preference 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463431779
-(Sup.
+ preference (Sup.
  Fig.
- 4)
-\end_layout
-
-\end_inset
-
-.
+ 3B)
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1211,7 +1165,7 @@ Putative axons
 
 \begin_layout Standard
 
-\change_inserted 78966105 1463513992
+\change_inserted 78966105 1463604728
 We noticed that a few of the neurites that crossed the midline shared common
  features.
  First, these neurites were devoid of any postsynaptic sites.
@@ -1235,23 +1189,8 @@ key "Barresi:2005iw"
  terminals in the early part of the axon, and presynaptic sites emerged
  only later on.
  Finally, the diameter of these neurites were similar to the diameters of
- ipsilaterally projecting axons (
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463431883
-Sup.
- Fig.
- 5)
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-.
+ ipsilaterally projecting axons (Sup.
+ Fig.1C).
  We therefore infer that these neurites are contralaterally projecting axons.
  All but one cells with contralaterally projection putative axon did not
  emerge from the somata of the integrator cell.
@@ -1398,9 +1337,9 @@ Fig.
 \end_inset
 
 
-\change_inserted 78966105 1463435992
+\change_inserted 78966105 1463604839
  (Sup.
- table)
+ Table)
 \change_unchanged
  with the longest reconstructed axon being 683 µm.
  
@@ -1440,10 +1379,10 @@ Cells in this group had large dendritic arbors, with the
 group arborizong
 \change_unchanged
  over 13.3% of the total imaged volume
-\change_inserted 78966105 1461179420
+\change_inserted 78966105 1463605184
  (Sup.
  Fig.
- 4)
+ 4A,B)
 \change_unchanged
 .
  The dendritic arbors were more dense at ventral locations with peak arborizatio
@@ -1457,9 +1396,9 @@ Sup.
 
 \change_unchanged
  
-\change_inserted 78966105 1461179136
+\change_inserted 78966105 1463605119
 Fig.
- 6
+ 5A
 \change_unchanged
 ).
  
@@ -1481,9 +1420,9 @@ D
 \end_inset
 
 , ttest
-\change_inserted 78966105 1463436184
+\change_inserted 78966105 1463604832
 , Sup.
- table
+ Table
 \change_unchanged
 ).
  
@@ -1540,9 +1479,9 @@ Sup.
 
 \change_unchanged
  
-\change_inserted 78966105 1461179205
+\change_inserted 78966105 1463605147
 Fig.
- 7
+ 4D,E,F
 \change_unchanged
 ).
  
@@ -1639,7 +1578,16 @@ long and the dendrites were
 
 \change_deleted 78966105 1463479740
  
+\change_inserted 78966105 1463605405
+
 \emph default
+Cells in this group arborized over 
+\change_deleted 78966105 1463479740
+ 
+\change_inserted 78966105 1463605421
+ 4.3% of the total volume (Sup.
+ Fig.
+ 4A,B).
  
 \change_unchanged
 These neurons on average had 
@@ -1651,7 +1599,7 @@ These neurons on average had
 \end_inset
 
  presynaptic sites on the ipsilateral side
-\change_inserted 78966105 1463479869
+\change_inserted 78966105 1463605376
  (Fig.
  3B, Sup.
  Table)
@@ -1735,21 +1683,15 @@ ipsi-only group
  ipsi-contra group
 \change_unchanged
  combined (
-\change_inserted 78966105 1463481900
-Sup.
- Fig.
- 4, 
-\change_unchanged
-
 \begin_inset Formula $p<0.003$
 \end_inset
 
 , ttest).
  The average diameter of dendrites
-\change_deleted 78966105 1463481934
+\change_inserted 78966105 1463520851
  
 \change_unchanged
- significantly larger than the diameter of the axons (
+significantly larger than the diameter of the axons (
 \change_inserted 78966105 1463481900
 Fig.
 
@@ -1763,7 +1705,7 @@ B
 \end_inset
 
 , ttest)
-\change_inserted 78966105 1463483729
+\change_inserted 78966105 1463605477
 , and that diameter of the contra-only cells was significantly smaller to
  the ipsi-only group (Fig.
  3D, 
@@ -1771,6 +1713,9 @@ B
 \end_inset
 
  ttest).
+ Cells in this group arborized over 7.2% of the total volume (Sup.
+ Fig.
+ 4A,B).
 \change_unchanged
 
 \end_layout
@@ -1818,10 +1763,10 @@ m, and they occupied on average
 ~
 \change_unchanged
 4.9% of the total volume
-\change_inserted 78966105 1461179839
+\change_inserted 78966105 1463605208
  (Sup.
  Fig.
- 4)
+ 4A,B)
 \change_unchanged
 .
  These cells on average had 
@@ -1829,7 +1774,7 @@ m, and they occupied on average
 \end_inset
 
  postsynaptic sites
-\change_inserted 78966105 1463482298
+\change_inserted 78966105 1463605208
  (Fig.
  3B)
 \change_unchanged
@@ -1845,14 +1790,16 @@ Connectivity between integrator neurons
 
 \begin_layout Standard
 
-\change_inserted 78966105 1463514090
+\change_inserted 78966105 1463604994
 Although it has been hypothesized that integrator cells are connected to
  each other in a recurrent manner, based on indirect evidence, direct evidence
  has not been shown.
  Indeed, there exists overlap of the axons of the ipsilaterally projecting
- cells (Fig.
- 4A, green) with the dendrites of all other cells in the volume (Fig.
- 4A, red).
+ cells (Sup.
+ Fig.
+ 5B, green) with the dendrites of all other cells in the volume (Sup.
+ Fig.
+ 5B, red).
  More specifically, the overlap at ventro-rostral locations seems to be
  from axons of ipsi-cells onto dendrites of other ipsi-cells, where as the
  overlap at dorso-caudal locations seem to be from axons of ipsi-cells onto
@@ -1988,9 +1935,9 @@ Sup.
 
 \change_unchanged
  
-\change_inserted 78966105 1461182314
+\change_inserted 78966105 1463604948
 Fig.
- 8
+ 5C
 \change_unchanged
 ).
  
@@ -2100,12 +2047,16 @@ key "Lee:2015dv"
  factor 
 \emph on
 dbx1b 
+\emph default
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kinkhabwala:2011et"
 
 \end_inset
 
+
+\emph on
 .
 
 \emph default
@@ -2703,8 +2654,6 @@ Bottom - A single imaging plane showing cells loaded with calcium indicator
 
 (b) Spontaneous eye movement (blue) showing saccades (vertical lines) and
  
-\change_deleted 78966105 1463514190
-postsaccadic
 \change_inserted 78966105 1463514190
 post-saccadic
 \change_unchanged
@@ -2895,8 +2844,11 @@ tegrator cells have distinct axonal projection patterns.
  putative-axon – contra-only, orange background.
  Bottom right, 7, integrator cells with unknown axonal projection – unknown,
  blue background.
- On the neurites, red circles - postsynaptic sites,green circles - presynaptic
- sites.
+ On the neurites, red circles - postsynaptic sites,
+\change_inserted 78966105 1463605974
+ 
+\change_unchanged
+green circles - presynaptic sites.
  
 \begin_inset Newline newline
 \end_inset
@@ -3032,657 +2984,6 @@ Integrator cells are synaptically connected.
 \begin_inset Newpage pagebreak
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted 78966105 1463434647
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="10">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463434654
-Cell group
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463436831
-# Cells
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435304
-Total length
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463434872
-Axonal length
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463434878
-Dendritic length
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435654
-Convex hull volume
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463436805
-Axon diameters
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463436811
-Dendrite diameter
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463434661
-Ipsi.
- only
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435339
-6
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435304
-\begin_inset Formula $661.89\pm253.57$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435047
-\begin_inset Formula $269.74\pm244.41$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435182
-\begin_inset Formula $392.14\pm66.31$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435754
-\begin_inset Formula $3.04\times10^{4}$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463434666
-Ipsi-contra.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435340
-2
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435304
-\begin_inset Formula $696.59\pm200.92$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435084
-\begin_inset Formula $277.28\pm22.08$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435215
-\begin_inset Formula $419.30\pm178.84$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435808
-\begin_inset Formula $2.96\times10^{4}$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463434672
-Contra.
- only
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435341
-8
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435304
-\begin_inset Formula $358.13\pm62.76$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435098
-\begin_inset Formula $65.72\pm15.24$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435245
-\begin_inset Formula $292.41\pm69.75$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435824
-\begin_inset Formula $1.23\times10^{4}$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463434675
-unknown
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435441
-6
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $221.47\pm48.7$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435128
-\begin_inset Formula $0$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435274
-\begin_inset Formula $221.47\pm48.70$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1463435844
-\begin_inset Formula $1.13\times10^{4}$
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\change_unchanged
 
 \end_layout
 
