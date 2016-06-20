@@ -28,7 +28,7 @@
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -52,6 +52,10 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 1cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -70,17 +74,10 @@
 \begin_body
 
 \begin_layout Title
-Supplementary infromation for Vishwanathan et al.
+Supplementary information for Vishwanathan et al.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
+\begin_layout Section
 Supplementary figures
 \end_layout
 
@@ -95,6 +92,7 @@ status open
 	filename SupFigures/NewSupFig1.png
 	display false
 	scale 70
+	rotateOrigin center
 
 \end_inset
 
@@ -106,6 +104,31 @@ status open
 
 \begin_layout Plain Layout
 Supplementary figure 1
+\begin_inset Newline newline
+\end_inset
+
+(A) Pairwise difference in time constants for all integrator cells.
+ Left, Pairwise difference of time constants of integrator cells along the
+ rostro-caudal axis.
+ Rostral to the left and dorsal to the right.
+ Middle, Pairwise difference of time constants along the medio-lateral axis.
+ Right, pairwise difference of time constants along the dorso-ventral axis.
+ All values reported as mean
+\begin_inset Formula $\pm$
+\end_inset
+
+SEM
+\begin_inset Newline newline
+\end_inset
+
+(B) Persistence time vs.
+ diameter of integrator cells somata.
+\begin_inset Newline newline
+\end_inset
+
+(C) Diameter profiles along ipsi only (left) and contra only (right) integrator
+ cells.
+ 
 \end_layout
 
 \end_inset
@@ -116,6 +139,9 @@ Supplementary figure 1
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
@@ -133,6 +159,7 @@ status open
 	filename SupFigures/NewSupFig2.png
 	display false
 	scale 70
+	rotateOrigin center
 
 \end_inset
 
@@ -144,6 +171,20 @@ status open
 
 \begin_layout Plain Layout
 Supplementary figure 2
+\begin_inset Newline newline
+\end_inset
+
+(A) Types of synapses in imaged volume.
+ Closed arrows show conventional synapses and open arrows shows dense core
+ vesciles within the same bouton.
+\begin_inset Newline newline
+\end_inset
+
+(B) Successive images from putative tight junctions between cells somata.
+ Closed arrow head shows tight juction indicated by darkening of the membrane
+ in the same location in multiple sections.
+ Open arrows show the spearation of the membrane by the lack of darkening.
+ Scale bar 500nm
 \end_layout
 
 \end_inset
@@ -174,6 +215,7 @@ status open
 	filename SupFigures/NewSupFig4.png
 	display false
 	scale 70
+	rotateOrigin center
 
 \end_inset
 
@@ -185,6 +227,17 @@ status open
 
 \begin_layout Plain Layout
 Supplementary figure 3
+\begin_inset Newline newline
+\end_inset
+
+(A) Primary cilium of every integrator cell identified in the volume.
+ The primary cilium is visible in multiple sections by the presence of a
+ microtubule rich neurite ( arrow) that emerges very close to the Golgi
+ complex of the cells.
+\begin_inset Newline newline
+\end_inset
+
+(B) Orientation of the primary cilium for the four cell groups.
 \end_layout
 
 \end_inset
@@ -215,6 +268,7 @@ status open
 	filename SupFigures/NewSupFig3.png
 	display false
 	scale 70
+	rotateOrigin center
 
 \end_inset
 
@@ -226,6 +280,42 @@ status open
 
 \begin_layout Plain Layout
 Supplementary figure 4
+\begin_inset Newline newline
+\end_inset
+
+(A) Convex hull volume of dendrites of all integrator cells, color coded
+ by the cell group that they belong to.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(B) Distribution of the convex hull volume of the integrator cells.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(C) Convex hulls of all cells color coded by the group that they belong
+ to.
+\begin_inset Newline newline
+\end_inset
+
+(D) Traces of integrator cells from light microscopic dye fills,with ipislateral
+ prjecting axons that were used for comparison with EM cells.
+\begin_inset Newline newline
+\end_inset
+
+(E) Collateral path length of all EM , LM cells respectively.
+ Grey circles are for individial collaterals for each cells, and red circle
+ is the mean
+\begin_inset Formula $\pm$
+\end_inset
+
+standard deveation.
+\begin_inset Newline newline
+\end_inset
+
+(F) Number of Collaterals and pathlength of collaterals for EM and LM traces.
+ 
 \end_layout
 
 \end_inset
@@ -243,6 +333,10 @@ Supplementary figure 4
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
@@ -253,6 +347,7 @@ status open
 	filename SupFigures/NewSupFig5.png
 	display false
 	scale 70
+	rotateOrigin center
 
 \end_inset
 
@@ -264,6 +359,24 @@ status open
 
 \begin_layout Plain Layout
 Supplementary figure 5
+\begin_inset Newline newline
+\end_inset
+
+(A) Depth stratification of all cells in each group.
+ For each panel, below the trace of all cells is the stratification of the
+ dendrites (red) and axons (green) along the mediolateral axis.
+ To the right is the stratification along the dorso-ventral axis.
+ Black dotted line are the locations of the stripes from figure 4.
+\begin_inset Newline newline
+\end_inset
+
+(B) Density plot of the pre and postsynaptic sites with somata of the cells
+ indiacted by white circles.
+\begin_inset Newline newline
+\end_inset
+
+(C) Jittering of the potential synapses for all integrator cells with axons.
+ 
 \end_layout
 
 \end_inset
@@ -277,44 +390,58 @@ Supplementary figure 5
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\align center
+\begin_inset Newpage newpage
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Supplementary table
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
 wide false
-sideways true
+sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="8">
 <features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top" width="2cm">
-<column alignment="center" valignment="top" width="1cm">
-<column alignment="center" valignment="top" width="3cm">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="3cm">
-<column alignment="center" valignment="top" width="2cm">
-<column alignment="center" valignment="top" width="2cm">
-<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="middle" width="2cm">
+<column alignment="center" valignment="middle" width="1cm">
+<column alignment="center" valignment="middle" width="2.5cm">
+<column alignment="center" valignment="middle" width="2.5cm">
+<column alignment="center" valignment="middle" width="2.5cm">
+<column alignment="center" valignment="middle" width="1.75cm">
+<column alignment="center" valignment="middle" width="1.75cm">
+<column alignment="center" valignment="middle" width="1.75cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Cell 
-\begin_inset Newline newline
-\end_inset
-
-group
+Cell group
 \end_layout
 
 \end_inset
@@ -336,7 +463,11 @@ Total
 \begin_inset Newline newline
 \end_inset
 
- length
+ length (
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -345,7 +476,11 @@ Total
 \begin_inset Text
 
 \begin_layout Plain Layout
-Axonal length
+Axonal length (
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -358,7 +493,11 @@ Dendritic
 \begin_inset Newline newline
 \end_inset
 
- length
+ length (
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -370,6 +509,14 @@ Dendritic
 Convex hull volume
 \end_layout
 
+\begin_layout Plain Layout
+(
+\begin_inset Formula $\mu m^{3}$
+\end_inset
+
+)
+\end_layout
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
@@ -377,6 +524,14 @@ Convex hull volume
 
 \begin_layout Plain Layout
 Axon diameters
+\end_layout
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -388,11 +543,19 @@ Axon diameters
 Dendrite diameter
 \end_layout
 
+\begin_layout Plain Layout
+(
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -402,7 +565,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -411,7 +574,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -423,7 +586,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -435,7 +598,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -447,7 +610,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -459,7 +622,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -471,7 +634,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -485,7 +648,7 @@ Ipsi.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -494,7 +657,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -503,7 +666,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -515,7 +678,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -527,7 +690,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -539,7 +702,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -551,7 +714,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -563,7 +726,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -577,7 +740,7 @@ Ipsi-contra.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -587,7 +750,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -596,7 +759,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -608,7 +771,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -620,7 +783,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -632,7 +795,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -644,7 +807,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -656,7 +819,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -704,10 +867,7 @@ unknown
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $0$
-\end_inset
-
-
+NA
 \end_layout
 
 \end_inset
@@ -740,10 +900,7 @@ unknown
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $ $
-\end_inset
-
-
+NA
 \end_layout
 
 \end_inset
@@ -783,13 +940,13 @@ Anatomical details
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage clearpage
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Supplementary experimental procedure
 \end_layout
 
@@ -809,7 +966,13 @@ Nacre mutant zebrafish larvae, X days of age, was anesthetized in 100 or
 ature agarose (Sigma A0701-100G) in the lid of a 35mm petri dish containing
  a bed of hardened 1% agarose (Invitrogen 15510-027).
  The larva was then covered in 50 mg/L MS222.
- The larva was bulk-loaded (Brustein et al., 2003; Smetters et al., 1999)
+ The larva was bulk-loaded 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Brustein:2003ef,Smetters:1999jc"
+
+\end_inset
+
  with calcium sensitive dye Oregon Green 488 BAPTA-1 AM (5 mM, in DMSO with
  5% pluronic, Invitrogen, O-6807) by inserting a capillary through the dorsal
  skin surface over the lateral edge of the right side of the hindbrain just
