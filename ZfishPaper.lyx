@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass article
@@ -12,13 +12,13 @@
 \font_roman times
 \font_sans helvet
 \font_typewriter default
+\font_math auto
 \font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -29,15 +29,24 @@
 \use_hyperref false
 \papersize default
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
-\cite_engine natbib_authoryear
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -60,6 +69,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
 \author 187266875 "Ashwin Vishwanathan" 
 \end_header
 
@@ -663,19 +673,47 @@ Somata
 \end_layout
 
 \begin_layout Standard
-The soma locations of the 22 integrator cells ended up in three broad clusters.
+The soma locations of the 22 integrator cells ended up in three 
+\change_inserted 78966105 1466610409
+loosely observed groups
+\change_unchanged
+.
  These cells were distributed over ~23 µm in the dorsoventral axis and the
  entire rostrocaudal extent of the imaged volume.
- The first cluster of cells was located very close to the midline and at
- the rostral edge of the imaged volume, very close to the border of r6,7
- The second cluster of cells was located at the caudal end of the imaged
- volume, lateral to the first group of cells, located in r8, roughly between
- myotomes 1,2.
- A third loose cluster of cells was located at the lateral end of the volume
- in r8.
+ The first 
+\change_inserted 78966105 1466610452
+group
+\change_unchanged
+ of cells was located very close to the midline and at the rostral edge
+ of the imaged volume, very close to the border of r
+\change_inserted 78966105 1466610465
+hombomeres 
+\change_unchanged
+6,7 The second 
+\change_inserted 78966105 1466610469
+group
+\change_unchanged
+ of cells was located at the caudal end of the imaged volume, lateral to
+ the first group of cells, located in r
+\change_inserted 78966105 1466610487
+hombomere 
+\change_unchanged
+8, roughly between myotomes 1,2.
+ A third loose 
+\change_inserted 78966105 1466610496
+group
+\change_unchanged
+ of cells was located at the lateral end of the volume in r
+\change_inserted 78966105 1466610508
+hombomere 
+\change_unchanged
+8.
  (Fig.
- 1D).
- We looked at the diameter of the somata of all 22 integrator cells.
+ 1D
+\change_inserted 78966105 1466610514
+, colored circles
+\change_unchanged
+).
  The diameters of the integrator cells were normally distributed, with a
  mean of 
 \begin_inset Formula $4.5\pm0.6\:\mu m$
@@ -683,9 +721,13 @@ The soma locations of the 22 integrator cells ended up in three broad clusters.
 
  (mean ± standard deviation).
  In general, the size of the somata was proportional to the persistence
- level of the cells (Sup.
+ level of the cells
+\change_inserted 78966105 1466610612
+, with larger cells exhibiting higher degree of persistence (Sup.
  Fig.
- 1B).
+ 1B)
+\change_unchanged
+.
  On average 
 \begin_inset Formula $3.3\pm1.5$
 \end_inset
@@ -729,6 +771,15 @@ The postsynaptic densities were observed as a darkening of the membrane,
  This is an underestimate of the number of output synapses from an integrator
  neuron, because most axonal arbors were cut off by the borders of the volume.
  
+\change_inserted 78966105 1466692167
+If statistics are restricted to the 3 cells that were more complete than
+ others, there were 
+\begin_inset Formula $156\pm47.46$
+\end_inset
+
+ postsynaptic sites.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Itemize
@@ -748,15 +799,16 @@ The presynaptic site was generally at a varicosity in the axon with vesicles
 .
  This is a reasonable estimate of the number of input synapses to an integrator
  neuron, because most dendritic arbors were reconstructed in their entirety.
-\end_layout
 
-\begin_layout Standard
+\change_inserted 78966105 1466692189
+ 
+\change_unchanged
 If statistics are restricted to the 3 cells that were more complete than
- others, there were 
-\begin_inset Formula $156\pm47.46$
-\end_inset
-
- postsynaptic sites and 
+ others, there were
+\change_deleted 78966105 1466692183
+ 
+\change_unchanged
+ 
 \begin_inset Formula $97\pm38$
 \end_inset
 
@@ -1039,6 +1091,8 @@ y larger diameter as compared to the diameter of the axons (Fig.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1466692328
 The presynaptic sites on the axon were distributed in a clustered manner.
  The distribution of intersynaptic distance had a long tail with many synapses
  separated by long intervals (Fig.
@@ -1057,6 +1111,8 @@ The presynaptic sites on the axon were distributed in a clustered manner.
  to the presynapses (Fig.
  3C).
  
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1239,6 +1295,34 @@ m, and they occupied on average ~4.9% of the total volume (Sup.
 
 \begin_layout Subsection
 Synaptic distributions
+\change_inserted 78966105 1466692334
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1466705540
+For the ipsi only group of cells the presynaptic sites on the axon were
+ distributed in a clustered manner.
+ The distribution of intersynaptic distance had a long tail with many synapses
+ separated by long intervals (Fig.
+ 3C).
+ Cells in this group contained 
+\begin_inset Formula $\sim170$
+\end_inset
+
+ postsynaptic sites, and 
+\begin_inset Formula $\sim56$
+\end_inset
+
+ presynaptic sites (Fig.
+ 3B, Sup.
+ Table), with postsynapses distributed closer to the somata as compared
+ to the presynapses (Fig.
+ 3C).
+ OK
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -1792,12 +1876,13 @@ status open
 \begin_inset Graphics
 	filename NewFigure1.png
 	display false
+	scale 70
 	rotateOrigin center
 
 \end_inset
 
 
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
@@ -1809,16 +1894,49 @@ Functional and structural imaging of integrator cells.
 \begin_inset Newline newline
 \end_inset
 
-(A) (a) Top - Larval zebrafish schematic showing the region around which
+(A) (a) Top - Larval zebrafish schematic showing the region 
+\change_deleted 78966105 1466533516
+around which
+\change_inserted 78966105 1466533517
+where
+\change_unchanged
  functional imaging was performed (black box) located in the hindbrain,
- and eye-tracking.
+ 
+\change_inserted 78966105 1466533556
+along with
+\change_deleted 78966105 1466533552
+and
+\change_unchanged
+ 
+\change_inserted 78966105 1466533565
+recording of 
+\change_unchanged
+eye-tracking
+\change_inserted 78966105 1466533570
+ behavior
+\change_unchanged
+.
 \begin_inset Newline newline
 \end_inset
 
 Bottom - A single imaging plane showing cells loaded with calcium indicator
  OGB-1.
- Integrator cells identified are show in colored circles.
- Colors reflect the level of persistence of the cell.
+ 
+\change_inserted 78966105 1466533595
+Identified i
+\change_deleted 78966105 1466533595
+I
+\change_unchanged
+ntegrator cells
+\change_deleted 78966105 1466533598
+ identified
+\change_unchanged
+ are show in colored circles.
+ Colors reflect the level of persistence of the cell
+\change_inserted 78966105 1466533766
+ as in (c)
+\change_unchanged
+.
  Scale bar 
 \begin_inset Formula $20\:\mu m$
 \end_inset
@@ -1827,20 +1945,83 @@ Bottom - A single imaging plane showing cells loaded with calcium indicator
 \begin_inset Newline newline
 \end_inset
 
-(b) Spontaneous eye movement (blue) showing saccades (vertical lines) and
- post-saccadic fixations (horizontal lines).
- Ipislateral saccades are show with black arrows.
+(b) Spontaneous eye movement (
+\change_inserted 78966105 1466533651
+top, 
+\change_unchanged
+blue
+\change_inserted 78966105 1466533642
+ line
+\change_unchanged
+) showing saccades (
+\change_inserted 78966105 1466533668
+sharp 
+\change_unchanged
+vertical lines) and post-saccadic fixations (horizontal lines).
+ Ipislateral saccades are 
+\change_inserted 78966105 1466533711
+indicated by
+\change_deleted 78966105 1466533705
+show with
+\change_unchanged
+ black arrows.
  Colored traces are the changes in fluoresence from individual cells from
+\change_inserted 78966105 1466533732
+ imaging plane in
+\change_unchanged
  (a).
- Color coding reprensent the persistance level of the cell.
+ Color coding reprensent the 
+\change_inserted 78966105 1466533745
+normalized 
+\change_unchanged
+persistance level of the cell
+\change_inserted 78966105 1466533763
+ (c)
+\change_unchanged
+.
  
 \begin_inset Newline newline
 \end_inset
 
- (c) Normalized fluorescence response following saccades.
- Thick line shows the normal, with shaded region showing the SEM.
- Numbers, are the avareages of the normalized fluoresence responses, a measure
- of persistence of the cell.
+
+\change_deleted 78966105 1466533757
+ 
+\change_unchanged
+(c) Normalized fluorescence response following saccades.
+ Thick line shows the 
+\change_deleted 78966105 1466533795
+normal
+\change_inserted 78966105 1466533797
+average
+\change_unchanged
+, with shaded region showing the SEM.
+ 
+\change_inserted 78966105 1466533817
+Colored n
+\change_deleted 78966105 1466533817
+N
+\change_unchanged
+umbers, 
+\change_inserted 78966105 1466533838
+is
+\change_deleted 78966105 1466533837
+are
+\change_unchanged
+ the avareag
+\change_inserted 78966105 1466533833
+e under the curve
+\change_deleted 78966105 1466533826
+es
+\change_unchanged
+ of the normalized fluoresence responses
+\change_inserted 78966105 1466533855
+ which indicates
+\change_deleted 78966105 1466533866
+, a measure of 
+\change_inserted 78966105 1466533868
+the 
+\change_unchanged
+persistence of the cell.
  
 \begin_inset Newline newline
 \end_inset
@@ -1864,10 +2045,35 @@ Bottom - A single imaging plane showing cells loaded with calcium indicator
 \begin_inset Newline newline
 \end_inset
 
-(D)Anatomical location of all integrator cells (circles) involved in the
- behavior along with anatomical landmarks, Mauthner cell, Mi2, Mi3 and Ca
- as identified in the EM volume (stars).
+(D)
+\change_inserted 78966105 1466534002
+ Single EM plane showing anatomical landmarks, Mauthner cell, Mi2, Mi3 and
+ Ca (colored stars).
+ 
+\change_unchanged
+Anatomical location of all integrator cells (
+\change_inserted 78966105 1466533950
+colored 
+\change_unchanged
+circles) 
+\change_deleted 78966105 1466533903
+involved
+\change_inserted 78966105 1466533950
+identified
+\change_unchanged
+ in the behavior
+\change_inserted 78966105 1466534054
+ and all remianing somata in the imaged EM volume ( '+' symbol).
+
+\change_unchanged
  Colors of the cells correspond to the persistence level of the cell.
+
+\change_inserted 78966105 1466534073
+ Lower panel is a distribution of all cells with integrator cells overlaid.
+ Dotted line correspond with hindbrain stripes with known neurotransmitter
+ identities.
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -1900,7 +2106,7 @@ status open
 \end_inset
 
 
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
@@ -1987,7 +2193,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 In
@@ -2063,7 +2269,7 @@ status open
 \end_inset
 
 
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
@@ -2108,9 +2314,13 @@ Integrator cells are synaptically connected.
 (C) Electron micrograph overlaid with all somata in volume (+ shape) and
  identified integrator cells (colored circles), and anatomical landmarks
  (colored stars).
+
+\change_deleted 78966105 1466534065
  Lower panel is a distribution of all cells with integrator cells overlaid.
  Dotted line correspond with hindbrain stripes with known neurotransmitter
  identities.
+\change_unchanged
+
 \end_layout
 
 \end_inset
