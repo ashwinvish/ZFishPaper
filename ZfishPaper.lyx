@@ -1075,7 +1075,13 @@ Dendrites emerged laterally from somata and always extended ventrally.
  Cells in this group had large dendritic arbors, with the dendrites in thisgroup
  arborizong over 13.3% of the total imaged volume (Sup.
  Fig.
- 4A,B).
+ 
+\change_inserted 78966105 1466803714
+3 
+\change_deleted 78966105 1466803703
+4
+\change_unchanged
+A,B).
  We also found the average dendrite for cells in this group to have significantl
 y larger diameter as compared to the diameter of the axons (Fig.
  3D, 
@@ -1092,12 +1098,10 @@ y larger diameter as compared to the diameter of the axons (Fig.
 
 \begin_layout Standard
 
-\change_deleted 78966105 1466692328
-The presynaptic sites on the axon were distributed in a clustered manner.
- The distribution of intersynaptic distance had a long tail with many synapses
- separated by long intervals (Fig.
- 3C).
- Cells in this group contained 
+\change_deleted 78966105 1466709559
+ 
+\change_unchanged
+Cells in this group contained 
 \begin_inset Formula $\sim170$
 \end_inset
 
@@ -1105,14 +1109,14 @@ The presynaptic sites on the axon were distributed in a clustered manner.
 \begin_inset Formula $\sim56$
 \end_inset
 
- presynaptic sites (Fig.
+ presynaptic sites
+\change_inserted 78966105 1466709605
+ (Fig.
  3B, Sup.
- Table), with postsynapses distributed closer to the somata as compared
- to the presynapses (Fig.
- 3C).
- 
-\change_unchanged
+ Table).
 
+\change_unchanged
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1168,7 +1172,13 @@ long and the dendrites were
 \emph default
  Cells in this group arborized over 4.3% of the total volume (Sup.
  Fig.
- 4A,B).
+ 
+\change_inserted 78966105 1466803712
+3 
+\change_deleted 78966105 1466803711
+4
+\change_unchanged
+A,B).
  These neurons on average had 
 \begin_inset Formula $\sim125$
 \end_inset
@@ -1245,7 +1255,13 @@ The average dendritic length was
  ttest).
  Cells in this group arborized over 7.2% of the total volume (Sup.
  Fig.
- 4A,B).
+ 
+\change_inserted 78966105 1466803729
+3 
+\change_deleted 78966105 1466803722
+4
+\change_unchanged
+A,B).
  These cells on average received 
 \begin_inset Formula $\sim85$
 \end_inset
@@ -1283,7 +1299,13 @@ unknown
 
 m, and they occupied on average ~4.9% of the total volume (Sup.
  Fig.
- 4A,B).
+ 
+\change_inserted 78966105 1466803727
+3 
+\change_deleted 78966105 1466803727
+4
+\change_unchanged
+A,B).
  These cells on average had 
 \begin_inset Formula $\sim40$
 \end_inset
@@ -1301,28 +1323,8 @@ Synaptic distributions
 
 \begin_layout Standard
 
-\change_inserted 78966105 1466705540
-For the ipsi only group of cells the presynaptic sites on the axon were
- distributed in a clustered manner.
- The distribution of intersynaptic distance had a long tail with many synapses
- separated by long intervals (Fig.
- 3C).
- Cells in this group contained 
-\begin_inset Formula $\sim170$
-\end_inset
-
- postsynaptic sites, and 
-\begin_inset Formula $\sim56$
-\end_inset
-
- presynaptic sites (Fig.
- 3B, Sup.
- Table), with postsynapses distributed closer to the somata as compared
- to the presynapses (Fig.
- 3C).
- OK
-\change_unchanged
-
+\change_inserted 78966105 1466717031
+something from figure3C.
 \end_layout
 
 \begin_layout Subsection
