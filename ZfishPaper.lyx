@@ -1301,7 +1301,7 @@ Synaptic distributions
 
 \begin_layout Standard
 
-\change_inserted 78966105 1467128442
+\change_inserted 78966105 1467135568
 On average, cells from these four groups had approximately 
 \begin_inset Formula $\sim170,125,85$
 \end_inset
@@ -1311,8 +1311,8 @@ and
 \end_inset
 
  postsynaptic (inputs) sites respectively (Fig.
- 3C, red), and, the axons from the `ipsi' and `ipsi-contra' groups had approxima
-tely 
+ 3C, top, red), and, the axons from the `ipsi' and `ipsi-contra' groups
+ had approximately 
 \begin_inset Formula $\sim56$
 \end_inset
 
@@ -1321,7 +1321,7 @@ tely
 \end_inset
 
  persynaptic (output) sites (Fig.
- 3C, green).
+ 3C, top, green).
  The number of postsynaptic sites on the `ipsi' group of cells was significantly
  more than the number of synapses on the `contra' group of cells (
 \begin_inset Formula $p=0.008,$
@@ -1339,13 +1339,13 @@ ic sites to have distributions that were statistically weak (
 , kstest).
  However the distributions of the postsynaptic sites on each of the four
  groups was statistically very strong ( Fig.
- 3C distributions, Sup.
+ 3C, botttom, distributions, Sup.
  table, P values).
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted 78966105 1467129705
+\change_inserted 78966105 1467135610
 We further computed the synaptic density, the number of synapses per unit
  length for all cells, with the assumption that the synapses within each
  group were uniformly distributed along dendrites.
@@ -1365,7 +1365,7 @@ We further computed the synaptic density, the number of synapses per unit
 \end_inset
 
  postsynaptic sites (inputs) every micron (Fig.
- 3D, 
+ 3D, top, 
 \begin_inset Formula $p=0.059,$
 \end_inset
 
@@ -1382,7 +1382,10 @@ We further computed the synaptic density, the number of synapses per unit
 \begin_inset Formula $1.2\pm1.6\mu m$
 \end_inset
 
-.
+ (Fig.
+ 3D, bottom, P values from Wilcoxon-rank test).
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -1423,11 +1426,28 @@ The dendrites arbors of the cells in these two groups displayed an inversion
 
 µm ventral its somata (Fig.
  4B, bottom).
- Interestingly, the dendrites of the cells in the ipsi group projected arbors
- that overlapped with cells along the medial and lateral most peaks.
- Whereas the cells in the contra group had arbors that overlapped with cells
- along the intermediate peak of cells.
+ Interestingly,
+\change_inserted 78966105 1467135913
+ when the peak locations of all cell somata in the imaged volume is overlaid
+ with the stratification profiles of the dendrites, we see that the
+\change_deleted 78966105 1467136124
  
+\change_unchanged
+ dendrites
+\change_inserted 78966105 1467135981
+ and axons
+\change_unchanged
+ of the ipsi group projected arbors that overlapped with cells along the
+ medial and lateral most peaks
+\change_deleted 78966105 1467135986
+.
+ 
+\change_inserted 78966105 1467136099
+Whereas the dendrites of the contra group were located very close the intermedia
+te peak of somata.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -1532,20 +1552,113 @@ key "Stepanyants:2005cs"
 
 \begin_layout Section
 Discussion
+\change_inserted 78966105 1467136437
+
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 78966105 1467142887
+Here we detailed an approach where we recorded from cells in the larval
+ zebrafish that were encoding for a behavioral variable, in this case eye-positi
+on, followed by registering the light microscopic images to an electron
+ microscopic volume to locate the same cells.
+ We were able to reconstruct 22 integrator cells for whcih we had both function
+ and structure.
+ This procedure revealed the existance of distinct groups of cells that
+ make up the ipsiliateral integrator circuit.
+ By inferring the neurotransmitter identity of the cells, we show that there
+ are at least two distinct groups of cells in the integrator circuit.
+ An excitatory, ipsiliaterally projecting population and an inhibitory contralat
+erally projecting polulation.
+ We also find evidence for a third, new, ipsilateral and contralaterlly
+ projecting polulation.
+ Finally we provide the first conclusive evidence for synapses between integrato
+r neurons.
+ This high-throughput approach can be extented to multiple cells in the
+ same animal, to provide rich functional and structural information from
+ multiple cells to understand neural circuits in organisms.
+ 
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1467136433
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1467137345
 Our work provides the first conclusive evidence for synapses between integrator
  neurons.
  This has long been suspected but experimental confirmation has eluded researche
 rs for decades.
  The synapses were from one ipsilaterally projecting cells onto other ipsilatera
 l and contralaterally projecting cells.
- It has long been theorized that positive feedback could be a mechanism
- that can explain long persistent time scales of neuronal activity.
- Here the evidence suggests that indeed, positive feedback between ipsilaterally
- projecting integrator neurons, that are potentially excitatory, are involved
- in the integrator circuit.
+ 
+\change_unchanged
+It has long been theorized that positive feedback could be a mechanism that
+ can explain long persistent time scales of neuronal activity.
+ 
+\change_inserted 78966105 1467145195
+Here we present evidence that the 'ipsi' group of cells in this study is
+ a strong candidate that can setup positive feedback.
+ The somata of almost all the neurons in the ipsi group lie within close
+ to the medial most peak of cell somata, making them most likely excitatory.
+ The axons and dendrites of these cells display a planar organization.
+ The majority of its input synapses lie along a plane approximately normal
+ to the rostro-caudal axis.
+ This suggests that these cells are setup to broadly sample from axon that
+ traverse the RC axis.
+ This fact is also evident in the projection pattern of the axons from this
+ group of cells.
+ Its axons travel along the RC axis, and its output synapses lie along a
+ plane approximately normal to its dendrites (Sup.
+ Fig).
+ Finally, we also observed chemical synapses from one ipsilataterally projecting
+ integrator cell onto another ipsilaterally projecting integrator cell.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1467145111
+All these fact point to the ipsi group of cells as the
+\end_layout
+
+\begin_layout Standard
+Here 
+\change_deleted 78966105 1467142939
+the
+\change_inserted 78966105 1467142943
+we present
+\change_unchanged
+ evidence 
+\change_inserted 78966105 1467143072
+that 
+\change_unchanged
+suggests that 
+\change_deleted 78966105 1467142956
+indeed,
+\change_unchanged
+ positive feedback 
+\change_inserted 78966105 1467143092
+does exist 
+\change_unchanged
+between 
+\change_inserted 78966105 1467143041
+integrator neurons by synaptic communication between 
+\change_unchanged
+ipsilaterally projecting 
+\change_deleted 78966105 1467142987
+integrator neurons
+\change_inserted 78966105 1467142989
+axons
+\change_unchanged
+, that are potentially excitatory, are involved in the integrator circuit.
  Another possible mechanism by which positive feedback can be established,
  is by mutual inhibition.
  The reconstructed contralaterally projecting integrator neurons that are
@@ -1560,6 +1673,13 @@ key "Lee:2015dv"
 \end_inset
 
 .
+
+\change_inserted 78966105 1467136112
+ the axons of the ipsi cells had almost no arbors that corresponded with
+ the dendrites of the contra group, suggesting that these populations of
+ cells do not communicate.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard

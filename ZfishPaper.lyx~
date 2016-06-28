@@ -1301,7 +1301,7 @@ Synaptic distributions
 
 \begin_layout Standard
 
-\change_inserted 78966105 1467128442
+\change_inserted 78966105 1467135568
 On average, cells from these four groups had approximately 
 \begin_inset Formula $\sim170,125,85$
 \end_inset
@@ -1311,8 +1311,8 @@ and
 \end_inset
 
  postsynaptic (inputs) sites respectively (Fig.
- 3C, red), and, the axons from the `ipsi' and `ipsi-contra' groups had approxima
-tely 
+ 3C, top, red), and, the axons from the `ipsi' and `ipsi-contra' groups
+ had approximately 
 \begin_inset Formula $\sim56$
 \end_inset
 
@@ -1321,7 +1321,7 @@ tely
 \end_inset
 
  persynaptic (output) sites (Fig.
- 3C, green).
+ 3C, top, green).
  The number of postsynaptic sites on the `ipsi' group of cells was significantly
  more than the number of synapses on the `contra' group of cells (
 \begin_inset Formula $p=0.008,$
@@ -1339,13 +1339,13 @@ ic sites to have distributions that were statistically weak (
 , kstest).
  However the distributions of the postsynaptic sites on each of the four
  groups was statistically very strong ( Fig.
- 3C distributions, Sup.
+ 3C, botttom, distributions, Sup.
  table, P values).
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted 78966105 1467128755
+\change_inserted 78966105 1467135610
 We further computed the synaptic density, the number of synapses per unit
  length for all cells, with the assumption that the synapses within each
  group were uniformly distributed along dendrites.
@@ -1365,7 +1365,7 @@ We further computed the synaptic density, the number of synapses per unit
 \end_inset
 
  postsynaptic sites (inputs) every micron (Fig.
- 3D, 
+ 3D, top, 
 \begin_inset Formula $p=0.059,$
 \end_inset
 
@@ -1373,7 +1373,19 @@ We further computed the synaptic density, the number of synapses per unit
  These differences in synaptic densities is not due to differences in lengths
  of the dendrites, but reflects actual differences in the underlying location
  of postsynaptic sites along the dendrites.
- 
+ Emperically the average intersynaptic distance for the `ipsi' and `contra'
+ groups of cells are 
+\begin_inset Formula $1\pm2.3\mu m$
+\end_inset
+
+ and 
+\begin_inset Formula $1.2\pm1.6\mu m$
+\end_inset
+
+ (Fig.
+ 3D, bottom, P values from Wilcoxon-rank test).
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -1414,11 +1426,28 @@ The dendrites arbors of the cells in these two groups displayed an inversion
 
 µm ventral its somata (Fig.
  4B, bottom).
- Interestingly, the dendrites of the cells in the ipsi group projected arbors
- that overlapped with cells along the medial and lateral most peaks.
- Whereas the cells in the contra group had arbors that overlapped with cells
- along the intermediate peak of cells.
+ Interestingly,
+\change_inserted 78966105 1467135913
+ when the peak locations of all cell somata in the imaged volume is overlaid
+ with the stratification profiles of the dendrites, we see that the
+\change_deleted 78966105 1467136124
  
+\change_unchanged
+ dendrites
+\change_inserted 78966105 1467135981
+ and axons
+\change_unchanged
+ of the ipsi group projected arbors that overlapped with cells along the
+ medial and lateral most peaks
+\change_deleted 78966105 1467135986
+.
+ 
+\change_inserted 78966105 1467136099
+Whereas the dendrites of the contra group were located very close the intermedia
+te peak of somata.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -1523,6 +1552,41 @@ key "Stepanyants:2005cs"
 
 \begin_layout Section
 Discussion
+\change_inserted 78966105 1467136437
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1467137305
+We detailed an approach where we recorded from cells in the larval zebrafish
+ that were encoding for a behavioral variable, in this case eye-position,
+ followed by registering the light microscopic images to an electron microscopic
+ volume to locate the same cells.
+ We were able to reconstruct 22 integrator cells for whcih we had both functiona
+ and structure.This procedue revealed the existance of distinct groups of
+ cells that make up the ipsiliateral integrator circuit.
+ By inferring the neurotransmitter identity of the cells, we show that there
+ are at least two distinct groups of cells necessary for the integrator
+ circuit.
+ An excitatory, ipsiliaterally projecting popiulation and an inhibitory
+ contralaterally projecting polulation.
+ We also find evidence for a third, new ipsilateral and contralaterlly projectin
+g polulation.
+ Finally we provide the first conclusive evidence for synapses between integrato
+r neurons.
+ This high-throughput approach, can be extented to multiple cells in the
+ same animal, to provide rich functional and structural information from
+ multiple cells to understand neural circuits in organisms.
+ 
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1467136433
+
 \end_layout
 
 \begin_layout Standard
@@ -1551,6 +1615,13 @@ key "Lee:2015dv"
 \end_inset
 
 .
+
+\change_inserted 78966105 1467136112
+ the axons of the ipsi cells had almost no arbors that corresponded with
+ the dendrites of the contra group, suggesting that these populations of
+ cells do not communicate.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
