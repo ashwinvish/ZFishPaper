@@ -1028,7 +1028,11 @@ ipsi-only
 ) 
 \emph default
 \bar default
-- Six cells were observed to have only ipsilaterally projecting axons (Fig.
+- Six cells
+\change_inserted 78966105 1467056630
+ located at the rostral edge of the volume,
+\change_unchanged
+ were observed to have only ipsilaterally projecting axons (Fig.
  3A).
  Two representatives are shown in Figs.
  2A and B.
@@ -1075,16 +1079,26 @@ Dendrites emerged laterally from somata and always extended ventrally.
  Cells in this group had large dendritic arbors, with the dendrites in thisgroup
  arborizong over 13.3% of the total imaged volume (Sup.
  Fig.
+
+\change_deleted 78966105 1467056977
  
 \change_inserted 78966105 1466803714
-3 
-\change_deleted 78966105 1466803703
-4
+ 
 \change_unchanged
-A,B).
+4A,B
+\change_inserted 78966105 1467056680
+,C
+\change_unchanged
+).
  We also found the average dendrite for cells in this group to have significantl
 y larger diameter as compared to the diameter of the axons (Fig.
- 3D, 
+ 3
+\change_inserted 78966105 1467128377
+B
+\change_deleted 78966105 1467128376
+D
+\change_unchanged
+, 
 \begin_inset Formula $p<2\times10^{-3}$
 \end_inset
 
@@ -1094,29 +1108,6 @@ y larger diameter as compared to the diameter of the axons (Fig.
  by the presence of postsynaptic sites (Fig.
  3A, Ipsi.
  only, arrowhead).
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 78966105 1466709559
- 
-\change_unchanged
-Cells in this group contained 
-\begin_inset Formula $\sim170$
-\end_inset
-
- postsynaptic sites, and 
-\begin_inset Formula $\sim56$
-\end_inset
-
- presynaptic sites
-\change_inserted 78966105 1466709605
- (Fig.
- 3B, Sup.
- Table).
-
-\change_unchanged
- 
 \end_layout
 
 \begin_layout Standard
@@ -1172,24 +1163,12 @@ long and the dendrites were
 \emph default
  Cells in this group arborized over 4.3% of the total volume (Sup.
  Fig.
- 
-\change_inserted 78966105 1466803712
-3 
-\change_deleted 78966105 1466803711
-4
+ 4A,B
+\change_inserted 78966105 1467056718
+,C
 \change_unchanged
-A,B).
- These neurons on average had 
-\begin_inset Formula $\sim125$
-\end_inset
-
- postsynaptic sites, and 
-\begin_inset Formula $\sim30$
-\end_inset
-
- presynaptic sites on the ipsilateral side (Fig.
- 3B, Sup.
- Table).
+).
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1207,9 +1186,8 @@ contra-only
 )
 \emph default
 \bar default
- - Eight cells from this group, located at the caudal most extent of the
- imaged volume, contained exclusively contralaterally projecting putative
- axons (Fig.
+ - Eight cells located at the caudal most extent of the imaged volume, contained
+ exclusively contralaterally projecting putative axons (Fig.
  3A, contra only).
  Like the axons in the ipsi-only group, the putative contralateral axons
  did not emerge as axons, but started as a neurite with postsynaptic sites,
@@ -1248,27 +1226,31 @@ The average dendritic length was
 
 , ttest), and that diameter of the contra-only cells was significantly smaller
  to the ipsi-only group (Fig.
- 3D, 
+ 3
+\change_inserted 78966105 1467128385
+B
+\change_deleted 78966105 1467128385
+D
+\change_unchanged
+, 
 \begin_inset Formula $p<0.005,$
 \end_inset
 
  ttest).
  Cells in this group arborized over 7.2% of the total volume (Sup.
  Fig.
+
+\change_deleted 78966105 1467056963
  
 \change_inserted 78966105 1466803729
-3 
-\change_deleted 78966105 1466803722
-4
+ 
 \change_unchanged
-A,B).
- These cells on average received 
-\begin_inset Formula $\sim85$
-\end_inset
-
- postsynapses, almost one half the number of synapses in the ipsi-only group
- (Fig.
- 3B).
+4A,B
+\change_inserted 78966105 1467056675
+,C
+\change_unchanged
+).
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1299,32 +1281,108 @@ unknown
 
 m, and they occupied on average ~4.9% of the total volume (Sup.
  Fig.
- 
-\change_inserted 78966105 1466803727
-3 
-\change_deleted 78966105 1466803727
-4
+ 4A,B
+\change_inserted 78966105 1467056727
+,C
 \change_unchanged
-A,B).
- These cells on average had 
-\begin_inset Formula $\sim40$
-\end_inset
-
- postsynaptic sites (Fig.
- 3B).
+).
  
 \end_layout
 
 \begin_layout Subsection
+
+\change_inserted 78966105 1467126129
+Numbers anddistribution of synapses 
+\change_deleted 78966105 1467126127
 Synaptic distributions
-\change_inserted 78966105 1466692334
+\change_inserted 78966105 1467126100
 
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted 78966105 1466717031
-something from figure3C.
+\change_inserted 78966105 1467128442
+On average, cells from these four groups had approximately 
+\begin_inset Formula $\sim170,125,85$
+\end_inset
+
+and 
+\begin_inset Formula $40$
+\end_inset
+
+ postsynaptic (inputs) sites respectively (Fig.
+ 3C, red), and, the axons from the `ipsi' and `ipsi-contra' groups had approxima
+tely 
+\begin_inset Formula $\sim56$
+\end_inset
+
+ and 
+\begin_inset Formula $\sim30$
+\end_inset
+
+ persynaptic (output) sites (Fig.
+ 3C, green).
+ The number of postsynaptic sites on the `ipsi' group of cells was significantly
+ more than the number of synapses on the `contra' group of cells (
+\begin_inset Formula $p=0.008,$
+\end_inset
+
+Wilcoxon-rank test).
+ We then computed the pathlengths of each synaptic location form the somta
+ to determine if there were differences in the distributions of the synaptic
+ locations for each of the groups.
+ The ipsilateral axon form the `ipsi' and `ipsi-contra' group revealed presynapt
+ic sites to have distributions that were statistically weak (
+\begin_inset Formula $p=0.01$
+\end_inset
+
+, kstest).
+ However the distributions of the postsynaptic sites on each of the four
+ groups was statistically very strong ( Fig.
+ 3C distributions, Sup.
+ table, P values).
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1467129705
+We further computed the synaptic density, the number of synapses per unit
+ length for all cells, with the assumption that the synapses within each
+ group were uniformly distributed along dendrites.
+ The uniformity assumption was made because the distributions of the locations
+ of postsynapses was found to closely match the location of dendritic arbors
+ (Sup.
+ Fig.
+ 5A).
+ We found that the average the ipsi.
+ group of cells had 
+\begin_inset Formula $2.6\pm1.2$
+\end_inset
+
+ postsynaptic sites (inputs) every micron, where as the `contra' group of
+ cells had 
+\begin_inset Formula $3.6\pm0.7$
+\end_inset
+
+ postsynaptic sites (inputs) every micron (Fig.
+ 3D, 
+\begin_inset Formula $p=0.059,$
+\end_inset
+
+ Wilcoxon-rank test).
+ These differences in synaptic densities is not due to differences in lengths
+ of the dendrites, but reflects actual differences in the underlying location
+ of postsynaptic sites along the dendrites.
+ Emperically the average intersynaptic distance for the `ipsi' and `contra'
+ groups of cells are 
+\begin_inset Formula $1\pm2.3\mu m$
+\end_inset
+
+ and 
+\begin_inset Formula $1.2\pm1.6\mu m$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
