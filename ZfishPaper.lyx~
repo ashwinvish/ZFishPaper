@@ -184,10 +184,19 @@ Neural integrators are involved in a variety of sensorimotor and cognitive
 smitter identity, we infer that cells with only ipsilaterally projecting
  axons are largely glutamatergic and excitatory, whereas cells with only
  contralaterally projecting axons are largely GABAergic and inhibitory.
- We observed the first conclusive evidence of synapses between integrator
- neurons, from an ipsilaterally projecting cell onto other cells.
- These results support the idea of integration through positive feedbackby
- recurrent excitation.
+ 
+\change_inserted 78966105 1467212575
+Dendritic and synaptic organization of the ipsilaterally projecting cells
+ suggest a broad sampling from inputs on the ipsilateral side.
+ Finally, we 
+\change_unchanged
+observed the first conclusive evidence of synapses between integrator neurons,
+ from an ipsilaterally projecting cell onto other cells.
+ These results support the idea of integration through positive feedback
+\change_inserted 78966105 1467212592
+ 
+\change_unchanged
+by recurrent excitation.
  
 \end_layout
 
@@ -311,7 +320,12 @@ key "Major:2004dk,Joshua:2015kx"
 
 \end_inset
 
-.Previous attempts to understand how the integrator transforms a 'pulse'
+.
+
+\change_inserted 78966105 1467212612
+ 
+\change_unchanged
+Previous attempts to understand how the integrator transforms a 'pulse'
  like input to a 'step' like output have relied on combining single-cell
  electrophysiology with light-microscopic dye fills.
  Intracellular recording
@@ -1558,24 +1572,24 @@ Discussion
 
 \begin_layout Standard
 
-\change_inserted 78966105 1467137305
-We detailed an approach where we recorded from cells in the larval zebrafish
- that were encoding for a behavioral variable, in this case eye-position,
- followed by registering the light microscopic images to an electron microscopic
- volume to locate the same cells.
- We were able to reconstruct 22 integrator cells for whcih we had both functiona
- and structure.This procedue revealed the existance of distinct groups of
- cells that make up the ipsiliateral integrator circuit.
+\change_inserted 78966105 1467142887
+Here we detailed an approach where we recorded from cells in the larval
+ zebrafish that were encoding for a behavioral variable, in this case eye-positi
+on, followed by registering the light microscopic images to an electron
+ microscopic volume to locate the same cells.
+ We were able to reconstruct 22 integrator cells for whcih we had both function
+ and structure.
+ This procedure revealed the existance of distinct groups of cells that
+ make up the ipsiliateral integrator circuit.
  By inferring the neurotransmitter identity of the cells, we show that there
- are at least two distinct groups of cells necessary for the integrator
- circuit.
- An excitatory, ipsiliaterally projecting popiulation and an inhibitory
- contralaterally projecting polulation.
- We also find evidence for a third, new ipsilateral and contralaterlly projectin
-g polulation.
+ are at least two distinct groups of cells in the integrator circuit.
+ An excitatory, ipsiliaterally projecting population and an inhibitory contralat
+erally projecting polulation.
+ We also find evidence for a third, new, ipsilateral and contralaterlly
+ projecting polulation.
  Finally we provide the first conclusive evidence for synapses between integrato
 r neurons.
- This high-throughput approach, can be extented to multiple cells in the
+ This high-throughput approach can be extented to multiple cells in the
  same animal, to provide rich functional and structural information from
  multiple cells to understand neural circuits in organisms.
  
@@ -1584,27 +1598,49 @@ r neurons.
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1467136433
-
+It has long been theorized that positive feedback could be a mechanism that
+ can explain long persistent time scales of neuronal activity.
+ 
+\change_inserted 78966105 1467213116
+Here we present evidence that the 'ipsi' group of cells in this study is
+ a strong candidate that can setup positive feedback.
+ The somata of almost all the neurons in the ipsi group lie within close
+ to the medial most peak of cell somata, making them most likely excitatory.
+ The axons and dendrites of these cells display a planar organization.
+ The majority of its input synapses lie along a plane approximately normal
+ to the rostro-caudal axis.
+ This suggests that these cells are setup to broadly sample from axon that
+ traverse the RC axis.
+ This fact is also evident in the projection pattern of the axons from this
+ group of cells.
+ Its axons travel along the RC axis, and its output synapses lie along a
+ plane approximately normal to its dendrites (Sup.
+ Fig).
+ Finally, we also observed conclusive chemical synapses from one ipsilataterally
+ projecting integrator cell onto another ipsilaterally projecting integrator
+ cell.
+ These facts point to the ipsi group of cells as the most likely candidate
+ for establishing positive feedback in the integrator circuit.
+ 
 \end_layout
 
 \begin_layout Standard
-Our work provides the first conclusive evidence for synapses between integrator
- neurons.
- This has long been suspected but experimental confirmation has eluded researche
-rs for decades.
- The synapses were from one ipsilaterally projecting cells onto other ipsilatera
-l and contralaterally projecting cells.
- It has long been theorized that positive feedback could be a mechanism
- that can explain long persistent time scales of neuronal activity.
- Here the evidence suggests that indeed, positive feedback between ipsilaterally
- projecting integrator neurons, that are potentially excitatory, are involved
- in the integrator circuit.
- Another possible mechanism by which positive feedback can be established,
- is by mutual inhibition.
- The reconstructed contralaterally projecting integrator neurons that are
- potentially inhibitory, fit the idea of such a population.
+
+\change_inserted 78966105 1467215472
+The second major class of cells that we reconstructed were the contralatarally
+ projecting population of cells.
+ In the gold fish oculomotor integrator, contralaterally projecting cells
+ are thought to be involved in coordinating activity between the two sides,
+ and that each side acts as an indepented integrator 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Aksay:2007cv,debowy_encoding_2011"
+
+\end_inset
+
+.
+
+\change_unchanged
  Evidence from light microscopic images of contralaterally projecting cells
  shows axon like projections that terminate close to the opposing population
  of inhibitory integrator neurons 
@@ -1616,10 +1652,20 @@ key "Lee:2015dv"
 
 .
 
-\change_inserted 78966105 1467136112
- the axons of the ipsi cells had almost no arbors that corresponded with
- the dendrites of the contra group, suggesting that these populations of
- cells do not communicate.
+\change_inserted 78966105 1467216882
+ In our study, the contralaterally projecting neurons were located in a
+ loose group at the caudal extent of the imaged volume.
+ The somatic location of these neurons correspond very closely to the intermedia
+te peak of somata, that are largely GABAergic.
+ The dendrities of these neurons arborized over a smaller area, and were
+ stratified more dorsally as compared to the ipsi cells.
+ Although, we observed chemical synapses from one ipsilateral neurosn onto
+ two conrtalateral nerons, the planar organization of all the postsynapses
+ (inputs) onto these cells was orthogonal to the inputs on the ipsilateral
+ neurons.
+ This suggests that theses cells sample narrowly form axons along the RC
+ axis and that infact the they are two independent populations of neurons.
+ 
 \change_unchanged
 
 \end_layout

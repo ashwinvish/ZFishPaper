@@ -184,10 +184,19 @@ Neural integrators are involved in a variety of sensorimotor and cognitive
 smitter identity, we infer that cells with only ipsilaterally projecting
  axons are largely glutamatergic and excitatory, whereas cells with only
  contralaterally projecting axons are largely GABAergic and inhibitory.
- We observed the first conclusive evidence of synapses between integrator
- neurons, from an ipsilaterally projecting cell onto other cells.
- These results support the idea of integration through positive feedbackby
- recurrent excitation.
+ 
+\change_inserted 78966105 1467212575
+Dendritic and synaptic organization of the ipsilaterally projecting cells
+ suggest a broad sampling from inputs on the ipsilateral side.
+ Finally, we 
+\change_unchanged
+observed the first conclusive evidence of synapses between integrator neurons,
+ from an ipsilaterally projecting cell onto other cells.
+ These results support the idea of integration through positive feedback
+\change_inserted 78966105 1467212592
+ 
+\change_unchanged
+by recurrent excitation.
  
 \end_layout
 
@@ -311,7 +320,12 @@ key "Major:2004dk,Joshua:2015kx"
 
 \end_inset
 
-.Previous attempts to understand how the integrator transforms a 'pulse'
+.
+
+\change_inserted 78966105 1467212612
+ 
+\change_unchanged
+Previous attempts to understand how the integrator transforms a 'pulse'
  like input to a 'step' like output have relied on combining single-cell
  electrophysiology with light-microscopic dye fills.
  Intracellular recording
@@ -1584,28 +1598,13 @@ r neurons.
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1467136433
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 78966105 1467137345
-Our work provides the first conclusive evidence for synapses between integrator
- neurons.
- This has long been suspected but experimental confirmation has eluded researche
-rs for decades.
- The synapses were from one ipsilaterally projecting cells onto other ipsilatera
-l and contralaterally projecting cells.
- 
-\change_unchanged
 It has long been theorized that positive feedback could be a mechanism that
  can explain long persistent time scales of neuronal activity.
  
-\change_inserted 78966105 1467145195
+\change_inserted 78966105 1467216913
 Here we present evidence that the 'ipsi' group of cells in this study is
  a strong candidate that can setup positive feedback.
+ Eight of the reconstructed cells had ipsilaterally projecting axons.
  The somata of almost all the neurons in the ipsi group lie within close
  to the medial most peak of cell somata, making them most likely excitatory.
  The axons and dendrites of these cells display a planar organization.
@@ -1618,51 +1617,31 @@ Here we present evidence that the 'ipsi' group of cells in this study is
  Its axons travel along the RC axis, and its output synapses lie along a
  plane approximately normal to its dendrites (Sup.
  Fig).
- Finally, we also observed chemical synapses from one ipsilataterally projecting
- integrator cell onto another ipsilaterally projecting integrator cell.
+ Finally, we also observed conclusive chemical synapses from one ipsilataterally
+ projecting integrator cell onto another ipsilaterally projecting integrator
+ cell.
+ These facts point to the ipsi group of cells as the most likely candidate
+ for establishing positive feedback in the integrator circuit.
  
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted 78966105 1467145111
-All these fact point to the ipsi group of cells as the
-\end_layout
+\change_inserted 78966105 1467215472
+The second major class of cells that we reconstructed were the contralatarally
+ projecting population of cells.
+ In the gold fish oculomotor integrator, contralaterally projecting cells
+ are thought to be involved in coordinating activity between the two sides,
+ and that each side acts as an indepented integrator 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Aksay:2007cv,debowy_encoding_2011"
 
-\begin_layout Standard
-Here 
-\change_deleted 78966105 1467142939
-the
-\change_inserted 78966105 1467142943
-we present
+\end_inset
+
+.
+
 \change_unchanged
- evidence 
-\change_inserted 78966105 1467143072
-that 
-\change_unchanged
-suggests that 
-\change_deleted 78966105 1467142956
-indeed,
-\change_unchanged
- positive feedback 
-\change_inserted 78966105 1467143092
-does exist 
-\change_unchanged
-between 
-\change_inserted 78966105 1467143041
-integrator neurons by synaptic communication between 
-\change_unchanged
-ipsilaterally projecting 
-\change_deleted 78966105 1467142987
-integrator neurons
-\change_inserted 78966105 1467142989
-axons
-\change_unchanged
-, that are potentially excitatory, are involved in the integrator circuit.
- Another possible mechanism by which positive feedback can be established,
- is by mutual inhibition.
- The reconstructed contralaterally projecting integrator neurons that are
- potentially inhibitory, fit the idea of such a population.
  Evidence from light microscopic images of contralaterally projecting cells
  shows axon like projections that terminate close to the opposing population
  of inhibitory integrator neurons 
@@ -1674,10 +1653,37 @@ key "Lee:2015dv"
 
 .
 
-\change_inserted 78966105 1467136112
- the axons of the ipsi cells had almost no arbors that corresponded with
- the dendrites of the contra group, suggesting that these populations of
- cells do not communicate.
+\change_inserted 78966105 1467217014
+ In our study, the contralaterally projecting neurons were located in a
+ loose group at the caudal extent of the imaged volume.
+ The somatic location of these neurons correspond very closely to the intermedia
+te peak of somata, that are largely GABAergic.
+ The dendrities of these neurons arborized over a smaller area, and were
+ stratified more dorsally as compared to the ipsi cells.
+ Although, we observed chemical synapses from one ipsilateral neurosn onto
+ two conrtalateral nerons, the planar organization of all the postsynapses
+ (inputs) onto these cells was orthogonal to the inputs on the ipsilateral
+ neurons.
+ This suggests that theses cells sample narrowly form axons along the RC
+ axis.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1467217059
+Our evidence thus suggest that at least two of the groups, the ipsilaterally
+ projecting and the contralaterally projecting neurons are unique populations.
+ They have significantly different morphologies, dendritic arbors and axonal
+ projections patterns.
+ The distributions of postsynapses along the dendrites are significantly
+ different.
+ The ipsi-only group of cells had twice as many postsynaptic sites as the
+ contra-only only group.
+ Similarly, the emergence of the axon in the ipsi-only group, is much farther
+ as compared to the contra-only group.
+ This feature could be important to influence the cells, since these locations
+ are most proximal to the somata.
 \change_unchanged
 
 \end_layout
@@ -1692,9 +1698,6 @@ key "Aksay:2003un"
 \end_inset
 
 .
- Eight of the reconstructed cells had ipsilaterally projecting axons.
- Of these, only one cell made synapses onto other reconstructed integrator
- neurons.
  If the observed synapses are representative of the entire population, this
  suggests the integrator population contains a subset of cells are well-connecte
 d with each other.
@@ -1727,18 +1730,6 @@ key "Daie:2015fd"
 \end_layout
 
 \begin_layout Standard
-Our evidence also suggest that at least two of the groups, the ipsilaterally
- projecting and the contralaterally projecting neurons are unique populations.
- They have significantly different morphologies, dendritic arbors and axonal
- projections patterns.
- Although the density of postsynapses along the dendrites is the same, the
- distributions of these postsynapses are significantly different.
- The ipsi-only group of cells had twice as many postsynaptic sites as the
- contra-only only group.
- Similarly, the emergence of the axon in the ipsi-only group, is much farther
- as compared to the contra-only group.
- This feature could be important to influence the cells, since these locations
- are most proximal to the somata.
  What remains unknown are the presynaptic partners of these cells, and how
  do they influence the function of the integrator cell, whether and if there
  are preferred locations on the dendrite from specific cells.
