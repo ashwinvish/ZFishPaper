@@ -1601,9 +1601,10 @@ r neurons.
 It has long been theorized that positive feedback could be a mechanism that
  can explain long persistent time scales of neuronal activity.
  
-\change_inserted 78966105 1467213116
+\change_inserted 78966105 1467216913
 Here we present evidence that the 'ipsi' group of cells in this study is
  a strong candidate that can setup positive feedback.
+ Eight of the reconstructed cells had ipsilaterally projecting axons.
  The somata of almost all the neurons in the ipsi group lie within close
  to the medial most peak of cell somata, making them most likely excitatory.
  The axons and dendrites of these cells display a planar organization.
@@ -1652,7 +1653,7 @@ key "Lee:2015dv"
 
 .
 
-\change_inserted 78966105 1467216882
+\change_inserted 78966105 1467217014
  In our study, the contralaterally projecting neurons were located in a
  loose group at the caudal extent of the imaged volume.
  The somatic location of these neurons correspond very closely to the intermedia
@@ -1664,8 +1665,25 @@ te peak of somata, that are largely GABAergic.
  (inputs) onto these cells was orthogonal to the inputs on the ipsilateral
  neurons.
  This suggests that theses cells sample narrowly form axons along the RC
- axis and that infact the they are two independent populations of neurons.
+ axis.
  
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1467217059
+Our evidence thus suggest that at least two of the groups, the ipsilaterally
+ projecting and the contralaterally projecting neurons are unique populations.
+ They have significantly different morphologies, dendritic arbors and axonal
+ projections patterns.
+ The distributions of postsynapses along the dendrites are significantly
+ different.
+ The ipsi-only group of cells had twice as many postsynaptic sites as the
+ contra-only only group.
+ Similarly, the emergence of the axon in the ipsi-only group, is much farther
+ as compared to the contra-only group.
+ This feature could be important to influence the cells, since these locations
+ are most proximal to the somata.
 \change_unchanged
 
 \end_layout
@@ -1680,9 +1698,6 @@ key "Aksay:2003un"
 \end_inset
 
 .
- Eight of the reconstructed cells had ipsilaterally projecting axons.
- Of these, only one cell made synapses onto other reconstructed integrator
- neurons.
  If the observed synapses are representative of the entire population, this
  suggests the integrator population contains a subset of cells are well-connecte
 d with each other.
@@ -1715,18 +1730,6 @@ key "Daie:2015fd"
 \end_layout
 
 \begin_layout Standard
-Our evidence also suggest that at least two of the groups, the ipsilaterally
- projecting and the contralaterally projecting neurons are unique populations.
- They have significantly different morphologies, dendritic arbors and axonal
- projections patterns.
- Although the density of postsynapses along the dendrites is the same, the
- distributions of these postsynapses are significantly different.
- The ipsi-only group of cells had twice as many postsynaptic sites as the
- contra-only only group.
- Similarly, the emergence of the axon in the ipsi-only group, is much farther
- as compared to the contra-only group.
- This feature could be important to influence the cells, since these locations
- are most proximal to the somata.
  What remains unknown are the presynaptic partners of these cells, and how
  do they influence the function of the integrator cell, whether and if there
  are preferred locations on the dendrite from specific cells.

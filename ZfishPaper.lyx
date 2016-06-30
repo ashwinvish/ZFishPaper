@@ -388,10 +388,15 @@ key "Lee:2015dv"
 \end_layout
 
 \begin_layout Standard
-We firmly demonstrate structure and fucntion links in the neural integrator
- by combined two-photon calcium imaging of integrator neurons during spontaneous
- eye movements, with subsequent reconstructions of the same neurons using
- serial electron microscopy.
+We firmly demonstrate structure and 
+\change_deleted 78966105 1467246331
+fucntion
+\change_inserted 78966105 1467246331
+function
+\change_unchanged
+ links in the neural integrator by combined two-photon calcium imaging of
+ integrator neurons during spontaneous eye movements, with subsequent reconstruc
+tions of the same neurons using serial electron microscopy.
  We found evidence for multiple classes of cells within the integrator populatio
 n based on differences in arborization, projections and synaptic densities.
  These classes of cells include cells with ipsilaterally projecting axons,
@@ -419,9 +424,14 @@ key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
  On this basis, we inferred that integrator neurons with only ipsilaterally
  projecting axons are glutamatergic, and those with only contralaterally
  projecting axons are GABAergic.
- Finally we report evidence for synaptic connectiveity between integrator
- neurons with ipsilaterally-projecting axons and between ipsilateral and
- contralateral projecting axons.
+ Finally we report evidence for synaptic 
+\change_deleted 78966105 1467246339
+connectiveity
+\change_inserted 78966105 1467246339
+connectivity
+\change_unchanged
+ between integrator neurons with ipsilaterally-projecting axons and between
+ ipsilateral and contralateral projecting axons.
  
 \end_layout
 
@@ -553,8 +563,13 @@ After functional identification of neural integrator cells, the tissue was
  1C).
  The soma of all 22 integrator cells from the LM volume were located in
  the EM volume within the rhombomeres 6,7 and 8 (Fig 1D).
- This procedure revealedthree loosely organized groups of cells (addressed
- later) in the imaged volume.
+ This procedure 
+\change_deleted 78966105 1467246371
+revealedthree
+\change_inserted 78966105 1467246371
+revealed three
+\change_unchanged
+ loosely organized groups of cells (addressed later) in the imaged volume.
  Overlaying the persistence 'level' of integrator cells revealed these groups
  to have cells with a large range of persistence levels.
  
@@ -975,11 +990,22 @@ Putative axons
 \end_layout
 
 \begin_layout Standard
-For some of the integrator cells the putatice axons were identified.
+For some of the integrator cells the 
+\change_deleted 78966105 1467246403
+putatice
+\change_inserted 78966105 1467246403
+putative
+\change_unchanged
+ axons were identified.
  All putative axons crossed the midline at locations ventral to the somata.
- They were identfied not based on the presence of vesicles opposed to post-synap
-tic densities, instead they were identified by non-conventional anatomical
- features.
+ They were 
+\change_deleted 78966105 1467246405
+identfied
+\change_inserted 78966105 1467246405
+identified
+\change_unchanged
+ not based on the presence of vesicles opposed to post-synaptic densities,
+ instead they were identified by non-conventional anatomical features.
  The features were as follows, firstly the putative axons were devoid of
  any postsynaptic sites on the ipsilateral side.
  Secondly, before crossing the midline, the putative axon became engulfed
@@ -1001,8 +1027,19 @@ key "Barresi:2005iw"
 \end_inset
 
 .
- Finally, the diameter of these puative axons were smaller to the other
- nuerites and were similar to the diameters of conventional axons (Sup.
+ Finally, the diameter of these 
+\change_deleted 78966105 1467246409
+puative
+\change_inserted 78966105 1467246409
+putative
+\change_unchanged
+ axons were smaller to the other 
+\change_deleted 78966105 1467246412
+nuerites
+\change_inserted 78966105 1467246412
+neurites
+\change_unchanged
+ and were similar to the diameters of conventional axons (Sup.
  Fig.
  1C).
  The mean axonal diameter was less than the mean dendrite diameter, conforming
@@ -1090,7 +1127,12 @@ Not all cells in this group had rostral axonal terminations in the abducens
 
 \begin_layout Standard
 Dendrites emerged laterally from somata and always extended ventrally.
- Cells in this group had large dendritic arbors, with the dendrites in thisgroup
+ Cells in this group had large dendritic arbors, with the dendrites in 
+\change_deleted 78966105 1467246418
+thisgroup
+\change_inserted 78966105 1467246418
+this group
+\change_unchanged
  arborizong over 13.3% of the total imaged volume (Sup.
  Fig.
 
@@ -1305,8 +1347,8 @@ m, and they occupied on average ~4.9% of the total volume (Sup.
 
 \begin_layout Subsection
 
-\change_inserted 78966105 1467126129
-Numbers anddistribution of synapses 
+\change_inserted 78966105 1467246447
+Numbers and distribution of synapses 
 \change_deleted 78966105 1467126127
 Synaptic distributions
 \change_inserted 78966105 1467126100
@@ -1315,7 +1357,7 @@ Synaptic distributions
 
 \begin_layout Standard
 
-\change_inserted 78966105 1467135568
+\change_inserted 78966105 1467246510
 On average, cells from these four groups had approximately 
 \begin_inset Formula $\sim170,125,85$
 \end_inset
@@ -1334,7 +1376,7 @@ and
 \begin_inset Formula $\sim30$
 \end_inset
 
- persynaptic (output) sites (Fig.
+ presynaptic (output) sites (Fig.
  3C, top, green).
  The number of postsynaptic sites on the `ipsi' group of cells was significantly
  more than the number of synapses on the `contra' group of cells (
@@ -1342,7 +1384,7 @@ and
 \end_inset
 
 Wilcoxon-rank test).
- We then computed the pathlengths of each synaptic location form the somta
+ We then computed the pathlengths of each synaptic location form the somata
  to determine if there were differences in the distributions of the synaptic
  locations for each of the groups.
  The ipsilateral axon form the `ipsi' and `ipsi-contra' group revealed presynapt
@@ -1353,13 +1395,13 @@ ic sites to have distributions that were statistically weak (
 , kstest).
  However the distributions of the postsynaptic sites on each of the four
  groups was statistically very strong ( Fig.
- 3C, botttom, distributions, Sup.
+ 3C, bottom, distributions, Sup.
  table, P values).
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted 78966105 1467135610
+\change_inserted 78966105 1467246518
 We further computed the synaptic density, the number of synapses per unit
  length for all cells, with the assumption that the synapses within each
  group were uniformly distributed along dendrites.
@@ -1387,7 +1429,7 @@ We further computed the synaptic density, the number of synapses per unit
  These differences in synaptic densities is not due to differences in lengths
  of the dendrites, but reflects actual differences in the underlying location
  of postsynaptic sites along the dendrites.
- Emperically the average intersynaptic distance for the `ipsi' and `contra'
+ Empirically the average intersynaptic distance for the `ipsi' and `contra'
  groups of cells are 
 \begin_inset Formula $1\pm2.3\mu m$
 \end_inset
@@ -1410,13 +1452,37 @@ Planar organization of dendrites
 The dendrites of the cells form the ipsi and contra groups were observed
  to lie along orthogonal planes.
  The dendrites of the cells in the ipsi groups were noticed to like roughly
- aling a coronal plane with some tilt (Fig.
+ 
+\change_deleted 78966105 1467246534
+aling
+\change_inserted 78966105 1467246534
+along
+\change_unchanged
+ a coronal plane with some tilt (Fig.
  3A).
  Similarly, the dendrites of the cells in the contra cells were noticed
- to exhibit some planar orgnization as well.
- Fittting a plane through the postsynaptic sites that lie along the dendrites
- of the cells in the ipsi and contra groups revealed that these plane were
- nearly orthognoal (
+ to exhibit some planar 
+\change_deleted 78966105 1467246536
+orgnization
+\change_inserted 78966105 1467246536
+organization
+\change_unchanged
+ as well.
+ 
+\change_deleted 78966105 1467246538
+Fittting
+\change_inserted 78966105 1467246538
+Fitting
+\change_unchanged
+ a plane through the postsynaptic sites that lie along the dendrites of
+ the cells in the ipsi and contra groups revealed that these plane were
+ nearly 
+\change_deleted 78966105 1467246545
+orthognoal
+\change_inserted 78966105 1467246545
+orthogonal
+\change_unchanged
+ (
 \begin_inset Formula $81.34^{\circ}$
 \end_inset
 
@@ -1477,9 +1543,14 @@ We also examined the patterns of connectivity between integrator neurons.
  Fig.
  5B, red).
  More specifically, the overlap at ventro-rostral locations seems to be
- from axons of ipsi-cells onto dendrites of other ipsi-cells, where as the
- overlap at dorso-caudal locations seem to be from axons of ipsi-cells onto
- dendrites of contra-cells.
+ from axons of ipsi
+\change_inserted 78966105 1467246573
+ 
+\change_deleted 78966105 1467246570
+-
+\change_unchanged
+cells onto dendrites of other ipsi-cells, where as the overlap at dorso-caudal
+ locations seem to be from axons of ipsi-cells onto dendrites of contra-cells.
 \end_layout
 
 \begin_layout Standard
@@ -1572,24 +1643,24 @@ Discussion
 
 \begin_layout Standard
 
-\change_inserted 78966105 1467142887
+\change_inserted 78966105 1467246607
 Here we detailed an approach where we recorded from cells in the larval
  zebrafish that were encoding for a behavioral variable, in this case eye-positi
 on, followed by registering the light microscopic images to an electron
  microscopic volume to locate the same cells.
- We were able to reconstruct 22 integrator cells for whcih we had both function
+ We were able to reconstruct 22 integrator cells for which we had both function
  and structure.
- This procedure revealed the existance of distinct groups of cells that
- make up the ipsiliateral integrator circuit.
+ This procedure revealed the existence of distinct groups of cells that
+ make up the ipsilateral integrator circuit.
  By inferring the neurotransmitter identity of the cells, we show that there
  are at least two distinct groups of cells in the integrator circuit.
- An excitatory, ipsiliaterally projecting population and an inhibitory contralat
-erally projecting polulation.
- We also find evidence for a third, new, ipsilateral and contralaterlly
- projecting polulation.
+ An excitatory, ipsilaterally projecting population and an inhibitory contralate
+rally projecting population.
+ We also find evidence for a third, new, ipsilateral and contralaterally
+ projecting population.
  Finally we provide the first conclusive evidence for synapses between integrato
 r neurons.
- This high-throughput approach can be extented to multiple cells in the
+ This high-throughput approach can be extended to multiple cells in the
  same animal, to provide rich functional and structural information from
  multiple cells to understand neural circuits in organisms.
  
@@ -1627,12 +1698,12 @@ Here we present evidence that the 'ipsi' group of cells in this study is
 
 \begin_layout Standard
 
-\change_inserted 78966105 1467215472
-The second major class of cells that we reconstructed were the contralatarally
+\change_inserted 78966105 1467246643
+The second major class of cells that we reconstructed were the contralaterally
  projecting population of cells.
  In the gold fish oculomotor integrator, contralaterally projecting cells
  are thought to be involved in coordinating activity between the two sides,
- and that each side acts as an indepented integrator 
+ and that each side acts as an independent integrator 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Aksay:2007cv,debowy_encoding_2011"
@@ -1653,15 +1724,15 @@ key "Lee:2015dv"
 
 .
 
-\change_inserted 78966105 1467217014
+\change_inserted 78966105 1467246660
  In our study, the contralaterally projecting neurons were located in a
  loose group at the caudal extent of the imaged volume.
  The somatic location of these neurons correspond very closely to the intermedia
 te peak of somata, that are largely GABAergic.
- The dendrities of these neurons arborized over a smaller area, and were
+ The dendrites of these neurons arborized over a smaller area, and were
  stratified more dorsally as compared to the ipsi cells.
- Although, we observed chemical synapses from one ipsilateral neurosn onto
- two conrtalateral nerons, the planar organization of all the postsynapses
+ Although, we observed chemical synapses from one ipsilateral neurons onto
+ two contralateral neurons, the planar organization of all the postsynapses
  (inputs) onto these cells was orthogonal to the inputs on the ipsilateral
  neurons.
  This suggests that theses cells sample narrowly form axons along the RC
@@ -2129,7 +2200,13 @@ blue
 sharp 
 \change_unchanged
 vertical lines) and post-saccadic fixations (horizontal lines).
- Ipislateral saccades are 
+ 
+\change_deleted 78966105 1467246682
+Ipislateral
+\change_inserted 78966105 1467246682
+Ipsilateral
+\change_unchanged
+ saccades are 
 \change_inserted 78966105 1466533711
 indicated by
 \change_deleted 78966105 1466533705
