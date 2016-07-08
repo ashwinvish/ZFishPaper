@@ -1006,8 +1006,22 @@ Along the somatic membrane, a darkening of the membrane interrupted by small
  2B).
  The darkening persisted over multiple serial sections, suggesting that
  it was not an artifact of tissue preparation or imaging.
- We speculate that these darkenings are tight junctions, or electrical synapses,
- which are known to exist in the developing larval zebrafish hindbrain 
+ We speculate that these darkenings are 
+\change_deleted 78966105 1467997857
+tight junctions, or electrical synapses
+\change_inserted 78966105 1467997861
+gap junctions.
+ 
+\change_deleted 78966105 1467997862
+,
+\change_unchanged
+ 
+\change_deleted 78966105 1467997867
+which are
+\change_inserted 78966105 1467997875
+Gapjunctions 
+\change_unchanged
+ known to exist in the developing larval zebrafish hindbrain 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Jabeen:2013fm"
@@ -1103,7 +1117,11 @@ A small fraction (3% or 89/2229) of the postsynaptic sites were located
  of axonal boutons (Fig.
  2B, EM panel 2).
  These projections resemble structures found across multiple species called
- spinules, and are thought to be present on large, active synapses 
+ 
+\emph on
+spinules
+\emph default
+, and are thought to be present on large, active synapses 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Petralia:2015ge"
@@ -1114,9 +1132,48 @@ key "Petralia:2015ge"
 \end_layout
 
 \begin_layout Standard
-Another interesting feature observed on all integrator cells was a the presence
- of a primary cilia in all the 22 integrator cells.
- This cilium, typically 
+
+\change_inserted 78966105 1467902562
+We also observed
+\change_unchanged
+ 
+\change_inserted 78966105 1467903169
+a 
+\change_unchanged
+primary cilia 
+\change_inserted 78966105 1467902582
+o
+\change_unchanged
+n
+\change_deleted 78966105 1467902592
+ 
+\change_unchanged
+ 
+\change_inserted 78966105 1467902641
+all
+\change_unchanged
+ 22 integrator cells
+\change_inserted 78966105 1467902651
+ that were reconstructed
+\change_unchanged
+.
+
+\change_deleted 78966105 1467911094
+ 
+\change_inserted 78966105 1467911239
+ Primary cilium are know to be present in most, if not all mammalian cells,
+ inclding neurons, and are though to be important for normal development
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Han:2010kl,Lee:2010fy"
+
+\end_inset
+
+.
+ 
+\change_unchanged
+This cilium, typically 
 \begin_inset Formula $<1$
 \end_inset
 
@@ -1124,13 +1181,27 @@ Another interesting feature observed on all integrator cells was a the presence
 \begin_inset Formula $\mu$
 \end_inset
 
-m, is enriched with microtubules, and emerges from the cell body very close
- to the Golgi complex.
- In some cases, this primary cilium terminated inside processes that were
- presumed glial (Sup.
+m, is enriched with microtubules, and emerges from the cell 
+\change_inserted 78966105 1467903181
+somata
+\change_unchanged
+ very close to the Golgi complex.
+ In some cases, this primary cilium terminated inside processes that 
+\change_inserted 78966105 1467902616
+resembled
+\change_unchanged
+ glial
+\change_inserted 78966105 1467902630
+ like structures
+\change_unchanged
+ (Sup.
  Fig.
  3A).
- Orientation of primary cilium in integrator cells did not show any orientation
+
+\change_deleted 78966105 1467911092
+ 
+\change_unchanged
+Orientation of primary cilium in integrator cells did not show any orientation
  preference (Sup.
  Fig.
  3B)
@@ -1498,7 +1569,7 @@ Numbers and distribution of synapses
 
 \begin_layout Standard
 
-\change_inserted 78966105 1467246510
+\change_inserted 78966105 1467911798
 On average, cells from these four groups had approximately 
 \begin_inset Formula $\sim170,125,85$
 \end_inset
@@ -1528,8 +1599,8 @@ Wilcoxon-rank test).
  We then computed the pathlengths of each synaptic location form the somata
  to determine if there were differences in the distributions of the synaptic
  locations for each of the groups.
- The ipsilateral axon form the `ipsi' and `ipsi-contra' group revealed presynapt
-ic sites to have distributions that were statistically weak (
+ The ipsilateral axons form the `ipsi' and `ipsi-contra' group revealed
+ presynaptic sites to have distributions that were statistically weak (
 \begin_inset Formula $p=0.01$
 \end_inset
 
@@ -1950,11 +2021,10 @@ Experimental procedures
 
 \begin_layout Standard
 
-\bar under
-Two-photon calcium imaging
-\bar default
-.
- 
+\change_inserted 78966105 1467915753
+Ligh and electron microscopic imaging
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1962,56 +2032,48 @@ Anesthetized
 \emph on
 nacre
 \emph default
- mutant zebrafish larvae was bulk-loaded with calcium sensitive dye Oregon
- Green 488 BAPTA-1 AM by inserting a capillary through the dorsal skin surface
- over the lateral edge of the right side of the hindbrain just caudal to
- the cerebellum, at ~
-\begin_inset Formula $30^{0}$
-\end_inset
-
- decline relative to the dorsal surface.
- After several hours in order to recover, the animal was imaged on a custom
- two-photon microscope.
+ mutant zebrafish larvae was 
+\change_inserted 78966105 1467912061
+imaged
+\change_unchanged
+ with calcium sensitive dye Oregon Green 488 BAPTA-1 AM.
  The animal was immobilized in low melting agar and was positioned to view
  a monitor with light gratings.
- The hindbrain of the animal was imaged at (790 nm) at predefined plane
- at (0.98 Hz).
+ The hindbrain of the animal was imaged at 790 nm at predefined plane at
+ (0.98 Hz).
  Following functional imaging, the animal was then imaged on the same setup
  for anatomical imaging.
- Briefly, a stack was acquired over the same imaging window, with optical
- sections every 1.3 µm, and with a lateral resolution of 0.5 µm.
- Once this was performed, the animal was anesthetized and the skin over
- the hindbrain was removed, to facilitate penetration of the fixative, and
- the animal was immersed in fixative to preserve the ultrastructure.
- We found that the removal of the skin over the hindbrain was important
- for good ultrastructure preservation and for even staining of the tissue.
-\end_layout
 
-\begin_layout Standard
-
-\bar under
-Serial section electron microscopy
-\bar default
-.
+\change_deleted 78966105 1467912191
  
-\end_layout
+\change_unchanged
+ over the hindbrain was important for good ultrastructure preservation and
+ for even staining of the tissue.
 
-\begin_layout Standard
-The animal was immersed in a fixative of 1% paraformaldehyde and 1% glutaraldehy
-de buffered in 0.1M cacodylate buffer for 24 hrs.
+\change_inserted 78966105 1467915764
+ 
+\change_unchanged
+The animal was immersed in a
+\change_inserted 78966105 1467912381
+n aldehyde based fixative
+\change_deleted 78966105 1467912391
+ 
+\change_unchanged
+ in 0.1M cacodylate buffer for 24 hrs.
  Then it was thoroughly washed in 0.1M cacodylate buffer before staining.
- The tissue was stained using a conventional ROTO procedure (
+ The tissue was stained using a conventional ROTO procedure 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Tapia:2012hs"
 
 \end_inset
 
-).
- Following staining, the tissue was infiltrated with an LX-112 based EPON
- resin for 24 hrs and baked for 48 hrs at 60 C.
- Care was taken to orient the specimen to permit sectioning along the horizontal
- axis.
+.
+ Following staining, the tissue was infiltrated with an LX-112 based resin
+\change_inserted 78966105 1467912842
+.
+
+\change_unchanged
  Serial sections from the above animal were collected approximately from
  the level of the Mauthner cell at a thickness of 45 nm.
  The serial sections were collected using the automatic tape-collecting
@@ -2025,28 +2087,28 @@ key "hayworth_imaging_2014,Kasthuri:2015kb"
 .
  Each wafer was imaged in a Zeiss Sigma field emitting scanning electron
  microscope in the backscattered electron mode using a custom software interface
- to collected the images (
+ to collected the images 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "hayworth_imaging_2014"
 
 \end_inset
 
-).
+.
  The imaged volume was 
 \begin_inset Formula $220\times112\times57\,\mu m^{3}$
 \end_inset
 
 .
  The images were montaged and aligned using the TrakEM2 plugin in FIJI/ImageJ
- (
+ 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Cardona:2012kf"
 
 \end_inset
 
-).
+.
  
 \end_layout
 
@@ -2057,16 +2119,46 @@ Registration of light microscope and electron microscope volumes
 \end_layout
 
 \begin_layout Standard
-We performed the functional light microscopy at pre-defined planes close
- to and below the Mauthner cell, unilaterally.
- This landmark would later serve to identify cells in the electron microscopy
- volume, since the Mauthner cell is immediately visible in EM sections.
- Following the functional imaging, the volume was imaged for anatomical
- landmarks, like blood vessels and location of cell bodies, this volume
- was termed the light microscopy (LM) volume.
- We later extracted the locations of cells whose firing had high degree
- of correlation to eye-position, and had the firing characteristic of neural
- integrator cells, similar to 
+We performed the functional light microscopy at pre-defined planes
+\change_inserted 78966105 1467913286
+ 
+\begin_inset Formula $\sim8\mu m$
+\end_inset
+
+ apart, begining
+\change_unchanged
+ close to and the Mauthner cell, unilaterally.
+ Following the functional imaging, the 
+\change_inserted 78966105 1467913589
+animal was
+\change_unchanged
+ 
+\change_inserted 78966105 1467913628
+re-imaged at higher axial resolution of 
+\begin_inset Formula $1\mu m$
+\end_inset
+
+ between optical planes.
+ This imaging makes it easier to observe
+\change_unchanged
+ anatomical landmarks like blood vessels and location of cell bodies, this
+ volume was termed the light microscopy (LM) volume.
+ 
+\change_inserted 78966105 1467915959
+These landmarks served at fiducial marks to register the EM and LM volume
+ using the TrakEM2 plugin in Fiji 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cardona:2012kf"
+
+\end_inset
+
+.
+ This let us extract
+\change_unchanged
+ the locations of cells whose firing had high degree of correlation to eye-posit
+ion, and had the firing characteristic of neural integrator cells, similar
+ to 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Miri:2011ft,Miri:2011ib,Daie:2015fd"
@@ -2078,29 +2170,52 @@ key "Miri:2011ft,Miri:2011ib,Daie:2015fd"
 \end_layout
 
 \begin_layout Standard
-Once functional imaging of the larva was performed, it was immediately prepared
- for serial section electron microscopy, as described above.
- Each section was imaged at a lateral resolution of 5nm/pixel in a region
+Each section was imaged at a lateral resolution of 5nm/pixel in a region
  of interest that roughly corresponded with area imaged on the light microscopic.
- The EM volume we imaged contained 15791 image tiles (8K x 8K pixels each)
- or 
+ The EM volume we imaged contained 15791 image tiles (
+\change_inserted 78966105 1467916002
+
+\begin_inset Formula $8000\times8000$
+\end_inset
+
+
+\change_unchanged
+ pixels each) or 
 \begin_inset Formula $\sim10^{11}$
 \end_inset
 
  pixels (Fig.
  1B).
- These images were registered using the trakEM2 plugin in Fiji (
+ These images were registered using the 
+\change_inserted 78966105 1467916042
+T
+\change_unchanged
+rakEM2 plugin in Fiji 
+\change_deleted 78966105 1467902480
+(
+\change_unchanged
+
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Cardona:2012kf"
 
 \end_inset
 
-).
+
+\change_deleted 78966105 1467902482
+)
+\change_unchanged
+.
  Briefly, individual images were first montaged using affine transforms
  followed by elastic transforms.
  Following this they were aligned in the z dimension, using first, affine
  and followed by elastic transforms.
+\change_inserted 78966105 1467902484
+
+\end_layout
+
+\begin_layout Standard
+
 \bar under
 Reconstructions
 \end_layout
@@ -2108,34 +2223,20 @@ Reconstructions
 \begin_layout Standard
 The reconstruction of the cells was performed using the TrakEM2 plugin in
  Fiji/ImageJ.
- Two expert tracers reconstructed the cells beginning from the cell bodies
- in an independent manner.
- During the tracing process, one of the expert tracers annotated all pre
- and postsynaptic sites for each cells.
- The skeletonized tree structure was exported from TrakEM2 as *.swc files.
- These trees were then imported into Matlab using custom scripts to import
- .swc files and maintain them as trees.
- The traces of the two tracers were compared by a third reviewer.
- The third reviewer, independently reviewed points of disagreement and decided
- which points of disagreement were either over-reconstructed or were under-recon
-structed.
- In some cases, the traces were re-visited by the tracers if it was needed.
  For the comparison of EM traces with LM traces, the LM traces were traced
- using the Simple Neurite Tracer (
+ using the Simple Neurite Tracer 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Longair:2011hr"
 
 \end_inset
 
-) plugin in Fiji, and exported as a *.swc file.
- They were then imported into the same Matlab framework that was used to
- analyze the EM traces, and used to compute necessary features to compare
- the LM traces and the EM traces.
- The total length of all reconstructed neurites in the imaged volume was
- 9.55 mm.
- In some cases, the neurite of the cells exited the volume and were thus
- under reconstructed.
+ plugin in Fiji, and exported as a *.swc file.
+
+\change_inserted 78966105 1467916683
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -2146,36 +2247,6 @@ Analysis
 
 \begin_layout Standard
 All analysis was performed on Matlab using custom scripts.
- 
-\end_layout
-
-\begin_layout Standard
-To assess the degree of completeness of the cells that were reconstructed,
- we compared the EM reconstructions of the cells with the long-range axons
- to previously reported LM reconstructions of similar neurons (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Lee:2015dv"
-
-\end_inset
-
-).
- We did not observe any significant difference in the total number of axonal
- collaterals and the length of these collaterals (Sup.
- Fig.
- 4D,E,F).
- 
-\end_layout
-
-\begin_layout Standard
-To investigate the reliability of such inferences, we quantified the caliber
- of our axons and dendrites.
- For 20 out of 22 cells, the mean axonal diameter was less than the mean
- dendrite diameter, conforming to the textbook notion that axons are thinner
- than dendrites (addressed later).
- However, the axon was thicker than the dendrites for the remaining two
- cells, so inference of neurite identity based on caliber would have been
- erroneous for these cells.
  
 \end_layout
 

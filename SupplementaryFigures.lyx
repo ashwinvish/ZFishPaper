@@ -39,8 +39,8 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
+\cite_engine natbib
+\cite_engine_type authoryear
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -64,11 +64,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
 \end_header
 
 \begin_body
@@ -107,9 +108,20 @@ Supplementary figure 1
 \begin_inset Newline newline
 \end_inset
 
-(A) Pairwise difference in time constants for all integrator cells.
- Left, Pairwise difference of time constants of integrator cells along the
- rostro-caudal axis.
+(A) Pairwise difference in time constants for all integrator 
+\change_deleted 78966105 1467919132
+cells
+\change_inserted 78966105 1467919132
+neurons
+\change_unchanged
+.
+ Left, Pairwise difference of time constants of integrator 
+\change_deleted 78966105 1467919137
+cells
+\change_inserted 78966105 1467919137
+neurons
+\change_unchanged
+ along the rostro-caudal axis.
  Rostral to the left and dorsal to the right.
  Middle, Pairwise difference of time constants along the medio-lateral axis.
  Right, pairwise difference of time constants along the dorso-ventral axis.
@@ -121,11 +133,39 @@ SEM
 \begin_inset Newline newline
 \end_inset
 
-(B) Persistence time vs.
+(B) 
+\change_inserted 78966105 1467919028
+(left) Normalized p
+\change_deleted 78966105 1467919028
+P
+\change_unchanged
+ersistence time
+\change_inserted 78966105 1467919039
+ measure for all cells in the study.
+ Colors represent the group that the cell belong to.
+ (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
+ unknown).
+\begin_inset Newline newline
+\end_inset
+
+(middle) Normalized persitance time versus
+\change_deleted 78966105 1467918917
+ vs.
+
+\change_unchanged
  diameter of integrator cells somata.
 \begin_inset Newline newline
 \end_inset
 
+
+\change_inserted 78966105 1467919114
+(right) Integrator neuron somata dimeter versus the depth along the dorso-ventra
+l axis
+\begin_inset Newline newline
+\end_inset
+
+
+\change_unchanged
 (C) Diameter profiles along ipsi only (left) and contra only (right) integrator
  cells.
  
@@ -174,7 +214,17 @@ Supplementary figure 2
 \begin_inset Newline newline
 \end_inset
 
-(A) Types of synapses in imaged volume.
+(A) 
+\change_inserted 78966105 1467919157
+Examples of t
+\change_deleted 78966105 1467919157
+T
+\change_unchanged
+ypes of synapses in
+\change_inserted 78966105 1467919161
+ the
+\change_unchanged
+ imaged volume.
  Closed arrows show conventional synapses and open arrows shows dense core
  vesciles within the same bouton.
 \begin_inset Newline newline
@@ -362,7 +412,16 @@ Supplementary figure 5
 \begin_inset Newline newline
 \end_inset
 
-(A) Depth stratification of all cells in each group.
+(A) 
+\change_inserted 78966105 1467919307
+Ditribution of the normalized postsynaptic pathlength and the distribution
+ of the normalized dendritic pathlength for all four groups.
+\begin_inset Newline newline
+\end_inset
+
+(B) 
+\change_unchanged
+Depth stratification of all cells in each group.
  For each panel, below the trace of all cells is the stratification of the
  dendrites (red) and axons (green) along the mediolateral axis.
  To the right is the stratification along the dorso-ventral axis.
@@ -370,12 +429,28 @@ Supplementary figure 5
 \begin_inset Newline newline
 \end_inset
 
-(B) Density plot of the pre and postsynaptic sites with somata of the cells
- indiacted by white circles.
+(
+\change_inserted 78966105 1467919310
+C
+\change_deleted 78966105 1467919310
+B
+\change_unchanged
+) 
+\change_inserted 78966105 1467919323
+Normalized d
+\change_unchanged
+ensity plot of the pre and postsynaptic sites with somata of the cells indiacted
+ by white circles.
 \begin_inset Newline newline
 \end_inset
 
-(C) Jittering of the potential synapses for all integrator cells with axons.
+(
+\change_inserted 78966105 1467919312
+D
+\change_deleted 78966105 1467919311
+C
+\change_unchanged
+) Jittering of the potential synapses for all integrator cells with axons.
  
 \end_layout
 
@@ -962,9 +1037,12 @@ Two-photon calcium imaging
 \begin_layout Standard
 Nacre mutant zebrafish larvae, X days of age, was anesthetized in 100 or
  200 mg/L tricaine-methanesulfonate (MS222, VWR TCT0941- 025G) for about
- 1 minute and then quickly mounted dorsal side up with droplets of 1.7% lowtemper
-ature agarose (Sigma A0701-100G) in the lid of a 35mm petri dish containing
- a bed of hardened 1% agarose (Invitrogen 15510-027).
+ 1 minute and then quickly mounted dorsal side up with droplets of 1.7% low
+\change_inserted 78966105 1467918230
+ 
+\change_unchanged
+temperature agarose (Sigma A0701-100G) in the lid of a 35mm petri dish containin
+g a bed of hardened 1% agarose (Invitrogen 15510-027).
  The larva was then covered in 50 mg/L MS222.
  The larva was bulk-loaded 
 \begin_inset CommandInset citation
@@ -982,6 +1060,15 @@ key "Brustein:2003ef,Smetters:1999jc"
 
  decline relative to the dorsal surface.
  
+\end_layout
+
+\begin_layout Standard
+Briefly, a stack was acquired over the same imaging window, with optical
+ sections every 1.3 µm, and with a lateral resolution of 0.5 µm.
+ Once this was performed, the animal was anesthetized and the skin over
+ the hindbrain was removed, to facilitate penetration of the fixative, and
+ the animal was immersed in fixative to preserve the ultrastructure.
+ We found that the removal of the skin was important for good quality fixation.
 \end_layout
 
 \begin_layout Standard
@@ -1005,54 +1092,26 @@ key "Tapia:2012hs"
 \end_inset
 
 ).
- Following staining, the tissue was infiltrated with an LX-112 based EPON
- resin for 24 hrs and baked for 48 hrs at 60 C.
- The EPON based resin was tailored to be a low viscosity resin to help with
- better infiltration for this tissue.
+
+\change_deleted 78966105 1467912924
+ 
+\change_unchanged
+ the tissue was infiltrated with an LX-112 based EPON resin for 24 hrs and
+ baked for 48 hrs at 60 C.
+ The EPON based resin was tailored to have low viscosity, to help with better
+ infiltration for this tissue.
  Following hardening, the tissue block face was coarsely trimmed and a rectangul
 ar mesa was defined for serial sectioning.
  Care was taken to orient the specimen to permit sectioning along the horizontal
  axis.
  Serial sections from the above animal were collected approximately from
  the level of the Mauthner cell at a thickness of 45 nm.
- The serial sections were collected using the automatic tape-collecting
- ultramicrotome (ATUM) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "hayworth_imaging_2014,Kasthuri:2015kb"
-
-\end_inset
-
-.
+ .
  The serial sections were then adhered to a silicon wafer, using double
  sided carbon tape (TEDpella), the wafers were coated with a thin film of
  carbon to make them conductive.
- Each wafer was imaged in a Zeiss Sigma field emitting scanning electron
- microscope in the backscattered electron mode using a custom software interface
- to collected the images (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "hayworth_imaging_2014"
-
-\end_inset
-
-).
- The imaged volume was 
-\begin_inset Formula $220\times112\times57\,\mu m^{3}$
-\end_inset
-
-.
- The images were montaged and aligned using the TrakEM2 plugin in FIJI/ImageJ
- (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Cardona:2012kf"
-
-\end_inset
-
-).
- Briefly, images were imported into the TrakEM2 framework and montaged,
- first, using affine transforms, followed by elastic transforms.
+ Images were imported into the TrakEM2 framework and montaged, first, using
+ affine transforms, followed by elastic transforms.
  The images were then registered using a similar approach, where the first
  pass was performed using affine transforms, followed by elastic transforms.
  All the alignment was performed on a machine with 32 cores and 120GB RAM.
@@ -1086,20 +1145,15 @@ Optical gratings were presented to the animal to elicit spontaneous saccades
 
 \end_inset
 
+
+\change_inserted 78966105 1467912944
+.
+ 
+\change_unchanged
 This paradigm allows for the correlation of eye movement behavior to the
- firing of cells in the hindbrain .
+ firing of cells in the hindbrain.
  We performed the functional light microscopy at pre-defined planes close
- to and below the Mauthner cell ( Fig.
- 1A, a), unilaterally.
- This landmark would later serve to identify cells in the electron microscopy
- volume, since the Mauthner cell is immediately visible in EM sections.
- Following the functional imaging, the volume was imaged for anatomical
- landmarks, like blood vessels and location of cell bodies, this volume
- was termed the light microscopy (LM) volume (Fig.
- 1A, d).
- We later extracted the locations of cells whose firing had high degree
- of correlation to eye-position, and had the firing characteristic of neural
- integrator cells .
+ to and below the Mauthner cell unilaterally.
  
 \end_layout
 
@@ -1107,47 +1161,69 @@ This paradigm allows for the correlation of eye movement behavior to the
 Once functional imaging of the larva was performed, it was immediately prepared
  for electron microscopy by immersing in fixative.
  The larva was processed for electron microscopy using conventional reduced
- osmium staining techniques and embedded in an epoxy based resin (
+ osmium staining techniques and embedded in an epoxy based resin 
+\change_deleted 78966105 1467918121
+(
+\change_unchanged
+
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Tapia:2012hs"
 
 \end_inset
 
-).
+
+\change_deleted 78966105 1467918123
+)
+\change_unchanged
+.
  The tissue block was then coarsely trimmed until the appearance of the
  Mauthner cell plane.
  Following the observation of this landmark , ultra-thin sections ( Fig.
  1B, 1st panel) were collected in an automated manner using an automated
- tape collecting ultramicrotome (ATUM) as described previously (
+ tape collecting ultramicrotome (ATUM) as described previously 
+\change_deleted 78966105 1467918116
+(
+\change_unchanged
+
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "hayworth_imaging_2014"
 
 \end_inset
 
-).
+
+\change_deleted 78966105 1467918118
+)
+\change_unchanged
+.
  The sections were then made conductive, by evaporating a thin layer of
  carbon and imaged in a field emitting scanning electron microscope (FE-SEM)
  to obtain an electron microscopy (EM) volume.
  Each section was imaged at a resolution of 5nm/pixel in a region of interest
- that roughly corresponded with area imaged on the light microscopic ( Fig.
- 1B, 2nd panel).
+ that roughly corresponded with area imaged on the light microscopic.
  The EM volume we imaged contained 15791 image tiles (8K x 8K pixels each)
  or 
 \begin_inset Formula $\sim10^{11}$
 \end_inset
 
- pixels (Fig.
- 1B).
- These images were registered using the trakEM2 plugin in Fiji (
+ pixels.
+ These images were registered using the trakEM2 plugin in Fiji 
+\change_deleted 78966105 1467918110
+(
+\change_unchanged
+
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Cardona:2012kf"
 
 \end_inset
 
-).
+
+\change_deleted 78966105 1467918113
+)
+\change_unchanged
+.
  Briefly, individual images were first montaged using affine transforms
  followed by elastic transforms.
  Following this they were aligned in the z dimension, using first, affine
@@ -1171,17 +1247,24 @@ Once enough such features were identified, we located these same landmarks
  Each pair of landmarks (one from the LM volume and one from the EM volume)
  was then used to calculate a global affine transform that was applied to
  transform the LM volume to be overlaid on the EM volume using the TrakEM2
- plugin in Fiji (
+ plugin in Fiji 
+\change_deleted 78966105 1467918136
+(
+\change_unchanged
+
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Cardona:2012kf"
 
 \end_inset
 
-).
+
+\change_deleted 78966105 1467918133
+)
+\change_unchanged
+.
  Following this registration, we were able to reliable locate the same cells
- from the LM and the EM volumes ( Fig.
- 1C).
+ from the LM and the EM volumes.
 \end_layout
 
 \begin_layout Standard
@@ -1191,38 +1274,23 @@ Reconstructions
 \end_layout
 
 \begin_layout Standard
-The reconstruction of the cells was performed using the TrakEM2 plugin in
- Fiji/ImageJ.
- Two expert tracers reconstructed the cells beginning from the cell bodies
+
+\change_deleted 78966105 1467917164
+ 
+\change_unchanged
+Two expert tracers reconstructed the cells beginning from the cell bodies
  in an independent manner.
  During the tracing process, one of the expert tracers annotated all pre
  and postsynaptic sites for each cells.
  The skeletonized tree structure was exported from TrakEM2 as *.swc files.
  These trees were then imported into Matlab using custom scripts to import
- .swc files and maintain them as trees.
+ .swc files as trees.
  The traces of the two tracers were compared by a third reviewer.
  The third reviewer, independently reviewed points of disagreement and decided
  which points of disagreement were either over-reconstructed or were under-recon
 structed.
- .
  In some cases, the traces were re-visited by the tracers if it was needed.
- .
- For the comparison of EM traces with LM traces, the LM traces were traced
- using the Simple Neurite Tracer (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Longair:2011hr"
-
-\end_inset
-
-) plugin in Fiji, and exported as a *.swc file.
- They were then imported into the same Matlab framework that was used to
- analyze the EM traces, and used to compute necessary features to compare
- the LM traces and the EM traces.
- The total length of all reconstructed neurites in the imaged volume was
- 9.55 mm.
- In some cases, the neurite of the cells exited the volume and were thus
- under reconstructed.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1232,18 +1300,36 @@ Analysis
 \end_layout
 
 \begin_layout Standard
-All analysis was performed on Matlab using custom scripts.
- All traces were exported as .swc files from TrakEM2.
+
+\change_deleted 78966105 1467917615
+ 
+\change_unchanged
+All traces were exported as .swc files from TrakEM2.
  All tree lengths was reported as pathlengths unless noted otherwise.
  Similarly, all lengths to a pre or post synaptic site was reported as pathlengt
 hs.
- The axon initiation site was annotated as the parent node of the first
- presynaptic site.
+ 
+\change_inserted 78966105 1467917559
+We defined the
+\change_unchanged
+ axon initiation site was annotated as the parent node of the first presynaptic
+ site.
  For the putative-axons that originated at the soma, they were annotated
  as beginning from the root node.
- One cell from ipsi-only group had a putative axon, based on thinness of
- the axons and the 'bare' initial segment.
- All neurites that were not axonal were called dendritic.
+ One cell from ipsi-only group
+\change_inserted 78966105 1467917611
+ was defined as an axon
+\change_unchanged
+, based on 
+\change_inserted 78966105 1467917626
+diameter
+\change_unchanged
+ of the axons and the 'bare' initial segment.
+ All neurites that were not axonal were 
+\change_inserted 78966105 1467917649
+defiend as
+\change_unchanged
+ dendritic.
  All nodes of the tree were thus divided as axonal nodes or dendritic nodes.
  Pathlengths were then generated for a tree over all axonal nodes or all
  dendritic nodes, and the length of the tree was the sum of all axonal length
@@ -1280,9 +1366,6 @@ Arbor densities of the dendrites was computed by projecting all the axonal
 convhull
 \emph default
 .
- The statistics for contra-only cells was computed after removing one outlier
- (Fig.
- 3C, purple cell) from the analysis.
  To infer the neurotransmitter identity from the stripe organization of
  the cell bodies, we annotated the location of all the cell bodies from
  a low-resolution stack.
@@ -1291,6 +1374,16 @@ convhull
  This process picked out the peaks that were visible in the EM images.
  The location of a stripe was defined as the local peak that emerged from
  the cell density projecting analysis.
+
+\change_inserted 78966105 1467917863
+ The planar organization of the postsynapses and presynapses were fit to
+ a plane using the 
+\emph on
+planefit 
+\emph default
+function, available on the Matlab central repositiry.
+
+\change_unchanged
  
 \begin_inset Newpage newpage
 \end_inset
