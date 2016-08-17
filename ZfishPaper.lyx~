@@ -632,7 +632,11 @@ key "Miri:2011ft"
 \begin_inset Formula $>0.6$
 \end_inset
 
-), the cell was identified as an integrator neuron (Fig.
+)
+\change_deleted 78966105 1470839269
+, the cell was identified as an integrator neuron
+\change_unchanged
+ (Fig.
  1A - b).
  This resulted in the identification of 22 integrator cells from 3 distinct
  imaging planes.
@@ -640,10 +644,20 @@ key "Miri:2011ft"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1470839357
 As seen by the average of the fluorescence response (Fig.
  1A- c), these cells have distinct, graded persistent activity during eye
  fixation.
- This persistent activity was quantified with a persistent firing metric,
+
+\change_inserted 78966105 1470839351
+ Integrator cells exhibited graded persisten activity during eye fixation
+ (Fig 1A - c).
+ 
+\change_deleted 78966105 1470839298
+ 
+\change_unchanged
+This persistent activity was quantified with a persistent firing metric,
  calculated as the area under an exponential fit to the firing rate profile
  determined from a deconvolution of the fluorescence data (methods).
 
@@ -727,16 +741,34 @@ revealed three
 \end_layout
 
 \begin_layout Subsection
+
+\change_deleted 78966105 1470253474
 Inferring neurotransmitter identity of integrator neurons
+\change_inserted 78966105 1470253585
+Stripe shaped patterning of somata in the hindbrain
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1470253616
 We attempted to infer neurotransmitter identity of the identified integrator
  cells based on their somatic locations.
- Cell bodies in the hindbrain of the larval zebrafish follow a stereotypic
- alternating stripes pattern of cell bodies and neuropil.
- Cells in the same stripe largely share the same neurotransmitter identity,
- and morphology 
+ 
+\change_unchanged
+Cell bodies in the hindbrain of the larval zebrafish follow 
+\change_deleted 78966105 1471397833
+a
+\change_unchanged
+ stereotypic alternating stripes pattern of cell bodies and neuropil.
+ Cells in the same stripe 
+\change_inserted 78966105 1471397848
+typically
+\change_deleted 78966105 1471397846
+largely
+\change_unchanged
+ share the same neurotransmitter identity, and morphology 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
@@ -745,15 +777,38 @@ key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
 
 .
  We projected the locations of all cell somata (Fig.
- 1D, '+' symbol) from the imaged area onto a single plane and noticed the
- emergence of alternating peaks of cell somata and neuropil, reminiscent
- of the stripe like pattern.
- We were able to locate 3 peaks, each corresponding to a likely stripe (Fig.
+ 1D, '
+\change_inserted 78966105 1471397864
+o
+\change_deleted 78966105 1471397863
++
+\change_unchanged
+' symbol) from the imaged area onto a single plane and noticed the emergence
+ of alternating peaks of cell somata and neuropil, reminiscent of the stripe
+ like pattern.
+ We were able to locate 3 peaks
+\change_inserted 78966105 1470253720
+, excluding a peak that corresponds to cells at the midline
+\change_unchanged
+, each corresponding to a likely stripe (Fig.
  1D, bottom panel).
+
+\change_inserted 78966105 1470254050
+ The three stripes were labeled based on their proximity to the midline,
+ as medial, intermediate and lateral peaks respectively.
+
+\change_deleted 78966105 1470253680
  Based on this, we inferred the putative neurotransmitter identity of the
  integrator cells.
- The medial most peak on the ipsilateral side overlaps with cells that were
- shown to express the 
+
+\change_unchanged
+ The medial most peak on the ipsilateral side overlaps with cells that 
+\change_deleted 78966105 1470253800
+were shown
+\change_inserted 78966105 1471397928
+are known
+\change_unchanged
+ to express the 
 \emph on
 alx 
 \emph default
@@ -765,8 +820,31 @@ key "Kimura:2006hd"
 \end_inset
 
 .
- Cells in this peak were previously shown to almost exclusively contain
- glutamatergic integrator cells 
+ 
+\change_deleted 78966105 1470253854
+Cells
+\change_inserted 78966105 1470253901
+Integrator neurons corresponding
+\change_unchanged
+ 
+\change_inserted 78966105 1470253908
+to
+\change_deleted 78966105 1470253865
+in
+\change_unchanged
+ this peak were previously shown to 
+\change_inserted 78966105 1470253879
+be 
+\change_unchanged
+almost exclusively 
+\change_deleted 78966105 1470253885
+contain
+\change_unchanged
+ glutamatergic 
+\change_deleted 78966105 1470253914
+integrator cells
+\change_unchanged
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -774,8 +852,13 @@ key "Lee:2015dv"
 \end_inset
 
 .
- The intermediate peak corresponds to cells shown to express the transcription
- factor 
+ The intermediate peak corresponds to cells 
+\change_deleted 78966105 1470253823
+shown
+\change_inserted 78966105 1471397951
+known
+\change_unchanged
+ to express the transcription factor 
 \emph on
 dbx1b 
 \emph default
@@ -791,9 +874,54 @@ key "Kinkhabwala:2011et"
 .
 
 \emph default
- Integrator cells with a majority expressing glutamate and some expressing
- GABA have been reported along this stripe, with the a preference for dorsal
- cells to be glutamatergic, and ventral cells expressing GABA 
+ 
+\change_inserted 78966105 1470253965
+The majoroty of i
+\change_deleted 78966105 1470253965
+I
+\change_unchanged
+ntegrator 
+\change_inserted 78966105 1470253972
+neurons
+\change_deleted 78966105 1470253969
+cells
+\change_inserted 78966105 1470253954
+ corresponding to this peak
+\change_deleted 78966105 1470253976
+ with a majority
+\change_unchanged
+ express
+\change_deleted 78966105 1470253978
+ing
+\change_unchanged
+ glutamate 
+\change_inserted 78966105 1471397974
+while a small fraction
+\change_deleted 78966105 1470253983
+and
+\change_unchanged
+ 
+\change_deleted 78966105 1471397981
+some
+\change_unchanged
+ express
+\change_deleted 78966105 1471397984
+ing
+\change_unchanged
+ GABA
+\change_inserted 78966105 1471398006
+,
+\change_unchanged
+ 
+\change_deleted 78966105 1471398010
+have been reported along this stripe,
+\change_unchanged
+ with 
+\change_deleted 78966105 1471398016
+the
+\change_unchanged
+ a preference for dorsal cells to be glutamatergic, and ventral cells expressing
+ GABA 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -1006,14 +1134,16 @@ Along the somatic membrane, a darkening of the membrane interrupted by small
  2B).
  The darkening persisted over multiple serial sections, suggesting that
  it was not an artifact of tissue preparation or imaging.
- We speculate that these darkenings are t
-\change_deleted 78966105 1467922663
-ight junctions, or electrical synapses
-\change_inserted 78966105 1467922784
-gap junctions
+ We speculate that these darkenings are 
+\change_inserted 78966105 1467997861
+gap junctions.
+
 \change_unchanged
-, which are known to exist in the developing larval zebrafish hindbrain
  
+\change_inserted 78966105 1468003466
+Gap junctions are
+\change_unchanged
+ known to exist in the developing larval zebrafish hindbrain 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Jabeen:2013fm"
