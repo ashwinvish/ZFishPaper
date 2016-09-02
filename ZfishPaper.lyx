@@ -217,8 +217,13 @@ key "Ahrens:2012ej"
 
 .
  However to understand the neuronal and network underpinnings of these behaviors
- we need approaches that connect neuronular function to anatomical structure
- .
+ we need approaches that connect neuron
+\change_inserted 78966105 1472828348
+al
+\change_deleted 78966105 1472828346
+ular
+\change_unchanged
+ function to anatomical structure.
  Recent developments in the mouse retina 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -233,10 +238,43 @@ key "Bock:2011fk,Lee:2016ti"
 
 \end_inset
 
-, using 3d electron microscopic reconstructions along with two-photon calcium
- imaging have offered an approch to link neuronular funciton to network
- structure.
- And that subtle diferences in spatial location of synaptic partners can
+, 
+\change_inserted 78966105 1472830962
+have used both two-photon calcium imaging and 
+\change_deleted 78966105 1472830955
+using 
+\change_unchanged
+3d electron microscopic reconstructions
+\change_deleted 78966105 1472831093
+ 
+\change_unchanged
+ to link neuron
+\change_inserted 78966105 1472830960
+al
+\change_deleted 78966105 1472828384
+ular
+\change_unchanged
+ funciton to network structure.
+ 
+\change_inserted 78966105 1472831010
+Such approaches have revealed
+\change_unchanged
+ 
+\change_inserted 78966105 1472831023
+the effect of 
+\change_unchanged
+subtle diferences 
+\change_inserted 78966105 1472831029
+of
+\change_deleted 78966105 1472831026
+in
+\change_unchanged
+ spatial location of synaptic partners 
+\change_inserted 78966105 1472831037
+to
+\change_deleted 78966105 1472831037
+can
+\change_unchanged
  underlie large changes in circuit function 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -245,10 +283,19 @@ key "Ding:2016id"
 \end_inset
 
 .
- Here we implement such and approach in the larval zebrafish to investigate
- the ultra-structure of neurons that generate persistent firing in a hindbrain
- neural circuit known as the "velocity-to-position neural integrator," or
- "neural integrator" for short 
+ Here we implement 
+\change_inserted 78966105 1472831048
+a similar 
+\change_deleted 78966105 1472831051
+such and
+\change_unchanged
+ approach in the larval zebrafish to investigate the 
+\change_deleted 78966105 1472831063
+ultra-
+\change_unchanged
+structure of neurons that generate persistent firing in a hindbrain neural
+ circuit known as the "velocity-to-position neural integrator," or "neural
+ integrator" for short 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Major:2004dk,Joshua:2015kx"
@@ -264,11 +311,30 @@ The neural integrator gets its name because the transformation of eye velocity
  into eye position is the computational operation of integration with respect
  to time.
  Integrator neurons are operationally defined as premotor neurons that carry
- a horizontal eye position signal in their spiking.
- (There is also an integrator for vertical eye movements, but it will not
- be discussed here.) Integrator neurons are thought to send their eye position
- signals through direct synapses onto extraocular motor neurons located
- in the abducens nucleus.
+ a horizontal eye position signal in their spiking
+\change_deleted 78966105 1472831151
+.
+
+\change_unchanged
+ (
+\change_inserted 78966105 1472831153
+t
+\change_deleted 78966105 1472831153
+T
+\change_unchanged
+here is also an integrator for vertical eye movements, but it will not be
+ discussed here
+\change_deleted 78966105 1472831156
+.
+\change_unchanged
+)
+\change_inserted 78966105 1472831157
+.
+
+\change_unchanged
+ Integrator neurons are thought to send their eye position signals through
+ direct synapses onto extraocular motor neurons located in the abducens
+ nucleus.
  They are also thought to receive inputs from multiple convergent pathways
  that encode eye velocity for every type of eye movement.
  Therefore, the neural integrator is the 
@@ -316,10 +382,21 @@ Previous attempts to understand how the integrator neurons transforms the
  'pulse' like eye velocity signals to a `step' like eye position output
  have relied on combining single-neuron electrophysiology with light-microscopic
  dye fills.
- Intraneuronular recording in goldfish hindbrain neurons that exhibited
- spiking correlated to eye position, followed by anatomical dye fill, show
- the axons of these neurons to send collaterals to areas where other integrator
- neurons were observed 
+ Intr
+\change_inserted 78966105 1472831536
+acellular
+\change_unchanged
+ recording
+\change_inserted 78966105 1472831544
+s
+\change_unchanged
+ in goldfish hindbrain neurons that exhibited spiking correlated to eye
+ position, followed by anatomical dye fill
+\change_inserted 78966105 1472831557
+s
+\change_unchanged
+, show the axons of these neurons to send collaterals to areas where other
+ integrator neurons were observed 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Aksay:2000cn"
@@ -346,15 +423,22 @@ key "Steiger:1979ev"
  can be setup by recurrent excitation between these neurons 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Kamath:1976jm,seung_how_1996,Seung:2000kl,fisher_modeling_2013"
+key "Kamath:1976jm,seung_how_1996,Seung:2000kl,fisher_modeling_2013,goncalves_optogenetic_2014"
 
 \end_inset
 
 .
- More recent high throughput methods have relied on two-photon calcium imaging
- to identify many integrator neurons followed by sparse, targeted single
- neuron electroporation of fluorescent indicators for anatomical reconstruction
+ More recent 
+\change_deleted 78966105 1472831873
+high throughput
+\change_unchanged
  
+\change_inserted 78966105 1472831834
+imaging 
+\change_unchanged
+methods have relied on two-photon calcium imaging to identify many integrator
+ neurons followed by sparse, targeted single neuron electroporation of fluoresce
+nt indicators for anatomical reconstruction 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -365,7 +449,13 @@ key "Lee:2015dv"
  While these studies have delineated the arborization and projection patterns
  of integrator neurons, they were limited to one or a few neurons in any
  individual brain and do not reveal locations and the distributions of their
- input and outpus synapses.
+ input and outpu
+\change_inserted 78966105 1472831910
+t
+\change_deleted 78966105 1472831910
+s
+\change_unchanged
+ synapses.
  And although, the axonal projections could potentially contact dendrites
  of other integrator neurons, conclusive evidence for contact and synapses
  has been lacking.
@@ -383,21 +473,11 @@ We combined two-photon calcium imaging of neurons in a behaving fish to
  axons at rostro-medial locations that are thought to be excitatory, and
  neurons with contralaterally projecting axons at medio-caudal locations
  that are thought to be inhibitory.
- In addition, we found neurons at the lateral most edge of the volume, for
- which we could not identify an axon and a small subset of previously unreported
- integrator neurons with both ipsilateral and contralateral axonal projections.
- We identified chemical synapses in our images by the existence of presynaptic
- vesicles and postsynaptic densities.
- All chemical synapses involving integrator neurons largely contained small
- vesicles, suggesting the presence of conventional rather than peptidergic
- neurotransmitters.
- The neurotransmitter identity of the neurons was inferred based on the
- organization of
-\change_deleted 78966105 1472672378
  
-\change_unchanged
- somata in the hindbrain into 'stripes' that correspond closely to alternating
- excitatory and inhibitory pools of neurons 
+\change_inserted 78966105 1472832043
+The neurotransmitter identity of the neurons was inferred based on the organizat
+ion of somata in the hindbrain into 'stripes' that correspond closely to
+ alternating excitatory and inhibitory pools of neurons 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
@@ -405,9 +485,50 @@ key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
 \end_inset
 
 .
- Finally we report evidence for direct synaptic connectivity between ipsilateral
-ly projecting neurons and ipsilateral and contralateral projecting integrator
- neurons.
+ 
+\change_unchanged
+In addition, we found neurons at the lateral most edge of the volume, for
+ which we could not identify an axon
+\change_inserted 78966105 1472831990
+,
+\change_unchanged
+ and a small subset of previously unreported integrator neurons with both
+ ipsilateral and contralateral axonal projections.
+ We identified 
+\change_inserted 78966105 1472832010
+all 
+\change_unchanged
+chemical synapses in our images by the existence of presynaptic vesicles
+ and postsynaptic densities.
+ All chemical synapses involving integrator neurons largely contained small
+ vesicles, suggesting the presence of conventional rather than peptidergic
+ neurotransmitters.
+ 
+\change_deleted 78966105 1472832039
+The neurotransmitter identity of the neurons was inferred based on the organizat
+ion of  somata in the hindbrain into 'stripes' that correspond closely to
+ alternating excitatory and inhibitory pools of neurons 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
+
+\end_inset
+
+.
+ 
+\change_unchanged
+Finally we report evidence for direct synaptic connectivity between ipsilaterall
+y projecting 
+\change_inserted 78966105 1472832061
+integrator 
+\change_unchanged
+neurons 
+\change_inserted 78966105 1472832067
+to other
+\change_deleted 78966105 1472832065
+and
+\change_unchanged
+ ipsilateral and contralateral projecting integrator neurons.
  Our work is the first application of this approach to a population of neurons
  defined by their encoding of behavioral variables, rather than stimulus
  variables.
@@ -1302,7 +1423,13 @@ m, and they occupied on average ~4.9% of the total volume (Sup.
 \end_layout
 
 \begin_layout Subsection
+
+\change_deleted 78966105 1472751955
 Numbers and distribution of synapses 
+\change_inserted 78966105 1472751969
+Organization of integrator neuron synapses
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
