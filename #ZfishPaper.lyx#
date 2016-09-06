@@ -198,32 +198,24 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-The larval zebrafish is an important model organism for investigating the
- relation between neural circuits and behavior 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Friedrich:2010hj"
 
-\end_inset
+\change_inserted 78966105 1473127399
+Understanding the neuronal and network underpinnings of persistent activity
+ in the nervous system has been hindered by a limited set approaches for
+ connecting cellular and circuit structure with global function.
+ Recent developments in analysis of neurons and neural circuits using electron
+ microscopy have opened new avenues for delineating such links.
+ Combining high-resolution two-photon imaging of calcium signals reporting
+ persistent activity with serial section electron microscpy (ssEM), could
+ greatly accelerate our understanding of persistent firing.
 
-.
- It is now possible to image the neural activity in the whole animal via
- calcium imaging and correlate them with a variety of behaviors 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Ahrens:2012ej"
-
-\end_inset
-
-.
- However to understand the neuronal and network underpinnings of these behaviors
- we need approaches that connect neuron
-\change_inserted 78966105 1472828348
-al
-\change_deleted 78966105 1472828346
-ular
 \change_unchanged
- function to anatomical structure.
+ 
+\change_deleted 78966105 1473127404
+However to understand the neuronal and network underpinnings of these behaviors
+ we need approaches that connect neuronular function to anatomical structure.
+
+\change_unchanged
  Recent developments in the mouse retina 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -254,7 +246,11 @@ al
 \change_deleted 78966105 1472828384
 ular
 \change_unchanged
- funciton to network structure.
+ funciton to 
+\change_inserted 78966105 1473127076
+circuit
+\change_unchanged
+ structure.
  
 \change_inserted 78966105 1472831010
 Such approaches have revealed
@@ -304,6 +300,26 @@ key "Major:2004dk,Joshua:2015kx"
 
 .
  
+\change_inserted 78966105 1473127335
+The larval zebrafish is an important model organism for investigating the
+ relation between neural circuits and behavior 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Friedrich:2010hj"
+
+\end_inset
+
+, and offers the ability to image the neural activity of the whole animal
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ahrens:2012ej"
+
+\end_inset
+
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -518,8 +534,17 @@ key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
  
 \change_unchanged
 Finally we report evidence for direct synaptic connectivity between ipsilaterall
-y projecting neurons and ipsilateral and contralateral projecting integrator
- neurons.
+y projecting 
+\change_inserted 78966105 1472832061
+integrator 
+\change_unchanged
+neurons 
+\change_inserted 78966105 1472832067
+to other
+\change_deleted 78966105 1472832065
+and
+\change_unchanged
+ ipsilateral and contralateral projecting integrator neurons.
  Our work is the first application of this approach to a population of neurons
  defined by their encoding of behavioral variables, rather than stimulus
  variables.
