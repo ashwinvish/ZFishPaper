@@ -198,33 +198,15 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-The larval zebrafish is an important model organism for investigating the
- relation between neural circuits and behavior 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Friedrich:2010hj"
-
-\end_inset
-
-.
- It is now possible to image the neural activity in the whole animal via
- calcium imaging and correlate them with a variety of behaviors 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Ahrens:2012ej"
-
-\end_inset
-
-.
- However to understand the neuronal and network underpinnings of these behaviors
- we need approaches that connect neuron
-\change_inserted 78966105 1472828348
-al
-\change_deleted 78966105 1472828346
-ular
-\change_unchanged
- function to anatomical structure.
- Recent developments in the mouse retina 
+Understanding the neuronal and network underpinnings of persistent activity
+ in the nervous system has been hindered by a limited set approaches for
+ connecting cellular and circuit structure with global function.
+ Recent developments in analysis of neurons and neural circuits using electron
+ microscopy have opened new avenues for delineating such links.
+ Combining high-resolution two-photon imaging of calcium signals reporting
+ persistent activity with serial section electron microscpy (ssEM), could
+ greatly accelerate our understanding of persistent firing.
+ In the mouse retina 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Briggman:2011ct"
@@ -238,44 +220,10 @@ key "Bock:2011fk,Lee:2016ti"
 
 \end_inset
 
-, 
-\change_inserted 78966105 1472830962
-have used both two-photon calcium imaging and 
-\change_deleted 78966105 1472830955
-using 
-\change_unchanged
-3d electron microscopic reconstructions
-\change_deleted 78966105 1472831093
+, such methods have been used to to link neuronal funciton to circuit structure.
+ Such approaches have also revealed the effect of subtle diferences in spatial
+ location of synaptic partners to underlie large changes in circuit function
  
-\change_unchanged
- to link neuron
-\change_inserted 78966105 1472830960
-al
-\change_deleted 78966105 1472828384
-ular
-\change_unchanged
- funciton to network structure.
- 
-\change_inserted 78966105 1472831010
-Such approaches have revealed
-\change_unchanged
- 
-\change_inserted 78966105 1472831023
-the effect of 
-\change_unchanged
-subtle diferences 
-\change_inserted 78966105 1472831029
-of
-\change_deleted 78966105 1472831026
-in
-\change_unchanged
- spatial location of synaptic partners 
-\change_inserted 78966105 1472831037
-to
-\change_deleted 78966105 1472831037
-can
-\change_unchanged
- underlie large changes in circuit function 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Ding:2016id"
@@ -283,19 +231,10 @@ key "Ding:2016id"
 \end_inset
 
 .
- Here we implement 
-\change_inserted 78966105 1472831048
-a similar 
-\change_deleted 78966105 1472831051
-such and
-\change_unchanged
- approach in the larval zebrafish to investigate the 
-\change_deleted 78966105 1472831063
-ultra-
-\change_unchanged
-structure of neurons that generate persistent firing in a hindbrain neural
- circuit known as the "velocity-to-position neural integrator," or "neural
- integrator" for short 
+ Here we implement a similar approach in the larval zebrafish to investigate
+ the structure of neurons that generate persistent firing in a hindbrain
+ neural circuit known as the "velocity-to-position neural integrator," or
+ "neural integrator" for short 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Major:2004dk,Joshua:2015kx"
@@ -303,7 +242,23 @@ key "Major:2004dk,Joshua:2015kx"
 \end_inset
 
 .
+ The larval zebrafish is an important model organism for investigating the
+ relation between neural circuits and behavior 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Friedrich:2010hj"
+
+\end_inset
+
+, and offers the ability to image the neural activity of the whole animal
  
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ahrens:2012ej"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -382,21 +337,10 @@ Previous attempts to understand how the integrator neurons transforms the
  'pulse' like eye velocity signals to a `step' like eye position output
  have relied on combining single-neuron electrophysiology with light-microscopic
  dye fills.
- Intr
-\change_inserted 78966105 1472831536
-acellular
-\change_unchanged
- recording
-\change_inserted 78966105 1472831544
-s
-\change_unchanged
- in goldfish hindbrain neurons that exhibited spiking correlated to eye
- position, followed by anatomical dye fill
-\change_inserted 78966105 1472831557
-s
-\change_unchanged
-, show the axons of these neurons to send collaterals to areas where other
- integrator neurons were observed 
+ Intracellular recordings in goldfish hindbrain neurons that exhibited spiking
+ correlated to eye position, followed by anatomical dye fills, show the
+ axons of these neurons to send collaterals to areas where other integrator
+ neurons were observed 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Aksay:2000cn"
@@ -428,17 +372,13 @@ key "Kamath:1976jm,seung_how_1996,Seung:2000kl,fisher_modeling_2013,goncalves_op
 \end_inset
 
 .
- More recent 
-\change_deleted 78966105 1472831873
-high throughput
-\change_unchanged
+ More recent
+\change_deleted 78966105 1473127724
  
-\change_inserted 78966105 1472831834
-imaging 
 \change_unchanged
-methods have relied on two-photon calcium imaging to identify many integrator
- neurons followed by sparse, targeted single neuron electroporation of fluoresce
-nt indicators for anatomical reconstruction 
+ imaging methods have relied on two-photon calcium imaging to identify many
+ integrator neurons followed by sparse, targeted single neuron electroporation
+ of fluorescent indicators for anatomical reconstruction 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -449,13 +389,7 @@ key "Lee:2015dv"
  While these studies have delineated the arborization and projection patterns
  of integrator neurons, they were limited to one or a few neurons in any
  individual brain and do not reveal locations and the distributions of their
- input and outpu
-\change_inserted 78966105 1472831910
-t
-\change_deleted 78966105 1472831910
-s
-\change_unchanged
- synapses.
+ input and output synapses.
  And although, the axonal projections could potentially contact dendrites
  of other integrator neurons, conclusive evidence for contact and synapses
  has been lacking.
@@ -503,22 +437,8 @@ chemical synapses in our images by the existence of presynaptic vesicles
  All chemical synapses involving integrator neurons largely contained small
  vesicles, suggesting the presence of conventional rather than peptidergic
  neurotransmitters.
- 
-\change_deleted 78966105 1472832039
-The neurotransmitter identity of the neurons was inferred based on the organizat
-ion of  somata in the hindbrain into 'stripes' that correspond closely to
- alternating excitatory and inhibitory pools of neurons 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
-
-\end_inset
-
-.
- 
-\change_unchanged
-Finally we report evidence for direct synaptic connectivity between ipsilaterall
-y projecting 
+ Finally we report evidence for direct synaptic connectivity between ipsilateral
+ly projecting 
 \change_inserted 78966105 1472832061
 integrator 
 \change_unchanged
@@ -645,8 +565,11 @@ Stripe shaped patterning of somata in the hindbrain
 \end_layout
 
 \begin_layout Standard
-Cell bodies in the hindbrain of the larval zebrafish follow a stereotypicstripe
- like pattern of alternating cell bodies and neuropil.
+Cell bodies in the hindbrain of the larval zebrafish follow a stereotypic
+\change_inserted 78966105 1473267571
+ 
+\change_unchanged
+stripe like pattern of alternating cell bodies and neuropil.
  Cells within the same stripe typically share the same neurotransmitter
  identity, and morphology 
 \begin_inset CommandInset citation
@@ -704,9 +627,26 @@ key "Kinkhabwala:2011et"
 .
 
 \emph default
- The majoroty of integrator neurons in this peak express glutamate, while
- a small fraction express GABA, with neurons at dorsal locations more likely
- s to be glutamatergic, and at locations expressing GABA 
+ The majoroty of integrator neurons in this peak express 
+\change_deleted 78966105 1473267747
+glutamate
+\change_inserted 78966105 1473267755
+GABA and glycine
+\change_unchanged
+, while a small 
+\change_deleted 78966105 1473267761
+fraction
+\change_inserted 78966105 1473267776
+minotiry known to
+\change_unchanged
+ express 
+\change_inserted 78966105 1473267785
+glutamate
+\change_deleted 78966105 1473267781
+GABA
+\change_unchanged
+, with neurons at dorsal locations more likely s to be glutamatergic, and
+ at locations expressing GABA 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -771,17 +711,48 @@ Somata
 \end_layout
 
 \begin_layout Standard
-The soma locations of the 22 integrator neurons ended up in three loosely
- observed groups.
- These neurons were distributed over ~23 µm in the dorsoventral axis and
- the entire rostrocaudal extent of the imaged volume.
- The first group of neurons was located very close to the midline and at
- the rostral edge of the imaged volume, very close to the border of rhombomeres
- 6,7 The second group of neurons was located at the caudal end of the imaged
- volume, lateral to the first group of neurons, located in rhombomere 8,
- roughly between myotomes 1,2.
- A third loose group of neurons was located at the lateral end of the volume
- in rhombomere 8.
+The soma
+\change_inserted 78966105 1473267899
+tic
+\change_unchanged
+ locations of the 22 integrator neurons
+\change_deleted 78966105 1473267904
+ ended up in three loosely observed groups.
+ These neurons
+\change_unchanged
+ were distributed over ~23 µm in the dorsoventral axis and 
+\change_inserted 78966105 1473267916
+along 
+\change_unchanged
+the entire rostrocaudal extent of the imaged volume.
+ 
+\change_inserted 78966105 1473267929
+A subset of these
+\change_deleted 78966105 1473267922
+The
+\change_unchanged
+ 
+\change_deleted 78966105 1473267933
+first group of
+\change_unchanged
+ neurons was located very close to the midline and at the rostral edge of
+ the imaged volume, very close to the border of rhombomeres 6,7 
+\change_inserted 78966105 1473267979
+and 
+\change_deleted 78966105 1473267982
+The second group of neurons was located
+\change_unchanged
+ at the caudal end of the imaged volume, located in rhombomere 8, roughly
+ between myotomes 1,2.
+ A
+\change_inserted 78966105 1473268042
+nother subset of
+\change_unchanged
+ 
+\change_deleted 78966105 1473268047
+third loose group of 
+\change_unchanged
+neurons was located at the lateral end of the volume in rhombomere 8.
  .
  The diameters of the integrator neurons were normally distributed, with
  a mean of 
@@ -863,7 +834,11 @@ Integrator postsynaptic sites
 
 \begin_layout Standard
 The postsynaptic densities were observed as a darkening of the membrane,
- indicative of more electron dense regions.
+ indicative of more electron dense regions
+\change_inserted 78966105 1473446878
+, corresponding to more protein density
+\change_unchanged
+.
  The number of postsynaptic sites on a neuron averaged 
 \begin_inset Formula $101\pm74$
 \end_inset
@@ -997,6 +972,53 @@ key "Rosenbluth:1961gl"
 
 .
  
+\change_inserted 78966105 1473446991
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1473447158
+In 10/22 (45%) integrator neurons the presence of a contralaterally projecting
+ axons was identified.
+ Because neurites in the contralateral hindbrain were not reconstructed,
+ we relied on several other features to axon determination First the putative
+ axons were devoid of any postsynaptic sites on the ipsilateral side.
+ Secondly, before crossing the midline, the putative axon became engulfed
+ by processes that appeared glial in nature (Fig.
+ 2 C,D).
+ Thirdly, these putative axons were thinner than the remaining neurites
+ of the neuron.
+ These are features typical of axons.
+ The lack of presynaptic sites on these putative axons is similar to the
+ initial segment of conventional axons that were identified by the presence
+ of vesicles, where no presynaptic terminals in the proximal part of the
+ axon were observed, and presynaptic sites emerged only distally.
+ The glial engulfment is consistent with the idea of `glial bridges` that
+ are instrumental in the guidance of axons during development 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Barresi:2005iw"
+
+\end_inset
+
+.
+ Finally, the diameter of these putative axons were smaller to the other
+ neurites and were similar to the diameters of conventional axons (Sup.
+ Fig.
+ 1C).
+ The mean axonal diameter was less than the mean dendrite diameter, conforming
+ to the textbook notion that axons are thinner than dendrites (addressed
+ later).
+ All but one integrator neuron with contralaterally projecting putative
+ axons did not emerge from the somata of the neuron.
+ Instead, the initial zone of these putative axons contained postsynaptic
+ sites (Fig.
+ 2 C,D).
+ Furthermore, since neurite diameters are close to the diffraction limit,
+ light microscopic estimation of neurite diameters could be inaccurate.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1090,34 +1112,22 @@ as
  They were identified not based on the presence of vesicles opposed to post-syna
 ptic densities, instead they were identified by non-conventional anatomical
  features.
- The features were as follows, firstly the putative axons were devoid of
- any postsynaptic sites on the ipsilateral side.
+ The features were as follows, 
+\change_deleted 78966105 1473447011
+firstly the putative axons were devoid of any postsynaptic sites on the
+ ipsilateral side.
  Secondly, before crossing the midline, the putative axon became engulfed
  by processes that appeared glial in nature (Fig.
  2 C,D).
- Thirdly, these putative axons were 
-\change_inserted 78966105 1472673975
-thinner
-\change_unchanged
- than the remaining neurites of the neuron.
+ Thirdly, these putative axons were  than the remaining neurites of the
+ neuron.
  These are features typical of axons.
  The lack of presynaptic sites on these putative axons is similar to the
- initial segment of 
-\change_inserted 78966105 1472674023
-conventional 
-\change_unchanged
-axons that were identified by the presence of vesicles, where no presynaptic
- terminals in the proximal part of the axon were observed, and presynaptic
- sites emerged only distally.
- The glial engulfment is consistent with the idea of 
-\change_inserted 78966105 1472674038
-`
-\change_unchanged
-glial bridges
-\change_inserted 78966105 1472674040
-`
-\change_unchanged
- that are instrumental in the guidance of axons during development 
+ initial segment of axons that were identified by the presence of vesicles,
+ where no presynaptic terminals in the proximal part of the axon were observed,
+ and presynaptic sites emerged only distally.
+ The glial engulfment is consistent with the idea of glial bridges that
+ are instrumental in the guidance of axons during development 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Barresi:2005iw"
@@ -1134,18 +1144,13 @@ key "Barresi:2005iw"
  later).
  All but one integrator neuron with contralaterally projecting putative
  axons did not emerge from the somata of the neuron.
- Instead, the initial zone of the
-\change_inserted 78966105 1472674111
-se
-\change_unchanged
- putative axon
-\change_inserted 78966105 1472674114
-s
-\change_unchanged
- contained postsynaptic sites (Fig.
+ Instead, the initial zone of the putative axon contained postsynaptic sites
+ (Fig.
  2 C,D).
  Furthermore, since neurite diameters are close to the diffraction limit,
  light microscopic estimation of neurite diameters could be inaccurate.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
