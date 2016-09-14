@@ -1457,10 +1457,6 @@ ly more than the number of synapses on the `contra' group of neurons (
 \begin_inset Formula $p=0.008,$
 \end_inset
 
-
-\change_inserted 78966105 1473713548
- 
-\change_unchanged
 Wilcoxon-rank test).
  We then computed the pathlength
 \change_deleted 78966105 1472675614
@@ -1564,9 +1560,9 @@ The dendrites of the neurons form the ipsi and contra groups were observed
 \begin_layout Standard
 The dendrites arbors of the neurons in these two groups displayed an inversion
  in the stratification depths.
- The dendritic arbors of the ipsi neurons peaked
-\change_deleted 78966105 1473713616
- 
+ The dendritic arbors of the ipsi neurons peaked 
+\change_deleted 78966105 1473692610
+a
 \change_unchanged
  at a depth of 
 \begin_inset Formula $38.9\pm8.3$
@@ -1583,9 +1579,14 @@ The dendrites arbors of the neurons in these two groups displayed an inversion
  Interestingly, when the peak locations of all neuron somata in the imaged
  volume is overlaid with the stratification profiles of the dendrites, we
  see that the dendrites and axons of the ipsi group projected arbors that
- overlapped with neurons along the medial and lateral most peaks, whereas
- the dendrites of the contra group were located very close the intermediate
- peak of somata.
+ overlapped with neurons along the medial and lateral most peaks
+\change_inserted 78966105 1473692631
+, w
+\change_deleted 78966105 1473692630
+W
+\change_unchanged
+hereas the dendrites of the contra group were located very close the intermediat
+e peak of somata.
  
 \end_layout
 

@@ -978,15 +978,16 @@ key "Rosenbluth:1961gl"
 
 \begin_layout Standard
 
-\change_inserted 78966105 1473447158
+\change_inserted 78966105 1473447547
 In 10/22 (45%) integrator neurons the presence of a contralaterally projecting
  axons was identified.
  Because neurites in the contralateral hindbrain were not reconstructed,
  we relied on several other features to axon determination First the putative
- axons were devoid of any postsynaptic sites on the ipsilateral side.
+ axons were devoid of any postsynaptic sites on the ipsilateral side (Fig.
+ 2D soma to axon initiation site, open arrow).
  Secondly, before crossing the midline, the putative axon became engulfed
  by processes that appeared glial in nature (Fig.
- 2 C,D).
+ 2 C,D, EM inset G).
  Thirdly, these putative axons were thinner than the remaining neurites
  of the neuron.
  These are features typical of axons.
@@ -1008,13 +1009,12 @@ key "Barresi:2005iw"
  Fig.
  1C).
  The mean axonal diameter was less than the mean dendrite diameter, conforming
- to the textbook notion that axons are thinner than dendrites (addressed
- later).
+ to the textbook notion that axons are thinner than dendrites.
  All but one integrator neuron with contralaterally projecting putative
  axons did not emerge from the somata of the neuron.
  Instead, the initial zone of these putative axons contained postsynaptic
  sites (Fig.
- 2 C,D).
+ 2D).
  Furthermore, since neurite diameters are close to the diffraction limit,
  light microscopic estimation of neurite diameters could be inaccurate.
 \change_unchanged
@@ -1095,27 +1095,21 @@ B)
 \end_layout
 
 \begin_layout Subsubsection*
+
+\change_deleted 78966105 1473692499
 Putative axons
 \end_layout
 
 \begin_layout Standard
-For some of the integrator neurons 
-\change_inserted 78966105 1472672759
-a
-\change_unchanged
- putative axon w
-\change_inserted 78966105 1472672767
-as
-\change_unchanged
- identified.
+
+\change_deleted 78966105 1473692499
+For some of the integrator neurons  putative axon w identified.
  All putative axons crossed the midline at locations ventral to the somata.
  They were identified not based on the presence of vesicles opposed to post-syna
 ptic densities, instead they were identified by non-conventional anatomical
  features.
- The features were as follows, 
-\change_deleted 78966105 1473447011
-firstly the putative axons were devoid of any postsynaptic sites on the
- ipsilateral side.
+ The features were as follows, firstly the putative axons were devoid of
+ any postsynaptic sites on the ipsilateral side.
  Secondly, before crossing the midline, the putative axon became engulfed
  by processes that appeared glial in nature (Fig.
  2 C,D).
@@ -1463,6 +1457,10 @@ ly more than the number of synapses on the `contra' group of neurons (
 \begin_inset Formula $p=0.008,$
 \end_inset
 
+
+\change_inserted 78966105 1473713548
+ 
+\change_unchanged
 Wilcoxon-rank test).
  We then computed the pathlength
 \change_deleted 78966105 1472675614
@@ -1496,66 +1494,24 @@ We further computed the synaptic density, the number of synapses per unit
  (Sup.
  Fig.
  5A).
- We found 
-\change_deleted 78966105 1472677024
-that
-\change_unchanged
- the 
-\change_deleted 78966105 1472677012
-average
-\change_inserted 78966105 1472677057
-median number of postsynaptic sites (inputs) every micron for
-\change_unchanged
- the 
-\change_inserted 78966105 1472677044
-`
-\change_unchanged
-ipsi
-\change_inserted 78966105 1472677044
-'
-\change_deleted 78966105 1472675744
-.
-
-\change_unchanged
- group of neurons 
-\change_deleted 78966105 1472677061
-had
-\change_inserted 78966105 1472677061
-was
-\change_unchanged
- 
-\begin_inset Formula $0.43\:\mu m$
+ We found the there were 
+\begin_inset Formula $1.5\times$
 \end_inset
 
-
-\change_deleted 78966105 1472677073
- postsynaptic sites (inputs) every micron
-\change_unchanged
-, where as 
-\change_inserted 78966105 1472677079
-for 
-\change_unchanged
-the `contra' group of neurons
-\change_inserted 78966105 1472677085
- it was
-\change_deleted 78966105 1472677128
- had
-\change_unchanged
+ more input synapses onthe `ipsi' group of neurons, as compared to the inputs
+ on the `contra' group of neurons ( `ipsi' group median number
+\change_inserted 78966105 1473713451
  
+\change_unchanged
+
+\begin_inset Formula $0.43$
+\end_inset
+
+ inputs per micron, `contra' group 
 \begin_inset Formula $0.27$
 \end_inset
 
- postsynaptic sites 
-\change_deleted 78966105 1472677135
-(inputs)
-\change_unchanged
- every micron
-\change_inserted 78966105 1472677153
-, or 1.5 less number of inputs
-\change_deleted 78966105 1472677139
- 
-\change_unchanged
-(Fig.
+ input per micron, Fig.
  3D, top, 
 \begin_inset Formula $p=0.059,$
 \end_inset
@@ -1608,7 +1564,11 @@ The dendrites of the neurons form the ipsi and contra groups were observed
 \begin_layout Standard
 The dendrites arbors of the neurons in these two groups displayed an inversion
  in the stratification depths.
- The dendritic arbors of the ipsi neurons peaked a at a depth of 
+ The dendritic arbors of the ipsi neurons peaked
+\change_deleted 78966105 1473713616
+ 
+\change_unchanged
+ at a depth of 
 \begin_inset Formula $38.9\pm8.3$
 \end_inset
 
@@ -1623,7 +1583,7 @@ The dendrites arbors of the neurons in these two groups displayed an inversion
  Interestingly, when the peak locations of all neuron somata in the imaged
  volume is overlaid with the stratification profiles of the dendrites, we
  see that the dendrites and axons of the ipsi group projected arbors that
- overlapped with neurons along the medial and lateral most peaksWhereas
+ overlapped with neurons along the medial and lateral most peaks, whereas
  the dendrites of the contra group were located very close the intermediate
  peak of somata.
  
@@ -1868,10 +1828,21 @@ key "Daie:2015fd"
  neurons in our sample.
  Second, there are integrator neurons outside the imaged volume, and they
  could receive synapses from our reconstructed integrator neurons.
- (Only three axonal arbors were fully or mostly reconstructed; the rest
- appeared substantially cut off as their axons left the volume.) Third, we
- had no possibility of finding connections between neurons on opposite sides
- of the brain, because only one side of the brain was imaged.
+ 
+\change_deleted 78966105 1473692752
+(
+\change_unchanged
+Only three axonal arbors were fully or mostly reconstructed; the rest appeared
+ substantially cut off as their axons left the volume
+\change_inserted 78966105 1473692892
+, this is also evidennced by the fact that only two of eigth ipsilaterally
+ projecting axons project to the abducens motor nuclei, contrary to dye
+ fill experiments, where all ipsilateral axons project to the abducens.
+\change_deleted 78966105 1473692769
+.)
+\change_unchanged
+ Third, we had no possibility of finding connections between neurons on
+ opposite sides of the brain, because only one side of the brain was imaged.
  Therefore, it is difficult to know whether the single neuron that made
  synapses onto other integrator neurons is an exceptional case, or a representat
 ive of a larger population that was incompletely sampled.
@@ -1881,10 +1852,30 @@ ive of a larger population that was incompletely sampled.
 
 \change_deleted 78966105 1472672378
  
+\change_inserted 78966105 1473693141
+Here we presented ultrastructural anatomical details of differenent types
+ of integrator neurons and evidene of synaptic connectivity between these
+ neurons.
+ 
 \change_unchanged
 What remains unknown are the presynaptic partners of these neurons, and
- how do they influence the function of the integrator neuron, whether and
- if there are preferred locations on the dendrite from specific neurons.
+ how do they influence the function of the integrator neuron
+\change_inserted 78966105 1473693180
+.
+\change_deleted 78966105 1473693179
+,
+\change_unchanged
+ 
+\change_inserted 78966105 1473693181
+W
+\change_deleted 78966105 1473693181
+w
+\change_unchanged
+hether and if there are preferred locations on the dendrite 
+\change_inserted 78966105 1473693192
+of integrator neurons 
+\change_unchanged
+from specific neurons.
  More definitive information about connectivity patterns between integrator
  neurons awaits a future experiment with an imaged volume that is large
  enough to encompass all integrator neurons, and a fluorescent calcium indicator
