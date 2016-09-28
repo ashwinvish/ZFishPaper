@@ -1,9 +1,7 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
-\save_transient_properties true
-\origin unavailable
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
@@ -11,16 +9,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "times" "default"
-\font_sans "default" "default"
-\font_typewriter "default" "default"
-\font_math "auto" "auto"
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
 \font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100 100
-\font_tt_scale 100 100
+\font_sf_scale 100
+\font_tt_scale 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -385,10 +383,6 @@ standard deveation.
 \end_inset
 
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -507,8 +501,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="9">
-<features tabularvalignment="middle">
+<lyxtabular version="3" rows="5" columns="8">
+<features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="middle" width="2cm">
 <column alignment="center" valignment="middle" width="1cm">
 <column alignment="center" valignment="middle" width="2.5cm">
@@ -517,7 +511,6 @@ status open
 <column alignment="center" valignment="middle" width="1.75cm">
 <column alignment="center" valignment="middle" width="1.75cm">
 <column alignment="center" valignment="middle" width="1.75cm">
-<column alignment="center" valignment="middle" width="2.5cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -618,7 +611,7 @@ Axon diameters
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -627,21 +620,6 @@ Dendrite diameter
 
 \begin_layout Plain Layout
 (
-\begin_inset Formula $\mu m$
-\end_inset
-
-)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1475002653
-Axon initiation site (
 \begin_inset Formula $\mu m$
 \end_inset
 
@@ -731,25 +709,11 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $0.25\pm0.15$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 78966105 1475002715
-\begin_inset Formula $36.68\pm12.74$
+\begin_inset Formula $0.25\pm0.15$
 \end_inset
 
 
@@ -837,25 +801,11 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $0.21\pm0.12$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 78966105 1475002761
-\begin_inset Formula $29.21\pm8.06$
+\begin_inset Formula $0.21\pm0.12$
 \end_inset
 
 
@@ -944,25 +894,11 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $0.22\pm0.12$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 78966105 1475002791
-\begin_inset Formula $12.89\pm6.07$
+\begin_inset Formula $0.22\pm0.12$
 \end_inset
 
 
@@ -1044,24 +980,13 @@ NA
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 \begin_inset Formula $0.22\pm0.12$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1475002605
 
 \end_layout
 
