@@ -103,6 +103,10 @@ Ashwin Vishwanathan,
 \begin_inset Formula $^{4}$
 \end_inset
 
+
+\change_inserted 78966105 1475437182
+ 
+\change_unchanged
 Emre Aksay,
 \begin_inset Formula $^{3}$
 \end_inset
@@ -365,7 +369,13 @@ We combined two-photon calcium imaging in a behaving fish to identify neurons
 \change_inserted 78966105 1475095386
  
 \change_unchanged
-We subsequently reconstructed the same neurons using serial electron microscopy.
+We 
+\change_inserted 78966105 1475251420
+then
+\change_deleted 78966105 1475251425
+subsequently
+\change_unchanged
+ reconstructed the same neurons using serial electron microscopy.
  We found evidence for multiple classes of neurons within the integrator
  population based on differences in dendritic arborization, axonal projections
  and synaptic distributions.
@@ -423,11 +433,8 @@ ic vesicles and postsynaptic densities.
 \change_unchanged
  contained small vesicles, suggesting the presence of conventional rather
  than peptidergic neurotransmitters.
- Finally we report evidence for direct synaptic connectivity between
-\change_deleted 78966105 1474854856
-  
-\change_unchanged
- integrator neurons.
+ Finally we report evidence for direct synaptic connectivity between integrator
+ neurons.
  
 \end_layout
 
@@ -463,13 +470,39 @@ add age here
  Green BAPTA 1-AM.
  [describe imaging plane specs here, focused on left side where loading
  was best].
- Following functional imaging, we imaged the entire hindbrain of the animal
+ 
+\change_deleted 78966105 1475169671
+Following functional imaging, we imaged the entire hindbrain of the animal
  with optical sections that were 1 
 \begin_inset Formula $\mu$
 \end_inset
 
 m apart, producing a light microscopic volume (LM volume).
- Calcium signals were correlated with eye position to identify integrator
+ 
+\change_inserted 78966105 1475169671
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1475169671
+Following functional imaging, we imaged the entire hindbrain of the animal
+ with optical sections that were 1 
+\begin_inset Formula $\mu$
+\end_inset
+
+m apart, producing a light microscopic volume (LM volume).
+ 
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+Calcium signals were correlated with eye position to identify integrator
  somata from the imaged planes (Fig.
  1A) 
 \begin_inset CommandInset citation
@@ -479,7 +512,13 @@ key "Miri:2011ft"
 \end_inset
 
 .
- neurons were identified as integrator neurons if saccade-triggered average
+ 
+\change_inserted 78966105 1475169688
+N
+\change_deleted 78966105 1475169684
+n
+\change_unchanged
+eurons were identified as integrator neurons if saccade-triggered average
  fluorescence was correlated strongly with saccade-triggered eye position
  following an ipsiversive saccade (Fig.
  1A,b, arrow) (Pearson coefficient 
@@ -572,7 +611,15 @@ key "Aksay:2003un,Dale:2015hh"
 \begin_layout Standard
 Following functional identification of neural integrator neurons, the tissue
  was fixed, stained, sectioned for serial electron microscopy and imaged
- at a final resolution of 5x5x45 nm (RC,
+ at a final resolution of 
+\change_inserted 78966105 1475253774
+
+\begin_inset Formula $5\times5\times45$
+\end_inset
+
+
+\change_unchanged
+ nm (RC,
 \change_inserted 78966105 1475093308
  
 \change_unchanged
@@ -582,7 +629,11 @@ ML,
 \change_unchanged
 DV) .
  These images were montaged and aligned to create a 3D electron microscopy
- volume (EM)(Fig.
+ volume (EM)
+\change_inserted 78966105 1475253842
+ 
+\change_unchanged
+(Fig.
  1B and Methods).
  The resulting EM volume extended ventrally from the Mauthner cell axon
  plane by 
@@ -604,8 +655,7 @@ DV) .
  The soma of all 22 integrator neurons from the LM volume were located in
  the EM volume within the rhombomeres 6,7 and 8 (Fig 1D, colored by time
  constants).
- This procedure revealed three loosely organized groups of neurons (addressed
- later) in the imaged volume.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -626,8 +676,29 @@ key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
 .
  To extract this stripe like organization, we projected the locations of
  all cell somata (Fig.
- 1D, 'o' symbol) from the high-resolution imaged area onto a single plane
- and noticed the emergence of alternating peaks of cell somata and neuropil.
+ 1D, 'o' symbol) from the high-resolution imaged area onto a single plane.
+ The high-res EM volume contained a total of 2967 somata spread over rhombomeres
+ 5 through 8 (Fig.
+ 1D).
+ The volume also contained well-known landmarks like the Mauthner neuron
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee:1993ip"
+
+\end_inset
+
+, the axon of the contralateral Mauthner neuron, neurons MiD2 and MiD3 of
+ the reticulo-spinal network 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee:1993ip"
+
+\end_inset
+
+, and a number of commissural bundles (Fig.
+ 1D).
+ This revealed an alternating pattern of cell somata and neuropil.
  We were able to locate 3 peaks of cell somata, excluding a peak that correspond
 s to neurons at the midline, each corresponding to a likely stripe (Fig.
  1D, bottom panel, S1-3).
@@ -703,28 +774,7 @@ Anatomical properties of integrator neurons
 \end_layout
 
 \begin_layout Standard
-The high-res EM volume contained a total of 2967 somata spread over rhombomeres
- 5 through 8 ( Fig.
- 1D).
- The volume also contained well-known landmarks like the Mauthner neuron
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Lee:1993ip"
-
-\end_inset
-
-, the axon of the contralateral Mauthner neuron, neurons MiD2 and MiD3 of
- the reticulo-spinal network 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Lee:1993ip"
-
-\end_inset
-
-, and a number of commissural bundles (Fig.
- 1D).
- After the identification of the integrator neurons in the EM volume, we
+After the identification of the integrator neurons in the EM volume, we
 \change_deleted 78966105 1472672378
  
 \change_unchanged
@@ -755,8 +805,12 @@ The somatic locations of the 22 integrator neurons were distributed over
  at the caudal end of the imaged volume, located in rhombomere 8, roughly
  between myotomes 1,2.
  Another subset of neurons was located at the lateral end of the volume
- in rhombomere 8.
- .
+ in rhombomere 8
+\change_deleted 78966105 1475169824
+.
+ 
+\change_unchanged
+.
  The diameters of the integrator neurons were normally distributed, with
  a mean of 
 \begin_inset Formula $4.5\pm0.6\:\mu m$
@@ -854,9 +908,20 @@ Along the somatic membrane, a darkening of the membrane interrupted by small
  2B).
  The darkening persisted over multiple serial sections, suggesting that
  it was not an artifact of tissue preparation or imaging.
- We speculate that these darkenings are a form of cell junction.
- Although, we note that the identity of these junctions remains unknown,
- gap junctions are known to exist in the developing larval zebrafish hindbrain
+ These darkenings were visible between somata of integrator-integrator and
+ integrator-non-integrator neurons.
+ We speculate that these darkenings are some kind of 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+intercellular
+\end_layout
+
+\end_inset
+
+ cell junction.
+ Gap junctions are known to exist in the developing larval zebrafish hindbrain
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -864,8 +929,7 @@ key "Jabeen:2013fm"
 
 \end_inset
 
-, These darkenings were visible between somata of integrator-integrator
- and integrator-non-integrator neurons.
+.
  
 \end_layout
 
@@ -930,13 +994,23 @@ In total, we reconstructed 1.62 mm of axonal length in the imaged volume.
 
 \begin_layout Standard
 We observed sheaths around some axonal segments.
- In some locations, we saw evidence that the sheath wrapped around the axon
- multiple times (Fig.
+ In some locations, we saw that the sheath wrapped around the axon a few
+ times
+\change_inserted 78966105 1475253604
+,
+\change_unchanged
+ loosely enough that cytoplasmic space was visible (Fig.
  2A, EM panel).
- This wrapping around the axon, with visible cytoplasmic space was consistent
- with the definition of loose myelin.This is different from the more conventional
-ly observed compact myelin which appears as dark as seen elsewhere in the
- volume.
+ This was consistent with the definition of loose myelin 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Caley:1974fk"
+
+\end_inset
+
+.
+ This is different from the more conventionally observed compact myelin
+ which appears as dark as seen elsewhere in the volume.
  The axon of the neuron in Fig.
  2A was intermittently loosely myelinated along its rostrocaudal section.
  Mediolateral collaterals emerged from the gaps in loose myelin, and remained
@@ -1063,9 +1137,13 @@ Axonal projection patterns of integrator neurons
 
 \begin_layout Standard
 The reconstructed integrator neurons were then divided into four groups
- based on the spatial projection patterns of the axons that were identified.Below
- we have detailed the properties of integrator neurons from each of these
- four groups.
+ based on the spatial projection patterns of the axons that were identified.
+
+\change_inserted 78966105 1475170907
+ 
+\change_unchanged
+Below we have detailed the properties of integrator neurons from each of
+ these four groups.
 \end_layout
 
 \begin_layout Standard
@@ -1295,25 +1373,41 @@ Organization of integrator neuron synapses
 \end_layout
 
 \begin_layout Standard
-On average, neurons from these four groups had approximately 
-\begin_inset Formula $\sim170,125,85$
-\end_inset
-
-and 
+On average, neurons from these four groups had 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+170, 125, 85
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ and 
 \begin_inset Formula $40$
 \end_inset
 
  postsynaptic (inputs) sites on their dendrites respectively (Fig.
  3C, top, red).
- The axons from the `ipsi' and `ipsi-contra' groups had approximately 
-\begin_inset Formula $\sim56$
-\end_inset
-
- and 
-\begin_inset Formula $\sim30$
-\end_inset
-
- presynaptic (output) sites (Fig.
+ The axons from the `ipsi' and `ipsi-contra' groups had approximately 56
+\change_inserted 78966105 1475253671
+ 
+\change_unchanged
+and 30 presynaptic (output) sites (Fig.
  3C, top, green).
  We then computed the pathlength of each synaptic location form the somata
  to determine if there were differences in the distributions of the synaptic
@@ -1377,7 +1471,7 @@ Planar organization of dendrites
 \begin_layout Standard
 The dendrites of the neurons form the ipsi and contra groups were observed
  to lie along orthogonal planes.
- The dendrites of the neurons in the ipsi groups were noticed to like roughly
+ The dendrites of the neurons in the ipsi groups were noticed to lie roughly
  along a coronal plane with some tilt (Fig.
  3A).
  Similarly, the dendrites of the neurons in the contra neurons were noticed
@@ -1394,20 +1488,12 @@ The dendrites of the neurons form the ipsi and contra groups were observed
 \end_layout
 
 \begin_layout Standard
-The dendrites arbors of the neurons in these two groups displayed an inversion
+The dendritic arbors of the neurons in these two groups displayed an inversion
  in the stratification depths.
- The dendritic arbors of the ipsi neurons peaked
-\change_deleted 78966105 1473713616
- 
-\change_unchanged
- at a depth of 
+ The dendritic arbors of the ipsi neurons peaked at a depth of 
 \begin_inset Formula $38.9\pm8.3\mu m$
 \end_inset
 
-
-\change_deleted 78966105 1475093349
- 
-\change_unchanged
  ventral to its neurons somata (Fig.
  4B, top).
  Whereas for the contra group the peak stratification depth was around 
@@ -1417,9 +1503,9 @@ The dendrites arbors of the neurons in these two groups displayed an inversion
  ventral its somata (Fig.
  4B, bottom).
  Interestingly, when the peak locations of all neuron somata in the imaged
- volume is overlaid with the stratification profiles of the dendrites, we
- see that the dendrites and axons of the ipsi group projected arbors that
- overlapped with neurons along the medial and lateral most peaks, whereas
+ volume are overlaid with the stratification profiles of the dendrites,
+ we see that the dendrites and axons of the ipsi group projected arbors
+ that overlapped with neurons along the medial and lateral most peaks, whereas
  the dendrites of the contra group were located very close the intermediate
  peak of somata.
  
@@ -1530,9 +1616,9 @@ Discussion
 \end_layout
 
 \begin_layout Standard
-Here we detailed an approach where we combined two-photon calcium imaging
- from neurons in the larval zebrafish that were encoding for a behavioral
- variable, in this case eye-position with serial section electron microscopy.
+We combined two-photon calcium imaging from neurons in the larval zebrafish
+ that were encoding for a behavioral variable (eye-position) with serial
+ section electron microscopy.
  This was followed by registering the light microscopic volume to an electron
  microscopic volume to locate the same neurons.
  We were able to reconstruct 22 integrator neurons from the same animal,
@@ -1551,11 +1637,7 @@ r neurons.
 Of the 22 integrator neurons, six, rostrally located neurons had exclusively
  ipsilaterally projecting axons.
  All but one of these six neurons were medial to the first somata stripe
- S1, that is though to contain mostly excitatory
-\change_inserted 78966105 1475092989
-, glutamatergic
-\change_unchanged
- neurons.
+ S1, that is though to contain mostly excitatory, glutamatergic neurons.
  The axons and dendrites of these neurons display a planar organization,
  with axons oriented approximately orthogonal to the dendrites (Sup.
  Fig).
@@ -1566,9 +1648,12 @@ Of the 22 integrator neurons, six, rostrally located neurons had exclusively
  Surprisingly, the axons of these neurons are also oriented along the RC
  axis with the rostral end more ventral than the caudal end, suggesting
  the possibility of recurrent synapses between neurons in this population.
- It has long been theorized that recurrent positive feedback could be a
- possible mechanism that can explain long persistent time scales of neuronal
- activity 
+ It has long been theorized that
+\change_deleted 78966105 1475253704
+ 
+\change_unchanged
+ positive feedback via recurrent excitation could be a possible mechanism
+ that can explain long persistent time scales of neuronal activity 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Seung:2000kl,fisher_modeling_2013,Joshua:2013jg"
@@ -1579,8 +1664,16 @@ key "Seung:2000kl,fisher_modeling_2013,Joshua:2013jg"
  Indeed, we observed conclusive chemical synapses from one ipsilataterally
  projecting integrator neuron onto another ipsilaterally projecting integrator
  neuron.
- These facts point to the ipsi group of neurons as the a likely candidate
- that could support recurrent positive feedback in the integrator circuit.
+ These facts point to the ipsi group of neurons as
+\change_deleted 78966105 1475253704
+ 
+\change_unchanged
+ a
+\change_deleted 78966105 1475253704
+ 
+\change_unchanged
+ candidate that could support recurrent positive feedback in the integrator
+ circuit.
  
 \end_layout
 
@@ -1588,11 +1681,7 @@ key "Seung:2000kl,fisher_modeling_2013,Joshua:2013jg"
 The second major group of neurons that we reconstructed were the eight caudally
  located, contralaterally projecting group of neurons.
  The somatic location of these neurons lie very close to the intermediate
- somal stripe S2, that are largely GABAergic
-\change_inserted 78966105 1475093010
- neurons
-\change_unchanged
-.
+ somal stripe S2, that are largely GABAergic neurons.
  The dendrites of these neurons arborized over a smaller area, and stratify
  more dorsally as compared to the ipsi.
  group of neurons.
@@ -1680,20 +1769,12 @@ key "Aksay:2003un"
 .
  We observed 4 chemical synapses from one ipsilaterally projecting integrator
  neuron onto other integrator neurons.
- If the observed number of synapses between integrator neurons are representativ
-e of the entire population, this suggests the integrator population contains
- a subset of neurons that are well-connected with each other.
- While the remaining neurons may serve to communicate eye-position related
- information to other brain areas 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Daie:2015fd"
 
-\end_inset
-
-.
- On the other hand, this observation may be an underestimate of integrator
- connectivity, for a few reasons.
+\change_deleted 78966105 1475253697
+ 
+\change_unchanged
+ This observation may be an underestimate of integrator connectivity, for
+ a few reasons.
  First, there are many neurons in the imaged volume that carried no usable
  calcium signal at all, largely because they did not take up enough calcium
  indicator.
@@ -1721,9 +1802,6 @@ Here we presented ultrastructural anatomical details of different types
  We restricted our reconstructions to the unilateral integrator circuit
  and consequently do not know about the postsynaptic targets of the contralatera
 lly projecting axons.
- Our small sample size also could not uncover whether and if there were
- any preferred locations on the dendrite of integrator neurons from specific
- neurons.
  More definitive information about connectivity patterns between integrator
  neurons awaits a future experiment with an imaged volume that is large
  enough to encompass all integrator neurons, and a fluorescent calcium indicator
@@ -2007,9 +2085,9 @@ Functional and structural imaging of integrator neurons.
 Bottom - A single imaging plane showing neurons loaded with calcium indicator
  OGB-1.
  Identified integrator neurons are show in colored circles.
- Colors reflect the level of persistence of the neuron as in (c).
+ Colors reflect the level of persistence of the neuron.
  Scale bar 
-\begin_inset Formula $20\:\mu m$
+\begin_inset Formula $20\mu m$
 \end_inset
 
 
@@ -2018,33 +2096,48 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
 
 (b) Spontaneous eye movement (top, blue line) showing saccades (sharp vertical
  lines) and post-saccadic fixations (horizontal lines).
- Ipsilateral saccades are indicated by black arrows.
- Colored traces are the changes in 
-\change_deleted 78966105 1475030685
-fluoresence
-\change_inserted 78966105 1475030685
-fluorescence
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ipsilateral saccades are indicated by black arrows
+\end_layout
+
+\end_inset
+
+.
+ Colored traces below are the changes in fluorescence from individual neurons
+\change_deleted 78966105 1475434129
+ 
 \change_unchanged
- from individual neurons from imaging plane in (a).
- Color coding reprensent the normalized persistance level of the neuron
- (c).
+ in (a).
+ Colors reprensent the
+\change_deleted 78966105 1475434129
+ 
+\change_unchanged
+ persistance level of the neuron.
  
 \begin_inset Newline newline
 \end_inset
 
-(c) Normalized fluorescence response following saccades.
+(c) Normalized fluorescence and firing rate of neurons in (a).
  Thick line shows the average, with shaded region showing the SEM.
- Colored numbers, is the avareage under the curve of the normalized fluoresence
- responses which indicatesthe persistence of the neuron.
- 
+ Dotted line is the exponential fit to determine persistence time constant,
+ represented as 
+\begin_inset Formula $log(\Tau)$
+\end_inset
+
+.
 \begin_inset Newline newline
 \end_inset
 
-(B) Serial electron microscopy of same zebrafish from A, serial-sections
- are collected on tape in an automated manner, images at low-resolution
- are used to align the sections, imaging at high-resolution over the defined
- region of interest (black box) gives final 3D-EM volume of the imaged area.
- 
+(B) Serial-sections for electron microscopy were collected on tape in an
+ automated manner.
+ Each section was imaged at low-resolution (b1).
+ A region-of-interest that corresponded with the functionally imaged area
+ was defined (black box in b1) for high-resolution imaging (b2).
+ All such images were aligned to generate a 3D EM volume.
 \begin_inset Newline newline
 \end_inset
 
@@ -2052,22 +2145,36 @@ fluorescence
  involved in the behavior.
  Red arrows indicate the same features in both LM and EM.
  Scale bar 
-\begin_inset Formula $20\:\mu m$
+\begin_inset Formula $20\mu m$
 \end_inset
 
  
 \begin_inset Newline newline
 \end_inset
 
-(D) Single EM plane showing anatomical landmarks, Mauthner neuron, Mi2,
- Mi3 and Ca (colored stars).
- Anatomical location of all integrator neurons (colored circles) identified
- in the behavior and all remianing somata in the imaged EM volume ( '+'
- symbol).
- Colors of the neurons correspond to the persistence level of the neuron.
- Lower panel is a distribution of all neurons with integrator neurons overlaid.
- Dotted line correspond with hindbrain stripes with known neurotransmitter
- identities.
+(D) An example EM plane showing anatomical landmarks, Mauthner neuron (black
+ star), Mi2 (red stars), Mi3 (blue stars) and Ca (green stars).
+ Anatomical locations of all identified integrator neurons (colored circles)
+ and all remianing cell bodies in the imaged EM volume ( 
+\change_inserted 78966105 1475435594
+`
+\change_deleted 78966105 1475435594
+'
+\change_unchanged
+
+\begin_inset Formula $\bullet$
+\end_inset
+
+' symbol).
+ Colors of the integrator neurons correspond to the persistence time of
+ the neuron.
+ Lower panel is a distribution of all neurons along the medio-lateral axis
+ with integrator neurons overlaid.
+ Dotted lines 
+\change_inserted 78966105 1475434216
+(cyan) 
+\change_unchanged
+are the identified somata stripes (S 1-3).
 \end_layout
 
 \end_inset
@@ -2104,27 +2211,29 @@ status open
 
 \begin_layout Plain Layout
 
+\change_inserted 78966105 1475435426
+
 \bar under
-Integrator neuron anatomical features reconstructed from EM volume.
+Ultrastructural
+\change_unchanged
+ features of Integrator neurons.
 
 \bar default
  
 \begin_inset Newline newline
 \end_inset
 
-(A) Example integrator neuron showing ipsilaterally projecting axon (dark
- segment) and dendrite (light segment) with pre- (green circles) and postsynapti
-c (red circles) locations.
- Parts of the axon of this integrator neuron are loosely-myelinated (colored
- boxes).
- Insets show one such myelinated region, with arrows showing individual
- myelin sheaths that are oblique to the imaging plane.
- Open arrow heads show the location of axon initiation zones along the neurite.
+(A) Integrator neuron with ipsilaterally projecting axon (dark lines) and
+ dendrite (light lines) with presynaptic (green circles) and postsynaptic
+ (red circles) locations.
+ Parts of the axon of this integrator neuron are loosely-myelinated.
+ Insets shows axons with loose myelin (colored), arrows showing individual
+ myelin sheaths.
+ Open arrow heads show the location of axon initiation.
 \begin_inset Newline newline
 \end_inset
 
-(B) Integrator neuron, with ipsilateral projecting axon that starts as single
- neurite that branches to give rise to axon and dendrites.
+(B) Integrator neuron with ipsilateral projecting axon.
  Axon is studded with presynaptic sites that are clustered along neurite.
  Inset is a 3D reconstruction of axon termination zone with a large vesicle
  cloud (blue) with multiple post synaptic densities (yellow) opposed to
@@ -2132,24 +2241,49 @@ c (red circles) locations.
  Numbers correspond to EM insets showing the synapses.
  M - Mitochondria, V - Vesicles.
  Arrows show the synapses at those locations.
+ 
 \begin_inset Newline newline
 \end_inset
 
-(C) Example integrator neuron with both ipsi and contralateral projecting
- axon.
- Putative contra axon is engulfed by glial process just before crossing
- the midline.
- Number correspond to EM insets with colored segments that are glia G, and
- non-colored segment is axon A.
+(C) Integrator neuron with both ipsi and contralateral projecting axon.
+ 
+\change_inserted 78966105 1475435801
+Putative c
+\change_deleted 78966105 1475435801
+C
+\change_unchanged
+ontralateral axon emerges from somata and is engulfed by glial
+\change_deleted 78966105 1475435408
+ 
+\change_unchanged
+ before crossing the midline.
+ (EM insets at numbered locations G - Glia, A - Axon)
+\change_deleted 78966105 1475435408
+ 
+\change_unchanged
  Open arrowhead shows the axons initiation site.
  
 \begin_inset Newline newline
 \end_inset
 
-(D) Contralaterally projecting integrator neuron with putative axon crossing
- the midline with glial engulfment (EM insets at numbered locations G -
- Glia, A - Axon).
- Bottom EM inset panel shows primary cilium highlighted with yellow arrow.
+(D) Integrator nerons with only contralaterally projecting
+\change_inserted 78966105 1475435810
+ axon
+\change_unchanged
+.
+ 
+\change_inserted 78966105 1475435819
+Putative a
+\change_deleted 78966105 1475435819
+A
+\change_unchanged
+xon is engulfed by glia before crossing the midline.(EM insets at numbered
+ locations G - Glia, A - Axon).
+ Bottom EM
+\change_deleted 78966105 1475435408
+ 
+\change_unchanged
+ panel shows primary cilium highlighted with yellow arrow.
  Note all the integrator somata in this volume give rise to a cilium, but
  it is shown for this neuron.
 \end_layout
@@ -2190,27 +2324,30 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-In
+
 \bar under
-tegrator neurons axonal projection patterns and synaptic distribution.
+Integrator neurons projection patterns and synaptic distribution.
 
 \bar default
  
 \begin_inset Newline newline
 \end_inset
 
-(A) Colored panels show three views of reconstructed neurons grouped according
- to their axonal projection patterns.
+(A) Colored panels show three views of reconstructed integrator neurons,
+ grouped according to their axonal projection patterns.
  Top left, 6 integrator neuron with ipsilateral projecting axons - ipsi-only
  group, pink background.
  Top right, 2 integrator neurons with ipsilaterally and putative contralateral
  projection – ipsi-contra, green background.
  Bottom left, 8 integrator neurons with midline crossing contralateral only
  putative-axon – contra-only, orange background.
- Bottom right, 7, integrator neurons with unknown axonal projection – unknown,
+ Bottom right, 6, integrator neurons with unknown axonal projection – unknown,
  blue background.
- On the neurites, red circles - postsynaptic sites, green circles - presynaptic
- sites.
+ Axons - dark line, dendrites - light lines,
+\change_deleted 78966105 1475436428
+ 
+\change_unchanged
+ red circles - postsynaptic sites, green circles - presynaptic sites.
  
 \begin_inset Newline newline
 \end_inset
@@ -2235,19 +2372,14 @@ tegrator neurons axonal projection patterns and synaptic distribution.
 \begin_inset Newline newline
 \end_inset
 
-(D) (Top) Box plot of the Synaptic 
-\change_deleted 78966105 1475030696
-densit
-\change_inserted 78966105 1475030696
-density
-\change_unchanged
-, for postsynaptic sites for each group.
+(D) (Top) Box plot of the Synaptic density for each group.
  Black lines are the medians.
 \begin_inset Newline newline
 \end_inset
 
-(Bottom) Box plots of the intersynaptic path length for all four groups
- (significance reported as Wilcoxn rank-sum test).
+(Bottom) Box plots of the intersynaptic path length for all four groups.
+ Notches are the 25th and 75th quantiles.
+ Open circles are outliers (significance reported as Wilcoxn rank-sum test).
 \end_layout
 
 \end_inset
@@ -2294,20 +2426,19 @@ Integrator neurons are synaptically connected.
 
 
 \bar default
-(A)Planar organization of postsynaptic sites on the ips
-\change_inserted 78966105 1475030704
-i
-\change_deleted 78966105 1475030704
-p
+(A)Planar organization of
+\change_deleted 78966105 1475437070
+ 
 \change_unchanged
- (pink) and contra (orange) neurons.
- Grid represnt the bset fit plane through the cloud of points for each group.
+ ipsi (pink) and contra (orange) neuron postsynaptic sites.
+ Grid represents the bset fit plane through the cloud of points for each
+ group.
 \begin_inset Newline newline
 \end_inset
 
 (B) (Top) Stratification profile of all ipsi group of neurons.
- Two side vies show the stratificatin of the dendrites, pre and postsynaptic
- sites along the dorso-ventral and medio-lateral axis.
+ Two side views show the stratification of the dendrites, presynaptic and
+ postsynaptic sites along the dorso-ventral and medio-lateral axis.
  Dotted line represent the location of the somatic peaks that was computed
  in Figure 1.
 \begin_inset Newline newline
@@ -2334,9 +2465,9 @@ p
 \end_inset
 
  from each other.
- neuron # 2 (arrow), is the same neuron in (A, magenta) that makes maximum
- number of potential synapses onto other neurons and makes the real synapses
- shown in (A).
+ Presynaptic cell# 2 (arrow), is the same neuron in (A, magenta) that makes
+ maximum number of potential synapses onto other neurons and makes the real
+ synapses shown in (A).
  The real synapses are represented by the black circle in the header.
  
 \begin_inset Newline newline
