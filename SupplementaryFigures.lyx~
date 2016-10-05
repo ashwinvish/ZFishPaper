@@ -1,0 +1,1398 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes true
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Supplementary information for Vishwanathan et al.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename SupFigures/NewSupFig1.png
+	display false
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Supplementary figure 1
+\begin_inset Newline newline
+\end_inset
+
+(A) Graded levels of persistent activity of the 22 reconstructed integrator
+ neurons.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(B) Persistence time constants along the rostro-caudal, medio-lateral and
+ dorso-ventral axis respectively.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(C) (left) Integrator neuron somata dimeter versus the depth along the dorso-ven
+tral axis.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(right) Persistant times ofintegrator neuron versus somal diameter versus
+\begin_inset Newline newline
+\end_inset
+
+(D Diameter profiles along ipsi only (left) and contra only (right) integrator
+ cells.
+ Location of each dot represents the thickness of the neurite.
+ Large grey circle represents the somata of the cell.
+ All thin neurites are dendritic and all thick neurites are axonal.
+ Scale bar 20
+\begin_inset Formula $\mu m.$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Colors represent the group that the cell belong to.
+ (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
+ unknown).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename SupFigures/NewSupFig2.png
+	display false
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Supplementary figure 2
+\begin_inset Newline newline
+\end_inset
+
+(A) Examples of types of synapses in the imaged volume.
+ Closed arrows show conventional synapses and open arrows shows dense core
+ vesicles within the same bouton.
+\begin_inset Newline newline
+\end_inset
+
+(B) Successive images from cellular junctions between cells somata.
+ Closed arrow head shows tight junction indicated by darkening of the membrane
+ in the same location in multiple sections.
+ Open arrows show the spearation of the membrane by the lack of darkening.
+ Scale bar 500nm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways true
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename SupFigures/NewSupFig4.png
+	display false
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Supplementary figure 3
+\begin_inset Newline newline
+\end_inset
+
+(A) Primary cilium of every integrator cell identified in the volume.
+ The primary cilium is visible in multiple sections by the presence of a
+ microtubule rich neurite (arrow) that emerges very close to the Golgi complex
+ of the cells.
+\begin_inset Newline newline
+\end_inset
+
+(B) Orientation of the primary cilium for the four cell groups.
+\begin_inset Newline newline
+\end_inset
+
+Colors represent the group that the cell belong to.
+ (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
+ unknown).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename SupFigures/AbducensLocation.png
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Supplementary figure 4
+\begin_inset Newline newline
+\end_inset
+
+(A) Location of abducens nuclei from serial of low-res EM images.
+ The frames are ordered from medial to lateral orientation.
+ Rhombomeres r4-7 were identified based on the location of the reticulo-spinal
+ cells (MCell, Mi2, Mi3 and Ca).
+ Dotted white line is 50
+\begin_inset Formula $\mu m$
+\end_inset
+
+ ventral to the Mauthner axon plane.
+ White arrow show the locations of both abducens nuclei.
+ Green arrow shows the location of the inferior olive.
+ MA -Mauthner Axon.
+\begin_inset Newline newline
+\end_inset
+
+(B) Lateral view of two ipsilaterally projecting integrator neurons that
+ send axonal projections towards the abducens nuclei.
+ The axons project to the same depth as the abducens nuclei (dotted black
+ line).
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename SupFigures/NewSupFig3.png
+	display false
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Supplementary figure 5
+\begin_inset Newline newline
+\end_inset
+
+(A) Convex hull volume of dendrites of all integrator cells, color coded
+ by the cell group that they belong to.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(B) Distribution of the convex hull volume of the integrator cells.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(C) Convex hulls of all cells color coded by the group that they belong
+ to.
+\begin_inset Newline newline
+\end_inset
+
+(D) Traces of integrator cells from light microscopic dye fills,with ipsilateral
+ projecting axons that were used for comparison with EM cells.
+\begin_inset Newline newline
+\end_inset
+
+(E) Collateral path length of all EM , LM cells respectively.
+ Grey circles are for individual collaterals for each cells, and red circle
+ is the mean
+\begin_inset Formula $\pm$
+\end_inset
+
+standard deviation.
+\begin_inset Newline newline
+\end_inset
+
+(F) Number of Collaterals and pathlength of collaterals for EM and LM traces.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename SupFigures/NewSupFig5.png
+	display false
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Supplementary figure 6
+\begin_inset Newline newline
+\end_inset
+
+(A) Distribution of the normalized postsynaptic pathlength and the distribution
+ of the normalized dendritic pathlength for all four groups.
+\begin_inset Newline newline
+\end_inset
+
+(B) Depth stratification of all cells in each group.
+ For each panel, below the trace of all cells is the stratification of the
+ dendrites (red) and axons (green) along the mediolateral axis.
+ To the right is the stratification along the dorso-ventral axis.
+ Black dotted line are the locations of the stripes from figure 4.
+\begin_inset Newline newline
+\end_inset
+
+(C) Overlap of axons and dendrites between axons and dendrites.
+ Box plot with overlapping areas for the four groups.
+\begin_inset Newline newline
+\end_inset
+
+(D) Jittering of the potential synapses for all integrator cells with axons.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1475614271
+Supplementary table
+\change_unchanged
+
+\begin_inset Newline newline
+\end_inset
+
+
+\change_deleted 78966105 1475614387
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\begin_inset Newline newline
+\end_inset
+
+
+\change_deleted 78966105 1475614384
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways true
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="9">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="2cm">
+<column alignment="center" valignment="middle" width="1cm">
+<column alignment="center" valignment="middle" width="2.5cm">
+<column alignment="center" valignment="middle" width="2.5cm">
+<column alignment="center" valignment="middle" width="2.5cm">
+<column alignment="center" valignment="middle" width="1.75cm">
+<column alignment="center" valignment="middle" width="1.75cm">
+<column alignment="center" valignment="middle" width="1.75cm">
+<column alignment="center" valignment="middle" width="2.5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cell group
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+# Cells
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total
+\begin_inset Newline newline
+\end_inset
+
+ length (
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Axonal length (
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dendritic
+\begin_inset Newline newline
+\end_inset
+
+ length (
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Convex hull volume
+\end_layout
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $\mu m^{3}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Axon diameters
+\end_layout
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dendrite diameter
+\end_layout
+
+\begin_layout Plain Layout
+(
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Axon initiation site (
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ipsi.
+ only
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $661.89\pm253.57$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $269.74\pm244.41$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $392.14\pm66.31$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.04\times10^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.21\pm0.15$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.25\pm0.15$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $36.68\pm12.74$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ipsi-contra.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $696.59\pm200.92$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $277.28\pm22.08$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $419.30\pm178.84$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2.96\times10^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.2\pm0.11$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.21\pm0.12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $29.21\pm8.06$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Contra.
+ only
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $358.13\pm62.76$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $65.72\pm15.24$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $292.41\pm69.75$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.23\times10^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.16\pm0.08$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.22\pm0.12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $12.89\pm6.07$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+unknown
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $221.47\pm48.7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $221.47\pm48.70$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.13\times10^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.22\pm0.12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Anatomical features of integrator neurons
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1475614417
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Section
+Supplementary experimental procedure
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Two-photon calcium imaging
+\bar default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Nacre mutant zebrafish larvae, X days of age, was anesthetized in 100 or
+ 200 mg/L tricaine-methanesulfonate (MS222, VWR TCT0941- 025G) for about
+ 1 minute and then quickly mounted dorsal side up with droplets of 1.7% low
+ temperature agarose (Sigma A0701-100G) in the lid of a 35mm petri dish
+ containing a bed of hardened 1% agarose (Invitrogen 15510-027).
+ The larva was then covered in 50 mg/L MS222.
+ The larva was bulk-loaded 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Brustein:2003ef,Smetters:1999jc"
+
+\end_inset
+
+ with calcium sensitive dye Oregon Green 488 BAPTA-1 AM (5 mM, in DMSO with
+ 5% pluronic, Invitrogen, O-6807) by inserting a capillary through the dorsal
+ skin surface over the lateral edge of the right side of the hindbrain just
+ caudal to the cerebellum, at ~
+\begin_inset Formula $30^{0}$
+\end_inset
+
+ decline relative to the dorsal surface.
+ 
+\end_layout
+
+\begin_layout Standard
+The integrator neurons were identified in a manner similar to a previously
+ described method 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Miri:2011ib,Daie:2015fd"
+
+\end_inset
+
+.
+ Briefly, correlations for every pixel over a 5min acquisition period was
+ determined for eye position and eye velocity.
+ A region-of-Interest (ROI) was then drawn over the pixels where the majority
+ were correlated one of these variables.
+ The fluorescence was reported as change in fluorescence for each frame
+ to the average fluorescence, divided by the average.
+ Saccadic fluorescence traces were displayed over an 8 sec window starting
+ 1 sec before the end of the saccade.
+ The firing rates were computed over a 6 second fixation period beginning
+ 1 sec after the end of the saccade.
+ The firing rates were computed by deconvolving the average fluorescent
+ traces with a calcium impulse response function (CIRF) as described previously
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Miri:2011ft"
+
+\end_inset
+
+.The integrator time constants were calculated by fitting an exponential
+ function (Matlab 
+\emph on
+ezfit)
+\emph default
+ to to the firing rates
+\emph on
+.
+ 
+\emph default
+The time constants for the fits were capped at 100 sec.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Serial section electron microscopy
+\bar default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The animal was immersed in a fixative of 1% paraformaldehyde and 1% glutaraldehy
+de buffered in 0.1M cacodylate buffer and 4% sucrose for 72 hrs.
+ hrs.
+ Then it was thoroughly washed in 0.1M cacodylate buffer before staining.
+ The tissue was stained using a conventional ROTO procedure (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Tapia:2012hs"
+
+\end_inset
+
+).Briefly, it was stained in 1% reduced osmium tetroxide with potassium ferrocyan
+ide for 2 hr on ice.
+ It was then washed 4x 30 min with 0.1M cacodylate buffer, also on ice.
+ This was then followed by amplification in 1% sodium thiocarbohydroazide
+ (TCH) for 15min followed by 3x5 min washes in water and another incubation
+ in 1% osmium tetroxide for 1 hr.
+ The tissue was then washed 3x15 min in water and incubated with 1% aqueous
+ uranyl acetate overnight.
+ The following day the tissue was washed 3x15 min in water and dehydrated
+ with a series of ethanol, followed by propylene oxide (PO).
+ The tissue was then infiltrated in decreasing gradients of PO and EPON
+ for 24 hrs and baked for 48 hrs at 60 C.
+ The EPON based resin was tailored to have low viscosity, to help with better
+ infiltration for this tissue.
+ Following hardening, the tissue block face was coarsely trimmed and a rectangul
+ar mesa was defined for serial sectioning.
+ Care was taken to orient the specimen to permit sectioning along the horizontal
+ axis.
+ Serial sections from the above animal were collected approximately from
+ the level of the Mauthner cell at a thickness of 45 nm.
+ .
+ The serial sections were then adhered to a silicon wafer, using double
+ sided carbon tape (TEDpella), the wafers were coated with a thin film of
+ carbon to make them conductive.
+ 
+\end_layout
+
+\begin_layout Subsection
+Registration of light microscope and electron microscope volumes
+\end_layout
+
+\begin_layout Standard
+The EM images were aligned using the trakEM2 plugin in Fiji 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cardona:2012kf"
+
+\end_inset
+
+.
+ Briefly, individual images were imported into the TrakEM2 framework and
+ montaged, first, using affine transforms, followed by elastic transforms.
+ The images were then registered using a similar approach, where the first
+ pass was performed using affine transforms, followed by elastic transforms
+ .
+ All the alignment was performed on a machine with 32 virtual cores and
+ 120GB RAM.
+\end_layout
+
+\begin_layout Standard
+To locate the cells that were involved in the integrator circuit, we made
+ use of the fact that large, gross morphological features were easily identified
+ in both the LM and EM stacks.
+ Once enough such features were identified in the LM stack, we located these
+ same landmarks in the high-res EM stack.
+ Each pair of landmarks (one from the LM volume and one from the EM volume)
+ was then used to calculate a global affine transform that was applied to
+ transform the LM volume to be overlaid on the EM volume using the TrakEM2
+ plugin in Fiji 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Cardona:2012kf"
+
+\end_inset
+
+.
+ Following this registration, we were able to reliable locate the same cells
+ from the LM and the EM volumes.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Reconstructions
+\end_layout
+
+\begin_layout Standard
+Two expert tracers reconstructed the cells beginning from the cell bodies
+ in an independent manner.
+ During the tracing process, one of the expert tracers annotated all pre
+ and postsynaptic sites for each cells.
+ The skeletonized tree structure was exported from TrakEM2 as *.swc files.
+ These trees were then imported into Matlab using custom scripts to import
+ .swc files as trees.
+ The traces of the two tracers were compared by a third reviewer.
+ The third reviewer, independently reviewed points of disagreement and decided
+ which points of disagreement were either over-reconstructed or were under-recon
+structed.
+ In some cases, the traces were re-visited by the tracers if it was needed.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+Analysis
+\end_layout
+
+\begin_layout Standard
+All traces were exported as .swc files from TrakEM2.
+ All tree lengths was reported as pathlengths unless noted otherwise.
+ Similarly, all lengths to a pre- or post synaptic site was reported as
+ pathlengths.
+ We defined the axon initiation site was annotated as the parent node of
+ the first presynaptic site.
+ One cell from ipsi-only group was defined as an axon, based on diameter
+ of the axons and the 'bare' initial segment.
+ All neurites that were not axonal were defined as dendritic.
+ All nodes of the tree were thus divided as axonal nodes or dendritic nodes.
+ Pathlengths were then generated for a tree over all axonal nodes or all
+ dendritic nodes, and the length of the tree was the sum of all axonal length
+ and dendritic length.
+ A collateral was defined as all those segments of an axon, that emerged
+ from the central axonal tree.
+ All tree nodes that were axonal were then divided as those that were part
+ of a collateral and those that were not.
+ Following this, pathlengths and numbers were calculated by treating those
+ nodes like any other.
+ The completeness of cells was decided based on the number of neurites that
+ exited the cells.
+ 
+\end_layout
+
+\begin_layout Standard
+The diameter of the trees was generated by drawing a line segment across
+ the cross-section of the tree at a random location along the tree.
+ Many such line segments were drawn across the entire extent of the tree,
+ where the tracer was blinded to the fact whether the neurite was an axon
+ or a dendrite.
+ The measurements were then separated as dendritic diameter or axonal diameter
+ after all the trees were measured in this manner.
+ The values were reported as a mean across all dendritic or axonal measures
+ for a tree.
+ 
+\end_layout
+
+\begin_layout Standard
+Arbor densities of the dendrites was computed by projecting all the axonal
+ or dendritic nodes along the desired plane and reported in a normalized
+ scale.
+ Arbor volumes were computed using the Matlab function 
+\emph on
+convhull
+\emph default
+.
+ To infer the neurotransmitter identity from the stripe organization of
+ the cell bodies, we annotated the location of all the cell bodies from
+ a low-resolution stack.
+ The cell density was then computed by projecting all the cells along the
+ desired axis.
+ This process picked out the peaks that were visible in the EM images.
+ The location of a stripe was defined as the local peak that emerged from
+ the cell density projecting analysis.
+ The planar organization of the postsynapses and presynapses were fit to
+ a plane using the 
+\emph on
+planefit 
+\emph default
+function, available on the Matlab central repository.
+ 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "ZfishBib"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
