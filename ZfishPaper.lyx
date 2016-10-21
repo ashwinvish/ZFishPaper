@@ -468,41 +468,17 @@ add age here
 \change_unchanged
  dpf larval zebrafish following bolus loading of the calcium sensor Oregon
  Green BAPTA 1-AM.
- [describe imaging plane specs here, focused on left side where loading
- was best].
- 
-\change_deleted 78966105 1475169671
-Following functional imaging, we imaged the entire hindbrain of the animal
- with optical sections that were 1 
-\begin_inset Formula $\mu$
+
+\change_inserted 78966105 1475523684
+ The functional imaging was restricted to one side where the loading was
+ best and was performed on three planes that were ~8
+\begin_inset Formula $\mu m$
 \end_inset
 
-m apart, producing a light microscopic volume (LM volume).
- 
-\change_inserted 78966105 1475169671
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1475169671
-Following functional imaging, we imaged the entire hindbrain of the animal
- with optical sections that were 1 
-\begin_inset Formula $\mu$
-\end_inset
-
-m apart, producing a light microscopic volume (LM volume).
- 
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
+ apart during spontaneous eye movement.
 
 \change_unchanged
-Calcium signals were correlated with eye position to identify integrator
+ Calcium signals were correlated with eye position to identify integrator
  somata from the imaged planes (Fig.
  1A) 
 \begin_inset CommandInset citation
@@ -803,7 +779,11 @@ The somatic locations of the 22 integrator neurons were distributed over
  
 \change_unchanged
  at the caudal end of the imaged volume, located in rhombomere 8, roughly
- between myotomes 1,2.
+ between myotomes 1,
+\change_inserted 78966105 1475523144
+ 
+\change_unchanged
+2.
  Another subset of neurons was located at the lateral end of the volume
  in rhombomere 8
 \change_deleted 78966105 1475169824
@@ -813,7 +793,7 @@ The somatic locations of the 22 integrator neurons were distributed over
 .
  The diameters of the integrator neurons were normally distributed, with
  a mean of 
-\begin_inset Formula $4.5\pm0.6\:\mu m$
+\begin_inset Formula $4.5\pm0.6\mu m$
 \end_inset
 
  (mean ± standard deviation).
@@ -962,12 +942,24 @@ c sites.
  2, showing the dendrite (neurite with red postsynaptic sites) turning into
  axons at the axon initiation (open arrow) .
  The main trunk of the axon extended rostrally and ventrally (Fig.
- 2 A,B,C).
+ 2 A,
+\change_inserted 78966105 1475523179
+ 
+\change_unchanged
+B,
+\change_inserted 78966105 1475523181
+ 
+\change_unchanged
+C).
  From the main trunk emerged mediolateral branches, which we will term collatera
 ls.
  Those at the rostral extreme of the volume appeared to overlap with the
  expected location of the abducens motor nucleus (based on its known position
- within rhombomere r5,6 
+ within rhombomere r5,
+\change_inserted 78966105 1475523178
+ 
+\change_unchanged
+6 
 \begin_inset Note Note
 status open
 
@@ -979,17 +971,6 @@ Show in sup figure
 
 ).
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-In total, we reconstructed 1.62 mm of axonal length in the imaged volume.
- 
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1041,7 +1022,11 @@ al side (Fig.
  2B, initial segment of axon).
  Secondly, before crossing the midline, the putative axon became engulfed
  by processes that appeared glial in nature (Fig.
- 2 C,D, EM inset G).
+ 2 C,
+\change_inserted 78966105 1475523171
+ 
+\change_unchanged
+D, EM inset G).
  The glial engulfment is consistent with the idea of `glial bridges` that
  are instrumental in the guidance of axons during development 
 \begin_inset CommandInset citation
@@ -1114,10 +1099,10 @@ key "Han:2010kl,Lee:2010fy"
 \end_inset
 
  
-\begin_inset Formula $\mu$
+\begin_inset Formula $\mu m$
 \end_inset
 
-m, is enriched with microtubules, and emerges from the neuron somata very
+, is enriched with microtubules, and emerges from the neuron somata very
  close to the Golgi complex.
  In some cases, this primary cilium terminated inside processes that resembled
  glial like structures (Sup.
@@ -1202,7 +1187,15 @@ en passant
 Neurons in this group had large dendritic arbors, with the dendrites arborizing
  over 13.3% of the total imaged volume (Sup.
  Fig.
- 4A,B,C).
+ 4A,
+\change_inserted 78966105 1475523216
+ 
+\change_unchanged
+B,
+\change_inserted 78966105 1475523217
+ 
+\change_unchanged
+C).
  The dendrites emerged laterally from somata and always extended ventrally.
  Only in one case the dendrites were observed to cross the midline, as indicated
  by the presence of postsynaptic sites (Fig.
@@ -1263,7 +1256,15 @@ long.
  The dendrites of neurons in this group arborized over 4.3% of the total
  volume (Sup.
  Fig.
- 4A,B,C).
+ 4A,
+\change_inserted 78966105 1475523232
+ 
+\change_unchanged
+B,
+\change_inserted 78966105 1475523234
+ 
+\change_unchanged
+C).
  
 \end_layout
 
@@ -1311,7 +1312,15 @@ The average dendritic length was
 , and the dendritic arbors of these neurons arborized over 7.2% of the total
  volume (Sup.
  Fig.
- 4A,B,C).
+ 4A,
+\change_inserted 78966105 1475523227
+ 
+\change_unchanged
+B,
+\change_inserted 78966105 1475523228
+ 
+\change_unchanged
+C).
  This was significantly smaller than the dendritic arbors of ipsi-only group,
  ipsi-contra group combined (
 \begin_inset Formula $p<0.003$
@@ -1364,7 +1373,15 @@ unknown
 
 m, and they occupied on average ~4.9% of the total volume (Sup.
  Fig.
- 4A,B,C).
+ 4A,
+\change_inserted 78966105 1475523240
+ 
+\change_unchanged
+B,
+\change_inserted 78966105 1475523241
+ 
+\change_unchanged
+C).
  
 \end_layout
 
@@ -1810,7 +1827,7 @@ lly projecting axons.
 \end_layout
 
 \begin_layout Section
-Experimental procedures
+Experimental procedures and Methods
 \end_layout
 
 \begin_layout Standard
@@ -1830,13 +1847,28 @@ nacre
  a monitor with light gratings.
  The hindbrain of the animal was imaged at 790 nm at predefined plane at
  (0.98 Hz).
- Following functional imaging, the animal was then imaged on the same setup
- for anatomical imaging.
- over the hindbrain was important for good ultrastructure preservation and
- for even staining of the tissue.
- The animal was immersed in an aldehyde based fixative in 0.1M cacodylate
+ 
+\change_inserted 78966105 1475523976
+The imaging was performed at three pre-defined planes 
+\begin_inset Formula $\sim8\mu m$
+\end_inset
+
+ apart, below the level of the Mauthner neuron, unilaterally.
+ 
+\change_unchanged
+Following functional imaging, the animal was imaged on the same setup for
+ anatomical imaging with x,y resolution of 0.53
+\begin_inset Formula $\mu m$
+\end_inset
+
+ and zs of 1.33
+\begin_inset Formula $\mu m$
+\end_inset
+
+.The skin over the hindbrain was removed for good ultrastructure preservation
+ and homogeneous staining of the tissue.
+ The animal was then immersed in an aldehyde based fixative in 0.1M cacodylate
  buffer for 24 hrs.
- Then it was thoroughly washed in 0.1M cacodylate buffer before staining.
  The tissue was stained using a conventional ROTO procedure 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1867,17 +1899,20 @@ key "hayworth_imaging_2014"
 \end_inset
 
 .
- The imaged volume was 
-\begin_inset Formula $220\times112\times57\,\mu m^{3}$
+ For the high-resolution each section was imaged at a lateral resolution
+ of 5nm/pixel in a region of interest that roughly corresponded with the
+ area imaged on the light microscopic.
+ The EM volume we imaged contained 15791 image tiles (
+\begin_inset Formula $8000\times8000$
 \end_inset
 
-.
- The images were montaged and aligned using the TrakEM2 plugin in FIJI/ImageJ
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Cardona:2012kf"
+ pixels each) or 
+\begin_inset Formula $\sim10^{11}$
+\end_inset
 
+ pixels.
+ The imaged volume was 
+\begin_inset Formula $220\times112\times57\,\mu m^{3}$
 \end_inset
 
 .
@@ -1891,21 +1926,19 @@ Registration of light microscope and electron microscope volumes
 \end_layout
 
 \begin_layout Standard
-We performed the functional light microscopy at pre-defined planes 
-\begin_inset Formula $\sim8\mu m$
-\end_inset
 
- apart, beginning close to and the Mauthner neuron, unilaterally.
- Following the functional imaging, the animal was re-imaged at higher axial
+\change_deleted 78966105 1475524004
+ 
+\change_unchanged
+Following the functional imaging, the animal was re-imaged at higher axial
  resolution of 
 \begin_inset Formula $1\mu m$
 \end_inset
 
  between optical planes.
- This imaging makes it easier to observe anatomical landmarks like blood
- vessels and location of neuron bodies, this volume was termed the light
- microscopy (LM) volume.
- These landmarks served at fiducial marks to register the EM and LM volume
+ This imaging made visible anatomical landmarks like blood vessels and location
+ of neuron bodies, this volume was termed the light microscopy (LM) volume.
+ These landmarks served as fiducial marks to register the EM and LM volume
  using the TrakEM2 plugin in Fiji 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1928,19 +1961,11 @@ key "Miri:2011ft,Miri:2011ib,Daie:2015fd"
 \end_layout
 
 \begin_layout Standard
-Each section was imaged at a lateral resolution of 5nm/pixel in a region
- of interest that roughly corresponded with area imaged on the light microscopic.
- The EM volume we imaged contained 15791 image tiles (
-\begin_inset Formula $8000\times8000$
-\end_inset
 
- pixels each) or 
-\begin_inset Formula $\sim10^{11}$
-\end_inset
-
- pixels (Fig.
- 1B).
- These images were registered using the TrakEM2 plugin in Fiji 
+\change_deleted 78966105 1475524004
+ 
+\change_unchanged
+These images were registered using the TrakEM2 plugin in Fiji 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Cardona:2012kf"
@@ -1961,8 +1986,11 @@ Reconstructions
 \end_layout
 
 \begin_layout Standard
-The reconstruction of the neurons was performed using the TrakEM2 plugin
- in Fiji/ImageJ.
+The reconstruction of the 
+\change_inserted 78966105 1475524018
+identified 
+\change_unchanged
+neurons was performed using the TrakEM2 plugin in Fiji/ImageJ.
  For the comparison of EM traces with LM traces, the LM traces were traced
  using the Simple Neurite Tracer 
 \begin_inset CommandInset citation
@@ -1973,17 +2001,28 @@ key "Longair:2011hr"
 
  plugin in Fiji, and exported as a *.swc file.
  
+\change_inserted 78966105 1475523021
+In total, we reconstructed 9.55 mm of neurite ( 2.69 mm of axonal length and
+ 6.85 mm of dendritic length).
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1475527062
 
 \bar under
 Analysis
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1475527062
 All analysis was performed on Matlab using custom scripts.
  
+\change_unchanged
+
 \end_layout
 
 \begin_layout Section
