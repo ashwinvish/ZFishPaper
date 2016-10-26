@@ -42,8 +42,8 @@
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine natbib
-\cite_engine_type authoryear
-\biblio_style plainnat
+\cite_engine_type numerical
+\biblio_style ustr
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -72,7 +72,6 @@
 \html_css_as_file 0
 \html_be_strict false
 \author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
-\author 1172979425 "Sebastian Seung"
 \end_header
 
 \begin_body
@@ -103,11 +102,7 @@ Ashwin Vishwanathan,
 \begin_inset Formula $^{4}$
 \end_inset
 
-
-\change_inserted 78966105 1475437182
- 
-\change_unchanged
-Emre Aksay,
+ Emre Aksay,
 \begin_inset Formula $^{3}$
 \end_inset
 
@@ -180,16 +175,20 @@ Neural integrators are involved in a variety of sensorimotor and cognitive
  Integrator neurons were identified as those neurons with activities highly
  correlated with eye position, and the same neurons were then reconstructed
  from serial electron microscopic images.
- Three morphological classes of neurons were observed: an ipsilaterally
- projecting neurons located medially and rostrally, a contralaterally projecting
- neurons located more laterally and caudally, and a population at the extreme
- lateral edge of the hindbrain for which we were not able to identify axons.
+ Three morphological classes of neurons were observed:ipsilaterally projecting
+ neurons located medially, contralaterally projecting neurons located more
+ laterally and a population at the extreme lateral edge of the hindbrain
+ for which we were not able to identify axons.
  Based on their somatic locations, we infer that neurons with only ipsilaterally
- projecting axons are largely glutamatergic and excitatory, whereas neurons
- with only contralaterally projecting axons are largely GABAergic and inhibitory.
+ projecting axons are
+\change_deleted 78966105 1477410978
+ 
+\change_unchanged
+ glutamatergic , whereas neurons with only contralaterally projecting axons
+ are largely GABAergic .
  Dendritic and synaptic organization of the ipsilaterally projecting neurons
  suggest a broad sampling from inputs on the ipsilateral side.
- We observe the first conclusive evidence of synapses between integrator
+ We also observe the first conclusive evidence of synapses between integrator
  neurons, which have long been hypothesized by recurrent network models
  of integration via positive feedback.
 \end_layout
@@ -220,14 +219,9 @@ key "Bock:2011fk,Lee:2016ti"
  neurons.
  Here we apply this approach to a population of neurons defined by their
  encoding of behavioral variables, rather than stimulus variables.
- Namely, we focus on neurons that carry eye position signals 
-\change_deleted 78966105 1475095090
-and
-\change_inserted 78966105 1475095090
-that
-\change_unchanged
- are located in a hindbrain neural circuit known as the "velocity-to-position
- neural integrator," or "neural integrator" for short 
+ Namely, we focus on neurons that carry eye position signals that are located
+ in a hindbrain neural circuit known as the "velocity-to-position neural
+ integrator," or "neural integrator" for short 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Major:2004dk,Joshua:2015kx"
@@ -299,10 +293,12 @@ key "Leigh:2015ts"
 \end_layout
 
 \begin_layout Standard
-Previous attempts to understand how the integrator neurons transforms the
- 'pulse'-like eye velocity signals to a 'step'-like eye position output
- have relied on combining single-neuron electrophysiology with light-microscopic
- dye fills.
+Previous attempts to understand how the integrator neurons transforms
+\change_deleted 78966105 1477410978
+ 
+\change_unchanged
+ eye velocity signals to eye position signals have relied on combining single-ne
+uron electrophysiology with light-microscopic dye fills.
  Intracellular recordings in goldfish hindbrain neurons that exhibited spiking
  correlated to eye position, followed by anatomical dye fills, show the
  axons of these neurons to send collaterals to areas where other integrator
@@ -354,85 +350,35 @@ key "Lee:2015dv"
  individual brain and do not reveal locations and the distributions of their
  input and output synapses.
  And although the axonal projections could potentially synapse onto dendrites
- of other integrator neurons, conclusive evidence
-\change_deleted 78966105 1474854856
- 
-\change_unchanged
- has been lacking.
+ of other integrator neurons, conclusive evidence has been lacking.
  
 \end_layout
 
 \begin_layout Standard
 We combined two-photon calcium imaging in a behaving fish to identify neurons
- in the neural integrator.
-
-\change_inserted 78966105 1475095386
+ in the neural integrator and
+\change_deleted 78966105 1477410978
  
-\change_unchanged
-We 
-\change_inserted 78966105 1475251420
-then
-\change_deleted 78966105 1475251425
-subsequently
 \change_unchanged
  reconstructed the same neurons using serial electron microscopy.
  We found evidence for multiple classes of neurons within the integrator
  population based on differences in dendritic arborization, axonal projections
  and synaptic distributions.
- These include neurons with ipsilaterally projecting axons at rostro-medial
- locations that are inferred to be excitatory, and neurons with contralaterally
- projecting axons at medio-caudal locations that are inferred to be inhibitory.
- 
-\change_deleted 78966105 1475095483
-The neurotransmitter identity of the neurons was inferred based on the organizat
-ion of somata in the hindbrain into 'stripes' that correspond closely to
- alternating excitatory and inhibitory pools of neurons 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
-
-\end_inset
-
-.
- 
-\change_inserted 78966105 1475095483
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1475095483
-The neurotransmitter identity of the neurons was inferred based on the organizat
-ion of somata in the hindbrain into 'stripes' that correspond closely to
- alternating excitatory and inhibitory pools of neurons 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
-
-\end_inset
-
-.
+ These include neurons with ipsilaterally projecting axons at medial locations
+ that are inferred to be excitatory, and neurons with contralaterally projecting
+ axons at more caudal
+\change_deleted 78966105 1477410978
  
 \change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-In addition, we found neurons at the lateral most edge of the volume, for
+ locations that are inferred to be inhibitory.
+ In addition, we found neurons at the lateral most edge of the volume, for
  which we could not identify an axon, and a small subset of previously unreporte
 d integrator neurons with both ipsilateral and contralateral axonal projections.
  We identified all chemical synapses in our images by the existence of presynapt
 ic vesicles and postsynaptic densities.
- Chemical synapses involving integrator neurons
-\change_deleted 78966105 1474854856
- 
-\change_unchanged
- contained small vesicles, suggesting the presence of conventional rather
- than peptidergic neurotransmitters.
+ Chemical synapses involving integrator neurons contained small vesicles,
+ suggesting the presence of conventional rather than peptidergic neurotransmitte
+rs.
  Finally we report evidence for direct synaptic connectivity between integrator
  neurons.
  
@@ -449,35 +395,23 @@ Combined two-photon and electron microscopy of integrator neurons
 \begin_layout Standard
 To identify putative integrator neurons we performed two-photon calcium
  imaging of the caudal hindbrain in a x
-\change_inserted 1172979425 1473885387
-
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted 1172979425 1473885390
 add age here
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
  dpf larval zebrafish following bolus loading of the calcium sensor Oregon
  Green BAPTA 1-AM.
-
-\change_inserted 78966105 1475523684
  The functional imaging was restricted to one side where the loading was
  best and was performed on three planes that were ~8
 \begin_inset Formula $\mu m$
 \end_inset
 
  apart during spontaneous eye movement.
-
-\change_unchanged
  Calcium signals were correlated with eye position to identify integrator
  somata from the imaged planes (Fig.
  1A) 
@@ -488,128 +422,35 @@ key "Miri:2011ft"
 \end_inset
 
 .
- 
-\change_inserted 78966105 1475169688
-N
-\change_deleted 78966105 1475169684
-n
-\change_unchanged
-eurons were identified as integrator neurons if saccade-triggered average
- fluorescence was correlated strongly with saccade-triggered eye position
- following an ipsiversive saccade (Fig.
- 1A,b, arrow) (Pearson coefficient 
+ Neurons were identified as integrator neurons if saccade-triggered eye
+ position following an ipsiversive saccade (Fig.
+ 1A,b arrow) was correlated with saccade-triggered average fluorescence
+ (Fig.
+ 1A,c first column) (Pearson coefficient 
 \begin_inset Formula $>0.6$
 \end_inset
 
-) (Fig.
- 1A,b).
+).
+ The integration time constants or the level of persistence was quantified
+ as the time constant of an exponential fit to the firing rate profile determine
+d from a deconvolution of the fluorescence data (Fig.
+ 1A, c, dotted line, extend methods).
  This resulted in the identification of 22 integrator neurons from 3 distinct
- imaging planes.
+ imaging planes with graded levels of persistence (Sup Fig.
+ 1A, B).
  
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 78966105 1475093299
-Integrator neurons exhibited graded persistent activity during eye fixation
- (Fig 1A - c).
- This persistent activity was quantified by fitting an exponential to the
- firing rate profile determined from a deconvolution of the fluorescence
- data (methods, Fig.
- 1A,c).
- Overall, we observed that neurons that were nearer to each other have similar
- persistence levels, with neurons at caudal locations having slightly higher
- persistence levels as compared to neurons at rostral locations ( Sup.
- Fig.
- 1A ).
- This result is consistent with the spatial organization of integrator neurons
- in the larval zebrafish revealed by optical imaging 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Miri:2011ib"
-
-\end_inset
-
-, and from paired unit recordings in goldfish and monkey
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Aksay:2003un,Dale:2015hh"
-
-\end_inset
-
-.
-\change_inserted 78966105 1475093299
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1475093299
-Integrator neurons exhibited graded persistent activity during eye fixation
- (Fig 1A - c).
- This persistent activity was quantified by fitting an exponential to the
- firing rate profile determined from a deconvolution of the fluorescence
- data (methods, Fig.
- 1A,c).
- Overall, we observed that neurons that were nearer to each other have similar
- persistence levels, with neurons at caudal locations having slightly higher
- persistence levels as compared to neurons at rostral locations ( Sup.
- Fig.
- 1A ).
- This result is consistent with the spatial organization of integrator neurons
- in the larval zebrafish revealed by optical imaging 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Miri:2011ib"
-
-\end_inset
-
-, and from paired unit recordings in goldfish and monkey
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Aksay:2003un,Dale:2015hh"
-
-\end_inset
-
-.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
 Following functional identification of neural integrator neurons, the tissue
  was fixed, stained, sectioned for serial electron microscopy and imaged
  at a final resolution of 
-\change_inserted 78966105 1475253774
-
 \begin_inset Formula $5\times5\times45$
 \end_inset
 
-
-\change_unchanged
- nm (RC,
-\change_inserted 78966105 1475093308
- 
-\change_unchanged
-ML,
-\change_inserted 78966105 1475093309
- 
-\change_unchanged
-DV) .
+ nm (RC, ML, DV) .
  These images were montaged and aligned to create a 3D electron microscopy
- volume (EM)
-\change_inserted 78966105 1475253842
- 
-\change_unchanged
-(Fig.
+ volume (EM) (Fig.
  1B and Methods).
  The resulting EM volume extended ventrally from the Mauthner cell axon
  plane by 
@@ -674,18 +515,18 @@ key "Lee:1993ip"
 
 , and a number of commissural bundles (Fig.
  1D).
- This revealed an alternating pattern of cell somata and neuropil.
+ This procedure revealed an alternating pattern of cell somata and neuropil.
  We were able to locate 3 peaks of cell somata, excluding a peak that correspond
 s to neurons at the midline, each corresponding to a likely stripe (Fig.
  1D, bottom panel, S1-3).
  The three stripes were labeled based on their proximity to the midline,
  as medial (S1), intermediate (S2) and lateral stripe (S3) respectively.
- The medial most stripe on the ipsilateral side overlaps with neurons that
- are known to express the 
+ The medial most stripe S1 aligns with a group of neurons that express the
+ 
 \emph on
 alx 
 \emph default
-transcription factor, that are mostly glutamatergic 
+transcription factor and are most often glutamatergic 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kimura:2006hd"
@@ -693,8 +534,8 @@ key "Kimura:2006hd"
 \end_inset
 
 .
- Integrator neurons in this stripe were previously shown to be almost exclusivel
-y glutamatergic 
+ Previous work has show that the large majority of glutamatergic integrator
+ neurons reside in this stripe
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -702,8 +543,8 @@ key "Lee:2015dv"
 \end_inset
 
 .
- The intermediate peak corresponds to neurons known to express the transcription
- factor 
+ The intermediate stripe S2 corresponds to neurons known to express the
+ transcription factor 
 \emph on
 dbx1b 
 \emph default
@@ -719,10 +560,14 @@ key "Kinkhabwala:2011et"
 .
 
 \emph default
- The majority of integrator neurons in this peak express GABA and glycine,
- while a small minority known to express glutamate, with neurons at dorsal
- locations more likely s to be glutamatergic, and at locations expressing
- GABA 
+ The majority of integrator neurons in this stripe express GABA , while
+ a small minority
+\change_deleted 78966105 1477410978
+ 
+\change_unchanged
+ express glutamate.
+ At the ventral locations explored here, integrator neurons in this stripe
+ are almost exclusively GABAergic 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -751,9 +596,6 @@ Anatomical properties of integrator neurons
 
 \begin_layout Standard
 After the identification of the integrator neurons in the EM volume, we
-\change_deleted 78966105 1472672378
- 
-\change_unchanged
  reconstructed all 22 integrator neurons and annotated the pre- and postsynaptic
  locations for these neurons.
  We first characterized some of the anatomical properties that were common
@@ -769,28 +611,12 @@ Somata
 The somatic locations of the 22 integrator neurons were distributed over
  ~23 µm in the dorsoventral axis and along the entire rostrocaudal extent
  of the imaged volume.
- A subset of these
-\change_deleted 78966105 1474989639
- 
-\change_unchanged
- neurons was located very close to the midline and at the rostral edge of
- the imaged volume, very close to the border of rhombomeres 6,7 and
-\change_deleted 78966105 1474989639
- 
-\change_unchanged
- at the caudal end of the imaged volume, located in rhombomere 8, roughly
- between myotomes 1,
-\change_inserted 78966105 1475523144
- 
-\change_unchanged
-2.
+ A subset of these neurons was located very close to the midline and at
+ the rostral edge of the imaged volume, very close to the border of rhombomeres
+ 6,7 and at the caudal end of the imaged volume, located in rhombomere 8,
+ roughly between myotomes 1, 2.
  Another subset of neurons was located at the lateral end of the volume
- in rhombomere 8
-\change_deleted 78966105 1475169824
-.
- 
-\change_unchanged
-.
+ in rhombomere 8.
  The diameters of the integrator neurons were normally distributed, with
  a mean of 
 \begin_inset Formula $4.5\pm0.6\mu m$
@@ -801,7 +627,11 @@ The somatic locations of the 22 integrator neurons were distributed over
  level of the neurons, with larger neurons exhibiting higher degree of persisten
 ce (Sup.
  Fig.
- 1B).
+ 1C, Pearson coefficient = 0.4, 
+\begin_inset Formula $p$
+\end_inset
+
+= 0.059).
  On average 
 \begin_inset Formula $3.3\pm1.5$
 \end_inset
@@ -932,66 +762,30 @@ Axons
 \end_layout
 
 \begin_layout Standard
-We defined axons as neurites with presynaptic vesicles.
- No axons were observed emerging directly from the somata.
- Instead, dendrites bearing postsynaptic sites turned into axons with presynapti
-c sites.
- This region of transition, form dendrite to axon, we termed axon initiation
- site.
+We defined axons as neurites with a) presynaptic vesicles or b) for cases
+ where there were no presynaptic vesicles, define them as putative axons
+ using additional anatomical cues (addressed below).
+ Regions of transition, from dendrite to axon, we termed axon initiation
+ sites.
  Example axon initiation sites are indicated in Fig.
  2, showing the dendrite (neurite with red postsynaptic sites) turning into
  axons at the axon initiation (open arrow) .
  The main trunk of the axon extended rostrally and ventrally (Fig.
- 2 A,
-\change_inserted 78966105 1475523179
- 
-\change_unchanged
-B,
-\change_inserted 78966105 1475523181
- 
-\change_unchanged
-C).
+ 2 A, B, C).
  From the main trunk emerged mediolateral branches, which we will term collatera
 ls.
  Those at the rostral extreme of the volume appeared to overlap with the
  expected location of the abducens motor nucleus (based on its known position
- within rhombomere r5,
-\change_inserted 78966105 1475523178
+ within rhombomere r5, 6 Sup.
+ Fig.
+ 3A ), with terminations in r4 as well.
  
-\change_unchanged
-6 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Show in sup figure
-\end_layout
-
-\end_inset
-
-).
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-In total, we reconstructed 1.62 mm of axonal length in the imaged volume.
- 
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 We observed sheaths around some axonal segments.
  In some locations, we saw that the sheath wrapped around the axon a few
- times
-\change_inserted 78966105 1475253604
-,
-\change_unchanged
- loosely enough that cytoplasmic space was visible (Fig.
+ times, loosely enough that cytoplasmic space was visible (Fig.
  2A, EM panel).
  This was consistent with the definition of loose myelin 
 \begin_inset CommandInset citation
@@ -1020,7 +814,7 @@ key "Rosenbluth:1961gl"
 
 \begin_layout Standard
 In 10/22 (45%) integrator neurons the presence of a contralaterally projecting
- axons was identified.
+ putative axon was identified.
  Because neurites in the contralateral hindbrain were not reconstructed,
  we relied on several other features for axon determination.
  First the putative axons were devoid of any postsynaptic sites on the ipsilater
@@ -1033,11 +827,7 @@ al side (Fig.
  2B, initial segment of axon).
  Secondly, before crossing the midline, the putative axon became engulfed
  by processes that appeared glial in nature (Fig.
- 2 C,
-\change_inserted 78966105 1475523171
- 
-\change_unchanged
-D, EM inset G).
+ 2 C, D, EM inset G).
  The glial engulfment is consistent with the idea of `glial bridges` that
  are instrumental in the guidance of axons during development 
 \begin_inset CommandInset citation
@@ -1056,15 +846,6 @@ key "Barresi:2005iw"
  The mean axonal diameter was less than the mean dendrite diameter, conforming
  to the textbook notion that axons are thinner than dendrites.
  These features were applied to determine a neurite to be a putative axon.
- 
-\end_layout
-
-\begin_layout Standard
-Application of this procedure revealed that putative axons emerged either
- from the somata or from a primary neurite from the somata of the integrator
- neuron (4/4 Somata to primary neurite).
- Putative axons also contained a few postsynaptic sites (Fig.
- 2D), before the axon initiation site.
  
 \end_layout
 
@@ -1100,45 +881,43 @@ We also observed a primary cilia on all 22 integrator neurons that were
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Han:2010kl,Lee:2010fy"
+key "GuemezGamboa:2014fp"
 
 \end_inset
 
 .
- This cilium, typically 
-\begin_inset Formula $<1$
+ The average cilium was typically 
+\begin_inset Formula $\sim4\mu m$
 \end_inset
 
- 
-\begin_inset Formula $\mu m$
-\end_inset
-
-, is enriched with microtubules, and emerges from the neuron somata very
+ , is enriched with microtubules, and emerges from the neuron somata very
  close to the Golgi complex.
  In some cases, this primary cilium terminated inside processes that resembled
  glial like structures (Sup.
  Fig.
- 3A).
+ 4A).
  Orientation of primary cilium in integrator neurons did not show any orientatio
 n preference (Sup.
  Fig.
- 4B)
-\change_deleted 78966105 1474854829
-
+ 
+\change_inserted 78966105 1477412058
+4
+\change_deleted 78966105 1477412058
+5
+\change_unchanged
+B)
+\change_inserted 78966105 1477412066
+ 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Axonal projection patterns of integrator neurons
 \end_layout
 
 \begin_layout Standard
 The reconstructed integrator neurons were then divided into four groups
  based on the spatial projection patterns of the axons that were identified.
-
-\change_inserted 78966105 1475170907
- 
-\change_unchanged
-Below we have detailed the properties of integrator neurons from each of
+ Below we have detailed the properties of integrator neurons from each of
  these four groups.
 \end_layout
 
@@ -1178,35 +957,45 @@ en passant
 \end_inset
 
  (Sup.
- Table) with the longest reconstructed axon being 683 µm.
- The rostral edge of the imaged volume is approximately the
-\change_deleted 78966105 1475030739
+ Table) with the longest reconstructed axon being 
+\begin_inset Formula $683µm$
+\end_inset
+
+.
+ Two of the six axons had projections that
+\change_deleted 78966105 1477410978
  
 \change_unchanged
- site of the abducens motor nuclei.
- We noticed that two of the six axons had projections had terminations near
- the abducens (Sup.
- Fig) .
+ near the site of the abducens motor nuclei (Sup.
+ Fig.
+ 
+\change_inserted 78966105 1477412114
+4
+\change_deleted 78966105 1477412114
+3
+\change_unchanged
+B) .
  The axon initiation site was on average located 
 \begin_inset Formula $\sim36\mu m$
 \end_inset
 
  from the somata.
+ Finally, no ipsi-only axons were observed emerging directly from the somata.
+ Instead, dendrites bearing postsynaptic sites turned into axons with presynapti
+c sites.
 \end_layout
 
 \begin_layout Standard
 Neurons in this group had large dendritic arbors, with the dendrites arborizing
  over 13.3% of the total imaged volume (Sup.
  Fig.
- 4A,
-\change_inserted 78966105 1475523216
  
+\change_inserted 78966105 1477412124
+5
+\change_deleted 78966105 1477412123
+4
 \change_unchanged
-B,
-\change_inserted 78966105 1475523217
- 
-\change_unchanged
-C).
+A, B, C).
  The dendrites emerged laterally from somata and always extended ventrally.
  Only in one case the dendrites were observed to cross the midline, as indicated
  by the presence of postsynaptic sites (Fig.
@@ -1267,15 +1056,13 @@ long.
  The dendrites of neurons in this group arborized over 4.3% of the total
  volume (Sup.
  Fig.
- 4A,
-\change_inserted 78966105 1475523232
  
+\change_inserted 78966105 1477412131
+5
+\change_deleted 78966105 1477412131
+4
 \change_unchanged
-B,
-\change_inserted 78966105 1475523234
- 
-\change_unchanged
-C).
+A, B, C).
  
 \end_layout
 
@@ -1323,15 +1110,13 @@ The average dendritic length was
 , and the dendritic arbors of these neurons arborized over 7.2% of the total
  volume (Sup.
  Fig.
- 4A,
-\change_inserted 78966105 1475523227
  
+\change_inserted 78966105 1477412138
+5
+\change_deleted 78966105 1477412138
+4
 \change_unchanged
-B,
-\change_inserted 78966105 1475523228
- 
-\change_unchanged
-C).
+A, B, C).
  This was significantly smaller than the dendritic arbors of ipsi-only group,
  ipsi-contra group combined (
 \begin_inset Formula $p<0.003$
@@ -1384,15 +1169,13 @@ unknown
 
 m, and they occupied on average ~4.9% of the total volume (Sup.
  Fig.
- 4A,
-\change_inserted 78966105 1475523240
  
+\change_inserted 78966105 1477412147
+5
+\change_deleted 78966105 1477412147
+4
 \change_unchanged
-B,
-\change_inserted 78966105 1475523241
- 
-\change_unchanged
-C).
+A, B, C).
  
 \end_layout
 
@@ -1401,7 +1184,7 @@ Organization of integrator neuron synapses
 \end_layout
 
 \begin_layout Standard
-On average, neurons from these four groups had 
+Neurons from these four groups had on average, 
 \family roman
 \series medium
 \shape up
@@ -1431,19 +1214,16 @@ On average, neurons from these four groups had
 
  postsynaptic (inputs) sites on their dendrites respectively (Fig.
  3C, top, red).
- The axons from the `ipsi' and `ipsi-contra' groups had approximately 56
-\change_inserted 78966105 1475253671
- 
-\change_unchanged
-and 30 presynaptic (output) sites (Fig.
+ The axons from the ipsi-only and ipsi-contra groups had approximately 56
+ and 30 presynaptic (output) sites (Fig.
  3C, top, green).
- We then computed the pathlength of each synaptic location form the somata
+ We then computed the pathlength of each synaptic location from the somata
  to determine if there were differences in the distributions of the synaptic
  locations for each of the groups (Fig.
  3C, bottom histograms).
  This processes revealed that the distribution of the presynaptic sites
  along the axons among the two groups (`ipsi-only' and `ipsi-contra') were
- similar (
+ not different (
 \begin_inset Formula $p=0.01$
 \end_inset
 
@@ -1459,17 +1239,24 @@ We further computed the synaptic density, the number of synapses per unit
  of postsynapses was found to closely match the location of dendritic arbors
  (Sup.
  Fig.
- 5A).
+ 
+\change_inserted 78966105 1477412162
+6
+\change_deleted 78966105 1477412162
+5
+\change_unchanged
+A).
  We found the there were 
 \begin_inset Formula $1.5\times$
 \end_inset
 
- more input synapses on the `ipsi' group of neurons, as compared to the
- inputs on the `contra' group of neurons ( `ipsi' group median number 
+ more input synapses on the ipsi-only group of neurons, as compared to the
+ inputs on the contra-only group of neurons ( ipsi-only group median number
+ 
 \begin_inset Formula $0.43$
 \end_inset
 
- inputs per micron, `contra' group 
+ inputs per micron, contra-only group 
 \begin_inset Formula $0.27$
 \end_inset
 
@@ -1479,8 +1266,8 @@ We further computed the synaptic density, the number of synapses per unit
 \end_inset
 
  Wilcoxon-rank test).
- Empirically the average intersynaptic distance for the `ipsi' and `contra'
- groups of neurons are 
+ Empirically the average intersynaptic distance for the ipsi-only and contra-onl
+y groups of neurons are 
 \begin_inset Formula $1\pm2.3\mu m$
 \end_inset
 
@@ -1489,7 +1276,11 @@ We further computed the synaptic density, the number of synapses per unit
 \end_inset
 
  (Fig.
- 3D, bottom, P values from Wilcoxon-rank test).
+ 3D, bottom, 
+\begin_inset Formula $p$
+\end_inset
+
+ values from Wilcoxon-rank test).
 \end_layout
 
 \begin_layout Subsection
@@ -1497,16 +1288,16 @@ Planar organization of dendrites
 \end_layout
 
 \begin_layout Standard
-The dendrites of the neurons form the ipsi and contra groups were observed
- to lie along orthogonal planes.
- The dendrites of the neurons in the ipsi groups were noticed to lie roughly
- along a coronal plane with some tilt (Fig.
+The dendrites of the neurons from the ipsi-only and contra-only groups were
+ observed to lie along orthogonal planes.
+ The dendrites of the neurons in the ipsi-only group were noticed to lie
+ roughly along a coronal plane with some tilt (Fig.
  3A).
  Similarly, the dendrites of the neurons in the contra neurons were noticed
  to exhibit some planar organization as well.
  Fitting a plane through the postsynaptic sites that lie along the dendrites
- of the neurons in the ipsi and contra groups revealed that these plane
- were nearly orthogonal (
+ of the neurons in these groups revealed that these planes were nearly orthogona
+l (
 \begin_inset Formula $81.34^{\circ}$
 \end_inset
 
@@ -1518,25 +1309,39 @@ The dendrites of the neurons form the ipsi and contra groups were observed
 \begin_layout Standard
 The dendritic arbors of the neurons in these two groups displayed an inversion
  in the stratification depths.
- The dendritic arbors of the ipsi neurons peaked at a depth of 
+ The dendritic arbors of the ipsi-only neurons peaked at a depth of 
 \begin_inset Formula $38.9\pm8.3\mu m$
 \end_inset
 
  ventral to its neurons somata (Fig.
  4B, top).
- Whereas for the contra group the peak stratification depth was around 
+ Whereas for the contra-only group the peak stratification depth was around
+ 
 \begin_inset Formula $12.4\pm8.8\mu m$
 \end_inset
 
- ventral its somata (Fig.
+ ventral to its somata (Fig.
  4B, bottom).
- Interestingly, when the peak locations of all neuron somata in the imaged
- volume are overlaid with the stratification profiles of the dendrites,
- we see that the dendrites and axons of the ipsi group projected arbors
- that overlapped with neurons along the medial and lateral most peaks, whereas
- the dendrites of the contra group were located very close the intermediate
- peak of somata.
+ Interestingly, when we overlaid
+\change_deleted 78966105 1477410978
  
+\change_unchanged
+ the stripe patterns computed previously (Fig.
+ 1D) with the stratification profiles of the dendrites along the medio-lateral
+ axis, we see that the dendrites and axons of the ipsi-only group projected
+ arbors that overlapped with neurons along the medial (S1) and lateral (S3)
+ most stripes, whereas the dendrites of the contra group were located very
+ close the intermediate stripe (S2) of somata.
+ Similar loose organization was observed for the other group of neurons
+ (Sup.
+ Fig.
+ 
+\change_inserted 78966105 1477412171
+6
+\change_deleted 78966105 1477412171
+5
+\change_unchanged
+B).
 \end_layout
 
 \begin_layout Subsection
@@ -1545,97 +1350,43 @@ Connectivity between integrator neurons
 
 \begin_layout Standard
 We also examined the patterns of connectivity between integrator neurons.
- We found that there exists overlap of the axons of the ipsilaterally projecting
- neurons (Sup.
+ We found that there exists varying amounts of overlap of the axons of the
+ ipsilaterally projecting neurons (Sup.
  Fig.
- 5B, green) with the dendrites of all other neurons in the volume (Sup.
+ 
+\change_inserted 78966105 1477412181
+6
+\change_deleted 78966105 1477412181
+5
+\change_unchanged
+C) with the dendrites of all other neurons in the volume.
+ More specifically, the overlap at ventro-rostral locations were from axons
+ of ipsi-only neurons onto dendrites of other ipsi-only neurons (Sup.
  Fig.
- 5B, red).
- More specifically, the overlap at ventro-rostral locations seems to be
- from axons of ipsi neurons onto dendrites of other ipsi-neurons, where
- as the overlap at dorso-caudal locations seem to be from axons of ipsi-neurons
- onto dendrites of contra-neurons.
+ 
+\change_inserted 78966105 1477412185
+6
+\change_deleted 78966105 1477412185
+5
+\change_unchanged
+C, D Ipsi–>Contra).
+ Whereas, the overlap at dorso-caudal locations were from axons of ipsi-only
+ neurons onto dendrites of contra-only and unknown group of neurons (Sup.
+ Fig.
+ 
+\change_inserted 78966105 1477412187
+6
+\change_deleted 78966105 1477412187
+5
+\change_unchanged
+C, D).
 \end_layout
 
 \begin_layout Standard
-Even though there was notable overlap in the axonal and dendritic fields,
- when looked at in finer resolution we found that there were very few locations
- where axo-dendritic contacts were made.
- From the axon collaterals of one integrator neuron, we found the hypothesized
- synapses onto other integrator neurons.
- This single neuron belonged to the 
-\emph on
-ipsi-only
-\emph default
- group.
- It made 2 synapses onto another 
-\emph on
-ipsi-only
-\emph default
- neuron and 1 synapse each onto two 
-\emph on
-contra-only
-\emph default
- neurons (Fig.
- 4C).
- A total of eight neurons (
-\emph on
-ipsi-only
-\emph default
- and 
-\emph on
-ipsi-contra
-\emph default
-) had ipsilaterally projecting axons.
- Based on this projection pattern, it might appear that all eight neurons
- had the 
-\emph on
-potential
-\emph default
- to make synapses onto other integrator neurons within the confines of the
- imaged volume.
- However, this would be overstating the case if the axons failed to even
- approach dendrites.
- Therefore we decided to define a 
-\begin_inset Quotes eld
-\end_inset
-
-potential synapse
-\begin_inset Quotes erd
-\end_inset
-
- as a location where axon and dendrite approached each other closer than
- 
-\begin_inset Formula $1\mu m$
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Stepanyants:2005cs"
-
-\end_inset
-
-.
- We found 48 potential synapses between integrator neurons (Fig.
- 4C, inset).
- Of this set, 40 involved the one neuron that made the four real synapses
+Furthermore, we found that one neuron of the ipsi-only group made 2 synapses
+ onto another ipsi-only neuron and 1 synapse each onto two contra-only neurons
  (Fig.
- 4C, inset, arrow).
- Therefore this neuron seemed exceptional in that it made a disproportionate
- number of potential synapses as well as all the real synapses.
- This number dropped substantially if the neuron was randomly translated
- by as little as
-\change_deleted 78966105 1475093401
- 
-\change_unchanged
- 
-\begin_inset Formula $5\mu m$
-\end_inset
-
- from the postsynaptic neuron (Sup.
- Fig.
- 5C).
+ 4C).
  
 \end_layout
 
@@ -1647,7 +1398,7 @@ Discussion
 We combined two-photon calcium imaging from neurons in the larval zebrafish
  that were encoding for a behavioral variable (eye-position) with serial
  section electron microscopy.
- This was followed by registering the light microscopic volume to an electron
+ This was followed by registering the light microscopic volume to the electron
  microscopic volume to locate the same neurons.
  We were able to reconstruct 22 integrator neurons from the same animal,
  for which we had both functional and structural information.
@@ -1665,23 +1416,32 @@ r neurons.
 Of the 22 integrator neurons, six, rostrally located neurons had exclusively
  ipsilaterally projecting axons.
  All but one of these six neurons were medial to the first somata stripe
- S1, that is though to contain mostly excitatory, glutamatergic neurons.
+ S1, that is thought to contain mostly excitatory, glutamatergic neurons.
  The axons and dendrites of these neurons display a planar organization,
  with axons oriented approximately orthogonal to the dendrites (Sup.
- Fig).
+ Fig.
+ 
+\change_inserted 78966105 1477412199
+6
+\change_deleted 78966105 1477412199
+5
+\change_unchanged
+D).
  The majority of input synapses onto the dendrites of these neurons lie
  along a plane approximately normal to the rostro-caudal (RC) axis.
  This suggests that these neurons are setup to broadly sample from axons
  that are oriented along the RC axis.
- Surprisingly, the axons of these neurons are also oriented along the RC
- axis with the rostral end more ventral than the caudal end, suggesting
- the possibility of recurrent synapses between neurons in this population.
- It has long been theorized that
-\change_deleted 78966105 1475253704
+ The axons of these neurons are
+\change_deleted 78966105 1477410978
  
 \change_unchanged
- positive feedback via recurrent excitation could be a possible mechanism
- that can explain long persistent time scales of neuronal activity 
+ oriented along the RC axis with the rostral end more ventral than the caudal
+ end.
+ This suggests that axon from this group can potentially synpase on dendrites
+ from this group.
+ It has long been theorized that positive feedback via recurrent excitation
+ could be a possible mechanism that can explain long persistent time scales
+ of neuronal activity 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Seung:2000kl,fisher_modeling_2013,Joshua:2013jg"
@@ -1692,16 +1452,8 @@ key "Seung:2000kl,fisher_modeling_2013,Joshua:2013jg"
  Indeed, we observed conclusive chemical synapses from one ipsilataterally
  projecting integrator neuron onto another ipsilaterally projecting integrator
  neuron.
- These facts point to the ipsi group of neurons as
-\change_deleted 78966105 1475253704
- 
-\change_unchanged
- a
-\change_deleted 78966105 1475253704
- 
-\change_unchanged
- candidate that could support recurrent positive feedback in the integrator
- circuit.
+ These facts point to the ipsi group of neurons as a candidate that could
+ support recurrent positive feedback in the integrator circuit.
  
 \end_layout
 
@@ -1711,8 +1463,7 @@ The second major group of neurons that we reconstructed were the eight caudally
  The somatic location of these neurons lie very close to the intermediate
  somal stripe S2, that are largely GABAergic neurons.
  The dendrites of these neurons arborized over a smaller area, and stratify
- more dorsally as compared to the ipsi.
- group of neurons.
+ more dorsally as compared to the ipsi-only group of neurons.
  The postsynaptic inputs on the dendrites of these cells lie along a plane
  that is approximately parallel to the RC plane.
  This suggests that these neurons sample narrowly from inputs along the
@@ -1739,8 +1490,6 @@ key "Lee:2015dv"
 
 .
  
-\change_inserted 78966105 1475091526
-
 \end_layout
 
 \begin_layout Standard
@@ -1763,8 +1512,6 @@ key "Kinkhabwala:2011et"
 
 .
  The role of these neurons remains unknown.
-\change_inserted 78966105 1475093234
-
 \end_layout
 
 \begin_layout Standard
@@ -1797,10 +1544,6 @@ key "Aksay:2003un"
 .
  We observed 4 chemical synapses from one ipsilaterally projecting integrator
  neuron onto other integrator neurons.
-
-\change_deleted 78966105 1475253697
- 
-\change_unchanged
  This observation may be an underestimate of integrator connectivity, for
  a few reasons.
  First, there are many neurons in the imaged volume that carried no usable
@@ -1821,20 +1564,22 @@ key "Aksay:2003un"
  Therefore, it is difficult to know whether the single neuron that made
  synapses onto other integrator neurons is an exceptional case, or a representat
 ive of a larger population that was incompletely sampled.
+ More definitive information about connectivity patterns between integrator
+ neurons awaits a future experiment with an imaged volume that is large
+ enough to encompass all integrator neurons, and a fluorescent calcium indicator
+ that labels a higher percentage of integrator neurons.
+ 
 \end_layout
 
 \begin_layout Standard
 Here we presented ultrastructural anatomical details of different types
  of integrator neurons and evidence of synaptic connectivity between these
  neurons.
- We restricted our reconstructions to the unilateral integrator circuit
- and consequently do not know about the postsynaptic targets of the contralatera
-lly projecting axons.
- More definitive information about connectivity patterns between integrator
- neurons awaits a future experiment with an imaged volume that is large
- enough to encompass all integrator neurons, and a fluorescent calcium indicator
- that labels a higher percentage of integrator neurons.
- 
+ Although we restricted our reconstructions to the unilateral integrator
+ circuit and consequently do not know about the postsynaptic targets of
+ the contralaterally projecting axons, this approach can be used to uncover
+ general rules of connectivity and validate hypothesized theories of temporal
+ integration.
 \end_layout
 
 \begin_layout Section
@@ -1858,21 +1603,17 @@ nacre
  a monitor with light gratings.
  The hindbrain of the animal was imaged at 790 nm at predefined plane at
  (0.98 Hz).
- 
-\change_inserted 78966105 1475523976
-The imaging was performed at three pre-defined planes 
+ The imaging was performed at three pre-defined planes 
 \begin_inset Formula $\sim8\mu m$
 \end_inset
 
  apart, below the level of the Mauthner neuron, unilaterally.
- 
-\change_unchanged
-Following functional imaging, the animal was imaged on the same setup for
+ Following functional imaging, the animal was imaged on the same setup for
  anatomical imaging with x,y resolution of 0.53
 \begin_inset Formula $\mu m$
 \end_inset
 
- and zs of 1.33
+ and z of 1.33
 \begin_inset Formula $\mu m$
 \end_inset
 
@@ -1937,10 +1678,6 @@ Registration of light microscope and electron microscope volumes
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted 78966105 1475524004
- 
-\change_unchanged
 Following the functional imaging, the animal was re-imaged at higher axial
  resolution of 
 \begin_inset Formula $1\mu m$
@@ -1972,10 +1709,6 @@ key "Miri:2011ft,Miri:2011ib,Daie:2015fd"
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted 78966105 1475524004
- 
-\change_unchanged
 These images were registered using the TrakEM2 plugin in Fiji 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1997,11 +1730,8 @@ Reconstructions
 \end_layout
 
 \begin_layout Standard
-The reconstruction of the 
-\change_inserted 78966105 1475524018
-identified 
-\change_unchanged
-neurons was performed using the TrakEM2 plugin in Fiji/ImageJ.
+The reconstruction of the identified neurons was performed using the TrakEM2
+ plugin in Fiji/ImageJ.
  For the comparison of EM traces with LM traces, the LM traces were traced
  using the Simple Neurite Tracer 
 \begin_inset CommandInset citation
@@ -2011,29 +1741,8 @@ key "Longair:2011hr"
 \end_inset
 
  plugin in Fiji, and exported as a *.swc file.
- 
-\change_inserted 78966105 1475523021
-In total, we reconstructed 9.55 mm of neurite ( 2.69 mm of axonal length and
- 6.85 mm of dendritic length).
-\change_unchanged
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 78966105 1475527062
-
-\bar under
-Analysis
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 78966105 1475527062
-All analysis was performed on Matlab using custom scripts.
- 
-\change_unchanged
-
+ In total, we reconstructed 9.55 mm of neurite ( 2.69 mm of axonal length
+ and 6.85 mm of dendritic length).
 \end_layout
 
 \begin_layout Section
@@ -2091,7 +1800,7 @@ We are grateful to Juan Carlos Tapia, Richard Schalek and Ken Hayworth for
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "ZfishBib"
-options "plainnat"
+options "unsrt"
 
 \end_inset
 
@@ -2158,15 +1867,8 @@ Ipsilateral saccades are indicated by black arrows
 
 .
  Colored traces below are the changes in fluorescence from individual neurons
-\change_deleted 78966105 1475434129
- 
-\change_unchanged
  in (a).
- Colors reprensent the
-\change_deleted 78966105 1475434129
- 
-\change_unchanged
- persistance level of the neuron.
+ Colors represent the persistance level of the neuron.
  
 \begin_inset Newline newline
 \end_inset
@@ -2205,13 +1907,7 @@ Ipsilateral saccades are indicated by black arrows
 (D) An example EM plane showing anatomical landmarks, Mauthner neuron (black
  star), Mi2 (red stars), Mi3 (blue stars) and Ca (green stars).
  Anatomical locations of all identified integrator neurons (colored circles)
- and all remianing cell bodies in the imaged EM volume ( 
-\change_inserted 78966105 1475435594
-`
-\change_deleted 78966105 1475435594
-'
-\change_unchanged
-
+ and all remianing cell bodies in the imaged EM volume ( `
 \begin_inset Formula $\bullet$
 \end_inset
 
@@ -2220,11 +1916,7 @@ Ipsilateral saccades are indicated by black arrows
  the neuron.
  Lower panel is a distribution of all neurons along the medio-lateral axis
  with integrator neurons overlaid.
- Dotted lines 
-\change_inserted 78966105 1475434216
-(cyan) 
-\change_unchanged
-are the identified somata stripes (S 1-3).
+ Dotted lines (cyan) are the identified somata stripes S 1-3.
 \end_layout
 
 \end_inset
@@ -2261,12 +1953,8 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1475435426
-
 \bar under
-Ultrastructural
-\change_unchanged
- features of Integrator neurons.
+Ultrastructural features of Integrator neurons.
 
 \bar default
  
@@ -2296,44 +1984,18 @@ Ultrastructural
 \end_inset
 
 (C) Integrator neuron with both ipsi and contralateral projecting axon.
- 
-\change_inserted 78966105 1475435801
-Putative c
-\change_deleted 78966105 1475435801
-C
-\change_unchanged
-ontralateral axon emerges from somata and is engulfed by glial
-\change_deleted 78966105 1475435408
- 
-\change_unchanged
+ Putative contralateral axon emerges from somata and is engulfed by glial
  before crossing the midline.
- (EM insets at numbered locations G - Glia, A - Axon)
-\change_deleted 78966105 1475435408
- 
-\change_unchanged
- Open arrowhead shows the axons initiation site.
+ (EM insets at numbered locations G - Glia, A - Axon) Open arrowhead shows
+ the axons initiation site.
  
 \begin_inset Newline newline
 \end_inset
 
-(D) Integrator nerons with only contralaterally projecting
-\change_inserted 78966105 1475435810
- axon
-\change_unchanged
-.
- 
-\change_inserted 78966105 1475435819
-Putative a
-\change_deleted 78966105 1475435819
-A
-\change_unchanged
-xon is engulfed by glia before crossing the midline.(EM insets at numbered
- locations G - Glia, A - Axon).
- Bottom EM
-\change_deleted 78966105 1475435408
- 
-\change_unchanged
- panel shows primary cilium highlighted with yellow arrow.
+(D) Integrator neurons with only contralaterally projecting axon.
+ Putative axon is engulfed by glia before crossing the midline.(EM insets
+ at numbered locations G - Glia, A - Axon).
+ Bottom EM panel shows primary cilium highlighted with yellow arrow.
  Note all the integrator somata in this volume give rise to a cilium, but
  it is shown for this neuron.
 \end_layout
@@ -2393,11 +2055,8 @@ Integrator neurons projection patterns and synaptic distribution.
  putative-axon – contra-only, orange background.
  Bottom right, 6, integrator neurons with unknown axonal projection – unknown,
  blue background.
- Axons - dark line, dendrites - light lines,
-\change_deleted 78966105 1475436428
- 
-\change_unchanged
- red circles - postsynaptic sites, green circles - presynaptic sites.
+ Axons - dark line, dendrites - light lines, red circles - postsynaptic
+ sites, green circles - presynaptic sites.
  
 \begin_inset Newline newline
 \end_inset
@@ -2476,12 +2135,9 @@ Integrator neurons are synaptically connected.
 
 
 \bar default
-(A)Planar organization of
-\change_deleted 78966105 1475437070
- 
-\change_unchanged
- ipsi (pink) and contra (orange) neuron postsynaptic sites.
- Grid represents the bset fit plane through the cloud of points for each
+(A)Planar organization of ipsi (pink) and contra (orange) neuron postsynaptic
+ sites.
+ Grid represents the best fit plane through the cloud of points for each
  group.
 \begin_inset Newline newline
 \end_inset
