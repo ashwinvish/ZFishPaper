@@ -42,7 +42,7 @@
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine natbib
-\cite_engine_type authoryear
+\cite_engine_type numerical
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -157,9 +157,13 @@ Colors represent the group that the cell belong to.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1477418662
 \begin_inset Newpage newpage
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
@@ -213,9 +217,135 @@ Supplementary figure 2
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1477418741
 \begin_inset Newpage newpage
 \end_inset
 
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename SupFigures/AbducensLocation.png
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Supplementary figure 
+\change_inserted 78966105 1477412482
+3
+\change_deleted 78966105 1477412482
+4
+\change_unchanged
+
+\begin_inset Newline newline
+\end_inset
+
+(A) Location of abducens nuclei from serial of low-res EM images.
+ The frames are ordered from medial to lateral orientation
+\change_inserted 78966105 1477412261
+ every 
+\begin_inset Formula $10\mu m$
+\end_inset
+
+
+\change_unchanged
+.
+ Rhombomeres r4-7 were identified based on the location of the reticulo-spinal
+ cells (MCell, Mi2, Mi3 and Ca).
+ Dotted white line is 50
+\begin_inset Formula $\mu m$
+\end_inset
+
+ ventral to the Mauthner axon plane.
+ 
+\change_deleted 78966105 1477412289
+White arrow
+\change_inserted 78966105 1477412293
+Red dotted circles
+\change_unchanged
+ show the 
+\change_inserted 78966105 1477412299
+potential 
+\change_unchanged
+locations of both abducens nuclei.
+ Green arrow shows the location of the inferior olive.
+ MA -Mauthner Axon.
+
+\change_inserted 78966105 1477412447
+ Scale bar 
+\begin_inset Formula $20\mu m$
+\end_inset
+
+.
+\change_unchanged
+
+\begin_inset Newline newline
+\end_inset
+
+(B) Lateral view of two ipsilaterally projecting integrator neurons that
+ send
+\change_inserted 78966105 1477412312
+ing
+\change_unchanged
+ axonal projections towards the abducens nuclei.
+ The axons project to the same depth as the abducens nuclei (dotted black
+ line).
+ 
+\change_inserted 78966105 1477412459
+Black dotted line is the border between r6 and r7, with tilt calculated
+ based on 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Daie:2015fd,Lee:2015dv"
+
+\end_inset
+
+.Scale bar 
+\begin_inset Formula $20\mu m$
+\end_inset
+
+.
+ 
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1477412010
+\begin_inset Newpage newpage
+\end_inset
+
+
+\change_unchanged
 
 \end_layout
 
@@ -241,7 +371,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Supplementary figure 3
+Supplementary figure 
+\change_inserted 78966105 1477412478
+4
+\change_deleted 78966105 1477412478
+3
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
@@ -272,73 +408,13 @@ Colors represent the group that the cell belong to.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1477418748
 \begin_inset Newpage newpage
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename SupFigures/AbducensLocation.png
-	scale 70
-	rotateOrigin center
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Supplementary figure 4
-\begin_inset Newline newline
-\end_inset
-
-(A) Location of abducens nuclei from serial of low-res EM images.
- The frames are ordered from medial to lateral orientation.
- Rhombomeres r4-7 were identified based on the location of the reticulo-spinal
- cells (MCell, Mi2, Mi3 and Ca).
- Dotted white line is 50
-\begin_inset Formula $\mu m$
-\end_inset
-
- ventral to the Mauthner axon plane.
- White arrow show the locations of both abducens nuclei.
- Green arrow shows the location of the inferior olive.
- MA -Mauthner Axon.
-\begin_inset Newline newline
-\end_inset
-
-(B) Lateral view of two ipsilaterally projecting integrator neurons that
- send axonal projections towards the abducens nuclei.
- The axons project to the same depth as the abducens nuclei (dotted black
- line).
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
+\change_unchanged
 
 \end_layout
 
@@ -414,6 +490,8 @@ standard deviation.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1477418762
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1105,26 +1183,18 @@ Anatomical features of integrator neurons
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted 78966105 1475614417
 \begin_inset Newpage clearpage
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
-\begin_layout Section
+\begin_layout Section*
 Supplementary experimental procedure
 \end_layout
 
-\begin_layout Standard
-
-\bar under
-Two-photon calcium imaging
-\bar default
-.
+\begin_layout Subsection*
+Two-photon calcium imaging.
  
 \end_layout
 
@@ -1137,7 +1207,7 @@ Nacre mutant zebrafish larvae, X days of age, was anesthetized in 100 or
  The larva was then covered in 50 mg/L MS222.
  The larva was bulk-loaded 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "Brustein:2003ef,Smetters:1999jc"
 
 \end_inset
@@ -1195,12 +1265,8 @@ ezfit)
 The time constants for the fits were capped at 100 sec.
 \end_layout
 
-\begin_layout Standard
-
-\bar under
-Serial section electron microscopy
-\bar default
-.
+\begin_layout Subsection*
+Serial section electron microscopy.
  
 \end_layout
 
@@ -1209,15 +1275,23 @@ The animal was immersed in a fixative of 1% paraformaldehyde and 1% glutaraldehy
 de buffered in 0.1M cacodylate buffer and 4% sucrose for 72 hrs.
  hrs.
  Then it was thoroughly washed in 0.1M cacodylate buffer before staining.
- The tissue was stained using a conventional ROTO procedure (
+ The tissue was stained using a conventional ROTO procedure 
+\change_deleted 78966105 1475614607
+(
+\change_unchanged
+
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Tapia:2012hs"
 
 \end_inset
 
-).Briefly, it was stained in 1% reduced osmium tetroxide with potassium ferrocyan
-ide for 2 hr on ice.
+
+\change_deleted 78966105 1475614611
+)
+\change_unchanged
+.Briefly, it was stained in 1% reduced osmium tetroxide with potassium ferrocyani
+de for 2 hr on ice.
  It was then washed 4x 30 min with 0.1M cacodylate buffer, also on ice.
  This was then followed by amplification in 1% sodium thiocarbohydroazide
  (TCH) for 15min followed by 3x5 min washes in water and another incubation
@@ -1243,7 +1317,7 @@ ar mesa was defined for serial sectioning.
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsection*
 Registration of light microscope and electron microscope volumes
 \end_layout
 
@@ -1287,9 +1361,7 @@ key "Cardona:2012kf"
  
 \end_layout
 
-\begin_layout Standard
-
-\bar under
+\begin_layout Subsection*
 Reconstructions
 \end_layout
 
@@ -1309,9 +1381,7 @@ structed.
  
 \end_layout
 
-\begin_layout Standard
-
-\bar under
+\begin_layout Subsection*
 Analysis
 \end_layout
 
@@ -1377,6 +1447,39 @@ planefit
 \emph default
 function, available on the Matlab central repository.
  
+\change_inserted 78966105 1477418848
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1477419849
+To locate the border of r6/7 we followed a similar approach that was performed
+ previous using light microscopic imaging and the expression of the 
+\emph on
+hox
+\emph default
+ genes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ma:2014gb,Daie:2015fd,Lee:2015dv"
+
+\end_inset
+
+.
+ Reticulospinal cells were identified based on the ultrastructure, that
+ was very different form the remaining cells in the area.
+ These cells were rich in mitochondria and gave rise to a large myelinated
+ axon that joined the remaining fibers along the midline.
+ We fit a plane to the reticulospinal neurons, and identified a point on
+ this plane that bisected Mi3 and Ca.
+ This point was move by 
+\begin_inset Formula $0.37\mu m$
+\end_inset
+
+ caudally for every micron ventrally.
+\change_unchanged
+
 \begin_inset Newpage newpage
 \end_inset
 
@@ -1387,7 +1490,7 @@ function, available on the Matlab central repository.
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "ZfishBib"
-options "plain"
+options "unsrt"
 
 \end_inset
 
