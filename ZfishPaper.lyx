@@ -174,7 +174,7 @@ Neural integrators are involved in a variety of sensorimotor and cognitive
  Integrator neurons were identified as those neurons with activities highly
  correlated with eye position, and the same neurons were then reconstructed
  from serial electron microscopic images.
- Three morphological classes of neurons were observed:ipsilaterally projecting
+ Three morphological classes of neurons were observed: ipsilaterally projecting
  neurons located medially, contralaterally projecting neurons located more
  laterally and a population at the extreme lateral edge of the hindbrain
  for which we were not able to identify axons.
@@ -347,9 +347,9 @@ key "Lee:2015dv"
 \end_layout
 
 \begin_layout Standard
-We combined two-photon calcium imaging in a behaving fish to identify neurons
- in the neural integrator and reconstructed the same neurons using serial
- electron microscopy.
+We combined two-photon calcium imaging and serial electron microscopy in
+ a behaving fish to identify neurons in the neural integrator and reconstructed
+ the same neurons.
  We found evidence for multiple classes of neurons within the integrator
  population based on differences in dendritic arborization, axonal projections
  and synaptic distributions.
@@ -379,18 +379,8 @@ Combined two-photon and electron microscopy of integrator neurons
 
 \begin_layout Standard
 To identify putative integrator neurons we performed two-photon calcium
- imaging of the caudal hindbrain in a x
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-add age here
-\end_layout
-
-\end_inset
-
- dpf larval zebrafish following bolus loading of the calcium sensor Oregon
- Green BAPTA 1-AM.
+ imaging of the caudal hindbrain in a 6 dpf larval zebrafish following bolus
+ loading of the calcium sensor Oregon Green BAPTA 1-AM.
  The functional imaging was restricted to one side where the loading was
  best and was performed on three planes that were ~8
 \begin_inset Formula $\mu m$
@@ -701,17 +691,7 @@ Along the somatic membrane, a darkening of the membrane interrupted by small
  it was not an artifact of tissue preparation or imaging.
  These darkenings were visible between somata of integrator-integrator and
  integrator-non-integrator neurons.
- We speculate that these darkenings are some kind of 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-intercellular
-\end_layout
-
-\end_inset
-
- cell junction.
+ We speculate that these darkenings are some kind of cell junction.
  Gap junctions are known to exist in the developing larval zebrafish hindbrain
  
 \begin_inset CommandInset citation
@@ -1322,6 +1302,26 @@ r neurons.
 \begin_layout Standard
 Of the 22 integrator neurons, six, rostrally located neurons had exclusively
  ipsilaterally projecting axons.
+ 
+\color red
+Two of the six neurons were found to have more than one axon (Fig.
+ 2A, open arrow), and evidence of neurons with two axon is rare and has
+ been reported in mammals 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gobel:1975wm,Meyer:1982vy"
+
+\end_inset
+
+.
+ Therefore, it migh be possible that the secondary axon could be a false
+ posive and infact an axon from a neighboring neuron.
+ It is possible that this may occur due to the fact that axons are extremely
+ thin, and when traveling oblique to the plane of imaging, they can appear
+ to be fused.
+ Removing these secondary axons did not impact the results in any way.
+
+\color inherit
  All but one of these six neurons were medial to the first somata stripe
  S1, that is thought to contain mostly excitatory, glutamatergic neurons.
  The axons and dendrites of these neurons display a planar organization,
@@ -1334,7 +1334,7 @@ Of the 22 integrator neurons, six, rostrally located neurons had exclusively
  that are oriented along the RC axis.
  The axons of these neurons are oriented along the RC axis with the rostral
  end more ventral than the caudal end.
- This suggests that axon from this group can potentially synpase on dendrites
+ This suggests that axons from this group can potentially synpase on dendrites
  from this group.
  It has long been theorized that positive feedback via recurrent excitation
  could be a possible mechanism that can explain long persistent time scales
@@ -1365,7 +1365,7 @@ The second major group of neurons that we reconstructed were the eight caudally
  that is approximately parallel to the RC plane.
  This suggests that these neurons sample narrowly from inputs along the
  RC axis.
- In the gold fish oculomotor integrator, contralaterally projecting neurons
+ In the goldfish oculomotor integrator, contralaterally projecting neurons
  are thought to be involved in coordinating activity between the two sides,
  and that each side acts as an independent integrator 
 \begin_inset CommandInset citation
@@ -1399,7 +1399,7 @@ Of the remaining integrator neurons, two were found to have both an ipsilateral
  animal corresponding with to the lateral most stripe S3, that are though
  to express glutamate.
  The axonal projections of these neurons exited the imaged volume, but morpholog
-ical reconstructions of neurons belonging to this stripe using light microscope
+ical reconstructions of neurons belonging to this stripe using light microscopy
  were shown to have both ipsilateral and contralateral projections 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1418,7 +1418,7 @@ Our evidence suggest that at least two of the groups, the ipsilaterally
  and distributions of postsynapses along their dendrites.
  The ipsi-only group of neurons has approximately twice as many postsynaptic
  input sites as the contra-only only group.
- The both cases initiation of the axons was from a neurite that contained
+ In both cases initiation of the axons was from a neurite that contained
  postsynaptic sites that then gave rise to presynaptic sites.
  This feature could be important to influence the activity of neurons as
  these locations are proximal to the somata.
@@ -1690,7 +1690,7 @@ We are grateful to Juan Carlos Tapia, Richard Schalek and Ken Hayworth for
 \begin_inset Newpage newpage
 \end_inset
 
-—
+
 \end_layout
 
 \begin_layout Standard
@@ -1705,25 +1705,18 @@ options "unsrt"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename NewFigure1_NewTimeConstants.png
-	display false
-	scale 70
-	rotateOrigin center
-
+\begin_inset Newpage pagebreak
 \end_inset
 
 
-\begin_inset Caption Standard
+\end_layout
 
-\begin_layout Plain Layout
+\begin_layout Section
+Figure legends
+\end_layout
 
+\begin_layout Standard
+Figure1: 
 \bar under
 Functional and structural imaging of integrator neurons.
 
@@ -1752,17 +1745,7 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
 
 (b) Spontaneous eye movement (top, blue line) showing saccades (sharp vertical
  lines) and post-saccadic fixations (horizontal lines).
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Ipsilateral saccades are indicated by black arrows
-\end_layout
-
-\end_inset
-
-.
+ Ipsilateral saccades are indicated by black arrows.
  Colored traces below are the changes in fluorescence from individual neurons
  in (a).
  Colors represent the persistance level of the neuron.
@@ -1774,7 +1757,7 @@ Ipsilateral saccades are indicated by black arrows
  Thick line shows the average, with shaded region showing the SEM.
  Dotted line is the exponential fit to determine persistence time constant,
  represented as 
-\begin_inset Formula $log(\Tau)$
+\begin_inset Formula $\log\left(\tau\right)$
 \end_inset
 
 .
@@ -1814,42 +1797,14 @@ Ipsilateral saccades are indicated by black arrows
  Lower panel is a distribution of all neurons along the medio-lateral axis
  with integrator neurons overlaid.
  Dotted lines (cyan) are the identified somata stripes S 1-3.
-\end_layout
-
+\begin_inset Newline newline
 \end_inset
 
 
-\end_layout
-
+\begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename NewFigure2.png
-	display false
-	scale 60
-	rotateOrigin center
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
+Figure2: 
 \bar under
 Ultrastructural features of Integrator neurons.
 
@@ -1895,47 +1850,16 @@ Ultrastructural features of Integrator neurons.
  Bottom EM panel shows primary cilium highlighted with yellow arrow.
  Note all the integrator somata in this volume give rise to a cilium, but
  it is shown for this neuron.
-\end_layout
-
+\begin_inset Newline newline
 \end_inset
 
 
-\end_layout
-
+\begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename NewFig3_4.png
-	display false
-	scale 60
-	rotateOrigin center
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
+Figure3:
 \bar under
-Integrator neurons projection patterns and synaptic distribution.
+ Integrator neurons projection patterns and synaptic distribution.
 
 \bar default
  
@@ -1974,7 +1898,7 @@ Integrator neurons projection patterns and synaptic distribution.
 (Bottom) Normalized distribution of the synaptic pathlength.
  Red - postsynaptic sites, green - Presynaptic sites.
  Black vertical lines, with adjoining colored numbers represent the means
- of the distribution..
+ of the distribution.
 \begin_inset Newline newline
 \end_inset
 
@@ -1986,53 +1910,22 @@ Integrator neurons projection patterns and synaptic distribution.
 (Bottom) Box plots of the intersynaptic path length for all four groups.
  Notches are the 25th and 75th quantiles.
  Open circles are outliers (significance reported as Wilcoxn rank-sum test).
-\end_layout
-
+\begin_inset Newline newline
 \end_inset
 
 
-\end_layout
-
+\begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename NewFigure5_Small.png
-	display false
-	scale 60
-	rotateOrigin center
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
+Figure4:
 \bar under
-Integrator neurons are synaptically connected.
+ Integrator neurons are synaptically connected.
 \begin_inset Newline newline
 \end_inset
 
 
 \bar default
-(A)Planar organization of ipsi (pink) and contra (orange) neuron postsynaptic
+(A) Planar organization of ipsi (pink) and contra (orange) neuron postsynaptic
  sites.
  Grid represents the best fit plane through the cloud of points for each
  group.
@@ -2053,47 +1946,12 @@ Integrator neurons are synaptically connected.
 \end_inset
 
 (C) Three views of synaptically connected integrator neurons.
- All synapses were from one neuron (magenta, arrow) in ipsi-only group onto
- one other neuron from ipsi-only group (olive).
- One synapse each from ipsi-only group neuron (magenta) onto two contra-only
- neurons (red and brown).
+ All synapses were from one neuron (magenta, arrow) from the ipsi-only group
+ onto one other neuron from ipsi-only group (olive) and one synapse each
+ onto two contra-only neurons (red and brown).
  Black dots represent the location of the synapses, with insets showing
  the electron micrograph at the respective location.
- In all electron micrographs.
-\begin_inset Newline newline
-\end_inset
-
-(inset) Potential synapses that are 
-\begin_inset Formula $<1\:\mu m$
-\end_inset
-
- from each other.
- Presynaptic cell# 2 (arrow), is the same neuron in (A, magenta) that makes
- maximum number of potential synapses onto other neurons and makes the real
- synapses shown in (A).
- The real synapses are represented by the black circle in the header.
  
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \end_body

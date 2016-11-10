@@ -106,29 +106,34 @@ Supplementary figure 1
 \begin_inset Newline newline
 \end_inset
 
-(A) Graded levels of persistent activity of the 22 reconstructed integrator
- neurons.
- 
+(A) 
+\change_inserted 78966105 1478731484
+Spatial distribution of integrator time constants along the rostro-caudal,
+ medio-lateral and dorso-ventral axis respectively.
+ Colors represent the group that the cell belong to.(Pink - ipsi only, Green
+ - Ipsi-contra, Orange - contra only and Blue - unknown).
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
-(B) Persistence time constants along the rostro-caudal, medio-lateral and
- dorso-ventral axis respectively.
- 
+(B) 
+\change_inserted 78966105 1478792480
+(Left) Graded levels of persistent activity.
+ (Middle) Diamaters of a the integrator neuron somata along depth.
+ (Right) Effect of intgrator neuron diamater and integrator time constant.
 \begin_inset Newline newline
 \end_inset
 
-(C) (left) Integrator neuron somata dimeter versus the depth along the dorso-ven
-tral axis.
- 
-\begin_inset Newline newline
-\end_inset
 
-(right) Persistant times ofintegrator neuron versus somal diameter versus
-\begin_inset Newline newline
-\end_inset
-
-(D Diameter profiles along ipsi only (left) and contra only (right) integrator
+\change_unchanged
+(
+\change_inserted 78966105 1478731462
+C)
+\change_deleted 78966105 1478731441
+D
+\change_unchanged
+ Diameter profiles along ipsi only (left) and contra only (right) integrator
  cells.
  Location of each dot represents the thickness of the neurite.
  Large grey circle represents the somata of the cell.
@@ -138,12 +143,6 @@ tral axis.
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-Colors represent the group that the cell belong to.
- (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
- unknown).
 \end_layout
 
 \end_inset
@@ -202,7 +201,13 @@ Supplementary figure 2
 (B) Successive images from cellular junctions between cells somata.
  Closed arrow head shows tight junction indicated by darkening of the membrane
  in the same location in multiple sections.
- Open arrows show the spearation of the membrane by the lack of darkening.
+ Open arrows show the 
+\change_deleted 78966105 1478792485
+spearation
+\change_inserted 78966105 1478792485
+separation
+\change_unchanged
+ of the membrane by the lack of darkening.
  Scale bar 500nm
 \end_layout
 
@@ -251,66 +256,47 @@ status open
 Supplementary figure 
 \change_inserted 78966105 1477412482
 3
-\change_deleted 78966105 1477412482
-4
 \change_unchanged
 
 \begin_inset Newline newline
 \end_inset
 
-(A) Location of abducens nuclei from serial of low-res EM images.
+(A) Location of abducens nuclei from
+\change_inserted 78966105 1478790256
+ 
+\change_unchanged
+low-res EM images.
  The frames are ordered from medial to lateral orientation
-\change_inserted 78966105 1477412261
- every 
+\change_inserted 78966105 1478790283
+, 
 \begin_inset Formula $10\mu m$
 \end_inset
 
-
+ apart
 \change_unchanged
 .
- Rhombomeres r4-7 were identified based on the location of the reticulo-spinal
- cells (MCell, Mi2, Mi3 and Ca).
- Dotted white line is 50
-\begin_inset Formula $\mu m$
-\end_inset
 
- ventral to the Mauthner axon plane.
- 
-\change_deleted 78966105 1477412289
-White arrow
-\change_inserted 78966105 1477412293
-Red dotted circles
-\change_unchanged
- show the 
-\change_inserted 78966105 1477412299
-potential 
-\change_unchanged
-locations of both abducens nuclei.
+\change_inserted 78966105 1478790873
+ Red dotted circles show the potential locations of both abducens nuclei.
  Green arrow shows the location of the inferior olive.
  MA -Mauthner Axon.
-
-\change_inserted 78966105 1477412447
+ Rhombomeres r4-7 were identified based on the location of the reticulo-spinal
+ cells (Black star - MCell, red star - Mi2, blue star - Mi3 and green star
+ - Ca).
  Scale bar 
 \begin_inset Formula $20\mu m$
 \end_inset
 
 .
-\change_unchanged
-
+ 
 \begin_inset Newline newline
 \end_inset
 
-(B) Lateral view of two ipsilaterally projecting integrator neurons that
- send
-\change_inserted 78966105 1477412312
-ing
-\change_unchanged
- axonal projections towards the abducens nuclei.
- The axons project to the same depth as the abducens nuclei (dotted black
- line).
- 
-\change_inserted 78966105 1477412459
-Black dotted line is the border between r6 and r7, with tilt calculated
+(B) (Top) Lateral view of two ipsilaterally projecting integrator neurons
+ that send axonal projections towards the abducens nuclei.
+ The axons project to the same depth as the abducens nuclei (dotted horizontal
+ black line).
+ Black dotted line is the border between r6 and r7, with tilt calculated
  based on 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -318,12 +304,36 @@ key "Daie:2015fd,Lee:2015dv"
 
 \end_inset
 
-.Scale bar 
+.
+ Scale bar 
 \begin_inset Formula $20\mu m$
 \end_inset
 
 .
+
+\change_unchanged
  
+\change_inserted 78966105 1478790703
+(Bottom) 
+\change_unchanged
+Dotted white line is 50
+\begin_inset Formula $\mu m$
+\end_inset
+
+ ventral to the Mauthner axon plane
+\change_inserted 78966105 1478790790
+ to show corresponding region from top panel.
+ Potential abducens nerve was identified as dark myelinated axons that are
+ exiting the volume ventrally
+\change_unchanged
+.
+
+\change_inserted 78966105 1478790894
+ Scale bar 
+\begin_inset Formula $20\mu m$
+\end_inset
+
+.
 \change_unchanged
 
 \end_layout
@@ -374,24 +384,48 @@ status open
 Supplementary figure 
 \change_inserted 78966105 1477412478
 4
-\change_deleted 78966105 1477412478
-3
 \change_unchanged
 
 \begin_inset Newline newline
 \end_inset
 
-(A) Primary cilium of every integrator cell identified in the volume.
- The primary cilium is visible in multiple sections by the presence of a
- microtubule rich neurite (arrow) that emerges very close to the Golgi complex
- of the cells.
+(A) Primary cilium of every integrator 
+\change_deleted 78966105 1478790932
+cell
+\change_inserted 78966105 1478790934
+neuron
+\change_unchanged
+ identified in the volume.
+ The primary cilium is visible 
+\change_inserted 78966105 1478790947
+over
+\change_unchanged
+ multiple sections 
+\change_inserted 78966105 1478790990
+as seen by
+\change_unchanged
+ presence of 
+\change_inserted 78966105 1478790998
+ordered 
+\change_unchanged
+microtubule
+\change_inserted 78966105 1478790978
+s
+\change_unchanged
+ that emerges very close to the Golgi complex of the cells.
 \begin_inset Newline newline
 \end_inset
 
-(B) Orientation of the primary cilium for the four cell groups.
-\begin_inset Newline newline
-\end_inset
+(B) Orientation of the primary cilium for the four cell groups
+\change_inserted 78966105 1478792492
+ centered at the somata.
+\change_deleted 78966105 1478791019
+.
 
+\change_inserted 78966105 1478791072
+ Distance of concentric rings is in microns.
+ 
+\change_unchanged
 Colors represent the group that the cell belong to.
  (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
  unknown).
@@ -444,9 +478,17 @@ Supplementary figure 5
 \begin_inset Newline newline
 \end_inset
 
-(A) Convex hull volume of dendrites of all integrator cells, color coded
- by the cell group that they belong to.
+(A) Convex hull volume of dendrites of all integrator 
+\change_inserted 78966105 1478791687
+neurons
+\change_unchanged
+, color coded by the cell group that they belong to.
  
+\change_inserted 78966105 1478791724
+(Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
+ unknown).
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
@@ -460,12 +502,31 @@ Supplementary figure 5
 \begin_inset Newline newline
 \end_inset
 
-(D) Traces of integrator cells from light microscopic dye fills,with ipsilateral
- projecting axons that were used for comparison with EM cells.
+(D) Traces of integrator cells from light microscopic
+\change_inserted 78966105 1478791770
+ (LM)
+\change_unchanged
+ dye fills
+\change_inserted 78966105 1478791752
+ from 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee:2015dv"
+
+\end_inset
+
+
+\change_unchanged
+,
+\change_inserted 78966105 1478791731
+ 
+\change_unchanged
+with ipsilateral projecting axons that were used for comparison with EM
+ cells.
 \begin_inset Newline newline
 \end_inset
 
-(E) Collateral path length of all EM , LM cells respectively.
+(E) Collateral path length of all EM, LM cells respectively.
  Grey circles are for individual collaterals for each cells, and red circle
  is the mean
 \begin_inset Formula $\pm$
@@ -475,7 +536,11 @@ standard deviation.
 \begin_inset Newline newline
 \end_inset
 
-(F) Number of Collaterals and pathlength of collaterals for EM and LM traces.
+(F) Number of Collaterals and 
+\change_inserted 78966105 1478791844
+total 
+\change_unchanged
+pathlength of collaterals for EM and LM traces.
  
 \end_layout
 
@@ -531,24 +596,59 @@ Supplementary figure 6
 
 (A) Distribution of the normalized postsynaptic pathlength and the distribution
  of the normalized dendritic pathlength for all four groups.
+
+\change_inserted 78966105 1478792245
+ Background color (Pink - ipsi only, Green - Ipsi-contra, Orange - contra
+ only and Blue - unknown)
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
-(B) Depth stratification of all cells in each group.
+(B) Depth stratification of
+\change_deleted 78966105 1478791917
+ 
+\change_unchanged
+ cells in
+\change_inserted 78966105 1478792233
+ ipsi+contra and unknown only groups.
+
+\change_unchanged
  For each panel, below the trace of all cells is the stratification of the
  dendrites (red) and axons (green) along the mediolateral axis.
  To the right is the stratification along the dorso-ventral axis.
- Black dotted line are the locations of the stripes from figure 4.
+ Black dotted line are the locations of the stripes from figure 
+\change_inserted 78966105 1478792233
+1
+\change_unchanged
+.
 \begin_inset Newline newline
 \end_inset
 
-(C) Overlap of axons and dendrites between axons and dendrites.
- Box plot with overlapping areas for the four groups.
+(C) 
+\change_inserted 78966105 1478792497
+(a) Spatial overlap of axons and dendrite from each group.
+ Green circle - location of somata of presynaptic neuron ( location of neuron
+ with axon), red circle - location of somata of postsynaptic neuron.
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
-(D) Jittering of the potential synapses for all integrator cells with axons.
- 
+
+\change_inserted 78966105 1478792233
+(b) Box plot with actual overlaping area for neuron pairs from (a).
+\begin_inset Newline newline
+\end_inset
+
+
+\change_unchanged
+(D) 
+\change_inserted 78966105 1478792321
+Angle between best fit plane to presynaptic sites (green) from all cells
+ in ipsi-only group to postsynaptic sites (red) of ipsi-only group.
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -1453,7 +1553,7 @@ function, available on the Matlab central repository.
 
 \begin_layout Standard
 
-\change_inserted 78966105 1477419849
+\change_inserted 78966105 1478792459
 To locate the border of r6/7 we followed a similar approach that was performed
  previous using light microscopic imaging and the expression of the 
 \emph on
@@ -1477,7 +1577,14 @@ key "Ma:2014gb,Daie:2015fd,Lee:2015dv"
 \begin_inset Formula $0.37\mu m$
 \end_inset
 
- caudally for every micron ventrally.
+ caudally for every micron ventrally based on 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Daie:2015fd,Lee:2015dv"
+
+\end_inset
+
+.
 \change_unchanged
 
 \begin_inset Newpage newpage
