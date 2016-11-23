@@ -71,7 +71,6 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
 \end_header
 
 \begin_body
@@ -175,13 +174,10 @@ Neural integrators are involved in a variety of sensorimotor and cognitive
  Integrator neurons were identified as those neurons with activities highly
  correlated with eye position, and the same neurons were then reconstructed
  from serial electron microscopic images.
- Three morphological classes of neurons were observed:
-\change_inserted 78966105 1478224889
- 
-\change_unchanged
-ipsilaterally projecting neurons located medially, contralaterally projecting
- neurons located more laterally and a population at the extreme lateral
- edge of the hindbrain for which we were not able to identify axons.
+ Three morphological classes of neurons were observed: ipsilaterally projecting
+ neurons located medially, contralaterally projecting neurons located more
+ laterally and a population at the extreme lateral edge of the hindbrain
+ for which we were not able to identify axons.
  Based on their somatic locations, we infer that neurons with only ipsilaterally
  projecting axons are glutamatergic, whereas neurons with only contralaterally
  projecting axons are largely GABAergic.
@@ -351,20 +347,9 @@ key "Lee:2015dv"
 \end_layout
 
 \begin_layout Standard
-We combined two-photon calcium imaging
-\change_inserted 78966105 1477669907
- and
-\change_unchanged
- 
-\change_inserted 78966105 1478286057
-serial electron microscopy in
-\change_unchanged
+We combined two-photon calcium imaging and serial electron microscopy in
  a behaving fish to identify neurons in the neural integrator and reconstructed
- the same neurons
-\change_inserted 78966105 1477669920
-.
-
-\change_unchanged
+ the same neurons.
  We found evidence for multiple classes of neurons within the integrator
  population based on differences in dendritic arborization, axonal projections
  and synaptic distributions.
@@ -394,12 +379,8 @@ Combined two-photon and electron microscopy of integrator neurons
 
 \begin_layout Standard
 To identify putative integrator neurons we performed two-photon calcium
- imaging of the caudal hindbrain in a 
-\change_inserted 78966105 1478285920
-6
-\change_unchanged
- dpf larval zebrafish following bolus loading of the calcium sensor Oregon
- Green BAPTA 1-AM.
+ imaging of the caudal hindbrain in a 6 dpf larval zebrafish following bolus
+ loading of the calcium sensor Oregon Green BAPTA 1-AM.
  The functional imaging was restricted to one side where the loading was
  best and was performed on three planes that were ~8
 \begin_inset Formula $\mu m$
@@ -1322,8 +1303,6 @@ r neurons.
 Of the 22 integrator neurons, six, rostrally located neurons had exclusively
  ipsilaterally projecting axons.
  
-\change_inserted 78966105 1478224694
-
 \color red
 Two of the six neurons were found to have more than one axon (Fig.
  2A, open arrow), and evidence of neurons with two axon is rare and has
@@ -1343,9 +1322,7 @@ key "Gobel:1975wm,Meyer:1982vy"
  Removing these secondary axons did not impact the results in any way.
 
 \color inherit
- 
-\change_unchanged
-All but one of these six neurons were medial to the first somata stripe
+ All but one of these six neurons were medial to the first somata stripe
  S1, that is thought to contain mostly excitatory, glutamatergic neurons.
  The axons and dendrites of these neurons display a planar organization,
  with axons oriented approximately orthogonal to the dendrites (Sup.
@@ -1357,11 +1334,8 @@ All but one of these six neurons were medial to the first somata stripe
  that are oriented along the RC axis.
  The axons of these neurons are oriented along the RC axis with the rostral
  end more ventral than the caudal end.
- This suggests that axon
-\change_inserted 78966105 1478223885
-s
-\change_unchanged
- from this group can potentially synpase on dendrites from this group.
+ This suggests that axons from this group can potentially synpase on dendrites
+ from this group.
  It has long been theorized that positive feedback via recurrent excitation
  could be a possible mechanism that can explain long persistent time scales
  of neuronal activity 
@@ -1391,13 +1365,9 @@ The second major group of neurons that we reconstructed were the eight caudally
  that is approximately parallel to the RC plane.
  This suggests that these neurons sample narrowly from inputs along the
  RC axis.
- In the gold
-\change_deleted 78966105 1477669982
- 
-\change_unchanged
-fish oculomotor integrator, contralaterally projecting neurons are thought
- to be involved in coordinating activity between the two sides, and that
- each side acts as an independent integrator 
+ In the goldfish oculomotor integrator, contralaterally projecting neurons
+ are thought to be involved in coordinating activity between the two sides,
+ and that each side acts as an independent integrator 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Aksay:2007cv,debowy_encoding_2011"
@@ -1429,12 +1399,7 @@ Of the remaining integrator neurons, two were found to have both an ipsilateral
  animal corresponding with to the lateral most stripe S3, that are though
  to express glutamate.
  The axonal projections of these neurons exited the imaged volume, but morpholog
-ical reconstructions of neurons belonging to this stripe using light microsco
-\change_inserted 78966105 1477670058
-py
-\change_deleted 78966105 1477670056
-pe
-\change_unchanged
+ical reconstructions of neurons belonging to this stripe using light microscopy
  were shown to have both ipsilateral and contralateral projections 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1453,14 +1418,8 @@ Our evidence suggest that at least two of the groups, the ipsilaterally
  and distributions of postsynapses along their dendrites.
  The ipsi-only group of neurons has approximately twice as many postsynaptic
  input sites as the contra-only only group.
- 
-\change_inserted 78966105 1477670100
-In
-\change_deleted 78966105 1477670100
-The
-\change_unchanged
- both cases initiation of the axons was from a neurite that contained postsynapt
-ic sites that then gave rise to presynaptic sites.
+ In both cases initiation of the axons was from a neurite that contained
+ postsynaptic sites that then gave rise to presynaptic sites.
  This feature could be important to influence the activity of neurons as
  these locations are proximal to the somata.
  Finally we note that distinguishing axons from dendrites using light microscopy
@@ -1743,30 +1702,20 @@ options "unsrt"
 \end_inset
 
 
-\change_inserted 78966105 1477675312
-
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1477675324
 \begin_inset Newpage pagebreak
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Section
-
-\change_inserted 78966105 1477675169
 Figure legends
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1477675484
 Figure1: 
 \bar under
 Functional and structural imaging of integrator neurons.
@@ -2003,8 +1952,6 @@ Figure4:
  Black dots represent the location of the synapses, with insets showing
  the electron micrograph at the respective location.
  
-\change_unchanged
-
 \end_layout
 
 \end_body
