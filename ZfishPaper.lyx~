@@ -1314,6 +1314,50 @@ r neurons.
 \begin_layout Standard
 Of the 22 integrator neurons, six, rostrally located neurons had exclusively
  ipsilaterally projecting axons.
+<<<<<<< HEAD
+=======
+ 
+\color red
+Two of the six neurons were found to have more than one axon (Fig.
+ 2A, open arrow), and evidence of neurons with two axon is rare 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gobel:1975wm,Meyer:1982vy"
+
+\end_inset
+
+.
+ 
+\change_inserted 78966105 1479924063
+I
+\change_unchanged
+t migh be possible that the secondary axon could be a false posi
+\change_inserted 78966105 1479924073
+ti
+\change_unchanged
+ve and infact an axon 
+\change_inserted 78966105 1479924100
+belonging to another neuron
+\change_unchanged
+.
+ 
+\change_inserted 78966105 1479924118
+T
+\change_unchanged
+his may occur due to the fact that axons are extremely thin, and when traveling
+ oblique to the plane of imaging, 
+\change_inserted 78966105 1479924149
+making it hard to follow
+\change_unchanged
+.
+ Removing these secondary axons 
+\change_inserted 78966105 1479924167
+however 
+\change_unchanged
+did not impact the results in any way.
+
+\color inherit
+>>>>>>> 303c9ccd924271a8cea632c2a3c8e9fe253a53ee
  All but one of these six neurons were medial to the first somata stripe
  S1, that is thought to contain mostly excitatory, glutamatergic neurons.
  The axons and dendrites of these neurons display a planar organization,
