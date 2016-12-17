@@ -71,12 +71,20 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
 \end_header
 
 \begin_body
 
 \begin_layout Title
+
+\change_deleted 78966105 1481939734
 Structure and function of cells in a neural integrator
+\change_inserted 78966105 1481939729
+Electron microscopic reconstruction of functionally identified cells in
+ a neural integrator.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Author
@@ -568,7 +576,11 @@ Anatomical properties of integrator neurons
 \begin_layout Standard
 After the identification of the integrator neurons in the EM volume, we
  reconstructed all 22 integrator neurons and annotated the pre- and postsynaptic
- locations for these neurons.
+ locations for these neurons
+\change_inserted 78966105 1481917917
+ (extended methods)
+\change_unchanged
+.
  We first characterized some of the anatomical properties that were common
  to all integrator neurons.
  
@@ -1302,26 +1314,6 @@ r neurons.
 \begin_layout Standard
 Of the 22 integrator neurons, six, rostrally located neurons had exclusively
  ipsilaterally projecting axons.
- 
-\color red
-Two of the six neurons were found to have more than one axon (Fig.
- 2A, open arrow), and evidence of neurons with two axon is rare and has
- been reported in mammals 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Gobel:1975wm,Meyer:1982vy"
-
-\end_inset
-
-.
- Therefore, it migh be possible that the secondary axon could be a false
- posive and infact an axon from a neighboring neuron.
- It is possible that this may occur due to the fact that axons are extremely
- thin, and when traveling oblique to the plane of imaging, they can appear
- to be fused.
- Removing these secondary axons did not impact the results in any way.
-
-\color inherit
  All but one of these six neurons were medial to the first somata stripe
  S1, that is thought to contain mostly excitatory, glutamatergic neurons.
  The axons and dendrites of these neurons display a planar organization,
@@ -1367,7 +1359,11 @@ The second major group of neurons that we reconstructed were the eight caudally
  RC axis.
  In the goldfish oculomotor integrator, contralaterally projecting neurons
  are thought to be involved in coordinating activity between the two sides,
- and that each side acts as an independent integrator 
+ 
+\change_inserted 78966105 1481828895
+where
+\change_unchanged
+ each side acts as an independent integrator 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Aksay:2007cv,debowy_encoding_2011"
@@ -1390,8 +1386,11 @@ key "Lee:2015dv"
 \end_layout
 
 \begin_layout Standard
-Of the remaining integrator neurons, two were found to have both an ipsilateral
- and contralaterally projecting axon.
+Of the remaining integrator neurons, two 
+\change_inserted 78966105 1481829978
+had
+\change_unchanged
+ both an ipsilateral and contralaterally projecting axon.
  The location of their somata corresponds with S2, which can be inferred
  as GABAergic however a small subset of neurons in this stripe have been
  reported as glycinergic.
@@ -1409,6 +1408,11 @@ key "Kinkhabwala:2011et"
 
 .
  The role of these neurons remains unknown.
+
+\change_inserted 78966105 1481828805
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1422,9 +1426,54 @@ Our evidence suggest that at least two of the groups, the ipsilaterally
  postsynaptic sites that then gave rise to presynaptic sites.
  This feature could be important to influence the activity of neurons as
  these locations are proximal to the somata.
- Finally we note that distinguishing axons from dendrites using light microscopy
+
+\change_inserted 78966105 1481830035
+
+\color red
+ 
+\change_unchanged
+
+\color inherit
+Finally we note that distinguishing axons from dendrites using light microscopy
  can prove erroneous, since the diameters of the axons and dendrites were
  very similar and close to the diffraction limit of light.
+ 
+\change_inserted 78966105 1481926523
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+We observed some neurons (n = 3/22) that have two axons.
+ These secondary axons were observed at locations distal to the somata and
+ originated along a secondary dendrite or in one case originated from the
+ somata.
+ Since this observation deveates from the norm, those locations where the
+ secondary axons originated were re-evaluated (extended methods).
+ Evidence of cells with two axons is rare and such cells have been postulated
+ to be a new class of cells 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Meyer:1982vy"
+
+\end_inset
+
+.
+ Such a feature can allow for neurons to have these axons act as independent
+ computational units that can target different polulations 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gobel:1975wm"
+
+\end_inset
+
+.
+ It is also possible that the observations here are a result of the developing
+ nervous system of the larvae and that theses secondary axons prune away
+ with age.
+ If these secondary axons were ommited from the analysis, the results still
+ remained the same.
  
 \end_layout
 
@@ -1477,6 +1526,8 @@ Here we presented ultrastructural anatomical details of different types
  the contralaterally projecting axons, this approach can be used to uncover
  general rules of connectivity and validate hypothesized theories of temporal
  integration.
+\change_inserted 78966105 1481913632
+
 \end_layout
 
 \begin_layout Section
@@ -1496,15 +1547,6 @@ nacre
 \emph default
  mutant zebrafish larvae was imaged with calcium sensitive dye Oregon Green
  488 BAPTA-1 AM.
- The animal was immobilized in low melting agar and was positioned to view
- a monitor with light gratings.
- The hindbrain of the animal was imaged at 790 nm at predefined plane at
- (0.98 Hz).
- The imaging was performed at three pre-defined planes 
-\begin_inset Formula $\sim8\mu m$
-\end_inset
-
- apart, below the level of the Mauthner neuron, unilaterally.
  Following functional imaging, the animal was imaged on the same setup for
  anatomical imaging with x,y resolution of 0.53
 \begin_inset Formula $\mu m$
@@ -1514,11 +1556,12 @@ nacre
 \begin_inset Formula $\mu m$
 \end_inset
 
-.The skin over the hindbrain was removed for good ultrastructure preservation
- and homogeneous staining of the tissue.
- The animal was then immersed in an aldehyde based fixative in 0.1M cacodylate
- buffer for 24 hrs.
- The tissue was stained using a conventional ROTO procedure 
+.
+ The tissue was stained using 
+\change_inserted 78966105 1481831416
+a reduced osmium staining
+\change_unchanged
+ procedure 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Tapia:2012hs"
@@ -1620,28 +1663,6 @@ key "Cardona:2012kf"
  and followed by elastic transforms.
 \end_layout
 
-\begin_layout Standard
-
-\bar under
-Reconstructions
-\end_layout
-
-\begin_layout Standard
-The reconstruction of the identified neurons was performed using the TrakEM2
- plugin in Fiji/ImageJ.
- For the comparison of EM traces with LM traces, the LM traces were traced
- using the Simple Neurite Tracer 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Longair:2011hr"
-
-\end_inset
-
- plugin in Fiji, and exported as a *.swc file.
- In total, we reconstructed 9.55 mm of neurite ( 2.69 mm of axonal length
- and 6.85 mm of dendritic length).
-\end_layout
-
 \begin_layout Section
 Author contributions
 \end_layout
@@ -1662,8 +1683,8 @@ Conceptualization, Methodology, and Writing: A.V, E.
  A.V.
  and E.
  A.
- reconstructed neurons with help from Ashleigh Showler and A.R.
- Supervision and Funding Acquisition: E.A.
+ reconstructed neurons with help from A.R.
+ Funding Acquisition: E.A.
  and H.S.S.
  
 \end_layout
@@ -1679,8 +1700,20 @@ We are grateful to Juan Carlos Tapia, Richard Schalek and Ken Hayworth for
  Stefan Saalfeld, Albert Cardona, and Ignacio Arganda-Carreras answered
  questions about the TrakEM2 plugin for FIJI/ImageJ.
  Uygar Sümbül assisted with importing skeletons into MATLAB.
- We thank Heather Sullivan for tissue processing and optimization.
- We benefited from helpful discussions with David Tank and Kanaka Rajan.
+ We thank Heather Sullivan for tissue processing and optimization
+\change_inserted 78966105 1481828575
+,
+\change_deleted 78966105 1481828575
+.
+
+\change_unchanged
+ 
+\change_inserted 78966105 1481828472
+Ashleigh Showler, Gurion Marks and Anjin Xianyu for assistance with reconstructi
+ons and alignment.
+ 
+\change_unchanged
+We benefited from helpful discussions with David Tank and Kanaka Rajan.
  HSS acknowledges funding from the Mathers Foundation, Gatsby Foundation,
  Human Frontier Science Program, NIH/NINDS award 5R01NS076467, and ARO MURI
  award W911NF-12-1-0594.

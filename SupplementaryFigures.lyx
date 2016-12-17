@@ -1299,11 +1299,15 @@ Two-photon calcium imaging.
 \end_layout
 
 \begin_layout Standard
-Nacre mutant zebrafish larvae, X days of age, was anesthetized in 100 or
- 200 mg/L tricaine-methanesulfonate (MS222, VWR TCT0941- 025G) for about
- 1 minute and then quickly mounted dorsal side up with droplets of 1.7% low
- temperature agarose (Sigma A0701-100G) in the lid of a 35mm petri dish
- containing a bed of hardened 1% agarose (Invitrogen 15510-027).
+Nacre mutant zebrafish larvae, 
+\change_inserted 78966105 1481831090
+6
+\change_unchanged
+ days of age, was anesthetized in 100 or 200 mg/L tricaine-methanesulfonate
+ (MS222, VWR TCT0941- 025G) for about 1 minute and then quickly mounted
+ dorsal side up with droplets of 1.7% low temperature agarose (Sigma A0701-100G)
+ in the lid of a 35mm petri dish containing a bed of hardened 1% agarose
+ (Invitrogen 15510-027).
  The larva was then covered in 50 mg/L MS222.
  The larva was bulk-loaded 
 \begin_inset CommandInset citation
@@ -1321,6 +1325,19 @@ key "Brustein:2003ef,Smetters:1999jc"
 
  decline relative to the dorsal surface.
  
+\change_inserted 78966105 1481831130
+The animal was immobilized in low melting agar and was positioned to view
+ a monitor with light gratings.
+ The hindbrain of the animal was imaged at 790 nm at predefined plane at
+ (0.98 Hz).
+ The imaging was performed at three pre-defined planes 
+\begin_inset Formula $\sim8\mu m$
+\end_inset
+
+ apart, below the level of the Mauthner neuron, unilaterally.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1371,10 +1388,34 @@ Serial section electron microscopy.
 \end_layout
 
 \begin_layout Standard
-The animal was immersed in a fixative of 1% paraformaldehyde and 1% glutaraldehy
-de buffered in 0.1M cacodylate buffer and 4% sucrose for 72 hrs.
- hrs.
- Then it was thoroughly washed in 0.1M cacodylate buffer before staining.
+The animal was immersed in a fixative of 
+\change_inserted 78966105 1481831322
+2
+\change_unchanged
+% paraformaldehyde and 
+\change_inserted 78966105 1481831324
+2.25
+\change_unchanged
+% glutaraldehyde buffered in 0.
+\change_inserted 78966105 1481831284
+07
+\change_unchanged
+M cacodylate buffer
+\change_inserted 78966105 1481831354
+.
+
+\change_unchanged
+ 
+\change_inserted 78966105 1481831195
+The skin over the hindbrain was removed for good ultrastructure preservation
+ and homogeneous staining of the tissue
+\change_unchanged
+.
+ Then it was thoroughly washed in 0.1M cacodylate buffer
+\change_inserted 78966105 1481831373
+ wiht 4% sucrose
+\change_unchanged
+ before staining.
  The tissue was stained using a conventional ROTO procedure 
 \change_deleted 78966105 1475614607
 (
@@ -1398,12 +1439,14 @@ de for 2 hr on ice.
  in 1% osmium tetroxide for 1 hr.
  The tissue was then washed 3x15 min in water and incubated with 1% aqueous
  uranyl acetate overnight.
- The following day the tissue was washed 3x15 min in water and dehydrated
- with a series of ethanol, followed by propylene oxide (PO).
+ The following day the tissue was washed 3x15 min in water 
+\change_inserted 78966105 1481831517
+and incubated for 30min in Lead Aspartate solution, followed by washing
+ 
+\change_unchanged
+and dehydrated with a series of ethanol, followed by propylene oxide (PO).
  The tissue was then infiltrated in decreasing gradients of PO and EPON
  for 24 hrs and baked for 48 hrs at 60 C.
- The EPON based resin was tailored to have low viscosity, to help with better
- infiltration for this tissue.
  Following hardening, the tissue block face was coarsely trimmed and a rectangul
 ar mesa was defined for serial sectioning.
  Care was taken to orient the specimen to permit sectioning along the horizontal
@@ -1466,19 +1509,53 @@ Reconstructions
 \end_layout
 
 \begin_layout Standard
-Two expert tracers reconstructed the cells beginning from the cell bodies
- in an independent manner.
- During the tracing process, one of the expert tracers annotated all pre
- and postsynaptic sites for each cells.
- The skeletonized tree structure was exported from TrakEM2 as *.swc files.
+
+\change_inserted 78966105 1481831006
+The reconstruction of the identified neurons was performed using the TrakEM2
+ plugin in Fiji/ImageJ.
+ For the comparison of EM traces with LM traces, the LM traces were traced
+ using the Simple Neurite Tracer 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Longair:2011hr"
+
+\end_inset
+
+ plugin in Fiji, and exported as a *.swc file.
+ In total, we reconstructed 9.55 mm of neurite ( 2.69 mm of axonal length
+ and 6.85 mm of dendritic length).
+ All tracing was performed in entirety by one expert tracer, with some parts
+ of all neurons traced by a second tracer in an independent manner.
+
+\change_unchanged
+ During the tracing process, all pre and postsynaptic sites were annotated
+ as well.
+ For locations that were important, a third tracer was asked to review these
+ sites and the consensus was accepted.
+
+\change_inserted 78966105 1481830929
+ 
+\change_unchanged
+The skeletonized tree structure was exported from TrakEM2 as *.swc files.
  These trees were then imported into Matlab using custom scripts to import
  .swc files as trees.
- The traces of the two tracers were compared by a third reviewer.
- The third reviewer, independently reviewed points of disagreement and decided
- which points of disagreement were either over-reconstructed or were under-recon
-structed.
- In some cases, the traces were re-visited by the tracers if it was needed.
  
+\change_inserted 78966105 1481917944
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1481918039
+At the loations where we observed secondary axons, we re-evaluated the traces
+ that was performed previously.
+ At two of the three ambigious locations, we were able to trace back to
+ the somata.
+ For the third case, due to membrane staining artifact, we concluded that
+ it may be likely that the secondary axons can be erronously assigned to
+ the neuron that was being reconstructed.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection*
