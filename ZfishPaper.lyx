@@ -1442,24 +1442,42 @@ Finally we note that distinguishing axons from dendrites using light microscopy
 
 \begin_layout Standard
 
-\color red
-We observed some neurons (n = 3/22) that have two axons.
- These secondary axons were observed at locations distal to the somata and
- originated along a secondary dendrite or in one case originated from the
- somata.
- Since this observation deveates from the norm, those locations where the
- secondary axons originated were re-evaluated (extended methods).
- Evidence of cells with two axons is rare and such cells have been postulated
- to be a new class of cells 
+\color black
+We observed some neurons (
+\begin_inset Formula $n=3/22$
+\end_inset
+
+) that have two axons.
+ For these cells, one axon could be regarded as 
+\begin_inset Quotes eld
+\end_inset
+
+primary
+\begin_inset Quotes erd
+\end_inset
+
+ in the sense that it originated from the soma or primary dendrite, just
+ as in cells with a single axon.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+secondary
+\begin_inset Quotes erd
+\end_inset
+
+ axon was farther from the soma than the primary axon.
+ It is possible that secondary axons are a property of the developing nervous
+ system, and are pruned before adulthood.
+ On the other hand, cells with two axons have been reported in adult mammalian
+ cortex 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Meyer:1982vy"
 
 \end_inset
 
-.
- Such a feature can allow for neurons to have these axons act as independent
- computational units that can target different polulations 
+ and medulla 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Gobel:1975wm"
@@ -1467,11 +1485,8 @@ key "Gobel:1975wm"
 \end_inset
 
 .
- It is also possible that the observations here are a result of the developing
- nervous system of the larvae and that theses secondary axons prune away
- with age.
- If these secondary axons were ommited from the analysis, the results still
- remained the same.
+ Two axons could potentially function as independent computational units
+ that can target different polulations.
  
 \end_layout
 

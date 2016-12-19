@@ -66,12 +66,13 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
+\tracking_changes false
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
 \author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
+\author 1172979425 "Sebastian Seung"
 \end_header
 
 \begin_body
@@ -1299,7 +1300,11 @@ Two-photon calcium imaging.
 \end_layout
 
 \begin_layout Standard
-Nacre mutant zebrafish larvae, 
+A 
+\emph on
+nacre
+\emph default
+ mutant zebrafish larva, 
 \change_inserted 78966105 1481831090
 6
 \change_unchanged
@@ -1453,7 +1458,6 @@ ar mesa was defined for serial sectioning.
  axis.
  Serial sections from the above animal were collected approximately from
  the level of the Mauthner cell at a thickness of 45 nm.
- .
  The serial sections were then adhered to a silicon wafer, using double
  sided carbon tape (TEDpella), the wafers were coated with a thin film of
  carbon to make them conductive.
@@ -1465,7 +1469,7 @@ Registration of light microscope and electron microscope volumes
 \end_layout
 
 \begin_layout Standard
-The EM images were aligned using the trakEM2 plugin in Fiji 
+The EM images were aligned using the TrakEM2 plugin in Fiji 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Cardona:2012kf"
@@ -1476,8 +1480,7 @@ key "Cardona:2012kf"
  Briefly, individual images were imported into the TrakEM2 framework and
  montaged, first, using affine transforms, followed by elastic transforms.
  The images were then registered using a similar approach, where the first
- pass was performed using affine transforms, followed by elastic transforms
- .
+ pass was performed using affine transforms, followed by elastic transforms.
  All the alignment was performed on a machine with 32 virtual cores and
  120GB RAM.
 \end_layout
@@ -1509,10 +1512,30 @@ Reconstructions
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1481831006
 The reconstruction of the identified neurons was performed using the TrakEM2
  plugin in Fiji/ImageJ.
+
+\change_deleted 1172979425 1482164823
+ 
+\change_unchanged
+ One expert (AV) traced all neurons and annotated all pre- and postsynaptic
+ sites.
+ AV noted difficult locations while tracing.
+ A second expert (EA) identified locations at which the skeletons looked
+ unusual (sharp turns or closely spaced branch points).
+ EA reviewed the images at all of these locations (typically a few per neuron),
+ and reached consensus with AV.
+ At most locations the original tracing of AV was judged correct.
+ A few locations were judged ambiguous, in the sense that image defects
+ made it impossible to interpret the locations with certainty.
+ At such ambiguous locations, we erred on the side of incomplete tracing.
+ 
+\end_layout
+
+\begin_layout Standard
+The skeletonized tree structure was exported from TrakEM2 as *.swc files.
+ These trees were then imported into Matlab using custom scripts to import
+ .swc files as trees.
  For the comparison of EM traces with LM traces, the LM traces were traced
  using the Simple Neurite Tracer 
 \begin_inset CommandInset citation
@@ -1524,38 +1547,7 @@ key "Longair:2011hr"
  plugin in Fiji, and exported as a *.swc file.
  In total, we reconstructed 9.55 mm of neurite ( 2.69 mm of axonal length
  and 6.85 mm of dendritic length).
- All tracing was performed in entirety by one expert tracer, with some parts
- of all neurons traced by a second tracer in an independent manner.
-
-\change_unchanged
- During the tracing process, all pre and postsynaptic sites were annotated
- as well.
- For locations that were important, a third tracer was asked to review these
- sites and the consensus was accepted.
-
-\change_inserted 78966105 1481830929
  
-\change_unchanged
-The skeletonized tree structure was exported from TrakEM2 as *.swc files.
- These trees were then imported into Matlab using custom scripts to import
- .swc files as trees.
- 
-\change_inserted 78966105 1481917944
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted 78966105 1481918039
-At the loations where we observed secondary axons, we re-evaluated the traces
- that was performed previously.
- At two of the three ambigious locations, we were able to trace back to
- the somata.
- For the third case, due to membrane staining artifact, we concluded that
- it may be likely that the secondary axons can be erronously assigned to
- the neuron that was being reconstructed.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Subsection*
