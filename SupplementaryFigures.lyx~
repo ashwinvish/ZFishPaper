@@ -71,6 +71,8 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
+\author 1172979425 "Sebastian Seung"
 \end_header
 
 \begin_body
@@ -105,20 +107,34 @@ Supplementary figure 1
 \begin_inset Newline newline
 \end_inset
 
-(A) Spatial distribution of integrator time constants along the rostro-caudal,
+(A) 
+\change_inserted 78966105 1478731484
+Spatial distribution of integrator time constants along the rostro-caudal,
  medio-lateral and dorso-ventral axis respectively.
  Colors represent the group that the cell belong to.(Pink - ipsi only, Green
  - Ipsi-contra, Orange - contra only and Blue - unknown).
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
-(B) (Left) Graded levels of persistent activity.
- (Middle) Diameters of a the integrator neuron somata along depth.
+(B) 
+\change_inserted 78966105 1478792480
+(Left) Graded levels of persistent activity.
+ (Middle) Diamaters of a the integrator neuron somata along depth.
  (Right) Effect of intgrator neuron diamater and integrator time constant.
 \begin_inset Newline newline
 \end_inset
 
-(C) Diameter profiles along ipsi only (left) and contra only (right) integrator
+
+\change_unchanged
+(
+\change_inserted 78966105 1478731462
+C)
+\change_deleted 78966105 1478731441
+D
+\change_unchanged
+ Diameter profiles along ipsi only (left) and contra only (right) integrator
  cells.
  Location of each dot represents the thickness of the neurite.
  Large grey circle represents the somata of the cell.
@@ -137,6 +153,17 @@ Supplementary figure 1
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1477418662
+\begin_inset Newpage newpage
+\end_inset
+
+
+\change_unchanged
 
 \end_layout
 
@@ -175,7 +202,13 @@ Supplementary figure 2
 (B) Successive images from cellular junctions between cells somata.
  Closed arrow head shows tight junction indicated by darkening of the membrane
  in the same location in multiple sections.
- Open arrows show the separation of the membrane by the lack of darkening.
+ Open arrows show the 
+\change_deleted 78966105 1478792485
+spearation
+\change_inserted 78966105 1478792485
+separation
+\change_unchanged
+ of the membrane by the lack of darkening.
  Scale bar 500nm
 \end_layout
 
@@ -186,6 +219,17 @@ Supplementary figure 2
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1477418741
+\begin_inset Newpage newpage
+\end_inset
+
+
+\change_unchanged
 
 \end_layout
 
@@ -210,16 +254,30 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Supplementary figure 3
+Supplementary figure 
+\change_inserted 78966105 1477412482
+3
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
-(A) Location of abducens nuclei from low-res EM images.
- The frames are ordered from medial to lateral orientation, 
+(A) Location of abducens nuclei from
+\change_inserted 78966105 1478790256
+ 
+\change_unchanged
+low-res EM images.
+ The frames are ordered from medial to lateral orientation
+\change_inserted 78966105 1478790283
+, 
 \begin_inset Formula $10\mu m$
 \end_inset
 
- apart.
+ apart
+\change_unchanged
+.
+
+\change_inserted 78966105 1478790873
  Red dotted circles show the potential locations of both abducens nuclei.
  Green arrow shows the location of the inferior olive.
  MA -Mauthner Axon.
@@ -253,19 +311,32 @@ key "Daie:2015fd,Lee:2015dv"
 \end_inset
 
 .
- (Bottom) Dotted white line is 50
+
+\change_unchanged
+ 
+\change_inserted 78966105 1478790703
+(Bottom) 
+\change_unchanged
+Dotted white line is 50
 \begin_inset Formula $\mu m$
 \end_inset
 
- ventral to the Mauthner axon plane to show corresponding region from top
- panel.
+ ventral to the Mauthner axon plane
+\change_inserted 78966105 1478790790
+ to show corresponding region from top panel.
  Potential abducens nerve was identified as dark myelinated axons that are
- exiting the volume ventrally.
+ exiting the volume ventrally
+\change_unchanged
+.
+
+\change_inserted 78966105 1478790894
  Scale bar 
 \begin_inset Formula $20\mu m$
 \end_inset
 
 .
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -279,9 +350,13 @@ key "Daie:2015fd,Lee:2015dv"
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 78966105 1477412010
 \begin_inset Newpage newpage
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
@@ -307,21 +382,52 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Supplementary figure 4
+Supplementary figure 
+\change_inserted 78966105 1477412478
+4
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
-(A) Primary cilium of every integrator neuron identified in the volume.
- The primary cilium is visible over multiple sections as seen by presence
- of ordered microtubules that emerges very close to the Golgi complex of
- the cells.
+(A) Primary cilium of every integrator 
+\change_deleted 78966105 1478790932
+cell
+\change_inserted 78966105 1478790934
+neuron
+\change_unchanged
+ identified in the volume.
+ The primary cilium is visible 
+\change_inserted 78966105 1478790947
+over
+\change_unchanged
+ multiple sections 
+\change_inserted 78966105 1478790990
+as seen by
+\change_unchanged
+ presence of 
+\change_inserted 78966105 1478790998
+ordered 
+\change_unchanged
+microtubule
+\change_inserted 78966105 1478790978
+s
+\change_unchanged
+ that emerges very close to the Golgi complex of the cells.
 \begin_inset Newline newline
 \end_inset
 
-(B) Orientation of the primary cilium for the four cell groups centered
- at the somata.
+(B) Orientation of the primary cilium for the four cell groups
+\change_inserted 78966105 1478792492
+ centered at the somata.
+\change_deleted 78966105 1478791019
+.
+
+\change_inserted 78966105 1478791072
  Distance of concentric rings is in microns.
- Colors represent the group that the cell belong to.
+ 
+\change_unchanged
+Colors represent the group that the cell belong to.
  (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
  unknown).
 \end_layout
@@ -333,6 +439,17 @@ Supplementary figure 4
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 78966105 1477418748
+\begin_inset Newpage newpage
+\end_inset
+
+
+\change_unchanged
 
 \end_layout
 
@@ -362,10 +479,17 @@ Supplementary figure 5
 \begin_inset Newline newline
 \end_inset
 
-(A) Convex hull volume of dendrites of all integrator neurons, color coded
- by the cell group that they belong to.
- (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
+(A) Convex hull volume of dendrites of all integrator 
+\change_inserted 78966105 1478791687
+neurons
+\change_unchanged
+, color coded by the cell group that they belong to.
+ 
+\change_inserted 78966105 1478791724
+(Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
  unknown).
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
@@ -379,15 +503,26 @@ Supplementary figure 5
 \begin_inset Newline newline
 \end_inset
 
-(D) Traces of integrator cells from light microscopic (LM) dye fills from
- 
+(D) Traces of integrator cells from light microscopic
+\change_inserted 78966105 1478791770
+ (LM)
+\change_unchanged
+ dye fills
+\change_inserted 78966105 1478791752
+ from 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
 
 \end_inset
 
-, with ipsilateral projecting axons that were used for comparison with EM
+
+\change_unchanged
+,
+\change_inserted 78966105 1478791731
+ 
+\change_unchanged
+with ipsilateral projecting axons that were used for comparison with EM
  cells.
 \begin_inset Newline newline
 \end_inset
@@ -402,8 +537,11 @@ standard deviation.
 \begin_inset Newline newline
 \end_inset
 
-(F) Number of Collaterals and total pathlength of collaterals for EM and
- LM traces.
+(F) Number of Collaterals and 
+\change_inserted 78966105 1478791844
+total 
+\change_unchanged
+pathlength of collaterals for EM and LM traces.
  
 \end_layout
 
@@ -418,6 +556,20 @@ standard deviation.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1477418762
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
@@ -445,31 +597,59 @@ Supplementary figure 6
 
 (A) Distribution of the normalized postsynaptic pathlength and the distribution
  of the normalized dendritic pathlength for all four groups.
+
+\change_inserted 78966105 1478792245
  Background color (Pink - ipsi only, Green - Ipsi-contra, Orange - contra
  only and Blue - unknown)
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
-(B) Depth stratification of cells in ipsi+contra and unknown only groups.
+(B) Depth stratification of
+\change_deleted 78966105 1478791917
+ 
+\change_unchanged
+ cells in
+\change_inserted 78966105 1478792233
+ ipsi+contra and unknown only groups.
+
+\change_unchanged
  For each panel, below the trace of all cells is the stratification of the
  dendrites (red) and axons (green) along the mediolateral axis.
  To the right is the stratification along the dorso-ventral axis.
- Black dotted line are the locations of the stripes from figure 1.
+ Black dotted line are the locations of the stripes from figure 
+\change_inserted 78966105 1478792233
+1
+\change_unchanged
+.
 \begin_inset Newline newline
 \end_inset
 
-(C) (a) Spatial overlap of axons and dendrite from each group.
+(C) 
+\change_inserted 78966105 1478792497
+(a) Spatial overlap of axons and dendrite from each group.
  Green circle - location of somata of presynaptic neuron ( location of neuron
  with axon), red circle - location of somata of postsynaptic neuron.
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
-(b) Box plot with actual overlapping area for neuron pairs from (a).
+
+\change_inserted 78966105 1478792233
+(b) Box plot with actual overlaping area for neuron pairs from (a).
 \begin_inset Newline newline
 \end_inset
 
-(D) Angle between best fit plane to presynaptic sites (green) from all cells
+
+\change_unchanged
+(D) 
+\change_inserted 78966105 1478792321
+Angle between best fit plane to presynaptic sites (green) from all cells
  in ipsi-only group to postsynaptic sites (red) of ipsi-only group.
+\change_unchanged
+
 \end_layout
 
 \end_inset
@@ -491,6 +671,34 @@ Supplementary figure 6
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 78966105 1475614271
+Supplementary table
+\change_unchanged
+
+\begin_inset Newline newline
+\end_inset
+
+
+\change_deleted 78966105 1475614387
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\begin_inset Newline newline
+\end_inset
+
+
+\change_deleted 78966105 1475614384
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
 
 \end_layout
 
@@ -1096,11 +1304,15 @@ A
 \emph on
 nacre
 \emph default
- mutant zebrafish larva, 6 days of age, was anesthetized in 100 or 200 mg/L
- tricaine-methanesulfonate (MS222, VWR TCT0941- 025G) for about 1 minute
- and then quickly mounted dorsal side up with droplets of 1.7% low temperature
- agarose (Sigma A0701-100G) in the lid of a 35mm petri dish containing a
- bed of hardened 1% agarose (Invitrogen 15510-027).
+ mutant zebrafish larva, 
+\change_inserted 78966105 1481831090
+6
+\change_unchanged
+ days of age, was anesthetized in 100 or 200 mg/L tricaine-methanesulfonate
+ (MS222, VWR TCT0941- 025G) for about 1 minute and then quickly mounted
+ dorsal side up with droplets of 1.7% low temperature agarose (Sigma A0701-100G)
+ in the lid of a 35mm petri dish containing a bed of hardened 1% agarose
+ (Invitrogen 15510-027).
  The larva was then covered in 50 mg/L MS222.
  The larva was bulk-loaded 
 \begin_inset CommandInset citation
@@ -1117,7 +1329,9 @@ key "Brustein:2003ef,Smetters:1999jc"
 \end_inset
 
  decline relative to the dorsal surface.
- The animal was immobilized in low melting agar and was positioned to view
+ 
+\change_inserted 78966105 1481831130
+The animal was immobilized in low melting agar and was positioned to view
  a monitor with light gratings.
  The hindbrain of the animal was imaged at 790 nm at predefined plane at
  (0.98 Hz).
@@ -1127,6 +1341,8 @@ key "Brustein:2003ef,Smetters:1999jc"
 
  apart, below the level of the Mauthner neuron, unilaterally.
  
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1178,19 +1394,49 @@ Serial section electron microscopy.
 \end_layout
 
 \begin_layout Standard
-The animal was immersed in a fixative of 2% paraformaldehyde and 2.25% glutaralde
-hyde buffered in 0.07M cacodylate buffer.
- The skin over the hindbrain was removed for good ultrastructure preservation
- and homogeneous staining of the tissue.
- Then it was thoroughly washed in 0.1M cacodylate buffer with 4% sucrose
+The animal was immersed in a fixative of 
+\change_inserted 78966105 1481831322
+2
+\change_unchanged
+% paraformaldehyde and 
+\change_inserted 78966105 1481831324
+2.25
+\change_unchanged
+% glutaraldehyde buffered in 0.
+\change_inserted 78966105 1481831284
+07
+\change_unchanged
+M cacodylate buffer
+\change_inserted 78966105 1481831354
+.
+
+\change_unchanged
+ 
+\change_inserted 78966105 1481831195
+The skin over the hindbrain was removed for good ultrastructure preservation
+ and homogeneous staining of the tissue
+\change_unchanged
+.
+ Then it was thoroughly washed in 0.1M cacodylate buffer
+\change_inserted 78966105 1481831373
+ wiht 4% sucrose
+\change_unchanged
  before staining.
  The tissue was stained using a conventional ROTO procedure 
+\change_deleted 78966105 1475614607
+(
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Tapia:2012hs"
 
 \end_inset
 
+
+\change_deleted 78966105 1475614611
+)
+\change_unchanged
 .Briefly, it was stained in 1% reduced osmium tetroxide with potassium ferrocyani
 de for 2 hr on ice.
  It was then washed 4x 30 min with 0.1M cacodylate buffer, also on ice.
@@ -1199,9 +1445,12 @@ de for 2 hr on ice.
  in 1% osmium tetroxide for 1 hr.
  The tissue was then washed 3x15 min in water and incubated with 1% aqueous
  uranyl acetate overnight.
- The following day the tissue was washed 3x15 min in water and incubated
- for 30min in Lead Aspartate solution, followed by washing and dehydrated
- with a series of ethanol, followed by propylene oxide (PO).
+ The following day the tissue was washed 3x15 min in water 
+\change_inserted 78966105 1481831517
+and incubated for 30min in Lead Aspartate solution, followed by washing
+ 
+\change_unchanged
+and dehydrated with a series of ethanol, followed by propylene oxide (PO).
  The tissue was then infiltrated in decreasing gradients of PO and EPON
  for 24 hrs and baked for 48 hrs at 60 C.
  Following hardening, the tissue block face was coarsely trimmed and a rectangul
@@ -1266,6 +1515,10 @@ Reconstructions
 \begin_layout Standard
 The reconstruction of the identified neurons was performed using the TrakEM2
  plugin in Fiji/ImageJ.
+
+\change_deleted 1172979425 1482164823
+ 
+\change_unchanged
  One expert (AV) traced all neurons and annotated all pre- and postsynaptic
  sites.
  AV noted difficult locations while tracing.
@@ -1364,9 +1617,13 @@ planefit
 \emph default
 function, available on the Matlab central repository.
  
+\change_inserted 78966105 1477418848
+
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 78966105 1478792459
 To locate the border of r6/7 we followed a similar approach that was performed
  previous using light microscopic imaging and the expression of the 
 \emph on
@@ -1398,6 +1655,8 @@ key "Daie:2015fd,Lee:2015dv"
 \end_inset
 
 .
+\change_unchanged
+
 \begin_inset Newpage newpage
 \end_inset
 
