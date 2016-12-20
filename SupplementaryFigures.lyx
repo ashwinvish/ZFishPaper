@@ -5,6 +5,12 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\usepackage{graphicx}
+\usepackage{booktabs}
+\renewcommand{\fnum@figure}{Figure S~\thefigure}
+\renewcommand{\fnum@table}{Table S~\thetable}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -90,7 +96,6 @@ status open
 	filename SupFigures/NewSupFig1.png
 	display false
 	scale 70
-	rotateOrigin center
 
 \end_inset
 
@@ -101,14 +106,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Supplementary figure 1
-\begin_inset Newline newline
-\end_inset
-
 (A) Spatial distribution of integrator time constants along the rostro-caudal,
  medio-lateral and dorso-ventral axis respectively.
- Colors represent the group that the cell belong to.(Pink - ipsi only, Green
- - Ipsi-contra, Orange - contra only and Blue - unknown).
+ Colors represent the group that the cell belong to.
+ (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
+ unknown).
 \begin_inset Newline newline
 \end_inset
 
@@ -151,7 +153,6 @@ status open
 	filename SupFigures/NewSupFig2.png
 	display false
 	scale 70
-	rotateOrigin center
 
 \end_inset
 
@@ -162,10 +163,6 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Supplementary figure 2
-\begin_inset Newline newline
-\end_inset
-
 (A) Examples of types of synapses in the imaged volume.
  Closed arrows show conventional synapses and open arrows shows dense core
  vesicles within the same bouton.
@@ -199,7 +196,6 @@ status open
 \begin_inset Graphics
 	filename SupFigures/AbducensLocation.png
 	scale 70
-	rotateOrigin center
 
 \end_inset
 
@@ -210,10 +206,6 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Supplementary figure 3
-\begin_inset Newline newline
-\end_inset
-
 (A) Location of abducens nuclei from low-res EM images.
  The frames are ordered from medial to lateral orientation, 
 \begin_inset Formula $10\mu m$
@@ -296,7 +288,6 @@ status open
 	filename SupFigures/NewSupFig4.png
 	display false
 	scale 70
-	rotateOrigin center
 
 \end_inset
 
@@ -307,10 +298,6 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Supplementary figure 4
-\begin_inset Newline newline
-\end_inset
-
 (A) Primary cilium of every integrator neuron identified in the volume.
  The primary cilium is visible over multiple sections as seen by presence
  of ordered microtubules that emerges very close to the Golgi complex of
@@ -347,7 +334,6 @@ status open
 	filename SupFigures/NewSupFig3.png
 	display false
 	scale 70
-	rotateOrigin center
 
 \end_inset
 
@@ -358,10 +344,6 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Supplementary figure 5
-\begin_inset Newline newline
-\end_inset
-
 (A) Convex hull volume of dendrites of all integrator neurons, color coded
  by the cell group that they belong to.
  (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
@@ -428,7 +410,6 @@ status open
 	filename SupFigures/NewSupFig5.png
 	display false
 	scale 70
-	rotateOrigin center
 
 \end_inset
 
@@ -439,10 +420,6 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Supplementary figure 6
-\begin_inset Newline newline
-\end_inset
-
 (A) Distribution of the normalized postsynaptic pathlength and the distribution
  of the normalized dendritic pathlength for all four groups.
  Background color (Pink - ipsi only, Green - Ipsi-contra, Orange - contra
@@ -491,6 +468,9 @@ Supplementary figure 6
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
 
 \end_layout
 
@@ -515,7 +495,7 @@ status open
 <column alignment="center" valignment="middle" width="1.75cm">
 <column alignment="center" valignment="middle" width="2.5cm">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -537,7 +517,7 @@ Cell group
 \begin_inset Text
 
 \begin_layout Plain Layout
-Total
+Average
 \begin_inset Newline newline
 \end_inset
 
@@ -554,7 +534,7 @@ Total
 \begin_inset Text
 
 \begin_layout Plain Layout
-Axonal length (
+Average axonal length (
 \begin_inset Formula $\mu m$
 \end_inset
 
@@ -567,7 +547,7 @@ Axonal length (
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dendritic
+Average dendritic
 \begin_inset Newline newline
 \end_inset
 
@@ -631,7 +611,7 @@ Dendrite diameter
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -646,7 +626,7 @@ Axon initiation site (
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -656,7 +636,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -665,11 +645,11 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $661.89\pm253.57$
+\begin_inset Formula $654.08\pm253.55$
 \end_inset
 
 
@@ -677,11 +657,11 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $269.74\pm244.41$
+\begin_inset Formula $260.93\pm241.29$
 \end_inset
 
 
@@ -689,11 +669,11 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $392.14\pm66.31$
+\begin_inset Formula $393.14\pm64.36$
 \end_inset
 
 
@@ -701,7 +681,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -713,7 +693,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -725,7 +705,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -737,7 +717,7 @@ Ipsi.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -751,7 +731,7 @@ Ipsi.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -760,7 +740,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -769,7 +749,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -781,7 +761,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -793,7 +773,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -805,7 +785,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -817,7 +797,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -829,7 +809,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -841,7 +821,7 @@ Ipsi-contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -855,7 +835,7 @@ Ipsi-contra.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -865,7 +845,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -874,7 +854,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -886,7 +866,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -898,7 +878,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -910,7 +890,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -922,7 +902,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -934,7 +914,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -946,7 +926,7 @@ Contra.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -960,7 +940,7 @@ Contra.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1044,7 +1024,7 @@ NA
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1062,7 +1042,7 @@ NA
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Anatomical features of integrator neurons
+ Anatomical features of integrator neurons
 \end_layout
 
 \end_inset
