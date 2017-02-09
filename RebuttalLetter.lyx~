@@ -1,0 +1,256 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Reviewer #1: This is a lovely piece of work that is important for three
+ reasons:
+\end_layout
+
+\begin_layout Standard
+1.
+ It shows, beautifully, how one can go from neuronal function in an intact
+ zebrafish larva to detailed structure and connectivity in the brain.
+ 
+\end_layout
+
+\begin_layout Standard
+2.
+ It reveals patterns of synaptic distributions (laminar-ish, but orthogonal)
+ with major implications for how the brain connectivity is set up in a previousl
+y discovered columnar organization of cell types.
+ They could even emphasize it more as it is of consequence beyond the neurons
+ they study.
+ 
+\end_layout
+
+\begin_layout Standard
+3.
+ It focuses on a well-studied cell type of clear biological consequence
+ that performs the role of an integrator in eye movements and provides support
+ for predictions of patterns of connectivity among the cells.
+ 
+\end_layout
+
+\begin_layout Standard
+Beyond these, the paper is presented in a careful, balanced, low hype way,
+ unlike many others these days, including quite a few using the zebrafish
+ model.
+ It was a pleasure to read and it really shows the power of the combined
+ functional and EM structural approach in this model I have nothing to whine
+ about, but to prove I read it, here are some editorial issues.
+ 
+\end_layout
+
+\begin_layout Standard
+The authors would also help reviewers and make them happier (generally a
+ good thing) if they used line numbering in their papers… 
+\end_layout
+
+\begin_layout Enumerate
+Page 3: line below… the EM was not done in a behaving fish We combined two-photo
+n calcium imaging and serial electron microscopy in a behaving fish to identify
+ 
+\end_layout
+
+\begin_layout Enumerate
+Page 4 line below is worded wrong… just read it to see.
+ , where as for neurons with small dendritic arbors were completely reconstructe
+d and did not have any dendrites that exited the imaged volume.
+ 
+\end_layout
+
+\begin_layout Enumerate
+page 5… wording issue again copied below.
+ Both neurons contained another neurite crossed the midline 
+\end_layout
+
+\begin_layout Enumerate
+Page 6…This process not processes This processes revealed that the distribution
+ of the presynaptic sites along the axons among the two groups ('ipsi-only'
+ and 'ipsi-contra') were not different (p = 0.
+ 01, kstest).
+ 
+\end_layout
+
+\begin_layout Enumerate
+get rid of the second "group of" in this sentence on page 7 The second major
+ group of neurons that we reconstructed were the eight caudally located,
+ contralaterally projecting group of neurons.
+\end_layout
+
+\begin_layout Standard
+Reviewer #2: Vishwanathan et al.
+ apply an EM reconstruction technique to test long-standing hypotheses on
+ the neural integrator circuit in the oculomotor system of zebrafish.
+ They provide a detailed description of ultrastructural anatomical features
+ of integrator neurons, especially on synapses that are only detectable
+ with the EM technique.
+ They identified three distinct populations of neurons that differ in dendritic
+ morphologies, axonal projections and spatial synapse organizations.
+ Although this descriptive approach is potentially powerful, the reconstruction
+ of the circuit is incomplete, due to the limited volume that they imaged
+ (both functionally and by EM).
+ Consequently, the conclusions (e.
+ g., concerning synapse distribution, interconnectivity, or the prevalence
+ of chemical synapses) have to be considered preliminary and are only interestin
+g for specialists at this stage.
+\end_layout
+
+\begin_layout Standard
+Major points 
+\end_layout
+
+\begin_layout Enumerate
+Registration of EM-LM volumes (Fig.
+ 1C): How do the authors assess that the functionally imaged cells are successfu
+lly re-identified in the EM volume? Fig.1C shows the correspondence between
+ LM and EM images, but it would be more convincing if they showed an example
+ plane where the functional calcium imaging was performed and integrator
+ neurons were identified (as in Fig 1A).
+ 
+\end_layout
+
+\begin_layout Enumerate
+What is missing throughout the paper is the comparison with integrator property
+ and their ultrastructural morphologies.
+ They have measured time constants of the integrator neurons, but these
+ metrics are not correlated with morphology.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The authors infer the neurotransmitter identity of integrator neurons based
+ on soma position and the pattern of neurotransmitter markers that another
+ group has shown.
+ This assumption underlies one of the strongest conclusions of the paper.
+ However, the correspondence of the stripes shown here with the neurotransmitter
+ stripes shown previously is highly speculative.
+ They define soma stripes as peaks (termed S1-3, Fig.
+ 1D) of cell bodies that are projected along the dorso-ventral axis in this
+ volume, whereas Kinkhabwala et al.
+ (2011) defined stripe organization using transcription factors and neurotransmi
+tter-specific transgenic lines.
+ For example, the authors state that "the medial most stripe S1 aligns with
+ a group of neurons that express the alx transcription factor and are most
+ often glutamatergic".
+ However, S1 is also close to another, engrailed-1 positive stripe, which
+ contains neurons with different properties.
+ Also, previous studies reported glycinergic neurons in the hindbrain, but
+ the authors do not discuss this possibility.
+\end_layout
+
+\begin_layout Enumerate
+The abducens motor nucleus is the target of integrator neurons in goldfish
+ and zebrafish.
+ Fig.
+ S3 shows that axons of some integrator neurons project near the abducens
+ nerve, but the authors do not show that the axons make direct synapses
+ with abducens neurons.
+ This is a missed opportunity.
+\end_layout
+
+\begin_layout Standard
+Minor points: 
+\end_layout
+
+\begin_layout Enumerate
+In the Discussion (third paragraph on page 7), the authors discuss that
+ the most laterally located group of neurons in S3, which they speculate
+ to be glutamatergic, have been shown in the previous study by Kinkhabwala
+ et al.
+ to have both ipsilateral and contralateral projections.
+ However, such data are not shown in the Kinkhabwala et al.
+ paper.
+ 
+\end_layout
+
+\begin_layout Enumerate
+In Fig S2B, the caption states "tight junctions" but the main text mentions
+ "gap junctions"? 
+\end_layout
+
+\begin_layout Enumerate
+The format of the current manuscript does not seem to conform to the guidelines
+ of Current Biology.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The manuscript needs to be edited extensively for typos and grammatical
+ errors (e.
+ g., singular/plural of cilium: "We also observed a primary cilia on all
+ 22 integrator neurons that were reconstructed.
+ Primary cilium are know to be present in most, if not all mammalian cells.")
+\end_layout
+
+\end_body
+\end_document
