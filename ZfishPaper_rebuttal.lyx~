@@ -387,18 +387,13 @@ key "Lee:2015dv"
 \end_layout
 
 \begin_layout Standard
-We combined two-photon calcium imaging and serial electron microscopy in
- a 
-\change_deleted 78966105 1486571672
-behaving
-\change_inserted 78966105 1486571679
-
+We combined two-photon calcium imaging and serial electron microscopy 
+\change_deleted 78966105 1486578326
+in a behaving
 \color red
-larval zebra
-\change_deleted 78966105 1486571682
- 
+ fish
 \change_unchanged
-fish
+
 \color inherit
  to identify neurons in the neural integrator and reconstructed the same
  neurons.
@@ -550,7 +545,13 @@ s to neurons at the midline, each corresponding to a likely stripe (Fig.
  as medial (S1), intermediate (S2) and lateral stripe (S3) respectively.
  
 \color red
-The medial most stripe S1 aligns with 
+The medial most stripe S1 aligns 
+\change_deleted 78966105 1486690822
+with
+\change_inserted 78966105 1486690824
+broadly
+\change_unchanged
+ 
 \change_inserted 78966105 1486135394
 two
 \change_deleted 78966105 1486135393
@@ -573,17 +574,13 @@ engrailed-1
  
 \change_unchanged
 transcription factor
-\change_inserted 78966105 1486135508
-, which express glutamate and glycine respectively
-\change_deleted 78966105 1486135379
- and are most often glutamatergic 
-\change_inserted 78966105 1486217145
- 
+\change_inserted 78966105 1486690837
+s, which express glutamate and glycine respectively 
 \change_unchanged
 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Kimura:2006hd"
+key "Kimura:2006hd,Kinkhabwala:2011et"
 
 \end_inset
 
@@ -600,17 +597,17 @@ at this depth (below the level of the Mauthner axon) the
 \change_deleted 78966105 1486135461
 the large
 \change_unchanged
- majority of 
+ 
+\change_inserted 78966105 1486690966
+vast 
+\change_unchanged
+majority of 
 \change_inserted 78966105 1486135437
 integrator neurons are 
 \change_unchanged
 glutamatergic
-\change_inserted 78966105 1486135480
- and not glycinergic
-\change_deleted 78966105 1486135446
- integrator neurons reside in this stripe
 \change_inserted 78966105 1486217151
- 
+ and not glycinergic 
 \change_unchanged
 
 \begin_inset CommandInset citation
