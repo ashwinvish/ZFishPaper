@@ -26,7 +26,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize default
+\paperfontsize 11
 \spacing single
 \use_hyperref false
 \papersize default
@@ -76,14 +76,14 @@
 
 \begin_layout Standard
 
-\family sans
+\lang american
 Reviewer #1: This is a lovely piece of work that is important for three
  reasons:
 \end_layout
 
 \begin_layout Standard
 
-\family sans
+\lang american
 1.
  It shows, beautifully, how one can go from neuronal function in an intact
  zebrafish larva to detailed structure and connectivity in the brain.
@@ -92,7 +92,7 @@ Reviewer #1: This is a lovely piece of work that is important for three
 
 \begin_layout Standard
 
-\family sans
+\lang american
 2.
  It reveals patterns of synaptic distributions (laminar-ish, but orthogonal)
  with major implications for how the brain connectivity is set up in a previousl
@@ -104,7 +104,7 @@ y discovered columnar organization of cell types.
 
 \begin_layout Standard
 
-\family sans
+\lang american
 3.
  It focuses on a well-studied cell type of clear biological consequence
  that performs the role of an integrator in eye movements and provides support
@@ -114,7 +114,7 @@ y discovered columnar organization of cell types.
 
 \begin_layout Standard
 
-\family sans
+\lang american
 Beyond these, the paper is presented in a careful, balanced, low hype way,
  unlike many others these days, including quite a few using the zebrafish
  model.
@@ -126,14 +126,14 @@ Beyond these, the paper is presented in a careful, balanced, low hype way,
 
 \begin_layout Standard
 
-\family sans
+\lang american
 The authors would also help reviewers and make them happier (generally a
  good thing) if they used line numbering in their papers… 
 \end_layout
 
 \begin_layout Enumerate
 
-\family sans
+\lang american
 Page 3: line below… the EM was not done in a behaving fish We combined two-photo
 n calcium imaging and serial electron microscopy in a behaving fish to identify
  
@@ -142,14 +142,14 @@ n calcium imaging and serial electron microscopy in a behaving fish to identify
 \begin_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 Corrected
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 Page 4 line below is worded wrong… just read it to see.
  , where as for neurons with small dendritic arbors were completely reconstructe
 d and did not have any dendrites that exited the imaged volume.
@@ -159,14 +159,14 @@ d and did not have any dendrites that exited the imaged volume.
 \begin_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 corrected
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 page 5… wording issue again copied below.
  Both neurons contained another neurite crossed the midline 
 \end_layout
@@ -174,14 +174,14 @@ page 5… wording issue again copied below.
 \begin_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 corrected
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 Page 6…This process not processes This processes revealed that the distribution
  of the presynaptic sites along the axons among the two groups ('ipsi-only'
  and 'ipsi-contra') were not different (p = 0.
@@ -192,14 +192,14 @@ Page 6…This process not processes This processes revealed that the distributio
 \begin_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 corrected
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 get rid of the second "group of" in this sentence on page 7 The second major
  group of neurons that we reconstructed were the eight caudally located,
  contralaterally projecting group of neurons.
@@ -208,14 +208,14 @@ get rid of the second "group of" in this sentence on page 7 The second major
 \begin_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 corrected
 \end_layout
 
 \end_deeper
 \begin_layout Standard
 
-\family sans
+\lang american
 Reviewer #2: Vishwanathan et al.
  apply an EM reconstruction technique to test long-standing hypotheses on
  the neural integrator circuit in the oculomotor system of zebrafish.
@@ -235,13 +235,13 @@ g for specialists at this stage.
 
 \begin_layout Standard
 
-\family sans
+\lang american
 Major points 
 \end_layout
 
 \begin_layout Enumerate
 
-\family sans
+\lang american
 Registration of EM-LM volumes (Fig.
  1C): How do the authors assess that the functionally imaged cells are successfu
 lly re-identified in the EM volume? Fig.1C shows the correspondence between
@@ -254,14 +254,14 @@ lly re-identified in the EM volume? Fig.1C shows the correspondence between
 \begin_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 We thank the reviewer for the comments.
  In order to be able to show an example plane whee the functional calcium
  imaging was performed and its corresponding EM plane, the orientation of
  the animal during functional imaging and during subsequent EM sectioning
  should be exactly the same.
- This however is not the case, and it very hard to acheive.
- Insted, we digitally transfomred the functionally imaged planes onto the
+ This however is not the case, and it very hard to achieve.
+ Instead, we digitally transformed the functionally imaged planes onto the
  EM volume using landmarks.
  To address the reviewers comments, we have included corresponding LM-EM
  images for multiple cells as supplementary figure.
@@ -270,7 +270,7 @@ We thank the reviewer for the comments.
 \end_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 What is missing throughout the paper is the comparison with integrator property
  and their ultrastructural morphologies.
  They have measured time constants of the integrator neurons, but these
@@ -281,10 +281,10 @@ What is missing throughout the paper is the comparison with integrator property
 \begin_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 The reviewer has a very great point here.
  In Sup.
- Fig 1, we show some of the time constant properies of the cells as a function
+ Fig 1, we show some of the time constant properties of the cells as a function
  of spatial location, somata size.
  Performing any statistical analysis of the time constants for the cells
  based on their assigned morphological group, did not reveal any significant
@@ -298,7 +298,7 @@ The reviewer has a very great point here.
 \end_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 The authors infer the neurotransmitter identity of integrator neurons based
  on soma position and the pattern of neurotransmitter markers that another
  group has shown.
@@ -322,39 +322,35 @@ tter-specific transgenic lines.
 \begin_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 As the reviewer noted, the 
-\family default
 \emph on
 engrailed-1
-\family sans
 \emph default
- stripe which contains glycenergic neurons is very close to the 
-\family default
+ stripe which contains glycinergic neurons is very close to the 
 \emph on
 alx
-\family sans
 \emph default
  stripe and that neurons in each of these stripes have different properties.
  In our study, all the cells that were imaged were below the plane of the
  Mauthner axon (MA).
  In a previous study by (Lee MM et.al., 2015) a detailed analysis of the neurotran
-smitter identity of integrator neurons was perfomred, here are some of the
+smitter identity of integrator neurons was performed, here are some of the
  key points
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
 
-\family sans
-Immunofluoresence imaging in transgenic fish that express reporters for
+\lang american
+Immunofluorescence imaging in transgenic fish that express reporters for
  both glutamate and glycine show that below the plane of the MA, there are
- very few glycine positve neurons.
+ very few glycine positive neurons.
 \end_layout
 
 \begin_layout Enumerate
 
-\family sans
+\lang american
 Of the 273 functionally imaged cells, it was found only 2% of all integrator
  neurons were glycinergic.
  
@@ -362,7 +358,7 @@ Of the 273 functionally imaged cells, it was found only 2% of all integrator
 
 \begin_layout Enumerate
 
-\family sans
+\lang american
 lastly, many of cells that were neither glutamatergic nor glycinergic were
  found to be GABAergic.
 \end_layout
@@ -370,7 +366,7 @@ lastly, many of cells that were neither glutamatergic nor glycinergic were
 \end_deeper
 \begin_layout Standard
 
-\family sans
+\lang american
 For these reasons, we feel confident that the cells that were imaged from
  would not have contained potential engrailed-1 integrator neurons and are
  not glycinergic.
@@ -380,7 +376,7 @@ For these reasons, we feel confident that the cells that were imaged from
 \end_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 The abducens motor nucleus is the target of integrator neurons in goldfish
  and zebrafish.
  Fig.
@@ -393,33 +389,33 @@ The abducens motor nucleus is the target of integrator neurons in goldfish
 \begin_deeper
 \begin_layout Enumerate
 
-\family sans
-As the reviewer has noted, the abducens motor nuleus is the target of integrator
- neurons.
+\lang american
+As the reviewer has noted, the abducens motor nucleus is the target of integrato
+r neurons.
  In the text we had mentioned that only 2 of the 6 axons from ipsilaterally
  projecting integrator neurons projected close to the abducens.
  Although there are direct synapses made onto other neurons in that areas,
- to determine if those neurons were indeed abducend neurons, we would have
+ to determine if those neurons were indeed abducens neurons, we would have
  to trace the entire cell.
  These synapses are at the ventral most extent of the imaged volume, and
  we feel that most, if not all the neurite of these potential abducens neurons
  will be incomplete.
  This would make is impossible to determine if these neurons were indeed
  abducens neurons.
- Thus, although we would have like to have this infomation, it is not in
+ Thus, although we would have like to have this information, it is not in
  the scope of the imaged data of the study.
 \end_layout
 
 \end_deeper
 \begin_layout Standard
 
-\family sans
+\lang american
 Minor points: 
 \end_layout
 
 \begin_layout Enumerate
 
-\family sans
+\lang american
 In the Discussion (third paragraph on page 7), the authors discuss that
  the most laterally located group of neurons in S3, which they speculate
  to be glutamatergic, have been shown in the previous study by Kinkhabwala
@@ -433,30 +429,53 @@ In the Discussion (third paragraph on page 7), the authors discuss that
 \begin_deeper
 \begin_layout Enumerate
 
-\family sans
-We believe the laterally located group of cells in S3 correspond with the
- 
+\lang american
+The reviewer correctly pointed to a mistake in discussion that was made
+ by the authors.
+ In Kinkhabwala et.
+ al.
+ the lateral most class of cells corresponds with the 
+\emph on
+Barhl2
+\emph default
+ stripe of glutamatergic cells.
+ The morphology of these cells, their axonal projections are to be determined.
+ We have corrected the text to reflect the intended interpretation.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 In Fig S2B, the caption states "tight junctions" but the main text mentions
  "gap junctions"? 
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
+Corrected
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang american
 The format of the current manuscript does not seem to conform to the guidelines
  of Current Biology.
  
 \end_layout
 
+\begin_deeper
+\begin_layout Enumerate
+Once accepted, we can make a decision to reduce the word limit.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
-\family sans
+\lang american
 The manuscript needs to be edited extensively for typos and grammatical
  errors (e.
  g., singular/plural of cilium: "We also observed a primary cilia on all
@@ -464,5 +483,13 @@ The manuscript needs to be edited extensively for typos and grammatical
  Primary cilium are know to be present in most, if not all mammalian cells.")
 \end_layout
 
+\begin_deeper
+\begin_layout Enumerate
+
+\lang american
+Corrected.
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
