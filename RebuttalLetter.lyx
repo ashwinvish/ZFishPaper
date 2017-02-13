@@ -15,7 +15,7 @@
 \font_sans "helvet" "default"
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
-\font_default_family sfdefault
+\font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
@@ -269,7 +269,9 @@ We thank the reviewer for the comments.
  Instead, we digitally transformed the functionally imaged planes onto the
  EM volume using landmarks.
  To address the reviewers comments, we have included corresponding LM-EM
- images for multiple cells as supplementary figure.
+ images for multiple cells as supplementary figure (Sup.
+ Fig.
+ 1C).
 \end_layout
 
 \end_deeper

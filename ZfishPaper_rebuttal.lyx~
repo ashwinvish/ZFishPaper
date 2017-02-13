@@ -76,6 +76,7 @@
 \html_css_as_file 0
 \html_be_strict false
 \author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
+\author 187266875 "Ashwin Vishwanathan"
 \end_header
 
 \begin_body
@@ -333,8 +334,12 @@ Previous attempts to understand how the integrator neurons transforms eye
  electrophysiology with light-microscopic dye fills.
  Intracellular recordings in goldfish hindbrain neurons that exhibited spiking
  correlated to eye position, followed by anatomical dye fills, show the
- axons of these neurons to send collaterals to areas where other integrator
- neurons were observed 
+ axons of these neurons 
+\change_deleted 187266875 1487014460
+to
+\change_unchanged
+ send collaterals to areas where other integrator neurons were observed
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Aksay:2000cn"
@@ -395,8 +400,11 @@ in a behaving
 \change_unchanged
 
 \color inherit
- to identify neurons in the neural integrator and reconstructed the same
- neurons.
+ to identify neurons in the neural integrator and reconstruct
+\change_deleted 187266875 1487014564
+ed 
+\change_unchanged
+the same neurons.
  We found evidence for multiple classes of neurons within the integrator
  population based on differences in dendritic arborization, axonal projections
  and synaptic distributions.
@@ -404,8 +412,15 @@ in a behaving
  that are inferred to be excitatory, and neurons with contralaterally projecting
  axons at more caudal locations that are inferred to be inhibitory.
  In addition, we found neurons at the lateral most edge of the volume, for
- which we could not identify an axon, and a small subset of previously unreporte
-d integrator neurons with both ipsilateral and contralateral axonal projections.
+ which we could not identify an axon, and a 
+\change_deleted 187266875 1487014630
+small subset of
+\change_unchanged
+ previously unreported integrator neuron
+\change_deleted 187266875 1487014635
+s
+\change_unchanged
+ with both ipsilateral and contralateral axonal projections.
  We identified all chemical synapses in our images by the existence of presynapt
 ic vesicles and postsynaptic densities.
  Chemical synapses involving integrator neurons contained small vesicles,
@@ -464,9 +479,16 @@ d from a deconvolution of the fluorescence data (Fig.
 \end_layout
 
 \begin_layout Standard
-Following functional identification of neural integrator neurons, the tissue
- was fixed, stained, sectioned for serial electron microscopy and imaged
- at a final resolution of 
+Following functional identification of 
+\change_deleted 187266875 1487014793
+neural 
+\change_unchanged
+integrator neurons, the tissue was 
+\change_inserted 187266875 1487014923
+optically imaged (LM), 
+\change_unchanged
+fixed, stained, sectioned for serial electron microscopy and imaged at a
+ final resolution of 
 \begin_inset Formula $5\times5\times45$
 \end_inset
 
@@ -490,7 +512,13 @@ Following functional identification of neural integrator neurons, the tissue
 .
  The LM and EM volumes were registered to each other by an affine transform,
  producing correspondence of labeled neurons and blood vessels (Fig.
- 1C, Methods).
+ 1C,
+\change_inserted 187266875 1487015108
+ Sup.
+ Fig.
+ 1C,
+\change_unchanged
+ Methods).
  The soma of all 22 integrator neurons from the LM volume were located in
  the EM volume within the rhombomeres 6,7 and 8 (Fig 1D, colored by time
  constants).
@@ -545,39 +573,25 @@ s to neurons at the midline, each corresponding to a likely stripe (Fig.
  as medial (S1), intermediate (S2) and lateral stripe (S3) respectively.
  
 \color red
-The medial most stripe S1 aligns 
-\change_deleted 78966105 1486690822
-with
-\change_inserted 78966105 1486690824
-broadly
-\change_unchanged
- 
-\change_inserted 78966105 1486135394
-two
-\change_deleted 78966105 1486135393
-a
-\change_unchanged
- group
-\change_inserted 78966105 1486135318
-s
-\change_unchanged
- of neurons that express the 
-\emph on
-alx 
-\change_inserted 78966105 1486135340
-
-\emph default
-and 
-\emph on
-engrailed-1
-\emph default
+The medial most stripe S1 aligns with
+\change_inserted 187266875 1487015566
  
 \change_unchanged
-transcription factor
-\change_inserted 78966105 1486690837
-s, which express glutamate and glycine respectively 
+a group of neurons that express the 
+\emph on
+alx
+\emph default
+ transcription factor, 
+\change_inserted 187266875 1487015609
+that also
 \change_unchanged
-
+ expresses glutamate.
+ More dorsally, this stripe is laterally abutted by cells that express the
+ 
+\emph on
+engrailed -1
+\emph default
+ transcription factor which expresses glycine 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kimura:2006hd,Kinkhabwala:2011et"
@@ -586,30 +600,12 @@ key "Kimura:2006hd,Kinkhabwala:2011et"
 
 .
  
-\change_inserted 78966105 1486135533
-However, p
-\change_deleted 78966105 1486135533
+\change_inserted 187266875 1487015661
 P
 \change_unchanged
-revious work has show that 
-\change_inserted 78966105 1486135471
-at this depth (below the level of the Mauthner axon) the
-\change_deleted 78966105 1486135461
-the large
-\change_unchanged
- 
-\change_inserted 78966105 1486690966
-vast 
-\change_unchanged
-majority of 
-\change_inserted 78966105 1486135437
-integrator neurons are 
-\change_unchanged
-glutamatergic
-\change_inserted 78966105 1486217151
- and not glycinergic 
-\change_unchanged
-
+revious work has show that at this depth (below the level of the Mauthner
+ axon) the vast majority of integrator neurons are glutamatergic and not
+ glycinergic 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -636,8 +632,8 @@ key "Kinkhabwala:2011et"
 .
 
 \emph default
- The majority of integrator neurons in this stripe express GABA , while
- a small minority express glutamate.
+ The majority of integrator neurons in this stripe express GABA, while a
+ small minority express glutamate.
  At the ventral locations explored here, integrator neurons in this stripe
  are almost exclusively GABAergic 
 \begin_inset CommandInset citation
@@ -647,8 +643,11 @@ key "Lee:2015dv"
 \end_inset
 
 .
- The lateral most peak of neurons corresponds with the expression of the
- 
+ The lateral most peak
+\change_inserted 187266875 1487015766
+ S3
+\change_unchanged
+ of neurons corresponds with the expression of the 
 \emph on
 barhl 
 \emph default
@@ -683,10 +682,14 @@ Somata
 The somatic locations of the 22 integrator neurons were distributed over
  ~23 µm in the dorsoventral axis and along the entire rostrocaudal extent
  of the imaged volume.
- A subset of these neurons was located very close to the midline and at
- the rostral edge of the imaged volume, very close to the border of rhombomeres
- 6,7 and at the caudal end of the imaged volume, located in rhombomere 8,
- roughly between myotomes 1, 2.
+ A subset of these neurons w
+\change_inserted 187266875 1487015839
+ere
+\change_unchanged
+ located very close to the midline and at the rostral edge of the imaged
+ volume, close to the border of rhombomeres 6,7 and at the caudal end of
+ the imaged volume, located in rhombomere 8, roughly between myotomes 1,
+ 2.
  Another subset of neurons was located at the lateral end of the volume
  in rhombomere 8.
  The diameters of the integrator neurons were normally distributed, with
@@ -699,7 +702,11 @@ The somatic locations of the 22 integrator neurons were distributed over
  level of the neurons, with larger neurons exhibiting higher degree of persisten
 ce (Sup.
  Fig.
- 1C, Pearson coefficient = 0.4, 
+ 1
+\change_inserted 187266875 1487015976
+B (right)
+\change_unchanged
+, Pearson coefficient = 0.4, 
 \begin_inset Formula $p$
 \end_inset
 
@@ -717,8 +724,8 @@ Synapses
 \end_layout
 
 \begin_layout Standard
-We annotated 406 presynaptic (green circles, Fig.
- 2) and 2229 postsynaptic sites (red circles, Fig.
+We annotated 320 presynaptic (green circles, Fig.
+ 2) and 2195 postsynaptic sites (red circles, Fig.
  2) on the 22 integrator neurons.
  Synapses were identified by the presence of a presynaptic vesicle pool
  and an opposing postsynaptic density.
@@ -742,7 +749,7 @@ The presynaptic site was generally at a varicosity in the axon with vesicles
  was typically observed, along with the presynaptic density.
  These features are consistent with the idea of a presynaptic active zone.
  The number of presynaptic sites on a neuron averaged 
-\begin_inset Formula $58\pm44.39$
+\begin_inset Formula $62.3\pm39.2$
 \end_inset
 
 .
@@ -750,10 +757,10 @@ The presynaptic site was generally at a varicosity in the axon with vesicles
  neuron, because most axonal arbors were cut off by the borders of the volume.
  If statistics are restricted to the 3 neurons that were more complete than
  others, there were 
-\begin_inset Formula $156\pm47.46$
+\begin_inset Formula $84\pm48.5$
 \end_inset
 
- postsynaptic sites.
+ presynaptic sites.
 \end_layout
 
 \begin_layout Itemize
@@ -765,18 +772,13 @@ The postsynaptic densities were observed as a darkening of the membrane,
  indicative of more electron dense regions, corresponding to more protein
  density.
  The number of postsynaptic sites on a neuron averaged 
-\begin_inset Formula $101\pm74$
+\begin_inset Formula $99.7\pm72.4$
 \end_inset
 
 .
  This is a reasonable estimate of the number of input synapses to an integrator
  neuron, because most dendritic arbors were reconstructed in their entirety.
- If statistics are restricted to the 3 neurons that were more complete than
- others, there were 
-\begin_inset Formula $97\pm38$
-\end_inset
-
- presynaptic sites.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -816,19 +818,13 @@ Dendrites were defined by the absence of presynaptic vesicles and the presence
  Dendrites were smooth rather than spiny.
  Some dendrites exited the imaged volume, leading to incompletely reconstructed
  neurons
-\change_inserted 78966105 1486572238
+\change_inserted 78966105 1486572240
 .
  
-\change_deleted 78966105 1486572235
-
 \color red
-, where as for n
-\change_inserted 78966105 1486572240
 N
 \change_unchanged
 eurons with small dendritic arbors
-\change_deleted 78966105 1486572173
- 
 \change_inserted 78966105 1486572149
  
 \change_unchanged
@@ -906,7 +902,11 @@ al side (Fig.
 \change_inserted 78966105 1486144819
  B, 
 \change_unchanged
-D soma to axon initiation site, open arrow).
+D open arrow
+\change_inserted 187266875 1487022959
+ to end, no synapses
+\change_unchanged
+).
  The lack of postsynaptic sites on these putative axons is similar to the
  initial segment of conventional axons that were identified by the presence
  of vesicles, where no presynaptic terminals in the proximal part of the
@@ -929,7 +929,13 @@ key "Barresi:2005iw"
  The diameter of these putative axons were smaller to the other neurites
  and were similar to the diameters of conventional axons (Sup.
  Fig.
- 1C).
+ 1
+\change_inserted 187266875 1487023037
+E
+\change_deleted 187266875 1487023036
+C
+\change_unchanged
+).
  The mean axonal diameter was less than the mean dendrite diameter, conforming
  to the textbook notion that axons are thinner than dendrites.
  These features were applied to determine a neurite to be a putative axon.
@@ -941,9 +947,16 @@ Small protuberances
 \end_layout
 
 \begin_layout Standard
-A small fraction (3% or 89/2229) of the postsynaptic sites were located
- on finger-like projections from dendrites that were enveloped by invaginations
- of axonal boutons (Fig.
+A small fraction (
+\change_inserted 187266875 1487023276
+~4
+\change_unchanged
+% or 
+\change_inserted 187266875 1487023264
+91/2195
+\change_unchanged
+) of the postsynaptic sites were located on finger-like projections from
+ dendrites that were enveloped by invaginations of axonal boutons (Fig.
  2B, EM panel 2).
  These projections resemble structures found across multiple species called
  
@@ -967,7 +980,11 @@ um
 \change_deleted 78966105 1486136052
 a
 \change_unchanged
- on all 22 integrator neurons that were reconstructed.
+ on all 22 integrator neurons
+\change_inserted 187266875 1487023314
+.
+
+\change_unchanged
  Primary cilium are know to be present in most, if not all mammalian cells,
  including neurons, and are though to be important for normal development
  
@@ -991,7 +1008,12 @@ key "GuemezGamboa:2014fp"
  Orientation of primary cilium in integrator neurons did not show any orientatio
 n preference (Sup.
  Fig.
- 4B) 
+ 4B)
+\change_inserted 187266875 1487023370
+.
+
+\change_unchanged
+ 
 \end_layout
 
 \begin_layout Section
@@ -1000,18 +1022,18 @@ Axonal projection patterns of integrator neurons
 
 \begin_layout Standard
 The reconstructed integrator neurons were then divided into 
-\change_deleted 78966105 1486146666
-four
 \change_inserted 78966105 1486146666
 three
 \change_unchanged
  groups based on the spatial projection patterns of the axons that were
  identified.
  Below we have detailed the properties of integrator neurons from each of
- these four groups.
+ these groups.
 
 \change_inserted 78966105 1486146793
- One integrator neuron did not fit into any of these three groups (Sup.
+ 
+\change_deleted 187266875 1487024489
+One integrator neuron did not fit into any of these three groups (Sup.
  Fig).
 \change_unchanged
 
@@ -1042,107 +1064,67 @@ ipsi-only
 en passant
 \emph default
  boutons with presynaptic vesicles.
- The somata were located at the rostral extent of the volume close to the
- midline (Fig.
+ The somata were located at the rostral extent of the volume
+\change_inserted 187266875 1487023491
+,
+\change_unchanged
+ close to the midline (Fig.
  3A, Ipsi.
  only).
  The axons were oriented along the rostro-caudal (RC) axis with the rostral
  end more ventral as compared to the caudal end.
  The average length of axons was 
-\begin_inset Formula $\sim111\mu m$
+\begin_inset Formula $\sim260\mu m$
 \end_inset
 
  (Sup.
  Table) with the longest reconstructed axon being 
-\begin_inset Formula $463µm$
+\begin_inset Formula $463\mu m$
 \end_inset
 
 .
- Two of the six axons had projections that near the site of the abducens
- motor nuclei (Sup.
+ Two of the six axons had projections that
+\change_inserted 187266875 1487023558
+ terminate
+\change_unchanged
+ near the site of the abducens motor nuclei (Sup.
  Fig.
  4B) .
  The axon initiation site was on average located 
-\begin_inset Formula $\sim36\mu m$
+\begin_inset Formula $\sim99\mu m$
 \end_inset
 
  from the somata.
- Finally, no ipsi-only axons were observed emerging directly from the somata.
+ Finally, none of the axons were observed emerging directly from the somata.
  Instead, dendrites bearing postsynaptic sites turned into axons with presynapti
 c sites.
 \end_layout
 
 \begin_layout Standard
 Neurons in this group had large dendritic arbors, with the dendrites arborizing
- over 13.3% of the total imaged volume (Sup.
+ over 22.5% of the total imaged volume (Sup.
  Fig.
  5A, B, C).
  The dendrites emerged laterally from somata and always extended ventrally.
  Only in one case the dendrites were observed to cross the midline, as indicated
  by the presence of postsynaptic sites (Fig.
  3A, Ipsi.
- only, arrowhead).
+ only, arrowhead
+\change_inserted 187266875 1487023686
+s
+\change_unchanged
+).
  The average diameter of dendrites was significantly larger as compared
  to the diameter of the axons (Fig.
- 3B, 
+ 3
+\change_inserted 187266875 1487024851
+F
+\change_unchanged
+, 
 \begin_inset Formula $p<2\times10^{-3}$
 \end_inset
 
 , ttest).
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 78966105 1486139923
-
-\emph on
-\bar under
-Both ipsi- and contralateral projections (
-\begin_inset Quotes eld
-\end_inset
-
-ipsi-contra
-\begin_inset Quotes erd
-\end_inset
-
-)
-\emph default
-\bar default
- - Two neurons had axons with both ipsilateral and contralateral projections
- (Fig.
- 2C, 3A, ipsi-contra).
- Integrator neurons from this group were located more lateral to the neurons
- from 
-\emph on
-ipsi-only group.
-
-\emph default
- The ipsilaterally projecting axons resembled the axons of the ipsi-only
- group of neurons (Fig.
- 3A), with similar tilt in the rostro-caudal axis.
- Both neurons contained another neurite crossed the midline.
- We infer that this neurite is a putative contralaterally projecting axon.
- This cannot be confirmed with certainty, because its presynaptic sites
- are on the contralateral side of the hindbrain, outside the imaged volume.
- Our inference is based on a number of cues as mentioned previously.
- In both cases, the midline cross-over happened at locations that were ventral
- to the neurons somata.
- On average the axons (ipsi+putative contra) were 
-\begin_inset Formula $\sim270\mu m$
-\end_inset
-
-
-\emph on
- 
-\emph default
-long.
- The dendrites of neurons in this group arborized over 4.3% of the total
- volume (Sup.
- Fig.
- 5A, B, C).
- 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -1161,8 +1143,6 @@ contra-only
 \emph default
 \bar default
  - 
-\change_deleted 78966105 1486139971
-Eight
 \change_inserted 78966105 1486139971
 Nine
 \change_unchanged
@@ -1175,7 +1155,7 @@ Nine
  However, unlike the ipsi-only group, the axon initiation site was much
  closer to the somata.
  On average, the axon initiation site was located 
-\begin_inset Formula $\sim13\mu m$
+\begin_inset Formula $\sim22\mu m$
 \end_inset
 
  from the somata, which is significantly shorter than the axon initiation
@@ -1192,8 +1172,11 @@ The average dendritic length was
 \begin_inset Formula $\sim290µm$
 \end_inset
 
-, and the dendritic arbors of these neurons arborized over 7.2% of the total
- volume (Sup.
+, and the dendritic arbors of these neurons arborized over 
+\change_inserted 187266875 1487006585
+8
+\change_unchanged
+% of the total volume (Sup.
  Fig.
  5A, B, C).
  This was significantly smaller than the dendritic arbors of ipsi-only group,
@@ -1204,14 +1187,22 @@ The average dendritic length was
 , ttest).
  The average diameter of dendrites significantly larger than the diameter
  of the axons (Fig.
- 3B, 
+ 3
+\change_inserted 187266875 1487024866
+F
+\change_unchanged
+, 
 \begin_inset Formula $p<2\times10^{-6}$
 \end_inset
 
 , ttest).
  The diameter of dendrites of the contra-only neurons was significantly
  smaller to the ipsi-only group (Fig.
- 3B, 
+ 3
+\change_inserted 187266875 1487024888
+F
+\change_unchanged
+, 
 \begin_inset Formula $p<0.005,$
 \end_inset
 
@@ -1234,22 +1225,45 @@ unknown
 )
 \emph default
 \bar default
- - The last seven neurons were located at the lateral most extent of the
- animal.
+ - 
+\change_inserted 187266875 1487024479
+S
+\change_unchanged
+even neurons were located at the lateral most extent of the animal.
  For these neurons we did not find any neurites with presynaptic sites nor
  could we locate a putative axon (Fig.
- 3A, unknown).
+ 3A, 
+\change_inserted 187266875 1487025026
+U
+\change_deleted 187266875 1487025026
+u
+\change_unchanged
+nknown).
  We believe this is most likely because these neurons were not fully represented
  in the imaged volume and neurites of these neurons exit the volume before
  the axon was located.
  The average length of the dendrites for neurons from this group was 
-\begin_inset Formula $\sim220\:\mu$
+\begin_inset Formula $\sim220\mu m$
 \end_inset
 
-m, and they occupied on average ~4.9% of the total volume (Sup.
+, and they occupied on average ~4.9% of the total volume (Sup.
  Fig.
  5A, B, C).
  
+\change_inserted 187266875 1487024497
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 187266875 1487024603
+Finally one integrator neuron did not fit into any of these three groups,
+ its axon had both an ipilateral and contralateral projection (Supp.
+ methods, Sup.
+ Fig.
+ 3A).
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
@@ -1257,13 +1271,7 @@ Organization of integrator neuron synapses
 \end_layout
 
 \begin_layout Standard
-Neurons from these 
-\change_deleted 78966105 1486145012
-four
-\change_inserted 78966105 1486145012
-three
-\change_unchanged
- groups had on average, 
+Neurons from these three groups had on average, 
 \family roman
 \series medium
 \shape up
@@ -1275,17 +1283,7 @@ three
 \uwave off
 \noun off
 \color none
-170, 
-\change_deleted 78966105 1486145015
-125
-\change_unchanged
-, 8
-\change_inserted 78966105 1486145019
-4
-\change_deleted 78966105 1486145019
-5
-\change_unchanged
-
+170, , 84
 \family default
 \series default
 \shape default
@@ -1302,81 +1300,33 @@ three
 \end_inset
 
  postsynaptic (inputs) sites on their dendrites respectively (Fig.
- 3
-\change_inserted 78966105 1486145027
-B
-\change_deleted 78966105 1486145026
-C
-\change_unchanged
-, 
-\change_deleted 78966105 1486145033
-top,
-\change_unchanged
- red).
- The axons from the ipsi-only and ipsi-contra groups had approximately 5
-\change_inserted 78966105 1486145316
-8
-\change_deleted 78966105 1486145316
-6
-\change_unchanged
- 
-\change_deleted 78966105 1486145324
-and 30 presynaptic
+ 3B, red).
+ The axons from the ipsi-only groups had approximately 58
+\change_inserted 187266875 1487024665
+ presynaptic
 \change_unchanged
  (output) sites (Fig.
- 3
-\change_inserted 78966105 1486145334
-B
-\change_deleted 78966105 1486145333
-C
+ 3B, green).
+ 
+\change_inserted 187266875 1487024685
+T
 \change_unchanged
-, 
-\change_deleted 78966105 1486145337
-top,
-\change_unchanged
- green).
- We then computed the pathlength of each synaptic location from the somata
- to determine if there were differences in the distributions of the synaptic
- locations for each of the groups (Fig.
- 3
-\change_inserted 78966105 1486145355
-E
-\change_deleted 78966105 1486145354
-C
-\change_unchanged
-, bottom histograms).
- This processes revealed that the distribution of the 
-\change_deleted 78966105 1486146055
-pre
-\change_inserted 78966105 1486146055
-psot
-\change_unchanged
-synaptic sites along the 
-\change_deleted 78966105 1486146058
-axons
-\change_inserted 78966105 1486146059
-dendrites
-\change_unchanged
- among the 
-\change_inserted 78966105 1486146212
-Ipsi and Contra, unknown groups were significantly different (
+he pathlength of each synaptic location from the somata 
+\change_inserted 187266875 1487025309
+revealed that the distribution of the postsynaptic sites along the dendrites
+ among the Ipsi and Contra, unknown groups were significantly different
+ (Fig.
+ 3D, 
 \begin_inset Formula $p=7.2\times10^{-13}$
 \end_inset
 
 , 
-\begin_inset Formula $p=1.2\times10^{-12}$
+\begin_inset Formula $p=1.2\times10^{-10}$
 \end_inset
 
- kstest)
-\change_deleted 78966105 1486146078
-two groups (`ipsi-only' and `ipsi-contra') were not different (
-\begin_inset Formula $p=0.01$
-\end_inset
-
-, kstest)
+ kstest).
 \change_unchanged
-.
- 
+
 \end_layout
 
 \begin_layout Standard
@@ -1389,7 +1339,7 @@ We further computed the synaptic density, the number of synapses per unit
  Fig.
  6A).
  We found the there were 
-\begin_inset Formula $1.5\times$
+\begin_inset Formula $\sim1.5\times$
 \end_inset
 
  more input synapses on the ipsi-only group of neurons, as compared to the
@@ -1403,7 +1353,11 @@ We further computed the synaptic density, the number of synapses per unit
 \end_inset
 
  input per micron, Fig.
- 3D, top, 
+ 3
+\change_inserted 187266875 1487025418
+C
+\change_unchanged
+, 
 \begin_inset Formula $p=0.049,$
 \end_inset
 
@@ -1418,7 +1372,11 @@ y groups of neurons are
 \end_inset
 
  (Fig.
- 3D, bottom, 
+ 3
+\change_inserted 187266875 1487025447
+E,
+\change_unchanged
+ 
 \begin_inset Formula $p$
 \end_inset
 
@@ -1451,15 +1409,26 @@ l (
 \begin_layout Standard
 The dendritic arbors of the neurons in these two groups displayed an inversion
  in the stratification depths.
- The dendritic arbors of the ipsi-only neurons peaked at a depth of 
-\begin_inset Formula $38.9\pm8.3\mu m$
+ The dendritic arbors of the ipsi-only neurons on average were
+\change_deleted 187266875 1487027068
+ 
+\change_unchanged
+ most abundant at 
+\begin_inset Formula $38.1\pm8.2\mu m$
 \end_inset
 
- ventral to its neurons somata (Fig.
+ ventral to its somata (Fig.
  4B, top).
- Whereas for the contra-only group the peak stratification depth was around
+ Whereas
+\change_deleted 187266875 1487027068
  
-\begin_inset Formula $12.4\pm8.8\mu m$
+\change_unchanged
+ the contra-only group
+\change_deleted 187266875 1487027068
+ 
+\change_unchanged
+ was maximal around 
+\begin_inset Formula $12.2\pm8.2\mu m$
 \end_inset
 
  ventral to its somata (Fig.
@@ -1468,9 +1437,9 @@ The dendritic arbors of the neurons in these two groups displayed an inversion
  (Fig.
  1D) with the stratification profiles of the dendrites along the medio-lateral
  axis, we see that the dendrites and axons of the ipsi-only group projected
- arbors that overlapped with neurons along the medial (S1) and lateral (S3)
- most stripes, whereas the dendrites of the contra group were located very
- close the intermediate stripe (S2) of somata.
+ arbors that overlapped with neurons along the S1 and S3 stripes , whereas
+ the dendrites of the contra group were located very close the intermediate
+ S2 stripe.
  Similar loose organization was observed for the other group of neurons
  (Sup.
  Fig.
@@ -1498,19 +1467,10 @@ We also examined the patterns of connectivity between integrator neurons.
 \end_layout
 
 \begin_layout Standard
-Furthermore, we found 
-\change_inserted 78966105 1486148073
-6 synapses between integrator neurons.
+Furthermore, we found 6 synapses between integrator neurons.
  Two synapses made by one ipsi-only onto another, and 4 synapses onto three
  contra-only neurons (Fig.
  4C).
-\change_deleted 78966105 1486148077
-that one neuron of the ipsi-only group made 2 synapses onto another ipsi-only
- neuron and 1 synapse each onto two contra-only neurons (Fig.
- 4C).
- 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Section
@@ -1654,10 +1614,15 @@ ic.
 
 \change_unchanged
  The remaining integrator neurons were located at the lateral edge of the
- animal corresponding with to the lateral most stripe S3, that are though
- to express glutamate.
- The axonal projections of these neurons exited the imaged volume, but morpholog
-ical reconstructions of neurons belonging to this stripe using light microscopy
+ animal corresponding 
+\change_deleted 78966105 1486692190
+with
+\change_unchanged
+ to the lateral most stripe S3, that are though to express glutamate.
+ 
+\change_deleted 78966105 1486692205
+The axonal projections of these neurons exited the imaged volume, but morphologi
+cal reconstructions of neurons belonging to this stripe using light microscopy
  were shown to have both ipsilateral and contralateral projections 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1666,8 +1631,16 @@ key "Kinkhabwala:2011et"
 \end_inset
 
 .
+
+\change_inserted 78966105 1486692578
+ The morphology, axonal projection pattern and potential role of these neurons
+ remains unknown.
+ 
+\change_deleted 78966105 1486692581
  The role of these neurons remains unknown.
  
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -2198,11 +2171,15 @@ axon – contra-only, orange background.
 \end_inset
 
 (B) Box plot of the number of synapses in each group.
- Black line is the median 
-\change_deleted 78966105 1486154492
-(significance reported as Wilcoxn rank-sum test).
-\change_unchanged
+ Black line is the median (
+\change_inserted 187266875 1487024996
 
+\begin_inset Formula $p=0.004$
+\end_inset
+
+, 
+\change_unchanged
+significance reported as Wilcoxn rank-sum test).
 \begin_inset Newline newline
 \end_inset
 

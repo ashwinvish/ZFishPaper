@@ -195,6 +195,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename SupFigures/AbducensLocation.png
+	display false
 	scale 70
 
 \end_inset
@@ -649,7 +650,7 @@ Ipsi.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $654.08\pm253.55$
+\begin_inset Formula $648.8\pm160.42$
 \end_inset
 
 
@@ -661,7 +662,7 @@ Ipsi.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $260.93\pm241.29$
+\begin_inset Formula $260.15\pm146.1$
 \end_inset
 
 
@@ -673,7 +674,7 @@ Ipsi.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $393.14\pm64.36$
+\begin_inset Formula $388.65\pm59.98$
 \end_inset
 
 
@@ -685,7 +686,7 @@ Ipsi.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $3.04\times10^{4}$
+\begin_inset Formula $3.08\times10^{5}$
 \end_inset
 
 
@@ -753,7 +754,7 @@ Ipsi-contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $696.59\pm200.92$
+\begin_inset Formula $838.66$
 \end_inset
 
 
@@ -765,7 +766,7 @@ Ipsi-contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $277.28\pm22.08$
+\begin_inset Formula $292.89$
 \end_inset
 
 
@@ -777,7 +778,7 @@ Ipsi-contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $419.30\pm178.84$
+\begin_inset Formula $545.76$
 \end_inset
 
 
@@ -789,7 +790,7 @@ Ipsi-contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $2.96\times10^{4}$
+\begin_inset Formula $0.486\times10^{5}$
 \end_inset
 
 
@@ -858,7 +859,7 @@ Contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $358.13\pm62.76$
+\begin_inset Formula $359.59\pm58.86$
 \end_inset
 
 
@@ -870,7 +871,7 @@ Contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $65.72\pm15.24$
+\begin_inset Formula $66.94\pm14.71$
 \end_inset
 
 
@@ -882,7 +883,7 @@ Contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $292.41\pm69.75$
+\begin_inset Formula $292.65\pm65.25$
 \end_inset
 
 
@@ -894,7 +895,7 @@ Contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1.23\times10^{4}$
+\begin_inset Formula $1.09\times10^{5}$
 \end_inset
 
 
@@ -983,7 +984,7 @@ NA
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $221.47\pm48.70$
+\begin_inset Formula $221.47\pm48.7$
 \end_inset
 
 
@@ -995,7 +996,7 @@ NA
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1.13\times10^{4}$
+\begin_inset Formula $0.67\times10^{5}$
 \end_inset
 
 

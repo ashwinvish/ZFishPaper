@@ -76,9 +76,11 @@
 
 \begin_layout Standard
 
+\bar under
 \lang american
-Reviewer #1: This is a lovely piece of work that is important for three
- reasons:
+Reviewer #1: 
+\bar default
+This is a lovely piece of work that is important for three reasons:
 \end_layout
 
 \begin_layout Standard
@@ -215,8 +217,11 @@ corrected
 \end_deeper
 \begin_layout Standard
 
+\bar under
 \lang american
-Reviewer #2: Vishwanathan et al.
+Reviewer #2:
+\bar default
+ Vishwanathan et al.
  apply an EM reconstruction technique to test long-standing hypotheses on
  the neural integrator circuit in the oculomotor system of zebrafish.
  They provide a detailed description of ultrastructural anatomical features
@@ -313,8 +318,11 @@ tter-specific transgenic lines.
  For example, the authors state that "the medial most stripe S1 aligns with
  a group of neurons that express the alx transcription factor and are most
  often glutamatergic".
- However, S1 is also close to another, engrailed-1 positive stripe, which
- contains neurons with different properties.
+ However, S1 is also close to another, 
+\emph on
+engrailed-1
+\emph default
+ positive stripe, which contains neurons with different properties.
  Also, previous studies reported glycinergic neurons in the hindbrain, but
  the authors do not discuss this possibility.
 \end_layout
