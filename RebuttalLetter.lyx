@@ -5,6 +5,10 @@
 \save_transient_properties true
 \origin unavailable
 \textclass extletter
+\begin_preamble
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -75,69 +79,73 @@
 \begin_body
 
 \begin_layout Standard
+We thank the reviewers for their comments have tried best to explain their
+ concerns.
+ Although, one of the reviewers had noted that the results that we have
+ presented were incomplete and would be of interest to a specialist, we
+ think that our approach in this study will have a wide appeal to the broader
+ neuroscience community.
+ Indeed, reviewer#1 though that our study 
+\begin_inset Quotes eld
+\end_inset
+
+ shows, beautifully, how one can go from neuronal function in an intact
+ zebrafish larva to detailed structure and connectivity in the brain''.
+ It is for precisely this reason that we feel this study will be useful
+ for the broader neuroscience community.
+\end_layout
+
+\begin_layout Standard
+In order to address the concerns of the reviewers we have carefull gone
+ over the results and answered their concerns inline.
+ To do this, we re-traced all 22 neurons in this study, using a more accurate
+ semi-automated reconstruction method similar to the `eyewire' platform
+ pioneered by our lab.
+ This approach has in the past proven to be extremely accurate.
+ This process revealed that 1 of the axons of the 22 cells was previously
+ under-reconstructed.
+ Similarly, another axon was from a different cell was over-reconstructed.
+ The remaining, vast majority 20/22 cells remained the same.
+\end_layout
+
+\begin_layout Standard
+The extension of this single axons, changed some of the anatomical facts
+ of the neuron, like lengths, size etc, but not the overall claims of the
+ study.
+ It revealed new synaptic partners to the network of cells, increasing the
+ number from previously reported synapses from 4 to 6.
+ The removal of the previously over-reconstructed branch resulted in the
+ reclassification of one cell from the `ipsi-contra' group to the `contra-only'
+ group.
+ 
+\end_layout
+
+\begin_layout Standard
+We believe these minor corrections have not changed the overall claims of
+ the paper, but instead changes some of the details like lenght of neurite,
+ number of synapses etc.
+ All figures have been updated accordingly and the comments of the reviewers
+ are answered in line.
+\end_layout
+
+\begin_layout Standard
 
 \bar under
 \lang american
 Reviewer #1: 
-\bar default
-This is a lovely piece of work that is important for three reasons:
 \end_layout
 
 \begin_layout Standard
-
-\lang american
-1.
- It shows, beautifully, how one can go from neuronal function in an intact
- zebrafish larva to detailed structure and connectivity in the brain.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang american
-2.
- It reveals patterns of synaptic distributions (laminar-ish, but orthogonal)
- with major implications for how the brain connectivity is set up in a previousl
-y discovered columnar organization of cell types.
- They could even emphasize it more as it is of consequence beyond the neurons
- they study.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang american
-3.
- It focuses on a well-studied cell type of clear biological consequence
- that performs the role of an integrator in eye movements and provides support
- for predictions of patterns of connectivity among the cells.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang american
-Beyond these, the paper is presented in a careful, balanced, low hype way,
- unlike many others these days, including quite a few using the zebrafish
- model.
- It was a pleasure to read and it really shows the power of the combined
- functional and EM structural approach in this model I have nothing to whine
- about, but to prove I read it, here are some editorial issues.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang american
-The authors would also help reviewers and make them happier (generally a
- good thing) if they used line numbering in their papers… 
+We thank the reviewer for their comments and have tried to address all the
+ concerns that were raised.
 \end_layout
 
 \begin_layout Enumerate
 
+\emph on
 \lang american
 Page 3: line below… the EM was not done in a behaving fish We combined two-photo
-n calcium imaging and serial electron microscopy in a behaving fish to identify
+n calcium imaging and serial electron microscopy in a behaving fish to identify.
  
 \end_layout
 
@@ -145,12 +153,16 @@ n calcium imaging and serial electron microscopy in a behaving fish to identify
 \begin_layout Enumerate
 
 \lang american
-Corrected
+In this sentence we used the word `behavior' in the context that the functional
+ recording were perfromed in an immobilized fish, which was free to move
+ its eyes.
+ To prevent this confusion, we have removed the word behaving.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
+\emph on
 \lang american
 Page 4 line below is worded wrong… just read it to see.
  , where as for neurons with small dendritic arbors were completely reconstructe
@@ -160,29 +172,28 @@ d and did not have any dendrites that exited the imaged volume.
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang american
-corrected
+We have now corrected this sentence.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
+\emph on
 \lang american
 page 5… wording issue again copied below.
- Both neurons contained another neurite crossed the midline 
+ Both neurons contained another neurite crossed the midline.
+ 
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang american
-corrected
+We have corrected this sentence.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
+\emph on
 \lang american
 Page 6…This process not processes This processes revealed that the distribution
  of the presynaptic sites along the axons among the two groups ('ipsi-only'
@@ -193,14 +204,13 @@ Page 6…This process not processes This processes revealed that the distributio
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang american
-corrected
+We have corrected this sentence.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
+\emph on
 \lang american
 get rid of the second "group of" in this sentence on page 7 The second major
  group of neurons that we reconstructed were the eight caudally located,
@@ -211,7 +221,7 @@ get rid of the second "group of" in this sentence on page 7 The second major
 \begin_layout Enumerate
 
 \lang american
-corrected
+We have corrected this sentence.
 \end_layout
 
 \end_deeper
@@ -221,21 +231,14 @@ corrected
 \lang american
 Reviewer #2:
 \bar default
- Vishwanathan et al.
- apply an EM reconstruction technique to test long-standing hypotheses on
- the neural integrator circuit in the oculomotor system of zebrafish.
- They provide a detailed description of ultrastructural anatomical features
- of integrator neurons, especially on synapses that are only detectable
- with the EM technique.
- They identified three distinct populations of neurons that differ in dendritic
- morphologies, axonal projections and spatial synapse organizations.
- Although this descriptive approach is potentially powerful, the reconstruction
- of the circuit is incomplete, due to the limited volume that they imaged
- (both functionally and by EM).
- Consequently, the conclusions (e.
- g., concerning synapse distribution, interconnectivity, or the prevalence
- of chemical synapses) have to be considered preliminary and are only interestin
-g for specialists at this stage.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+We thank the reviewer for their comments.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -246,6 +249,7 @@ Major points
 
 \begin_layout Enumerate
 
+\emph on
 \lang american
 Registration of EM-LM volumes (Fig.
  1C): How do the authors assess that the functionally imaged cells are successfu
@@ -261,15 +265,17 @@ lly re-identified in the EM volume? Fig.1C shows the correspondence between
 
 \lang american
 We thank the reviewer for the comments.
- In order to be able to show an example plane whee the functional calcium
- imaging was performed and its corresponding EM plane, the orientation of
- the animal during functional imaging and during subsequent EM sectioning
- should be exactly the same.
+ We agree with the reviewers comments that it will be more convincing if
+ we were able to show an example plane where the functional imaging was
+ performed and its corresponding EM plane.
+ In order to do that, the orientation of the animal during functional imaging
+ and during subsequent EM sectioning should be exactly the same.
  This however is not the case, and it very hard to achieve.
  Instead, we digitally transformed the functionally imaged planes onto the
  EM volume using landmarks.
- To address the reviewers comments, we have included corresponding LM-EM
- images for multiple cells as supplementary figure (Sup.
+ To address the reviewers comments, we have shown parts, but not the entire
+ plane, of the functionally imaged areas and their corresponding EM planes
+ as supplementary figure (Sup.
  Fig.
  1C).
 \end_layout
@@ -277,6 +283,7 @@ We thank the reviewer for the comments.
 \end_deeper
 \begin_layout Enumerate
 
+\emph on
 \lang american
 What is missing throughout the paper is the comparison with integrator property
  and their ultrastructural morphologies.
@@ -290,21 +297,26 @@ What is missing throughout the paper is the comparison with integrator property
 
 \lang american
 The reviewer has a very great point here.
+ These time contacts were computed with the purpose to correlating them
+ to the morphologies.
  In Sup.
- Fig 1, we show some of the time constant properties of the cells as a function
+ Fig 1, we show some of properties of time constant of the cells as a function
  of spatial location, somata size.
- Performing any statistical analysis of the time constants for the cells
- based on their assigned morphological group, did not reveal any significant
- trends.
+ Performing statistical analysis of the these time constants based on their
+ assigned morphological group, did not reveal any significant trends.
  We have added an extra panel to Sup.
- Fig1 (box plot of time constants) and show the lack of significance.
+ Fig1D (box plot of time constants), to show that there are no discernible
+ trends.
  We suspect this is due to the small sample size of functionally identified
  cells in this study.
+ Any such correspondence of these properties would require a significantly
+ larger volume, which is not the scope of this study.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
+\emph on
 \lang american
 The authors infer the neurotransmitter identity of integrator neurons based
  on soma position and the pattern of neurotransmitter markers that another
@@ -320,11 +332,8 @@ tter-specific transgenic lines.
  For example, the authors state that "the medial most stripe S1 aligns with
  a group of neurons that express the alx transcription factor and are most
  often glutamatergic".
- However, S1 is also close to another, 
-\emph on
-engrailed-1
-\emph default
- positive stripe, which contains neurons with different properties.
+ However, S1 is also close to another, engrailed-1 positive stripe, which
+ contains neurons with different properties.
  Also, previous studies reported glycinergic neurons in the hindbrain, but
  the authors do not discuss this possibility.
 \end_layout
@@ -342,11 +351,11 @@ engrailed-1
 alx
 \emph default
  stripe and that neurons in each of these stripes have different properties.
- In our study, all the cells that were imaged were below the plane of the
- Mauthner axon (MA).
+ In our study, all the cells that were imaged below the plane of the Mauthner
+ axon (MA).
  In a previous study by (Lee MM et.al., 2015) a detailed analysis of the neurotran
-smitter identity of integrator neurons was performed, here are some of the
- key points
+smitter identity of integrator neurons was performed and we have listed
+ some of the key points
 \end_layout
 
 \begin_deeper
@@ -361,8 +370,8 @@ Immunofluorescence imaging in transgenic fish that express reporters for
 \begin_layout Enumerate
 
 \lang american
-Of the 273 functionally imaged cells, it was found only 2% of all integrator
- neurons were glycinergic.
+Of the 273 functionally imaged cells, it was found that only 2% of all integrato
+r neurons were glycinergic.
  
 \end_layout
 
@@ -370,22 +379,27 @@ Of the 273 functionally imaged cells, it was found only 2% of all integrator
 
 \lang american
 lastly, many of cells that were neither glutamatergic nor glycinergic were
- found to be GABAergic.
+ in fact found to be GABAergic.
 \end_layout
 
 \end_deeper
 \begin_layout Standard
 
 \lang american
-For these reasons, we feel confident that the cells that were imaged from
- would not have contained potential engrailed-1 integrator neurons and are
- not glycinergic.
+For these reasons, we feel confident that the cells that were imaged here
+ would not have contained potential integrator neurons, that are glycinergic
+ and expressing the 
+\emph on
+engrailed-1
+\emph default
+ transcription factor.
  We have reflected some of the above ideas in the main text as well.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
+\emph on
 \lang american
 The abducens motor nucleus is the target of integrator neurons in goldfish
  and zebrafish.
@@ -404,12 +418,12 @@ As the reviewer has noted, the abducens motor nucleus is the target of integrato
 r neurons.
  In the text we had mentioned that only 2 of the 6 axons from ipsilaterally
  projecting integrator neurons projected close to the abducens.
- Although there are direct synapses made onto other neurons in that areas,
- to determine if those neurons were indeed abducens neurons, we would have
- to trace the entire cell.
+ Although there are direct synapses made onto other neurons in that area,
+ to determine if the postsynaptic target neurons were indeed abducens neurons,
+ we would have to trace the entire cell.
  These synapses are at the ventral most extent of the imaged volume, and
- we feel that most, if not all the neurite of these potential abducens neurons
- will be incomplete.
+ we feel that most, if not all the neurites of these potential abducens
+ neurons will be incomplete.
  This would make is impossible to determine if these neurons were indeed
  abducens neurons.
  Thus, although we would have like to have this information, it is not in
@@ -449,7 +463,8 @@ The reviewer correctly pointed to a mistake in discussion that was made
 Barhl2
 \emph default
  stripe of glutamatergic cells.
- The morphology of these cells, their axonal projections are to be determined.
+ The morphology of these cells, their axonal projections are yet to be determine
+d.
  We have corrected the text to reflect the intended interpretation.
 \end_layout
 
@@ -465,7 +480,7 @@ In Fig S2B, the caption states "tight junctions" but the main text mentions
 \begin_layout Enumerate
 
 \lang american
-Corrected
+This has not been corrected.
 \end_layout
 
 \end_deeper
@@ -497,7 +512,7 @@ The manuscript needs to be edited extensively for typos and grammatical
 \begin_layout Enumerate
 
 \lang american
-Corrected.
+These issues have been corrected.
 \end_layout
 
 \end_deeper

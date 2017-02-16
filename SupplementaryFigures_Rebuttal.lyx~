@@ -120,8 +120,22 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-(C) Diameter profiles along ipsi only (left) and contra only (right) integrator
- cells.
+(C) Two of the functionally imaged planes with integrator neurons circled
+ in red.
+ Black boxes are representative areas where corresponding EM images are
+ shown as insets.
+ Insets are representative EM locaiton with the functionally identified
+ cells circled in black.
+\begin_inset Newline newline
+\end_inset
+
+(D) Box plot of the time constants of integration for all cells in each
+ group.
+\begin_inset Newline newline
+\end_inset
+
+(E) Diameter profiles along an ipsi only (top) and contra only (bottom)
+ integrator neuron.
  Location of each dot represents the thickness of the neurite.
  Large grey circle represents the somata of the cell.
  All thin neurites are dendritic and all thick neurites are axonal.
@@ -195,6 +209,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename SupFigures/AbducensLocation.png
+	display false
 	scale 70
 
 \end_inset
@@ -344,24 +359,29 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-(A) Convex hull volume of dendrites of all integrator neurons, color coded
- by the cell group that they belong to.
+(A) Three views of one integrator neuron that had ipsilateral and contralateral
+ projections.
+\begin_inset Newline newline
+\end_inset
+
+(B) Convex hulls of all cells color coded by the group that they belong
+ to.
  (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
  unknown).
 \begin_inset Newline newline
 \end_inset
 
-(B) Distribution of the convex hull volume of the integrator cells.
+(C) Convex hull volume of dendrites of all integrator neurons, color coded
+ by the cell group that they belong to.
+\begin_inset Newline newline
+\end_inset
+
+(D) Distribution of the convex hull volume of the integrator cells.
  
 \begin_inset Newline newline
 \end_inset
 
-(C) Convex hulls of all cells color coded by the group that they belong
- to.
-\begin_inset Newline newline
-\end_inset
-
-(D) Traces of integrator cells from light microscopic (LM) dye fills from
+(E) Traces of integrator cells from light microscopic (LM) dye fills from
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -374,18 +394,15 @@ key "Lee:2015dv"
 \begin_inset Newline newline
 \end_inset
 
-(E) Collateral path length of all EM, LM cells respectively.
+(F) (Left, two panels) Collateral path length of all EM, LM cells respectively.
  Grey circles are for individual collaterals for each cells, and red circle
  is the mean
 \begin_inset Formula $\pm$
 \end_inset
 
 standard deviation.
-\begin_inset Newline newline
-\end_inset
-
-(F) Number of Collaterals and total pathlength of collaterals for EM and
- LM traces.
+ (Right, two panels) Number of Collaterals and total pathlength of collaterals
+ for EM and LM traces.
  
 \end_layout
 
@@ -649,7 +666,7 @@ Ipsi.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $654.08\pm253.55$
+\begin_inset Formula $648.8\pm160.42$
 \end_inset
 
 
@@ -661,7 +678,7 @@ Ipsi.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $260.93\pm241.29$
+\begin_inset Formula $260.15\pm146.1$
 \end_inset
 
 
@@ -673,7 +690,7 @@ Ipsi.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $393.14\pm64.36$
+\begin_inset Formula $388.65\pm59.98$
 \end_inset
 
 
@@ -685,7 +702,7 @@ Ipsi.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $3.04\times10^{4}$
+\begin_inset Formula $3.08\times10^{5}$
 \end_inset
 
 
@@ -753,7 +770,7 @@ Ipsi-contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $696.59\pm200.92$
+\begin_inset Formula $838.66$
 \end_inset
 
 
@@ -765,7 +782,7 @@ Ipsi-contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $277.28\pm22.08$
+\begin_inset Formula $292.89$
 \end_inset
 
 
@@ -777,7 +794,7 @@ Ipsi-contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $419.30\pm178.84$
+\begin_inset Formula $545.76$
 \end_inset
 
 
@@ -789,7 +806,7 @@ Ipsi-contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $2.96\times10^{4}$
+\begin_inset Formula $0.486\times10^{5}$
 \end_inset
 
 
@@ -858,7 +875,7 @@ Contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $358.13\pm62.76$
+\begin_inset Formula $359.59\pm58.86$
 \end_inset
 
 
@@ -870,7 +887,7 @@ Contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $65.72\pm15.24$
+\begin_inset Formula $66.94\pm14.71$
 \end_inset
 
 
@@ -882,7 +899,7 @@ Contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $292.41\pm69.75$
+\begin_inset Formula $292.65\pm65.25$
 \end_inset
 
 
@@ -894,7 +911,7 @@ Contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1.23\times10^{4}$
+\begin_inset Formula $1.09\times10^{5}$
 \end_inset
 
 
@@ -983,7 +1000,7 @@ NA
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $221.47\pm48.70$
+\begin_inset Formula $221.47\pm48.7$
 \end_inset
 
 
@@ -995,7 +1012,7 @@ NA
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1.13\times10^{4}$
+\begin_inset Formula $0.67\times10^{5}$
 \end_inset
 
 
@@ -1273,8 +1290,8 @@ key "Longair:2011hr"
 \end_inset
 
  plugin in Fiji, and exported as a *.swc file.
- In total, we reconstructed 9.51 mm of neurite ( 2.64 mm of axonal length
- and 6.86 mm of dendritic length).
+ In total, we reconstructed 9.29 mm of neurite ( 2.45 mm of axonal length
+ and 6.84 mm of dendritic length).
  
 \end_layout
 
@@ -1282,7 +1299,7 @@ key "Longair:2011hr"
 
 \emph on
 \bar under
-Both ipsi- and contralateral projections (
+Ipsi- and contralateral projection (
 \begin_inset Quotes eld
 \end_inset
 
@@ -1293,38 +1310,23 @@ ipsi-contra
 )
 \emph default
 \bar default
- - Two neurons had axons with both ipsilateral and contralateral projections
- (Fig.
- 2C, 3A, ipsi-contra).
- Integrator neurons from this group were located more lateral to the neurons
- from 
+ - One neuron had axons with both ipsilateral and contralateral projections
+ (Sup.
+ Fig.
+ 5A).
+ This integrator neurons was located more lateral to the neurons from 
 \emph on
 ipsi-only group.
 
 \emph default
- The ipsilaterally projecting axons resembled the axons of the ipsi-only
+ The ipsilaterally projecting axon resembled the axons of the ipsi-only
  group of neurons (Fig.
  3A), with similar tilt in the rostro-caudal axis.
- Both neurons contained another neurite crossed the midline.
+ This neuron contained a neurite that crossed the midline.
  We infer that this neurite is a putative contralaterally projecting axon.
  This cannot be confirmed with certainty, because its presynaptic sites
  are on the contralateral side of the hindbrain, outside the imaged volume.
  Our inference is based on a number of cues as mentioned previously.
- In both cases, the midline cross-over happened at locations that were ventral
- to the neurons somata.
- On average the axons (ipsi+putative contra) were 
-\begin_inset Formula $\sim270\mu m$
-\end_inset
-
-
-\emph on
- 
-\emph default
-long.
- The dendrites of neurons in this group arborized over 4.3% of the total
- volume (Sup.
- Fig.
- 5A, B, C).
  
 \end_layout
 
