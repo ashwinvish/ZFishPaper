@@ -554,8 +554,11 @@ key "Kimura:2006hd,Kinkhabwala:2011et"
 \end_inset
 
 , but previous work has show that at this depth (below the level of the
- Mauthner axon) the vast majority of integrator neurons are glutamatergic
- and not glycinergic 
+ Mauthner axon) 
+\change_inserted 78966105 1487618945
+the vast majority of integrator neurons are not 
+\change_unchanged
+glycinergic 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -1406,7 +1409,22 @@ Our evidence suggest that at least two of the groups, the ipsilaterally
 
 \color red
  
+\change_inserted 78966105 1487619651
+
 \color inherit
+Although, we did not find any significant differences in the distribution
+ of integration time constants between these two groups (Sup.
+ Fig.
+ 1D), a previous study did find differences between similar neurons 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee:2015dv"
+
+\end_inset
+
+.
+ 
+\change_unchanged
 Finally we note that distinguishing axons from dendrites using light microscopy
  can prove erroneous, since the diameters of the axons and dendrites were
  very similar and close to the diffraction limit of light.
@@ -1914,6 +1932,199 @@ Figure4:
  the electron micrograph at two representative locations, colors in the
  inset are representative of the cells to which the synapses belong.
  
+\change_inserted 78966105 1487100987
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1487101033
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1487101119
+\begin_inset Graphics
+	filename PDF_Figures/Vishwanathan_et_al_Figure1.pdf
+	scale 70
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Reb/NewFigure4Rebuttal.pdf
+	scale 70
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1487100992
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1487101069
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1487101064
+\begin_inset Graphics
+	filename Reb/NewFigure2Rebuttal.pdf
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1487101096
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1487101074
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1487101093
+\begin_inset Graphics
+	filename Reb/NewFigure3Rebuttal.pdf
+	scale 60
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1487101103
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1487101137
+\begin_inset Graphics
+	filename Reb/NewFigure4Rebuttal.pdf
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_body

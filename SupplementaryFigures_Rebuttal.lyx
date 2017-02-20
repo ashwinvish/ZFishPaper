@@ -108,6 +108,11 @@ status open
 \begin_layout Plain Layout
 (A) Spatial distribution of integrator time constants along the rostro-caudal,
  medio-lateral and dorso-ventral axis respectively.
+ 
+\begin_inset Formula $R$
+\end_inset
+
+ values are Pearsons coorelation coeffecients.
  Colors represent the group that the cell belong to.
  (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
  unknown).
@@ -117,6 +122,11 @@ status open
 (B) (Left) Graded levels of persistent activity.
  (Middle) Diameters of a the integrator neuron somata along depth.
  (Right) Effect of intgrator neuron diamater and integrator time constant.
+ 
+\begin_inset Formula $R$
+\end_inset
+
+ values are Pearsons coorelation coeffecients.
 \begin_inset Newline newline
 \end_inset
 
@@ -131,6 +141,11 @@ status open
 
 (D) Box plot of the time constants of integration for all cells in each
  group.
+ 
+\begin_inset Formula $P$
+\end_inset
+
+ values reported from Kolmogorov-Smirinov test.
 \begin_inset Newline newline
 \end_inset
 
@@ -1274,7 +1289,14 @@ The reconstruction of the identified neurons was performed using the TrakEM2
  A few locations were judged ambiguous, in the sense that image defects
  made it impossible to interpret the locations with certainty.
  At such ambiguous locations, we erred on the side of incomplete tracing.
- 
+ A more detailed round of tracing was then carried out using a more accurate
+ semi-automated reconstruction method similar to the `eyewire' platform.
+ This approach has in the past proven to be extremely accurate.
+ This process revealed that 1 of the axons of the 22 cells was previously
+ under-reconstructed.
+ Similarly, another axon was from a different cell was over-reconstructed.
+ The remaining, vast majority 20/22 cells remained the same.
+ This was then corrected for in the analysis.
 \end_layout
 
 \begin_layout Standard
