@@ -738,8 +738,8 @@ Along the somatic membrane, a darkening of the membrane interrupted by small
  integrator-non-integrator neurons.
  We speculate that these darkenings are some kind of cell junction.
  
-\change_inserted 78966105 1487100281
-Else where it has been noted that g
+\change_inserted 78966105 1487630312
+Although it has been shown that g
 \change_unchanged
 ap junctions exist in the developing larval zebrafish hindbrain 
 \begin_inset CommandInset citation
@@ -748,6 +748,10 @@ key "Jabeen:2013fm"
 
 \end_inset
 
+
+\change_inserted 78966105 1487630339
+, we cannot be sure due to the image resolution
+\change_unchanged
 .
  
 \end_layout
@@ -906,7 +910,17 @@ key "GuemezGamboa:2014fp"
  In some cases, this primary cilium terminated inside processes that resembled
  glial like structures (Sup.
  Fig.
- 4A).
+ 
+\change_inserted 78966105 1487630413
+2
+\change_deleted 78966105 1487630414
+4
+\change_inserted 78966105 1487630415
+C
+\change_deleted 78966105 1487630414
+A
+\change_unchanged
+).
  Orientation of primary cilium in integrator neurons did not show any orientatio
 n preference (Sup.
  Fig.
@@ -970,7 +984,13 @@ en passant
  Two of the six axons had projections that terminate near the site of the
  abducens motor nuclei (Sup.
  Fig.
- 4B) .
+ 
+\change_inserted 78966105 1487630438
+3
+\change_deleted 78966105 1487630438
+4
+\change_unchanged
+B) .
  The axon initiation site was on average located 
 \begin_inset Formula $\sim99\mu m$
 \end_inset
@@ -985,7 +1005,17 @@ c sites.
 Neurons in this group had large dendritic arbors, with the dendrites arborizing
  over 22.5% of the total imaged volume (Sup.
  Fig.
- 5A, B, C).
+ 
+\change_inserted 78966105 1487630455
+4
+\change_deleted 78966105 1487630518
+5A
+\change_unchanged
+, B, C
+\change_inserted 78966105 1487630522
+, D
+\change_unchanged
+).
  The dendrites emerged laterally from somata and always extended ventrally.
  Only in one case the dendrites were observed to cross the midline, as indicated
  by the presence of postsynaptic sites (Fig.
@@ -1044,7 +1074,17 @@ The average dendritic length was
 , and the dendritic arbors of these neurons arborized over 8% of the total
  volume (Sup.
  Fig.
- 5A, B, C).
+ 
+\change_inserted 78966105 1487630470
+4
+\change_deleted 78966105 1487630527
+5A,
+\change_unchanged
+ B, C
+\change_inserted 78966105 1487630530
+, D
+\change_unchanged
+).
  This was significantly smaller than the dendritic arbors of ipsi-only group,
  ipsi-contra group combined (
 \begin_inset Formula $p<0.003$
@@ -1096,18 +1136,32 @@ unknown
 
 , and they occupied on average ~4.9% of the total volume (Sup.
  Fig.
- 5A, B, C).
+ 
+\change_inserted 78966105 1487630477
+4
+\change_deleted 78966105 1487630532
+5A,
+\change_unchanged
+ B, C
+\change_inserted 78966105 1487630535
+, D
+\change_unchanged
+).
  
 \end_layout
 
 \begin_layout Standard
 Finally one integrator neuron did not fit into any of these three groups,
- its axon had both an ipilateral and contralateral projection (Supp.
+ its axon had both an ipilateral and contralateral projection (Su
+\change_deleted 78966105 1487630490
+p
+\change_unchanged
+p.
  methods, Sup.
  Fig.
  
-\change_inserted 78966105 1487100031
-5
+\change_inserted 78966105 1487630500
+4
 \change_unchanged
 A).
 \end_layout
@@ -1172,7 +1226,17 @@ We further computed the synaptic density, the number of synapses per unit
  of postsynapses was found to closely match the location of dendritic arbors
  (Sup.
  Fig.
- 6A).
+ 
+\change_inserted 78966105 1487630571
+4
+\change_deleted 78966105 1487630572
+6
+\change_inserted 78966105 1487630573
+E
+\change_deleted 78966105 1487630572
+A
+\change_unchanged
+).
  We found the there were 
 \begin_inset Formula $\sim1.5\times$
 \end_inset
@@ -1259,7 +1323,13 @@ The dendritic arbors of the neurons in these two groups displayed an inversion
  Similar loose organization was observed for the other group of neurons
  (Sup.
  Fig.
- 6B).
+ 
+\change_inserted 78966105 1487630592
+3C
+\change_deleted 78966105 1487630591
+6B
+\change_unchanged
+).
 \end_layout
 
 \begin_layout Subsection
@@ -1271,15 +1341,33 @@ We also examined the patterns of connectivity between integrator neurons.
  We found that there exists varying amounts of overlap of the axons of the
  ipsilaterally projecting neurons (Sup.
  Fig.
- 6C) with the dendrites of all other neurons in the volume.
+ 
+\change_inserted 78966105 1487630609
+4I
+\change_deleted 78966105 1487630608
+6C
+\change_unchanged
+) with the dendrites of all other neurons in the volume.
  More specifically, the overlap at ventro-rostral locations were from axons
  of ipsi-only neurons onto dendrites of other ipsi-only neurons (Sup.
  Fig.
- 6C, D Ipsi–>Contra).
+ 
+\change_inserted 78966105 1487630614
+4I
+\change_deleted 78966105 1487630625
+6C, D
+\change_unchanged
+ Ipsi–>Contra).
  Whereas, the overlap at dorso-caudal locations were from axons of ipsi-only
  neurons onto dendrites of contra-only and unknown group of neurons (Sup.
  Fig.
- 6C, D).
+ 
+\change_inserted 78966105 1487630632
+4I
+\change_deleted 78966105 1487630630
+6C, D
+\change_unchanged
+).
 \end_layout
 
 \begin_layout Standard
@@ -1319,7 +1407,13 @@ Of the 22 integrator neurons, six, rostrally located neurons had exclusively
  The axons and dendrites of these neurons display a planar organization,
  with axons oriented approximately orthogonal to the dendrites (Sup.
  Fig.
- 6D).
+ 
+\change_inserted 78966105 1487630661
+4F
+\change_deleted 78966105 1487630660
+6D
+\change_unchanged
+).
  The majority of input synapses onto the dendrites of these neurons lie
  along a plane approximately normal to the rostro-caudal (RC) axis.
  This suggests that these neurons are setup to broadly sample from axons
@@ -1409,13 +1503,14 @@ Our evidence suggest that at least two of the groups, the ipsilaterally
 
 \color red
  
-\change_inserted 78966105 1487619651
+\change_inserted 78966105 1487619688
 
 \color inherit
-Although, we did not find any significant differences in the distribution
+Although we did not find any significant differences in the distribution
  of integration time constants between these two groups (Sup.
  Fig.
- 1D), a previous study did find differences between similar neurons 
+ 1D), a previous study did find differences between similar projecting neurons
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"

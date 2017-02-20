@@ -179,7 +179,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename SupFigures/NewSupFig2.png
+	filename Reb/SupFig2Rebuttal.pdf
 	display false
 	scale 70
 
@@ -202,7 +202,23 @@ status open
  Closed arrow head shows tight junction indicated by darkening of the membrane
  in the same location in multiple sections.
  Open arrows show the separation of the membrane by the lack of darkening.
- Scale bar 500nm
+ Scale bar 500nm.
+\begin_inset Newline newline
+\end_inset
+
+(C) Primary cilium of every integrator neuron identified in the volume.
+ The primary cilium is visible over multiple sections as seen by presence
+ of ordered microtubules that emerges very close to the Golgi complex of
+ the cells.
+\begin_inset Newline newline
+\end_inset
+
+(D) Orientation of the primary cilium for the four cell groups centered
+ at the somata.
+ Distance of concentric rings is in microns.
+ Colors represent the group that the cell belong to.
+ (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
+ unknown).
 \end_layout
 
 \end_inset
@@ -223,7 +239,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename SupFigures/AbducensLocation.png
+	filename Reb/SupFig3Rebuttal.pdf
 	display false
 	scale 70
 
@@ -288,6 +304,14 @@ key "Daie:2015fd,Lee:2015dv"
 \end_inset
 
 .
+\begin_inset Newline newline
+\end_inset
+
+(C) Depth stratification of cells in ipsi+contra and unknown only groups.
+ For each panel, below the trace of all cells is the stratification of the
+ dendrites (red) and axons (green) along the mediolateral axis.
+ To the right is the stratification along the dorso-ventral axis.
+ Black dotted line are the locations of the stripes from figure 1.
 \end_layout
 
 \end_inset
@@ -328,52 +352,6 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-(A) Primary cilium of every integrator neuron identified in the volume.
- The primary cilium is visible over multiple sections as seen by presence
- of ordered microtubules that emerges very close to the Golgi complex of
- the cells.
-\begin_inset Newline newline
-\end_inset
-
-(B) Orientation of the primary cilium for the four cell groups centered
- at the somata.
- Distance of concentric rings is in microns.
- Colors represent the group that the cell belong to.
- (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
- unknown).
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename Reb/SupFig5Rebuttal.pdf
-	display false
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
 (A) Three views of one integrator neuron that had ipsilateral and contralateral
  projections.
 \begin_inset Newline newline
@@ -396,7 +374,19 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-(E) Traces of integrator cells from light microscopic (LM) dye fills from
+(E) Distribution of the normalized postsynaptic pathlength and the distribution
+ of the normalized dendritic pathlength for all four groups.
+ Background color (Pink - ipsi only, Green - Ipsi-contra, Orange - contra
+ only and Blue - unknown).
+\begin_inset Newline newline
+\end_inset
+
+(F) Angle between best fit plane to presynaptic sites (green) from all cells
+ in ipsi-only group to postsynaptic sites (red) of ipsi-only group.
+\begin_inset Newline newline
+\end_inset
+
+(G) Traces of integrator cells from light microscopic (LM) dye fills from
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -409,7 +399,7 @@ key "Lee:2015dv"
 \begin_inset Newline newline
 \end_inset
 
-(F) (Left, two panels) Collateral path length of all EM, LM cells respectively.
+(H) (Left, two panels) Collateral path length of all EM, LM cells respectively.
  Grey circles are for individual collaterals for each cells, and red circle
  is the mean
 \begin_inset Formula $\pm$
@@ -419,66 +409,16 @@ standard deviation.
  (Right, two panels) Number of Collaterals and total pathlength of collaterals
  for EM and LM traces.
  
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename Reb/SupFig6Rebuttal.pdf
-	display false
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-(A) Distribution of the normalized postsynaptic pathlength and the distribution
- of the normalized dendritic pathlength for all four groups.
- Background color (Pink - ipsi only, Green - Ipsi-contra, Orange - contra
- only and Blue - unknown)
 \begin_inset Newline newline
 \end_inset
 
-(B) Depth stratification of cells in ipsi+contra and unknown only groups.
- For each panel, below the trace of all cells is the stratification of the
- dendrites (red) and axons (green) along the mediolateral axis.
- To the right is the stratification along the dorso-ventral axis.
- Black dotted line are the locations of the stripes from figure 1.
-\begin_inset Newline newline
-\end_inset
-
-(C) (a) Spatial overlap of axons and dendrite from each group.
+(I) Spatial overlap of axons and dendrite from each group.
  Green circle - location of somata of presynaptic neuron ( location of neuron
  with axon), red circle - location of somata of postsynaptic neuron.
 \begin_inset Newline newline
 \end_inset
 
-(b) Box plot with actual overlapping area for neuron pairs from (a).
-\begin_inset Newline newline
-\end_inset
-
-(D) Angle between best fit plane to presynaptic sites (green) from all cells
- in ipsi-only group to postsynaptic sites (red) of ipsi-only group.
+(J) Box plot with actual overlapping area for neuron pairs from (I).
 \end_layout
 
 \end_inset
