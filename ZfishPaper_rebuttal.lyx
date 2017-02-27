@@ -534,7 +534,7 @@ s to neurons at the midline, each corresponding to a likely stripe (Fig.
  The three stripes were labeled based on their proximity to the midline,
  as medial (S1), intermediate (S2) and lateral stripe (S3) respectively.
  
-\color red
+\color black
 The medial most stripe S1 aligns with a group of neurons that express the
  
 \emph on
@@ -553,8 +553,13 @@ key "Kimura:2006hd,Kinkhabwala:2011et"
 
 \end_inset
 
-, but previous work has show that at this depth (below the level of the
- Mauthner axon) 
+.
+
+\change_inserted 78966105 1487968626
+ 
+\change_unchanged
+Previous work has show that at this depth (below the level of the Mauthner
+ axon) 
 \change_inserted 78966105 1487618945
 the vast majority of integrator neurons are not 
 \change_unchanged
@@ -566,10 +571,10 @@ key "Lee:2015dv"
 \end_inset
 
 .
-
+ 
 \color inherit
- The intermediate stripe S2 corresponds to neurons known to express the
- transcription factor 
+The intermediate stripe S2 corresponds to neurons known to express the transcrip
+tion factor 
 \emph on
 dbx1b 
 \emph default
@@ -768,7 +773,7 @@ Dendrites were defined by the absence of presynaptic vesicles and the presence
  Some dendrites exited the imaged volume, leading to incompletely reconstructed
  neurons.
  
-\color red
+\color black
 Neurons with small dendritic arbors were completely reconstructed and did
  not have any dendrites that exited the imaged volume.
 \end_layout
@@ -1413,8 +1418,7 @@ ally projecting axon.
  The location of its somata corresponded with the S2 stripe, which can be
  inferred as GABAergic.
  The remaining integrator neurons were located at the lateral edge of the
- animal corresponding to the lateral most stripe S3 and are though to express
- glutamate.
+ animal corresponding to the lateral most stripe S3 though to express glutamate.
  Since these neurons are close to the edge of the imaged volume, in all
  cases, we were unable to trace many neurites from these cells.
  The axonal projection pattern and potential role of these neurons remains
@@ -1433,28 +1437,27 @@ Our evidence suggest that at least two of the groups, the ipsilaterally
  This feature could be important to influence the activity of neurons as
  these locations are proximal to the somata.
 
+\change_deleted 78966105 1487967344
+
 \color red
  
-\change_inserted 78966105 1487619688
+\change_inserted 78966105 1487968095
 
-\color inherit
-Although we did not find any significant differences in the distribution
- of integration time constants between these two groups (Sup.
+\color black
+The integration time constants of these neurons show graded levels of persistent
+ activity.
+ Time constants of contralaterally projecting neurons were significantly
+ different from the unkown projecting neurons, with the unknown projecting
+ neurons showing faster dynamics (Sup.
  Fig.
- 1D), a previous study did find differences between similar projecting neurons
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Lee:2015dv"
-
-\end_inset
-
-.
+ 1D).
  
 \change_unchanged
 Finally we note that distinguishing axons from dendrites using light microscopy
  can prove erroneous, since the diameters of the axons and dendrites were
- very similar and close to the diffraction limit of light.
+ very similar and close to the diffraction
+\color inherit
+ limit of light.
  
 \end_layout
 
@@ -1677,7 +1680,15 @@ We are grateful to Juan Carlos Tapia, Richard Schalek and Ken Hayworth for
  Uygar Sümbül assisted with importing skeletons into MATLAB.
  We thank Heather Sullivan for tissue processing and optimization, Ashleigh
  Showler, Gurion Marks and Anjin Xianyu for assistance with reconstructions
- and alignment.
+ and alignment
+\change_inserted 78966105 1487968474
+, 
+\change_deleted 78966105 1487968473
+.
+\change_inserted 78966105 1487968472
+Melanie Lee for sharing light microscopic images of neurons.
+
+\change_unchanged
  We benefited from helpful discussions with David Tank and Kanaka Rajan.
  HSS acknowledges funding from the Mathers Foundation, Gatsby Foundation,
  Human Frontier Science Program, NIH/NINDS award 5R01NS076467, and ARO MURI
@@ -1887,7 +1898,11 @@ axon – contra-only, orange background.
 \begin_inset Formula $p=0.004$
 \end_inset
 
-, significance reported as Wilcoxn rank-sum test).
+,
+\change_deleted 78966105 1487968875
+ 
+\change_unchanged
+ Wilcoxn rank-sum test).
 \begin_inset Newline newline
 \end_inset
 
@@ -1960,197 +1975,6 @@ Figure4:
  inset are representative of the cells to which the synapses belong.
  
 \change_inserted 78966105 1487100987
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted 78966105 1487101033
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1487101119
-\begin_inset Graphics
-	filename PDF_Figures/Vishwanathan_et_al_Figure1.pdf
-	scale 70
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename Reb/NewFigure4Rebuttal.pdf
-	scale 70
-
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1487100992
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted 78966105 1487101069
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1487101064
-\begin_inset Graphics
-	filename Reb/NewFigure2Rebuttal.pdf
-	scale 70
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted 78966105 1487101096
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1487101074
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1487101093
-\begin_inset Graphics
-	filename Reb/NewFigure3Rebuttal.pdf
-	scale 60
-
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted 78966105 1487101103
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1487101137
-\begin_inset Graphics
-	filename Reb/NewFigure4Rebuttal.pdf
-	scale 70
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
 
 \end_layout
 

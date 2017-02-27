@@ -63,7 +63,7 @@
 \leftmargin 1cm
 \topmargin 1cm
 \rightmargin 1cm
-\bottommargin 1cm
+\bottommargin 0.5cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -179,7 +179,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename SupFigures/NewSupFig2.png
+	filename Reb/SupFig2Rebuttal.pdf
 	display false
 	scale 70
 
@@ -239,7 +239,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename SupFigures/AbducensLocation.png
+	filename Reb/SupFig3Rebuttal.pdf
 	display false
 	scale 70
 
@@ -325,13 +325,6 @@ key "Daie:2015fd,Lee:2015dv"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -339,7 +332,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Reb/SupFig5Rebuttal.pdf
+	filename Reb/SupFig4Rebuttal.pdf
 	display false
 	scale 70
 
@@ -428,10 +421,6 @@ standard deviation.
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
@@ -1233,14 +1222,16 @@ The reconstruction of the identified neurons was performed using the TrakEM2
  A few locations were judged ambiguous, in the sense that image defects
  made it impossible to interpret the locations with certainty.
  At such ambiguous locations, we erred on the side of incomplete tracing.
- A more detailed round of tracing was then carried out using a more accurate
- semi-automated reconstruction method similar to the `eyewire' platform.
- This approach has in the past proven to be extremely accurate.
- This process revealed that 1 of the axons of the 22 cells was previously
- under-reconstructed.
- Similarly, another axon was from a different cell was over-reconstructed.
+ A more detailed second round of tracing was then carried out using a more
+ accurate semi-automated reconstruction method similar to the `eyewire'
+ platform (http://eyewire.org).
+ This approach has in the past proven to be extremely successful at acheiving
+ multi-player coverage for single cells.
+ This process revealed that the axon of one cell was previously under-reconstruc
+ted.
+ Similarly, another axon from a different cell was over-reconstructed.
  The remaining, vast majority 20/22 cells remained the same.
- This was then corrected for in the analysis.
+ This was then corrected for before the analysis.
 \end_layout
 
 \begin_layout Standard

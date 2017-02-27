@@ -60,7 +60,7 @@
 \end_index
 \leftmargin 1cm
 \rightmargin 1cm
-\bottommargin 1cm
+\bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -81,11 +81,8 @@
 \begin_layout Standard
 We thank the reviewers for their comments and have tried best to address
  their concerns.
- Although, one of the reviewers had noted that the results that we have
- presented were incomplete and would be of interest to a specialist, we
- think that the approach in this study will appeal to the broader neuroscience
- community.
- Indeed, reviewer#1 though that our study 
+ We are encouraged by the comments of the reviewers, indeed reviewer#1 though
+ that our study 
 \begin_inset Quotes eld
 \end_inset
 
@@ -96,74 +93,78 @@ We thank the reviewers for their comments and have tried best to address
 \end_layout
 
 \begin_layout Standard
-The main concerns of the reviewers were regarding (1) the lack of correlation
- between integrator neuron properties to the morphologies of these neurons,
- (2) the interpretation of the neurotransmitter identity of these neurons
- and (3) the reconstruction of abducens neurons.
- To address the reviewers concerns we have now included results from statistical
- analysis that we had not presented previously.
- We have also added a few line in the main text to clarify certain points
- that will made it more clear to the reader.
- Regarding the lack of correlation between integrator neuron properties
- and morphology of integrator neurons, we computed the correlation coefficients
- and have now reported these results in the appropriate figures.
- We observed weak linear correlation between integrator neuron properties
- and their respective morphologies.
- Similarly, the distributions of integrator time constants were compared
- across the different morphological groups.
- Here we noticed that the contralaterally projecting neurons had significantly
- different distribution as compared to the unknown projecting group of neurons.
- The remaining distributions were found to be not significant.
- These results have been now added to the discussion.
+Reviewer 2 expressed concerns regarding (1) the lack of comparison between
+ integrator neuron time constants and morphologies, (2) potential ambiguity
+ in the correspondence between our anatomically defined 
+\begin_inset Quotes eld
+\end_inset
+
+stripe
+\begin_inset Quotes erd
+\end_inset
+
+ of somata and the 
+\emph on
+alx
+\emph default
+-expressing stripe defined by Kinkhabwala et al., and (3) the lack of reconstruct
+ion of abducens neurons.
+ To address concern (1) we have added further statistical analyses to Supplement
+ary Fig.
+ 1 (see also Discussion).
+ In brief, the time constants of contralaterally projecting neurons are
+ significantly different from those of the unknown projecting group of neurons.
+ We also found that neural time constant is weakly correlated with mediolateral
+ somatic location, though the correlation is not quite statistically significant.
+ 
 \end_layout
 
 \begin_layout Standard
-The neurotransmitter identities of these cells were inferred from the stripe
- like distribution of the somata.
- Since our study was not performed in a transgenic line with labeled neurons,
- we relied on the highly specific description of these stripes and their
- spatial locations from previous studies.
- As an example, we report that the medial most stripe of cells most likely
- express the 
-\emph on
-alx
-\emph default
- transcription factor.
- This is consistent with the fact that both a previous study and our study
- report these neurons as having ipsilaterally projecting axons.
- Similarly the 
+Regarding concern (2), Reviewer 2 was worried that our anatomically defined
+ stripe of somata might correspond with the 
 \emph on
 engrailed-1
 \emph default
- stripe which abuts the 
+ stripe, which could potentially be confused with the 
 \emph on
 alx
 \emph default
- stripe and is known to have cells with different properties.
- However, below the level of the Mauthner axon, the stripe with 
+ stripe.
+ The potential for confusion indeed exists above the level of the Mauthner
+ axon, where both stripes are next to each other.
+ However, our study was conducted below the level of the Mauthner axon,
+ where the 
 \emph on
 engrailed-1
 \emph default
- cells virtually nonexistent.
- Our study was conducted below the level of the Mauthner axon.
- Finally, the reviewer would have liked for us to validate that these integrator
- neurons made direct synapses onto abducens neurons.
- For this we would have to reconstruct these potential abducens neurons.
- The reconstruction of these neurons would likely not be accurate as these
- neurons are at the ventral most region of the imaged volume, leading to,
- at-best, partial reconstructions.
- Such a partial reconstruction would make it near impossible to assign these
- neurons as abducens neurons.
+ stripe is virtually nonexistent (see Supplementary Fig.
+ 3, location of somata).
+ 
+\end_layout
+
+\begin_layout Standard
+In concern (3) Reviewer 2 suggested the great idea of reconstructing abducens
+ neurons that are postsynaptic to integrator neurons.
+ This is interesting, and we would do it if we could.
+ Indeed, it would be possible for us to reconstruct postsynaptic neurons,
+ but the reconstructions would be fragmentary because the neurons are at
+ the ventral most extreme of the imaged volume.
+ Therefore it would not be possible to conclusively identify whether reconstruct
+ed postsynaptic neurons are actually abducens neurons.
  For this reason, we did not reconstruct these neurons.
 \end_layout
 
 \begin_layout Standard
-In summary, we have performed statistical analysis to correlate integrator
- neuron properties to their morphologies.
+In summary, we have performed statistical analyses to correlate integrator
+ neuron properties with their morphologies.
  We feel strongly that the inferred neurotransmitter identities as reported
  are accurate and that any further reconstructions would not lead to a more
  complete understanding of the circuit.
- Answers to the reviewers comments follow.
+ More detailed answers to reviewer comments follow below.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -171,11 +172,6 @@ In summary, we have performed statistical analysis to correlate integrator
 \bar under
 \lang american
 Reviewer #1: 
-\end_layout
-
-\begin_layout Standard
-We thank the reviewer for their comments and have tried to address all the
- concerns that were raised.
 \end_layout
 
 \begin_layout Enumerate
@@ -275,17 +271,6 @@ Reviewer #2:
 \begin_layout Standard
 
 \lang american
-We thank the reviewer for their comments 
-\lang english
-and have tried to address all the concerns that were raised
-\lang american
-.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang american
 Major points 
 \end_layout
 
@@ -306,20 +291,14 @@ lly re-identified in the EM volume? Fig.1C shows the correspondence between
 \begin_layout Enumerate
 
 \lang american
-We thank the reviewer for their comments.
- We agree with the reviewers comments that it will be more convincing if
- we were able to show an example plane where the functional imaging was
- performed along with the corresponding EM plane.
- In order to do that, the orientation of the animal during functional imaging
- and during subsequent EM sectioning should be exactly the same.
- This however is not the case, and it very hard to achieve.
- Instead, we digitally transformed the functionally imaged planes onto the
- EM volume using landmarks.
- To address the reviewers comments, we have now shown parts, but not the
- entire plane, of the functionally imaged areas and their corresponding
- EM planes as supplementary figure (Sup.
- Fig.
- 1C).
+We thank the reviewer for the comments.
+ We agree with the reviewers' comments that it will be convincing if we
+ were able to show an example plane where the functional imaging was performed
+ along with the corresponding EM plane.
+ To address this concern, we have added a panel showing integrator neurons
+ from two functionally imaged planes and the same neurons from registered
+ EM planes in Supplementary Fig.
+ 1C.
 \end_layout
 
 \end_deeper
@@ -338,32 +317,31 @@ What is missing throughout the paper is the comparison with integrator property
 \begin_layout Enumerate
 
 \lang american
-We thank the reviwer for their comments.
- The time contacts were computed with the purpose of correlating them to
- the morphologies.
- In Sup.
- Fig 1, we show some of properties of time constant of the cells as a function
- of spatial location, somata size, etc.
- The correlation coefficients between time constants and the morphological
- properties have now been reported along side the figures.
- This analyis reveal that there is a weak coorealtion between integrator
- time constants and spatial location of the neuron.
- These trends are consistent with a previous study (Miri et.
- al.
- 2011).
- We suspect this is due to the small sample size of functionally identified
- cells in this study.
- 
+We thank the reviewer for the comments.
+ We performed statistical analyses to compared the distribution of integrator
+ time constants between the three morpological groups.
+ We noticed that the 'Contra' and 'Unknown' projecting groups of neurons
+ had statistically different time constants.
+ The remaining distributions do not show any statistically significant differenc
+es.
+ We added an extra panel to Supplementary figure 1 ( Sup.
+ Fig.
+ 1D, box plot of time constants) and have commented in the main text.
 \end_layout
 
 \begin_layout Enumerate
 
 \lang american
-We have now added an extra panel to Sup.
- Fig1D (box plot of time constants from each group).
- Here we now note that distribution of time constants between the 'Contra'
- and 'Unknown' projecting groups of neurons are statistically different.
- The remaining distributions do not show any discernable differences.
+We also now report correlation coefficients between integrator time constant
+ and the somatic locations alongside the figures (Sup.
+ Fig.
+ 1).
+ This analysis revealed that there is a weak correlation between time constants
+ and mediolateral somatic location, that was not statistically significant.
+ The remaining correlation along the rostrocaudal and dorsovental axis were
+ not too weak.
+ We suspect the correlations in our study are weak due to the small sample
+ size of functionally identified cells in this study.
  
 \end_layout
 
@@ -396,8 +374,7 @@ tter-specific transgenic lines.
 \begin_layout Enumerate
 
 \lang american
-We thank the reviewer for this comment.
- As the reviewer noted, the 
+The 
 \emph on
 engrailed-1
 \emph default
@@ -406,24 +383,23 @@ engrailed-1
 alx
 \emph default
  stripe and that neurons in each of these stripes have different properties.
- In our study, all the cells that were imaged, are below the plane of the
+ The reviewer is concerned that we may have incorrectly assigned the neurotransm
+itter identity to some of the cells in the medial most stripe.
+ In our study, all the cells that were imaged, were below the plane of the
  Mauthner axon (MA).
- Below the level of the MA, 
+ At this level the 
 \emph on
 engrailed -1
 \emph default
 /glycinergic neurons are virtually not present, which is consistent with
  the fact that Lee M.M.
- et.
- al., did not observe any glycinergic integrator neurons below the level
+ et al., did not observe any glycinergic integrator neurons below the level
  of the MA.
+ Regarding the presence of glycinergic neurons in the hindbrain, Lee M M
+ et al., found that only 2% of all integrator neurons were glycinergic, and
+ that the vast majority were glutamatergic or GABAergic.
  For these reasons, we feel confident that the cells that were imaged here
- would not have contained potential integrator neurons that are glycinergic
- and expressing the 
-\emph on
-engrailed-1
-\emph default
- transcription factor.
+ would not have contained potential integrator neurons that were glycinergic.
  We have clarified the above points in the main text as well.
 \end_layout
 
@@ -447,18 +423,18 @@ The abducens motor nucleus is the target of integrator neurons in goldfish
 \lang american
 As the reviewer has noted, the abducens motor nucleus is the target of integrato
 r neurons.
- In the text we had mentioned that only 2 of the 6 axons from ipsilaterally
+ In the main text we had mentioned that only 2 of the 6 axons from ipsilaterally
  projecting integrator neurons projected close to the abducens.
  Although there are direct synapses made onto other neurons in that area,
- to determine if the postsynaptic target neurons were indeed abducens neurons,
+ to determine if the postsynaptic target neurons are indeed abducens neurons,
  we would have to trace the entire cell.
- These synapses are at the ventral most extent of the imaged volume, and
- we feel that most, if not all the neurites of these potential abducens
- neurons will be incomplete.
+ These synapses are at the ventral extent of the imaged volume, we feel
+ that most if not all the neurites of these potential abducens neurons will
+ be incomplete.
  This would make is impossible to determine if these neurons were indeed
  abducens neurons.
- Thus, although we would have like to have this information, it is not in
- the scope of the imaged data of the study.
+ Thus, although we would have liked to have this information, it is not
+ in the scope of the imaged data of the study.
 \end_layout
 
 \end_deeper
@@ -497,7 +473,7 @@ Barhl2
  stripe of glutamatergic cells.
  The morphology of these cells, their axonal projections are yet to be determine
 d.
- We have corrected the text to reflect the intended interpretation.
+ We have corrected the text to reflect this.
 \end_layout
 
 \end_deeper
@@ -513,7 +489,11 @@ In Fig S2B, the caption states "tight junctions" but the main text mentions
 \begin_layout Enumerate
 
 \lang american
-This has not been corrected.
+This has now been corrected.
+ We have now consistently used `cell-junctions' in the main text and supplementa
+ry material.
+ A reference to gap junctions is mentioned, but we make it clear that in
+ our dataset we are not sure if these are gap junctions.
 \end_layout
 
 \end_deeper
@@ -528,7 +508,9 @@ The format of the current manuscript does not seem to conform to the guidelines
 
 \begin_deeper
 \begin_layout Enumerate
-Once accepted, we can make a decision to reduce the word limit.
+We have now reduced the number of supplementary figures to conform with
+ the guidelines.
+ 
 \end_layout
 
 \end_deeper
