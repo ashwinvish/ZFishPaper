@@ -106,41 +106,40 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-(A) Spatial distribution of integrator time constants along the rostro-caudal,
- medio-lateral and dorso-ventral axis respectively.
+(A) Spatial distribution of integrator time constants along the rostrocaudal,
+ mediolateral and dorsoventral axis respectively.
  
 \begin_inset Formula $R$
 \end_inset
 
- values are Pearsons coorelation coeffecients.
- Colors represent the group that the cell belong to.
- (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
+ values are Pearson coorelation coeffecients.
+ Colors represent the group that the neurons belong to.
+ (Pink - ipsi only, Green - ipsi-contra, Orange - contra only and Blue -
  unknown).
 \begin_inset Newline newline
 \end_inset
 
 (B) (Left) Graded levels of persistent activity.
- (Middle) Diameters of a the integrator neuron somata along depth.
- (Right) Effect of intgrator neuron diamater and integrator time constant.
+ (Middle) Diameters of integrator somata along depth.
+ (Right) Integrator soma diamater and integrator time constant.
  
 \begin_inset Formula $R$
 \end_inset
 
- values are Pearsons coorelation coeffecients.
+ values are Pearson coorelation coeffecients.
 \begin_inset Newline newline
 \end_inset
 
-(C) Two of the functionally imaged planes with integrator neurons circled
- in red.
+(C) Two functionally imaged planes with integrator neurons circled in red.
  Black boxes are representative areas where corresponding EM images are
  shown as insets.
- Insets are representative EM locaiton with the functionally identified
- cells circled in black.
+ Insets are representative EM locaiton, after registration, with the functionall
+y identified cells circled in black.
 \begin_inset Newline newline
 \end_inset
 
-(D) Box plot of the time constants of integration for all cells in each
- group.
+(D) Box plot of integrator time constants for all cells in assigned groups.
+ Black line is the median.
  
 \begin_inset Formula $P$
 \end_inset
@@ -149,12 +148,12 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-(E) Diameter profiles along an ipsi only (top) and contra only (bottom)
+(E) Diameter profiles along an example ipsi-only (top) and contra-only (bottom)
  integrator neuron.
- Location of each dot represents the thickness of the neurite.
+ Color of each dot represents the thickness of the neurite at that location.
  Large grey circle represents the somata of the cell.
  All thin neurites are dendritic and all thick neurites are axonal.
- Scale bar 20
+ Scale bar = 20
 \begin_inset Formula $\mu m.$
 \end_inset
 
@@ -198,25 +197,25 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-(B) Successive images from cellular junctions between cells somata.
- Closed arrow head shows tight junction indicated by darkening of the membrane
- in the same location in multiple sections.
+(B) Successive images of cellular junctions between cell somata.
+ Closed arrow head shows cell junctions indicated by darkening of the membrane
+ at the same location in multiple sections.
  Open arrows show the separation of the membrane by the lack of darkening.
- Scale bar 500nm.
+ Scale bar = 500nm.
 \begin_inset Newline newline
 \end_inset
 
-(C) Primary cilium of every integrator neuron identified in the volume.
+(C) Primary cilium of integrator neuron.
  The primary cilium is visible over multiple sections as seen by presence
  of ordered microtubules that emerges very close to the Golgi complex of
  the cells.
 \begin_inset Newline newline
 \end_inset
 
-(D) Orientation of the primary cilium for the four cell groups centered
- at the somata.
+(D) Orientation of primary cilium, centered at the somata.
+ Black arrow show the beginning of the cilium.
  Distance of concentric rings is in microns.
- Colors represent the group that the cell belong to.
+ Colors represent the group that the neuron belongs to.
  (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
  unknown).
 \end_layout
@@ -253,12 +252,13 @@ status open
 
 \begin_layout Plain Layout
 (A) Location of abducens nuclei from low-res EM images.
- The frames are ordered from medial to lateral orientation, 
+ The frames are ordered from medial to lateral, 
 \begin_inset Formula $10\mu m$
 \end_inset
 
  apart.
- Red dotted circles show the potential locations of both abducens nuclei.
+ Red circles (dotted line) show the potential location of both abducens
+ nuclei.
  Green arrow shows the location of the inferior olive.
  MA -Mauthner Axon.
  Rhombomeres r4-7 were identified based on the location of the reticulo-spinal
@@ -274,7 +274,7 @@ status open
 \end_inset
 
 (B) (Top) Lateral view of two ipsilaterally projecting integrator neurons
- that send axonal projections towards the abducens nuclei.
+ with axonal projections towards the abducens nuclei.
  The axons project to the same depth as the abducens nuclei (dotted horizontal
  black line).
  Black dotted line is the border between r6 and r7, with tilt calculated
@@ -286,20 +286,15 @@ key "Daie:2015fd,Lee:2015dv"
 \end_inset
 
 .
- Scale bar 
-\begin_inset Formula $20\mu m$
-\end_inset
-
-.
  (Bottom) Dotted white line is 50
 \begin_inset Formula $\mu m$
 \end_inset
 
- ventral to the Mauthner axon plane to show corresponding region from top
+ ventral to the Mauthner axon plane showing corresponding region from top
  panel.
- Potential abducens nerve was identified as dark myelinated axons that are
- exiting the volume ventrally.
- Scale bar 
+ Potential abducens nerve was identified as dark myelinated axon exiting
+ the volume ventrally.
+ Scale bar = 
 \begin_inset Formula $20\mu m$
 \end_inset
 
@@ -307,10 +302,10 @@ key "Daie:2015fd,Lee:2015dv"
 \begin_inset Newline newline
 \end_inset
 
-(C) Depth stratification of cells in ipsi+contra and unknown only groups.
- For each panel, below the trace of all cells is the stratification of the
- dendrites (red) and axons (green) along the mediolateral axis.
- To the right is the stratification along the dorso-ventral axis.
+(C) Depth stratification of ipsi-contra and unknown projecting groups.
+ For each panel, below the trace of all neurons is the stratification of
+ the dendrites (red) and axons (green) along the mediolateral axis.
+ To the right is the stratification along the dorsoventral axis.
  Black dotted line are the locations of the stripes from figure 1.
 \end_layout
 
@@ -345,20 +340,19 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-(A) Three views of one integrator neuron that had ipsilateral and contralateral
- projections.
+(A) Three views of one integrator neuron that had both ipsilateral and contralat
+eral projections.
 \begin_inset Newline newline
 \end_inset
 
-(B) Convex hulls of all cells color coded by the group that they belong
- to.
- (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
+(B) Convex hulls of all neurons color coded by the group.
+ Colored circle is location of somata.
+ (Pink - ipsi only, Green - ipsi-contra, Orange - contra only and Blue -
  unknown).
 \begin_inset Newline newline
 \end_inset
 
-(C) Convex hull volume of dendrites of all integrator neurons, color coded
- by the cell group that they belong to.
+(C) Convex hull volume of dendrites of integrator neurons.
 \begin_inset Newline newline
 \end_inset
 
@@ -368,38 +362,37 @@ status open
 \end_inset
 
 (E) Distribution of the normalized postsynaptic pathlength and the distribution
- of the normalized dendritic pathlength for all four groups.
+ of the normalized dendritic pathlength.
  Background color (Pink - ipsi only, Green - Ipsi-contra, Orange - contra
  only and Blue - unknown).
 \begin_inset Newline newline
 \end_inset
 
-(F) Angle between best fit plane to presynaptic sites (green) from all cells
- in ipsi-only group to postsynaptic sites (red) of ipsi-only group.
+(F) Angle between best fit planes of axons (green) and dendrites (red) of
+ ipsi-only neurons.
 \begin_inset Newline newline
 \end_inset
 
-(G) Traces of integrator cells from light microscopic (LM) dye fills from
- 
+(G) Example traces of integrator neurons with ipsilateral projecting axons
+ from light microscopic (LM) dye fills from 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
 
 \end_inset
 
-, with ipsilateral projecting axons that were used for comparison with EM
- cells.
+, that were used for comparison with EM cells.
 \begin_inset Newline newline
 \end_inset
 
 (H) (Left, two panels) Collateral path length of all EM, LM cells respectively.
- Grey circles are for individual collaterals for each cells, and red circle
- is the mean
+ Grey circles are values for each cell, and red circle with line is the
+ mean
 \begin_inset Formula $\pm$
 \end_inset
 
 standard deviation.
- (Right, two panels) Number of Collaterals and total pathlength of collaterals
+ (Right, two panels) Number of collaterals and total pathlength of collaterals
  for EM and LM traces.
  
 \begin_inset Newline newline
@@ -686,7 +679,7 @@ Ipsi.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $36.68\pm12.74$
+\begin_inset Formula $99.62\pm54.83$
 \end_inset
 
 
@@ -790,7 +783,7 @@ Ipsi-contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $29.21\pm8.06$
+\begin_inset Formula $63.31$
 \end_inset
 
 
@@ -895,7 +888,7 @@ Contra.
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $12.89\pm6.07$
+\begin_inset Formula $22.35\pm21.69$
 \end_inset
 
 
@@ -1044,7 +1037,7 @@ nacre
  mutant zebrafish larva, 6 days of age, was anesthetized in 100 or 200 mg/L
  tricaine-methanesulfonate (MS222, VWR TCT0941- 025G) for about 1 minute
  and then quickly mounted dorsal side up with droplets of 1.7% low temperature
- agarose (Sigma A0701-100G) in the lid of a 35mm petri dish containing a
+ agarose (Sigma A0701-100G) on the lid of a 35mm petri dish containing a
  bed of hardened 1% agarose (Invitrogen 15510-027).
  The larva was then covered in 50 mg/L MS222.
  The larva was bulk-loaded 
@@ -1062,11 +1055,11 @@ key "Brustein:2003ef,Smetters:1999jc"
 \end_inset
 
  decline relative to the dorsal surface.
- The animal was immobilized in low melting agar and was positioned to view
- a monitor with light gratings.
- The hindbrain of the animal was imaged at 790 nm at predefined plane at
- (0.98 Hz).
- The imaging was performed at three pre-defined planes 
+ Following recovery, the animal was immobilized in low melting agar and
+ was positioned to view a monitor with light gratings.
+ The hindbrain of the animal was imaged at 790nm on predefined planes at
+ 0.98 Hz.
+ The imaging was performed on three pre-defined planes 
 \begin_inset Formula $\sim8\mu m$
 \end_inset
 
@@ -1087,7 +1080,7 @@ key "Miri:2011ib,Daie:2015fd"
  Briefly, correlations for every pixel over a 5min acquisition period was
  determined for eye position and eye velocity.
  A region-of-Interest (ROI) was then drawn over the pixels where the majority
- were correlated one of these variables.
+ were correlated to one of these variables.
  The fluorescence was reported as change in fluorescence for each frame
  to the average fluorescence, divided by the average.
  Saccadic fluorescence traces were displayed over an 8 sec window starting
@@ -1123,8 +1116,8 @@ Serial section electron microscopy.
 \end_layout
 
 \begin_layout Standard
-The animal was immersed in a fixative of 2% paraformaldehyde and 2.25% glutaralde
-hyde buffered in 0.07M cacodylate buffer.
+The animal was immersed in a fixative mixture of 2% paraformaldehyde and
+ 2.25% glutaraldehyde buffered in 0.07M cacodylate buffer.
  The skin over the hindbrain was removed for good ultrastructure preservation
  and homogeneous staining of the tissue.
  Then it was thoroughly washed in 0.1M cacodylate buffer with 4% sucrose
@@ -1136,16 +1129,17 @@ key "Tapia:2012hs"
 
 \end_inset
 
-.Briefly, it was stained in 1% reduced osmium tetroxide with potassium ferrocyani
-de for 2 hr on ice.
- It was then washed 4x 30 min with 0.1M cacodylate buffer, also on ice.
+.
+ Briefly, it was stained in 1% reduced osmium tetroxide with potassium ferrocyan
+ide for 2 hr on ice.
+ It was then washed 4x 30 min in 0.1M cacodylate buffer, also on ice.
  This was then followed by amplification in 1% sodium thiocarbohydroazide
- (TCH) for 15min followed by 3x5 min washes in water and another incubation
- in 1% osmium tetroxide for 1 hr.
+ (TCH) for 15 min followed by 3x5 min washes in water and another round
+ of incubation in 1% osmium tetroxide for 1 hr.
  The tissue was then washed 3x15 min in water and incubated with 1% aqueous
  uranyl acetate overnight.
  The following day the tissue was washed 3x15 min in water and incubated
- for 30min in Lead Aspartate solution, followed by washing and dehydrated
+ for 30 min in Lead aspartate solution, followed by washing and dehydrated
  with a series of ethanol, followed by propylene oxide (PO).
  The tissue was then infiltrated in decreasing gradients of PO and EPON
  for 24 hrs and baked for 48 hrs at 60 C.
@@ -1154,7 +1148,7 @@ ar mesa was defined for serial sectioning.
  Care was taken to orient the specimen to permit sectioning along the horizontal
  axis.
  Serial sections from the above animal were collected approximately from
- the level of the Mauthner cell at a thickness of 45 nm.
+ the level of the Mauthner axon at a thickness of 45 nm.
  The serial sections were then adhered to a silicon wafer, using double
  sided carbon tape (TEDpella), the wafers were coated with a thin film of
  carbon to make them conductive.
@@ -1176,8 +1170,9 @@ key "Cardona:2012kf"
 .
  Briefly, individual images were imported into the TrakEM2 framework and
  montaged, first, using affine transforms, followed by elastic transforms.
- The images were then registered using a similar approach, where the first
- pass was performed using affine transforms, followed by elastic transforms.
+ The images were then registered in z using a similar approach, where the
+ first pass was performed using affine transforms, followed by elastic transform
+s.
  All the alignment was performed on a machine with 32 virtual cores and
  120GB RAM.
 \end_layout
@@ -1225,13 +1220,12 @@ The reconstruction of the identified neurons was performed using the TrakEM2
  A more detailed second round of tracing was then carried out using a more
  accurate semi-automated reconstruction method similar to the `eyewire'
  platform (http://eyewire.org).
- This approach has in the past proven to be extremely successful at acheiving
- multi-player coverage for single cells.
+ This approach has been used to obtain multiple coverage for single cells.
  This process revealed that the axon of one cell was previously under-reconstruc
 ted.
  Similarly, another axon from a different cell was over-reconstructed.
  The remaining, vast majority 20/22 cells remained the same.
- This was then corrected for before the analysis.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1246,7 +1240,7 @@ key "Longair:2011hr"
 
 \end_inset
 
- plugin in Fiji, and exported as a *.swc file.
+ plugin in Fiji, and exported as *.swc file.
  In total, we reconstructed 9.29 mm of neurite ( 2.45 mm of axonal length
  and 6.84 mm of dendritic length).
  
@@ -1296,8 +1290,8 @@ All traces were exported as .swc files from TrakEM2.
  All tree lengths was reported as pathlengths unless noted otherwise.
  Similarly, all lengths to a pre- or post synaptic site was reported as
  pathlengths.
- We defined the axon initiation site was annotated as the parent node of
- the first presynaptic site.
+ We defined the axon initiation site as the parent node of the first presynaptic
+ site.
  One cell from ipsi-only group was defined as an axon, based on diameter
  of the axons and the 'bare' initial segment.
  All neurites that were not axonal were defined as dendritic.
@@ -1309,8 +1303,6 @@ All traces were exported as .swc files from TrakEM2.
  from the central axonal tree.
  All tree nodes that were axonal were then divided as those that were part
  of a collateral and those that were not.
- Following this, pathlengths and numbers were calculated by treating those
- nodes like any other.
  The completeness of cells was decided based on the number of neurites that
  exited the cells.
  
@@ -1322,8 +1314,7 @@ The diameter of the trees was generated by drawing a line segment across
  Many such line segments were drawn across the entire extent of the tree,
  where the tracer was blinded to the fact whether the neurite was an axon
  or a dendrite.
- The measurements were then separated as dendritic diameter or axonal diameter
- after all the trees were measured in this manner.
+ The measurements were then separated as dendritic or axonal.
  The values were reported as a mean across all dendritic or axonal measures
  for a tree.
  

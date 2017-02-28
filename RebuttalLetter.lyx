@@ -111,7 +111,7 @@ alx
 ion of abducens neurons.
  To address concern (1) we have added further statistical analyses to Supplement
 ary Fig.
- 1 (see also Discussion).
+ 1 (see also Discussion, line number 288).
  In brief, the time constants of contralaterally projecting neurons are
  significantly different from those of the unknown projecting group of neurons.
  We also found that neural time constant is weakly correlated with mediolateral
@@ -190,7 +190,8 @@ n calcium imaging and serial electron microscopy in a behaving fish to identify.
 In this sentence we used the word `behavior' in the context that the functional
  recording were performed in an immobilized fish, which was free to move
  its eyes.
- To prevent this confusion, we have removed the word behaving.
+ To prevent this confusion, we have removed the word behaving (line number
+ 47).
 \end_layout
 
 \end_deeper
@@ -318,7 +319,7 @@ What is missing throughout the paper is the comparison with integrator property
 
 \lang american
 We thank the reviewer for the comments.
- We performed statistical analyses to compared the distribution of integrator
+ We performed statistical analyses to compare the distribution of integrator
  time constants between the three morphological groups.
  We noticed that the 'Contra' and 'Unknown' projecting groups of neurons
  had statistically different time constants.
@@ -326,7 +327,8 @@ We thank the reviewer for the comments.
 es.
  We added an extra panel to Supplementary figure 1 ( Sup.
  Fig.
- 1D, box plot of time constants) and have commented in the main text.
+ 1D, box plot of time constants) and have commented in the main text (line
+ number 288).
 \end_layout
 
 \begin_layout Enumerate
@@ -337,7 +339,7 @@ We also now report correlation coefficients between integrator time constant
  Fig.
  1).
  This analysis revealed that there is a weak correlation between time constants
- and mediolateral somatic location, that was not statistically significant.
+ and mediolateral somatic location which was not statistically significant.
  The remaining correlation along the rostrocaudal and dorsoventral axis
  were not too weak.
  We suspect the correlations in our study are weak due to the small sample
@@ -400,7 +402,8 @@ engrailed -1
  that the vast majority were glutamatergic or GABAergic.
  For these reasons, we feel confident that the cells that were imaged here
  would not have contained potential integrator neurons that were glycinergic.
- We have clarified the above points in the main text as well.
+ We have clarified the above points in the main text as well (line number
+ 87).
 \end_layout
 
 \end_deeper
@@ -473,7 +476,7 @@ Barhl2
  stripe of glutamatergic cells.
  The morphology of these cells, their axonal projections are yet to be determine
 d.
- We have corrected the text to reflect this.
+ We have corrected the text to reflect this (line number 281)
 \end_layout
 
 \end_deeper
