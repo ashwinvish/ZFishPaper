@@ -205,11 +205,11 @@ December 21, 2016
 \end_layout
 
 \begin_layout Address
-Geoffrey North
+Cyrus Martin
 \begin_inset Newline newline
 \end_inset
 
-Editor
+Senior Scientific Editor
 \begin_inset Newline newline
 \end_inset
 
@@ -217,22 +217,21 @@ Current Biology
 \end_layout
 
 \begin_layout Opening
-Dear Geoff:
+Dear Dr.
+ Martin:
 \end_layout
 
 \begin_layout Standard
-Thank you for considering to review our initial submission, titled 
+Thank you for considering our initial submission, 
 \begin_inset Quotes eld
 \end_inset
 
 Electron microscopic reconstruction of functionally identified cells in
- a neural integrator
+ a neural integrator.
 \begin_inset Quotes erd
 \end_inset
 
- .
- We were encouraged by the reviewers comments, especially reviewer1, who
- thoguth our work was 
+ We were encouraged by referee #1, who thought our work was 
 \begin_inset Quotes eld
 \end_inset
 
@@ -249,8 +248,19 @@ balanced
 \end_inset
 
 .
- Based on their comments, we have now uploaded a revised manuscript, along
- with supplementary data.
+ As you requested, we have addressed all the points raised by referee #2.
+\end_layout
+
+\begin_layout Itemize
+bullet point summary should go here
+\end_layout
+
+\begin_layout Standard
+We have also addressed the minor issues raised by referee #1.
+\end_layout
+
+\begin_layout Standard
+Based on their comments, we have now uploaded a revised manuscript.
  We were able to address all the concerns posed by both the reviewers and
  feel that our manuscript will benifit the broader neuroscience community.
 \end_layout
