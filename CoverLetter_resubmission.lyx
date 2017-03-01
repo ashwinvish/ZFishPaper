@@ -259,7 +259,7 @@ balanced
 
 \begin_layout Itemize
 We have added a figure panel that shows correspondence between light and
- electron microscopic images as requested by the reviewer.
+ electron microscopic images.
 \end_layout
 
 \begin_layout Itemize
@@ -281,12 +281,13 @@ stripes
 \end_layout
 
 \begin_layout Standard
-We have also addressed the minor issues raised by referee #1.
+We have also addressed the minor issues raised by both referee #1 and referee
+ #2.
 \end_layout
 
 \begin_layout Standard
-Finally, one of the points raised by referee#2 was to perform more reconstructio
-ns of abducens neurons.
+Finally, one of the points raised by referee #2 was to perform more reconstructi
+ons of abducens neurons.
  Unfortunately, the location of these cells prevents us from accurately
  reconstructing these cells.
 \end_layout
