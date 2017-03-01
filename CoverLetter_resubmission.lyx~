@@ -201,7 +201,7 @@ Neuroscience Institute and Computer Science Department
 \end_layout
 
 \begin_layout Date
-December 21, 2016
+March 01, 2017
 \end_layout
 
 \begin_layout Address
@@ -214,6 +214,12 @@ Senior Scientific Editor
 \end_inset
 
 Current Biology
+\end_layout
+
+\begin_layout Subject
+Ref.: Ms.
+ No.
+ CURRENT-BIOLOGY-D-16-01629
 \end_layout
 
 \begin_layout Opening
@@ -251,8 +257,38 @@ balanced
  As you requested, we have addressed all the points raised by referee #2.
 \end_layout
 
+\begin_layout Itemize
+We have added a figure panel that shows correspondence between ligh and
+ electron microscopic images as requested by the reviewer.
+\end_layout
+
+\begin_layout Itemize
+We perfomed statistical analyses to compare integrator neuron time constants
+ and morphologies and have now reported these results.
+\end_layout
+
+\begin_layout Itemize
+Addressed concerns regarding potential for confusion between cells from
+ different 
+\begin_inset Quotes eld
+\end_inset
+
+stripes
+\begin_inset Quotes erd
+\end_inset
+
+, by clarifying the location of the somata that were studied.
+\end_layout
+
 \begin_layout Standard
 We have also addressed the minor issues raised by referee #1.
+\end_layout
+
+\begin_layout Standard
+Finally, one of the points raised by referee#2 was to perfrom more reconstructio
+ns of abducens neurons.
+ Unfortunately, the location of these cells prevents us from accurately
+ reconstructing these cells.
 \end_layout
 
 \begin_layout Standard
