@@ -380,7 +380,11 @@ We combined two-photon calcium imaging and serial electron microscopy
 \change_deleted 78966105 1487093612
  
 \change_unchanged
- to identify neurons in the neural integrator and reconstructthe same neurons.
+ to identify neurons in the neural integrator and reconstruct
+\change_inserted 78966105 1488234533
+ 
+\change_unchanged
+the same neurons.
  We found evidence for multiple classes of neurons within the integrator
  population based on differences in dendritic arborization, axonal projections
  and synaptic distributions.
@@ -498,7 +502,7 @@ Cell bodies in the hindbrain of the larval zebrafish follow a stereotypic
  identity, and morphology 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Higashijima:2004cn,Kinkhabwala:2011et,Koyama:2011kl"
+key "Higashijima:2004cn,Kinkhabwala:2011eta,Koyama:2011kl"
 
 \end_inset
 
@@ -549,7 +553,7 @@ engrailed -1
  transcription factor which expresses glycine 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Kimura:2006hd,Kinkhabwala:2011et"
+key "Kimura:2006hd,Kinkhabwala:2011eta"
 
 \end_inset
 
@@ -581,7 +585,7 @@ dbx1b
 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Kinkhabwala:2011et"
+key "Kinkhabwala:2011eta"
 
 \end_inset
 
@@ -609,7 +613,7 @@ barhl
 transcription factor, which is also thought to be glutamatergic 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "colombo_zebrafish_2006,Kinkhabwala:2011et"
+key "colombo_zebrafish_2006,Kinkhabwala:2011eta"
 
 \end_inset
 
@@ -790,7 +794,7 @@ We defined axons as neurites with a) presynaptic vesicles or b) for cases
  sites.
  Example axon initiation sites are indicated in Fig.
  2, showing the dendrite (neurite with red postsynaptic sites) turning into
- axons at the axon initiation (open arrow) .
+ axons at the axon initiation (open arrow).
  The main trunk of the axon extended rostrally and ventrally (Fig.
  2 A, B).
  From the main trunk emerged mediolateral branches, which we will term collatera
@@ -1016,7 +1020,13 @@ Neurons in this group had large dendritic arbors, with the dendrites arborizing
 \begin_inset Formula $p<2\times10^{-3}$
 \end_inset
 
-, ttest).
+, 
+\change_inserted 78966105 1488303800
+T
+\change_deleted 78966105 1488303800
+t
+\change_unchanged
+test).
 \end_layout
 
 \begin_layout Standard
@@ -1051,7 +1061,13 @@ contra-only
 \begin_inset Formula $p<0.0003,$
 \end_inset
 
- ttest).
+ 
+\change_inserted 78966105 1488303804
+T
+\change_deleted 78966105 1488303804
+t
+\change_unchanged
+test).
  
 \end_layout
 
@@ -1069,21 +1085,39 @@ The average dendritic length was
 \begin_inset Formula $p<0.003$
 \end_inset
 
-, ttest).
+, 
+\change_inserted 78966105 1488303809
+T
+\change_deleted 78966105 1488303809
+t
+\change_unchanged
+test).
  The average diameter of dendrites significantly larger than the diameter
  of the axons (Fig.
  3F, 
 \begin_inset Formula $p<2\times10^{-6}$
 \end_inset
 
-, ttest).
+, 
+\change_inserted 78966105 1488303812
+T
+\change_deleted 78966105 1488303812
+t
+\change_unchanged
+test).
  The diameter of dendrites of the contra-only neurons was significantly
  smaller to the ipsi-only group (Fig.
  3F, 
 \begin_inset Formula $p<0.005,$
 \end_inset
 
- ttest).
+ 
+\change_inserted 78966105 1488303815
+T
+\change_deleted 78966105 1488303815
+t
+\change_unchanged
+test).
  
 \end_layout
 
@@ -1176,7 +1210,11 @@ Neurons from these three groups had on average,
 \begin_inset Formula $p=1.2\times10^{-10}$
 \end_inset
 
- kstest).
+ 
+\change_inserted 78966105 1488304100
+KS
+\change_unchanged
+test).
 \end_layout
 
 \begin_layout Standard
@@ -1432,20 +1470,20 @@ Our evidence suggest that at least two of the groups, the ipsilaterally
  and distributions of postsynapses along their dendrites.
  The ipsi-only group of neurons has approximately twice as many postsynaptic
  input sites as the contra-only only group.
- In both cases initiation of the axons was from a neurite that contained
- postsynaptic sites that then gave rise to presynaptic sites.
+ In both cases
+\change_inserted 78966105 1488304199
+,
+\change_unchanged
+ initiation of the axons was from a neurite that contained postsynaptic
+ sites that then gave rise to presynaptic sites.
  This feature could be important to influence the activity of neurons as
  these locations are proximal to the somata.
 
-\change_deleted 78966105 1487967344
-
-\color red
- 
-\change_inserted 78966105 1487968095
+\change_inserted 78966105 1488304183
 
 \color black
-The integration time constants of these neurons show graded levels of persistent
- activity.
+ The integration time constants of these neurons show graded levels of persisten
+t activity.
  Time constants of contralaterally projecting neurons were significantly
  different from the unkown projecting neurons, with the unknown projecting
  neurons showing faster dynamics (Sup.
@@ -1680,11 +1718,7 @@ We are grateful to Juan Carlos Tapia, Richard Schalek and Ken Hayworth for
  Uygar Sümbül assisted with importing skeletons into MATLAB.
  We thank Heather Sullivan for tissue processing and optimization, Ashleigh
  Showler, Gurion Marks and Anjin Xianyu for assistance with reconstructions
- and alignment
-\change_inserted 78966105 1487968474
-, 
-\change_deleted 78966105 1487968473
-.
+ and alignment, 
 \change_inserted 78966105 1487968472
 Melanie Lee for sharing light microscopic images of neurons.
 
@@ -1744,7 +1778,11 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
  OGB-1.
  Identified integrator neurons are show in colored circles.
  Colors reflect the level of persistence of the neuron.
- Scale bar 
+ Scale bar
+\change_inserted 78966105 1488304642
+ =
+\change_unchanged
+ 
 \begin_inset Formula $20\mu m$
 \end_inset
 
@@ -1785,7 +1823,11 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
 (C) Registration of LM volume to EM volume to locate the neurons that were
  involved in the behavior.
  Red arrows indicate the same features in both LM and EM.
- Scale bar 
+ Scale bar
+\change_inserted 78966105 1488304645
+ =
+\change_unchanged
+ 
 \begin_inset Formula $20\mu m$
 \end_inset
 
