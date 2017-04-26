@@ -1,0 +1,311 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "helvet" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family sfdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\rightmargin 1cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Below are the detailed answers to the reviewers comments.
+ The main concerns of the reviewer were from the lack of clarity in the
+ methods that concern the reconstruction of neurons.
+ Secondly, the reviewer also wondered about the ability to classify the
+ synapses in this dataset based on techniques that are used for mammalian
+ tissue.
+ Some of the questions posed by the reviewers could not be assessed since
+ this involved large amount of reconstructions.
+ In short we have addressed the reviewers concerns and have made efforts
+ to clarify the text to make the reconstruction methods lucid.
+ We have also carried out additional analyses to attempt to classify the
+ synapses based on conventions used for mammalian tissue.
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+\emph on
+Given the numerous postsynaptic input sites that were identified on the
+ different morphological types, I was anticipating the authors would then
+ proceed to reconstruct the presynaptic neurites.
+ They did not.
+ This was disappointing because I think a lot could be learned from such
+ an effort.
+ Such as: identification of additional putative integrator neurons that
+ were not revealed by calcium imaging, identification of descending axons
+ that presumable carry velocity information, an analysis of what fraction
+ of inputs originate from different input types, etc..
+ Again, I understand the limitations of the volume size, but some additional
+ effort to gain more insight about the actual circuit connectivity within
+ the integrator circuit would significantly strengthen the manuscript.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\family sans
+As we had indicated previously in our plan of action, the reviewer requested
+ for anatomical reconstruction of all cell that were both Pre and Postsynaptic
+ to the 22 integrator cells that were reconstructed in this study.
+ This is approximately 3000 cells that would need to be reconstructed.
+ This represents a 100X expansion of the current study.
+ This is therefore outside the scope of this publication.
+ Moreover integrator neurons cannot be identified by anatomy alone, and
+ all physiologically identified integrator neurons in this study have been
+ reconstructed.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\family sans
+\emph on
+Following on this point, the identification of just 6 synapses between the
+ 22 cells is a very low number.
+ It begs for the not analyzed presynaptic cells to be traced and analyzed
+ to the extent possible.
+ Is there a theoretical prediction of the degree of connectivity needed
+ to support positive feedback in the integrator circuit?
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\family sans
+Like the above question, this question could only be answered by the detailed
+ reconstruction of all cells that are synaptically connected to the 22 identifie
+d cells.
+ As was discussed in the plan of action, this is also out of the scope of
+ this publication.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\family sans
+\emph on
+The authors found no substantial correlation between time constants and
+ the variables they examined.
+ Did they correlate time constants with synapse numbers/densities for each
+ cell? Again, some idea of the fraction of synapses driven by descending
+ inputs versus intra-hindbrain inputs would be interesting.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\family sans
+The reviewer has requested for the correlation of time constants to synapse
+ numbers and densities.
+ We have calculated and reported these correlation in the supplementary
+ figures ( Sup.
+ Fig.
+ 1B) along with the other variables that were previously reported.
+ Both these analyses did not reveal a statistically significant difference
+ in the .
+ This is likely due to the small sample size of this study.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\family sans
+The second part of this question requests to compute the fraction of inputs
+ onto the integrator neurons form other neurons within the hindbrain to
+ outside the hindbrain.
+ We agree with the reviewer that the results would be very interesting.
+ However, to do this we would have to reconstruct all the neurons that are
+ presynaptic to the integrator neurons.
+ As we have mentioned previously, this is out of the scope of this publication.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\family sans
+\emph on
+The description of the tracing methodology is not sufficient to assess reliabili
+ty.
+ At a minimum the authors should expand on what the second round of tracing
+ actually entailed and what exactly 'multiple coverage' means.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+We apologize if our description of the tracing methodology was not sufficient.
+ Our tracing was performed in two rounds.
+ The first round was a skeleton based tracing that was performed using the
+ open sourced software package TrakEM2.
+ This process requires the placement of a point (or node) typically at the
+ center of the neurite and to continue this process for the entire cell.
+ This results in a `ball-and-stick' type model of the neuron.
+ The problem with this arrangement when viewed in 3D is that it is hard
+ to spot false positives.
+ This is because reducing the neurites thickness to a single point removes
+ any sense of scale.
+ This contextual information is very useful to `catch' for example branches
+ whose thickness do not match the thickness of the brach being traced indicating
+ that it does not belong.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+To overcome some of the limitations of skeleton based tracing, we performed
+ a second round of tracing where the cells were traced volumetrically.
+ This method displays in real-time the branches being traced.
+ This process did catch a few errors that slipped by the previous round
+ of tracing (as mentioned in the methods).
+ In order to have confidence in the traces, we required multiple tracers
+ (>2) reconstructing the same cell, and final assessment by an expert tracers.
+ This process is what we refer to as `multiple coverage'.
+ We have now revised the text in the methods to make this process more clear
+ (lines 569).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\family sans
+\emph on
+Did the authors find 45 nm section thickness to be sufficient to unambiguously
+ trace all neurites? If so, they should explicitly state this because it
+ would serve as a useful data point for the field.
+ If not, the authors should quantify the prevalence of tracing ambiguities.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+We thank the reviewer for bringing this point to our attention.
+ Indeed there are some challenges associated with reconstruction neurons
+ from sections that are cut at 45nm.
+ The most common problem is when the neurite being reconstructed is parallel
+ to the sectioning plane.
+ This makes it hard to follow these neurites.
+ At such locations, typically it helps to reconstruct all abutting neurites
+ and converge on the parent neurite by the process of elimination.
+ Another strategy is to keep track of the intracellular organelles to guide
+ in the reconstruction.
+ We have highlighted some these challenges in the methods section (line
+ 580).
+ As was mentioned in the methods, of the 22 neurons, 2 neurons had problems
+ in the axon reconstruction due to the anisotropy.
+ These locations were subsequently recovered by having multiple tracers
+ reconstruct at these locations.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\family sans
+\emph on
+Is there evidence that excitatory versus inhibitory synapses are ultrastructural
+ly distinct in fish as is the claim in mammalian tissues (i.e.
+ symmetric vs.
+ asymmetric synapses)? Given the inference of transmitter type based on
+ soma position, the authors could presumably at least look for differences
+ that could help corroborate transmitter types.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+As the reviewer had mentioned it is possible to differentiate synaptic membranes
+ as either symmetric or asymmetric, depending on the side where the densities
+ were more prevalent.
+ Along with this observation, to aide this classification the shape of the
+ vesicles are also considered.
+ Typically asymmetric synapses are associated with spherical vesicles and
+ are thought to be from excitatory cells.
+ Whereas symmetric synapses have `flat' shaped vesicles and are associated
+ with inhibitory cells.
+ Similarly symmetric synapses have thin PSDs as compared to asymmetric synapses.
+ In our dataset, it is very hard to observe any `flat', non-spherical vesicles.
+ There are however large and small vesicles as has been noted in the main
+ text.
+ Regarding the postsynaptic density if there exits differences we should
+ expect to see a large variation in the thickness of the PSD and a bi-modal
+ like distribution of the thicknesses.
+ Instead we find a normal distribution of PSD thicknesses and no real difference
+ in the shape of the vesicles.
+ We have reported these finding in the main text (line 114) and supporting
+ analysis in supplementary figure 2E.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

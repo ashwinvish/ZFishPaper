@@ -2367,7 +2367,7 @@ function, available on the Matlab central repository.
 
 \begin_layout Standard
 
-\change_inserted 78966105 1492536108
+\change_inserted 78966105 1493131048
 To locate the border of r6/7 we followed a similar approach that was performed
  previous using light microscopic imaging and the expression of the 
 \emph on
@@ -2386,8 +2386,9 @@ key "Ma:2014gb,Daie:2015fd,Lee:2015dv"
  These cells were rich in mitochondria and gave rise to a large myelinated
  axon that joined the remaining fibers along the midline.
  We fit a plane to the reticulospinal neurons, and identified a point on
- this plane that bisected Mi3 and Ca.
- This point was move by 
+ this plane that bisected Mi3 neuron located in r6 and Ca neuron located
+ in r7.
+ This point was moved by 
 \begin_inset Formula $0.37\mu m$
 \end_inset
 
@@ -2399,6 +2400,7 @@ key "Daie:2015fd,Lee:2015dv"
 \end_inset
 
 .
+ The resulting line is where we differetiate the border of r6 and r7.
 \end_layout
 
 \begin_layout Subsection*
