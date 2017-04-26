@@ -75,9 +75,8 @@
 \begin_body
 
 \begin_layout Standard
-Below are the detailed answers to the reviewers comments.
- The main concerns of the reviewer were from the lack of clarity in the
- methods that concern the reconstruction of neurons.
+The main concerns of the reviewer were from the lack of clarity in the methods
+ that concern the reconstruction of neurons.
  Secondly, the reviewer also wondered about the ability to classify the
  synapses in this dataset based on techniques that are used for mammalian
  tissue.
@@ -203,38 +202,38 @@ ty.
 
 \begin_deeper
 \begin_layout Enumerate
-We apologize if our description of the tracing methodology was not sufficient.
- Our tracing was performed in two rounds.
- The first round was a skeleton based tracing that was performed using the
- open sourced software package TrakEM2.
- This process requires the placement of a point (or node) typically at the
- center of the neurite and to continue this process for the entire cell.
- This results in a `ball-and-stick' type model of the neuron.
- The problem with this arrangement when viewed in 3D is that it is hard
- to spot false positives.
- This is because reducing the neurites thickness to a single point removes
- any sense of scale.
- This contextual information is very useful to `catch' for example branches
- whose thickness do not match the thickness of the brach being traced indicating
- that it does not belong.
+In the first round of tracing, we used the software package TrakEM2 to create
+ skeleton representations of neurons.
+ Most tracings were made by the first author (A.V.), and difficult locations
+ were decided by consensus of E.A.
+ and A.V.
  
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
-To overcome some of the limitations of skeleton based tracing, we performed
- a second round of tracing where the cells were traced volumetrically.
- This method displays in real-time the branches being traced.
- This process did catch a few errors that slipped by the previous round
- of tracing (as mentioned in the methods).
- In order to have confidence in the traces, we required multiple tracers
- (>2) reconstructing the same cell, and final assessment by an expert tracers.
- This process is what we refer to as `multiple coverage'.
+The second round created 3D reconstructions of neurons, using semiautomated
+ methods and help from tracers who were not authors.
+ Each cell was reconstructed by one tracer, reviewed and corrected by another
+ tracer, and reviewed and corrected by the first author (A.V.).
+ This process did catch two significant errors that slipped by the first
+ round of tracing (one underreconstructed axon and one overreconstructed
+ dendrite).
+ Other errors were minor in terms of the neurite length involved.
  We have now revised the text in the methods to make this process more clear
  (lines 569).
 \end_layout
 
 \end_deeper
+\begin_layout Enumerate
+Subjectively, we were more confident after the second round of tracing because
+ the real-time feedback from 3D reconstructions enables shape-based recognition
+ of suspicious locations, which can then be checked for errors.
+  For example, one can easily spot a sudden change in neurite thickness,
+ which suggests a merge error.
+ This is easy with 3D reconstructions but not with skeletons.
+\end_layout
+
 \end_deeper
 \begin_layout Enumerate
 
@@ -249,22 +248,21 @@ Did the authors find 45 nm section thickness to be sufficient to unambiguously
 
 \begin_deeper
 \begin_layout Enumerate
-We thank the reviewer for bringing this point to our attention.
- Indeed there are some challenges associated with reconstruction of neurons
- from sections that are cut at 45nm.
- The most common problem occurs when the neurite being reconstructed is
- parallel to the sectioning plane.
- This makes it hard to follow these neurites.
- At such locations, typically it helps to reconstruct all abutting neurites
- and converge on the parent neurite by the process of elimination.
- Another strategy is to keep track of the intracellular organelles to guide
- in the reconstruction.
- We have highlighted some these challenges in the methods section (line
+Indeed the reconstruction can be difficult if the neurite is parallel to
+ the sectioning plane, and especially thin.
+ Such locations are usually disambiguated by dense reconstruction of all
+ adjacent neurites, which reveals the correct answer by a process of elimination.
+ (This technique was used to correct the two significant errors uncovered
+ by the second round of tracing.) Tracing intracellular organelles can also
+ aid disambiguation of neurite reconstruction.
+ We have highlighted such techniques in the revised methods section (line
  580).
- As was mentioned in the methods, of the 22 neurons, 2 neurons had problems
- in the axon reconstruction due to this anisotropy.
- These locations were subsequently recovered by having multiple tracers
- reconstruct at these locations using the above mentioned methods.
+ After such techniques are applied, the end result is that every cell has
+ at most one or two truly ambiguous locations.
+ The ambiguity might be caused by a thin neurite parallel to the sectioning
+ plane, or deteriorated ultrastructure (due to electroporation, poor fixation,
+ or possibly developmental pruning of axons).
+ In truly ambiguous locations, we err on the side of undertracing.
 \end_layout
 
 \end_deeper
@@ -283,25 +281,31 @@ ly distinct in fish as is the claim in mammalian tissues (i.e.
 
 \begin_deeper
 \begin_layout Enumerate
-As the reviewer had mentioned it is possible to differentiate synaptic membranes
- as either symmetric or asymmetric, depending on the side where the densities
- were more prevalent.
- Along with this observation, to aide this classification the shape of the
- vesicles are also considered.
- Typically asymmetric synapses are associated with spherical vesicles and
- are thought to be from excitatory cells.
- Whereas symmetric synapses have `flat' shaped vesicles and are associated
- with inhibitory cells.
- Similarly symmetric synapses have thin PSDs as compared to asymmetric synapses.
- In our dataset, it is very hard to observe any `flat', non-spherical vesicles.
- There are however large and small vesicles as has been noted in the main
- text.
- Regarding the postsynaptic density if there exits differences we should
- expect to see a large variation in the thickness of the PSD and a bi-modal
- like distribution of the thicknesses.
- Instead we find a normal distribution of PSD thicknesses and no real difference
- in the shape of the vesicles.
- We have reported these finding in the main text (line 114) and supporting
+For an asymmetric synapse, the postsynaptic density (PSD) should be darker
+ and extend farther into the postsynaptic cell.
+ By eye, we were unable to distinguish between asymmetric and symmetric
+ synapses.
+ For a more objective method, we quantified image intensity near synaptic
+ clefts.
+ There was no evidence of a bimodal distribution in the darkness/thickness
+ of the synaptic density.
+ Furthermore the synaptic density did not extend asymmetrically into the
+ postsynaptic cell.
+ In fact, we saw evidence of a presynaptic density (Supplementary Fig.
+ 2E), suggesting that the mammalian notion of an asymmetric synapse is not
+ applicable here.
+\end_layout
+
+\begin_layout Enumerate
+For a symmetric synapse, the vesicles should be more flat.
+ We found a few flat vesicles, but no synapses at which many vesicles were
+ flat.
+ We did see synapses at which there were many large dense core vesicles,
+ as reported in the main text.
+\end_layout
+
+\begin_layout Enumerate
+We have reported these finding in the main text (line 114) and supporting
  analysis in supplementary figure 2E.
 \end_layout
 
