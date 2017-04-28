@@ -180,7 +180,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Reb/SupFig2Rebuttal.png
+	filename Reb/SupFig2Rebuttal.pdf
 	display false
 	scale 70
 
@@ -223,10 +223,11 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-(E) (Top) Average thickness of PSD as measured from postsynaptic side to
- presynaptic side.
- (Bottom) Distribution of area under the curve for all (n=144) measurements
- from above plot.
+(E) (Top) Asymmetry of PSD as measured from postsynaptic side to presynaptic
+ side.
+ Black line repreented prefect symmetry.
+ Inset is the average profile from n=144 synaptic sites.
+ (Bottom) Distribution of area under the curvefrom above plot.
  Insets are images of synpses with smallest, middle and largest areas under
  the curves.
  

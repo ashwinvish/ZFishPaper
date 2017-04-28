@@ -693,20 +693,19 @@ We annotated 320 presynaptic (green circles, Fig.
  Fig.
  2A).
  
-\change_inserted 78966105 1492798691
-At synaptic membranes we observed a dark electron dense region assocaiated
- with the PSD along with a lesser electron dense region associated with
- a spherical vesicle pool close to the membrane on the presynaptic side.
- Unlike in mammalian neuropil, we were unable to differentiate synaptic
- membranes as 
+\change_inserted 78966105 1493392096
+At synaptic membranes were unable to differentiate synaptic membranes as
+ 
 \emph on
 symmetric
 \emph default
  or 
 \emph on
-asymmetric 
+asymmetric.
+ 
 \emph default
-as they were largely uniform (Sup.
+Instead we saw evidence of a presynaptic density unlike the conventional
+ mammalian notion (Sup.
  Fig.
  2E).
 \change_unchanged
@@ -1674,8 +1673,13 @@ Functional and structural imaging of integrator neurons.
 \end_inset
 
 (A) (a) Top - Larval zebrafish schematic showing the region where functional
- imaging was performed (black box) located in the hindbrain, along with
- recording of eye-tracking behavior.
+ imaging was performed (black box) located in the hindbrain
+\change_inserted 78966105 1493386914
+.
+\change_deleted 78966105 1493386919
+, along with recording of eye-tracking behavior.
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1716,17 +1720,43 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
 \begin_inset Newline newline
 \end_inset
 
-(B) Serial-sections for electron microscopy were collected on tape in an
- automated manner.
- Each section was imaged at low-resolution (b1).
- A region-of-interest that corresponded with the functionally imaged area
- was defined (black box in b1) for high-resolution imaging (b2).
- All such images were aligned to generate a 3D EM volume.
+(B) (Top) Serial-sections for electron microscopy were collected on 
+\change_inserted 78966105 1493387304
+a 
+\change_unchanged
+tape in an automated manner.
+ (Bottom left) Overview image of single section.
+ The region-of-interest that corresponding to the functionally imaged area
+ was defined by black box
+\change_deleted 78966105 1493387294
+ 
+\change_unchanged
+ for high-resolution imaging.
+
+\change_inserted 78966105 1493387321
+ 
+\change_unchanged
+(Bottom right) All such images were aligned to generate a 3D EM volume.
 \begin_inset Newline newline
 \end_inset
 
-(C) Registration of LM volume to EM volume to locate the neurons that were
- involved in the behavior.
+(C) Registration of 
+\change_inserted 78966105 1493387346
+light microscopic 
+\change_deleted 78966105 1493387337
+LM
+\change_unchanged
+ volume to 
+\change_inserted 78966105 1493387357
+electron microscopic
+\change_deleted 78966105 1493387352
+EM
+\change_unchanged
+ volume 
+\change_inserted 78966105 1493387384
+is used 
+\change_unchanged
+to locate the neurons that were involved in the behavior.
  Red arrows indicate the same features in both LM and EM.
  Scale bar
 \change_inserted 78966105 1488304645
@@ -1808,8 +1838,14 @@ Ultrastructural features of Integrator neurons.
  Putative axon is engulfed by glia before crossing the midline.(EM insets
  at numbered locations G - Glia, A - Axon).
  Bottom EM panel shows primary cilium highlighted with yellow arrow.
- Note all the integrator somata in this volume give rise to a cilium, but
- it is shown for this neuron.
+ 
+\change_deleted 78966105 1493387541
+Note a
+\change_inserted 78966105 1493387541
+A
+\change_unchanged
+ll the integrator somata in this volume give rise to a cilium, but it is
+ shown for this neuron.
 \begin_inset Newline newline
 \end_inset
 
@@ -1830,8 +1866,11 @@ Figure3:
  grouped according to their axonal projection patterns.
  Left, 6 integrator neuron with ipsilateral projecting axons - ipsi-only
  group, pink background.
- Middle, 9 integrator neurons with midline crossing contralateral only putative-
-axon – contra-only, orange background.
+ Middle, 9 integrator neurons with midline crossing contralateral
+\change_inserted 78966105 1493387673
+ly projecting
+\change_unchanged
+ putative-axon – contra-only, orange background.
  Right, 6, integrator neurons with unknown axonal projection – unknown,
  blue background.
  Axons - dark line, dendrites - light lines, red circles - postsynaptic
@@ -1840,7 +1879,11 @@ axon – contra-only, orange background.
 \begin_inset Newline newline
 \end_inset
 
-(B) Box plot of the number of synapses in each group.
+(B) Box plot of the number of synapses in each group
+\change_inserted 78966105 1493387747
+ (Ipsi-only, Contra-only and unknown, L to R)
+\change_unchanged
+.
  Black line is the median (
 \begin_inset Formula $p=0.004$
 \end_inset
@@ -1859,9 +1902,18 @@ axon – contra-only, orange background.
 \end_inset
 
 (D) Normalized distribution of the synaptic pathlength.
- Red - postsynaptic sites, green - Presynaptic sites.
- Black vertical lines, with adjoining colored numbers represent the means
- of the distribution.
+ Red - postsynaptic sites, green - 
+\change_inserted 78966105 1493387786
+p
+\change_deleted 78966105 1493387786
+P
+\change_unchanged
+resynaptic sites.
+ Black vertical lines, with adjoining 
+\change_deleted 78966105 1493387798
+colored 
+\change_unchanged
+numbers represent the means of the distribution.
 \begin_inset Newline newline
 \end_inset
 
@@ -2202,24 +2254,24 @@ The reconstruction of the identified neurons was performed using the TrakEM2
 
 \begin_layout Standard
 
-\change_inserted 78966105 1492807357
+\change_inserted 78966105 1493386042
 A more detailed second round of tracing was then carried out using a more
  accurate semi-automated reconstruction method similar to the `eyewire'
  platform (http://eyewire.org).
  This process involved semiautomatic reconstruction of neurons with two
- tracers, where the second tracer was able to view the first tracers reconstruct
-ions.
- A third expert tracer reviewed all sites where the first two tracers differed
- to provide consensus.
+ tracers (not the authors), where the second tracer was able to view the
+ first tracers reconstructions.
+ A third expert tracer (A.V) reviewed all sites where the first two tracers
+ differed to provide consensus.
  The final trace included all those neurites where the majority agreed.
  This ensures that each cells is covered by atleast 2 tracers.
  This semi-automated process revealed that the axon of one cell was previously
- under-reconstructed during the first round of skeleton based tracing.
- Similarly, another axon from a different cell was over-reconstructed.
+ under-reconstructed and another dendrite from a different cell was over-reconst
+ructed.
  The remaining, vast majority 20/22 cells remained the same between both
  methods.
  Having real-time volume based tracing provides shape based context to traces.
- This is useful to detect false positives.
+ This is useful to detect error.
  For example if a neurite is falsely mergerd it is oftern the case that
  its diameter is different as compared to the neurite being reconstructed.
  Similarly, at locations where the neurites are very thin, we can often
@@ -2231,19 +2283,19 @@ ions.
 
 \begin_layout Standard
 
-\change_inserted 78966105 1492808189
+\change_inserted 78966105 1493386484
 Since the section thickness was 45nm, neurites that were parallel to the
  cutting plane were sometimes hard to follow during reconstruction.
- The resulting anisotropic voxels make using the planes normal to the imaging
- plane hard to use.
  This typically leads to problems when tracing very thin neurites (typically
  axons) that can be hard to follow.
- The above 2 cells that contained errors after the first round of tracing
- were at locations where the axons were 'pinched' thin.
  In such instances is it useful to keep track of internal organells and
- other cues such as contrast to eliminate ambigious locations, and have
- multiple tracers reconstruct these locations.
- 
+ other cues such as contrast to eliminate ambigious locations.
+ After such techniques are applied, the end result is that every cell has
+ at most one or two truly ambiguous locations.
+ The ambiguity might be caused by a thin neurite parallel to the sectioning
+ plane, or deteriorated ultrastructure (due to electroporation, poor fixation,
+ or possibly developmental pruning of axons).
+ In truly ambiguous locations, we err on the side of undertracing.
 \change_unchanged
 
 \end_layout

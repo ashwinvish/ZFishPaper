@@ -65,11 +65,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
 \end_header
 
 \begin_body
@@ -213,10 +214,20 @@ In the first round of tracing, we used the software package TrakEM2 to create
 \begin_deeper
 \begin_layout Standard
 The second round created 3D reconstructions of neurons, using semiautomated
- methods and help from tracers who were not authors.
+ methods and help from 
+\change_inserted 78966105 1493385436
+expert 
+\change_unchanged
+tracers who were not authors.
  Each cell was reconstructed by one tracer, reviewed and corrected by another
  tracer, and reviewed and corrected by the first author (A.V.).
- This process did catch two significant errors that slipped by the first
+ 
+\change_inserted 78966105 1493385647
+This is referred to as 'multiple coverage', the same cell is covered by
+ more than one tracer.
+ 
+\change_unchanged
+This process did catch two significant errors that slipped by the first
  round of tracing (one underreconstructed axon and one overreconstructed
  dendrite).
  Other errors were minor in terms of the neurite length involved.
