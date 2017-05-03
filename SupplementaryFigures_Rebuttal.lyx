@@ -223,14 +223,10 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-(E) (Top) Asymmetry of PSD as measured from postsynaptic side to presynaptic
- side.
- Black line repreented prefect symmetry.
- Inset is the average profile from n=144 synaptic sites.
- (Bottom) Distribution of area under the curvefrom above plot.
- Insets are images of synpses with smallest, middle and largest areas under
- the curves.
- 
+(E) (Top) Average profile from n=144 synaptic sites centered on the max
+ of the intensity profiles through the density (Bottom) One hundred representati
+ve synapses.
+ The center pixel of each image is in the postsynaptic cell.
 \end_layout
 
 \end_inset

@@ -76,6 +76,7 @@
 \html_css_as_file 0
 \html_be_strict false
 \author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
+\author 187266875 "Ashwin Vishwanathan"
 \end_header
 
 \begin_body
@@ -693,20 +694,42 @@ We annotated 320 presynaptic (green circles, Fig.
  Fig.
  2A).
  
-\change_inserted 78966105 1492798691
-At synaptic membranes we observed a dark electron dense region assocaiated
- with the PSD along with a lesser electron dense region associated with
- a spherical vesicle pool close to the membrane on the presynaptic side.
- Unlike in mammalian neuropil, we were unable to differentiate synaptic
- membranes as 
+\change_inserted 78966105 1493392096
+At synaptic membranes were unable to differentiate synaptic membranes as
+ 
 \emph on
 symmetric
 \emph default
  or 
 \emph on
-asymmetric 
+asymmetric.
+ 
+\change_inserted 187266875 1493828907
+
 \emph default
-as they were largely uniform (Sup.
+Symmetric synapses are associated with many flat vesicles, i
+\change_deleted 187266875 1493828855
+I
+\change_inserted 78966105 1493392096
+nstead
+\change_inserted 187266875 1493828876
+ at synapses
+\change_inserted 78966105 1493392096
+ we 
+\change_inserted 187266875 1493828939
+do not observe many vesicles that were flat.
+
+\change_inserted 78966105 1493392096
+ 
+\change_inserted 187266875 1493829021
+Similarly, rather than observing a density that extended asymmetrically
+ into the postsynaptic cell, we observe a 
+\change_inserted 78966105 1493392096
+presynaptic density
+\change_deleted 187266875 1493829033
+ unlike the conventional mammalian notion
+\change_inserted 78966105 1493392096
+ (Sup.
  Fig.
  2E).
 \change_unchanged
