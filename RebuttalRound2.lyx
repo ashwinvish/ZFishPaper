@@ -296,10 +296,14 @@ For an asymmetric synapse, the postsynaptic density (PSD) should be darker
  and extend farther into the postsynaptic cell.
  By eye, we were unable to distinguish between asymmetric and symmetric
  synapses.
- For a more objective method, we quantified image intensity near synaptic
+ 
+\change_deleted 78966105 1493832252
+For a more objective method, we quantified image intensity near synaptic
  clefts.
  There was no evidence of a bimodal distribution in the darkness/thickness
  of the synaptic density.
+
+\change_unchanged
  Furthermore the synaptic density did not extend asymmetrically into the
  postsynaptic cell.
  In fact, we saw evidence of a presynaptic density (Supplementary Fig.

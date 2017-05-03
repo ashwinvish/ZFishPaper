@@ -180,7 +180,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Reb/SupFig2Rebuttal.pdf
+	filename Reb/Vishwanathan_et_al_SupFig2Rebuttal.pdf
 	display false
 	scale 70
 
@@ -223,10 +223,10 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-(E) (Top) Average profile from n=144 synaptic sites centered on the max
- of the intensity profiles through the density (Bottom) One hundred representati
-ve synapses.
+(E) One hundred representative synapses.
  The center pixel of each image is in the postsynaptic cell.
+ The synapses do not show many flat vesicles and the density tends to extend
+ into the presynaptic cell.
 \end_layout
 
 \end_inset
