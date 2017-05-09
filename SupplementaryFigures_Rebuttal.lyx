@@ -10,6 +10,7 @@
 \usepackage{booktabs}
 \renewcommand{\fnum@figure}{Figure S~\thefigure}
 \renewcommand{\fnum@table}{Table S~\thetable}
+\makeatletter\renewcommand{\@biblabel}[1]{[S\,#1]}\makeatother
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -290,6 +291,7 @@ status open
  based on 
 \begin_inset CommandInset citation
 LatexCommand citep
+before "S"
 key "Daie:2015fd,Lee:2015dv"
 
 \end_inset
@@ -1033,7 +1035,7 @@ NA
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "ZfishBib"
-options "unsrt"
+options "elsarticle-num"
 
 \end_inset
 

@@ -7,7 +7,9 @@
 \textclass article
 \begin_preamble
 \usepackage{lineno}
+%\usepackage{cell}
 \linenumbers
+\makeatletter\renewcommand{\@biblabel}[1]{#1.}\makeatother
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -46,7 +48,7 @@
 \use_package stmaryrd 1
 \use_package undertilde 1
 \cite_engine natbib
-\cite_engine_type numerical
+\cite_engine_type authoryear
 \biblio_style ustr
 \use_bibtopic false
 \use_indices false
@@ -76,7 +78,6 @@
 \html_css_as_file 0
 \html_be_strict false
 \author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
-\author 187266875 "Ashwin Vishwanathan"
 \end_header
 
 \begin_body
@@ -156,6 +157,10 @@ Computer Science Department
 \end_inset
 
 Princeton University, Princeton, NJ 08544
+\change_inserted 78966105 1494344064
+.
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
@@ -172,6 +177,10 @@ Department of Physiology and Biophysics,
 \end_inset
 
 Weill Cornell Medical College, New York, NY 10021
+\change_inserted 78966105 1494344068
+.
+\change_unchanged
+
 \begin_inset Newline newline
 \end_inset
 
@@ -184,8 +193,8 @@ Department of Molecular and Cellular Biology and Center for Brain Science,
 \end_inset
 
  Harvard University, Cambridge, MA 02138
-\change_deleted 78966105 1491329084
-
+\change_inserted 78966105 1494344070
+.
 \end_layout
 
 \begin_layout Abstract
@@ -321,12 +330,8 @@ Previous attempts to understand how the integrator neurons transforms eye
  electrophysiology with light-microscopic dye fills.
  Intracellular recordings in goldfish hindbrain neurons that exhibited spiking
  correlated to eye position, followed by anatomical dye fills, show the
- axons of these neurons
-\change_deleted 78966105 1487093612
- 
-\change_unchanged
- send collaterals to areas where other integrator neurons were observed
- 
+ axons of these neurons send collaterals to areas where other integrator
+ neurons were observed 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Aksay:2000cn"
@@ -379,15 +384,8 @@ key "Lee:2015dv"
 \end_layout
 
 \begin_layout Standard
-We combined two-photon calcium imaging and serial electron microscopy
-\change_deleted 78966105 1487093612
- 
-\change_unchanged
- to identify neurons in the neural integrator and reconstruct
-\change_inserted 78966105 1488234533
- 
-\change_unchanged
-the same neurons.
+We combined two-photon calcium imaging and serial electron microscopy to
+ identify neurons in the neural integrator and reconstruct the same neurons.
  We found evidence for multiple classes of neurons within the integrator
  population based on differences in dendritic arborization, axonal projections
  and synaptic distributions.
@@ -395,12 +393,8 @@ the same neurons.
  that are inferred to be excitatory, and neurons with contralaterally projecting
  axons at more caudal locations that are inferred to be inhibitory.
  In addition, we found neurons at the lateral most edge of the volume, for
- which we could not identify an axon, and a
-\change_deleted 78966105 1487093612
- 
-\change_unchanged
- previously unreported integrator neuron with both ipsilateral and contralateral
- axonal projections.
+ which we could not identify an axon, and a previously unreported integrator
+ neuron with both ipsilateral and contralateral axonal projections.
  We identified all chemical synapses in our images by the existence of presynapt
 ic vesicles and postsynaptic densities.
  Chemical synapses involving integrator neurons contained small vesicles,
@@ -561,16 +555,8 @@ key "Kimura:2006hd,Kinkhabwala:2011eta"
 \end_inset
 
 .
-
-\change_inserted 78966105 1487968626
- 
-\change_unchanged
-Previous work has show that at this depth (below the level of the Mauthner
- axon) 
-\change_inserted 78966105 1487618945
-the vast majority of integrator neurons are not 
-\change_unchanged
-glycinergic 
+ Previous work has show that at this depth (below the level of the Mauthner
+ axon) the vast majority of integrator neurons are not glycinergic 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dv"
@@ -682,24 +668,14 @@ We annotated 320 presynaptic (green circles, Fig.
  2) and 2195 postsynaptic sites (red circles, Fig.
  2) on the 22 integrator neurons.
  Synapses were identified by the presence of a presynaptic vesicle pool
- and an opposing postsynaptic density
-\change_inserted 78966105 1492798144
- (PSD)
-\change_unchanged
-.
+ and an opposing postsynaptic density (PSD).
  Synapses from or onto integrator neurons contained small vesicles, presumably
  containing a conventional neurotransmitter.
  Elsewhere in the volume we did identify synapses with dense core vesicles,
  presumably containing a peptide neurotransmitter (Sup.
  Fig.
  2A).
- 
-\change_deleted 187266875 1493829080
-At synaptic membranes 
-\change_inserted 187266875 1493829080
-We 
-\change_inserted 78966105 1493392096
-were unable to differentiate synaptic membranes as 
+ We were unable to differentiate synaptic membranes as 
 \emph on
 symmetric
 \emph default
@@ -707,36 +683,13 @@ symmetric
 \emph on
 asymmetric.
  
-\change_inserted 187266875 1493828907
-
 \emph default
-Symmetric synapses are associated with many flat vesicles, i
-\change_deleted 187266875 1493828855
-I
-\change_inserted 78966105 1493392096
-nstead
-\change_inserted 187266875 1493828876
- at synapses
-\change_inserted 78966105 1493392096
- we 
-\change_inserted 187266875 1493828939
-do not observe many vesicles that were flat.
-
-\change_inserted 78966105 1493392096
- 
-\change_inserted 187266875 1493829021
-Similarly, rather than observing a density that extended asymmetrically
- into the postsynaptic cell, we observe a 
-\change_inserted 78966105 1493392096
-presynaptic density
-\change_deleted 187266875 1493829033
- unlike the conventional mammalian notion
-\change_inserted 78966105 1493392096
- (Sup.
+Symmetric synapses are associated with many flat vesicles, instead at synapses
+ we do not observe many vesicles that were flat.
+ Similarly, rather than observing a density that extended asymmetrically
+ into the postsynaptic cell, we observe a presynaptic density (Sup.
  Fig.
  2E).
-\change_unchanged
-
 \end_layout
 
 \begin_layout Itemize
@@ -796,22 +749,15 @@ Along the somatic membrane, a darkening of the membrane interrupted by small
  These darkenings were visible between somata of integrator-integrator and
  integrator-non-integrator neurons.
  We speculate that these darkenings are some kind of cell junction.
- 
-\change_inserted 78966105 1487630312
-Although it has been shown that g
-\change_unchanged
-ap junctions exist in the developing larval zebrafish hindbrain 
+ Although it has been shown that gap junctions exist in the developing larval
+ zebrafish hindbrain 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Jabeen:2013fm"
 
 \end_inset
 
-
-\change_inserted 78966105 1487630339
-, we cannot be sure due to the image resolution
-\change_unchanged
-.
+, we cannot be sure due to the image resolution.
  
 \end_layout
 
@@ -969,31 +915,11 @@ key "GuemezGamboa:2014fp"
  In some cases, this primary cilium terminated inside processes that resembled
  glial like structures (Sup.
  Fig.
- 
-\change_inserted 78966105 1487630413
-2
-\change_deleted 78966105 1487630414
-4
-\change_inserted 78966105 1487630415
-C
-\change_deleted 78966105 1487630414
-A
-\change_unchanged
-).
+ 2C).
  Orientation of primary cilium in integrator neurons did not show any orientatio
 n preference (Sup.
  Fig.
- 
-\change_inserted 78966105 1492802605
-2
-\change_deleted 78966105 1492802606
-4
-\change_inserted 78966105 1492802607
-D
-\change_deleted 78966105 1492802606
-B
-\change_unchanged
-).
+ 2D).
  
 \end_layout
 
@@ -1080,13 +1006,7 @@ Neurons in this group had large dendritic arbors, with the dendrites arborizing
 \begin_inset Formula $p<2\times10^{-3}$
 \end_inset
 
-, 
-\change_inserted 78966105 1488303800
-T
-\change_deleted 78966105 1488303800
-t
-\change_unchanged
-test).
+, Ttest).
 \end_layout
 
 \begin_layout Standard
@@ -1121,13 +1041,7 @@ contra-only
 \begin_inset Formula $p<0.0003,$
 \end_inset
 
- 
-\change_inserted 78966105 1488303804
-T
-\change_deleted 78966105 1488303804
-t
-\change_unchanged
-test).
+ Ttest).
  
 \end_layout
 
@@ -1145,39 +1059,21 @@ The average dendritic length was
 \begin_inset Formula $p<0.003$
 \end_inset
 
-, 
-\change_inserted 78966105 1488303809
-T
-\change_deleted 78966105 1488303809
-t
-\change_unchanged
-test).
+, Ttest).
  The average diameter of dendrites significantly larger than the diameter
  of the axons (Fig.
  3F, 
 \begin_inset Formula $p<2\times10^{-6}$
 \end_inset
 
-, 
-\change_inserted 78966105 1488303812
-T
-\change_deleted 78966105 1488303812
-t
-\change_unchanged
-test).
+, Ttest).
  The diameter of dendrites of the contra-only neurons was significantly
  smaller to the ipsi-only group (Fig.
  3F, 
 \begin_inset Formula $p<0.005,$
 \end_inset
 
- 
-\change_inserted 78966105 1488303815
-T
-\change_deleted 78966105 1488303815
-t
-\change_unchanged
-test).
+ Ttest).
  
 \end_layout
 
@@ -1270,11 +1166,7 @@ Neurons from these three groups had on average,
 \begin_inset Formula $p=1.2\times10^{-10}$
 \end_inset
 
- 
-\change_inserted 78966105 1488304100
-KS
-\change_unchanged
-test).
+ KStest).
 \end_layout
 
 \begin_layout Standard
@@ -1285,17 +1177,7 @@ We further computed the synaptic density, the number of synapses per unit
  of postsynapses was found to closely match the location of dendritic arbors
  (Sup.
  Fig.
- 
-\change_inserted 78966105 1487630571
-4
-\change_deleted 78966105 1487630572
-6
-\change_inserted 78966105 1487630573
-E
-\change_deleted 78966105 1487630572
-A
-\change_unchanged
-).
+ 4E).
  We found the there were 
 \begin_inset Formula $\sim1.5\times$
 \end_inset
@@ -1442,13 +1324,7 @@ Of the 22 integrator neurons, six, rostrally located neurons had exclusively
  The axons and dendrites of these neurons display a planar organization,
  with axons oriented approximately orthogonal to the dendrites (Sup.
  Fig.
- 
-\change_inserted 78966105 1487630661
-4F
-\change_deleted 78966105 1487630660
-6D
-\change_unchanged
-).
+ 4F).
  The majority of input synapses onto the dendrites of these neurons lie
  along a plane approximately normal to the rostro-caudal (RC) axis.
  This suggests that these neurons are setup to broadly sample from axons
@@ -1530,28 +1406,20 @@ Our evidence suggest that at least two of the groups, the ipsilaterally
  and distributions of postsynapses along their dendrites.
  The ipsi-only group of neurons has approximately twice as many postsynaptic
  input sites as the contra-only only group.
- In both cases
-\change_inserted 78966105 1488304199
-,
-\change_unchanged
- initiation of the axons was from a neurite that contained postsynaptic
- sites that then gave rise to presynaptic sites.
+ In both cases, initiation of the axons was from a neurite that contained
+ postsynaptic sites that then gave rise to presynaptic sites.
  This feature could be important to influence the activity of neurons as
  these locations are proximal to the somata.
-
-\change_inserted 78966105 1488304183
 
 \color black
  The integration time constants of these neurons show graded levels of persisten
 t activity.
  Time constants of contralaterally projecting neurons were significantly
- different from the unkown projecting neurons, with the unknown projecting
+ different from the unknown projecting neurons, with the unknown projecting
  neurons showing faster dynamics (Sup.
  Fig.
  1D).
- 
-\change_unchanged
-Finally we note that distinguishing axons from dendrites using light microscopy
+ Finally we note that distinguishing axons from dendrites using light microscopy
  can prove erroneous, since the diameters of the axons and dendrites were
  very similar and close to the diffraction
 \color inherit
@@ -1649,11 +1517,7 @@ We are grateful to Juan Carlos Tapia, Richard Schalek and Ken Hayworth for
  Uygar Sümbül assisted with importing skeletons into MATLAB.
  We thank Heather Sullivan for tissue processing and optimization, Ashleigh
  Showler, Gurion Marks and Anjin Xianyu for assistance with reconstructions
- and alignment, 
-\change_inserted 78966105 1487968472
-Melanie Lee for sharing light microscopic images of neurons.
-
-\change_unchanged
+ and alignment, Melanie Lee for sharing light microscopic images of neurons.
  We benefited from helpful discussions with David Tank and Kanaka Rajan.
  HSS acknowledges funding from the Mathers Foundation, Gatsby Foundation,
  Human Frontier Science Program, NIH/NINDS award 5R01NS076467, and ARO MURI
@@ -1700,13 +1564,7 @@ Functional and structural imaging of integrator neurons.
 \end_inset
 
 (A) (a) Top - Larval zebrafish schematic showing the region where functional
- imaging was performed (black box) located in the hindbrain
-\change_inserted 78966105 1493386914
-.
-\change_deleted 78966105 1493386919
-, along with recording of eye-tracking behavior.
-\change_unchanged
-
+ imaging was performed (black box) located in the hindbrain.
 \begin_inset Newline newline
 \end_inset
 
@@ -1714,11 +1572,7 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
  OGB-1.
  Identified integrator neurons are show in colored circles.
  Colors reflect the level of persistence of the neuron.
- Scale bar
-\change_inserted 78966105 1488304642
- =
-\change_unchanged
- 
+ Scale bar = 
 \begin_inset Formula $20\mu m$
 \end_inset
 
@@ -1747,49 +1601,23 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
 \begin_inset Newline newline
 \end_inset
 
-(B) (Top) Serial-sections for electron microscopy were collected on 
-\change_inserted 78966105 1493387304
-a 
-\change_unchanged
-tape in an automated manner.
+(B) (Top) Serial-sections for electron microscopy were collected on a tape
+ in an automated manner.
  (Bottom left) Overview image of single section.
  The region-of-interest that corresponding to the functionally imaged area
- was defined by black box
-\change_deleted 78966105 1493387294
- 
-\change_unchanged
- for high-resolution imaging.
-
-\change_inserted 78966105 1493387321
- 
-\change_unchanged
-(Bottom right) All such images were aligned to generate a 3D EM volume.
+ was defined by black box for high-resolution imaging.
+ (Bottom right) All such images were aligned to generate a 3D EM volume.
 \begin_inset Newline newline
 \end_inset
 
-(C) Registration of 
-\change_inserted 78966105 1493387346
-light microscopic 
-\change_deleted 78966105 1493387337
-LM
-\change_unchanged
- volume to 
-\change_inserted 78966105 1493387357
-electron microscopic
-\change_deleted 78966105 1493387352
-EM
-\change_unchanged
- volume 
-\change_inserted 78966105 1493387384
-is used 
-\change_unchanged
-to locate the neurons that were involved in the behavior.
- Red arrows indicate the same features in both LM and EM.
- Scale bar
-\change_inserted 78966105 1488304645
- =
-\change_unchanged
+(C) Registration of light microscopic
+\change_deleted 78966105 1494276565
  
+\change_unchanged
+ volume to electron microscopic volume is used to locate the neurons that
+ were involved in the behavior.
+ Red arrows indicate the same features in both LM and EM.
+ Scale bar = 
 \begin_inset Formula $20\mu m$
 \end_inset
 
@@ -1848,11 +1676,7 @@ Ultrastructural features of Integrator neurons.
 \begin_inset Newline newline
 \end_inset
 
-(C) Integrator neuron with
-\change_deleted 78966105 1487093612
- 
-\change_unchanged
- contralateral projecting axon.
+(C) Integrator neuron with contralateral projecting axon.
  Putative contralateral axon emerges from somata and is engulfed by glial
  before crossing the midline.
  (EM insets at numbered locations G - Glia, A - Axon) Open arrowhead shows
@@ -1865,14 +1689,8 @@ Ultrastructural features of Integrator neurons.
  Putative axon is engulfed by glia before crossing the midline.(EM insets
  at numbered locations G - Glia, A - Axon).
  Bottom EM panel shows primary cilium highlighted with yellow arrow.
- 
-\change_deleted 78966105 1493387541
-Note a
-\change_inserted 78966105 1493387541
-A
-\change_unchanged
-ll the integrator somata in this volume give rise to a cilium, but it is
- shown for this neuron.
+ All the integrator somata in this volume give rise to a cilium, but it
+ is shown for this neuron.
 \begin_inset Newline newline
 \end_inset
 
@@ -1893,10 +1711,7 @@ Figure3:
  grouped according to their axonal projection patterns.
  Left, 6 integrator neuron with ipsilateral projecting axons - ipsi-only
  group, pink background.
- Middle, 9 integrator neurons with midline crossing contralateral
-\change_inserted 78966105 1493387673
-ly projecting
-\change_unchanged
+ Middle, 9 integrator neurons with midline crossing contralaterally projecting
  putative-axon – contra-only, orange background.
  Right, 6, integrator neurons with unknown axonal projection – unknown,
  blue background.
@@ -1906,20 +1721,13 @@ ly projecting
 \begin_inset Newline newline
 \end_inset
 
-(B) Box plot of the number of synapses in each group
-\change_inserted 78966105 1493387747
- (Ipsi-only, Contra-only and unknown, L to R)
-\change_unchanged
-.
+(B) Box plot of the number of synapses in each group (Ipsi-only, Contra-only
+ and unknown, L to R).
  Black line is the median (
 \begin_inset Formula $p=0.004$
 \end_inset
 
-,
-\change_deleted 78966105 1487968875
- 
-\change_unchanged
- Wilcoxn rank-sum test).
+, Wilcoxn rank-sum test).
 \begin_inset Newline newline
 \end_inset
 
@@ -1929,18 +1737,9 @@ ly projecting
 \end_inset
 
 (D) Normalized distribution of the synaptic pathlength.
- Red - postsynaptic sites, green - 
-\change_inserted 78966105 1493387786
-p
-\change_deleted 78966105 1493387786
-P
-\change_unchanged
-resynaptic sites.
- Black vertical lines, with adjoining 
-\change_deleted 78966105 1493387798
-colored 
-\change_unchanged
-numbers represent the means of the distribution.
+ Red - postsynaptic sites, green - presynaptic sites.
+ Black vertical lines, with adjoining numbers represent the means of the
+ distribution.
 \begin_inset Newline newline
 \end_inset
 
@@ -2000,13 +1799,9 @@ Figure4:
  the electron micrograph at two representative locations, colors in the
  inset are representative of the cells to which the synapses belong.
  
-\change_inserted 78966105 1491329430
-
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1493130209
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2014,27 +1809,19 @@ Figure4:
 \end_layout
 
 \begin_layout Section*
-
-\change_inserted 78966105 1492536669
 Star Methods Text
 \end_layout
 
 \begin_layout Subsection*
-
-\change_inserted 78966105 1491330285
 Method details
 \end_layout
 
 \begin_layout Subsubsection*
-
-\change_inserted 78966105 1491329926
 Two-photon calcium imaging.
  
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1491329926
 A 
 \emph on
 nacre
@@ -2073,8 +1860,6 @@ key "Brustein:2003ef,Smetters:1999jc"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1491329926
 The integrator neurons were identified in a manner similar to a previously
  described method 
 \begin_inset CommandInset citation
@@ -2118,15 +1903,11 @@ The time constants for the fits were capped at 100 sec.
 \end_layout
 
 \begin_layout Subsubsection*
-
-\change_inserted 78966105 1491329926
 Serial section electron microscopy.
  
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1492633453
 The animal was immersed in a fixative mixture of 2% paraformaldehyde and
  2.25% glutaraldehyde buffered in 65 mM cacodylate buffer.
  The skin over the hindbrain was removed for good ultrastructure preservation
@@ -2200,19 +1981,13 @@ key "hayworth_imaging_2014"
 
 .
  
-\change_unchanged
-
 \end_layout
 
 \begin_layout Subsubsection*
-
-\change_inserted 78966105 1493130269
 Registration of light microscope and electron microscope volumes
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1493130241
 The EM images were aligned using the TrakEM2 plugin in Fiji 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2231,8 +2006,6 @@ s.
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1491329926
 To locate the cells that were involved in the integrator circuit, we made
  use of the fact that large, gross morphological features were easily identified
  in both the LM and EM stacks.
@@ -2255,15 +2028,11 @@ key "Cardona:2012kf"
 \end_layout
 
 \begin_layout Subsubsection*
-
-\change_inserted 78966105 1491329926
 Reconstructions
 \end_layout
 
 \begin_layout Standard
 \paragraph_spacing single
-
-\change_inserted 78966105 1492806644
 The reconstruction of the identified neurons was performed using the TrakEM2
  plugin in Fiji/ImageJ.
  One expert (AV) traced all neurons and annotated all pre- and postsynaptic
@@ -2280,8 +2049,6 @@ The reconstruction of the identified neurons was performed using the TrakEM2
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1493386042
 A more detailed second round of tracing was then carried out using a more
  accurate semi-automated reconstruction method similar to the `eyewire'
  platform (http://eyewire.org).
@@ -2304,13 +2071,9 @@ ructed.
  Similarly, at locations where the neurites are very thin, we can often
  reconstruct all the neurites abutting the neurite being traced to eliminate
  false positives, 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1493386484
 Since the section thickness was 45nm, neurites that were parallel to the
  cutting plane were sometimes hard to follow during reconstruction.
  This typically leads to problems when tracing very thin neurites (typically
@@ -2323,13 +2086,9 @@ Since the section thickness was 45nm, neurites that were parallel to the
  plane, or deteriorated ultrastructure (due to electroporation, poor fixation,
  or possibly developmental pruning of axons).
  In truly ambiguous locations, we err on the side of undertracing.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1491329926
 The skeletonized tree structure was exported from TrakEM2 as *.swc files.
  These trees were then imported into Matlab using custom scripts to import
  .swc files as trees.
@@ -2348,8 +2107,6 @@ key "Longair:2011hr"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1492634315
 One neuron had axons with both ipsilateral and contralateral projections
  (Sup.
  Fig.
@@ -2368,14 +2125,10 @@ ipsi-only group.
 \end_layout
 
 \begin_layout Subsection*
-
-\change_inserted 78966105 1491330407
 Quantification and Statistical Analysis
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1493129844
 All tree lengths are reported as pathlengths unless noted otherwise.
  Similarly, all lengths to a pre- or postsynaptic site are reported as pathlengt
 hs.
@@ -2398,27 +2151,14 @@ collateral
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1493130113
 The diameter of the axon and dendrites for each tree was generated by drawing
  a line segment along the cross-section at random locations along the tree.
  Many such line segments were drawn across the entire extent of the tree.
  The values are reported as a mean across all dendrites and axons.
- Synapses thickness was calculated by drawing a line from the presynaptic
- side to the postsynaptic side.
- The intensity profile along this line was generated from synapses chosen
- by random.
- All profiles were then centered at the peaks before normalizing.
- The area under this curve was then calculated using the 
-\emph on
-trapz
-\emph default
- function in Matlab.
+ 
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1491329926
 Arbor densities of the dendrites was computed by projecting all the axonal
  or dendritic nodes along the desired plane and reported in a normalized
  scale.
@@ -2445,8 +2185,6 @@ function, available on the Matlab central repository.
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1493131192
 To locate the border of r6/7 we followed a similar approach that was performed
  previous using light microscopic imaging and the expression of the 
 \emph on
@@ -2488,25 +2226,17 @@ key "Daie:2015fd,Lee:2015dv"
 \end_layout
 
 \begin_layout Subsection*
-
-\change_inserted 78966105 1492536802
 Data and Software availability
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 78966105 1492537556
 All reconstruced neuron traces will be uploaded to the 
 \begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1492537545
-
 neuromorpho.org
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -2519,16 +2249,1126 @@ status open
 
 \begin_layout Plain Layout
 
-\change_inserted 78966105 1492537557
-
 treestoolbox.org
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
 .
+\change_inserted 78966105 1494343953
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+
+\change_inserted 78966105 1494343988
+Supplementary information for Vishwanathan et al.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1494343988
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Graphics
+	filename Reb/SupFig1Rebuttal.png
+	display false
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+(A) (Left) Graded levels of persistent activity.
+ (Right panels) Spatial distribution of integrator time constants along
+ the rostrocaudal, mediolateral and dorsoventral axis respectively.
+ 
+\begin_inset Formula $R$
+\end_inset
+
+ values are Pearson coorelation coeffecients.
+ Colors represent the group that the neurons belong to.
+ (Pink - ipsi only, Green - ipsi-contra, Orange - contra only and Blue -
+ unknown).
+\begin_inset Newline newline
+\end_inset
+
+(B) (Left) Variation of somata size of the integrator neurons.
+ Effect of somata size on integrator time constants.
+ (Right two) Correlations between number and density of postsynaptic (input)
+ sites to integrator time constants.
+ 
+\begin_inset Formula $R$
+\end_inset
+
+ values are Pearson coorelation coeffecients.
+\begin_inset Newline newline
+\end_inset
+
+(C) Two functionally imaged planes with integrator neurons circled in red.
+ Black boxes are representative areas where corresponding EM images are
+ shown as insets.
+ Insets are representative EM locaiton, after registration, with the functionall
+y identified cells circled in black.
+\begin_inset Newline newline
+\end_inset
+
+(D) Box plot of integrator time constants for all cells in assigned groups.
+ Black line is the median.
+ 
+\begin_inset Formula $P$
+\end_inset
+
+ values reported from Kolmogorov-Smirinov test.
+\begin_inset Newline newline
+\end_inset
+
+(E) Diameter profiles along an example ipsi-only (top) and contra-only (bottom)
+ integrator neuron.
+ Color of each dot represents the thickness of the neurite at that location.
+ Large grey circle represents the somata of the cell.
+ All thin neurites are dendritic and all thick neurites are axonal.
+ Scale bar = 20
+\begin_inset Formula $\mu m.$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1494343988
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Graphics
+	filename Reb/Vishwanathan_et_al_SupFig2Rebuttal.pdf
+	display false
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+(A) Examples of types of synapses in the imaged volume.
+ Closed arrows show conventional synapses and open arrows shows dense core
+ vesicles within the same bouton.
+\begin_inset Newline newline
+\end_inset
+
+(B) Successive images of cellular junctions between cell somata.
+ Closed arrow head shows cell junctions indicated by darkening of the membrane
+ at the same location in multiple sections.
+ Open arrows show the separation of the membrane by the lack of darkening.
+ Scale bar = 500nm.
+\begin_inset Newline newline
+\end_inset
+
+(C) Primary cilium of integrator neuron.
+ The primary cilium is visible over multiple sections as seen by presence
+ of ordered microtubules that emerges very close to the Golgi complex of
+ the cells.
+\begin_inset Newline newline
+\end_inset
+
+(D) Orientation of primary cilium, centered at the somata.
+ Black arrow show the beginning of the cilium.
+ Distance of concentric rings is in microns.
+ Colors represent the group that the neuron belongs to.
+ (Pink - ipsi only, Green - Ipsi-contra, Orange - contra only and Blue -
+ unknown).
+\begin_inset Newline newline
+\end_inset
+
+(E) One hundred representative synapses.
+ The center pixel of each image is in the postsynaptic cell.
+ The synapses do not show many flat vesicles and the density tends to extend
+ into the presynaptic cell.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1494343988
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Graphics
+	filename Reb/Vishwanathan_et_al_SupFig3Rebuttal.pdf
+	display false
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+(A) Location of abducens nuclei from low-res EM images.
+ The frames are ordered from medial to lateral, 
+\begin_inset Formula $10\mu m$
+\end_inset
+
+ apart.
+ Red circles (dotted line) show the potential location of both abducens
+ nuclei.
+ Green arrow shows the location of the inferior olive.
+ MA -Mauthner Axon.
+ Rhombomeres r4-7 were identified based on the location of the reticulo-spinal
+ cells (Black star - MCell, red star - Mi2, blue star - Mi3 and green star
+ - Ca).
+ Scale bar 
+\begin_inset Formula $20\mu m$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(B) (Top) Lateral view of two ipsilaterally projecting integrator neurons
+ with axonal projections towards the abducens nuclei.
+ The axons project to the same depth as the abducens nuclei (dotted horizontal
+ black line).
+ Black dotted line is the border between r6 and r7, with tilt calculated
+ based on 
+\begin_inset CommandInset citation
+LatexCommand citep
+before "S"
+key "Daie:2015fd,Lee:2015dv"
+
+\end_inset
+
+.
+ (Bottom) Dotted white line is 50
+\begin_inset Formula $\mu m$
+\end_inset
+
+ ventral to the Mauthner axon plane showing corresponding region from top
+ panel.
+ Potential abducens nerve was identified as dark myelinated axon exiting
+ the volume ventrally.
+ Scale bar = 
+\begin_inset Formula $20\mu m$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+(C) Depth stratification of ipsi-contra and unknown projecting groups.
+ For each panel, below the trace of all neurons is the stratification of
+ the dendrites (red) and axons (green) along the mediolateral axis.
+ To the right is the stratification along the dorsoventral axis.
+ Black dotted line are the locations of the stripes from figure 1.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1494343988
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Graphics
+	filename Reb/Vishwanathan_et_al_SupFig4Rebuttal.pdf
+	display false
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+(A) Three views of one integrator neuron that had both ipsilateral and contralat
+eral projections.
+\begin_inset Newline newline
+\end_inset
+
+(B) Convex hulls of all neurons color coded by the group.
+ Colored circle is location of somata.
+ (Pink - ipsi only, Green - ipsi-contra, Orange - contra only and Blue -
+ unknown).
+\begin_inset Newline newline
+\end_inset
+
+(C) Convex hull volume of dendrites of integrator neurons.
+\begin_inset Newline newline
+\end_inset
+
+(D) Distribution of the convex hull volume of the integrator cells.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(E) Distribution of the normalized postsynaptic pathlength and the distribution
+ of the normalized dendritic pathlength.
+ Background color (Pink - ipsi only, Green - Ipsi-contra, Orange - contra
+ only and Blue - unknown).
+\begin_inset Newline newline
+\end_inset
+
+(F) Angle between best fit planes of axons (green) and dendrites (red) of
+ ipsi-only neurons.
+\begin_inset Newline newline
+\end_inset
+
+(G) Example traces of integrator neurons with ipsilateral projecting axons
+ from light microscopic (LM) dye fills from 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee:2015dv"
+
+\end_inset
+
+, that were used for comparison with EM cells.
+\begin_inset Newline newline
+\end_inset
+
+(H) (Left, two panels) Collateral path length of all EM, LM cells respectively.
+ Grey circles are values for each cell, and red circle with line is the
+ mean
+\begin_inset Formula $\pm$
+\end_inset
+
+standard deviation.
+ (Right, two panels) Number of collaterals and total pathlength of collaterals
+ for EM and LM traces.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(I) Spatial overlap of axons and dendrite from each group.
+ Green circle - location of somata of presynaptic neuron ( location of neuron
+ with axon), red circle - location of somata of postsynaptic neuron.
+\begin_inset Newline newline
+\end_inset
+
+(J) Box plot with actual overlapping area for neuron pairs from (I).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\change_inserted 78966105 1494343988
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1494343988
+\begin_inset Float table
+wide false
+sideways true
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\change_inserted 78966105 1494343988
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="9">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="2cm">
+<column alignment="center" valignment="middle" width="1cm">
+<column alignment="center" valignment="middle" width="2.5cm">
+<column alignment="center" valignment="middle" width="2.5cm">
+<column alignment="center" valignment="middle" width="2.5cm">
+<column alignment="center" valignment="middle" width="1.75cm">
+<column alignment="center" valignment="middle" width="1.75cm">
+<column alignment="center" valignment="middle" width="1.75cm">
+<column alignment="center" valignment="middle" width="2.5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+Cell group
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+# Cells
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+Average
+\begin_inset Newline newline
+\end_inset
+
+ length (
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+Average axonal length (
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+Average dendritic
+\begin_inset Newline newline
+\end_inset
+
+ length (
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+Convex hull volume
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+(
+\begin_inset Formula $\mu m^{3}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+Axon diameters
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+(
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+Dendrite diameter
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+(
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+Axon initiation site (
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+Ipsi.
+ only
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $648.8\pm160.42$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $260.15\pm146.1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $388.65\pm59.98$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $3.08\times10^{5}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $0.21\pm0.15$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $0.25\pm0.15$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $99.62\pm54.83$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+Ipsi-contra.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $838.66$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $292.89$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $545.76$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $0.486\times10^{5}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $0.2\pm0.11$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $0.21\pm0.12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $63.31$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+Contra.
+ only
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $359.59\pm58.86$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $66.94\pm14.71$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $292.65\pm65.25$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $1.09\times10^{5}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $0.16\pm0.08$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $0.22\pm0.12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $22.35\pm21.69$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+unknown
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $221.47\pm48.7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+NA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $221.47\pm48.7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $0.67\times10^{5}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+NA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+\begin_inset Formula $0.22\pm0.12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\change_inserted 78966105 1494343988
+ Anatomical features of integrator neurons
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1494343988
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1494343988
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 78966105 1494343988
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "ZfishBib"
+options "elsarticle-num"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
