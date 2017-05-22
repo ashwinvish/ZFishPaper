@@ -1,0 +1,280 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass scrlttr2
+\begin_preamble
+\date{}
+\usepackage{scrpage2}
+\pagestyle{scrheadings}
+\cfoot[scrplain-centered ]{}
+\makeatletter
+% horizontal position of the address field
+\@setplength{toaddrhpos}{25.4mm}
+% vertical position of the address field
+\@addtoplength{toaddrvpos}{20mm}
+\makeatother
+\renewcommand*{\raggedsignature}{}
+\makeatletter
+% vertical position of ref line (date)
+\@setplength{refvpos}{6.5cm}
+% space between ref line and letter text
+\@setplength{refaftervskip}{4cm}
+% space for signature image
+\@setplength{sigbeforevskip}{0mm}
+\makeatother
+\firsthead{\centering\usekomavar{fromlogo}\hspace*{8cm}}
+\ihead{\usekomavar{toname}\\%
+Page \thepage\\\usekomavar{date}}
+\KOMAoptions{%
+foldmarks=false
+}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "palatino" "default"
+\font_sans "helvet" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family sfdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.54cm
+\topmargin 4cm
+\bottommargin 2.54cm
+\headsep 1.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Logo
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="top">
+<column alignment="left" valignment="top" width="4in">
+<column alignment="right" valignment="bottom" width="2in">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/seung/Archive/Images/PNI-logo.png
+	width 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family sans
+\size scriptsize
+Princeton University, Princeton, NJ 08544
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="bottom" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+\align right
+
+\family sans
+\series bold
+\size scriptsize
+Sebastian Seung
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align right
+
+\size scriptsize
+Anthony B.
+ Evnin '62 Professor
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align right
+
+\family sans
+\size scriptsize
++1-609-258-7713
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align right
+
+\family sans
+\size scriptsize
+sseung@princeton.edu
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Signature
+\begin_inset Graphics
+	filename /Users/seung/Archive/Images/SignatureFirstName.png
+	width 1.3in
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Anthony B.
+ Evnin '62 Professor
+\begin_inset Newline newline
+\end_inset
+
+Neuroscience Institute and Computer Science Department
+\end_layout
+
+\begin_layout Date
+December 21, 2016
+\end_layout
+
+\begin_layout Address
+Geoffrey North
+\begin_inset Newline newline
+\end_inset
+
+Editor
+\begin_inset Newline newline
+\end_inset
+
+Current Biology
+\end_layout
+
+\begin_layout Opening
+Dear Geoff:
+\end_layout
+
+\begin_layout Standard
+We are pleased to submit our paper 
+\begin_inset Quotes eld
+\end_inset
+
+Electron microscopic reconstruction of functionally identified cells in
+ a neural integrator
+\begin_inset Quotes erd
+\end_inset
+
+ for publication as a Report.
+ Our submission has four figures.
+ It is somewhat over the normal word count.
+ We believe this will facilitate evaluation by reviewers, and can always
+ shorten if the paper is accepted.
+\end_layout
+
+\begin_layout Standard
+We think our work is appropriate for 
+\emph on
+Current Biology
+\emph default
+, because of general interest in two-photon calcium imaging combined with
+ serial electron microscopy (EM) as a powerful method for investigating
+ the structure and function of neural circuits.
+ As you know, this method is still in its infancy, and has previously only
+ been applied to study neurons that encode stimulus variables (in mouse
+ retina and primary visual cortex).
+ Here we apply this method to a population of neurons defined by their encoding
+ of 
+\emph on
+behavioral
+\emph default
+ variables.
+ We focus on neurons carrying eye position signals, which are located in
+ a hindbrain neural circuit known as the "velocity-to-position neural integrator
+," or "neural integrator" for short.
+\end_layout
+
+\begin_layout Standard
+Our study is in the larval zebrafish, and so fits in well with a number
+ of other papers published by your journal on circuit neuroscience in this
+ model organism, as well as with papers on mouse retinal circuitry.
+\end_layout
+
+\begin_layout Standard
+As possible referees, we suggest those who have worked on calcium imaging
+ in larval zebrafish, such as Joe Fetcho, Florian Engert, Herwig Baier,
+ Kevin Briggman, Misha Ahrens, and Johann Bollmann.
+ 
+\end_layout
+
+\begin_layout Closing
+Sincerely,
+\end_layout
+
+\end_body
+\end_document
