@@ -6,8 +6,8 @@
 \origin unavailable
 \textclass article
 \begin_preamble
-\usepackage{lineno}
-\linenumbers
+%\usepackage{lineno}
+%\linenumbers
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -180,9 +180,20 @@ Weill Cornell Medical College, New York, NY 10021.
 \begin_inset Formula $^{4}$
 \end_inset
 
-Department of Molecular and Cellular Biology and Center for Brain Science,Harvar
-d University, Cambridge, MA 02138.
-\change_inserted 78966105 1494859201
+Department of Molecular and Cellular Biology and Center for Brain Science,
+\change_inserted 78966105 1495489584
+
+\begin_inset Newline newline
+\end_inset
+
+
+\change_unchanged
+Harvard University, Cambridge, MA 02138.
+\change_inserted 78966105 1495489623
+
+\begin_inset Newline newline
+\end_inset
+
 
 \end_layout
 
@@ -447,7 +458,7 @@ key "Miri:2011ft"
 .
  Neurons were identified as integrator neurons if saccade-triggered eye
  position following an ipsiversive saccade (Fig.
- 1A,b arrow) was correlated with saccade-triggered average fluorescence
+ 1A, b arrow) was correlated with saccade-triggered average fluorescence
  (Fig.
  1A,c first column) (Pearson coefficient 
 \begin_inset Formula $>0.6$
@@ -459,8 +470,8 @@ key "Miri:2011ft"
 d from a deconvolution of the fluorescence data (Fig.
  1A, c, dotted line, extend methods).
  This resulted in the identification of 22 integrator neurons with graded
- levels of persistence (Sup Fig.
- 1A, B).
+ levels of persistence ( Fig.
+ S1 A, B, C).
  
 \end_layout
 
@@ -491,12 +502,12 @@ Following functional identification of integrator neurons, the tissue was
 .
  The LM and EM volumes were registered to each other by an affine transform,
  producing correspondence of labeled neurons and blood vessels (Fig.
- 1C, Sup.
- Fig.
- 1C, Methods).
+ 1C, Fig.
+ S1 D, Methods).
  The soma of all 22 integrator neurons from the LM volume were located in
  the EM volume, distributed throughout the caudal hinbrain and along the
- border between rhombomeres 6 and 7(Fig 1D, colored by time constants).
+ border between rhombomeres 6 and 7(Fig.
+ 1D, colored by time constants).
  
 \end_layout
 
@@ -641,10 +652,6 @@ Somata
 The somatic locations of the 22 integrator neurons were distributed over
  ~23 µm in the dorsoventral axis and along the entire rostrocaudal extent
  of the imaged volume.
-
-\change_deleted 78966105 1495121178
- 
-\change_unchanged
  The somata of integrator neurons associated with S1 were located very close
  to the midline and close the rostral edge of the imaged volume, close to
  the border of rhombomeres 6,7.
@@ -660,9 +667,8 @@ The somatic locations of the 22 integrator neurons were distributed over
  (mean ± standard deviation).
  In general, the size of the somata was proportional to the persistence
  level of the neurons, with larger neurons exhibiting higher degree of persisten
-ce (Sup.
- Fig.
- 1B (right), Pearson coefficient = 0.4, 
+ce (Fig.
+ S1 B (right), Pearson coefficient = 0.4, 
 \begin_inset Formula $p$
 \end_inset
 
@@ -688,9 +694,8 @@ We annotated 320 presynaptic (green circles, Fig.
  Synapses from or onto integrator neurons contained small vesicles, presumably
  containing a conventional neurotransmitter.
  Elsewhere in the volume we did identify synapses with dense core vesicles,
- presumably containing a peptide neurotransmitter (Sup.
- Fig.
- 2A).
+ presumably containing a peptide neurotransmitter (Fig.
+ S2 A).
  We were unable to differentiate synaptic membranes as 
 \emph on
 symmetric
@@ -703,14 +708,9 @@ asymmetric.
 Symmetric synapses are associated with many flat vesicles, instead at synapses
  we did not observe many vesicles that were flat.
  Similarly, rather than observing a density that extended asymmetrically
- into the postsynaptic cell, we observe a presynaptic density
-\change_inserted 1739810942 1494796664
- (makes it sound like there is no post-synaptic density.
- Anyway, can you really discern between a pre and post synaptic density
-\change_unchanged
- (Sup.
- Fig.
- 2E).
+ into the postsynaptic cell, we observe a more diffuse density that extended
+ into the presynaptic neuron ( Fig.
+ S2 E).
 \end_layout
 
 \begin_layout Itemize
@@ -720,36 +720,19 @@ Integrator presynaptic sites
 \begin_layout Standard
 The presynaptic site was generally at a varicosity in the axon with vesicles
  throughout.
- 
-\change_deleted 78966105 1494879818
-Opposing thesynaptic density, a
-\change_inserted 78966105 1494879818
-A
-\change_unchanged
- small, denser cluster of vesicles was typically observed
-\change_deleted 78966105 1494879826
-, 
-\change_unchanged
-along with the synaptic density
-\change_inserted 78966105 1494879842
-.
-
-\change_unchanged
+ A small, denser cluster of vesicles was typically observedalong with the
+ synaptic density.
  These features are consistent with the idea of a presynaptic active zone.
  The number of presynaptic sites on a neuron averaged 
-\begin_inset Formula $62.3\pm39.2$
+\begin_inset Formula $57.6\pm45.3$
 \end_inset
 
 .
  This is an underestimate of the number of output synapses from an integrator
- neuron, because most 
-\change_inserted 1739810942 1494796433
-[quantify] 
-\change_unchanged
-axonal arbors were cut off by the borders of the volume.
- If statistics are restricted to the 3 neurons that were more complete than
- others, there were 
-\begin_inset Formula $84\pm48.5$
+ neuron, because all axonal arbors were cut off by the borders of the volume.
+ If statistics are restricted to the 3 longest neurons that were more complete
+ than others, there were 
+\begin_inset Formula $82\pm49.3$
 \end_inset
 
  presynaptic sites.
@@ -779,9 +762,8 @@ Cell Junctions
 
 \begin_layout Standard
 Along the somatic membrane, a darkening of the membrane interrupted by small
- gaps was often observed (Sup.
- Fig.
- 2B).
+ gaps was often observed (Fig.
+ S2 B).
  The darkening persisted over multiple serial sections, suggesting that
  it was not an artifact of tissue preparation or imaging.
  These darkenings were visible between somata of integrator-integrator and
@@ -830,14 +812,10 @@ We defined axons as neurites with a) presynaptic vesicles or b) for cases
  2, showing the dendrite (neurite with red postsynaptic sites) turning into
  axons at the axon initiation (open arrow).
  The main trunk of the axon extended rostrally and ventrally (Fig.
- 2 A, B).
+ 2A, B).
  From the main trunk emerged mediolateral branches, which we will term collatera
-ls.
- Those at the rostral extreme of the volume appeared to overlap with the
- expected location of the abducens motor nucleus (based on its known position
- within rhombomere r5, 6 Sup.
- Fig.
- 3A ), with terminations in r4 as well.
+ls (the number of collaterals we observed were similar to numbers with light
+ microscopy, unpublished) .
  
 \end_layout
 
@@ -879,10 +857,18 @@ In 10/22 (45%) integrator neurons, the presence of a contralaterally projecting
  we relied on several other features for axon determination.
  First, the putative axons were devoid of any postsynaptic sites on the
  ipsilateral side (Fig.
- 2 B, D open arrow to end, no synapses).
+ 2
+\change_deleted 78966105 1495468952
+ 
+\change_unchanged
+B, D open arrow to end, no synapses).
  Second, before crossing the midline, the putative axon became engulfed
  by processes that appeared glial in nature (Fig.
- 2 C, D, EM inset, label G).
+ 2
+\change_deleted 78966105 1495468949
+ 
+\change_unchanged
+C, D, EM inset, label G).
  The glial engulfment is consistent with the idea of `glial bridges` that
  are instrumental in the guidance of axons during development 
 \begin_inset CommandInset citation
@@ -895,8 +881,7 @@ key "Barresi:2005iw"
  Third, these putative axons were thinner than the remaining neurites of
  the neuron.
  The diameter of these putative axons were smaller to the other neurites
- and were similar to the diameters of conventional axons (Sup.
- Fig.
+ and were similar to the diameters of conventional axons (Fig.
  3F).
  The mean axonal diameter was less than the mean dendrite diameter, conforming
  to the textbook notion that axons are thinner than dendrites.
@@ -1019,10 +1004,13 @@ en passant
 \end_inset
 
 .
+ Axons at the rostral extreme of the volume appeared to overlap with the
+ expected location of the abducens motor nucleus (based on its known position
+ within rhombomere r5, 6 Fig.
+ S3 A ), with terminations in r4 as well.
  Two of the six axons had projections that terminate near the site of the
- abducens motor nuclei and project further rostrally (Sup.
- Fig.
- 3B) .
+ abducens motor nuclei and project further rostrally ( Fig.
+ S3 B) .
  None of the axons were observed emerging directly from the somata.
  Instead, dendrites bearing postsynaptic sites turned into axons with presynapti
 c sites, with the axon initiation site was on average located 
@@ -1030,14 +1018,14 @@ c sites, with the axon initiation site was on average located
 \end_inset
 
  from the somata.
- Finally, all but one of the somatas were located medial to stripe1.
+ Finally, all but one of the somatas were located medial to stripe S1.
+ 
 \end_layout
 
 \begin_layout Standard
 Neurons in this group had large dendritic arbors, with the dendrites arborizing
- over 22.5% of the total imaged volume (Sup.
- Fig.
- 4, B, C, D).
+ over 22.5% of the total imaged volume (Fig.
+ S4 A, B, C).
  The dendrites emerged laterally from somata and always extended ventrally.
  Only in one case the dendrites were observed to cross the midline, as indicated
  by the presence of postsynaptic sites confirming it as a dendrite (Fig.
@@ -1086,7 +1074,7 @@ contra-only
 \end_inset
 
  Ttest).
- The somata of these neurons were located close to stripe2.
+ The somata of these neurons were located close to stripe S2.
 \end_layout
 
 \begin_layout Standard
@@ -1095,9 +1083,8 @@ The average dendritic length was
 \end_inset
 
 , and the dendritic arbors of these neurons arborized over 8% of the total
- volume (Sup.
- Fig.
- 4 B, C, D).
+ volume ( Fig.
+ S4 A, B, C).
  This was significantly smaller than the dendritic arbors of ipsi-only group
  (
 \begin_inset Formula $p<0.01$
@@ -1147,19 +1134,27 @@ unknown
 \begin_inset Formula $\sim220\mu m$
 \end_inset
 
-, and they occupied on average ~4.9% of the total volume (Sup.
- Fig.
- 4 B, C, D).
+, and they occupied on average ~4.9% of the total volume (Fig.
+ S4 A, B, C).
  
 \end_layout
 
 \begin_layout Standard
-Finally one integrator neuron did not fit into any of these three groups,
- its axon had both an ipilateral and contralateral projection and it was
- located close to stripe2 (Sup.
- methods, Sup.
+Finally one neuron had axons with both ipsilateral and contralateral projections
+ (Sup.
  Fig.
- 4A).
+ 4D).
+ This integrator neurons was located more lateral to the neurons from 
+\emph on
+ipsi-only group.
+
+\emph default
+ The ipsilaterally projecting axon resembled the axons of the ipsi-only
+ group of neurons (Fig.
+ 3A), with similar tilt in the rostro-caudal axis.
+ This neuron contained a neurite that crossed the midline.
+ We infer that this neurite is a putative contralaterally projecting axon
+ based on the same cues that we use to identify other putative axons.
 \end_layout
 
 \begin_layout Subsection*
@@ -1221,9 +1216,8 @@ We further computed the synaptic density, the number of synapses per unit
  group were uniformly distributed along dendrites.
  The uniformity assumption was made because the distributions of the locations
  of postsynapses was found to closely match the location of dendritic arbors
- (Sup.
- Fig.
- 4E).
+ (Fig.
+ S4 E).
  We found the there were 
 \begin_inset Formula $\sim1.5\times$
 \end_inset
@@ -1275,11 +1269,7 @@ We further computed the synaptic density, the number of synapses per unit
 \end_layout
 
 \begin_layout Subsection*
-Planar organization of synapses
-\change_deleted 78966105 1495120635
- 
-\change_unchanged
-
+Planar organization of synaptic locations
 \end_layout
 
 \begin_layout Standard
@@ -1301,26 +1291,25 @@ The postsynaptic sites of the neurons from the ipsi-only and contra-only
 \end_layout
 
 \begin_layout Standard
-The dendritic arbors and postsynaptic sites of the neurons in these two
- groups displayed an inversion in the stratification depths.
+The dendritic arbors and postsynaptic sites of neurons in these two groups
+ displayed an inversion in the stratification depths.
  The dendritic arbors of the ipsi-only neurons on average were most abundant
  at 
-\begin_inset Formula $38.1\pm8.2\mu m$
+\begin_inset Formula $41.66\pm9.3\mu m$
 \end_inset
 
  ventral to its somata (Fig.
- 4B,top - pink line).
+ 4B, top - pink line).
  Whereas the contra-only group was maximal around 
-\begin_inset Formula $12.2\pm8.2\mu m$
+\begin_inset Formula $21.1\pm6.9\mu m$
 \end_inset
 
  ventral to its somata (Fig.
  4B, bottom - orange line).
-
-\change_deleted 78966105 1495120687
- 
-\change_inserted 78966105 1495120678
-
+ The number of postsynaptic sites closely followed this inversion.
+ Although relative to the bottom of the cranium, because many of the contra-only
+ cells are more caudal and the brain is shallower, the depth profile may
+ not be that different when viewed from a different origin.
 \end_layout
 
 \begin_layout Standard
@@ -1328,39 +1317,11 @@ Interestingly, when we overlaid the stripe patterns computed previously
  in Fig.
  1D with the stratification profiles of thesynaptic sites along the medio-latera
 l axis, we found that the post and presynaptic sites of the ipsi-only group
- was located medial to
-\change_deleted 78966105 1495120620
- 
-\change_unchanged
- S1 and lateral to S2 stripes , whereas the postsynaptic sites of the contra-onl
-y group were located very close the intermediate S2 stripe.
- Similar loose organization was observed for the other group of neurons
- (Sup.
- Fig.
- 3C).
-\change_inserted 78966105 1495120758
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 78966105 1495120795
- [I think you should note here though that relative to the bottom of the
- cranium the picture is a little different - thus, because many of the contra
- cells are more caudal and the brain is shallower, the depth profile may
- not be that different when viewed from a different origin.
- - which is why the peak straticfication is reported relative to the somata.
- - Ashwin
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
+ was located medial to stripe S1 and lateral to S2 , whereas the postsynaptic
+ sites of the contra-only group were located very close the intermediate
+ stripe S2.
+ Similar organization was observed for the other group of neurons (Fig.
+ S4 F).
 \end_layout
 
 \begin_layout Subsection*
@@ -1369,35 +1330,20 @@ Connectivity between integrator neurons
 
 \begin_layout Standard
 We also examined the patterns of connectivity between integrator neurons.
- We found that there exists varying amounts of overlap of the axons of the
- ipsilaterally projecting neurons (Sup.
- Fig.
- 4I) with the dendrites of all other neurons in the volume.
- Specifically, the overlap at ventro-rostral locations were from axons of
- ipsi-only neurons onto dendrites of other ipsi-only neurons (Sup.
- Fig.
- 4I Ipsi–>Contra).
- Whereas, the overlap at dorso-caudal locations were from axons of ipsi-only
- neurons onto dendrites of contra-only and unknown group of neurons (Sup.
- Fig.
- 4I).
-
-\change_inserted 78966105 1495120879
- 
-\change_unchanged
-
-\end_layout
-
-\begin_layout Standard
-Furthermore, we found 6 synapses between integrator neurons.
- Two synapses made by one ipsi-only neuron onto another, and 4 synapses
- onto three contra-only neurons (Fig.
+ We found 6 synapses between integrator neurons.
+ Two synapses made by one ipsi-only neuron onto another ipsi-only neuron,
+ and 4 synapses onto three contra-only neurons (Fig.
  4C).
-
-\change_inserted 1739810942 1494799610
- (what about the rest of the supplemental figure?
-\change_unchanged
-
+ We found that there exists varying amounts of overlap of the axons of the
+ ipsilaterally projecting neurons (Fig.
+ S4 H) with the dendrites of all other neurons in the volume.
+ Specifically, the overlap at ventro-rostral locations were from axons of
+ ipsi-only neurons onto dendrites of other ipsi-only neurons (Fig.
+ S4 H, Ipsi–>Ipsi).
+ Whereas, the overlap at dorso-caudal locations were from axons of ipsi-only
+ neurons onto dendrites of contra-only and unknown group of neurons (Fig.
+ S4 H, Ipsi–>Contra, Ipsi->unknown).
+ 
 \end_layout
 
 \begin_layout Section*
@@ -1423,17 +1369,11 @@ r neurons.
 \end_layout
 
 \begin_layout Standard
-Of the 22 integrator neurons, six
-\change_inserted 78966105 1494860452
+Of the 22 integrator neurons, six had exclusively ipsilaterally projecting
+ axons.
+ This population was most closely associated with the first somata stripe
+ S1, which is thought to contain mostly excitatory, glutamatergic neurons
  
-\change_unchanged
-had exclusively ipsilaterally projecting axons.
- This population
-\change_inserted 78966105 1494860457
- 
-\change_unchanged
-was most closely associated with the first somata stripe S1, which is thought
- to contain mostly excitatory, glutamatergic neurons 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee:2015dva"
@@ -1441,18 +1381,13 @@ key "Lee:2015dva"
 \end_inset
 
 .
- The axons and dendrites of these neurons displayed a roughly planar organizatio
-n (Sup.
- Fig.
- 4F).
  The majority of synapses onto the dendrites of these neurons were along
  a plane approximately normal to the rostro-caudal (RC) axis, whereas the
- axonal boutons of these neurons were oriented along the RC axis
-\change_inserted 78966105 1494860507
-.
- 
-\change_unchanged
-This suggests that these neurons are setup to sample broadly from axons
+ axonal boutons of these neurons were oriented along the RC axis.
+ This is reflected in the approximately orthogonal organization of the pre
+ and postsynaptic sites onto these neurons (Fig.
+ S4 G).
+ This suggests that these neurons are setup to sample broadly from axons
  that are oriented along the RC axis, including those from other integrator
  neurons.
  It has long been theorized that positive feedback via recurrent excitation
@@ -1469,20 +1404,13 @@ key "Seung:2000kl,fisher_modeling_2013,Joshua:2013jg"
  projecting integrator neuron onto another ipsilaterally projecting integrator
  neuron.
  These facts point to the ipsi group of neurons as a candidate that could
- support
-\change_deleted 78966105 1494860448
- 
-\change_unchanged
- positive feedback over recurrent excitation in the integrator circuit.
+ support positive feedback over recurrent excitation in the integrator circuit.
  
 \end_layout
 
 \begin_layout Standard
-The second major group of neurons that we reconstructed were the nine
-\change_deleted 78966105 1494860885
- 
-\change_unchanged
- contralaterally projecting neurons.
+The second major group of neurons that we reconstructed were the nine contralate
+rally projecting neurons.
  The somatic locations of these neurons was most closely associated with
  the intermediate somal stripe S2, a grouping composed largely of GABAergic
  neurons at the dorso-ventral depth investigated here 
@@ -1494,11 +1422,7 @@ key "Lee:2015dva"
 
 .
  The dendrites of these neurons arborized over a smaller area, and stratified
- more dorsally as compared to the ipsilaterall projecting
-\change_deleted 78966105 1494860885
- 
-\change_unchanged
- group of neurons.
+ more dorsally as compared to the ipsilaterall projecting group of neurons.
  The postsynaptic inputs on the dendrites of these cells were along a plane
  that contained the RC axis.
  This suggests that these neurons sample narrowly from inputs along the
@@ -1530,10 +1454,6 @@ key "Lee:2015dv"
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted 78966105 1494861101
- 
-\change_unchanged
 The majority of the remaining integrator neurons were located at the lateral
  edge of the animal corresponding to the lateral most stripe S3, where neurons
  are predominantly glutamatergic 
@@ -1546,70 +1466,38 @@ key "Kinkhabwala:2011eta"
 ...
  Since these neurons are close to the edge of the imaged volume, in all
  cases, we were unable to trace many neurites from these cells; hence, the
- axonal projection pattern and potential role of these neurons remains unknown.
+ axonal projection pattern
+\change_deleted 78966105 1495489264
+ 
+\change_unchanged
+ remains unknown.
  We also found one neuron, located along stripe 2, that had both an ipsilateral
  axon and contralaterally projecting putative axon.
- 
-\change_inserted 1739810942 1494792809
-[What is the point of this paragraph beyond a restatement of key results?
- What is the message you want to drive home?]
-\change_unchanged
-
+ The potential role of these neurons remains unknown.
+ One possibility 
 \end_layout
 
 \begin_layout Standard
 Our evidence suggest that at least two of the groups, the ipsilaterally
- projecting and the contralaterally projecting neurons
-\change_inserted 1739810942 1494792360
-,
-\change_unchanged
- are unique populations.
- They have significantly different dendritic morphologies, axonal projections
-\change_inserted 1739810942 1494792377
-,
-\change_unchanged
+ projecting and the contralaterally projecting neurons, are unique populations.
+ They have significantly different dendritic morphologies, axonal projections,
  and distributions of postsynapses along their dendrites.
- The ipsi-only group of neurons ha
-\change_inserted 1739810942 1494792393
-d
-\change_deleted 1739810942 1494792393
-s
-\change_unchanged
- approximately twice as many postsynaptic input sites as the contra-only
- only group.
+ The ipsi-only group of neurons had approximately twice as many postsynaptic
+ input sites as the contra-only only group.
  In both cases, initiation of the axons was from a neurite that contained
  postsynaptic sites that then gave rise to presynaptic sites.
  This feature could be important to influence the activity of neurons as
- these locations are proximal to the somata
-\change_inserted 1739810942 1494792522
- [say more - is there some computational principle you want to refer to?]
-\change_unchanged
-.
+ these locations are proximal to the somata.
+ For example inhibitory synapses at such locations could have a shunting
+ effect on the postsynaptic neuron.
 
 \color black
  The integration time constants of these neurons show graded levels of persisten
 t activity.
  Time constants of contralaterally projecting neurons were significantly
  different from the unknown projecting neurons, with the unknown projecting
- neurons showing faster dynamics (Sup.
- Fig.
- 1D).
- 
-\change_inserted 1739810942 1494792560
-[
-\change_unchanged
-Finally we note that distinguishing axons from dendrites using light microscopy
- can prove erroneous, since the diameters of the axons and dendrites were
- very similar and close to the diffraction
-\color inherit
- limit of light.
-
-\change_inserted 1739810942 1494792735
- - this point is fine, but it does not belong in this paragraph.
- It seems like you would need a 'technical advances' paragraph] [I don't
- really know where you are going with this paragraph - it just seems like
- a grabbag of random results rather than a coherent discussion point]
-\change_unchanged
+ neurons showing faster dynamics (Fig.
+ S1 D).
  
 \end_layout
 
@@ -1629,79 +1517,37 @@ key "Aksay:2003un"
  This observation may be an underestimate of integrator connectivity, for
  a few reasons.
  First, there are many neurons in the imaged volume that carried no usable
- 
-\change_inserted 1739810942 1494792857
-fluorescence
-\change_deleted 1739810942 1494792849
-calcium 
-\change_unchanged
-signal at all, largely because they did not take up enough calcium indicator.
+ fluorescencesignal at all, largely because they did not take up enough
+ calcium indicator.
  Some of these neurons are likely to be integrator neurons overlooked by
  our study, and are potential postsynaptic partners of the reconstructed
  neurons in our sample.
- Second, the
-\change_inserted 1739810942 1494792987
- imaged volume was limited in the dorso-ventral extent.
- Thus the
-\change_unchanged
-re 
-\change_inserted 1739810942 1494792996
-were likely
-\change_deleted 1739810942 1494792992
-are
-\change_unchanged
- integrator neurons outside the imaged volume, and they could receive synapses
- from our reconstructed integrator neurons.
- 
-\change_inserted 1739810942 1494793081
-[Furthermore, o
-\change_deleted 1739810942 1494793033
-O
-\change_unchanged
-nly three axonal arbors were fully or mostly reconstructed; the rest appeared
- substantially cut off as their axons left the volume, this is also evidenced
- by the fact that only two of six ipsilaterally projecting axons project
- to the abducens motor nuclei, contrary to dye fill experiments, where all
- ipsilateral axons project to the abducens.
-
-\change_inserted 1739810942 1494793094
- -clean up sentence grammar]
-\change_unchanged
+ Second, the imaged volume was limited in the dorso-ventral extent.
+ Thus there were likely integrator neurons outside the imaged volume, and
+ they could receive synapses from our reconstructed integrator neurons.
+ Furthermore, only three axonal arbors were fully or mostly reconstructed;
+ the rest appeared substantially cut off as their axons left the volume,
+ this is also evidenced by the fact that only two of the six ipsilaterally
+ projecting axons project to the abducens motor nuclei, contrary to dye
+ fill experiments, where all ipsilateral axons project to the abducens.
  Third, we had no possibility of finding connections between neurons on
  opposite sides of the brain, because only one side of the brain was imaged.
  Therefore, it is difficult to know whether the two neurons that made synapses
  onto other integrator neurons are an exceptional case, or representative
  of a larger population that was incompletely sampled.
-
-\change_inserted 1739810942 1494793137
- [aren't points 2 and 3 the same? maybe unify?]
-\change_unchanged
- 
-\change_deleted 1739810942 1494793343
-More definitive information about connectivity patterns between integrator
- neurons awaits a future experiment with an imaged volume that is large
- enough to encompass all integrator neurons, and a fluorescent calcium indicator
- that labels a higher percentage of integrator neurons.
- 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
 Here we presented ultrastructural anatomical details of different types
  of integrator neurons and evidence of synaptic connectivity between these
- neurons
-\change_deleted 78966105 1494861106
- 
-\change_unchanged
- and anapproach can be used to uncover general rules of connectivity and
- validate hypothesized theories of temporal integration.
+ neurons and present an approach that can be used to uncover general rules
+ of connectivity and validate hypothesized theories of temporal integration.
  More definitive information about precise connectivity patterns between
  integrator neurons awaits a future experiment with an imaged volume that
  is large enough to encompass all integrator neurons, and a fluorescent
  calcium indicator that labels a higher percentage of integrator neurons.
  Nonetheless, our findings to date can already be used to guide models of
- temporal integration with constraints on the form, density, and geometry
+ temporal integration with constraints in the form, density, and geometry
  of interactions between integrator neurons.
 \end_layout
 
@@ -1819,7 +1665,8 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
  Colored traces below are the changes in fluorescence from individual neurons
  in (a).
  Colors represent the persistence level of the neuron.
- 
+ Since integrator neurons have eye position thresholds, not all cells (green)
+ fire throughout the eye position range observed here.
 \begin_inset Newline newline
 \end_inset
 
@@ -1827,7 +1674,7 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
  Thick line shows the average, with shaded region showing the SEM.
  Dotted line is the exponential fit to determine persistence time constant,
  represented as 
-\begin_inset Formula $\log\left(\tau\right)$
+\begin_inset Formula $\log_{2}\left(\tau\right)$
 \end_inset
 
 .
@@ -1843,12 +1690,8 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
 \begin_inset Newline newline
 \end_inset
 
-(C) Registration of light microscopic
-\change_deleted 78966105 1494276565
- 
-\change_unchanged
- volume to electron microscopic volume is used to locate the neurons that
- were involved in the behavior.
+(C) Registration of light microscopic volume to electron microscopic volume
+ is used to locate the neurons that were involved in the behavior.
  Red arrows indicate the same features in both LM and EM.
  Scale bar = 
 \begin_inset Formula $20\mu m$
@@ -2232,27 +2075,7 @@ key "Cardona:2012kf"
 
 .
  Briefly, individual images were imported into the TrakEM2 framework and
- montaged
-\change_deleted 1739810942 1494800882
-,
-\change_unchanged
- 
-\change_deleted 1739810942 1494800879
-first, using 
-\change_inserted 1739810942 1494800888
-using 
-\change_unchanged
-affine 
-\change_inserted 1739810942 1494800896
-and elastic 
-\change_unchanged
-transforms
-\change_inserted 1739810942 1494800904
-.
-\change_deleted 1739810942 1494800903
-, followed by elastic transforms
-\change_unchanged
-.
+ montaged using affine and elastic transforms..
  The images were then registered in z using a similar approach, where the
  first pass was performed using affine transforms, followed by elastic transform
 s.
@@ -2261,28 +2084,12 @@ s.
 \end_layout
 
 \begin_layout Standard
-To locate the cells that were involved in the integrator circuit, we 
-\change_inserted 1739810942 1494801028
-first 
-\change_unchanged
-made use of the fact that 
-\change_deleted 1739810942 1494800950
-large, gross
-\change_unchanged
- 
-\change_inserted 1739810942 1494801006
-gross 
-\change_unchanged
-morphological features
-\change_inserted 1739810942 1494801014
- including blood vessels and the mauthner axon
-\change_unchanged
- were easily identified in both the LM and EM stacks.
- Once enough such features were identified in the LM stack
-\change_inserted 1739810942 1494801104
- (interpolated at EM step sizes)
-\change_unchanged
-, we located these same landmarks in the high-res EM stack.
+To locate the cells that were involved in the integrator circuit, we first
+ made use of the fact that gross morphological features including blood
+ vessels and the mauthner axon were easily identified in both the LM and
+ EM stacks.
+ Once enough such features were identified in the LM stack, interpolated
+ at EM step sizes, we located these same landmarks in the high-res EM stack.
  Each pair of landmarks (one from the LM volume and one from the EM volume)
  was then used to calculate a global affine transform that was applied to
  transform the LM volume to be overlaid on the EM volume using the TrakEM2
@@ -2294,23 +2101,10 @@ key "Cardona:2012kf"
 \end_inset
 
 .
- Following this 
-\change_inserted 1739810942 1494801180
-first round of 
-\change_unchanged
-registration, 
-\change_inserted 1739810942 1494801245
-we then identified [x?] cells at different locations throughout the volume
- that were easily identfied in both data sets and performed a second round
- of alignment.
+ Following this first round of registration, we then identified 7 cells
+ at different locations throughout the volume that were easily identfied
+ in both data sets and performed a second round of alignment.
  
-\change_deleted 1739810942 1494801249
-we were able to reliable locate the same cells from the LM and the EM volumes.
- 
-\change_inserted 1739810942 1494801249
-=
-\change_unchanged
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2323,92 +2117,35 @@ The reconstruction of the identified neurons was performed using the TrakEM2
  plugin in Fiji/ImageJ.
  One expert (AV) traced all neurons and annotated all pre- and postsynaptic
  sites.
- 
-\change_deleted 1739810942 1494801262
-AV noted difficult locations while tracing.
-
-\change_unchanged
  A second expert (EA) identified locations at which the skeletons looked
- unusual (sharp turns
-\change_inserted 1739810942 1494801296
- or
-\change_deleted 1739810942 1494801281
- or 
-\change_unchanged
-closely spaced branch points).
+ unusual (sharp turns orclosely spaced branch points).
  EA reviewed the images at all of these locations (typically a few per neuron),
- and reached consensus with AV.
-
-\change_deleted 1739810942 1494801325
- At most locations the original tracing of AV was judged correct.
- 
-\change_unchanged
-A few locations were judged ambiguous
-\change_deleted 1739810942 1494801334
-,
-\change_unchanged
- in the sense that image defects made it impossible to interpret the locations
+ and reached consensus with AV.A few locations were judged ambiguous in the
+ sense that image defects made it impossible to interpret the locations
  with certainty.
  At such ambiguous locations, we erred on the side of incomplete tracing.
 \end_layout
 
 \begin_layout Standard
-A 
-\change_deleted 1739810942 1494801371
-more detailed 
-\change_unchanged
-second round of tracing was then carried out using a
-\change_inserted 1739810942 1494801365
- 
-\change_deleted 1739810942 1494801362
- more accurate 
-\change_unchanged
-semi-automated reconstruction method similar to the `eyewire' platform (http://e
-yewire.org).
+A second round of tracing was then carried out using a semi-automated, volume
+ based reconstruction method similar to the `eyewire' platform (http://eyewire.or
+g).
  This process involved semiautomatic reconstruction of neurons with two
  tracers (not the authors), where the second tracer was able to view the
  first tracers reconstructions.
  A third expert tracer (A.V) reviewed all sites where the first two tracers
  differed to provide consensus.
  The final trace included all those neurites where the majority agreed.
- This ensure
-\change_inserted 1739810942 1494801401
-d
-\change_deleted 1739810942 1494801401
-s
-\change_unchanged
- that each cell
-\change_deleted 1739810942 1494801407
-s
-\change_unchanged
- 
-\change_inserted 1739810942 1494801411
-wa
-\change_deleted 1739810942 1494801410
-i
-\change_unchanged
-s covered by atleast 2 tracers.
+ This ensured that each cell was covered by atleast 2 tracers.
  This semi-automated process revealed that the axon of one cell was previously
  under-reconstructed and another dendrite from a different cell was over-reconst
 ructed.
- The remaining
-\change_deleted 1739810942 1494801437
-, vast majority 
-\change_inserted 1739810942 1494801440
+ The remaining 20/22 cells remained the same between both methods.
  
-\change_unchanged
-20/22 cells remained the same between both methods.
- 
-\change_inserted 1739810942 1494801452
-
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 1739810942 1494801465
-[
-\change_unchanged
-Having real-time volume based tracing provides shape based context to traces.
+Having real-time volume based tracing provides shape based context to tracers.
  This is useful to detect error.
  For example if a neurite is falsely mergerd it is oftern the case that
  its diameter is different as compared to the neurite being reconstructed.
@@ -2430,10 +2167,7 @@ Since the section thickness was 45nm, neurites that were parallel to the
  plane, or deteriorated ultrastructure (due to electroporation, poor fixation,
  or possibly developmental pruning of axons).
  In truly ambiguous locations, we err on the side of undertracing.
-
-\change_inserted 1739810942 1494801522
- - it seems like these two paragraph fragments belong together in the Discussion
- where you have a paragraph addressing the reconstruction procedure]
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2452,33 +2186,6 @@ key "Longair:2011hr"
  In total, we reconstructed 9.29 mm of neurite (2.45 mm of axonal length and
  6.84 mm of dendritic length).
  
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted 1739810942 1494801551
-[
-\change_unchanged
-One neuron had axons with both ipsilateral and contralateral projections
- (Sup.
- Fig.
- 5A).
- This integrator neurons was located more lateral to the neurons from 
-\emph on
-ipsi-only group.
-
-\emph default
- The ipsilaterally projecting axon resembled the axons of the ipsi-only
- group of neurons (Fig.
- 3A), with similar tilt in the rostro-caudal axis.
- This neuron contained a neurite that crossed the midline.
- We infer that this neurite is a putative contralaterally projecting axon
- based on the same cues that we use to identify other putative axons.
-
-\change_inserted 1739810942 1494801577
- - this is a results and does not belong here]
-\change_unchanged
-
 \end_layout
 
 \begin_layout Subsection*
@@ -2558,13 +2265,7 @@ key "Ma:2014gb,Daie:2015fd,Lee:2015dv"
  Briefly reticulospinal cells were identified based on the ultrastructure,
  that was very different form the remaining cells in the area.
  These cells were rich in mitochondria and gave rise to a large myelinated
- axon that joined the 
-\change_inserted 1739810942 1494801633
-medial longitudinal fasciculus
-\change_deleted 1739810942 1494801622
-remaining fibers along the midline
-\change_unchanged
-.
+ axon that joined the medial longitudinal fasciculus.
  We fit a plane to the reticulospinal neurons, and identified a point on
  this plane that bisected Mi3 neuron located in r6 and Ca neuron located
  in r7.
@@ -2572,16 +2273,8 @@ remaining fibers along the midline
 \begin_inset Formula $0.37$
 \end_inset
 
-
-\change_inserted 1739810942 1494801658
- based on transgene expression patterns
-\change_unchanged
-.
- This 
-\change_deleted 1739810942 1494801669
-this 
-\change_unchanged
-line that bisected the locataions of Mi3 and Ca was moved 
+ based on transgene expression patterns.
+ This line that bisected the locataions of Mi3 and Ca was moved 
 \begin_inset Formula $0.37\mu m$
 \end_inset
 
@@ -2594,6 +2287,31 @@ key "Daie:2015fd,Lee:2015dv"
 
 .
  The resulting line is where we differetiate the border of r6 and r7.
+\change_inserted 78966105 1495486683
+
+\end_layout
+
+\begin_layout Subsection*
+Contact for reagent and resource sharing
+\end_layout
+
+\begin_layout Standard
+For further information regarding the any resources and reagents please
+ contact ashwinv@princeton.edu
+\end_layout
+
+\begin_layout Subsection*
+Experimental model and subject details
+\end_layout
+
+\begin_layout Standard
+All zebrafish larve experimental procedures were approved by Weill Cornell
+ Medical College's Institutional Animal Care and Use Committe.
+ We used 
+\emph on
+nacre
+\emph default
+ mutant zebrafish larva, 6 days of age for all experiments.
 \end_layout
 
 \begin_layout Subsection*
@@ -2626,6 +2344,346 @@ treestoolbox.org
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Subsection*
+Key Resources Table
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reagent or Resources
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Source
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Identifier
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Experimental Model
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zebrafish:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Chemicals
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fixative
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+EMSdiasum
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RT15700
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OGB1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Invitrogen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+O-6807
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Software and algorithms
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Importing *.swc files
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sumbul et.
+ al., 2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N/A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TrakEM2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cardona, A et.al .,2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N/A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Integrator firing rates
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Miri et.
+ al., 2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N/A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WaferMapper
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hayworth et.
+ al., 2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N/A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \end_body

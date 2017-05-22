@@ -10,6 +10,8 @@
 \usepackage{booktabs}
 \renewcommand{\fnum@figure}{Figure S~\thefigure}
 \renewcommand{\fnum@table}{Table S~\thetable}
+\makeatletter\renewcommand{\@biblabel}[1]{[S\,#1]}\makeatother
+\thispagestyle{empty}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -81,8 +83,40 @@
 
 \begin_body
 
-\begin_layout Title
-Supplementary information for Vishwanathan et al.
+\begin_layout Standard
+\begin_inset Graphics
+	filename Reb/Vishwanathan_et_al_SupFig1Rebuttal.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Reb/Vishwanathan_et_al_SupFig2Rebuttal.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Reb/Vishwanathan_et_al_SupFig3Rebuttal.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Reb/Vishwanathan_et_al_SupFig4Rebuttal.pdf
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -90,17 +124,6 @@ Supplementary information for Vishwanathan et al.
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename Reb/SupFig1Rebuttal.png
-	display false
-	scale 70
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -179,17 +202,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename Reb/Vishwanathan_et_al_SupFig2Rebuttal.pdf
-	display false
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -246,17 +258,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename Reb/Vishwanathan_et_al_SupFig3Rebuttal.pdf
-	display false
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -290,6 +291,7 @@ status open
  based on 
 \begin_inset CommandInset citation
 LatexCommand citep
+before "S"
 key "Daie:2015fd,Lee:2015dv"
 
 \end_inset
@@ -333,17 +335,6 @@ key "Daie:2015fd,Lee:2015dv"
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename Reb/Vishwanathan_et_al_SupFig4Rebuttal.pdf
-	display false
-	scale 70
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1033,7 +1024,7 @@ NA
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "ZfishBib"
-options "unsrt"
+options "elsarticle-num"
 
 \end_inset
 
