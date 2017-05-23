@@ -110,6 +110,7 @@
 \begin_inset Graphics
 	filename /usr/people/ashwinv/seungmount/research/Ashwin/ZFishPaper/Figures/VishwanathanEtAlSupFig3.pdf
 	display false
+	scale 90
 
 \end_inset
 
@@ -120,6 +121,7 @@
 \begin_inset Graphics
 	filename /usr/people/ashwinv/seungmount/research/Ashwin/ZFishPaper/Figures/VishwanathanEtAlSupFig4.pdf
 	display false
+	scale 90
 
 \end_inset
 
@@ -712,6 +714,10 @@ NA
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section*
+Figure legends:
 \end_layout
 
 \begin_layout Standard
