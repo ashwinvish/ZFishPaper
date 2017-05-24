@@ -45,8 +45,8 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine natbib
-\cite_engine_type numerical
+\cite_engine basic
+\cite_engine_type default
 \biblio_style ustr
 \use_bibtopic false
 \use_indices false
@@ -70,13 +70,11 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
+\tracking_changes false
 \output_changes true
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author 78966105 "Ashwin Vishwanathan" ashwinv@princeton.edu
-\author 187266875 "Ashwin Vishwanathan"
 \end_header
 
 \begin_body
@@ -181,13 +179,9 @@ Weill Cornell Medical College, New York, NY 10021.
 \end_inset
 
 Department of Molecular and Cellular Biology and Center for Brain Science,
-\change_inserted 78966105 1495489584
-
 \begin_inset Newline newline
 \end_inset
 
-
-\change_unchanged
 Harvard University, Cambridge, MA 02138.
 \end_layout
 
@@ -201,10 +195,6 @@ Neural integrators are involved in a variety of sensorimotor and cognitive
  in the larval zebrafish by first identifying integrator neurons using two-photo
 n calcium imaging and then reconstructing the same neurons through serial
  electron microscopic analysis.
-
-\change_deleted 78966105 1494859210
- 
-\change_unchanged
  Integrator neurons were identified as those neurons with activities highly
  correlated with eye position during spontaneous eye movements.
  Three morphological classes of neurons were observed: ipsilaterally projecting
@@ -257,8 +247,7 @@ key "Major:2004dk,Joshua:2015kx"
 
 \end_inset
 
- (there is also an integrator for vertical eye movements, but it will not
- be discussed here).
+.
  Our study is done in the larval zebrafish, which has emerged as an important
  model organism for investigating the relation between neural circuits and
  behavior 
@@ -275,24 +264,34 @@ key "Friedrich:2010hj"
 The neural integrator gets its name because the transformation of eye velocity
  into eye position is the computational operation of integration with respect
  to time.
- Integrator neurons
-\change_deleted 78966105 1494860110
- 
-\change_unchanged
- carry a horizontal eye position signal in their spiking during fixations,
- and lesion or inactivation of these cells lead to pronounced deficits in
- the ability to maintain gaze fixation 
+ Integrator neurons carry a horizontal eye position signal in their spiking
+ during fixations, and lesion or inactivation of these cells lead to pronounced
+ deficits in the ability to maintain gaze fixation 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Cannon:1987gp,Cheron:1987cm,Aksay:2007cv"
 
 \end_inset
 
- .
+.
  Integrator neurons are thought to send their eye position signals to extraocula
-r motor neurons through monosynaptic and polysynaptic pathways.
+r motor neurons through monosynaptic and polysynaptic pathways 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Baker:1977tq,Baker:1977wt,McCrea:1979epa"
+
+\end_inset
+
+.
  They are also thought to receive inputs from multiple convergent pathways
- that encode eye velocity for every type of eye movement.
+ that encode eye velocity for every type of eye movement 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kaneko:1999vi,McFarland:1992tm"
+
+\end_inset
+
+.
  Therefore, the neural integrator is the 
 \begin_inset Quotes eld
 \end_inset
@@ -334,14 +333,9 @@ key "Leigh:2015ts"
 \end_layout
 
 \begin_layout Standard
-Previous efforts at understanding the structural underpinnings of neural
- integration in the oculomotor system have been limited their scope.
- Most attempts
-\change_deleted 78966105 1494860126
- 
-\change_unchanged
- have relied on combining single-neuron electrophysiology with light-microscopic
- dye fills.
+Most investigations of the structural underpinnings of neural integration
+ in the oculomotor system have relied on combining single-neuron electrophysiolo
+gy with light-microscopic dye fills.
  Intracellular recordings in goldfish hindbrain neurons that exhibited spiking
  correlated to eye position, followed by anatomical dye fills, show the
  axons of these neurons send collaterals to areas where other integrator
@@ -377,12 +371,9 @@ key "Kamath:1976jm,seung_how_1996,Seung:2000kl,fisher_modeling_2013,goncalves_op
 \end_inset
 
 .
- More recently, calcium imaging approaches using two-photon
-\change_deleted 78966105 1494860126
- 
-\change_unchanged
- microscopy to identify many integrator neurons have been coupled with sparse,
- targeted single neuron electroporation of fluorescent indicators for anatomical
+ More recently, calcium imaging approaches using two-photon microscopy to
+ identify many integrator neurons have been coupled with sparse, targeted
+ single neuron electroporation of fluorescent indicators for anatomical
  reconstruction 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -391,12 +382,12 @@ key "Lee:2015dv"
 \end_inset
 
 .
- While these studies have delineated the arborization and projection patterns
- of integrator neurons, they were limited to one or a few neurons in any
+ All these studies have delineated the arborization and projection patterns
+ of integrator neurons, but were limited to one or a few neurons in any
  individual brain and do not reveal locations and the distributions of their
  input and output synapses.
- Furthermore,although the axonal projections could indicate the presence
- ofsynapses onto dendrites of other integrator neurons, conclusive evidence
+ Furthermore, although the axonal projections could indicate the presence
+ of synapses onto dendrites of other integrator neurons, conclusive evidence
  has been lacking.
  
 \end_layout
@@ -412,12 +403,11 @@ We combined two-photon calcium imaging and serial electron microscopy to
  axons that were inferred to be excitatory, and neurons at more lateral
  locations with contralaterally projecting axons that were inferred to be
  inhibitory.
- .
- Furthermore, we identified the locations and distribution of all chemical
- synapses onto and from the imaged integrator population and found from
- vesicle characteristics that these synapses were of the conventional rather
+ Furthermore, we identified the locations of all chemical synapses onto
+ and from the imaged integrator population, and inferred from ultrastructural
+ properties of vesicles that these synapses were of the conventional rather
  than peptidergic variety.
- Finally we report evidence for direct synaptic connectivity between integrator
+ Finally, we report evidence for direct synaptic connectivity between integrator
  neurons.
  
 \end_layout
@@ -431,7 +421,7 @@ Combined two-photon and electron microscopy of integrator neurons
 \end_layout
 
 \begin_layout Standard
-To identify putative integrator neurons we performed two-photon light microscopy
+To identify integrator neurons we performed two-photon light microscopy
  (LM) imaging of the caudal hindbrain in a 6 dpf larval zebrafish following
  bolus loading of the calcium sensor Oregon Green BAPTA 1-AM.
  The functional imaging was restricted to one side where the loading was
@@ -454,17 +444,17 @@ key "Miri:2011ft"
  position following an ipsiversive saccade (Fig.
  1A, b arrow) was correlated with saccade-triggered average fluorescence
  (Fig.
- 1A,c first column) (Pearson coefficient 
-\begin_inset Formula $>0.6$
+ 1A, c first column) (Pearson coefficient 
+\begin_inset Formula $r>0.6$
 \end_inset
 
 ).
  The integration time constants or the level of persistence was quantified
  as the time constant of an exponential fit to the firing rate profile determine
 d from a deconvolution of the fluorescence data (Fig.
- 1A, c, dotted line, extend methods).
+ 1A, c, dotted line, STAR Methods).
  This resulted in the identification of 22 integrator neurons with graded
- levels of persistence ( Fig.
+ levels of persistence (Fig.
  S1 A, B, C).
  
 \end_layout
@@ -476,7 +466,7 @@ Following functional identification of integrator neurons, the tissue was
 \begin_inset Formula $5\times5\times45$
 \end_inset
 
- nm (RC, ML, DV) .
+ nm (RC, ML, DV).
  These images were montaged and aligned to create a 3D electron microscopy
  volume (EM) (Fig.
  1B and Methods).
@@ -498,9 +488,9 @@ Following functional identification of integrator neurons, the tissue was
  producing correspondence of labeled neurons and blood vessels (Fig.
  1C, Fig.
  S1 D, Methods).
- The soma of all 22 integrator neurons from the LM volume were located in
- the EM volume, distributed throughout the caudal hinbrain and along the
- border between rhombomeres 6 and 7(Fig.
+ The somata of all 22 integrator neurons from the LM volume were located
+ in the EM volume, distributed throughout the caudal hindbrain and along
+ the border between rhombomeres 6 and 7 (Fig.
  1D, colored by time constants).
  
 \end_layout
@@ -511,7 +501,7 @@ Stripe shaped patterning of somata in the hindbrain
 
 \begin_layout Standard
 Cell bodies in the hindbrain of the larval zebrafish follow a stereotypic
- stripe like pattern of alternating cell bodies and neuropil.
+ stripe-like pattern of alternating cell bodies and neuropil.
  Cells within the same stripe typically share the same neurotransmitter
  identity, and morphology 
 \begin_inset CommandInset citation
@@ -521,11 +511,11 @@ key "Higashijima:2004cn,Kinkhabwala:2011eta,Koyama:2011kl"
 \end_inset
 
 .
- To extract this stripe like organization, we projected the locations of
+ To extract this stripe-like organization, we projected the locations of
  all cell somata (Fig.
  1D, 'o' symbol) from the high-resolution imaged area onto a single plane.
- The high-res EM volume contained a total of 2967 somata spread over rhombomeres
- 5 through 8 (Fig.
+ The high-resolution EM volume contained a total of 2967 somata spread over
+ rhombomeres 5 through 8 (Fig.
  1D).
  The volume also contained well-known landmarks like the Mauthner neuron
  
@@ -598,7 +588,7 @@ key "Lee:2015dv"
 more dorsally, this stripe is medially abutted by cells that express the
  
 \emph on
-engrailed -1
+engrailed-1
 \emph default
  transcription factor which expresses glycine 
 \begin_inset CommandInset citation
@@ -632,7 +622,7 @@ Anatomical properties of integrator neurons
 \begin_layout Standard
 After the identification of the integrator neurons in the EM volume, we
  reconstructed all 22 integrator neurons and annotated the pre- and postsynaptic
- locations for these neurons (extended methods).
+ locations for these neurons (STAR Methods).
  We first describe some of the anatomical properties that were common to
  all integrator neurons.
  
@@ -648,7 +638,7 @@ The somatic locations of the 22 integrator neurons were distributed over
  of the imaged volume.
  The somata of integrator neurons associated with S1 were located very close
  to the midline and close the rostral edge of the imaged volume, close to
- the border of rhombomeres 6,7.
+ the border between rhombomeres 6 and 7.
  Somata associated with S2 were distributed along the entire rostro-caudal
  extent of the imaged volume.
  Finally, somata associated with S3 were located at the lateral end of the
@@ -662,7 +652,11 @@ The somatic locations of the 22 integrator neurons were distributed over
  In general, the size of the somata was proportional to the persistence
  level of the neurons, with larger neurons exhibiting higher degree of persisten
 ce (Fig.
- S1 B (right), Pearson coefficient = 0.4, 
+ S1 B (right), 
+\begin_inset Formula $r=0.4$
+\end_inset
+
+, 
 \begin_inset Formula $p$
 \end_inset
 
@@ -684,26 +678,29 @@ We annotated 320 presynaptic (green circles, Fig.
  2) and 2195 postsynaptic sites (red circles, Fig.
  2) on the 22 integrator neurons.
  Synapses were identified by the presence of a presynaptic vesicle pool
- and an opposing synaptic density .
+ and adjacent synaptic density.
+ The synaptic density was mainly confined to the cleft.
+ It extended into the intracellular space diffusely on the presynaptic side,
+ and very little on the postsynaptic side (Fig.
+ S2 E).
  Synapses from or onto integrator neurons contained small vesicles, presumably
  containing a conventional neurotransmitter.
  Elsewhere in the volume we did identify synapses with dense core vesicles,
  presumably containing a peptide neurotransmitter (Fig.
  S2 A).
- We were unable to differentiate synaptic membranes as 
+ The conventional distinction between 
 \emph on
 symmetric
 \emph default
- or 
+ and 
 \emph on
-asymmetric.
- 
+asymmetric 
 \emph default
-Symmetric synapses are associated with many flat vesicles, instead at synapses
- we did not observe many vesicles that were flat.
- Similarly, rather than observing a density that extended asymmetrically
- into the postsynaptic cell, we observe a more diffuse density that extended
- into the presynaptic neuron ( Fig.
+synapses did not seem relevant.
+ Symmetric synapses are associated with many flat vesicles, but flat vesicles
+ were uncommon at all synapses in our dataset.
+ Asymmetric synapses exhibit a strong postsynaptic density, which was not
+ observed here (Fig.
  S2 E).
 \end_layout
 
@@ -714,8 +711,8 @@ Integrator presynaptic sites
 \begin_layout Standard
 The presynaptic site was generally at a varicosity in the axon with vesicles
  throughout.
- A small, denser cluster of vesicles was typically observedalong with the
- synaptic density.
+ A small, denser cluster of vesicles was typically observed immediately
+ adjacent to the synaptic density.
  These features are consistent with the idea of a presynaptic active zone.
  The number of presynaptic sites on a neuron averaged 
 \begin_inset Formula $57.6\pm45.3$
@@ -737,10 +734,7 @@ Integrator postsynaptic sites
 \end_layout
 
 \begin_layout Standard
-The postsynaptic densities were observed as a darkening of the membrane,
- indicative of more electron dense regions, corresponding to more protein
- density.
- The number of postsynaptic sites on a neuron averaged 
+The number of postsynaptic sites on a neuron averaged 
 \begin_inset Formula $99.7\pm72.4$
 \end_inset
 
@@ -763,15 +757,16 @@ Along the somatic membrane, a darkening of the membrane interrupted by small
  These darkenings were visible between somata of integrator-integrator and
  integrator-non-integrator neurons.
  We speculate that these darkenings are some kind of cell junction.
- Although it has been shown that gap junctions exist in the developing larval
- zebrafish hindbrain 
+ Due to limited image resolution, we cannot ascertain whether these are
+ gap junctions, which are known to exist in the developing larval zebrafish
+ hindbrain 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Jabeen:2013fm"
 
 \end_inset
 
-, we cannot be sure due to the image resolution.
+.
  
 \end_layout
 
@@ -782,7 +777,7 @@ Dendrites
 \begin_layout Standard
 Dendrites were defined by the absence of presynaptic vesicles and the presence
  of postsynaptic densities.
- They were mostly oriented ventral to the location of the somata.
+ They typically extended from somata in the ventral direction.
  Dendrites were smooth rather than spiny.
  Some dendrites exited the imaged volume, leading to incompletely reconstructed
  neurons.
@@ -797,9 +792,7 @@ Axons
 \end_layout
 
 \begin_layout Standard
-We defined axons as neurites with a) presynaptic vesicles or b) for cases
- where neurites cross the midline define them as putative axons using additional
- anatomical cues (addressed below).
+Neurites with presynaptic vesicles were identified as axons.
  Regions of transition, from dendrite to axon, we termed axon initiation
  sites.
  Example axon initiation sites are indicated in Fig.
@@ -818,19 +811,17 @@ We observed sheaths around some axonal segments.
  In some locations, we saw that the sheath wrapped around the axon a few
  times, loosely enough that cytoplasmic space was visible (Fig.
  2A, EM panel).
- This was consistent with the definition of loose myelin 
+ This fit the description of loose myelin 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Caley:1974fk"
 
 \end_inset
 
-.
- This is different from the more conventionally observed compact myelin
- which appears as dark and electron dense (elsewhere in the volume, data
- not shown ).
+, which differs from the more electron-dense compact myelin (elsewhere in
+ the volume, data not shown).
  The axon of the neuron in Fig.
- 2A was intermittently looselymyelinated along its rostrocaudal section.
+ 2A was intermittently loosely myelinated along its rostrocaudal section.
  Mediolateral collaterals emerged from the gaps in loose myelin, and remained
  unmyelinated.
  Such loose myelin sheaths have been previously reported in goldfish 
@@ -845,26 +836,23 @@ key "Rosenbluth:1961gl"
 \end_layout
 
 \begin_layout Standard
-In 10/22 (45%) integrator neurons, the presence of a contralaterally projecting
- putative axon was identified.
- Because neurites in the contralateral hindbrain were not reconstructed,
- we relied on several other features for axon determination.
+For 10/22 (45%) integrator neurons, neurites that cross the midline were
+ identified as putative axons using several criteria.
  First, the putative axons were devoid of any postsynaptic sites on the
  ipsilateral side (Fig.
- 2
-\change_deleted 78966105 1495468952
- 
-\change_unchanged
-B, D open arrow to end, no synapses).
+ 2B, D open arrow to end, no synapses).
  Second, before crossing the midline, the putative axon became engulfed
  by processes that appeared glial in nature (Fig.
- 2
-\change_deleted 78966105 1495468949
- 
-\change_unchanged
-C, D, EM inset, label G).
- The glial engulfment is consistent with the idea of `glial bridges` that
- are instrumental in the guidance of axons during development 
+ 2C, D, EM inset, label G).
+ The glial engulfment is consistent with the idea of 
+\begin_inset Quotes eld
+\end_inset
+
+glial bridges
+\begin_inset Quotes erd
+\end_inset
+
+ that are instrumental in the guidance of axons during development 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Barresi:2005iw"
@@ -879,8 +867,9 @@ key "Barresi:2005iw"
  3F).
  The mean axonal diameter was less than the mean dendrite diameter, conforming
  to the textbook notion that axons are thinner than dendrites.
- These features were applied to determine a neurite to be a putative axon.
- 
+ Putative axons could not be conclusively identified as axons because their
+ presynaptic sites were presumably on the contralateral side of the brain,
+ which was not included in the imaged volume.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -925,15 +914,11 @@ key "GuemezGamboa:2014fp"
 
  , is enriched with microtubules, and emerges from the neuron somata very
  close to the Golgi complex.
- In some cases, this primary cilium terminated inside processes that resembled
- glial like structures (Sup.
+ In some cases, this primary cilium terminated inside processes that appeared
+ glial (Sup.
  Fig.
  2C).
- There was no strong orientation preference in cilia distribution
-\change_inserted 78966105 1495554449
- 
-\change_unchanged
-(Sup.
+ There was no strong orientation preference in cilia distribution (Sup.
  Fig.
  2D).
 \end_layout
@@ -985,8 +970,7 @@ en passant
 \begin_inset Formula $\sim260\mu m$
 \end_inset
 
- (Sup.
- Table) with the longest reconstructed axon being 
+ (see also, Table S1) with the longest reconstructed axon being 
 \begin_inset Formula $463\mu m$
 \end_inset
 
@@ -996,8 +980,8 @@ en passant
  within rhombomere r5, 6 Fig.
  S3 A ), with terminations in r4 as well.
  Two of the six axons had projections that terminate near the site of the
- abducens motor nuclei and project further rostrally ( Fig.
- S3 B) .
+ abducens motor nuclei and project further rostrally (Fig.
+ S3 B).
  None of the axons were observed emerging directly from the somata.
  Instead, dendrites bearing postsynaptic sites turned into axons with presynapti
 c sites, with the axon initiation site was on average located 
@@ -1024,7 +1008,11 @@ Neurons in this group had large dendritic arbors, with the dendrites arborizing
 \begin_inset Formula $p<2\times10^{-3}$
 \end_inset
 
-, Ttest).
+, 
+\begin_inset Formula $t$
+\end_inset
+
+-test).
 \end_layout
 
 \begin_layout Standard
@@ -1060,7 +1048,11 @@ contra-only
 \begin_inset Formula $p<0.0003,$
 \end_inset
 
- Ttest).
+ 
+\emph on
+t
+\emph default
+-test).
  The somata of these neurons were located close to stripe S2.
 \end_layout
 
@@ -1069,29 +1061,41 @@ The average dendritic length was
 \begin_inset Formula $\sim290µm$
 \end_inset
 
-, and the dendritic arbors of these neurons arborized over 8% of the total
- volume ( Fig.
+ (see also, Table S1), and the dendritic arbors of these neurons arborized
+ over 8% of the total volume (Fig.
  S4 A, B, C).
  This was significantly smaller than the dendritic arbors of ipsi-only group
  (
 \begin_inset Formula $p<0.01$
 \end_inset
 
-, Ttest).
+, 
+\emph on
+t
+\emph default
+-test).
  The average diameter of dendrites significantly larger than the diameter
  of the axons (Fig.
  3F, 
 \begin_inset Formula $p<2\times10^{-6}$
 \end_inset
 
-, Ttest).
+, 
+\emph on
+t
+\emph default
+-test).
  The diameter of dendrites of the contra-only neurons was significantly
  smaller to the ipsi-only group (Fig.
  3F, 
 \begin_inset Formula $p<0.005,$
 \end_inset
 
- Ttest).
+ 
+\emph on
+t
+\emph default
+-test).
  
 \end_layout
 
@@ -1121,7 +1125,8 @@ unknown
 \begin_inset Formula $\sim220\mu m$
 \end_inset
 
-, and they occupied on average ~4.9% of the total volume (Fig.
+ (see also, Table S1), and they occupied on average ~4.9% of the total volume
+ (Fig.
  S4 A, B, C).
  
 \end_layout
@@ -1194,7 +1199,7 @@ Neurons from these three groups had on average,
 \begin_inset Formula $p=1.2\times10^{-10}$
 \end_inset
 
- KStest).
+ KS test).
 \end_layout
 
 \begin_layout Standard
@@ -1210,7 +1215,7 @@ We further computed the synaptic density, the number of synapses per unit
 \end_inset
 
  more input synapses on the ipsi-only group of neurons, as compared to the
- inputs on the contra-only group of neurons ( ipsi-only group median number
+ inputs on the contra-only group of neurons (ipsi-only group median number
  
 \begin_inset Formula $0.42$
 \end_inset
@@ -1267,8 +1272,8 @@ The postsynaptic sites of the neurons from the ipsi-only and contra-only
  3A).
  Similarly, the postsynaptic sites onto neurons from the contra-only neurons
  were noticed to exhibit some planar organization as well.
- Fitting a plane through all thepostsynaptic sites revealed that these planes
- were nearly orthogonal (
+ Fitting a plane through all the postsynaptic sites revealed that these
+ planes were nearly orthogonal (
 \begin_inset Formula $82.4^{\circ}$
 \end_inset
 
@@ -1450,25 +1455,21 @@ key "Kinkhabwala:2011eta"
 
 \end_inset
 
-...
+.
  Since these neurons are close to the edge of the imaged volume, in all
  cases, we were unable to trace many neurites from these cells; hence, the
- axonal projection pattern
-\change_deleted 78966105 1495489264
- 
-\change_unchanged
- remains unknown.
+ axonal projection pattern remains unknown.
  We also found one neuron, located along stripe 2, that had both an ipsilateral
  axon and contralaterally projecting putative axon.
  The potential role of these neurons remains unknown.
- One possibility 
+ 
 \end_layout
 
 \begin_layout Standard
-Our evidence suggest that at least two of the groups, the ipsilaterally
- projecting and the contralaterally projecting neurons, are unique populations.
+The ipsilaterally projecting and the contralaterally projecting neurons
+ differ in a number of properties.
  They have significantly different dendritic morphologies, axonal projections,
- and distributions of postsynapses along their dendrites.
+ and distributions of postsynaptic sites along their dendrites.
  The ipsi-only group of neurons had approximately twice as many postsynaptic
  input sites as the contra-only only group.
  In both cases, initiation of the axons was from a neurite that contained
@@ -1504,7 +1505,7 @@ key "Aksay:2003un"
  This observation may be an underestimate of integrator connectivity, for
  a few reasons.
  First, there are many neurons in the imaged volume that carried no usable
- fluorescencesignal at all, largely because they did not take up enough
+ fluorescence signal at all, largely because they did not take up enough
  calcium indicator.
  Some of these neurons are likely to be integrator neurons overlooked by
  our study, and are potential postsynaptic partners of the reconstructed
@@ -1572,13 +1573,13 @@ Acknowledgments
 We are grateful to Juan Carlos Tapia, Richard Schalek and Ken Hayworth for
  assisting us with tissue preparation, the ATUM serial sectioning procedure,
  and the WaferMapper software for EM imaging.
- Stefan Saalfeld, Albert Cardona, and Ignacio Arganda-Carreras answered
+ Stephan Saalfeld, Albert Cardona, and Ignacio Arganda-Carreras answered
  questions about the TrakEM2 plugin for FIJI/ImageJ.
  Uygar Sümbül assisted with importing skeletons into MATLAB.
  We thank Jim Hudspeth for sharing reagents and tissue processing protocols,
  Heather Sullivan for tissue processing and optimization, Ashleigh Showler,
  Gurion Marks and Anjin Xianyu for assistance with reconstructions and alignment
-, Melanie Lee for sharing light microscopic images of neurons.
+, and Melanie Lee for sharing light microscopic images of neurons.
  We benefited from helpful discussions with Jim Hudspeth, David Tank and
  Kanaka Rajan.
  KD acknowledges the support of NIH Training grant EY007138-16.
@@ -1601,7 +1602,7 @@ We are grateful to Juan Carlos Tapia, Richard Schalek and Ken Hayworth for
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "ZfishBib"
-options "unsrt"
+options "elsarticle-num"
 
 \end_inset
 
@@ -1691,7 +1692,7 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
 (D) An example EM plane showing anatomical landmarks, Mauthner neuron (black
  star), Mi2 (red stars), Mi3 (blue stars) and Ca (green stars).
  Anatomical locations of all identified integrator neurons (colored circles)
- and all remaining cell bodies in the imaged EM volume ( `
+ and all remaining cell bodies in the imaged EM volume (`
 \begin_inset Formula $\bullet$
 \end_inset
 
@@ -1763,10 +1764,9 @@ Ultrastructural features of Integrator neurons.
 
 Figure3:
 \bar under
- Integrator neurons projection patterns and synaptic distribution.
-
+ Integrator neuron projection patterns and synaptic distribution
 \bar default
- 
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1828,7 +1828,7 @@ Figure3:
 
 Figure4:
 \bar under
- Integrator neurons are synaptically connected.
+ Integrator neurons organization and connectivity.
 \begin_inset Newline newline
 \end_inset
 
@@ -1910,11 +1910,8 @@ key "Brustein:2003ef,Smetters:1999jc"
 \end_inset
 
  decline relative to the dorsal surface.
- Following recovery,
-\change_deleted 78966105 1495121501
- 
-\change_unchanged
- hindbrain of the animal was imaged at 790nm on predefined planes at 1 Hz.
+ Following recovery, hindbrain of the animal was imaged at 790nm on predefined
+ planes at 1 Hz.
  The imaging was performed unilaterally on three pre-defined planes 
 \begin_inset Formula $\sim8\mu m$
 \end_inset
@@ -2062,7 +2059,7 @@ key "Cardona:2012kf"
 
 .
  Briefly, individual images were imported into the TrakEM2 framework and
- montaged using affine and elastic transforms..
+ montaged using affine and elastic transforms.
  The images were then registered in z using a similar approach, where the
  first pass was performed using affine transforms, followed by elastic transform
 s.
@@ -2089,7 +2086,7 @@ key "Cardona:2012kf"
 
 .
  Following this first round of registration, we then identified 7 cells
- at different locations throughout the volume that were easily identfied
+ at different locations throughout the volume that were easily identified
  in both data sets and performed a second round of alignment.
  
 \end_layout
@@ -2099,13 +2096,12 @@ Reconstructions
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 The reconstruction of the identified neurons was performed using the TrakEM2
  plugin in Fiji/ImageJ.
  One expert (AV) traced all neurons and annotated all pre- and postsynaptic
  sites.
  A second expert (EA) identified locations at which the skeletons looked
- unusual (sharp turns orclosely spaced branch points).
+ unusual (sharp turns or closely spaced branch points).
  EA reviewed the images at all of these locations (typically a few per neuron),
  and reached consensus with AV.A few locations were judged ambiguous in the
  sense that image defects made it impossible to interpret the locations
@@ -2123,7 +2119,7 @@ g).
  A third expert tracer (A.V) reviewed all sites where the first two tracers
  differed to provide consensus.
  The final trace included all those neurites where the majority agreed.
- This ensured that each cell was covered by atleast 2 tracers.
+ This ensured that each cell was covered by at least 2 tracers.
  This semi-automated process revealed that the axon of one cell was previously
  under-reconstructed and another dendrite from a different cell was over-reconst
 ructed.
@@ -2134,8 +2130,8 @@ ructed.
 \begin_layout Standard
 Having real-time volume based tracing provides shape based context to tracers.
  This is useful to detect error.
- For example if a neurite is falsely mergerd it is oftern the case that
- its diameter is different as compared to the neurite being reconstructed.
+ For example if a neurite is falsely merged it is often the case that its
+ diameter is different as compared to the neurite being reconstructed.
  Similarly, at locations where the neurites are very thin, we can often
  reconstruct all the neurites abutting the neurite being traced to eliminate
  false positives, 
@@ -2146,8 +2142,8 @@ Since the section thickness was 45nm, neurites that were parallel to the
  cutting plane were sometimes hard to follow during reconstruction.
  This typically leads to problems when tracing very thin neurites (typically
  axons) that can be hard to follow.
- In such instances is it useful to keep track of internal organells and
- other cues such as contrast to eliminate ambigious locations.
+ In such instances is it useful to keep track of internal organelles and
+ other cues such as contrast to eliminate ambiguous locations.
  After such techniques are applied, the end result is that every cell has
  at most one or two truly ambiguous locations.
  The ambiguity might be caused by a thin neurite parallel to the sectioning
@@ -2261,7 +2257,7 @@ key "Ma:2014gb,Daie:2015fd,Lee:2015dv"
 \end_inset
 
  based on transgene expression patterns.
- This line that bisected the locataions of Mi3 and Ca was moved 
+ This line that bisected the locations of Mi3 and Ca was moved 
 \begin_inset Formula $0.37\mu m$
 \end_inset
 
@@ -2273,9 +2269,7 @@ key "Daie:2015fd,Lee:2015dv"
 \end_inset
 
 .
- The resulting line is where we differetiate the border of r6 and r7.
-\change_inserted 78966105 1495486683
-
+ The resulting line is where we differentiate the border of r6 and r7.
 \end_layout
 
 \begin_layout Subsection*
@@ -2292,8 +2286,8 @@ Experimental model and subject details
 \end_layout
 
 \begin_layout Standard
-All zebrafish larve experimental procedures were approved by Weill Cornell
- Medical College's Institutional Animal Care and Use Committe.
+All zebrafish larvae experimental procedures were approved by Weill Cornell
+ Medical College's Institutional Animal Care and Use Committee.
  We used 
 \emph on
 nacre
@@ -2306,7 +2300,7 @@ Data and Software availability
 \end_layout
 
 \begin_layout Standard
-All reconstruced neuron traces will be uploaded to the 
+All reconstructed neuron traces will be uploaded to the 
 \begin_inset Flex URL
 status open
 
@@ -2339,7 +2333,7 @@ Key Resources Table
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="11" columns="3">
+<lyxtabular version="3" rows="10" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -2407,13 +2401,7 @@ Experimental Model
 \begin_inset Text
 
 \begin_layout Plain Layout
-Zebrafish:
-\change_inserted 78966105 1495554525
- 
-\change_inserted 187266875 1495494156
-nacre(nitfa)
-\change_unchanged
-
+Zebrafish: nacre(mitfa)
 \end_layout
 
 \end_inset
@@ -2422,12 +2410,8 @@ nacre(nitfa)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 187266875 1495494186
 Lister et.
  al., 1999
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -2436,11 +2420,7 @@ Lister et.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 78966105 1495554511
 ZIRC (https://zfin.org/ZDB-ALT-010919-2)
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -2480,11 +2460,7 @@ Chemicals
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\change_inserted 78966105 1495554542
 All EM reagents
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -2502,36 +2478,7 @@ EMSdiasum
 \begin_inset Text
 
 \begin_layout Plain Layout
-RT15700
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-OGB1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Invitrogen
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-O-6807
+N/A
 \end_layout
 
 \end_inset
