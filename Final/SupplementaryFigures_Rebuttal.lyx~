@@ -723,12 +723,11 @@ Figure legends:
 \begin_layout Standard
 Figure S1: (A) (Left) Graded levels of persistent activity.
  (Right panels) Spatial distribution of integrator time constants along
- the rostrocaudal, mediolateral and dorsoventral axis respectively.
- 
-\begin_inset Formula $R$
+ the rostrocaudal, mediolateral and dorsoventral axis respectively ( 
+\begin_inset Formula $r$
 \end_inset
 
- values are Pearson coorelation coeffecients.
+ values are Pearson correlation coefficients).
  Colors represent the group that the neurons belong to.
  (Pink - ipsi only, Green - ipsi-contra, Orange - contra only and Blue -
  unknown).
@@ -740,10 +739,10 @@ Figure S1: (A) (Left) Graded levels of persistent activity.
  (Right two) Correlations between number and density of postsynaptic (input)
  sites to integrator time constants.
  
-\begin_inset Formula $R$
+\begin_inset Formula $r$
 \end_inset
 
- values are Pearson coorelation coeffecients.
+ values are Pearson correlation coefficients.
 \begin_inset Newline newline
 \end_inset
 
@@ -753,14 +752,14 @@ Figure S1: (A) (Left) Graded levels of persistent activity.
 \begin_inset Formula $P$
 \end_inset
 
- values reported from Kolmogorov-Smirinov test.
+ values reported from KS test.
 \begin_inset Newline newline
 \end_inset
 
 (D)Two functionally imaged planes with integrator neurons circled in red.
  Black boxes are representative areas where corresponding EM images are
  shown as insets.
- Insets are representative EM locaiton, after registration, with the functionall
+ Insets are representative EM location, after registration, with the functionall
 y identified cells circled in black.
 \begin_inset Newline newline
 \end_inset
