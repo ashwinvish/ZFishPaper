@@ -6,12 +6,15 @@
 \origin unavailable
 \textclass article
 \begin_preamble
-\usepackage{graphicx}
 \usepackage{booktabs}
-\renewcommand{\fnum@figure}{Figure S~\thefigure}
-\renewcommand{\fnum@table}{Table S~\thetable}
-\makeatletter\renewcommand{\@biblabel}[1]{[S\,#1]}\makeatother
+\usepackage{graphicx}
+%\renewcommand{\fnum@figure}{Figure S~\thefigure}
+\renewcommand{\fnum@table}{Table S\thetable}
+%\makeatletter\renewcommand{\@biblabel}[1]{[S\,#1]}\makeatother
 \thispagestyle{empty}
+%\renewcommand{\refname}{Supplemental references}
+\renewcommand{\bibnumfmt}[1]{S#1.}
+\renewcommand{\citenumfont}[1]{S#1}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -108,7 +111,7 @@
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /Users/admin/Documents/ZFishPaper/Figures/VishwanathanEtAlSupFig3.eps
+	filename /Users/admin/Documents/ZFishPaper/Figures/VishwanathanEtAlSupFig3.pdf
 	display false
 	scale 90
 
@@ -129,36 +132,70 @@
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 wide false
-sideways true
+sideways false
 status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+resizebox{
+\backslash
+textwidth}{!}{
+\end_layout
+
+\end_inset
+
+
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="9">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="middle" width="2cm">
-<column alignment="center" valignment="middle" width="1cm">
-<column alignment="center" valignment="middle" width="2.5cm">
-<column alignment="center" valignment="middle" width="2.5cm">
-<column alignment="center" valignment="middle" width="2.5cm">
-<column alignment="center" valignment="middle" width="1.75cm">
-<column alignment="center" valignment="middle" width="1.75cm">
-<column alignment="center" valignment="middle" width="1.75cm">
-<column alignment="center" valignment="middle" width="2.5cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="1cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="1.75cm">
+<column alignment="center" valignment="top" width="1.75cm">
+<column alignment="center" valignment="top" width="1.75cm">
+<column alignment="center" valignment="top" width="2.1cm">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule{}
+\end_layout
+
+\end_inset
+
 Cell group
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -167,7 +204,7 @@ Cell group
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -184,7 +221,7 @@ Average
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -197,7 +234,7 @@ Average axonal length (
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -214,7 +251,7 @@ Average dendritic
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -231,7 +268,7 @@ Convex hull volume
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -248,7 +285,7 @@ Axon diameters
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -265,7 +302,7 @@ Dendrite diameter
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -284,6 +321,18 @@ Axon initiation site (
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule{}
+\end_layout
+
+\end_inset
+
 Ipsi.
  only
 \end_layout
@@ -594,7 +643,7 @@ Contra.
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -603,7 +652,7 @@ unknown
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -612,7 +661,7 @@ unknown
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -624,7 +673,7 @@ unknown
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -633,7 +682,7 @@ NA
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -645,7 +694,7 @@ NA
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -657,7 +706,7 @@ NA
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -666,7 +715,7 @@ NA
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -678,10 +727,24 @@ NA
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tabularnewline
+\backslash
+bottomrule%
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -693,10 +756,27 @@ NA
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
- Anatomical features of integrator neurons
+
+\series bold
+ Anatomical features of integrator neurons, related to figure 3
 \end_layout
 
 \end_inset
@@ -704,24 +784,25 @@ NA
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
 \end_inset
 
 
 \end_layout
 
 \begin_layout Section*
-Figure legends:
+Supplemental figure legends:
 \end_layout
 
 \begin_layout Standard
-Figure S1: (A) (Left) Graded levels of persistent activity.
+
+\series bold
+Figure S1: Integrator neuron properties.
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+(A) (Left) Graded levels of persistent activity.
  (Right panels) Spatial distribution of integrator time constants along
  the rostrocaudal, mediolateral and dorsoventral axis respectively ( 
 \begin_inset Formula $r$
@@ -761,14 +842,22 @@ Figure S1: (A) (Left) Graded levels of persistent activity.
  shown as insets.
  Insets are representative EM location, after registration, with the functionall
 y identified cells circled in black.
-\begin_inset Newline newline
+\series bold
+
+\begin_inset VSpace defskip
 \end_inset
 
 
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-Figure S2:(A) Examples of types of synapses in the imaged volume.
+Figure S2: Ultrastructutal examples of integrator neuron synaptic details.
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+(A) Examples of types of synapses in the imaged volume.
  Closed arrows show conventional synapses and open arrows shows dense core
  vesicles within the same bouton.
 \begin_inset Newline newline
@@ -802,14 +891,22 @@ Figure S2:(A) Examples of types of synapses in the imaged volume.
  The center pixel of each image is in the postsynaptic cell.
  The synapses do not show many flat vesicles and the density tends to extend
  into the presynaptic cell.
+\begin_inset VSpace defskip
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
 
-\end_layout
+\series bold
+Figure S3: Location of abducens neurons.
+\series default
 
-\begin_layout Standard
-Figure S3: (A) Location of abducens nuclei from low-res EM images.
+\begin_inset Newline newline
+\end_inset
+
+(A) Location of abducens nuclei from low-res EM images.
  The frames are ordered from medial to lateral, 
 \begin_inset Formula $10\mu m$
 \end_inset
@@ -839,7 +936,6 @@ Figure S3: (A) Location of abducens nuclei from low-res EM images.
  based on 
 \begin_inset CommandInset citation
 LatexCommand citep
-before "S"
 key "Daie:2015fd,Lee:2015dv"
 
 \end_inset
@@ -858,14 +954,22 @@ key "Daie:2015fd,Lee:2015dv"
 \end_inset
 
 .
-\begin_inset Newline newline
+\series bold
+
+\begin_inset VSpace defskip
 \end_inset
 
 
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-Figure S4:(A) Convex hulls of all neurons color coded by the group.
+Figure S4: Arbor and synaptic properties of integrator neurons.
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+(A) Convex hulls of all neurons color coded by the group.
  Colored circle is location of somata.
  (Pink - ipsi only, Green - ipsi-contra, Orange - contra only and Blue -
  unknown).
@@ -913,10 +1017,29 @@ eral projections.
 \end_inset
 
  Bottom - Box plot with actual overlapping area for neuron pairs from (H).
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+refname{Supplemental references}
+\end_layout
+
+\end_inset
+
+
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "ZfishBib"
-options "unsrt"
+options "cell"
 
 \end_inset
 

@@ -5,10 +5,6 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
-\begin_preamble
-%\usepackage{lineno}
-%\linenumbers
-\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -132,6 +128,16 @@ Kayvon Daie,
  and H.
  Sebastian Seung
 \begin_inset Formula $^{1,2}$
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Corresponding author
+\end_layout
+
 \end_inset
 
 
@@ -316,8 +322,8 @@ key "vanAlphen:2001vc"
 
 , non-human primates 
 \begin_inset CommandInset citation
-LatexCommand citep
-key "Robinson:1989wt,Robinson:1975vm"
+LatexCommand cite
+key "Robinson:1989wt,robinson_oculomotor_1970"
 
 \end_inset
 
@@ -425,11 +431,8 @@ To identify integrator neurons we performed two-photon light microscopy
  (LM) imaging of the caudal hindbrain in a 6 dpf larval zebrafish following
  bolus loading of the calcium sensor Oregon Green BAPTA 1-AM.
  The functional imaging was restricted to one side where the loading was
- best and was performed on three planes that were ~8
-\begin_inset Formula $\mu m$
-\end_inset
-
- apart during spontaneous eye movement.
+ best and was performed on three planes that were ~8μm apart during spontaneous
+ eye movement.
  Calcium signals were correlated with eye position to identify integrator
  somata from the imaged planes (Fig.
  1A) 
@@ -462,28 +465,24 @@ d from a deconvolution of the fluorescence data (Fig.
 \begin_layout Standard
 Following functional identification of integrator neurons, the tissue was
  fixed, stained, sectioned for serial electron microscopy and imaged at
- a final resolution of 
-\begin_inset Formula $5\times5\times45$
-\end_inset
-
- nm (RC, ML, DV).
+ a final resolution of 5x5x45 nm (RC, ML, DV).
  These images were montaged and aligned to create a 3D electron microscopy
  volume (EM) (Fig.
  1B and Methods).
  The resulting EM volume extended ventrally from the Mauthner cell axon
  plane by 
-\begin_inset Formula $\sim60\mu m$
+\begin_inset Formula $\sim60$
 \end_inset
 
-, caudally from the border of rhombomere 5/6 by 
-\begin_inset Formula $\sim200\mu m$
+μm, caudally from the border of rhombomere 5/6 by 
+\begin_inset Formula $\sim200$
 \end_inset
 
- and laterally from the midline by 
-\begin_inset Formula $\sim100\mu m$
+μm and laterally from the midline by 
+\begin_inset Formula $\sim100$
 \end_inset
 
-.
+μm.
  The LM and EM volumes were registered to each other by an affine transform,
  producing correspondence of labeled neurons and blood vessels (Fig.
  1C, Fig.
@@ -634,7 +633,7 @@ Somata
 
 \begin_layout Standard
 The somatic locations of the 22 integrator neurons were distributed over
- ~23 µm in the dorsoventral axis and along the entire rostrocaudal extent
+ ~23μm in the dorsoventral axis and along the entire rostrocaudal extent
  of the imaged volume.
  The somata of integrator neurons associated with S1 were located very close
  to the midline and close the rostral edge of the imaged volume, close to
@@ -645,10 +644,10 @@ The somatic locations of the 22 integrator neurons were distributed over
  volume in rhombomere 8.
  The diameters of the integrator neurons were normally distributed, with
  a mean of 
-\begin_inset Formula $4.5\pm0.6\mu m$
+\begin_inset Formula $4.5\pm0.6$
 \end_inset
 
- (mean ± standard deviation).
+μm (mean ± standard deviation).
  In general, the size of the somata was proportional to the persistence
  level of the neurons, with larger neurons exhibiting higher degree of persisten
 ce (Fig.
@@ -909,10 +908,10 @@ key "GuemezGamboa:2014fp"
 
 .
  The average cilium was typically 
-\begin_inset Formula $\sim4\mu m$
+\begin_inset Formula $\sim4$
 \end_inset
 
- , is enriched with microtubules, and emerges from the neuron somata very
+μm , is enriched with microtubules, and emerges from the neuron somata very
  close to the Golgi complex.
  In some cases, this primary cilium terminated inside processes that appeared
  glial (Sup.
@@ -967,14 +966,14 @@ en passant
  The axons were oriented along the rostro-caudal (RC) axis with the rostral
  end more ventral as compared to the caudal end.
  The average length of axons was 
-\begin_inset Formula $\sim260\mu m$
+\begin_inset Formula $\sim260$
 \end_inset
 
- (see also, Table S1) with the longest reconstructed axon being 
-\begin_inset Formula $463\mu m$
+μm (see also, Table S1) with the longest reconstructed axon being 
+\begin_inset Formula $463$
 \end_inset
 
-.
+μm.
  Axons at the rostral extreme of the volume appeared to overlap with the
  expected location of the abducens motor nucleus (based on its known position
  within rhombomere r5, 6 Fig.
@@ -985,10 +984,10 @@ en passant
  None of the axons were observed emerging directly from the somata.
  Instead, dendrites bearing postsynaptic sites turned into axons with presynapti
 c sites, with the axon initiation site was on average located 
-\begin_inset Formula $\sim99\mu m$
+\begin_inset Formula $\sim99$
 \end_inset
 
- from the somata.
+μm from the somata.
  Finally, all but one of the somatas were located medial to stripe S1.
  
 \end_layout
@@ -1004,11 +1003,16 @@ Neurons in this group had large dendritic arbors, with the dendrites arborizing
  only, arrowheads).
  The average diameter of dendrites was significantly larger as compared
  to the diameter of the axons (Fig.
- 3F, 
-\begin_inset Formula $p<2\times10^{-3}$
+ 3F, p < 2x10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-3
+\end_layout
+
 \end_inset
 
-, 
+ , 
 \begin_inset Formula $t$
 \end_inset
 
@@ -1040,10 +1044,10 @@ contra-only
  However, unlike the ipsi-only group, the axon initiation site was much
  closer to the somata.
  On average, the axon initiation site was located 
-\begin_inset Formula $\sim22\mu m$
+\begin_inset Formula $\sim22$
 \end_inset
 
- from the somata, which is significantly shorter than the axon initiation
+μm from the somata, which is significantly shorter than the axon initiation
  site for the ipsi-only group (
 \begin_inset Formula $p<0.0003,$
 \end_inset
@@ -1058,10 +1062,10 @@ t
 
 \begin_layout Standard
 The average dendritic length was 
-\begin_inset Formula $\sim290µm$
+\begin_inset Formula $\sim290$
 \end_inset
 
- (see also, Table S1), and the dendritic arbors of these neurons arborized
+μm (see also, Table S1), and the dendritic arbors of these neurons arborized
  over 8% of the total volume (Fig.
  S4 A, B, C).
  This was significantly smaller than the dendritic arbors of ipsi-only group
@@ -1076,8 +1080,13 @@ t
 -test).
  The average diameter of dendrites significantly larger than the diameter
  of the axons (Fig.
- 3F, 
-\begin_inset Formula $p<2\times10^{-6}$
+ 3F, p < 2x10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-6
+\end_layout
+
 \end_inset
 
 , 
@@ -1122,11 +1131,11 @@ unknown
  in the imaged volume and neurites of these neurons exit the volume before
  the axon was located.
  The average length of the dendrites for neurons from this group was 
-\begin_inset Formula $\sim220\mu m$
+\begin_inset Formula $\sim220$
 \end_inset
 
- (see also, Table S1), and they occupied on average ~4.9% of the total volume
- (Fig.
+μm (see also, Table S1), and they occupied on average ~4.9% of the total
+ volume (Fig.
  S4 A, B, C).
  
 \end_layout
@@ -1191,12 +1200,22 @@ Neurons from these three groups had on average,
  the distribution of the postsynaptic sites along the dendrites among the
  Ipsi-only group was significantly different compared to the the contra-only
  and the unknown groups respectively (Fig.
- 3D, 
-\begin_inset Formula $p=7.2\times10^{-13}$
+ 3D, p = 7.2x10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-13
+\end_layout
+
 \end_inset
 
-, 
-\begin_inset Formula $p=1.2\times10^{-10}$
+, p = 1.2x10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-10
+\end_layout
+
 \end_inset
 
  KS test).
@@ -1232,18 +1251,18 @@ We further computed the synaptic density, the number of synapses per unit
  Wilcoxon-rank test).
  Empirically the average intersynaptic distance for the ipsi-only, contra-only
  and unknown groups of neurons are 
-\begin_inset Formula $1\pm2.3\mu m$
+\begin_inset Formula $1\pm2.3$
 \end_inset
 
- and 
-\begin_inset Formula $1.2\pm1.6\mu m$
+μm and 
+\begin_inset Formula $1.2\pm1.6$
 \end_inset
 
- and 
-\begin_inset Formula $2.6\pm4.5\mu m$
+μm and 
+\begin_inset Formula $2.6\pm4.5$
 \end_inset
 
- with significantly different medians (Fig.
+μm with significantly different medians (Fig.
  3E, 
 \begin_inset Formula $p=1.2\times10^{-10}$
 \end_inset
@@ -1287,16 +1306,16 @@ The dendritic arbors and postsynaptic sites of neurons in these two groups
  displayed an inversion in the stratification depths.
  The dendritic arbors of the ipsi-only neurons on average were most abundant
  at 
-\begin_inset Formula $41.66\pm9.3\mu m$
+\begin_inset Formula $41.66\pm9.3$
 \end_inset
 
- ventral to its somata (Fig.
+μm ventral to its somata (Fig.
  4B, top - pink line).
  Whereas the contra-only group was maximal around 
-\begin_inset Formula $21.1\pm6.9\mu m$
+\begin_inset Formula $21.1\pm6.9$
 \end_inset
 
- ventral to its somata (Fig.
+μm ventral to its somata (Fig.
  4B, bottom - orange line).
  The number of postsynaptic sites closely followed this inversion.
  Although relative to the bottom of the cranium, because many of the contra-only
@@ -1602,7 +1621,7 @@ We are grateful to Juan Carlos Tapia, Richard Schalek and Ken Hayworth for
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "ZfishBib"
-options "elsarticle-num"
+options "currbio"
 
 \end_inset
 
@@ -1621,12 +1640,12 @@ Figure legends
 \end_layout
 
 \begin_layout Standard
-Figure1: 
-\bar under
-Functional and structural imaging of integrator neurons.
 
-\bar default
+\series bold
+Figure1: Functional and structural imaging of integrator neurons.
  
+\series default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1640,10 +1659,10 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
  Identified integrator neurons are show in colored circles.
  Colors reflect the level of persistence of the neuron.
  Scale bar = 
-\begin_inset Formula $20\mu m$
+\begin_inset Formula $20$
 \end_inset
 
-
+μm
 \begin_inset Newline newline
 \end_inset
 
@@ -1682,10 +1701,10 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
  is used to locate the neurons that were involved in the behavior.
  Red arrows indicate the same features in both LM and EM.
  Scale bar = 
-\begin_inset Formula $20\mu m$
+\begin_inset Formula $20$
 \end_inset
 
- 
+μm 
 \begin_inset Newline newline
 \end_inset
 
@@ -1709,12 +1728,12 @@ Bottom - A single imaging plane showing neurons loaded with calcium indicator
 \begin_inset Newline newline
 \end_inset
 
-Figure2: 
-\bar under
-Ultrastructural features of Integrator neurons.
 
-\bar default
+\series bold
+Figure2: Ultrastructural features of Integrator neurons.
  
+\series default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1762,10 +1781,10 @@ Ultrastructural features of Integrator neurons.
 \begin_inset Newline newline
 \end_inset
 
-Figure3:
-\bar under
- Integrator neuron projection patterns and synaptic distribution
-\bar default
+
+\series bold
+Figure3: Integrator neuron projection patterns and synaptic distribution.
+\series default
 
 \begin_inset Newline newline
 \end_inset
@@ -1826,9 +1845,12 @@ Figure3:
 \begin_inset Newline newline
 \end_inset
 
-Figure4:
+
+\series bold
+Figure4: Integrator neurons organization and connectivity.
+\series default
 \bar under
- Integrator neurons organization and connectivity.
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1873,6 +1895,29 @@ Figure4:
 
 \begin_layout Section*
 Star Methods Text
+\end_layout
+
+\begin_layout Subsection*
+Contact for reagent and resource sharing
+\end_layout
+
+\begin_layout Standard
+For further information regarding the any resources and reagents please
+ contact ashwinv@princeton.edu, sseung@princeton.edu
+\end_layout
+
+\begin_layout Subsection*
+Experimental model and subject details
+\end_layout
+
+\begin_layout Standard
+All zebrafish larvae experimental procedures were approved by Weill Cornell
+ Medical College's Institutional Animal Care and Use Committee.
+ We used 
+\emph on
+nacre
+\emph default
+ mutant zebrafish larva, 6 days of age for all experiments.
 \end_layout
 
 \begin_layout Subsection*
@@ -2274,29 +2319,6 @@ key "Daie:2015fd,Lee:2015dv"
 \end_layout
 
 \begin_layout Subsection*
-Contact for reagent and resource sharing
-\end_layout
-
-\begin_layout Standard
-For further information regarding the any resources and reagents please
- contact ashwinv@princeton.edu
-\end_layout
-
-\begin_layout Subsection*
-Experimental model and subject details
-\end_layout
-
-\begin_layout Standard
-All zebrafish larvae experimental procedures were approved by Weill Cornell
- Medical College's Institutional Animal Care and Use Committee.
- We used 
-\emph on
-nacre
-\emph default
- mutant zebrafish larva, 6 days of age for all experiments.
-\end_layout
-
-\begin_layout Subsection*
 Data and Software availability
 \end_layout
 
@@ -2411,8 +2433,13 @@ Zebrafish: nacre(mitfa)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Lister et.
- al., 1999
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lister:1999tw"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2528,8 +2555,13 @@ Importing *.swc files
 \begin_inset Text
 
 \begin_layout Plain Layout
-Sumbul et.
- al., 2014
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sumbul:2014hs"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2558,7 +2590,13 @@ TrakEM2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Cardona, A et.al .,2012
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cardona:2012kf"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2587,8 +2625,13 @@ Integrator firing rates
 \begin_inset Text
 
 \begin_layout Plain Layout
-Miri et.
- al., 2011
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Miri:2011ft"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2617,8 +2660,13 @@ WaferMapper
 \begin_inset Text
 
 \begin_layout Plain Layout
-Hayworth et.
- al., 2014
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hayworth_imaging_2014"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
