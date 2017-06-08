@@ -5,6 +5,11 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\makeatletter\renewcommand{\@biblabel}[1]{#1.}\makeatother
+%\renewcommand{\bibnumfmt}[1]{#1.}
+%\renewcommand{\citenumfont}[1]{#1}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -1397,8 +1402,8 @@ Of the 22 integrator neurons, six had exclusively ipsilaterally projecting
  S1, which is thought to contain mostly excitatory, glutamatergic neurons
  
 \begin_inset CommandInset citation
-LatexCommand citep
-key "Lee:2015dva"
+LatexCommand cite
+key "Lee:2015dv"
 
 \end_inset
 
@@ -1437,8 +1442,8 @@ rally projecting neurons.
  the intermediate somal stripe S2, a grouping composed largely of GABAergic
  neurons at the dorso-ventral depth investigated here 
 \begin_inset CommandInset citation
-LatexCommand citep
-key "Lee:2015dva"
+LatexCommand cite
+key "Lee:2015dv"
 
 \end_inset
 
@@ -1466,7 +1471,7 @@ key "Aksay:2007cv,debowy_encoding_2011"
  shows projections that terminate in the dendritic field of the opposing
  population of inhibitory integrator neurons 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand cite
 key "Lee:2015dv"
 
 \end_inset

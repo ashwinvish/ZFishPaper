@@ -5,6 +5,11 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\makeatletter\renewcommand{\@biblabel}[1]{#1.}\makeatother
+%\renewcommand{\bibnumfmt}[1]{#1.}
+%\renewcommand{\citenumfont}[1]{#1}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -1187,11 +1192,7 @@ Neurons from these three groups had on average,
 \uwave default
 \noun default
 \color inherit
- and 
-\begin_inset Formula $40$
-\end_inset
-
- postsynaptic (inputs) sites on their dendrites respectively (Fig.
+ and 40 postsynaptic (inputs) sites on their dendrites respectively (Fig.
  3B, red).
  The axons from the ipsi-only groups had approximately 58 presynaptic (output)
  sites (Fig.
@@ -1263,19 +1264,34 @@ We further computed the synaptic density, the number of synapses per unit
 \end_inset
 
 μm with significantly different medians (Fig.
- 3E, 
-\begin_inset Formula $p=1.2\times10^{-10}$
+ 3E, p = 1.2x10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-10
+\end_layout
+
 \end_inset
 
- , 
-\begin_inset Formula $p=1.1\times10^{-18}$
+, p = 1.1x10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-18
+\end_layout
+
 \end_inset
 
- , 
-\begin_inset Formula $p=5.2\times10^{-10}$
+, p = 5.2x10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-10
+\end_layout
+
 \end_inset
 
- Wilcoxon-rank test).
+, Wilcoxon-rank test).
  
 \end_layout
 

@@ -146,19 +146,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
- Anatomical features of integrator neurons
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
 \begin_inset ERT
 status open
 
@@ -782,6 +769,21 @@ status open
 
 \end_layout
 
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+ Anatomical features of integrator neurons, related to figure 3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -794,9 +796,9 @@ Supplemental figure legends:
 \begin_layout Standard
 
 \series bold
-Figure S1: Integrator neuron properties.
+Figure S1: Integrator neuron properties, related to figure 1
 \series default
-
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -849,7 +851,8 @@ y identified cells circled in black.
 \begin_inset Newline newline
 \end_inset
 
-Figure S2: Ultrastructutal examples of integrator neuron synaptic details.
+Figure S2: Ultrastructutal examples of integrator neuron synaptic details,
+ related to figure 2.
 \series default
 
 \begin_inset Newline newline
@@ -898,9 +901,9 @@ Figure S2: Ultrastructutal examples of integrator neuron synaptic details.
 
 
 \series bold
-Figure S3: Location of abducens neurons.
+Figure S3: Location of abducens neurons, related to figure 3
 \series default
-
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -961,9 +964,10 @@ key "Daie:2015fd,Lee:2015dv"
 \begin_inset Newline newline
 \end_inset
 
-Figure S4: Arbor and synaptic properties of integrator neurons.
+Figure S4: Arbor and synaptic properties of integrator neurons, related
+ to figure 4
 \series default
-
+.
 \begin_inset Newline newline
 \end_inset
 
